@@ -5,7 +5,6 @@ export const metadata: Metadata = {
   title: "Tree Yoga School",
   description:
     "Rooted in nature. Practiced in the real world. A living school for yoga, meditation, and learning with trees.",
-  metadataBase: new URL("https://treeyogaschool.com"),
   openGraph: {
     title: "Tree Yoga School",
     description:
