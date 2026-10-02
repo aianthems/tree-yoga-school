@@ -8,7 +8,7 @@ Tree Yoga School is a yoga school founded by **Alex Julian**, now being renewed 
 
 [Read the original book][book] · [Explore the curriculum](#the-original-curriculum) · [Build with us](#contributing)
 
-**Project status:** Foundation stage. The book exists; the digital school is being built. This repository does not yet contain a runnable website or an AI teaching assistant.
+**Project status:** Website foundation stage. The original book now has a runnable Next.js public-site foundation in this repository. The school is still early: there is no account system, database, certification platform, or AI teaching assistant.
 
 ## What is Tree Yoga?
 
@@ -107,15 +107,15 @@ The measure is not a contribution streak. It is whether the work helps someone p
 
 ## What exists, and what comes next
 
-The repository currently contains `README.md`, `.gitignore`, and `LICENSE`. The original book is linked above rather than copied into the repository. There is no application, dependency manifest, database, or installation command yet.
+The repository now contains the first Next.js website foundation alongside the project documentation. The original book is linked above rather than copied into the repository. The first release is intentionally content-led: there is no database, account system, or AI API requirement.
 
 The intended sequence is deliberately small:
 
 | Stage | Focus |
 | --- | --- |
-| **Foundation — now** | Establish the school’s identity, source material, scope, and contribution approach. |
+| **Foundation — complete** | Establish the school’s identity, source material, scope, and contribution approach. |
+| **Website foundation — now** | Launch the calm, accessible Next.js home for the school and connect it to its production domain. |
 | **First lessons — next** | Develop a small, reviewed collection of introductory practices, with source references and clear adaptations. |
-| **Minimal website — planned** | Present the material in a calm, accessible website. Next.js with Markdown/MDX content and Vercel hosting is the proposed direction, not an implemented stack. |
 | **Further tools — only when useful** | Consider guided learning or optional personal features after the core experience works. Accounts, Supabase, and AI APIs are not prerequisites for the first version. |
 
 This README establishes the foundation. It does not announce a completed course platform, live classes, or a certification program.
