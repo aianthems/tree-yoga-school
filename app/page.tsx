@@ -1,3 +1,5 @@
+import SiteHeader from "./components/site-header";
+
 const bookUrl =
   "https://media.aianthems.com/books/tree-yoga-school/tree-yoga-school-ebook.pdf";
 
@@ -44,20 +46,10 @@ const chapters = [
 
 export default function Home() {
   return (
-    <main>
-      <header className="site-header">
-        <a className="brand" href="#top" aria-label="Tree Yoga School home">
-          <span className="brand-mark" aria-hidden="true">⌁</span>
-          <span>Tree Yoga School</span>
-        </a>
-        <nav aria-label="Primary navigation">
-          <a href="#practice">Practice</a>
-          <a href="#curriculum">Curriculum</a>
-          <a href="#principles">Principles</a>
-          <a href={bookUrl} target="_blank" rel="noreferrer">Book</a>
-        </nav>
-      </header>
+    <>
+      <SiteHeader />
 
+      <main id="content">
       <section className="hero" id="top">
         <div className="hero-copy">
           <p className="eyebrow">A living school rooted in nature</p>
@@ -67,7 +59,7 @@ export default function Home() {
             sustained attention to the living world.
           </p>
           <div className="hero-actions">
-            <a className="button primary" href="#begin">Begin with a tree</a>
+            <a className="button primary" href="/lessons/first-five-minutes">Begin with a tree</a>
             <a className="button secondary" href={bookUrl} target="_blank" rel="noreferrer">
               Read the original book ↗
             </a>
@@ -130,6 +122,7 @@ export default function Home() {
               Five quiet minutes count. You do not need special equipment,
               advanced poses, or a particular feeling to begin.
             </p>
+            <a className="button light" href="/lessons/first-five-minutes">Your first five minutes →</a>
           </div>
         </div>
       </section>
@@ -206,10 +199,11 @@ export default function Home() {
         </div>
       </section>
 
+      </main>
       <footer>
         <p>Founded by Alex Julian · Rooted in the original Tree Yoga School.</p>
         <p>© 2026 Tree Yoga School</p>
       </footer>
-    </main>
+    </>
   );
 }
