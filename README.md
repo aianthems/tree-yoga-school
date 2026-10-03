@@ -115,7 +115,7 @@ The intended sequence is deliberately small:
 | --- | --- |
 | **Foundation — complete** | Establish the school’s identity, source material, scope, and contribution approach. |
 | **Website foundation — now** | Launch the calm, accessible Next.js home for the school and connect it to its production domain. |
-| **First lessons — next** | Develop a small, reviewed collection of introductory practices, with source references and clear adaptations. |
+| **First lesson — available in source** | [Your First Five Minutes with a Tree](app/lessons/first-five-minutes/page.tsx) introduces observation with seated and standing options, book references, and clearly identified adaptations. Further lessons follow this format. |
 | **Further tools — only when useful** | Consider guided learning or optional personal features after the core experience works. Accounts, Supabase, and AI APIs are not prerequisites for the first version. |
 
 This README establishes the foundation. It does not announce a completed course platform, live classes, or a certification program.
