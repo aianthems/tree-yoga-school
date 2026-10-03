@@ -164,3 +164,9 @@ The linked *Tree Yoga School* book carries its own notice: **copyright © 2023 T
 [principles]: https://media.aianthems.com/books/tree-yoga-school/tree-yoga-school-ebook.pdf#page=102
 [issues]: https://github.com/aianthems/tree-yoga-school/issues
 [yoga-safety]: https://www.nccih.nih.gov/health/tips/things-you-should-know-about-yoga
+
+## Begin Here course
+
+The `/begin-here` page connects the first five-minute practice to three introductory pathways: Meditation with a Tree, Gentle Yoga with a Tree, and Tree Yoga Hiking. Lessons use a shared structure: purpose, preparation, accessible options, practice, a screen-away stopping point, reflection, and book references. The new sequences are identified as adaptations developed with AI assistance.
+
+Lesson content lives in `lib/intro-lessons.ts`; the shared lesson route is `app/lessons/[slug]/page.tsx`. Only the three authored slugs are generated. The original first lesson keeps its existing URL.

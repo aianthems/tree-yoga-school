@@ -8,7 +8,7 @@ export default function SiteHeader() {
           <span>Tree Yoga School</span>
         </a>
         <nav aria-label="Primary navigation">
-          <a href="/lessons/first-five-minutes">First lesson</a>
+          <a href="/begin-here">Begin Here</a>
           <a href="/#practice">Practice</a>
           <a href="/#curriculum">Curriculum</a>
           <a href="/#principles">Principles</a>

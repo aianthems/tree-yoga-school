@@ -70,7 +70,7 @@ export default function FirstLesson() {
             <li><a href={`${book}#page=97`} target="_blank" rel="noreferrer">Chapter 5, “Chair Meditation,” printed p. 92 ↗</a>: seated practice, adapted here for comfortable natural breathing and usual supports.</li>
           </ul>
           <p className="lesson-note">This observation lesson makes no medical or healing claims. Leave bark, roots, wildlife, and habitat undisturbed.</p>
-          <a className="button secondary" href="/#practice">Explore the three pathways →</a>
+          <div className="course-actions"><a className="button secondary" href="/begin-here">Explore the Begin Here course →</a><a className="button primary" href="/lessons/meditation-with-a-tree">Next: Meditation with a Tree →</a></div>
         </section>
       </main>
       <footer><p>Founded by Alex Julian · Rooted in the original Tree Yoga School.</p><p>© 2026 Tree Yoga School</p></footer>
