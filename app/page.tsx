@@ -7,16 +7,19 @@ const pathways = [
   {
     number: "01",
     title: "Yoga with a tree",
+    href: "/lessons/gentle-yoga-with-a-tree",
     text: "Bring movement, balance, breath, and stillness into relationship with a living tree. The tree is not scenery; it becomes part of the practice.",
   },
   {
     number: "02",
     title: "Meditation with a tree",
+    href: "/lessons/meditation-with-a-tree",
     text: "Sit, stand, or rest nearby. Notice breath, bark, canopy, light, sound, weather, and the simple fact of being present.",
   },
   {
     number: "03",
     title: "Tree Yoga Hiking",
+    href: "/lessons/tree-yoga-hiking",
     text: "Turn a walk into practice. Pause. Observe. Become acquainted with the place instead of passing through it.",
   },
 ];
@@ -59,7 +62,7 @@ export default function Home() {
             sustained attention to the living world.
           </p>
           <div className="hero-actions">
-            <a className="button primary" href="/lessons/first-five-minutes">Begin with a tree</a>
+            <a className="button primary" href="/begin-here">Begin with a tree</a>
             <a className="button secondary" href={bookUrl} target="_blank" rel="noreferrer">
               Read the original book ↗
             </a>
@@ -101,6 +104,7 @@ export default function Home() {
               <span>{pathway.number}</span>
               <h3>{pathway.title}</h3>
               <p>{pathway.text}</p>
+              <a className="course-link" href={pathway.href}>Explore this practice →<span className="sr-only"> {pathway.title}</span></a>
             </article>
           ))}
         </div>
