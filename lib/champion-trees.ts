@@ -1,15 +1,25 @@
-export type ChampionState = "MA" | "NH" | "VT" | "ME" | "RI" | "CT";
+export type ChampionState = "MA" | "NH" | "VT" | "ME" | "RI" | "CT" | "NY";
 export type ChampionTree = {
-  sourcePage?: number;
+  sourcePage?: number; mapPrecision?: "county"; sourceCounty?: string; crownPoints?: number;
   id: string; state: ChampionState; publicAccess?: boolean; visibleFromPublic?: string | null; accessDetails?: string | null; publicCoordinates?: { lat: number; lng: number } | null; yearListed?: string | null; mapTown?: string; nominated?: string; status?: string; nationalFlag?: string; sourceUrl?: string; sourceRow: number; scientificName: string; commonName: string;
   location: string | null; town: string; county: string; measured: string | null;
   circumference: number | null; height: number | null; crown: number | null;
   points: number | null; notes: string | null;
 };
-export const stateNames = { MA: "Massachusetts", NH: "New Hampshire", VT: "Vermont", ME: "Maine", RI: "Rhode Island", CT: "Connecticut" };
-export function townKey(tree: Pick<ChampionTree, "state" | "town" | "mapTown">) {
-  return `${tree.state}:${tree.mapTown || tree.town}`;
+export const stateNames = { MA: "Massachusetts", NH: "New Hampshire", VT: "Vermont", ME: "Maine", RI: "Rhode Island", CT: "Connecticut", NY: "New York" };
+export function townKey(tree: Pick<ChampionTree, "state" | "town" | "mapTown" | "county" | "mapPrecision">) {
+  return `${tree.state}:${tree.mapPrecision === "county" ? `county:${tree.county}` : tree.mapTown || tree.town}`;
 }
+export function placeName(tree: Pick<ChampionTree, "mapPrecision" | "county" | "mapTown" | "town">) {
+  return tree.mapPrecision === "county" ? `${tree.county} County` : tree.mapTown || tree.town;
+}
+export const nyChampionSource = {
+  edition: "January 31, 2025", retrieved: "October 6, 2026",
+  programUrl: "https://dec.ny.gov/nature/animals-fish-plants/plants/big-tree-register",
+  registerUrl: "https://dec.ny.gov/sites/default/files/2025-01/champsscientificname.pdf",
+  commonUrl: "https://dec.ny.gov/sites/default/files/2024-01/champscommonname.pdf",
+  geographyUrl: "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_counties_national.zip",
+};
 export const ctChampionSource = {
   retrieved: "October 6, 2026",
   programUrl: "https://oak.conncoll.edu/notabletrees/",
@@ -77,8 +87,8 @@ export function sourceWarnings(tree: ChampionTree): string[] {
   if (tree.scientificName === "Salix nigra" && tree.commonName === "Walnut, Black") {
     warnings.push("The source calls this tree ‘Walnut, Black’ but gives Salix nigra, the scientific name for black willow. Both names are preserved here; identification needs confirmation from DCR.");
   }
-  if (tree.circumference !== null && tree.height !== null && tree.crown !== null && tree.points !== null) {
-    const calculated = tree.circumference + tree.height + tree.crown / 4;
+  if (tree.circumference !== null && tree.height !== null && (tree.crown !== null || tree.crownPoints !== undefined) && tree.points !== null) {
+    const calculated = tree.circumference + tree.height + (tree.crownPoints ?? (tree.crown! / 4));
     if (Math.abs(calculated - tree.points) > 1) warnings.push("The published points differ by more than one point from the total calculated using the listed measurements. The original score is shown unchanged.");
   }
   return warnings;
@@ -87,7 +97,7 @@ export function formatMeasurement(value: number | null) {
   return value === null ? "Not listed" : new Intl.NumberFormat("en-US", { maximumFractionDigits: 5 }).format(value);
 }
 
-export const sourceDates: Record<ChampionState, string> = { MA: "May 2026 edition", NH: "Retrieved October 6, 2026 · edition not stated", VT: "Retrieved October 6, 2026 · edition not stated", ME: "2020 edition · retrieved October 6, 2026", RI: "March 24, 2026 edition", CT: "Retrieved October 6, 2026 · edition not stated" };
+export const sourceDates: Record<ChampionState, string> = { MA: "May 2026 edition", NH: "Retrieved October 6, 2026 · edition not stated", VT: "Retrieved October 6, 2026 · edition not stated", ME: "2020 edition · retrieved October 6, 2026", RI: "March 24, 2026 edition", CT: "Retrieved October 6, 2026 · edition not stated", NY: "January 31, 2025 edition" };
 export type ChampionManifest = { state: ChampionState; name: string; listed: number; mapped: number }[];
 export type ChampionPayload = { trees: ChampionTree[]; coordinates: Record<string, { lat: number; lng: number }> };
 export const championRegions = { "new-england": { name: "New England", states: ["MA", "NH", "VT", "ME", "RI", "CT"] }, northeast: { name: "Northeast", states: ["MA", "NH", "VT", "ME", "RI", "CT", "NY", "NJ", "PA"] } };
