@@ -181,3 +181,11 @@ Lesson content lives in `lib/intro-lessons.ts`; the shared lesson route is `app/
 Tree records live in `lib/trees.ts`; chapter records live in `lib/book-chapters.ts`. Both route families generate only authored slugs and return 404 for unknown entries. Add a tree record and any licensed assets to grow the library; keep botanical information sourced and distinguish new interpretation from original teaching or cultural tradition. Photo attribution and licenses are recorded in `public/images/trees/ATTRIBUTION.md` and on the Pine page.
 
 The Tree Library includes Pine, Oak, Birch, Maple, Willow, Beech, Hemlock, Cedar, Aspen, and Spruce. Each entry in `lib/trees.ts` supplies species details, licensed imagery, energy reflections, a distinct practice, and book connections to the shared static page template.
+
+## Massachusetts Champion Map
+
+`/champion-trees` explores all 139 rows of the supplied May 2026 DCR workbook across 61 municipalities. Leaflet is loaded in a client effect; normal browser requests load OpenStreetMap tiles with attribution. Records and approximate MassGIS town centroids are bundled locally, so no geocoding service or API key is needed. All markers represent towns, never precise tree positions. The complete searchable list works independently of map loading.
+
+The original workbook is downloadable under `public/data`. Source values are preserved, including duplicate names, missing dates, zero crown measurements, spelling, and discrepant points. Detail cards flag point differences greater than one point and the Salix nigra/Black walnut name mismatch. Published locations do not imply public access.
+
+To regenerate records, install Python `openpyxl` and run `python scripts/import-champion-trees.py path/to/workbook.xlsx`. The importer validates columns and the expected edition count before writing. Review schema and counts for any future edition. Coordinates were retrieved October 6, 2026 using `returnCentroid=true`, `outSR=4326` from the MassGIS Massachusetts Municipalities FeatureServer layer 1 (https://services1.arcgis.com/hGdibHYSPO59RG1h/arcgis/rest/services/Massachusetts_Municipalities/FeatureServer/1). Manchester is mapped to Manchester-by-the-Sea; no address geocoding is performed.

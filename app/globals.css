@@ -729,3 +729,84 @@ section[id] { scroll-margin-top: 90px; }
 .tree-neighbors .section-kicker { flex-basis: 100%; }
 .tree-neighbors { margin-top: 3rem; }
 .tree-feature { scroll-margin-top: 2rem; }
+
+/* Massachusetts champion-tree field atlas. */
+.champion-page { max-width: 1600px; margin: auto; }
+.champion-intro { padding: clamp(2rem,5vw,5rem) clamp(1.25rem,5vw,5rem) 2rem; background: var(--cream); }
+.champion-intro .lesson-back { display: inline-block; margin-bottom: 2rem; }
+.champion-intro h1 { font-size: clamp(3.1rem,6.8vw,6.6rem); line-height: 1.02; max-width: 14ch; }
+.champion-intro .lesson-lede { max-width: 68ch; }
+.champion-stats { display: flex; flex-wrap: wrap; gap: 1.5rem 3rem; margin-top: 2.5rem; border-top: 1px solid var(--line); padding-top: 1.5rem; }
+.champion-stats span { display: flex; gap: 0.65rem; align-items: baseline; font-size: 0.9rem; }
+.champion-stats strong { font-family: Georgia,serif; font-size: 2rem; font-weight: 400; }
+.champion-explorer { padding: 2.5rem clamp(1.25rem,5vw,5rem); }
+.champion-toolbar { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 1rem; }
+.champion-toolbar label, .champion-results-header label { display: flex; flex-direction: column; gap: 0.5rem; font-size: 0.85rem; font-weight: 700; min-width: 0; }
+.champion-toolbar input, .champion-toolbar select, .champion-results-header select { background: var(--paper); color: var(--ink); border: 1px solid var(--line); border-radius: 0; min-height: 48px; width: 100%; padding: 0.65rem 0.75rem; font: inherit; font-weight: 400; }
+.champion-filter-bar { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem 1.5rem; padding: 1rem 0; }
+.champion-check { display: inline-flex; align-items: center; min-height: 44px; gap: 0.65rem; font-size: 0.9rem; }
+.champion-check input { width: 19px; height: 19px; accent-color: var(--ink); }
+.champion-text-button { background: none; border: 0; font: inherit; font-size: 0.85rem; color: var(--ink); text-decoration: underline; text-underline-offset: 4px; cursor: pointer; display: inline-flex; align-items: center; min-height: 44px; padding: 0.25rem 0; }
+.champion-map-note { padding: 1rem 1.25rem; background: var(--cream); font-size: 0.9rem; line-height: 1.65; margin: 0 0 1.5rem; border-left: 3px solid var(--ink); }
+.champion-map-note span { margin-right: 0.5rem; }
+.champion-workspace { display: grid; grid-template-columns: minmax(0,1.6fr) minmax(300px,1fr); gap: 1.5rem; align-items: start; }
+.champion-map-column { min-width: 0; }
+.champion-map-wrap { position: relative; isolation: isolate; background: #e1e8df; border: 1px solid var(--line); }
+.champion-map { height: 540px; width: 100%; z-index: 0; background: #e1e8df; font-family: inherit; }
+.champion-map-status { position: absolute; top: 40%; left: 10%; right: 10%; padding: 1.25rem; background: var(--paper); text-align: center; line-height: 1.6; }
+.champion-tile-error { position: absolute; bottom: 3rem; left: 1rem; right: 1rem; background: var(--paper); padding: 0.8rem; font-size: 0.85rem; }
+.champion-marker { background: transparent; border: 0; }
+.champion-marker span { display: flex; width: 36px; height: 36px; align-items: center; justify-content: center; border: 2px solid #fff; border-radius: 50%; background: #193e30; color: #fff; font: 700 13px/1 system-ui,sans-serif; box-shadow: 0 2px 8px #163b3050; }
+.champion-marker:hover span, .champion-marker:focus-visible span { background: #a96f23; }
+.champion-map .leaflet-control-attribution { font-size: 11px; background: #ffffffed; color: #26382f; }
+.champion-map .leaflet-control-attribution a { color: #174b37; }
+.champion-results { border: 1px solid var(--line); min-width: 0; scroll-margin-top: 7rem; }
+.champion-results-header { padding: 1.5rem; background: var(--cream); }
+.champion-results-header h2 { font: 400 2rem/1.1 Georgia,serif; margin: 0 0 0.6rem; }
+.champion-results-header p { margin: 0 0 1rem; font-size: 0.9rem; }
+.champion-result-list { list-style: none; margin: 0; padding: 0; max-height: 700px; overflow-y: auto; overscroll-behavior-y: contain; }
+.champion-result-list li + li { border-top: 1px solid var(--line); }
+.champion-result { border: 0; background: var(--paper); padding: 1.35rem 1.5rem; display: flex; gap: 0.45rem; flex-direction: column; width: 100%; text-align: left; cursor: pointer; color: var(--ink); font: inherit; border-left: 4px solid transparent; }
+.champion-result:hover { background: var(--cream); }
+.champion-result.is-selected { border-left-color: #9b702a; background: #eee9d8; }
+.champion-result:focus-visible { outline-offset: -4px; }
+.champion-result strong { font: 400 1.55rem/1.2 Georgia,serif; }
+.champion-result span, .champion-result i { font-size: 0.85rem; line-height: 1.5; overflow-wrap: anywhere; }
+.champion-result .champion-result-town { font-size: 0.72rem; letter-spacing: 0.07em; text-transform: uppercase; }
+.champion-result .champion-result-metrics { padding-top: 0.3rem; font-weight: 700; }
+.champion-result-open { text-decoration: underline; text-underline-offset: 3px; }
+.champion-detail-region { scroll-margin-top: 7rem; }
+.champion-detail, .champion-detail-empty { margin-top: 1.5rem; padding: clamp(1.25rem,3vw,2.5rem); background: var(--cream); border: 1px solid var(--line); }
+.champion-detail h2, .champion-detail-empty h2, .champion-about h2 { font: 400 clamp(2rem,3.4vw,3.2rem)/1.1 Georgia,serif; letter-spacing: -0.025em; margin: 0 0 1rem; }
+.champion-detail h3 { font: 400 1.4rem/1.2 Georgia,serif; margin: 1.5rem 0 0.6rem; }
+.champion-detail p, .champion-detail-empty p, .champion-about p, .champion-sources p { line-height: 1.75; }
+.champion-measurements { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 1.5rem 0; }
+.champion-measurements div { border-top: 1px solid var(--line); padding-top: 1rem; min-width: 0; }
+.champion-measurements strong { display: block; font: 400 clamp(1.5rem,2.5vw,2rem)/1.3 Georgia,serif; overflow-wrap: anywhere; }
+.champion-measurements span { display: block; font-size: 0.8rem; margin-top: 0.3rem; }
+.champion-location-note, .champion-record-source { font-size: 0.85rem; color: var(--ink-soft); }
+.champion-source-note { padding: 0.2rem 1rem; border-left: 3px solid #9b702a; background: #f8f3e3; font-size: 0.9rem; }
+.champion-detail .button { white-space: normal; font-size: 0.85rem; text-align: center; }
+.champion-record-source { margin: 1.5rem 0 0; }
+.champion-no-results { padding: 2rem; line-height: 1.75; }
+.champion-about { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; padding: 4rem clamp(1.25rem,5vw,5rem); border-top: 1px solid var(--line); }
+.champion-formula { padding: 1.25rem; border: 1px solid var(--line); background: var(--cream); font-family: Georgia,serif; }
+.champion-sources { padding: 2rem clamp(1.25rem,5vw,5rem) 4rem; background: var(--cream); }
+.champion-sources h2 { font: 400 1.7rem Georgia,serif; }
+.champion-sources p { max-width: 100ch; font-size: 0.9rem; }
+.champion-library-link { padding: 2rem; background: var(--ink); color: var(--paper); margin: 0 0 2rem; }
+.champion-library-link h2 { font: 400 2.3rem/1.15 Georgia,serif; margin: 0 0 1rem; }
+.champion-library-link p { max-width: 65ch; line-height: 1.7; }
+.champion-library-link a { text-decoration: underline; text-underline-offset: 4px; display: inline-flex; align-items: center; min-height: 44px; }
+@media (max-width: 1000px) { .champion-toolbar { grid-template-columns: 1fr 1fr; } .champion-workspace { grid-template-columns: minmax(0,1.2fr) minmax(280px,1fr); } }
+@media (max-width: 760px) {
+  .champion-workspace, .champion-about { grid-template-columns: 1fr; }
+  .champion-map { height: 380px; }
+  .champion-results { order: 0; }
+  .champion-about { gap: 2rem; }
+  .champion-result-list { max-height: 480px; }
+  .champion-toolbar { gap: 0.85rem; }
+  .champion-search { grid-column: 1 / -1; }
+  .champion-filter-bar { align-items: flex-start; gap: 0 1.25rem; }
+}
+@media (max-width: 400px) { .champion-toolbar { grid-template-columns: 1fr; } .champion-map { height: 330px; } }
