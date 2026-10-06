@@ -2,13 +2,13 @@
 
 import { useEffect, useRef, useState } from "react";
 import type * as Leaflet from "leaflet";
-import { townCoordinates, type ChampionState } from "../../lib/champion-trees";
+import { type ChampionState } from "../../lib/champion-trees";
 
 export type TownGroup = { key: string; town: string; state: ChampionState; count: number };
 type Engine = { L: typeof Leaflet; map: Leaflet.Map; markers: Leaflet.LayerGroup };
 
-export default function ChampionMap({ groups, selectedTown, onTown, resetKey }: {
-  groups: TownGroup[]; selectedTown: string | null; onTown: (town: string) => void; resetKey: number;
+export default function ChampionMap({ groups, selectedTown, onTown, resetKey, coordinates: townCoordinates }: {
+  coordinates: Record<string, { lat: number; lng: number }>; groups: TownGroup[]; selectedTown: string | null; onTown: (town: string) => void; resetKey: number;
 }) {
   const container = useRef<HTMLDivElement>(null);
   const [engine, setEngine] = useState<Engine | null>(null);
@@ -90,13 +90,13 @@ export default function ChampionMap({ groups, selectedTown, onTown, resetKey }: 
     map.on("zoomend", redraw);
     return () => { map.off("zoomend", redraw); };
 
-  }, [engine, groups, onTown, resetKey]);
+  }, [engine, groups, onTown, resetKey, townCoordinates]);
 
   useEffect(() => {
     if (!engine || !selectedTown) return;
     const point = townCoordinates[selectedTown];
     if (point) engine.map.setView([point.lat, point.lng], Math.max(engine.map.getZoom(), 10), { animate: false });
-  }, [engine, selectedTown]);
+  }, [engine, selectedTown, townCoordinates]);
 
   return <div className="champion-map-wrap">
     <div ref={container} className="champion-map" role="region" aria-label="Interactive map of champion tree towns. Markers show approximate municipality points. Use the result list to browse every tree." />
