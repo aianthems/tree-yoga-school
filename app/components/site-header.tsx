@@ -9,10 +9,10 @@ export default function SiteHeader() {
         </a>
         <nav aria-label="Primary navigation">
           <a href="/begin-here">Begin Here</a>
+          <a href="/trees">Tree Library</a>
           <a href="/#practice">Practice</a>
-          <a href="/#curriculum">Curriculum</a>
+          <a href="/book">The Book</a>
           <a href="/#principles">Principles</a>
-          <a href="https://media.aianthems.com/books/tree-yoga-school/tree-yoga-school-ebook.pdf" target="_blank" rel="noreferrer">Book ↗</a>
         </nav>
       </header>
     </>

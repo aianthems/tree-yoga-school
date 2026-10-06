@@ -8,7 +8,7 @@ Tree Yoga School is a yoga school founded by **Alex Julian**, now being renewed 
 
 [Read the original book][book] · [Explore the curriculum](#the-original-curriculum) · [Build with us](#contributing)
 
-**Project status:** Website foundation stage. The original book now has a runnable Next.js public-site foundation in this repository. The school is still early: there is no account system, database, certification platform, or AI teaching assistant.
+**Project status:** A content-led Next.js school with a four-practice introduction, seven book chapter companions, and a growing Tree Library beginning with Pine. The school is still early: there is no account system, database, certification platform, or AI teaching assistant.
 
 ## What is Tree Yoga?
 
@@ -114,8 +114,9 @@ The intended sequence is deliberately small:
 | Stage | Focus |
 | --- | --- |
 | **Foundation — complete** | Establish the school’s identity, source material, scope, and contribution approach. |
-| **Website foundation — now** | Launch the calm, accessible Next.js home for the school and connect it to its production domain. |
-| **First lesson — available in source** | [Your First Five Minutes with a Tree](app/lessons/first-five-minutes/page.tsx) introduces observation with seated and standing options, book references, and clearly identified adaptations. Further lessons follow this format. |
+| **Website foundation — complete** | A calm, accessible Next.js home connected to its Vercel production deployment. |
+| **Begin Here — available** | [Your First Five Minutes with a Tree](app/lessons/first-five-minutes/page.tsx), followed by meditation, gentle yoga, and hiking. |
+| **Living book — available in source** | Seven native chapter companions and the Tree Library, beginning with a complete Pine page connecting observation, contemplative energy, practice, and source references. |
 | **Further tools — only when useful** | Consider guided learning or optional personal features after the core experience works. Accounts, Supabase, and AI APIs are not prerequisites for the first version. |
 
 This README establishes the foundation. It does not announce a completed course platform, live classes, or a certification program.
@@ -170,3 +171,11 @@ The linked *Tree Yoga School* book carries its own notice: **copyright © 2023 T
 The `/begin-here` page connects the first five-minute practice to three introductory pathways: Meditation with a Tree, Gentle Yoga with a Tree, and Tree Yoga Hiking. Lessons use a shared structure: purpose, preparation, accessible options, practice, a screen-away stopping point, reflection, and book references. The new sequences are identified as adaptations developed with AI assistance.
 
 Lesson content lives in `lib/intro-lessons.ts`; the shared lesson route is `app/lessons/[slug]/page.tsx`. Only the three authored slugs are generated. The original first lesson keeps its existing URL.
+
+## Tree Library and native book companions
+
+`/trees` introduces the Tree Library; `/trees/pine` is its first complete entry. It focuses botanical identification on Eastern white pine (*Pinus strobus*), with licensed photographs, observable features, seasonal observation, contemplative energy themes, a new five-minute practice, book references, and reflection. Constancy, clarity, and perseverance are new interpretations for this digital edition, not fixed traditional correspondences or claims about a measured healing field.
+
+`/book` connects all seven chapters to native reading companions at `/book/[slug]`. These summarize selected themes and link to the full original PDF; they do not reproduce the entire book. New practice connections and adaptations are labeled. Chapter 6 retains the ten principle names and connects to Pine; the Tree Library links back to the relevant chapters and source pages.
+
+Tree records live in `lib/trees.ts`; chapter records live in `lib/book-chapters.ts`. Both route families generate only authored slugs and return 404 for unknown entries. Add a tree record and any licensed assets to grow the library; keep botanical information sourced and distinguish new interpretation from original teaching or cultural tradition. Photo attribution and licenses are recorded in `public/images/trees/ATTRIBUTION.md` and on the Pine page.

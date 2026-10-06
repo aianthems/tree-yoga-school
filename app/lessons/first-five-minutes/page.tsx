@@ -71,6 +71,7 @@ export default function FirstLesson() {
           </ul>
           <p className="lesson-note">This observation lesson makes no medical or healing claims. Leave bark, roots, wildlife, and habitat undisturbed.</p>
           <div className="course-actions"><a className="button secondary" href="/begin-here">Explore the Begin Here course →</a><a className="button primary" href="/lessons/meditation-with-a-tree">Next: Meditation with a Tree →</a></div>
+          <p className="book-source-note">Want to get to know a particular tree? <a href="/trees/pine">Meet Pine in the Tree Library.</a></p>
         </section>
       </main>
       <footer><p>Founded by Alex Julian · Rooted in the original Tree Yoga School.</p><p>© 2026 Tree Yoga School</p></footer>

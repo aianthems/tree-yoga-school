@@ -1,4 +1,7 @@
 import SiteHeader from "./components/site-header";
+import Image from "next/image";
+import Link from "next/link";
+import { bookChapters } from "../lib/book-chapters";
 
 const bookUrl =
   "https://media.aianthems.com/books/tree-yoga-school/tree-yoga-school-ebook.pdf";
@@ -35,16 +38,6 @@ const principles = [
   "Strength",
   "Unconditional Forgiveness",
   "Unconditional Love",
-];
-
-const chapters = [
-  ["1", "What is Tree Yoga?", "Origins, contemplation, and the invitation to practice."],
-  ["2", "Why Tree Yoga?", "Purpose, benefits, and relationship with nature."],
-  ["3", "Who and How", "Three pathways, choosing a tree, equipment, and care."],
-  ["4", "When and Where", "Habits, seasons, settings, and adapting to conditions."],
-  ["5", "Poses, Flows, and Meditations", "Movement references, flows, and meditations."],
-  ["6", "Wisdom and Wonder", "Ten guiding principles and reflections on trees."],
-  ["7", "Graduation", "Bringing the practice into daily life and sharing what you learn."],
 ];
 
 export default function Home() {
@@ -131,25 +124,32 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="home-tree-section section-shell" aria-labelledby="tree-library-heading">
+        <div className="section-heading"><p className="section-kicker">The Tree Library</p><h2 id="tree-library-heading">Every tree is a new doorway.</h2></div>
+        <div className="home-tree-feature">
+          <Link href="/trees/pine" aria-label="Meet Pine in the Tree Library"><Image src="/images/trees/pine.webp" alt="Eastern white pine with a broad crown of green needles" width={600} height={450} sizes="(max-width: 760px) 90vw, 45vw" /></Link>
+          <div><p className="section-kicker">Begin with Eastern white pine</p><h3>Pine.</h3><p className="home-tree-themes">Constancy · Clarity · Perseverance</p><p>Meet the tree, explore its contemplative energy, and try a five-minute practice of returning to one clear point.</p><div className="course-actions"><Link className="button primary" href="/trees/pine">Meet the pine</Link><Link className="course-link" href="/trees">Explore the Tree Library</Link></div></div>
+        </div>
+      </section>
+
       <section className="curriculum section-shell" id="curriculum">
         <div className="section-heading">
-          <p className="section-kicker">The original curriculum</p>
+          <p className="section-kicker">Explore the book</p>
           <h2>Seven chapters. One practice: pay attention.</h2>
+          <p className="curriculum-intro">New reading companions connect the original book to trees and practices. Each chapter also links to its full original text.</p>
         </div>
         <div className="chapter-list">
-          {chapters.map(([number, title, description]) => (
-            <a
+          {bookChapters.map(({ number, slug, title, description }) => (
+            <Link
               key={number}
-              href={`${bookUrl}#page=${number === "1" ? 6 : number === "2" ? 9 : number === "3" ? 18 : number === "4" ? 30 : number === "5" ? 39 : number === "6" ? 101 : 130}`}
-              target="_blank"
-              rel="noreferrer"
+              href={`/book/${slug}`}
               className="chapter-row"
             >
               <span className="chapter-number">{number.padStart(2, "0")}</span>
               <span className="chapter-title">{title}</span>
               <span className="chapter-description">{description}</span>
-              <span className="chapter-arrow">↗</span>
-            </a>
+              <span className="chapter-arrow" aria-hidden="true">→</span>
+            </Link>
           ))}
         </div>
       </section>
@@ -172,6 +172,7 @@ export default function Home() {
             </li>
           ))}
         </ol>
+        <Link className="course-link" href="/book/wisdom-and-wonder">Explore the principles in Wisdom and Wonder</Link>
       </section>
 
       <section className="ai-native section-shell">
