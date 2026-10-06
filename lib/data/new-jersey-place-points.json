@@ -1,0 +1,306 @@
+{
+  "Union township": {
+    "lat": 40.695266,
+    "lng": -74.269078
+  },
+  "Somerville borough": {
+    "lat": 40.569749,
+    "lng": -74.607682
+  },
+  "county:Warren": {
+    "lat": 40.853491,
+    "lng": -75.009498
+  },
+  "Cranford township": {
+    "lat": 40.65609,
+    "lng": -74.303563
+  },
+  "county:Monmouth": {
+    "lat": 40.287048,
+    "lng": -74.152446
+  },
+  "Rutherford borough": {
+    "lat": 40.820314,
+    "lng": -74.106041
+  },
+  "Hoboken city": {
+    "lat": 40.745251,
+    "lng": -74.027926
+  },
+  "county:Mercer": {
+    "lat": 40.282503,
+    "lng": -74.703724
+  },
+  "Vernon township": {
+    "lat": 41.195197,
+    "lng": -74.488757
+  },
+  "Wyckoff township": {
+    "lat": 40.999093,
+    "lng": -74.168849
+  },
+  "Atlantic Highlands borough": {
+    "lat": 40.411771,
+    "lng": -74.019836
+  },
+  "Jefferson township": {
+    "lat": 41.001257,
+    "lng": -74.55129
+  },
+  "Cranbury township": {
+    "lat": 40.31345,
+    "lng": -74.520233
+  },
+  "Madison borough": {
+    "lat": 40.758044,
+    "lng": -74.417807
+  },
+  "county:Cape May": {
+    "lat": 39.085841,
+    "lng": -74.846354
+  },
+  "Hightstown borough": {
+    "lat": 40.268457,
+    "lng": -74.525804
+  },
+  "county:Salem": {
+    "lat": 39.573828,
+    "lng": -75.357356
+  },
+  "Morristown town": {
+    "lat": 40.796562,
+    "lng": -74.477318
+  },
+  "Haddonfield borough": {
+    "lat": 39.895416,
+    "lng": -75.034413
+  },
+  "Collingswood borough": {
+    "lat": 39.915275,
+    "lng": -75.078391
+  },
+  "Princeton": {
+    "lat": 40.358244,
+    "lng": -74.666728
+  },
+  "Franklin township": {
+    "lat": 40.569033,
+    "lng": -74.931227
+  },
+  "Millstone borough": {
+    "lat": 40.499868,
+    "lng": -74.595529
+  },
+  "Salem city": {
+    "lat": 39.568236,
+    "lng": -75.472553
+  },
+  "Wantage township": {
+    "lat": 41.252204,
+    "lng": -74.632835
+  },
+  "West Orange township": {
+    "lat": 40.785755,
+    "lng": -74.265058
+  },
+  "Blairstown township": {
+    "lat": 40.980156,
+    "lng": -74.996849
+  },
+  "Lawrence township": {
+    "lat": 40.295887,
+    "lng": -74.720093
+  },
+  "Belvidere town": {
+    "lat": 40.829802,
+    "lng": -75.073337
+  },
+  "county:Burlington": {
+    "lat": 39.875786,
+    "lng": -74.663006
+  },
+  "Waldwick borough": {
+    "lat": 41.013367,
+    "lng": -74.125217
+  },
+  "Trenton city": {
+    "lat": 40.223841,
+    "lng": -74.763624
+  },
+  "Sandyston township": {
+    "lat": 41.213621,
+    "lng": -74.81353
+  },
+  "county:Sussex": {
+    "lat": 41.137461,
+    "lng": -74.691914
+  },
+  "county:Morris": {
+    "lat": 40.858896,
+    "lng": -74.547292
+  },
+  "county:Camden": {
+    "lat": 39.802407,
+    "lng": -74.961249
+  },
+  "county:Gloucester": {
+    "lat": 39.722875,
+    "lng": -75.145681
+  },
+  "county:Hunterdon": {
+    "lat": 40.565283,
+    "lng": -74.911969
+  },
+  "Hillsborough township": {
+    "lat": 40.497692,
+    "lng": -74.670505
+  },
+  "Newark city": {
+    "lat": 40.72422,
+    "lng": -74.172574
+  },
+  "Lakewood township": {
+    "lat": 40.077069,
+    "lng": -74.19851
+  },
+  "Allentown borough": {
+    "lat": 40.178578,
+    "lng": -74.590056
+  },
+  "Emerson borough": {
+    "lat": 40.97499,
+    "lng": -74.023248
+  },
+  "Medford township": {
+    "lat": 39.864269,
+    "lng": -74.82466
+  },
+  "Clifton city": {
+    "lat": 40.862137,
+    "lng": -74.160393
+  },
+  "Rumson borough": {
+    "lat": 40.362067,
+    "lng": -74.00451
+  },
+  "Flemington borough": {
+    "lat": 40.508641,
+    "lng": -74.859869
+  },
+  "Ringwood borough": {
+    "lat": 41.103963,
+    "lng": -74.271138
+  },
+  "Moorestown township": {
+    "lat": 39.978716,
+    "lng": -74.942651
+  },
+  "county:Somerset": {
+    "lat": 40.565527,
+    "lng": -74.619938
+  },
+  "Stanhope borough": {
+    "lat": 40.913366,
+    "lng": -74.70363
+  },
+  "Allamuchy township": {
+    "lat": 40.918679,
+    "lng": -74.828973
+  },
+  "Plainfield city": {
+    "lat": 40.615444,
+    "lng": -74.415775
+  },
+  "Mountainside borough": {
+    "lat": 40.680722,
+    "lng": -74.360292
+  },
+  "Westfield town": {
+    "lat": 40.651644,
+    "lng": -74.343447
+  },
+  "county:Union": {
+    "lat": 40.659871,
+    "lng": -74.308696
+  },
+  "Roselle borough": {
+    "lat": 40.652211,
+    "lng": -74.260158
+  },
+  "Elizabeth city": {
+    "lat": 40.666367,
+    "lng": -74.193503
+  },
+  "Hammonton town": {
+    "lat": 39.66078,
+    "lng": -74.767021
+  },
+  "Newton town": {
+    "lat": 41.051487,
+    "lng": -74.753601
+  },
+  "Middletown township": {
+    "lat": 40.404786,
+    "lng": -74.071404
+  },
+  "Fair Lawn borough": {
+    "lat": 40.93583,
+    "lng": -74.117505
+  },
+  "Sussex borough": {
+    "lat": 41.208771,
+    "lng": -74.608241
+  },
+  "Montague township": {
+    "lat": 41.280958,
+    "lng": -74.730511
+  },
+  "Hardwick township": {
+    "lat": 41.039708,
+    "lng": -75.006656
+  },
+  "Maplewood township": {
+    "lat": 40.733607,
+    "lng": -74.271159
+  },
+  "Oradell borough": {
+    "lat": 40.956653,
+    "lng": -74.032862
+  },
+  "county:Atlantic": {
+    "lat": 39.469355,
+    "lng": -74.633759
+  },
+  "county:Ocean": {
+    "lat": 39.865669,
+    "lng": -74.258864
+  },
+  "county:Middlesex": {
+    "lat": 40.439621,
+    "lng": -74.40743
+  },
+  "Glen Ridge borough": {
+    "lat": 40.804798,
+    "lng": -74.204569
+  },
+  "Little Egg Harbor township": {
+    "lat": 39.63297,
+    "lng": -74.331032
+  },
+  "county:Essex": {
+    "lat": 40.7874,
+    "lng": -74.246292
+  },
+  "Summit city": {
+    "lat": 40.715622,
+    "lng": -74.364684
+  },
+  "Bradley Beach borough": {
+    "lat": 40.201604,
+    "lng": -74.012056
+  },
+  "Fair Haven borough": {
+    "lat": 40.36194,
+    "lng": -74.038775
+  }
+}

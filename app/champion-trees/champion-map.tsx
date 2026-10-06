@@ -95,11 +95,11 @@ export default function ChampionMap({ groups, selectedTown, onTown, resetKey, co
   useEffect(() => {
     if (!engine || !selectedTown) return;
     const point = townCoordinates[selectedTown];
-    if (point) engine.map.setView([point.lat, point.lng], selectedTown.startsWith("NY:county:") ? 7 : Math.max(engine.map.getZoom(), 10), { animate: false });
+    if (point) engine.map.setView([point.lat, point.lng], selectedTown.includes(":county:") ? 7 : Math.max(engine.map.getZoom(), 10), { animate: false });
   }, [engine, selectedTown, townCoordinates]);
 
   return <div className="champion-map-wrap">
-    <div ref={container} className="champion-map" role="region" aria-label="Interactive map of champion tree places. New York markers show approximate county points; other states use municipality points. Use the result list to browse every tree." />
+    <div ref={container} className="champion-map" role="region" aria-label="Interactive map of champion tree places. Markers show approximate municipality or county points, with precision stated in each label. Use the result list to browse every tree." />
     {!engine && <p className="champion-map-status" role="status">{failed ? "The map could not load. All tree records are available in the list." : "Opening the champion tree map…"}</p>}
     {tileError && <p className="champion-tile-error" role="status">Some map tiles could not load. Place markers and the complete list remain available.</p>}
   </div>;
