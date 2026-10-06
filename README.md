@@ -273,3 +273,11 @@ Reproduce with the complete FirstMap query JSON (`where=1%3D1&outFields=*&return
 ```sh
 python3 scripts/import-delaware-champions.py FIRSTMAP.json PLACES.txt COUNTIES.txt
 ```
+
+### Maryland champion trees
+
+The October 6, 2026 public [State Champion Trees table](https://www.mdbigtrees.org/state-champion-trees), linked by [Maryland DNR](https://dnr.maryland.gov/forests/Pages/trees/bigtree.aspx), contains 274 explicitly State-designated entries across 239 published botanical categories. Preserve every designation, including multiple trees in a category and 13 source-reported National labels. Do not derive champions from points or infer current national status. Public access is Yes for 127 and No for 147.
+
+`lib/data/maryland-champion-trees.json` retains record links, IDs (including suffixes), names, measurements, dates, public-access labels, towns, and published addresses. It excludes GPS coordinates, images, personal owner/nominator details, and free-text comments. All records use 24 representative Census county/independent-city points, with Baltimore City distinct from Baltimore County.
+
+Rebuild using `python3 scripts/import-maryland-champions.py PUBLIC_DOM_ROWS.json 2025_Gaz_counties_national.txt`. The input is a read-only extraction of the publicly rendered Airtable grid: map record IDs to `{id, href, cells}`; `cells` uses published column indices documented in the importer. Extract all 274 rows and verify access and designation fields; the importer fails on incomplete required fields. The retrieval date is not a measurement date. Maryland joins the existing lazy-loaded API, state and Mid-Atlantic filters, source cards, and listed/mapped counts.

@@ -1,4 +1,4 @@
-export type ChampionState = "MA" | "NH" | "VT" | "ME" | "RI" | "CT" | "NY" | "NJ" | "PA" | "DE";
+export type ChampionState = "MA" | "NH" | "VT" | "ME" | "RI" | "CT" | "NY" | "NJ" | "PA" | "DE" | "MD";
 export type ChampionTree = {
   rankingDate?: string | null; sourcePage?: number; mapPrecision?: "county"; sourceCounty?: string; crownPoints?: number; crownUnitUncertain?: boolean; sourceReviewNotes?: string[];
   id: string; state: ChampionState; publicAccess?: boolean; visibleFromPublic?: string | null; accessDetails?: string | null; publicCoordinates?: { lat: number; lng: number } | null; yearListed?: string | null; mapTown?: string; nominated?: string; status?: string; nationalFlag?: string; sourceUrl?: string; sourceRow: number; scientificName: string; commonName: string;
@@ -6,7 +6,13 @@ export type ChampionTree = {
   circumference: number | null; height: number | null; crown: number | null;
   points: number | null; notes: string | null;
 };
-export const stateNames = { MA: "Massachusetts", NH: "New Hampshire", VT: "Vermont", ME: "Maine", RI: "Rhode Island", CT: "Connecticut", NY: "New York", NJ: "New Jersey", PA: "Pennsylvania", DE: "Delaware" };
+export const stateNames = { MA: "Massachusetts", NH: "New Hampshire", VT: "Vermont", ME: "Maine", RI: "Rhode Island", CT: "Connecticut", NY: "New York", NJ: "New Jersey", PA: "Pennsylvania", DE: "Delaware", MD: "Maryland" };
+export const mdChampionSource = {
+  retrieved: "October 6, 2026",
+  programUrl: "https://dnr.maryland.gov/forests/Pages/trees/bigtree.aspx",
+  registerUrl: "https://www.mdbigtrees.org/state-champion-trees",
+  geographyUrl: "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_counties_national.zip",
+};
 export const deChampionSource = {
   retrieved: "October 6, 2026", latestRanking: "October 6, 2026",
   programUrl: "https://agriculture.delaware.gov/forest-service/",
@@ -26,7 +32,7 @@ export function townKey(tree: Pick<ChampionTree, "state" | "town" | "mapTown" | 
   return `${tree.state}:${tree.mapPrecision === "county" ? `county:${tree.county}` : tree.mapTown || tree.town}`;
 }
 export function placeName(tree: Pick<ChampionTree, "mapPrecision" | "county" | "mapTown" | "town">) {
-  return tree.mapPrecision === "county" ? `${tree.county} County` : tree.mapTown || tree.town;
+  return tree.mapPrecision === "county" ? (tree.county === "Baltimore City" ? tree.county : `${tree.county} County`) : tree.mapTown || tree.town;
 }
 export const njChampionSource = {
   retrieved: "October 6, 2026", dataEdited: "March 19, 2026",
@@ -123,7 +129,7 @@ export function formatMeasurement(value: number | null) {
   return value === null ? "Not listed" : new Intl.NumberFormat("en-US", { maximumFractionDigits: 5 }).format(value);
 }
 
-export const sourceDates: Record<ChampionState, string> = { MA: "May 2026 edition", NH: "Retrieved October 6, 2026 · edition not stated", VT: "Retrieved October 6, 2026 · edition not stated", ME: "2020 edition · retrieved October 6, 2026", RI: "March 24, 2026 edition", CT: "Retrieved October 6, 2026 · edition not stated", NY: "January 31, 2025 edition", NJ: "Data edited March 19, 2026 · retrieved October 6, 2026", PA: "October 2026 extraction · score-based leaders", DE: "October 6, 2026 GIS snapshot · five-point rule from 2019" };
+export const sourceDates: Record<ChampionState, string> = { MD: "Retrieved October 6, 2026 · live register snapshot", MA: "May 2026 edition", NH: "Retrieved October 6, 2026 · edition not stated", VT: "Retrieved October 6, 2026 · edition not stated", ME: "2020 edition · retrieved October 6, 2026", RI: "March 24, 2026 edition", CT: "Retrieved October 6, 2026 · edition not stated", NY: "January 31, 2025 edition", NJ: "Data edited March 19, 2026 · retrieved October 6, 2026", PA: "October 2026 extraction · score-based leaders", DE: "October 6, 2026 GIS snapshot · five-point rule from 2019" };
 export type ChampionManifest = { state: ChampionState; name: string; listed: number; mapped: number }[];
 export type ChampionPayload = { trees: ChampionTree[]; coordinates: Record<string, { lat: number; lng: number }> };
 export const championRegions = { "new-england": { name: "New England", states: ["MA", "NH", "VT", "ME", "RI", "CT"] }, northeast: { name: "Northeast", states: ["MA", "NH", "VT", "ME", "RI", "CT", "NY", "NJ", "PA"] }, "mid-atlantic": { name: "Mid-Atlantic", states: ["NY", "NJ", "PA", "DE", "MD"] } };
