@@ -1,0 +1,23 @@
+{
+  "edition": "March 24, 2026",
+  "retrieved": "October 6, 2026",
+  "sourceUrl": "https://ritree.org/champion-tree/",
+  "excludedRows": [
+    {
+      "sourceRow": 156,
+      "values": [
+        "Zelkova",
+        "3051",
+        "2746",
+        "2441",
+        "2136",
+        "1526",
+        "1221",
+        "916",
+        "306",
+        "1"
+      ],
+      "reason": "Malformed species, name and place fields; no tree identity or location inferred."
+    }
+  ]
+}
