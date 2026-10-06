@@ -21,18 +21,19 @@ export default function TreeLibrary() {
           <p className="lesson-lede">Each tree offers a new way into the practice. Begin with observation, explore its character, and bring one teaching into your day.</p>
           <div className="library-meta"><span>{trees.length === 1 ? "One tree to begin" : `${trees.length} trees to explore`}</span><span>Observation · Energy · Practice</span></div>
         </section>
+        <nav className="tree-picker" aria-label="Choose a tree">{trees.map((tree) => <a key={tree.slug} href={`#${tree.slug}`}>{tree.name}</a>)}</nav>
         <section aria-label="Trees to explore" className="tree-library-grid">
-          {trees.map((tree) => (
-            <article className="tree-feature" key={tree.slug}>
+          {trees.map((tree, index) => (
+            <article className="tree-feature" id={tree.slug} key={tree.slug}>
               <Link className="tree-feature-image" href={`/trees/${tree.slug}`} aria-label={`Meet ${tree.name}: ${tree.species}`}>
-                <Image src={tree.image} alt={tree.imageAlt} width={tree.imageWidth} height={tree.imageHeight} sizes="(max-width: 760px) 100vw, 55vw" priority />
+                <Image src={tree.image} alt={tree.imageAlt} width={tree.imageWidth} height={tree.imageHeight} sizes="(max-width: 760px) 100vw, 55vw" priority={index === 0} />
               </Link>
               <div className="tree-feature-copy">
                 <p className="section-kicker">{tree.species} · <i>{tree.scientificName}</i></p>
                 <h2><Link href={`/trees/${tree.slug}`}>{tree.name}</Link></h2>
                 <ul className="theme-list" aria-label="Contemplative themes">{tree.themes.map((theme) => <li key={theme}>{theme}</li>)}</ul>
                 <p>{tree.invitation}</p>
-                <Link className="button primary" href={`/trees/${tree.slug}`}>Meet the pine</Link>
+                <Link className="button primary" href={`/trees/${tree.slug}`}>Meet {tree.name}</Link>
               </div>
             </article>
           ))}

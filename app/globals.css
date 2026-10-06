@@ -722,3 +722,10 @@ section[id] { scroll-margin-top: 90px; }
   .tree-feature-copy { padding: 1.5rem; }
   .tree-section .course-actions, .tree-hero-copy .course-actions { align-items: stretch; }
 }
+
+.tree-library-grid { display: grid; gap: 2rem; }
+.tree-picker, .tree-neighbors { display: flex; flex-wrap: wrap; gap: 0.6rem; margin: 0 0 2rem; }
+.tree-picker a, .tree-neighbors a { display: inline-flex; align-items: center; min-height: 44px; padding: 0.5rem 0.9rem; border: 1px solid var(--line); text-decoration: underline; text-underline-offset: 4px; }
+.tree-neighbors .section-kicker { flex-basis: 100%; }
+.tree-neighbors { margin-top: 3rem; }
+.tree-feature { scroll-margin-top: 2rem; }
