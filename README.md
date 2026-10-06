@@ -260,3 +260,16 @@ Adds 206 NJDEP records with PERMISSIONTOLIST=YES and Champion (182), Co-Champion
 ### Pennsylvania score-based leaders
 
 Adds 445 derived leaders from the user-supplied October 2026 PA Big Trees extraction, for 1,989 records across nine states. Compares the 1,520 public listing records by source botanical category; retains five pairs tied on published points and four explicitly legacy national flags. Excludes Malus spp., Unknown Fir, and the Northern Pin Oak explicitly marked removed, without promoting an unverified replacement. All records link to the original page and use 48 Census 2025 county points. No tree coordinates or public access are inferred. Of the included records, 384 have checked detail measurements and 61 retain listing fields with null missing measurements. London plane measurement and Chestnut Oak condition concerns remain visible. Run `scripts/import-pennsylvania-champions.py EXTRACTION.json COUNTIES.txt` to reproduce. Original extraction file: `pennsylvania-champion-tree-extraction(2).json`; no automated live refresh.
+
+
+### Delaware champion trees
+
+The October 6, 2026 snapshot of Delaware Forest Service's Big Trees Playground uses FirstMap `Biota/DE_Big_Tree_Champs/FeatureServer/0`. The official experience `43ab90c14951412eaa751004b5cc4597` links this exact layer; the state's Forest Service home page links the experience. Of 207 records, include all 79 with `SPEC_RANK=1` and 12 lower-ranked records within five published points of the scientific-name group maximum. The latter are explicitly rule-derived co-champion qualifiers using printed page 3 of the 2019 fifth edition, not explicit GIS co-champion labels. Preserve equal scores, 3 multi-rank-one species, source ranks, dates, IDs, and original record links. One rank-three ginkgo has no scientific name and is excluded. The separate Unusual Big Trees layer is not imported. No national designation is inferred.
+
+`DATE_OF_RANK` is a ranking date, never a measurement date; latest is 2026-10-06. Measurements and scores remain as published; discrepancies are surfaced by the existing source-warning function. Public access is unclassified. No individual tree coordinates or owner information are imported. 86 records use 31 Census Places Gazetteer points; five unmatched places (Canterbury, Rockland, Yorklyn) use two county points. 91 records, 76 scientific names, 33 mapped places. Total map: 2,080 records across 10 states. Mid-Atlantic shortcut includes NY/NJ/PA/DE, with MD reserved; Northeast remains the original nine states.
+
+Reproduce with the complete FirstMap query JSON (`where=1%3D1&outFields=*&returnGeometry=false&f=pjson`), 2025 `2025_gaz_place_10.txt`, and `2025_Gaz_counties_national.txt`:
+
+```sh
+python3 scripts/import-delaware-champions.py FIRSTMAP.json PLACES.txt COUNTIES.txt
+```
