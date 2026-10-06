@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import type * as Leaflet from "leaflet";
 import { townCoordinates } from "../../lib/champion-trees";
 
-export type TownGroup = { town: string; count: number };
+export type TownGroup = { key: string; town: string; state: "MA" | "NH"; count: number };
 type Engine = { L: typeof Leaflet; map: Leaflet.Map; markers: Leaflet.LayerGroup };
 
 export default function ChampionMap({ groups, selectedTown, onTown, resetKey }: {
@@ -21,7 +21,7 @@ export default function ChampionMap({ groups, selectedTown, onTown, resetKey }: 
     import("leaflet").then((L) => {
       if (disposed || !container.current) return;
       map = L.map(container.current, { scrollWheelZoom: false, minZoom: 6, maxZoom: 14 });
-      map.fitBounds([[41.2, -73.55], [42.9, -69.85]]);
+      map.fitBounds([[41.2, -73.55], [45.1, -69.85]]);
       const tiles = L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
         maxZoom: 19,
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap contributors</a>',
@@ -40,34 +40,56 @@ export default function ChampionMap({ groups, selectedTown, onTown, resetKey }: 
   useEffect(() => {
     if (!engine) return;
     const { L, map, markers } = engine;
-    markers.clearLayers();
-    const points: Leaflet.LatLngTuple[] = [];
-    groups.forEach(({ town, count }) => {
-      const coordinate = townCoordinates[town];
-      if (!coordinate) return;
-      const point: Leaflet.LatLngTuple = [coordinate.lat, coordinate.lng];
-      points.push(point);
-      const marker = L.marker(point, {
-        icon: L.divIcon({ className: "champion-marker", html: `<span>${count}</span>`, iconSize: [36, 36], iconAnchor: [18, 18] }),
-        title: `${town}: ${count} ${count === 1 ? "tree" : "trees"}. Approximate town center.`,
-        alt: `${town}: show ${count} ${count === 1 ? "tree" : "trees"}`,
-        keyboard: true,
-      }).addTo(markers);
-      const label = document.createElement("span");
-      label.textContent = `${town} · ${count} ${count === 1 ? "tree" : "trees"} · town center`;
-      marker.bindTooltip(label, { direction: "top" });
-      marker.on("click", () => onTown(town));
-      const element = marker.getElement();
-      element?.setAttribute("aria-label", `${town}: show ${count} ${count === 1 ? "tree" : "trees"}. Approximate town center.`);
-      element?.addEventListener("keydown", (event) => {
-        if (event.key === "Enter" || event.key === " ") {
-          event.preventDefault();
-          event.stopPropagation();
-          onTown(town);
-        }
-      });
+    const located = groups.flatMap(group => {
+      const coordinate = townCoordinates[group.key];
+      return coordinate ? [{ ...group, point: [coordinate.lat, coordinate.lng] as Leaflet.LatLngTuple }] : [];
     });
-    if (points.length) map.fitBounds(L.latLngBounds(points), { padding: [35, 35], maxZoom: 10, animate: false });
+    const redraw = () => {
+      markers.clearLayers();
+      // Keep marker centers at least 44 pixels apart. Cluster anchors remain at
+      // a source municipality point; each cluster retains all its town groups.
+      const clusters: { anchor: Leaflet.Point; towns: typeof located }[] = [];
+      located.forEach(group => {
+        const pixel = map.latLngToLayerPoint(group.point);
+        const cluster = clusters.find(c => c.anchor.distanceTo(pixel) < 44);
+        if (cluster) cluster.towns.push(group);
+        else clusters.push({ anchor: pixel, towns: [group] });
+      });
+      clusters.forEach(({ towns }) => {
+        const first = towns[0];
+        const count = towns.reduce((total, town) => total + town.count, 0);
+        const combined = towns.length > 1;
+        const name = combined
+          ? `Zoom to ${towns.length} towns with ${count} tree records. Approximate municipality points.`
+          : `${first.town}, ${first.state}: show ${count} ${count === 1 ? "tree" : "trees"}. Approximate municipality point.`;
+        const activate = () => {
+          if (combined) map.fitBounds(L.latLngBounds(towns.map(t => t.point)), { padding: [50, 50], maxZoom: Math.min(map.getZoom() + 2, 14), animate: false });
+          else onTown(first.key);
+        };
+        const marker = L.marker(first.point, {
+          icon: L.divIcon({ className: `champion-marker${combined ? " champion-cluster" : ""}`, html: `<span>${count}</span>`, iconSize: [36, 36], iconAnchor: [18, 18] }),
+          title: name, alt: name, keyboard: true,
+        }).addTo(markers);
+        const label = document.createElement("span");
+        label.textContent = combined
+          ? `${count} records · ${towns.length} towns · select to zoom in`
+          : `${first.town}, ${first.state} · ${count} ${count === 1 ? "tree" : "trees"} · municipality point`;
+        marker.bindTooltip(label, { direction: "top" });
+        marker.on("click", activate);
+        const element = marker.getElement();
+        element?.setAttribute("aria-label", name);
+        element?.addEventListener("keydown", (event) => {
+          if (event.key === "Enter" || event.key === " ") {
+            event.preventDefault(); event.stopPropagation(); activate();
+          }
+        });
+      });
+    };
+    if (located.length) map.fitBounds(L.latLngBounds(located.map(t => t.point)), { padding: [35, 35], maxZoom: 10, animate: false });
+    redraw();
+    map.on("zoomend", redraw);
+    return () => { map.off("zoomend", redraw); };
+
   }, [engine, groups, onTown, resetKey]);
 
   useEffect(() => {
@@ -77,8 +99,8 @@ export default function ChampionMap({ groups, selectedTown, onTown, resetKey }: 
   }, [engine, selectedTown]);
 
   return <div className="champion-map-wrap">
-    <div ref={container} className="champion-map" role="region" aria-label="Interactive map of champion tree towns. Markers show approximate town centers. Use the result list to browse every tree." />
-    {!engine && <p className="champion-map-status" role="status">{failed ? "The map could not load. All tree records are available in the list." : "Opening the Massachusetts map…"}</p>}
+    <div ref={container} className="champion-map" role="region" aria-label="Interactive map of champion tree towns. Markers show approximate municipality points. Use the result list to browse every tree." />
+    {!engine && <p className="champion-map-status" role="status">{failed ? "The map could not load. All tree records are available in the list." : "Opening the champion tree map…"}</p>}
     {tileError && <p className="champion-tile-error" role="status">Some map tiles could not load. Town markers and the complete list remain available.</p>}
   </div>;
 }
