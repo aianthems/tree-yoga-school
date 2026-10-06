@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import type * as Leaflet from "leaflet";
 import { type ChampionState } from "../../lib/champion-trees";
 
-export type TownGroup = { key: string; town: string; state: ChampionState; count: number };
+export type TownGroup = { key: string; town: string; state: ChampionState; count: number; precision: string };
 type Engine = { L: typeof Leaflet; map: Leaflet.Map; markers: Leaflet.LayerGroup };
 
 export default function ChampionMap({ groups, selectedTown, onTown, resetKey, coordinates: townCoordinates }: {
@@ -60,8 +60,8 @@ export default function ChampionMap({ groups, selectedTown, onTown, resetKey, co
         const count = towns.reduce((total, town) => total + town.count, 0);
         const combined = towns.length > 1;
         const name = combined
-          ? `Zoom to ${towns.length} towns with ${count} tree records. Approximate municipality points.`
-          : `${first.town}, ${first.state}: show ${count} ${count === 1 ? "tree" : "trees"}. Approximate municipality point.`;
+          ? `Zoom to ${towns.length} places with ${count} tree records. Approximate municipality or county points.`
+          : `${first.town}, ${first.state}: show ${count} ${count === 1 ? "tree" : "trees"}. Approximate ${first.precision} point.`;
         const activate = () => {
           if (combined) map.fitBounds(L.latLngBounds(towns.map(t => t.point)), { padding: [50, 50], maxZoom: Math.min(map.getZoom() + 2, 14), animate: false });
           else onTown(first.key);
@@ -72,8 +72,8 @@ export default function ChampionMap({ groups, selectedTown, onTown, resetKey, co
         }).addTo(markers);
         const label = document.createElement("span");
         label.textContent = combined
-          ? `${count} records · ${towns.length} towns · select to zoom in`
-          : `${first.town}, ${first.state} · ${count} ${count === 1 ? "tree" : "trees"} · municipality point`;
+          ? `${count} records · ${towns.length} places · select to zoom in`
+          : `${first.town}, ${first.state} · ${count} ${count === 1 ? "tree" : "trees"} · ${first.precision} point`;
         marker.bindTooltip(label, { direction: "top" });
         marker.on("click", activate);
         const element = marker.getElement();
@@ -95,12 +95,12 @@ export default function ChampionMap({ groups, selectedTown, onTown, resetKey, co
   useEffect(() => {
     if (!engine || !selectedTown) return;
     const point = townCoordinates[selectedTown];
-    if (point) engine.map.setView([point.lat, point.lng], Math.max(engine.map.getZoom(), 10), { animate: false });
+    if (point) engine.map.setView([point.lat, point.lng], selectedTown.startsWith("NY:county:") ? 7 : Math.max(engine.map.getZoom(), 10), { animate: false });
   }, [engine, selectedTown, townCoordinates]);
 
   return <div className="champion-map-wrap">
-    <div ref={container} className="champion-map" role="region" aria-label="Interactive map of champion tree towns. Markers show approximate municipality points. Use the result list to browse every tree." />
+    <div ref={container} className="champion-map" role="region" aria-label="Interactive map of champion tree places. New York markers show approximate county points; other states use municipality points. Use the result list to browse every tree." />
     {!engine && <p className="champion-map-status" role="status">{failed ? "The map could not load. All tree records are available in the list." : "Opening the champion tree map…"}</p>}
-    {tileError && <p className="champion-tile-error" role="status">Some map tiles could not load. Town markers and the complete list remain available.</p>}
+    {tileError && <p className="champion-tile-error" role="status">Some map tiles could not load. Place markers and the complete list remain available.</p>}
   </div>;
 }
