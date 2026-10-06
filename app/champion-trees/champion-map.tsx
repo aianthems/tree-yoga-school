@@ -57,6 +57,15 @@ export default function ChampionMap({ groups, selectedTown, onTown, resetKey }: 
       label.textContent = `${town} · ${count} ${count === 1 ? "tree" : "trees"} · town center`;
       marker.bindTooltip(label, { direction: "top" });
       marker.on("click", () => onTown(town));
+      const element = marker.getElement();
+      element?.setAttribute("aria-label", `${town}: show ${count} ${count === 1 ? "tree" : "trees"}. Approximate town center.`);
+      element?.addEventListener("keydown", (event) => {
+        if (event.key === "Enter" || event.key === " ") {
+          event.preventDefault();
+          event.stopPropagation();
+          onTown(town);
+        }
+      });
     });
     if (points.length) map.fitBounds(L.latLngBounds(points), { padding: [35, 35], maxZoom: 10, animate: false });
   }, [engine, groups, onTown, resetKey]);

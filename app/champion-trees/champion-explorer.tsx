@@ -75,9 +75,9 @@ export default function ChampionExplorer() {
   return <section className="champion-explorer" aria-label="Explore champion trees">
     <div className="champion-toolbar">
       <label className="champion-search">Find a tree, town, or place<input type="search" value={query} onChange={e => setQuery(e.target.value)} placeholder="Try pine, Worcester, or Smith College…" /></label>
-      <label>County<select value={county} onChange={e => { setCounty(e.target.value); setTown(""); }}><option value="">All counties</option>{counties.map(c => <option key={c}>{c}</option>)}</select></label>
-      <label>Town or city<select value={town} onChange={e => setTown(e.target.value)}><option value="">All towns</option>{towns.filter(t => !county || championTrees.some(r => r.town === t && r.county === county)).map(t => <option key={t}>{t}</option>)}</select></label>
-      <label>Tree genus<select value={genus} onChange={e => setGenus(e.target.value)}><option value="">All genera</option>{genera.map(g => <option key={g}>{g}</option>)}</select></label>
+      <label>County<select aria-label="County" value={county} onChange={e => { setCounty(e.target.value); setTown(""); }}><option value="">All counties</option>{counties.map(c => <option key={c}>{c}</option>)}</select></label>
+      <label>Town or city<select aria-label="Town or city" value={town} onChange={e => setTown(e.target.value)}><option value="">All towns</option>{towns.filter(t => !county || championTrees.some(r => r.town === t && r.county === county)).map(t => <option key={t}>{t}</option>)}</select></label>
+      <label>Tree genus<select aria-label="Tree genus" value={genus} onChange={e => setGenus(e.target.value)}><option value="">All genera</option>{genera.map(g => <option key={g}>{g}</option>)}</select></label>
     </div>
     <div className="champion-filter-bar"><label className="champion-check"><input type="checkbox" checked={locationsOnly} onChange={e => setLocationsOnly(e.target.checked)} /> With a published location</label><button type="button" className="champion-text-button" onClick={reset}>Reset all filters & map</button><a className="champion-text-button" href="#champion-results">Skip to tree results ↓</a></div>
     <p className="champion-map-note"><span aria-hidden="true">●</span> Numbers show matching records in each town. All markers are approximate town centers. Select a marker to browse its trees.</p>
@@ -90,7 +90,7 @@ export default function ChampionExplorer() {
       <div className="champion-results" id="champion-results">
         <div className="champion-results-header"><h2 ref={resultsHeading} tabIndex={-1}>Tree records</h2><p role="status" aria-live="polite">{results.length} {results.length === 1 ? "record" : "records"} in {groups.length} {groups.length === 1 ? "town" : "towns"}{town ? ` · ${town}` : ""}</p>
           {town && <button className="champion-text-button" type="button" onClick={() => setTown("")}>Show all towns</button>}
-          <label>Sort by<select value={sort} onChange={e => setSort(e.target.value)}><option value="name">Tree name</option><option value="town">Town</option><option value="height">Tallest first</option><option value="points">Published points</option></select></label>
+          <label>Sort by<select aria-label="Sort by" value={sort} onChange={e => setSort(e.target.value)}><option value="name">Tree name</option><option value="town">Town</option><option value="height">Tallest first</option><option value="points">Published points</option></select></label>
         </div>
         {results.length ? <ul className="champion-result-list">{results.map(tree => <li key={tree.id}><button type="button" className={`champion-result${selected?.id === tree.id ? " is-selected" : ""}`} aria-pressed={selected?.id === tree.id} onClick={() => selectRecord(tree)}>
           <span className="champion-result-town">{tree.town} · {tree.county}</span><strong>{tree.commonName}</strong><i>{tree.scientificName}</i><span>{tree.location || "Location not disclosed"}</span><span className="champion-result-metrics">{formatMeasurement(tree.height)} ft tall · {formatMeasurement(tree.points)} points</span><span className="champion-result-open">Explore this record →</span>
