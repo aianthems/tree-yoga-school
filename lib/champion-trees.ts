@@ -1,26 +1,37 @@
+import vtRecords from "./data/vermont-champion-trees.json";
+import vtCoordinates from "./data/vermont-town-points.json";
 import records from "./data/champion-trees.json";
 import nhRecords from "./data/new-hampshire-champion-trees.json";
 import nhCoordinates from "./data/new-hampshire-town-points.json";
 import coordinates from "./data/massachusetts-town-centroids.json";
 
+export type ChampionState = "MA" | "NH" | "VT";
 export type ChampionTree = {
-  id: string; state: "MA" | "NH"; mapTown?: string; nominated?: string; status?: string; nationalFlag?: string; sourceUrl?: string; sourceRow: number; scientificName: string; commonName: string;
+  id: string; state: ChampionState; publicAccess?: boolean; visibleFromPublic?: string | null; accessDetails?: string | null; publicCoordinates?: { lat: number; lng: number } | null; yearListed?: string | null; mapTown?: string; nominated?: string; status?: string; nationalFlag?: string; sourceUrl?: string; sourceRow: number; scientificName: string; commonName: string;
   location: string | null; town: string; county: string; measured: string | null;
   circumference: number | null; height: number | null; crown: number | null;
   points: number | null; notes: string | null;
 };
-export const stateNames = { MA: "Massachusetts", NH: "New Hampshire" };
+export const stateNames = { MA: "Massachusetts", NH: "New Hampshire", VT: "Vermont" };
 export function townKey(tree: Pick<ChampionTree, "state" | "town" | "mapTown">) {
   return `${tree.state}:${tree.mapTown || tree.town}`;
 }
 export const championTrees: readonly ChampionTree[] = [
   ...records.map(tree => ({ ...tree, state: "MA" as const })),
   ...nhRecords.map(tree => ({ ...tree, state: "NH" as const })),
+  ...vtRecords.map(tree => ({ ...tree, state: "VT" as const })),
 ];
 export const townCoordinates: Record<string, { lat: number; lng: number }> = Object.fromEntries([
   ...Object.entries(coordinates).map(([town, point]) => [`MA:${town}`, point]),
   ...Object.entries(nhCoordinates).map(([town, point]) => [`NH:${town}`, point]),
+  ...Object.entries(vtCoordinates).map(([town, point]) => [`VT:${town}`, point]),
 ]);
+export const vtChampionSource = {
+  retrieved: "October 6, 2026",
+  programUrl: "https://vtcommunityforestry.org/projects/vermont-big-tree-program",
+  registerUrl: "https://experience.arcgis.com/experience/7637f5256b65454aa123e0c631f1f46a/page/Map/",
+  geographyUrl: "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_cousubs_50.txt",
+};
 export const nhChampionSource = {
   retrieved: "October 6, 2026",
   programUrl: "https://www.nhbigtrees.org/",
@@ -52,6 +63,8 @@ export function sourceWarnings(tree: ChampionTree): string[] {
     if (tree.mapTown && tree.mapTown !== tree.town) warnings.push(`The register lists “${tree.town}”. Its marker uses the approximate ${tree.mapTown} municipality point; the original place name is retained. ${tree.town === "Boscowen" ? "Boscowen is interpreted as the source’s spelling of Boscawen in Merrimack County." : "It does not locate the village or individual tree."}`);
     return warnings;
   }
+  if (tree.state === "VT" && tree.commonName === "Common name not listed") warnings.push("The Vermont source leaves the common name blank. Its scientific name is shown as published.");
+  if (tree.state === "VT" && tree.commonName === "Table Mountain Pine") warnings.push("The Vermont source names this tree ‘Table Mountain Pine’ but lists Picea pungens as its scientific name. Both source names are retained; identification needs confirmation from the program.");
   if (tree.scientificName === "Salix nigra" && tree.commonName === "Walnut, Black") {
     warnings.push("The source calls this tree ‘Walnut, Black’ but gives Salix nigra, the scientific name for black willow. Both names are preserved here; identification needs confirmation from DCR.");
   }

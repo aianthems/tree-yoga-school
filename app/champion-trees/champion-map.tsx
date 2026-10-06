@@ -2,9 +2,9 @@
 
 import { useEffect, useRef, useState } from "react";
 import type * as Leaflet from "leaflet";
-import { townCoordinates } from "../../lib/champion-trees";
+import { townCoordinates, type ChampionState } from "../../lib/champion-trees";
 
-export type TownGroup = { key: string; town: string; state: "MA" | "NH"; count: number };
+export type TownGroup = { key: string; town: string; state: ChampionState; count: number };
 type Engine = { L: typeof Leaflet; map: Leaflet.Map; markers: Leaflet.LayerGroup };
 
 export default function ChampionMap({ groups, selectedTown, onTown, resetKey }: {

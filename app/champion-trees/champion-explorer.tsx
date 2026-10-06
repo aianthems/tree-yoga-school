@@ -3,7 +3,7 @@
 import { useCallback, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import ChampionMap from "./champion-map";
-import { championTrees, formatMeasurement, librarySpecies, sourceWarnings, townKey, stateNames, nhChampionSource, type ChampionTree } from "../../lib/champion-trees";
+import { championTrees, formatMeasurement, librarySpecies, sourceWarnings, townKey, stateNames, nhChampionSource, vtChampionSource, type ChampionState, type ChampionTree } from "../../lib/champion-trees";
 
 const townOptions = [...new Map(championTrees.map(tree => [townKey(tree), { key: townKey(tree), town: tree.mapTown || tree.town, state: tree.state }])).values()].sort((a, b) => a.town.localeCompare(b.town) || a.state.localeCompare(b.state));
 const genera = [...new Set(championTrees.map(t => t.scientificName.split(" ")[0]))].sort();
@@ -21,16 +21,18 @@ function RecordDetails({ tree }: { tree: ChampionTree }) {
       <div><strong>{formatMeasurement(tree.crown)}</strong><span>crown spread · feet</span></div>
       <div><strong>{formatMeasurement(tree.points)}</strong><span>published points</span></div>
     </div>
-    {tree.state === "NH" ? <><p><strong>Register status:</strong> State champion · Tree ID {tree.sourceRow}</p><p><strong>Nominated:</strong> {tree.nominated} (not a measurement date)</p></> : <p><strong>Measured:</strong> {measured}</p>}
-    <h3>{tree.state === "NH" ? "Place listed by NH Big Trees" : "Location published by DCR"}</h3><p>{tree.state === "NH" ? `${tree.town}, ${tree.county} County. The register does not publish a street address or tree coordinates for this record.` : tree.location || "No location disclosed in this list. Only the town is provided."}</p>
-    <p className="champion-location-note">The marker is an approximate municipality point, not the tree’s position. {tree.location ? "Confirm access with the landowner or site before visiting." : "An exact location has not been inferred."}</p>
+    {tree.state === "NH" ? <><p><strong>Register status:</strong> State champion · Tree ID {tree.sourceRow}</p><p><strong>Nominated:</strong> {tree.nominated} (not a measurement date)</p></> : <p><strong>{tree.state === "VT" ? "Data collected:" : "Measured:"}</strong> {measured}</p>}
+    {tree.state === "VT" && <><p><strong>Register status:</strong> Confirmed champion · Record {tree.sourceRow}{tree.yearListed ? ` · Listed ${tree.yearListed}` : ""}</p><p className="champion-access"><strong>{tree.publicAccess ? "Public access listed by Vermont" : "Private property · no public access"}</strong>{tree.visibleFromPublic === "yes" && <span> · Source says visible from a road or public property; this does not grant entry.</span>}</p><p>{tree.accessDetails}</p></>}
+    <h3>{tree.state === "VT" ? "Published location notes" : tree.state === "NH" ? "Place listed by NH Big Trees" : "Location published by DCR"}</h3><p>{tree.state === "VT" ? tree.location || "No additional location notes are published." : tree.state === "NH" ? `${tree.town}, ${tree.county} County. The register does not publish a street address or tree coordinates for this record.` : tree.location || "No location disclosed in this list. Only the town is provided."}</p>
+    <p className="champion-location-note">The marker is an approximate municipality point, not the tree’s position. {(tree.location || tree.publicCoordinates) ? "Confirm current visiting guidance with the landowner or site before visiting." : "An exact location has not been inferred."}</p>
     {tree.notes && <p><strong>Source notes:</strong> {tree.notes}</p>}
     {warnings.length > 0 && <div className="champion-source-note"><h3>Source note</h3>{warnings.map(warning => <p key={warning}>{warning}</p>)}</div>}
     <div className="course-actions">
-      {tree.location && <a className="button secondary" href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${tree.location}, ${tree.town}, Massachusetts`)}`} target="_blank" rel="noreferrer">Search the published location ↗</a>}
+      {tree.state === "MA" && tree.location && <a className="button secondary" href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${tree.location}, ${tree.town}, Massachusetts`)}`} target="_blank" rel="noreferrer">Search the published location ↗</a>}
+      {tree.state === "VT" && tree.publicAccess && tree.publicCoordinates && <a className="button secondary" href={`https://www.google.com/maps/search/?api=1&query=${tree.publicCoordinates.lat},${tree.publicCoordinates.lng}`} target="_blank" rel="noreferrer">Open Vermont’s published tree location ↗</a>}
       {library && <Link className="course-link" href={`/trees/${library.slug}`}>Explore {library.name} energy & practice</Link>}
     </div>
-    {tree.state === "NH" ? <p className="champion-record-source"><a href={tree.sourceUrl} target="_blank" rel="noreferrer">NH Big Trees register · Tree ID {tree.sourceRow} ↗</a> · retrieved October 6, 2026. Circumference units are not specified in the table; values are retained as published. <a href={nhChampionSource.publicMapUrl} target="_blank" rel="noreferrer">UNH’s public visiting map ↗</a> lists a separate selection of trees open to visitors.</p> : <p className="champion-record-source">DCR Champion Trees · May 2026 workbook · row {tree.sourceRow}. Values shown as published.</p>}
+    {tree.state === "VT" ? <p className="champion-record-source"><a href={vtChampionSource.registerUrl} target="_blank" rel="noreferrer">Vermont Big Tree List ↗</a> · <a href={tree.sourceUrl} target="_blank" rel="noreferrer">Source record {tree.sourceRow} ↗</a> · retrieved October 6, 2026. Measurements and access labels are shown as published. Vermont reports the program is temporarily on hold following a staffing transition.</p> : tree.state === "NH" ? <p className="champion-record-source"><a href={tree.sourceUrl} target="_blank" rel="noreferrer">NH Big Trees register · Tree ID {tree.sourceRow} ↗</a> · retrieved October 6, 2026. Circumference units are not specified in the table; values are retained as published. <a href={nhChampionSource.publicMapUrl} target="_blank" rel="noreferrer">UNH’s public visiting map ↗</a> lists a separate selection of trees open to visitors.</p> : <p className="champion-record-source">DCR Champion Trees · May 2026 workbook · row {tree.sourceRow}. Values shown as published.</p>}
   </article>;
 }
 
@@ -40,6 +42,7 @@ export default function ChampionExplorer() {
   const [county, setCounty] = useState("");
   const [town, setTown] = useState("");
   const [genus, setGenus] = useState("");
+  const [publicOnly, setPublicOnly] = useState(false);
   const [locationsOnly, setLocationsOnly] = useState(false);
   const [sort, setSort] = useState("name");
   const [selectedId, setSelectedId] = useState<string | null>(null);
@@ -48,13 +51,13 @@ export default function ChampionExplorer() {
   const resultsHeading = useRef<HTMLHeadingElement>(null);
   const results = useMemo(() => {
     const words = query.trim().toLowerCase().split(/\s+/).filter(Boolean);
-    return championTrees.filter(t => (!state || t.state === state) && (!county || t.county === county) && (!town || townKey(t) === town) && (!genus || t.scientificName.split(" ")[0] === genus) && (!locationsOnly || Boolean(t.location)) && words.every(word => `${stateNames[t.state]} ${t.state} ${t.mapTown || ""} ${t.commonName} ${t.scientificName} ${t.town} ${t.county} ${t.location || ""} ${t.notes || ""}`.toLowerCase().includes(word))).sort((a, b) => {
+    return championTrees.filter(t => (!state || t.state === state) && (!county || t.county === county) && (!town || townKey(t) === town) && (!genus || t.scientificName.split(" ")[0] === genus) && (!locationsOnly || Boolean(t.location || t.publicCoordinates)) && (!publicOnly || t.publicAccess === true) && words.every(word => `${stateNames[t.state]} ${t.state} ${t.mapTown || ""} ${t.commonName} ${t.scientificName} ${t.town} ${t.county} ${t.location || ""} ${t.notes || ""}`.toLowerCase().includes(word))).sort((a, b) => {
       if (sort === "height") return (b.height ?? -1) - (a.height ?? -1) || a.sourceRow - b.sourceRow;
       if (sort === "points") return (b.points ?? -1) - (a.points ?? -1) || a.sourceRow - b.sourceRow;
       if (sort === "town") return a.town.localeCompare(b.town) || a.commonName.localeCompare(b.commonName);
       return a.commonName.localeCompare(b.commonName) || a.sourceRow - b.sourceRow;
     });
-  }, [state, query, county, town, genus, locationsOnly, sort]);
+  }, [state, query, county, town, genus, locationsOnly, publicOnly, sort]);
   const groups = useMemo(() => {
     const counts = new Map<string, number>();
     results.forEach(t => counts.set(townKey(t), (counts.get(townKey(t)) || 0) + 1));
@@ -67,7 +70,7 @@ export default function ChampionExplorer() {
     resultsHeading.current?.focus({ preventScroll: true });
   }, []);
   function reset() {
-    setState(""); setQuery(""); setCounty(""); setTown(""); setGenus(""); setLocationsOnly(false); setSort("name"); setSelectedId(null); setResetKey(key => key + 1);
+    setState(""); setQuery(""); setCounty(""); setTown(""); setGenus(""); setLocationsOnly(false); setPublicOnly(false); setSort("name"); setSelectedId(null); setResetKey(key => key + 1);
   }
   function selectRecord(tree: ChampionTree) {
     setSelectedId(tree.id);
@@ -75,13 +78,14 @@ export default function ChampionExplorer() {
   }
   return <section className="champion-explorer" aria-label="Explore champion trees">
     <div className="champion-toolbar">
-      <label>State<select aria-label="State" value={state} onChange={e => { setState(e.target.value); setCounty(""); setTown(""); setSelectedId(null); }}><option value="">Both states</option><option value="MA">Massachusetts · 139 records</option><option value="NH">New Hampshire · 93 state champions</option></select></label>
-      <label className="champion-search">Find a tree, town, or place<input type="search" value={query} onChange={e => setQuery(e.target.value)} placeholder="Try pine, Epping, or Smith College…" /></label>
+      <label>State<select aria-label="State" value={state} onChange={e => { setState(e.target.value); setCounty(""); setTown(""); setSelectedId(null); }}><option value="">All states</option>{(Object.keys(stateNames) as ChampionState[]).map(code => <option key={code} value={code}>{stateNames[code]} · {championTrees.filter(t => t.state === code).length} records</option>)}</select></label>
+      <label className="champion-search">Find a tree, town, or place<input type="search" value={query} onChange={e => setQuery(e.target.value)} placeholder="Try pine, Burlington, or Smith College…" /></label>
       <label>County<select aria-label="County" value={county} onChange={e => { setCounty(e.target.value); setTown(""); }}><option value="">All counties</option>{counties.map(c => <option key={c}>{c}</option>)}</select></label>
       <label>Town or city<select aria-label="Town or city" value={town} onChange={e => setTown(e.target.value)}><option value="">All towns</option>{townOptions.filter(t => (!state || t.state === state) && (!county || championTrees.some(r => townKey(r) === t.key && r.county === county))).map(t => <option key={t.key} value={t.key}>{t.town}, {t.state}</option>)}</select></label>
       <label>Tree genus<select aria-label="Tree genus" value={genus} onChange={e => setGenus(e.target.value)}><option value="">All genera</option>{genera.map(g => <option key={g}>{g}</option>)}</select></label>
     </div>
-    <div className="champion-filter-bar"><label className="champion-check"><input type="checkbox" checked={locationsOnly} onChange={e => setLocationsOnly(e.target.checked)} /> With a published location</label><button type="button" className="champion-text-button" onClick={reset}>Reset all filters & map</button><a className="champion-text-button" href="#champion-results">Skip to tree results ↓</a></div>
+    <div className="champion-filter-bar"><label className="champion-check"><input type="checkbox" checked={locationsOnly} onChange={e => setLocationsOnly(e.target.checked)} /> With a published location</label><label className="champion-check"><input type="checkbox" checked={publicOnly} onChange={e => setPublicOnly(e.target.checked)} /> Source confirms public access</label><button type="button" className="champion-text-button" onClick={reset}>Reset all filters & map</button><a className="champion-text-button" href="#champion-results">Skip to tree results ↓</a></div>
+    {publicOnly && <p className="champion-location-note" role="status">Showing only records whose source explicitly confirms public access. Access information is currently available for Vermont; MA and NH records have not been classified.</p>}
     <p className="champion-map-note"><span aria-hidden="true">●</span> Numbers show matching tree records. Nearby towns group together when zoomed out; select a group to zoom in, then select a town to browse its trees. All markers are approximate municipality points.</p>
     <div className="champion-workspace">
       <div className="champion-map-column"><ChampionMap groups={groups} selectedTown={selected ? townKey(selected) : town || null} onTown={selectTown} resetKey={resetKey} />
@@ -95,7 +99,7 @@ export default function ChampionExplorer() {
           <label>Sort by<select aria-label="Sort by" value={sort} onChange={e => setSort(e.target.value)}><option value="name">Tree name</option><option value="town">Town</option><option value="height">Tallest first</option><option value="points">Published points</option></select></label>
         </div>
         {results.length ? <ul className="champion-result-list">{results.map(tree => <li key={tree.id}><button type="button" className={`champion-result${selected?.id === tree.id ? " is-selected" : ""}`} aria-pressed={selected?.id === tree.id} onClick={() => selectRecord(tree)}>
-          <span className="champion-result-town">{tree.town}, {tree.state} · {tree.county}</span><strong>{tree.commonName}</strong><i>{tree.scientificName}</i><span>{tree.location || "Location not disclosed"}</span><span className="champion-result-metrics">{formatMeasurement(tree.height)} ft tall · {formatMeasurement(tree.points)} points</span><span className="champion-result-open">Explore this record →</span>
+          <span className="champion-result-town">{tree.town}, {tree.state} · {tree.county}</span><strong>{tree.commonName}</strong><i>{tree.scientificName}</i><span>{tree.location || (tree.publicCoordinates ? "Public tree coordinates published" : "Location not disclosed")}</span>{tree.state === "VT" && <span>{tree.publicAccess ? "Public access listed" : "Private · no public access"}</span>}<span className="champion-result-metrics">{formatMeasurement(tree.height)} ft tall · {formatMeasurement(tree.points)} points</span><span className="champion-result-open">Explore this record →</span>
         </button></li>)}</ul> : <div className="champion-no-results"><h3>No trees match these filters.</h3><p>Try a broader search or return to the full list.</p><button type="button" className="button secondary" onClick={reset}>Show all {championTrees.length} records</button></div>}
       </div>
     </div>
