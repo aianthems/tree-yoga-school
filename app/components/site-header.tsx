@@ -10,6 +10,7 @@ export default function SiteHeader() {
         <nav aria-label="Primary navigation">
           <a href="/begin-here">Begin Here</a>
           <a href="/trees">Tree Library</a>
+          <a href="/champion-trees">Champion Map</a>
           <a href="/#practice">Practice</a>
           <a href="/book">The Book</a>
           <a href="/#principles">Principles</a>
