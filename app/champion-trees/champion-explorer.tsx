@@ -84,7 +84,7 @@ export default function ChampionExplorer({ manifest }: { manifest: ChampionManif
   const loading = requestedStates.some(code => !cache[code]);
   const championTrees = useMemo(() => requestKey.split(",").flatMap(code => cache[code as ChampionState]?.trees || []), [requestKey, cache]);
   const coordinates = useMemo(() => Object.assign({}, ...requestKey.split(",").map(code => cache[code as ChampionState]?.coordinates || {})) as ChampionPayload["coordinates"], [requestKey, cache]);
-  const townOptions = useMemo(() => [...new Map(championTrees.filter(t => t.town || t.mapPrecision === "county").map(tree => [townKey(tree), { key: townKey(tree), town: placeName(tree), state: tree.state, precision: tree.mapPrecision || "municipality" }])).values()].sort((a, b) => a.town.localeCompare(b.town) || a.state.localeCompare(b.state)), [championTrees]);
+  const townOptions = useMemo(() => [...new Map(championTrees.filter(t => t.town || t.mapPrecision === "county").map(tree => [townKey(tree), { key: townKey(tree), town: placeName(tree), state: tree.state, precision: tree.mapPrecision || (tree.state === "DE" ? "Census place" : "municipality") }])).values()].sort((a, b) => a.town.localeCompare(b.town) || a.state.localeCompare(b.state)), [championTrees]);
   const genera = useMemo(() => [...new Set(championTrees.map(t => t.scientificName.split(" ")[0]))].sort(), [championTrees]);
   const detail = useRef<HTMLDivElement>(null);
   const resultsHeading = useRef<HTMLHeadingElement>(null);
