@@ -810,3 +810,5 @@ section[id] { scroll-margin-top: 90px; }
   .champion-filter-bar { align-items: flex-start; gap: 0 1.25rem; }
 }
 @media (max-width: 400px) { .champion-toolbar { grid-template-columns: 1fr; } .champion-map { height: 330px; } }
+
+.champion-cluster span { outline: 3px solid rgba(30, 70, 53, 0.25); outline-offset: 3px; }

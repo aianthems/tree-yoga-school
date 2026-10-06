@@ -40,34 +40,56 @@ export default function ChampionMap({ groups, selectedTown, onTown, resetKey }: 
   useEffect(() => {
     if (!engine) return;
     const { L, map, markers } = engine;
-    markers.clearLayers();
-    const points: Leaflet.LatLngTuple[] = [];
-    groups.forEach(({ key, town, state, count }) => {
-      const coordinate = townCoordinates[key];
-      if (!coordinate) return;
-      const point: Leaflet.LatLngTuple = [coordinate.lat, coordinate.lng];
-      points.push(point);
-      const marker = L.marker(point, {
-        icon: L.divIcon({ className: "champion-marker", html: `<span>${count}</span>`, iconSize: [36, 36], iconAnchor: [18, 18] }),
-        title: `${town}, ${state}: ${count} ${count === 1 ? "tree" : "trees"}. Approximate municipality point.`,
-        alt: `${town}, ${state}: show ${count} ${count === 1 ? "tree" : "trees"}`,
-        keyboard: true,
-      }).addTo(markers);
-      const label = document.createElement("span");
-      label.textContent = `${town}, ${state} · ${count} ${count === 1 ? "tree" : "trees"} · municipality point`;
-      marker.bindTooltip(label, { direction: "top" });
-      marker.on("click", () => onTown(key));
-      const element = marker.getElement();
-      element?.setAttribute("aria-label", `${town}, ${state}: show ${count} ${count === 1 ? "tree" : "trees"}. Approximate municipality point.`);
-      element?.addEventListener("keydown", (event) => {
-        if (event.key === "Enter" || event.key === " ") {
-          event.preventDefault();
-          event.stopPropagation();
-          onTown(key);
-        }
-      });
+    const located = groups.flatMap(group => {
+      const coordinate = townCoordinates[group.key];
+      return coordinate ? [{ ...group, point: [coordinate.lat, coordinate.lng] as Leaflet.LatLngTuple }] : [];
     });
-    if (points.length) map.fitBounds(L.latLngBounds(points), { padding: [35, 35], maxZoom: 10, animate: false });
+    const redraw = () => {
+      markers.clearLayers();
+      // Keep marker centers at least 44 pixels apart. Cluster anchors remain at
+      // a source municipality point; each cluster retains all its town groups.
+      const clusters: { anchor: Leaflet.Point; towns: typeof located }[] = [];
+      located.forEach(group => {
+        const pixel = map.latLngToLayerPoint(group.point);
+        const cluster = clusters.find(c => c.anchor.distanceTo(pixel) < 44);
+        if (cluster) cluster.towns.push(group);
+        else clusters.push({ anchor: pixel, towns: [group] });
+      });
+      clusters.forEach(({ towns }) => {
+        const first = towns[0];
+        const count = towns.reduce((total, town) => total + town.count, 0);
+        const combined = towns.length > 1;
+        const name = combined
+          ? `Zoom to ${towns.length} towns with ${count} tree records. Approximate municipality points.`
+          : `${first.town}, ${first.state}: show ${count} ${count === 1 ? "tree" : "trees"}. Approximate municipality point.`;
+        const activate = () => {
+          if (combined) map.fitBounds(L.latLngBounds(towns.map(t => t.point)), { padding: [50, 50], maxZoom: Math.min(map.getZoom() + 2, 14), animate: false });
+          else onTown(first.key);
+        };
+        const marker = L.marker(first.point, {
+          icon: L.divIcon({ className: `champion-marker${combined ? " champion-cluster" : ""}`, html: `<span>${count}</span>`, iconSize: [36, 36], iconAnchor: [18, 18] }),
+          title: name, alt: name, keyboard: true,
+        }).addTo(markers);
+        const label = document.createElement("span");
+        label.textContent = combined
+          ? `${count} records · ${towns.length} towns · select to zoom in`
+          : `${first.town}, ${first.state} · ${count} ${count === 1 ? "tree" : "trees"} · municipality point`;
+        marker.bindTooltip(label, { direction: "top" });
+        marker.on("click", activate);
+        const element = marker.getElement();
+        element?.setAttribute("aria-label", name);
+        element?.addEventListener("keydown", (event) => {
+          if (event.key === "Enter" || event.key === " ") {
+            event.preventDefault(); event.stopPropagation(); activate();
+          }
+        });
+      });
+    };
+    if (located.length) map.fitBounds(L.latLngBounds(located.map(t => t.point)), { padding: [35, 35], maxZoom: 10, animate: false });
+    redraw();
+    map.on("zoomend", redraw);
+    return () => { map.off("zoomend", redraw); };
+
   }, [engine, groups, onTown, resetKey]);
 
   useEffect(() => {

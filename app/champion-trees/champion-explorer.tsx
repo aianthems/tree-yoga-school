@@ -82,7 +82,7 @@ export default function ChampionExplorer() {
       <label>Tree genus<select aria-label="Tree genus" value={genus} onChange={e => setGenus(e.target.value)}><option value="">All genera</option>{genera.map(g => <option key={g}>{g}</option>)}</select></label>
     </div>
     <div className="champion-filter-bar"><label className="champion-check"><input type="checkbox" checked={locationsOnly} onChange={e => setLocationsOnly(e.target.checked)} /> With a published location</label><button type="button" className="champion-text-button" onClick={reset}>Reset all filters & map</button><a className="champion-text-button" href="#champion-results">Skip to tree results ↓</a></div>
-    <p className="champion-map-note"><span aria-hidden="true">●</span> Numbers show matching records in each town. All markers are approximate municipality points. Select a marker to browse its trees.</p>
+    <p className="champion-map-note"><span aria-hidden="true">●</span> Numbers show matching tree records. Nearby towns group together when zoomed out; select a group to zoom in, then select a town to browse its trees. All markers are approximate municipality points.</p>
     <div className="champion-workspace">
       <div className="champion-map-column"><ChampionMap groups={groups} selectedTown={selected ? townKey(selected) : town || null} onTown={selectTown} resetKey={resetKey} />
         <div ref={detail} className="champion-detail-region" tabIndex={-1} aria-label="Selected tree details">
