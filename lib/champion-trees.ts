@@ -1,3 +1,5 @@
+import riRecords from "./data/rhode-island-champion-trees.json";
+import riCoordinates from "./data/rhode-island-town-points.json";
 import meRecords from "./data/maine-champion-trees.json";
 import meCoordinates from "./data/maine-town-points.json";
 import vtRecords from "./data/vermont-champion-trees.json";
@@ -7,7 +9,7 @@ import nhRecords from "./data/new-hampshire-champion-trees.json";
 import nhCoordinates from "./data/new-hampshire-town-points.json";
 import coordinates from "./data/massachusetts-town-centroids.json";
 
-export type ChampionState = "MA" | "NH" | "VT" | "ME";
+export type ChampionState = "MA" | "NH" | "VT" | "ME" | "RI";
 export type ChampionTree = {
   sourcePage?: number;
   id: string; state: ChampionState; publicAccess?: boolean; visibleFromPublic?: string | null; accessDetails?: string | null; publicCoordinates?: { lat: number; lng: number } | null; yearListed?: string | null; mapTown?: string; nominated?: string; status?: string; nationalFlag?: string; sourceUrl?: string; sourceRow: number; scientificName: string; commonName: string;
@@ -15,7 +17,7 @@ export type ChampionTree = {
   circumference: number | null; height: number | null; crown: number | null;
   points: number | null; notes: string | null;
 };
-export const stateNames = { MA: "Massachusetts", NH: "New Hampshire", VT: "Vermont", ME: "Maine" };
+export const stateNames = { MA: "Massachusetts", NH: "New Hampshire", VT: "Vermont", ME: "Maine", RI: "Rhode Island" };
 export function townKey(tree: Pick<ChampionTree, "state" | "town" | "mapTown">) {
   return `${tree.state}:${tree.mapTown || tree.town}`;
 }
@@ -23,14 +25,23 @@ export const championTrees: readonly ChampionTree[] = [
   ...records.map(tree => ({ ...tree, state: "MA" as const })),
   ...nhRecords.map(tree => ({ ...tree, state: "NH" as const })),
   ...vtRecords.map(tree => ({ ...tree, state: "VT" as const })),
+  ...riRecords.map(tree => ({ ...tree, state: "RI" as const })),
   ...meRecords.map(tree => ({ ...tree, state: "ME" as const })),
 ];
 export const townCoordinates: Record<string, { lat: number; lng: number }> = Object.fromEntries([
   ...Object.entries(coordinates).map(([town, point]) => [`MA:${town}`, point]),
   ...Object.entries(nhCoordinates).map(([town, point]) => [`NH:${town}`, point]),
   ...Object.entries(vtCoordinates).map(([town, point]) => [`VT:${town}`, point]),
+  ...Object.entries(riCoordinates).map(([town, point]) => [`RI:${town}`, point]),
   ...Object.entries(meCoordinates).map(([town, point]) => [`ME:${town}`, point]),
 ]);
+export const riChampionSource = {
+  edition: "March 24, 2026",
+  retrieved: "October 6, 2026",
+  registerUrl: "https://ritree.org/champion-tree/",
+  geographyUrl: "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_cousubs_44.txt",
+  cemeteryUrl: "https://swanpointcemetery.com/",
+};
 export const meChampionSource = {
   edition: "2020",
   retrieved: "October 6, 2026",
@@ -72,6 +83,7 @@ export const librarySpecies: Record<string, { slug: string; name: string }> = {
 };
 export function sourceWarnings(tree: ChampionTree): string[] {
   const warnings: string[] = [];
+  if (tree.state === "RI" && tree.mapTown) warnings.push(`The source lists “${tree.town}” in its city/town column. Its marker uses the approximate ${tree.mapTown} municipality point, based on the cemetery’s published address. The original fields are retained.`);
   if (tree.state === "ME" && tree.mapTown && tree.mapTown !== tree.town) warnings.push(`The register lists “${tree.town}”. The marker uses the approximate ${tree.mapTown} town or township point; the original place name is retained. It does not locate the individual tree.`);
   if (tree.state === "NH") {
     if (tree.mapTown && tree.mapTown !== tree.town) warnings.push(`The register lists “${tree.town}”. Its marker uses the approximate ${tree.mapTown} municipality point; the original place name is retained. ${tree.town === "Boscowen" ? "Boscowen is interpreted as the source’s spelling of Boscawen in Merrimack County." : "It does not locate the village or individual tree."}`);
