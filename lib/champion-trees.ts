@@ -1,18 +1,25 @@
-export type ChampionState = "MA" | "NH" | "VT" | "ME" | "RI" | "CT" | "NY";
+export type ChampionState = "MA" | "NH" | "VT" | "ME" | "RI" | "CT" | "NY" | "NJ";
 export type ChampionTree = {
-  sourcePage?: number; mapPrecision?: "county"; sourceCounty?: string; crownPoints?: number;
+  sourcePage?: number; mapPrecision?: "county"; sourceCounty?: string; crownPoints?: number; crownUnitUncertain?: boolean;
   id: string; state: ChampionState; publicAccess?: boolean; visibleFromPublic?: string | null; accessDetails?: string | null; publicCoordinates?: { lat: number; lng: number } | null; yearListed?: string | null; mapTown?: string; nominated?: string; status?: string; nationalFlag?: string; sourceUrl?: string; sourceRow: number; scientificName: string; commonName: string;
   location: string | null; town: string; county: string; measured: string | null;
   circumference: number | null; height: number | null; crown: number | null;
   points: number | null; notes: string | null;
 };
-export const stateNames = { MA: "Massachusetts", NH: "New Hampshire", VT: "Vermont", ME: "Maine", RI: "Rhode Island", CT: "Connecticut", NY: "New York" };
+export const stateNames = { MA: "Massachusetts", NH: "New Hampshire", VT: "Vermont", ME: "Maine", RI: "Rhode Island", CT: "Connecticut", NY: "New York", NJ: "New Jersey" };
 export function townKey(tree: Pick<ChampionTree, "state" | "town" | "mapTown" | "county" | "mapPrecision">) {
   return `${tree.state}:${tree.mapPrecision === "county" ? `county:${tree.county}` : tree.mapTown || tree.town}`;
 }
 export function placeName(tree: Pick<ChampionTree, "mapPrecision" | "county" | "mapTown" | "town">) {
   return tree.mapPrecision === "county" ? `${tree.county} County` : tree.mapTown || tree.town;
 }
+export const njChampionSource = {
+  retrieved: "October 6, 2026", dataEdited: "March 19, 2026",
+  programUrl: "https://dep.nj.gov/parksandforests/conservation/big-heritage-trees/",
+  registerUrl: "https://njdep.maps.arcgis.com/apps/webappviewer/index.html?id=f09501b4fb93432884bab9b923e64f73",
+  dataUrl: "https://services1.arcgis.com/QWdNfRs7lkPq4g4Q/arcgis/rest/services/NJDEP_Big_and_Heritage_Trees_in_New_Jersey/FeatureServer/19",
+  geographyUrl: "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_cousubs_34.txt",
+};
 export const nyChampionSource = {
   edition: "January 31, 2025", retrieved: "October 6, 2026",
   programUrl: "https://dec.ny.gov/nature/animals-fish-plants/plants/big-tree-register",
@@ -76,6 +83,10 @@ export const librarySpecies: Record<string, { slug: string; name: string }> = {
 };
 export function sourceWarnings(tree: ChampionTree): string[] {
   const warnings: string[] = [];
+  if (tree.crownUnitUncertain) {
+    warnings.push("NJDEP labels this field ‘Crown Average (in.)’, while its scoring guidance uses crown spread in feet. The original value is retained without a unit conversion or a recalculated score. Measurement dates are not supplied in this dataset.");
+    return warnings;
+  }
   if (tree.state === "RI" && tree.mapTown) warnings.push(`The source lists “${tree.town}” in its city/town column. Its marker uses the approximate ${tree.mapTown} municipality point, based on the cemetery’s published address. The original fields are retained.`);
   if (tree.state === "ME" && tree.mapTown && tree.mapTown !== tree.town) warnings.push(`The register lists “${tree.town}”. The marker uses the approximate ${tree.mapTown} town or township point; the original place name is retained. It does not locate the individual tree.`);
   if (tree.state === "NH") {
@@ -97,7 +108,7 @@ export function formatMeasurement(value: number | null) {
   return value === null ? "Not listed" : new Intl.NumberFormat("en-US", { maximumFractionDigits: 5 }).format(value);
 }
 
-export const sourceDates: Record<ChampionState, string> = { MA: "May 2026 edition", NH: "Retrieved October 6, 2026 · edition not stated", VT: "Retrieved October 6, 2026 · edition not stated", ME: "2020 edition · retrieved October 6, 2026", RI: "March 24, 2026 edition", CT: "Retrieved October 6, 2026 · edition not stated", NY: "January 31, 2025 edition" };
+export const sourceDates: Record<ChampionState, string> = { MA: "May 2026 edition", NH: "Retrieved October 6, 2026 · edition not stated", VT: "Retrieved October 6, 2026 · edition not stated", ME: "2020 edition · retrieved October 6, 2026", RI: "March 24, 2026 edition", CT: "Retrieved October 6, 2026 · edition not stated", NY: "January 31, 2025 edition", NJ: "Data edited March 19, 2026 · retrieved October 6, 2026" };
 export type ChampionManifest = { state: ChampionState; name: string; listed: number; mapped: number }[];
 export type ChampionPayload = { trees: ChampionTree[]; coordinates: Record<string, { lat: number; lng: number }> };
 export const championRegions = { "new-england": { name: "New England", states: ["MA", "NH", "VT", "ME", "RI", "CT"] }, northeast: { name: "Northeast", states: ["MA", "NH", "VT", "ME", "RI", "CT", "NY", "NJ", "PA"] } };
