@@ -21,7 +21,7 @@ export default function TreeLibrary() {
           <p className="lesson-lede">Each tree offers a new way into the practice. Begin with observation, explore its character, and bring one teaching into your day.</p>
           <div className="library-meta"><span>{trees.length === 1 ? "One tree to begin" : `${trees.length} trees to explore`}</span><span>Observation · Energy · Practice</span></div>
         </section>
-        <aside className="champion-library-link"><p className="section-kicker">Out in the world · Massachusetts, New Hampshire & Vermont</p><h2>Meet the champion trees.</h2><p>Explore champion tree records from Massachusetts, New Hampshire, and Vermont. Find remarkable trees by town, discover their measurements, and follow your curiosity.</p><Link href="/champion-trees">Explore the interactive Champion Map →</Link></aside>
+        <aside className="champion-library-link"><p className="section-kicker">Out in the world · Massachusetts, New Hampshire, Vermont & Maine</p><h2>Meet the champion trees.</h2><p>Explore champion tree records from Massachusetts, New Hampshire, Vermont, and Maine. Find remarkable trees by town, discover their measurements, and follow your curiosity.</p><Link href="/champion-trees">Explore the interactive Champion Map →</Link></aside>
         <nav className="tree-picker" aria-label="Choose a tree">{trees.map((tree) => <a key={tree.slug} href={`#${tree.slug}`}>{tree.name}</a>)}</nav>
         <section aria-label="Trees to explore" className="tree-library-grid">
           {trees.map((tree, index) => (

@@ -1,0 +1,392 @@
+{
+  "Alfred": {
+    "lat": 43.478568,
+    "lng": -70.727091,
+    "geoid": "2303100730",
+    "source": "2025 Census county subdivision"
+  },
+  "Augusta": {
+    "lat": 44.334904,
+    "lng": -69.734199,
+    "geoid": "2301102100",
+    "source": "2025 Census county subdivision"
+  },
+  "Bar Harbor": {
+    "lat": 44.39747,
+    "lng": -68.263808,
+    "geoid": "2300902865",
+    "source": "2025 Census county subdivision"
+  },
+  "Bath": {
+    "lat": 43.93253,
+    "lng": -69.847186,
+    "geoid": "2302303355",
+    "source": "2025 Census county subdivision"
+  },
+  "Belfast": {
+    "lat": 44.425874,
+    "lng": -69.026418,
+    "geoid": "2302703950",
+    "source": "2025 Census county subdivision"
+  },
+  "Bethel": {
+    "lat": 44.444449,
+    "lng": -70.74979,
+    "geoid": "2301704825",
+    "source": "2025 Census county subdivision"
+  },
+  "Bradstreet Twp": {
+    "lat": 45.52207195353714,
+    "lng": -70.20729936487122,
+    "geocode": "25813",
+    "source": "Maine GIS township centroid"
+  },
+  "Bridgewater": {
+    "lat": 46.413515,
+    "lng": -67.849155,
+    "geoid": "2300307065",
+    "source": "2025 Census county subdivision"
+  },
+  "Bristol": {
+    "lat": 43.892087,
+    "lng": -69.473191,
+    "geoid": "2301507485",
+    "source": "2025 Census county subdivision"
+  },
+  "Brooklin": {
+    "lat": 44.253869,
+    "lng": -68.541713,
+    "geoid": "2300907800",
+    "source": "2025 Census county subdivision"
+  },
+  "Brownfield": {
+    "lat": 43.930799,
+    "lng": -70.918584,
+    "geoid": "2301708150",
+    "source": "2025 Census county subdivision"
+  },
+  "Brunswick": {
+    "lat": 43.896431,
+    "lng": -69.973487,
+    "geoid": "2300508430",
+    "source": "2025 Census county subdivision"
+  },
+  "Buckfield": {
+    "lat": 44.260575,
+    "lng": -70.367129,
+    "geoid": "2301708710",
+    "source": "2025 Census county subdivision"
+  },
+  "Camden": {
+    "lat": 44.222343,
+    "lng": -69.063056,
+    "geoid": "2301309725",
+    "source": "2025 Census county subdivision"
+  },
+  "Cape Elizabeth": {
+    "lat": 43.567335,
+    "lng": -70.203509,
+    "geoid": "2300510180",
+    "source": "2025 Census county subdivision"
+  },
+  "Caribou": {
+    "lat": 46.836549,
+    "lng": -67.936056,
+    "geoid": "2300310565",
+    "source": "2025 Census county subdivision"
+  },
+  "Castine": {
+    "lat": 44.409006,
+    "lng": -68.815533,
+    "geoid": "2300911265",
+    "source": "2025 Census county subdivision"
+  },
+  "Cumberland": {
+    "lat": 43.78712,
+    "lng": -70.251154,
+    "geoid": "2300515430",
+    "source": "2025 Census county subdivision"
+  },
+  "Dover-Foxcroft": {
+    "lat": 45.178025,
+    "lng": -69.192696,
+    "geoid": "2302118195",
+    "source": "2025 Census county subdivision"
+  },
+  "Dyer Brook": {
+    "lat": 46.092111,
+    "lng": -68.249582,
+    "geoid": "2300319210",
+    "source": "2025 Census county subdivision"
+  },
+  "Eliot": {
+    "lat": 43.146551,
+    "lng": -70.774365,
+    "geoid": "2303122955",
+    "source": "2025 Census county subdivision"
+  },
+  "Falmouth": {
+    "lat": 43.740472,
+    "lng": -70.277172,
+    "geoid": "2300524495",
+    "source": "2025 Census county subdivision"
+  },
+  "Fort Fairfield": {
+    "lat": 46.776241,
+    "lng": -67.859197,
+    "geoid": "2300325615",
+    "source": "2025 Census county subdivision"
+  },
+  "Fryeburg": {
+    "lat": 44.043248,
+    "lng": -70.934046,
+    "geoid": "2301726910",
+    "source": "2025 Census county subdivision"
+  },
+  "Gorham": {
+    "lat": 43.701353,
+    "lng": -70.462982,
+    "geoid": "2300528240",
+    "source": "2025 Census county subdivision"
+  },
+  "Greene": {
+    "lat": 44.189754,
+    "lng": -70.145088,
+    "geoid": "2300129255",
+    "source": "2025 Census county subdivision"
+  },
+  "Hebron": {
+    "lat": 44.209257,
+    "lng": -70.388878,
+    "geoid": "2301732370",
+    "source": "2025 Census county subdivision"
+  },
+  "Hodgdon": {
+    "lat": 46.049696,
+    "lng": -67.83045,
+    "geoid": "2300333385",
+    "source": "2025 Census county subdivision"
+  },
+  "Hollis": {
+    "lat": 43.631019,
+    "lng": -70.614369,
+    "geoid": "2303133665",
+    "source": "2025 Census county subdivision"
+  },
+  "Howland": {
+    "lat": 45.267397,
+    "lng": -68.715311,
+    "geoid": "2301934190",
+    "source": "2025 Census county subdivision"
+  },
+  "Kennebunk": {
+    "lat": 43.380427,
+    "lng": -70.553958,
+    "geoid": "2303136535",
+    "source": "2025 Census county subdivision"
+  },
+  "Kennebunkport": {
+    "lat": 43.366714,
+    "lng": -70.430941,
+    "geoid": "2303136745",
+    "source": "2025 Census county subdivision"
+  },
+  "Kittery": {
+    "lat": 43.004852,
+    "lng": -70.604355,
+    "geoid": "2303137270",
+    "source": "2025 Census county subdivision"
+  },
+  "Lewiston": {
+    "lat": 44.089513,
+    "lng": -70.172095,
+    "geoid": "2300138740",
+    "source": "2025 Census county subdivision"
+  },
+  "Limerick": {
+    "lat": 43.688481,
+    "lng": -70.781883,
+    "geoid": "2303139195",
+    "source": "2025 Census county subdivision"
+  },
+  "Lovell": {
+    "lat": 44.192471,
+    "lng": -70.885803,
+    "geoid": "2301741365",
+    "source": "2025 Census county subdivision"
+  },
+  "Manchester": {
+    "lat": 44.342427,
+    "lng": -69.861935,
+    "geoid": "2301143080",
+    "source": "2025 Census county subdivision"
+  },
+  "Milton": {
+    "lat": 44.458505,
+    "lng": -70.600696,
+    "geoid": "2301746105",
+    "source": "2025 Census county subdivision"
+  },
+  "Moosehead Junction Twp": {
+    "lat": 45.43265645214358,
+    "lng": -69.67978072053242,
+    "geocode": "21816",
+    "source": "Maine GIS township centroid"
+  },
+  "Mount Desert": {
+    "lat": 44.333639,
+    "lng": -68.330405,
+    "geoid": "2300947630",
+    "source": "2025 Census county subdivision"
+  },
+  "Norridgewock": {
+    "lat": 44.732939,
+    "lng": -69.82014,
+    "geoid": "2302549835",
+    "source": "2025 Census county subdivision"
+  },
+  "Orland": {
+    "lat": 44.576321,
+    "lng": -68.669914,
+    "geoid": "2300955505",
+    "source": "2025 Census county subdivision"
+  },
+  "Orono": {
+    "lat": 44.88168,
+    "lng": -68.738644,
+    "geoid": "2301955565",
+    "source": "2025 Census county subdivision"
+  },
+  "Paris": {
+    "lat": 44.248001,
+    "lng": -70.490816,
+    "geoid": "2301756625",
+    "source": "2025 Census county subdivision"
+  },
+  "Phippsburg": {
+    "lat": 43.741099,
+    "lng": -69.826141,
+    "geoid": "2302358515",
+    "source": "2025 Census county subdivision"
+  },
+  "Poland": {
+    "lat": 44.048106,
+    "lng": -70.393563,
+    "geoid": "2300160020",
+    "source": "2025 Census county subdivision"
+  },
+  "Portland": {
+    "lat": 43.633157,
+    "lng": -70.185305,
+    "geoid": "2300560545",
+    "source": "2025 Census county subdivision"
+  },
+  "Richmond": {
+    "lat": 44.116833,
+    "lng": -69.829607,
+    "geoid": "2302362645",
+    "source": "2025 Census county subdivision"
+  },
+  "Rockland": {
+    "lat": 44.123883,
+    "lng": -69.130452,
+    "geoid": "2301363590",
+    "source": "2025 Census county subdivision"
+  },
+  "Sanford": {
+    "lat": 43.424142,
+    "lng": -70.757859,
+    "geoid": "2303165725",
+    "source": "2025 Census county subdivision"
+  },
+  "Scarborough": {
+    "lat": 43.571203,
+    "lng": -70.33417,
+    "geoid": "2300566145",
+    "source": "2025 Census county subdivision"
+  },
+  "South Portland": {
+    "lat": 43.631402,
+    "lng": -70.285989,
+    "geoid": "2300571990",
+    "source": "2025 Census county subdivision"
+  },
+  "Sumner": {
+    "lat": 44.380796,
+    "lng": -70.448594,
+    "geoid": "2301775035",
+    "source": "2025 Census county subdivision"
+  },
+  "Vassalboro": {
+    "lat": 44.429335,
+    "lng": -69.648294,
+    "geoid": "2301178745",
+    "source": "2025 Census county subdivision"
+  },
+  "Warren": {
+    "lat": 44.12801,
+    "lng": -69.243885,
+    "geoid": "2301380215",
+    "source": "2025 Census county subdivision"
+  },
+  "Waterford": {
+    "lat": 44.202838,
+    "lng": -70.722272,
+    "geoid": "2301780635",
+    "source": "2025 Census county subdivision"
+  },
+  "Wayne": {
+    "lat": 44.34155,
+    "lng": -70.067985,
+    "geoid": "2301180880",
+    "source": "2025 Census county subdivision"
+  },
+  "Weld": {
+    "lat": 44.687468,
+    "lng": -70.449287,
+    "geoid": "2300781300",
+    "source": "2025 Census county subdivision"
+  },
+  "Wells": {
+    "lat": 43.311219,
+    "lng": -70.632614,
+    "geoid": "2303181475",
+    "source": "2025 Census county subdivision"
+  },
+  "Westbrook": {
+    "lat": 43.70792,
+    "lng": -70.352602,
+    "geoid": "2300582105",
+    "source": "2025 Census county subdivision"
+  },
+  "Whitefield": {
+    "lat": 44.198014,
+    "lng": -69.619689,
+    "geoid": "2301585010",
+    "source": "2025 Census county subdivision"
+  },
+  "Wilton": {
+    "lat": 44.627562,
+    "lng": -70.248845,
+    "geoid": "2300785850",
+    "source": "2025 Census county subdivision"
+  },
+  "Windham": {
+    "lat": 43.794689,
+    "lng": -70.405329,
+    "geoid": "2300586025",
+    "source": "2025 Census county subdivision"
+  },
+  "Yarmouth": {
+    "lat": 43.788137,
+    "lng": -70.156478,
+    "geoid": "2300587845",
+    "source": "2025 Census county subdivision"
+  },
+  "York": {
+    "lat": 43.165495,
+    "lng": -70.59101,
+    "geoid": "2303187985",
+    "source": "2025 Census county subdivision"
+  }
+}

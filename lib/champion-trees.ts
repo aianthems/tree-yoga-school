@@ -1,3 +1,5 @@
+import meRecords from "./data/maine-champion-trees.json";
+import meCoordinates from "./data/maine-town-points.json";
 import vtRecords from "./data/vermont-champion-trees.json";
 import vtCoordinates from "./data/vermont-town-points.json";
 import records from "./data/champion-trees.json";
@@ -5,14 +7,15 @@ import nhRecords from "./data/new-hampshire-champion-trees.json";
 import nhCoordinates from "./data/new-hampshire-town-points.json";
 import coordinates from "./data/massachusetts-town-centroids.json";
 
-export type ChampionState = "MA" | "NH" | "VT";
+export type ChampionState = "MA" | "NH" | "VT" | "ME";
 export type ChampionTree = {
+  sourcePage?: number;
   id: string; state: ChampionState; publicAccess?: boolean; visibleFromPublic?: string | null; accessDetails?: string | null; publicCoordinates?: { lat: number; lng: number } | null; yearListed?: string | null; mapTown?: string; nominated?: string; status?: string; nationalFlag?: string; sourceUrl?: string; sourceRow: number; scientificName: string; commonName: string;
   location: string | null; town: string; county: string; measured: string | null;
   circumference: number | null; height: number | null; crown: number | null;
   points: number | null; notes: string | null;
 };
-export const stateNames = { MA: "Massachusetts", NH: "New Hampshire", VT: "Vermont" };
+export const stateNames = { MA: "Massachusetts", NH: "New Hampshire", VT: "Vermont", ME: "Maine" };
 export function townKey(tree: Pick<ChampionTree, "state" | "town" | "mapTown">) {
   return `${tree.state}:${tree.mapTown || tree.town}`;
 }
@@ -20,12 +23,22 @@ export const championTrees: readonly ChampionTree[] = [
   ...records.map(tree => ({ ...tree, state: "MA" as const })),
   ...nhRecords.map(tree => ({ ...tree, state: "NH" as const })),
   ...vtRecords.map(tree => ({ ...tree, state: "VT" as const })),
+  ...meRecords.map(tree => ({ ...tree, state: "ME" as const })),
 ];
 export const townCoordinates: Record<string, { lat: number; lng: number }> = Object.fromEntries([
   ...Object.entries(coordinates).map(([town, point]) => [`MA:${town}`, point]),
   ...Object.entries(nhCoordinates).map(([town, point]) => [`NH:${town}`, point]),
   ...Object.entries(vtCoordinates).map(([town, point]) => [`VT:${town}`, point]),
+  ...Object.entries(meCoordinates).map(([town, point]) => [`ME:${town}`, point]),
 ]);
+export const meChampionSource = {
+  edition: "2020",
+  retrieved: "October 6, 2026",
+  programUrl: "https://www.maine.gov/dacf/mfs/policy_management/project_canopy/programs/big_trees.html",
+  registerUrl: "https://www.maine.gov/tools/whatsnew/attach.php?an=1&id=3332272",
+  geographyUrl: "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_cousubs_23.txt",
+  townshipUrl: "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Town_and_Townships_Boundary_Polygons/FeatureServer/0",
+};
 export const vtChampionSource = {
   retrieved: "October 6, 2026",
   programUrl: "https://vtcommunityforestry.org/projects/vermont-big-tree-program",
@@ -59,6 +72,7 @@ export const librarySpecies: Record<string, { slug: string; name: string }> = {
 };
 export function sourceWarnings(tree: ChampionTree): string[] {
   const warnings: string[] = [];
+  if (tree.state === "ME" && tree.mapTown && tree.mapTown !== tree.town) warnings.push(`The register lists “${tree.town}”. The marker uses the approximate ${tree.mapTown} town or township point; the original place name is retained. It does not locate the individual tree.`);
   if (tree.state === "NH") {
     if (tree.mapTown && tree.mapTown !== tree.town) warnings.push(`The register lists “${tree.town}”. Its marker uses the approximate ${tree.mapTown} municipality point; the original place name is retained. ${tree.town === "Boscowen" ? "Boscowen is interpreted as the source’s spelling of Boscawen in Merrimack County." : "It does not locate the village or individual tree."}`);
     return warnings;
