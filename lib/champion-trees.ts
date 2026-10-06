@@ -1,16 +1,3 @@
-import ctRecords from "./data/connecticut-champion-trees.json";
-import ctCoordinates from "./data/connecticut-town-points.json";
-import riRecords from "./data/rhode-island-champion-trees.json";
-import riCoordinates from "./data/rhode-island-town-points.json";
-import meRecords from "./data/maine-champion-trees.json";
-import meCoordinates from "./data/maine-town-points.json";
-import vtRecords from "./data/vermont-champion-trees.json";
-import vtCoordinates from "./data/vermont-town-points.json";
-import records from "./data/champion-trees.json";
-import nhRecords from "./data/new-hampshire-champion-trees.json";
-import nhCoordinates from "./data/new-hampshire-town-points.json";
-import coordinates from "./data/massachusetts-town-centroids.json";
-
 export type ChampionState = "MA" | "NH" | "VT" | "ME" | "RI" | "CT";
 export type ChampionTree = {
   sourcePage?: number;
@@ -23,22 +10,6 @@ export const stateNames = { MA: "Massachusetts", NH: "New Hampshire", VT: "Vermo
 export function townKey(tree: Pick<ChampionTree, "state" | "town" | "mapTown">) {
   return `${tree.state}:${tree.mapTown || tree.town}`;
 }
-export const championTrees: readonly ChampionTree[] = [
-  ...records.map(tree => ({ ...tree, state: "MA" as const })),
-  ...nhRecords.map(tree => ({ ...tree, state: "NH" as const })),
-  ...vtRecords.map(tree => ({ ...tree, state: "VT" as const })),
-  ...ctRecords.map(tree => ({ ...tree, state: "CT" as const })),
-  ...riRecords.map(tree => ({ ...tree, state: "RI" as const })),
-  ...meRecords.map(tree => ({ ...tree, state: "ME" as const })),
-];
-export const townCoordinates: Record<string, { lat: number; lng: number }> = Object.fromEntries([
-  ...Object.entries(coordinates).map(([town, point]) => [`MA:${town}`, point]),
-  ...Object.entries(nhCoordinates).map(([town, point]) => [`NH:${town}`, point]),
-  ...Object.entries(vtCoordinates).map(([town, point]) => [`VT:${town}`, point]),
-  ...Object.entries(ctCoordinates).map(([town, point]) => [`CT:${town}`, point]),
-  ...Object.entries(riCoordinates).map(([town, point]) => [`RI:${town}`, point]),
-  ...Object.entries(meCoordinates).map(([town, point]) => [`ME:${town}`, point]),
-]);
 export const ctChampionSource = {
   retrieved: "October 6, 2026",
   programUrl: "https://oak.conncoll.edu/notabletrees/",
@@ -115,3 +86,8 @@ export function sourceWarnings(tree: ChampionTree): string[] {
 export function formatMeasurement(value: number | null) {
   return value === null ? "Not listed" : new Intl.NumberFormat("en-US", { maximumFractionDigits: 5 }).format(value);
 }
+
+export const sourceDates: Record<ChampionState, string> = { MA: "May 2026 edition", NH: "Retrieved October 6, 2026 · edition not stated", VT: "Retrieved October 6, 2026 · edition not stated", ME: "2020 edition · retrieved October 6, 2026", RI: "March 24, 2026 edition", CT: "Retrieved October 6, 2026 · edition not stated" };
+export type ChampionManifest = { state: ChampionState; name: string; listed: number; mapped: number }[];
+export type ChampionPayload = { trees: ChampionTree[]; coordinates: Record<string, { lat: number; lng: number }> };
+export const championRegions = { "new-england": { name: "New England", states: ["MA", "NH", "VT", "ME", "RI", "CT"] }, northeast: { name: "Northeast", states: ["MA", "NH", "VT", "ME", "RI", "CT", "NY", "NJ", "PA"] } };

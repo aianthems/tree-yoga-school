@@ -1,14 +1,11 @@
 "use client";
 
-import { useCallback, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import ChampionMap from "./champion-map";
-import { championTrees, formatMeasurement, librarySpecies, sourceWarnings, townKey, stateNames, nhChampionSource, vtChampionSource, meChampionSource, riChampionSource, ctChampionSource, type ChampionState, type ChampionTree } from "../../lib/champion-trees";
+import { championRegions, sourceDates, type ChampionManifest, type ChampionPayload, formatMeasurement, librarySpecies, sourceWarnings, townKey, stateNames, nhChampionSource, vtChampionSource, meChampionSource, riChampionSource, ctChampionSource, type ChampionState, type ChampionTree } from "../../lib/champion-trees";
 
-const townOptions = [...new Map(championTrees.map(tree => [townKey(tree), { key: townKey(tree), town: tree.mapTown || tree.town, state: tree.state }])).values()].sort((a, b) => a.town.localeCompare(b.town) || a.state.localeCompare(b.state));
-const genera = [...new Set(championTrees.map(t => t.scientificName.split(" ")[0]))].sort();
-
-function RecordDetails({ tree }: { tree: ChampionTree }) {
+function RecordDetails({ tree, mapped }: { tree: ChampionTree; mapped: boolean }) {
   const warnings = sourceWarnings(tree);
   const library = tree.state === "MA" && tree.sourceRow === 132 ? undefined : librarySpecies[tree.scientificName];
   const measured = tree.measured && /^\d{4}$/.test(tree.measured) ? tree.measured : tree.measured ? new Date(`${tree.measured}T12:00:00Z`).toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric", timeZone: "UTC" }) : "Not listed";
@@ -27,7 +24,7 @@ function RecordDetails({ tree }: { tree: ChampionTree }) {
     {tree.state === "ME" && <p className="champion-access"><strong>Maine register · 2020 edition</strong> · Public access is not specified in this register.</p>}
     {tree.state === "VT" && <><p><strong>Register status:</strong> Confirmed champion · Record {tree.sourceRow}{tree.yearListed ? ` · Listed ${tree.yearListed}` : ""}</p><p className="champion-access"><strong>{tree.publicAccess ? "Public access listed by Vermont" : "Private property · no public access"}</strong>{tree.visibleFromPublic === "yes" && <span> · Source says visible from a road or public property; this does not grant entry.</span>}</p><p>{tree.accessDetails}</p></>}
     <h3>{tree.state === "CT" ? "Location published by Connecticut’s Notable Trees" : tree.state === "RI" ? "Location published by RI Tree Council" : tree.state === "ME" ? "Place listed by Maine Forest Service" : tree.state === "VT" ? "Published location notes" : tree.state === "NH" ? "Place listed by NH Big Trees" : "Location published by DCR"}</h3><p>{tree.state === "ME" ? `${tree.town}. The register gives a town or township, without a street address or tree coordinates. ${tree.county} County is matched from official geography.` : tree.state === "VT" ? tree.location || "No additional location notes are published." : tree.state === "NH" ? `${tree.town}, ${tree.county} County. The register does not publish a street address or tree coordinates for this record.` : tree.location || "No location disclosed in this list. Only the town is provided."}</p>
-    <p className="champion-location-note">The marker is an approximate municipality point, not the tree’s position. {(tree.location || tree.publicCoordinates) ? "Confirm current visiting guidance with the landowner or site before visiting." : "An exact location has not been inferred."}</p>
+    <p className="champion-location-note">{mapped ? "The marker is an approximate municipality point, not the tree’s position." : "This record has no map point. Its original place information is retained below."} {(tree.location || tree.publicCoordinates) ? "Confirm current visiting guidance with the landowner or site before visiting." : "An exact location has not been inferred."}</p>
     {tree.notes && <p><strong>Source notes:</strong> {tree.notes}</p>}
     {warnings.length > 0 && <div className="champion-source-note"><h3>Source note</h3>{warnings.map(warning => <p key={warning}>{warning}</p>)}</div>}
     <div className="course-actions">
@@ -39,7 +36,12 @@ function RecordDetails({ tree }: { tree: ChampionTree }) {
   </article>;
 }
 
-export default function ChampionExplorer() {
+export default function ChampionExplorer({ manifest }: { manifest: ChampionManifest }) {
+  const [region, setRegion] = useState("");
+  const [cache, setCache] = useState<Partial<Record<ChampionState, ChampionPayload>>>({});
+  const [loadError, setLoadError] = useState(false);
+  const [retry, setRetry] = useState(0);
+  const [page, setPage] = useState(1);
   const [state, setState] = useState("");
   const [query, setQuery] = useState("");
   const [county, setCounty] = useState("");
@@ -50,6 +52,32 @@ export default function ChampionExplorer() {
   const [sort, setSort] = useState("name");
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [resetKey, setResetKey] = useState(0);
+  const statesInRegion = manifest.filter(s => !region || championRegions[region as keyof typeof championRegions].states.includes(s.state));
+  const requestedStates = statesInRegion.filter(s => !state || s.state === state).map(s => s.state);
+  const requestKey = requestedStates.join(",");
+  const cached = useRef<Partial<Record<ChampionState, ChampionPayload>>>({});
+  useEffect(() => {
+    let disposed = false;
+    setLoadError(false);
+    const codes = requestKey.split(",").filter(Boolean) as ChampionState[];
+    const missing = codes.filter(code => !cached.current[code]);
+    Promise.all(missing.map(async code => {
+      const response = await fetch(`/api/champion-trees/${code}`);
+      if (!response.ok) throw new Error("Could not load state register");
+      const payload: ChampionPayload = await response.json();
+      return [code, payload] as const;
+    })).then(entries => {
+      if (disposed) return;
+      entries.forEach(([code, payload]) => { cached.current[code] = payload; });
+      setCache({ ...cached.current });
+    }).catch(() => { if (!disposed) setLoadError(true); });
+    return () => { disposed = true; };
+  }, [requestKey, retry]);
+  const loading = requestedStates.some(code => !cache[code]);
+  const championTrees = useMemo(() => requestKey.split(",").flatMap(code => cache[code as ChampionState]?.trees || []), [requestKey, cache]);
+  const coordinates = useMemo(() => Object.assign({}, ...requestKey.split(",").map(code => cache[code as ChampionState]?.coordinates || {})) as ChampionPayload["coordinates"], [requestKey, cache]);
+  const townOptions = useMemo(() => [...new Map(championTrees.filter(t => t.town).map(tree => [townKey(tree), { key: townKey(tree), town: tree.mapTown || tree.town, state: tree.state }])).values()].sort((a, b) => a.town.localeCompare(b.town) || a.state.localeCompare(b.state)), [championTrees]);
+  const genera = useMemo(() => [...new Set(championTrees.map(t => t.scientificName.split(" ")[0]))].sort(), [championTrees]);
   const detail = useRef<HTMLDivElement>(null);
   const resultsHeading = useRef<HTMLHeadingElement>(null);
   const results = useMemo(() => {
@@ -60,12 +88,12 @@ export default function ChampionExplorer() {
       if (sort === "town") return a.town.localeCompare(b.town) || a.commonName.localeCompare(b.commonName);
       return a.commonName.localeCompare(b.commonName) || a.sourceRow - b.sourceRow;
     });
-  }, [state, query, county, town, genus, locationsOnly, publicOnly, sort]);
+  }, [championTrees, state, query, county, town, genus, locationsOnly, publicOnly, sort]);
   const groups = useMemo(() => {
     const counts = new Map<string, number>();
     results.forEach(t => counts.set(townKey(t), (counts.get(townKey(t)) || 0) + 1));
-    return townOptions.filter(t => counts.has(t.key)).map(t => ({ ...t, count: counts.get(t.key)! }));
-  }, [results]);
+    return townOptions.filter(t => counts.has(t.key) && coordinates[t.key]).map(t => ({ ...t, count: counts.get(t.key)! }));
+  }, [results, townOptions, coordinates]);
   const counties = [...new Set(championTrees.filter(t => !state || t.state === state).map(t => t.county))].sort();
   const selected = results.find(t => t.id === selectedId);
   const selectTown = useCallback((value: string) => {
@@ -73,37 +101,45 @@ export default function ChampionExplorer() {
     resultsHeading.current?.focus({ preventScroll: true });
   }, []);
   function reset() {
-    setState(""); setQuery(""); setCounty(""); setTown(""); setGenus(""); setLocationsOnly(false); setPublicOnly(false); setSort("name"); setSelectedId(null); setResetKey(key => key + 1);
+    setRegion(""); setPage(1); setState(""); setQuery(""); setCounty(""); setTown(""); setGenus(""); setLocationsOnly(false); setPublicOnly(false); setSort("name"); setSelectedId(null); setResetKey(key => key + 1);
   }
   function selectRecord(tree: ChampionTree) {
     setSelectedId(tree.id);
     requestAnimationFrame(() => { detail.current?.focus({ preventScroll: true }); detail.current?.scrollIntoView({ block: "nearest", behavior: "auto" }); });
   }
+  useEffect(() => { setPage(1); }, [requestKey, query, county, town, genus, locationsOnly, publicOnly, sort]);
+  const mappedCount = results.filter(t => Boolean(coordinates[townKey(t)])).length;
+  const visibleResults = results.slice(0, page * 50);
   return <section className="champion-explorer" aria-label="Explore champion trees">
+    <div className="champion-region-bar" aria-label="Explore by region"><span>Explore a region</span>{[["", "All available states"], ["new-england", "New England"], ["northeast", "Northeast"]].map(([value, name]) => <button key={value} type="button" className="button secondary" aria-pressed={region === value} onClick={() => { setRegion(value); setState(""); setCounty(""); setTown(""); setSelectedId(null); }}>{name}</button>)}</div>
+    {region === "northeast" && <p className="champion-location-note">Northeast currently covers the six New England states. New York, New Jersey, and Pennsylvania will appear here as their registers are added.</p>}
     <div className="champion-toolbar">
-      <label>State<select aria-label="State" value={state} onChange={e => { setState(e.target.value); setCounty(""); setTown(""); setSelectedId(null); }}><option value="">All states</option>{(Object.keys(stateNames) as ChampionState[]).map(code => <option key={code} value={code}>{stateNames[code]} · {championTrees.filter(t => t.state === code).length} records</option>)}</select></label>
+      <label>State<select aria-label="State" value={state} onChange={e => { setState(e.target.value); setCounty(""); setTown(""); setSelectedId(null); }}><option value="">All states</option>{statesInRegion.map(({ state: code, listed }) => <option key={code} value={code}>{stateNames[code]} · {listed} records</option>)}</select></label>
       <label className="champion-search">Find a tree, town, or place<input type="search" value={query} onChange={e => setQuery(e.target.value)} placeholder="Try pine, Portland, or Smith College…" /></label>
       <label>County or planning region<select aria-label="County or planning region" value={county} onChange={e => { setCounty(e.target.value); setTown(""); }}><option value="">All counties & regions</option>{counties.map(c => <option key={c}>{c}</option>)}</select></label>
       <label>Town, city, or township<select aria-label="Town, city, or township" value={town} onChange={e => setTown(e.target.value)}><option value="">All towns & townships</option>{townOptions.filter(t => (!state || t.state === state) && (!county || championTrees.some(r => townKey(r) === t.key && r.county === county))).map(t => <option key={t.key} value={t.key}>{t.town}, {t.state}</option>)}</select></label>
       <label>Tree genus<select aria-label="Tree genus" value={genus} onChange={e => setGenus(e.target.value)}><option value="">All genera</option>{genera.map(g => <option key={g}>{g}</option>)}</select></label>
     </div>
     <div className="champion-filter-bar"><label className="champion-check"><input type="checkbox" checked={locationsOnly} onChange={e => setLocationsOnly(e.target.checked)} /> With a published location</label><label className="champion-check"><input type="checkbox" checked={publicOnly} onChange={e => setPublicOnly(e.target.checked)} /> Source confirms public access</label><button type="button" className="champion-text-button" onClick={reset}>Reset all filters & map</button><a className="champion-text-button" href="#champion-results">Skip to tree results ↓</a></div>
+    {state && <p className="champion-location-note"><strong>{stateNames[state as ChampionState]} source:</strong> {sourceDates[state as ChampionState]}</p>}
+    {(loading || loadError) && <p role="status">{loadError ? "This selection could not finish loading. Retry to see its complete register." : "Loading tree registers…"} {loadError && <button type="button" className="champion-text-button" onClick={() => setRetry(n => n + 1)}>Retry loading</button>}</p>}
     {publicOnly && <p className="champion-location-note" role="status">Showing only records whose source explicitly confirms public access. Access information is currently available for Vermont; MA, NH, Maine, Rhode Island, and Connecticut records have not been classified.</p>}
     <p className="champion-map-note"><span aria-hidden="true">●</span> Numbers show matching tree records. Nearby towns group together when zoomed out; select a group to zoom in, then select a town to browse its trees. All markers are approximate municipality points.</p>
     <div className="champion-workspace">
-      <div className="champion-map-column"><ChampionMap groups={groups} selectedTown={selected ? townKey(selected) : town || null} onTown={selectTown} resetKey={resetKey} />
+      <div className="champion-map-column"><ChampionMap coordinates={coordinates} groups={groups} selectedTown={selected ? townKey(selected) : town || null} onTown={selectTown} resetKey={resetKey} />
         <div ref={detail} className="champion-detail-region" tabIndex={-1} aria-label="Selected tree details">
-          {selected ? <RecordDetails tree={selected} /> : <div className="champion-detail-empty"><p className="section-kicker">A closer look</p><h2>Every champion has a place.</h2><p>Select a tree in the list to see its measurements, published location, and notes. The map helps you explore the region; the record tells you what the source program has shared.</p></div>}
+          {selected ? <RecordDetails tree={selected} mapped={Boolean(coordinates[townKey(selected)])} /> : <div className="champion-detail-empty"><p className="section-kicker">A closer look</p><h2>Every champion has a place.</h2><p>Select a tree in the list to see its measurements, published location, and notes. The map helps you explore the region; the record tells you what the source program has shared.</p></div>}
         </div>
       </div>
       <div className="champion-results" id="champion-results">
-        <div className="champion-results-header"><h2 ref={resultsHeading} tabIndex={-1}>Tree records</h2><p role="status" aria-live="polite">{results.length} {results.length === 1 ? "record" : "records"} in {groups.length} {groups.length === 1 ? "town" : "towns"}{town ? ` · ${townOptions.find(t => t.key === town)?.town}, ${town.split(":")[0]}` : ""}</p>
+        <div className="champion-results-header"><h2 ref={resultsHeading} tabIndex={-1}>Tree records</h2><p role="status" aria-live="polite">{results.length.toLocaleString("en-US")} listed · {mappedCount.toLocaleString("en-US")} mapped · {groups.length} {groups.length === 1 ? "town" : "towns"}{town ? ` · ${townOptions.find(t => t.key === town)?.town}, ${town.split(":")[0]}` : ""}</p>
           {town && <button className="champion-text-button" type="button" onClick={() => setTown("")}>Show all towns</button>}
           <label>Sort by<select aria-label="Sort by" value={sort} onChange={e => setSort(e.target.value)}><option value="name">Tree name</option><option value="town">Town</option><option value="height">Tallest first</option><option value="points">Published points</option></select></label>
         </div>
-        {results.length ? <ul className="champion-result-list">{results.map(tree => <li key={tree.id}><button type="button" className={`champion-result${selected?.id === tree.id ? " is-selected" : ""}`} aria-pressed={selected?.id === tree.id} onClick={() => selectRecord(tree)}>
+        {loading || loadError ? <p className="champion-location-note">The complete results will appear when this selection finishes loading.</p> : results.length ? <ul className="champion-result-list">{visibleResults.map(tree => <li key={tree.id}><button type="button" className={`champion-result${selected?.id === tree.id ? " is-selected" : ""}`} aria-pressed={selected?.id === tree.id} onClick={() => selectRecord(tree)}>
           <span className="champion-result-town">{tree.town}, {tree.state} · {tree.county}</span><strong>{tree.commonName}</strong><i>{tree.scientificName}</i><span>{tree.location || (tree.publicCoordinates ? "Public tree coordinates published" : "Location not disclosed")}</span>{tree.state === "CT" && <span>{tree.status} · access unclassified</span>}{tree.state === "RI" && <span>2026 register · access not specified</span>}{tree.state === "ME" && <span>2020 register · access not specified</span>}{tree.state === "VT" && <span>{tree.publicAccess ? "Public access listed" : "Private · no public access"}</span>}<span className="champion-result-metrics">{formatMeasurement(tree.height)} ft tall · {formatMeasurement(tree.points)} points</span><span className="champion-result-open">Explore this record →</span>
         </button></li>)}</ul> : <div className="champion-no-results"><h3>No trees match these filters.</h3><p>Try a broader search or return to the full list.</p><button type="button" className="button secondary" onClick={reset}>Show all {championTrees.length} records</button></div>}
+        {!loading && !loadError && visibleResults.length < results.length && <div className="champion-pagination"><p>Showing {visibleResults.length} of {results.length.toLocaleString("en-US")} listed trees. The map includes all {mappedCount.toLocaleString("en-US")} mapped matches.</p><button type="button" className="button secondary" onClick={() => setPage(n => n + 1)}>Show 50 more trees</button></div>}
       </div>
     </div>
   </section>;
