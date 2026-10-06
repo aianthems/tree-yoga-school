@@ -1,3 +1,5 @@
+import ctRecords from "./data/connecticut-champion-trees.json";
+import ctCoordinates from "./data/connecticut-town-points.json";
 import riRecords from "./data/rhode-island-champion-trees.json";
 import riCoordinates from "./data/rhode-island-town-points.json";
 import meRecords from "./data/maine-champion-trees.json";
@@ -9,7 +11,7 @@ import nhRecords from "./data/new-hampshire-champion-trees.json";
 import nhCoordinates from "./data/new-hampshire-town-points.json";
 import coordinates from "./data/massachusetts-town-centroids.json";
 
-export type ChampionState = "MA" | "NH" | "VT" | "ME" | "RI";
+export type ChampionState = "MA" | "NH" | "VT" | "ME" | "RI" | "CT";
 export type ChampionTree = {
   sourcePage?: number;
   id: string; state: ChampionState; publicAccess?: boolean; visibleFromPublic?: string | null; accessDetails?: string | null; publicCoordinates?: { lat: number; lng: number } | null; yearListed?: string | null; mapTown?: string; nominated?: string; status?: string; nationalFlag?: string; sourceUrl?: string; sourceRow: number; scientificName: string; commonName: string;
@@ -17,7 +19,7 @@ export type ChampionTree = {
   circumference: number | null; height: number | null; crown: number | null;
   points: number | null; notes: string | null;
 };
-export const stateNames = { MA: "Massachusetts", NH: "New Hampshire", VT: "Vermont", ME: "Maine", RI: "Rhode Island" };
+export const stateNames = { MA: "Massachusetts", NH: "New Hampshire", VT: "Vermont", ME: "Maine", RI: "Rhode Island", CT: "Connecticut" };
 export function townKey(tree: Pick<ChampionTree, "state" | "town" | "mapTown">) {
   return `${tree.state}:${tree.mapTown || tree.town}`;
 }
@@ -25,6 +27,7 @@ export const championTrees: readonly ChampionTree[] = [
   ...records.map(tree => ({ ...tree, state: "MA" as const })),
   ...nhRecords.map(tree => ({ ...tree, state: "NH" as const })),
   ...vtRecords.map(tree => ({ ...tree, state: "VT" as const })),
+  ...ctRecords.map(tree => ({ ...tree, state: "CT" as const })),
   ...riRecords.map(tree => ({ ...tree, state: "RI" as const })),
   ...meRecords.map(tree => ({ ...tree, state: "ME" as const })),
 ];
@@ -32,9 +35,18 @@ export const townCoordinates: Record<string, { lat: number; lng: number }> = Obj
   ...Object.entries(coordinates).map(([town, point]) => [`MA:${town}`, point]),
   ...Object.entries(nhCoordinates).map(([town, point]) => [`NH:${town}`, point]),
   ...Object.entries(vtCoordinates).map(([town, point]) => [`VT:${town}`, point]),
+  ...Object.entries(ctCoordinates).map(([town, point]) => [`CT:${town}`, point]),
   ...Object.entries(riCoordinates).map(([town, point]) => [`RI:${town}`, point]),
   ...Object.entries(meCoordinates).map(([town, point]) => [`ME:${town}`, point]),
 ]);
+export const ctChampionSource = {
+  retrieved: "October 6, 2026",
+  programUrl: "https://oak.conncoll.edu/notabletrees/",
+  registerUrl: "https://oak.conncoll.edu/notabletrees/ChampsByCommonName.jsp",
+  scientificUrl: "https://oak.conncoll.edu/notabletrees/ChampsByScientificName.jsp",
+  geographyUrl: "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_cousubs_09.txt",
+  regionsUrl: "https://tigerweb.geo.census.gov/tigerwebmain/Files/acs26/tigerweb_acs26_county_ct.html",
+};
 export const riChampionSource = {
   edition: "March 24, 2026",
   retrieved: "October 6, 2026",
