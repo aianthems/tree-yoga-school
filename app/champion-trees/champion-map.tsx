@@ -20,8 +20,8 @@ export default function ChampionMap({ groups, selectedTown, onTown, resetKey }: 
     let observer: ResizeObserver | undefined;
     import("leaflet").then((L) => {
       if (disposed || !container.current) return;
-      map = L.map(container.current, { scrollWheelZoom: false, minZoom: 6, maxZoom: 14 });
-      map.fitBounds([[41.2, -73.55], [45.1, -69.85]]);
+      map = L.map(container.current, { scrollWheelZoom: false, minZoom: 4, maxZoom: 14 });
+      map.fitBounds([[41.2, -73.55], [47.4, -66.9]]);
       const tiles = L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
         maxZoom: 19,
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap contributors</a>',
