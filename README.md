@@ -312,3 +312,24 @@ Virginia adds 369 records from Virginia Tech’s live State Champions list, retr
 All Virginia markers use 2025 Census county or independent-city points, keeping cities distinct from similarly named counties. No private owner/contact fields or tree GPS are imported; public visiting access remains unclassified. Virginia is available in the state selector, Mid-Atlantic region, familiar species selector, sorting, and shared URLs. The per-state static endpoint is `/api/champion-trees/VA`.
 
 Reproduce the import with `scripts/import-virginia-champions.py SNAPSHOT_DIR` (requires Beautiful Soup). The directory must contain the current list as `list.html`, each detail page as `<database ID>.html`, and the 2025 national Census counties Gazetteer as `counties.zip`. The importer checks every detail/list match before writing either dataset. Browser and regression checks include city/county distinction, map coverage, stable IDs, and shared Virginia selections.
+
+### South Carolina champion map addition · October 7, 2026
+
+South Carolina adds 196 records explicitly marked `State Champ` in Clemson University's official database, bringing the map to 3,424 records across 15 states. The Southeast shortcut includes North and South Carolina. All South Carolina records map to 35 representative Census county points; public access remains unclassified.
+
+The official [Clemson program page](https://www.clemson.edu/cafls/champtree/) links Experience Builder item `25dbba11925a4bf8b22d6430581a02b2`, whose web map `9c0fd85e35614c42a9a0cbec58707852` uses `https://services1.arcgis.com/x5wCko8UnSi4h0CB/arcgis/rest/services/South_Carolina_Champion_Tree/FeatureServer/0`. The complete query contains 269 records: 196 State Champ, 66 State Runnner-Up, and seven other entries. Retain all designated champions across 190 botanical categories, including two entries in each of six categories; do not derive extra co-champions from scores. Ten National Champ and one National Co-Champ annotations remain source labels, not independently verified titles.
+
+Use the layer's `/query` endpoint with `where=1=1`, `returnGeometry=false`, `orderByFields=OBJECTID`, `f=json`, and the following `outFields` allowlist:
+
+```text
+OBJECTID,tree_county,tree_common_name,tree_science_name,tree_cond,statechamp,champion,submission_date,Score,Circumference,Height,Crown,Reassessed_Date,Needs_Reassessment,Reassessed
+```
+
+Save the complete response as `RECORDS.json` and download the [2025 Census county Gazetteer ZIP](https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_counties_national.zip), then run:
+
+```sh
+python3 scripts/import-south-carolina-champions.py RECORDS.json COUNTIES.zip
+node --test scripts/test-champion-links.cjs
+```
+
+The importer rejects incomplete or changed snapshot totals, duplicate source IDs, unknown counties, and invalid measurements before writing outputs. Source names, scores, and condition text are preserved with whitespace normalized. Tungoil tree `sc-250` retains null circumference and score. Twelve records lack dates. Clemson's web map labels `submission_date` as Measurement Date, while layer metadata calls it Today's Date; the UI uses “Date shown by Clemson” and explains the field. The layer's last data edit is November 25, 2025; snapshot retrieval is October 7, 2026. Condition descriptions and dates are historical source observations, not current inspections. No owner/contact fields, addresses, coordinates, attachments, or remarks are imported. Source OBJECTIDs provide stable `sc-<id>` share links.

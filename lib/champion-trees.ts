@@ -1,4 +1,4 @@
-export type ChampionState = "MA" | "NH" | "VT" | "ME" | "RI" | "CT" | "NY" | "NJ" | "PA" | "DE" | "MD" | "VA" | "WV" | "NC";
+export type ChampionState = "MA" | "NH" | "VT" | "ME" | "RI" | "CT" | "NY" | "NJ" | "PA" | "DE" | "MD" | "VA" | "WV" | "NC" | "SC";
 export type ChampionTree = {
   rankingDate?: string | null; sourcePage?: number; mapPrecision?: "county"; sourceCounty?: string; crownPoints?: number; crownUnitUncertain?: boolean; sourceReviewNotes?: string[];
   id: string; state: ChampionState; publicAccess?: boolean; visibleFromPublic?: string | null; accessDetails?: string | null; publicCoordinates?: { lat: number; lng: number } | null; yearListed?: string | null; mapTown?: string; nominated?: string; status?: string; nationalFlag?: string; sourceUrl?: string; sourceRow: number; sourceTreeId?: string | null; scientificName: string; commonName: string;
@@ -6,7 +6,15 @@ export type ChampionTree = {
   circumference: number | null; height: number | null; crown: number | null;
   points: number | null; notes: string | null;
 };
-export const stateNames = { MA: "Massachusetts", NH: "New Hampshire", VT: "Vermont", ME: "Maine", RI: "Rhode Island", CT: "Connecticut", NY: "New York", NJ: "New Jersey", PA: "Pennsylvania", DE: "Delaware", MD: "Maryland", VA: "Virginia", WV: "West Virginia", NC: "North Carolina" };
+export const stateNames = { MA: "Massachusetts", NH: "New Hampshire", VT: "Vermont", ME: "Maine", RI: "Rhode Island", CT: "Connecticut", NY: "New York", NJ: "New Jersey", PA: "Pennsylvania", DE: "Delaware", MD: "Maryland", VA: "Virginia", WV: "West Virginia", NC: "North Carolina", SC: "South Carolina" };
+export const scChampionSource = {
+  retrieved: "October 7, 2026", dataEdited: "November 25, 2025",
+  programUrl: "https://www.clemson.edu/cafls/champtree/",
+  registerUrl: "https://experience.arcgis.com/experience/25dbba11925a4bf8b22d6430581a02b2/page/Champion-Tree-Database/",
+  dataUrl: "https://services1.arcgis.com/x5wCko8UnSi4h0CB/arcgis/rest/services/South_Carolina_Champion_Tree/FeatureServer/0",
+  measuringUrl: "https://www.clemson.edu/cafls/champtree/how-to-measure-a-tree.html",
+  geographyUrl: "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_counties_national.zip",
+};
 export const ncChampionSource = {
   edition: "September 2026", retrieved: "October 7, 2026",
   programUrl: "https://www.ncagr.gov/divisions/nc-forest-service/urban/champion-trees",
@@ -157,7 +165,7 @@ export function formatMeasurement(value: number | null) {
   return value === null ? "Not listed" : new Intl.NumberFormat("en-US", { maximumFractionDigits: 5 }).format(value);
 }
 
-export const sourceDates: Record<ChampionState, string> = { NC: "September 2026 edition · retrieved October 7, 2026", WV: "2025 workbooks · highest published scores · retrieved October 7, 2026", VA: "Retrieved October 7, 2026 · live register snapshot", MD: "Retrieved October 6, 2026 · live register snapshot", MA: "May 2026 edition", NH: "Retrieved October 6, 2026 · edition not stated", VT: "Retrieved October 6, 2026 · edition not stated", ME: "2020 edition · retrieved October 6, 2026", RI: "March 24, 2026 edition", CT: "Retrieved October 6, 2026 · edition not stated", NY: "January 31, 2025 edition", NJ: "Data edited March 19, 2026 · retrieved October 6, 2026", PA: "October 2026 extraction · score-based leaders", DE: "October 6, 2026 GIS snapshot · five-point rule from 2019" };
+export const sourceDates: Record<ChampionState, string> = { SC: "Clemson database · retrieved October 7, 2026", NC: "September 2026 edition · retrieved October 7, 2026", WV: "2025 workbooks · highest published scores · retrieved October 7, 2026", VA: "Retrieved October 7, 2026 · live register snapshot", MD: "Retrieved October 6, 2026 · live register snapshot", MA: "May 2026 edition", NH: "Retrieved October 6, 2026 · edition not stated", VT: "Retrieved October 6, 2026 · edition not stated", ME: "2020 edition · retrieved October 6, 2026", RI: "March 24, 2026 edition", CT: "Retrieved October 6, 2026 · edition not stated", NY: "January 31, 2025 edition", NJ: "Data edited March 19, 2026 · retrieved October 6, 2026", PA: "October 2026 extraction · score-based leaders", DE: "October 6, 2026 GIS snapshot · five-point rule from 2019" };
 export type ChampionManifest = { state: ChampionState; name: string; listed: number; mapped: number }[];
 export type ChampionPayload = { trees: ChampionTree[]; coordinates: Record<string, { lat: number; lng: number }> };
-export const championRegions = { "new-england": { name: "New England", states: ["MA", "NH", "VT", "ME", "RI", "CT"] }, northeast: { name: "Northeast", states: ["MA", "NH", "VT", "ME", "RI", "CT", "NY", "NJ", "PA"] }, "mid-atlantic": { name: "Mid-Atlantic", states: ["NY", "NJ", "PA", "DE", "MD", "VA", "WV"] } };
+export const championRegions = { southeast: { name: "Southeast", states: ["NC", "SC"] }, "new-england": { name: "New England", states: ["MA", "NH", "VT", "ME", "RI", "CT"] }, northeast: { name: "Northeast", states: ["MA", "NH", "VT", "ME", "RI", "CT", "NY", "NJ", "PA"] }, "mid-atlantic": { name: "Mid-Atlantic", states: ["NY", "NJ", "PA", "DE", "MD", "VA", "WV"] } };
