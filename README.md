@@ -303,3 +303,12 @@ URL parameters: `region`, `state`, `q`, `county`, `place`, `genus`, `species`, `
 `/tree-visits` offers three source-checked starting points: the Pinchot Sycamore (CT), University Green dawn redwood (VT), and Smith College castor aralia (MA). `lib/tree-visits.ts` contains stable champion record IDs, arrival/access guidance, official sources, check dates, and related practices. Check dates describe online research, not field inspections. These guides do not alter source-register access flags or map coordinates. Links from the Library, Champion Map, and matching record details make the collection discoverable.
 
 The Champion Map’s Tree species selector displays familiar names, scientific names, and counts within the loaded state/region. It filters exact published botanical categories; cultivars and hybrids remain distinct. `lib/champion-species.ts` normalizes inverted common names and prefers common names over botanical fallbacks. Choosing species clears genus, and choosing genus clears species. Existing `species` URLs, sharing, and browser history continue to work. Regression coverage is in `node --test scripts/test-champion-links.cjs`.
+
+
+### Virginia champions
+
+Virginia adds 369 records from Virginia Tech’s live State Champions list, retrieved October 7, 2026. Each detail page was checked for alive status and explicit Virginia Champion designation, and reconciled with the list’s names, locality, and score. Original measurements, measurement years, national labels, and stable source IDs are retained. National labels are source designations, not independently verified national titles.
+
+All Virginia markers use 2025 Census county or independent-city points, keeping cities distinct from similarly named counties. No private owner/contact fields or tree GPS are imported; public visiting access remains unclassified. Virginia is available in the state selector, Mid-Atlantic region, familiar species selector, sorting, and shared URLs. The per-state static endpoint is `/api/champion-trees/VA`.
+
+Reproduce the import with `scripts/import-virginia-champions.py SNAPSHOT_DIR` (requires Beautiful Soup). The directory must contain the current list as `list.html`, each detail page as `<database ID>.html`, and the 2025 national Census counties Gazetteer as `counties.zip`. The importer checks every detail/list match before writing either dataset. Browser and regression checks include city/county distinction, map coverage, stable IDs, and shared Virginia selections.
