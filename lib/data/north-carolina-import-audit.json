@@ -1,0 +1,23 @@
+{
+  "edition": "September 2026",
+  "retrieved": "October 7, 2026",
+  "workbookSha256": "68795936482c1152873a2f4514c699805d86416d0fc1ae809154e7fd60a31255",
+  "sourceRows": 347,
+  "importedRecords": 346,
+  "duplicateRowsExcluded": [
+    40
+  ],
+  "duplicateRowRetained": 101,
+  "reusedSourceIds": [
+    75,
+    330,
+    682
+  ],
+  "missingIdRows": [
+    69
+  ],
+  "categories": 237,
+  "counties": 76,
+  "coChampions": 181,
+  "publicAccess": 238
+}

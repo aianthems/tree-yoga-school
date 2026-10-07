@@ -55,7 +55,7 @@ test("every current record ID survives URL encoding unchanged", () => {
       count++;
     }
   }
-  assert.equal(count, 2882);
+  assert.equal(count, 3228);
 });
 
 const { championSpeciesOptions } = require('../lib/champion-species.ts');
@@ -173,4 +173,27 @@ test('Virginia snapshot has unique source IDs and a geographic point for every r
   assert.equal(redMaple.height, 99);
   assert.equal(redMaple.circumference, 237);
   assert.equal(redMaple.crown, 85);
+});
+
+test('North Carolina preserves official designations, access and distinct source rows', () => {
+  const records = [...require('../lib/data/north-carolina-champion-trees.json'), ...require('../lib/data/north-carolina-co-champion-trees.json')];
+  const points = require('../lib/data/north-carolina-county-points.json');
+  assert.equal(records.length, 346);
+  assert.equal(new Set(records.map(t => t.id)).size, 346);
+  assert.equal(records.filter(t => t.publicAccess).length, 238);
+  assert.equal(records.filter(t => t.status === 'State co-champion').length, 181);
+  assert.equal(Object.keys(points).length, 76);
+  assert.equal(records.filter(t => t.sourceTreeId === '727').length, 1);
+  for (const id of ['75', '330', '682']) assert.equal(records.filter(t => t.sourceTreeId === id).length, 2);
+  assert.equal(records.find(t => t.sourceRow === 69).sourceTreeId, null);
+  for (const t of records) {
+    assert.equal(t.measured, null);
+    assert.equal(t.location, null);
+    assert.equal(t.publicCoordinates, undefined);
+    assert.ok(points[t.county]);
+    assert.ok(points[t.county].lat > 33 && points[t.county].lat < 37);
+    assert.ok(points[t.county].lng > -85 && points[t.county].lng < -75);
+    const selection = { ...emptySelection, state: 'NC', county: t.county, town: `NC:county:${t.county}`, selectedId: t.id, publicOnly: t.publicAccess };
+    assert.deepEqual(read(championHref(selection)), selection);
+  }
 });
