@@ -55,7 +55,7 @@ test("every current record ID survives URL encoding unchanged", () => {
       count++;
     }
   }
-  assert.equal(count, 2354);
+  assert.equal(count, 2723);
 });
 
 const { championSpeciesOptions } = require('../lib/champion-species.ts');
@@ -95,4 +95,41 @@ test('visit guides resolve to the intended existing trees and real practice rout
     for (const source of visit.sources) if (source.href.startsWith('/')) assert.ok(fs.existsSync(path.join(__dirname, '../public', source.href)));
   }
   assert.equal(championSpeciesOptions(records).reduce((total, option) => total + option.count, 0), records.length);
+});
+
+
+const { townKey, placeName, championRegions } = require('../lib/champion-trees.ts');
+test('Virginia retains separate city and county map identities and shareable regional filters', () => {
+  const county = { state: 'VA', town: 'Fairfax', county: 'Fairfax', mapPrecision: 'county' };
+  const city = { ...county, town: 'City of Fairfax', county: 'Fairfax City' };
+  assert.equal(placeName(county), 'Fairfax County');
+  assert.equal(placeName(city), 'Fairfax City');
+  assert.notEqual(townKey(county), townKey(city));
+  assert.ok(championRegions['mid-atlantic'].states.includes('VA'));
+  const parsed = read(championHref({ region: 'mid-atlantic', state: 'VA', species: 'Acer rubrum', selectedId: 'va-3009' }));
+  assert.equal(parsed.state, 'VA');
+  assert.equal(parsed.region, 'mid-atlantic');
+  assert.equal(parsed.selectedId, 'va-3009');
+});
+test('Virginia snapshot has unique source IDs and a geographic point for every record', () => {
+  const records = require('../lib/data/virginia-champion-trees.json');
+  const points = require('../lib/data/virginia-county-points.json');
+  assert.equal(records.length, 369);
+  assert.equal(new Set(records.map(t => t.id)).size, 369);
+  for (const tree of records) {
+    assert.equal(tree.state, 'VA');
+    assert.equal(tree.id, `va-${tree.sourceRow}`);
+    assert.ok(tree.sourceUrl.endsWith(`Key=${tree.sourceRow}`));
+    assert.ok(points[tree.county]);
+    assert.ok(points[tree.county].lat > 36 && points[tree.county].lat < 40);
+    assert.ok(points[tree.county].lng > -84 && points[tree.county].lng < -75);
+    assert.match(tree.measured, /^\d{4}$/);
+    assert.equal(tree.publicAccess, undefined);
+    assert.equal(tree.publicCoordinates, undefined);
+  }
+  const redMaple = records.find(t => t.id === 'va-3009');
+  assert.equal(redMaple.points, 357);
+  assert.equal(redMaple.height, 99);
+  assert.equal(redMaple.circumference, 237);
+  assert.equal(redMaple.crown, 85);
 });
