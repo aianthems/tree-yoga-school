@@ -1,0 +1,108 @@
+{
+  "sourceUrl": "https://gatrees.org/learn-explore/champion-trees/",
+  "retrieved": "2026-10-07",
+  "listRows": 407,
+  "uniqueIds": 403,
+  "duplicateIds": {
+    "1950": [
+      {
+        "Common Name": "Pecan",
+        "Genus": "Carya",
+        "County": "Newton",
+        "Circumference": "229",
+        "Height": "117",
+        "Crown": "122",
+        "Score": "377",
+        "Georgia or National": "Georgia",
+        "Co-Champion": "No",
+        "ID": "1950",
+        "Species": "Illinoensis",
+        "sourceUrl": "https://gatrees.org/champion_tree/1950-2/"
+      },
+      {
+        "Common Name": "Pecan",
+        "Genus": "Carya",
+        "County": "Newton",
+        "Circumference": "229",
+        "Height": "117",
+        "Crown": "122",
+        "Score": "377",
+        "Georgia or National": "Georgia",
+        "Co-Champion": "No",
+        "ID": "1950",
+        "Species": "Illinoensis",
+        "sourceUrl": "https://gatrees.org/champion_tree/1950-3/"
+      },
+      {
+        "Common Name": "Pecan",
+        "Genus": "Carya",
+        "County": "Newton",
+        "Circumference": "229",
+        "Height": "117",
+        "Crown": "122",
+        "Score": "377",
+        "Georgia or National": "",
+        "Co-Champion": "Yes",
+        "ID": "1950",
+        "Species": "Illinoensis",
+        "sourceUrl": "https://gatrees.org/champion_tree/1950-4/"
+      },
+      {
+        "Common Name": "Pecan",
+        "Genus": "Carya",
+        "County": "",
+        "Circumference": "229",
+        "Height": "117",
+        "Crown": "122",
+        "Score": "377",
+        "Georgia or National": "",
+        "Co-Champion": "Yes",
+        "ID": "1950",
+        "Species": "Illinoinensis",
+        "sourceUrl": "https://gatrees.org/champion_tree/1950-5/"
+      }
+    ],
+    "1673": [
+      {
+        "Common Name": "Holly, Burford",
+        "Genus": "Ilex",
+        "County": "Worth",
+        "Circumference": "27",
+        "Height": "31",
+        "Crown": "25",
+        "Score": "64",
+        "Georgia or National": "",
+        "Co-Champion": "",
+        "ID": "1673",
+        "Species": "cornuta",
+        "sourceUrl": "https://gatrees.org/champion_tree/1673-2/"
+      },
+      {
+        "Common Name": "Holly, Burford",
+        "Genus": "Ilex",
+        "County": "Worth",
+        "Circumference": "27",
+        "Height": "31",
+        "Crown": "25",
+        "Score": "64",
+        "Georgia or National": "",
+        "Co-Champion": "",
+        "ID": "1673",
+        "Species": "cornuta",
+        "sourceUrl": "https://gatrees.org/champion_tree/1673-3/"
+      }
+    ]
+  },
+  "listDetailDifferences": {
+    "1818": {
+      "Species": {
+        "list": "tenuifolia                       Nutt",
+        "detail": "tenuifolia Nutt"
+      }
+    }
+  },
+  "detailUnavailable": [],
+  "mapped": 398,
+  "counties": 99,
+  "measurementDates": 399
+}

@@ -362,3 +362,21 @@ Exact scientific-name connections add 79 existing champion records (21 hornbeam,
 ### Tree Library discovery
 
 The Library filters its existing profiles by common name, scientific name, selected alternate names, and one practice theme. Name terms are case-insensitive, ignore punctuation, and combine with the theme. Theme choices derive from the current profiles. Matching shortcuts, result counts, empty-state recovery, reset controls, and direct practice links update without a network request. The server sends only card fields to the interactive component; complete practices and galleries stay on species pages. Search logic and current profile integration are covered by `node --test scripts/test-library-search.cjs`.
+
+### Georgia champion register · October 7, 2026
+
+Georgia is available in the State selector, Southeast region, shared record URLs, and static `/api/champion-trees/GA` snapshot. The official source is https://gatrees.org/learn-explore/champion-trees/.
+
+The 407 summary rows contain 403 unique published IDs. IDs 1950 and 1673 repeat; each is counted once using the first linked record. Pecan ID 1950 has conflicting spelling, county and designation variants, retained in `lib/data/georgia-import-audit.json` and explained in its record notes. The import preserves all unique register IDs, including blank/ambiguous designations, without deriving new champion titles from scores. Individual record values and measurement dates are used when available; unavailable detail pages fall back to the summary row with an explicit note.
+
+398 entries map to 99 approximate Census county points; five entries have no county and remain searchable without markers. Source county capitalization is retained separately (for example, Dekalb → DeKalb for mapping). Simple species-epithet capitalization is normalized and documented; source spellings and varieties are otherwise preserved. GFC's nomination form confirms circumference in inches and height/crown spread in feet. Published scores, zeros and missing values are retained. Public visiting access is unclassified; exact tree positions, owner and nominator details are not imported.
+
+Reproduce with saved register HTML, individual pages named by URL slug, and the Census 2025 Counties Gazetteer ZIP:
+
+```sh
+python scripts/import-georgia-champions.py REGISTER.html DETAILS_DIR COUNTIES.zip
+node --test scripts/test-*.cjs
+npm run build
+```
+
+The import audit records duplicate variants, summary/detail differences and unavailable detail pages. Georgia regression checks cover county precision, missing locations, stable source IDs, shared selections, measurements and duplicate handling.
