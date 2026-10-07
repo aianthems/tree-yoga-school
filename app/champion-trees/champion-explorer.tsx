@@ -2,6 +2,9 @@
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
+import { useSearchParams } from "next/navigation";
+import { championHref, emptySelection, readChampionSelection, type ChampionSelection } from "../../lib/champion-links";
+import ShareLink from "./share-link";
 import ChampionMap from "./champion-map";
 import { championRegions, sourceDates, placeName, nyChampionSource, njChampionSource, paChampionSource, deChampionSource, mdChampionSource, type ChampionManifest, type ChampionPayload, formatMeasurement, librarySpecies, sourceWarnings, townKey, stateNames, nhChampionSource, vtChampionSource, meChampionSource, riChampionSource, ctChampionSource, type ChampionState, type ChampionTree } from "../../lib/champion-trees";
 
@@ -37,30 +40,31 @@ function RecordDetails({ tree, mapped }: { tree: ChampionTree; mapped: boolean }
     {tree.state === "PA" && <p className="champion-record-source"><a href={tree.sourceUrl} target="_blank" rel="noreferrer">Original PA Big Trees record ↗</a> · {paChampionSource.snapshot}. Dates are shown as published; January 1 dates may represent legacy year-only entries. <a href={paChampionSource.scoringUrl} target="_blank" rel="noreferrer">Program scoring rule ↗</a></p>}
     {tree.state === "NJ" && <p className="champion-record-source"><a href={tree.sourceUrl} target="_blank" rel="noreferrer">NJDEP source record {tree.sourceRow} ↗</a> · retrieved October 6, 2026. Dataset last edited March 19, 2026; this is not a tree measurement date. <a href={njChampionSource.registerUrl} target="_blank" rel="noreferrer">Official Big Tree Map &amp; Registry ↗</a></p>}
     {tree.state === "NY" && <p className="champion-source-credit"><a href={tree.sourceUrl || nyChampionSource.registerUrl} target="_blank" rel="noreferrer">NYS DEC Big Tree Register · January 31, 2025 · page {tree.sourcePage} ↗</a> · retrieved October 6, 2026.</p>}
+    <ShareLink href={championHref({ state: tree.state, selectedId: tree.id })} label="Copy tree link" />
     <div className="course-actions">
       {(tree.state === "MA" || tree.state === "RI" || tree.state === "CT") && tree.location && <a className="button secondary" href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${tree.location}, ${tree.mapTown ? `${tree.town}, ${tree.mapTown}` : tree.town}, ${stateNames[tree.state]}`)}`} target="_blank" rel="noreferrer">Search the published location ↗</a>}
       {tree.state === "VT" && tree.publicAccess && tree.publicCoordinates && <a className="button secondary" href={`https://www.google.com/maps/search/?api=1&query=${tree.publicCoordinates.lat},${tree.publicCoordinates.lng}`} target="_blank" rel="noreferrer">Open Vermont’s published tree location ↗</a>}
-      {library && <Link className="course-link" href={`/trees/${library.slug}`}>Explore {library.name} energy & practice</Link>}
+      {library && <Link className="course-link" href={`/trees/${library.slug}#practice`}>Explore {library.name} energy & practice</Link>}
     </div>
     {tree.state === "NY" || tree.state === "NJ" || tree.state === "PA" || tree.state === "DE" || tree.state === "MD" ? null : tree.state === "CT" ? <p className="champion-record-source"><a href={tree.sourceUrl} target="_blank" rel="noreferrer">Connecticut’s Notable Trees · Tree ID {tree.sourceRow} ↗</a> · retrieved October 6, 2026. Names, measurements, measurement dates, and champion designations are retained from the register. <a href={ctChampionSource.registerUrl} target="_blank" rel="noreferrer">Connecticut champion list ↗</a></p> : tree.state === "RI" ? <p className="champion-record-source"><a href={riChampionSource.registerUrl} target="_blank" rel="noreferrer">RI Tree Council champion register · March 24, 2026 · row {tree.sourceRow} ↗</a> · retrieved October 6, 2026. Original names, measurements, locations, ranks, and scores are retained. The edition date is not a measurement date.</p> : tree.state === "ME" ? <p className="champion-record-source"><a href={tree.sourceUrl} target="_blank" rel="noreferrer">Maine Register of Big Trees · 2020 · PDF page {tree.sourcePage} ↗</a> · retrieved October 6, 2026. Original names, symbols, measurements, and scores are retained. This dated register does not confirm current tree conditions. <a href={meChampionSource.programUrl} target="_blank" rel="noreferrer">Maine Forest Service program ↗</a></p> : tree.state === "VT" ? <p className="champion-record-source"><a href={vtChampionSource.registerUrl} target="_blank" rel="noreferrer">Vermont Big Tree List ↗</a> · <a href={tree.sourceUrl} target="_blank" rel="noreferrer">Source record {tree.sourceRow} ↗</a> · retrieved October 6, 2026. Measurements and access labels are shown as published. Vermont reports the program is temporarily on hold following a staffing transition.</p> : tree.state === "NH" ? <p className="champion-record-source"><a href={tree.sourceUrl} target="_blank" rel="noreferrer">NH Big Trees register · Tree ID {tree.sourceRow} ↗</a> · retrieved October 6, 2026. Circumference units are not specified in the table; values are retained as published. <a href={nhChampionSource.publicMapUrl} target="_blank" rel="noreferrer">UNH’s public visiting map ↗</a> lists a separate selection of trees open to visitors.</p> : <p className="champion-record-source">DCR Champion Trees · May 2026 workbook · row {tree.sourceRow}. Values shown as published.</p>}
   </article>;
 }
 
 export default function ChampionExplorer({ manifest }: { manifest: ChampionManifest }) {
-  const [region, setRegion] = useState("");
+  const searchParams = useSearchParams();
+  const selection = useMemo(() => readChampionSelection(new URLSearchParams(searchParams.toString())), [searchParams]);
+  const { region, state, query, county, town, genus, species, publicOnly, locationsOnly, sort, selectedId } = selection;
+  const updateSelection = useCallback((patch: Partial<ChampionSelection>, replace = false) => {
+    const current = readChampionSelection(new URLSearchParams(window.location.search));
+    const href = championHref({ ...current, selectedId: null, ...patch });
+    if (href !== window.location.pathname + window.location.search) {
+      window.history[replace ? "replaceState" : "pushState"](null, "", href);
+    }
+  }, []);
   const [cache, setCache] = useState<Partial<Record<ChampionState, ChampionPayload>>>({});
   const [loadError, setLoadError] = useState(false);
   const [retry, setRetry] = useState(0);
   const [page, setPage] = useState(1);
-  const [state, setState] = useState("");
-  const [query, setQuery] = useState("");
-  const [county, setCounty] = useState("");
-  const [town, setTown] = useState("");
-  const [genus, setGenus] = useState("");
-  const [publicOnly, setPublicOnly] = useState(false);
-  const [locationsOnly, setLocationsOnly] = useState(false);
-  const [sort, setSort] = useState("name");
-  const [selectedId, setSelectedId] = useState<string | null>(null);
   const [resetKey, setResetKey] = useState(0);
   const statesInRegion = manifest.filter(s => !region || championRegions[region as keyof typeof championRegions].states.includes(s.state));
   const requestedStates = statesInRegion.filter(s => !state || s.state === state).map(s => s.state);
@@ -92,13 +96,13 @@ export default function ChampionExplorer({ manifest }: { manifest: ChampionManif
   const resultsHeading = useRef<HTMLHeadingElement>(null);
   const results = useMemo(() => {
     const words = query.trim().toLowerCase().split(/\s+/).filter(Boolean);
-    return championTrees.filter(t => (!state || t.state === state) && (!county || t.county === county) && (!town || townKey(t) === town) && (!genus || t.scientificName.split(" ")[0] === genus) && (!locationsOnly || Boolean(t.location || t.publicCoordinates)) && (!publicOnly || t.publicAccess === true) && words.every(word => `${stateNames[t.state]} ${t.state} ${t.mapTown || ""} ${t.commonName} ${t.scientificName} ${t.town} ${t.county} ${t.location || ""} ${t.notes || ""}`.toLowerCase().includes(word))).sort((a, b) => {
+    return championTrees.filter(t => (!state || t.state === state) && (!species || t.scientificName === species) && (!county || t.county === county) && (!town || townKey(t) === town) && (!genus || t.scientificName.split(" ")[0] === genus) && (!locationsOnly || Boolean(t.location || t.publicCoordinates)) && (!publicOnly || t.publicAccess === true) && words.every(word => `${stateNames[t.state]} ${t.state} ${t.mapTown || ""} ${t.commonName} ${t.scientificName} ${t.town} ${t.county} ${t.location || ""} ${t.notes || ""}`.toLowerCase().includes(word))).sort((a, b) => {
       if (sort === "height") return (b.height ?? -1) - (a.height ?? -1) || a.sourceRow - b.sourceRow;
       if (sort === "points") return (b.points ?? -1) - (a.points ?? -1) || a.sourceRow - b.sourceRow;
       if (sort === "town") return placeName(a).localeCompare(placeName(b)) || a.commonName.localeCompare(b.commonName);
       return a.commonName.localeCompare(b.commonName) || a.sourceRow - b.sourceRow;
     });
-  }, [championTrees, state, query, county, town, genus, locationsOnly, publicOnly, sort]);
+  }, [championTrees, state, query, county, town, genus, species, locationsOnly, publicOnly, sort]);
   const groups = useMemo(() => {
     const counts = new Map<string, number>();
     results.forEach(t => counts.set(townKey(t), (counts.get(townKey(t)) || 0) + 1));
@@ -107,31 +111,43 @@ export default function ChampionExplorer({ manifest }: { manifest: ChampionManif
   const counties = [...new Set(championTrees.filter(t => !state || t.state === state).map(t => t.county))].sort();
   const selected = results.find(t => t.id === selectedId);
   const selectTown = useCallback((value: string) => {
-    setTown(value); setSelectedId(null);
+    updateSelection({ town: value });
     resultsHeading.current?.focus({ preventScroll: true });
-  }, []);
+  }, [updateSelection]);
   function reset() {
-    setRegion(""); setPage(1); setState(""); setQuery(""); setCounty(""); setTown(""); setGenus(""); setLocationsOnly(false); setPublicOnly(false); setSort("name"); setSelectedId(null); setResetKey(key => key + 1);
+    updateSelection(emptySelection); setPage(1); setResetKey(key => key + 1);
   }
   function selectRecord(tree: ChampionTree) {
-    setSelectedId(tree.id);
-    requestAnimationFrame(() => { detail.current?.focus({ preventScroll: true }); detail.current?.scrollIntoView({ block: "nearest", behavior: "auto" }); });
+    updateSelection({ selectedId: tree.id });
   }
-  useEffect(() => { setPage(1); }, [requestKey, query, county, town, genus, locationsOnly, publicOnly, sort]);
+  useEffect(() => { setPage(1); }, [requestKey, query, county, town, genus, species, locationsOnly, publicOnly, sort]);
   const mappedCount = results.filter(t => Boolean(coordinates[townKey(t)])).length;
-  const visibleResults = results.slice(0, page * 50);
+  const selectedTreeId = selected?.id;
+  useEffect(() => {
+    if (selectedTreeId) {
+      detail.current?.focus({ preventScroll: true });
+      detail.current?.scrollIntoView({ block: "nearest", behavior: "auto" });
+    }
+  }, [selectedTreeId]);
+  const selectedIndex = selected ? results.indexOf(selected) : -1;
+  const visibleResults = results.slice(0, Math.max(page, Math.ceil((selectedIndex + 1) / 50)) * 50);
   return <section className="champion-explorer" aria-label="Explore champion trees">
-    <div className="champion-region-bar" aria-label="Explore by region"><span>Explore a region</span>{[["", "All available states"], ["new-england", "New England"], ["northeast", "Northeast"], ["mid-atlantic", "Mid-Atlantic"]].map(([value, name]) => <button key={value} type="button" className="button secondary" aria-pressed={region === value} onClick={() => { setRegion(value); setState(""); setCounty(""); setTown(""); setSelectedId(null); }}>{name}</button>)}</div>
+    <div className="champion-region-bar" aria-label="Explore by region"><span>Explore a region</span>{[["", "All available states"], ["new-england", "New England"], ["northeast", "Northeast"], ["mid-atlantic", "Mid-Atlantic"]].map(([value, name]) => <button key={value} type="button" className="button secondary" aria-pressed={region === value} onClick={() => { updateSelection({ region: value, state: "", county: "", town: "" }); }}>{name}</button>)}</div>
     {region === "northeast" && <p className="champion-location-note">Northeast covers Pennsylvania, New York, New Jersey, and all six New England states.</p>}
     {region === "mid-atlantic" && <p className="champion-location-note">Mid-Atlantic currently includes New York, New Jersey, Pennsylvania, Delaware, and Maryland.</p>}
     <div className="champion-toolbar">
-      <label>State<select aria-label="State" value={state} onChange={e => { setState(e.target.value); setCounty(""); setTown(""); setSelectedId(null); }}><option value="">All states</option>{statesInRegion.map(({ state: code, listed }) => <option key={code} value={code}>{stateNames[code]} · {listed} records</option>)}</select></label>
-      <label className="champion-search">Find a tree, county, town, or place<input type="search" value={query} onChange={e => setQuery(e.target.value)} placeholder="Try pine, Portland, or Smith College…" /></label>
-      <label>County or planning region<select aria-label="County or planning region" value={county} onChange={e => { setCounty(e.target.value); setTown(""); }}><option value="">All counties & regions</option>{counties.map(c => <option key={c}>{c}</option>)}</select></label>
-      <label>Mapped place<select aria-label="Mapped place" value={town} onChange={e => setTown(e.target.value)}><option value="">All towns & counties</option>{townOptions.filter(t => (!state || t.state === state) && (!county || championTrees.some(r => townKey(r) === t.key && r.county === county))).map(t => <option key={t.key} value={t.key}>{t.town}, {t.state}</option>)}</select></label>
-      <label>Tree genus<select aria-label="Tree genus" value={genus} onChange={e => setGenus(e.target.value)}><option value="">All genera</option>{genera.map(g => <option key={g}>{g}</option>)}</select></label>
+      <label>State<select aria-label="State" value={state} onChange={e => { updateSelection({ state: e.target.value, county: "", town: "" }); }}><option value="">All states</option>{statesInRegion.map(({ state: code, listed }) => <option key={code} value={code}>{stateNames[code]} · {listed} records</option>)}</select></label>
+      <label className="champion-search">Find a tree, county, town, or place<input type="search" value={query} onChange={e => updateSelection({ query: e.target.value }, true)} placeholder="Try pine, Portland, or Smith College…" /></label>
+      <label>County or planning region<select aria-label="County or planning region" value={county} onChange={e => { updateSelection({ county: e.target.value, town: "" }); }}><option value="">All counties & regions</option>{counties.map(c => <option key={c}>{c}</option>)}</select></label>
+      <label>Mapped place<select aria-label="Mapped place" value={town} onChange={e => updateSelection({ town: e.target.value })}><option value="">All towns & counties</option>{townOptions.filter(t => (!state || t.state === state) && (!county || championTrees.some(r => townKey(r) === t.key && r.county === county))).map(t => <option key={t.key} value={t.key}>{t.town}, {t.state}</option>)}</select></label>
+      <label>Tree genus<select aria-label="Tree genus" value={genus} onChange={e => updateSelection({ genus: e.target.value })}><option value="">All genera</option>{genera.map(g => <option key={g}>{g}</option>)}</select></label>
     </div>
-    <div className="champion-filter-bar"><label className="champion-check"><input type="checkbox" checked={locationsOnly} onChange={e => setLocationsOnly(e.target.checked)} /> With a published location</label><label className="champion-check"><input type="checkbox" checked={publicOnly} onChange={e => setPublicOnly(e.target.checked)} /> Source confirms public access</label><button type="button" className="champion-text-button" onClick={reset}>Reset all filters & map</button><a className="champion-text-button" href="#champion-results">Skip to tree results ↓</a></div>
+    <div className="champion-filter-bar"><label className="champion-check"><input type="checkbox" checked={locationsOnly} onChange={e => updateSelection({ locationsOnly: e.target.checked })} /> With a published location</label><label className="champion-check"><input type="checkbox" checked={publicOnly} onChange={e => updateSelection({ publicOnly: e.target.checked })} /> Source confirms public access</label><button type="button" className="champion-text-button" onClick={reset}>Reset all filters & map</button><a className="champion-text-button" href="#champion-results">Skip to tree results ↓</a></div>
+    <div className="champion-sharing-bar">
+      <ShareLink href={championHref({ ...selection, selectedId: null })} label="Copy selection link" />
+      {species && <p className="champion-species-filter">Species: <i>{species}</i> <button type="button" className="champion-text-button" onClick={() => updateSelection({ species: "" })}>Clear species filter</button></p>}
+    </div>
+    {selectedId && !selected && !loading && !loadError && <p role="status">This tree is unavailable in the current selection. <button type="button" className="champion-text-button" onClick={() => updateSelection({ ...emptySelection, selectedId })}>Look across all states</button> or <button type="button" className="champion-text-button" onClick={() => updateSelection({ selectedId: null })}>clear the selected tree</button>.</p>}
     {state && <p className="champion-location-note"><strong>{stateNames[state as ChampionState]} source:</strong> {sourceDates[state as ChampionState]}</p>}
     {requestedStates.includes("MD") && <p className="champion-location-note"><strong>Maryland:</strong> 274 explicitly state-designated champions, including 127 marked publicly accessible. Markers represent counties or Baltimore City. <a href="#source-MD">Read the source notes.</a></p>}
     {requestedStates.includes("DE") && <p className="champion-location-note"><strong>Delaware:</strong> 79 rank-one champions and 12 additional qualifiers under the published five-point co-champion rule. <a href="#source-DE">Read the selection and source notes.</a></p>}
@@ -147,13 +163,13 @@ export default function ChampionExplorer({ manifest }: { manifest: ChampionManif
       </div>
       <div className="champion-results" id="champion-results">
         <div className="champion-results-header"><h2 ref={resultsHeading} tabIndex={-1}>Tree records</h2><p role="status" aria-live="polite">{results.length.toLocaleString("en-US")} listed · {mappedCount.toLocaleString("en-US")} mapped · {groups.length} {groups.length === 1 ? "mapped place" : "mapped places"}{town ? ` · ${townOptions.find(t => t.key === town)?.town}, ${town.split(":")[0]}` : ""}</p>
-          {town && <button className="champion-text-button" type="button" onClick={() => setTown("")}>Show all places</button>}
-          <label>Sort by<select aria-label="Sort by" value={sort} onChange={e => setSort(e.target.value)}><option value="name">Tree name</option><option value="town">Place</option><option value="height">Tallest first</option><option value="points">Published points</option></select></label>
+          {town && <button className="champion-text-button" type="button" onClick={() => updateSelection({ town: "" })}>Show all places</button>}
+          <label>Sort by<select aria-label="Sort by" value={sort} onChange={e => updateSelection({ sort: e.target.value })}><option value="name">Tree name</option><option value="town">Place</option><option value="height">Tallest first</option><option value="points">Published points</option></select></label>
         </div>
         {loading || loadError ? <p className="champion-location-note">The complete results will appear when this selection finishes loading.</p> : results.length ? <ul className="champion-result-list">{visibleResults.map(tree => <li key={tree.id}><button type="button" className={`champion-result${selected?.id === tree.id ? " is-selected" : ""}`} aria-pressed={selected?.id === tree.id} onClick={() => selectRecord(tree)}>
           <span className="champion-result-town">{placeName(tree)}, {tree.state}{tree.mapPrecision !== "county" && <> · {tree.county}</>}</span><strong>{tree.commonName}</strong><i>{tree.scientificName}</i><span>{tree.location || (tree.mapPrecision === "county" ? "County point · exact location not mapped" : tree.publicCoordinates ? "Public tree coordinates published" : "Location not disclosed")}</span>{tree.state === "DE" && <span>{tree.status} · {tree.mapPrecision === "county" ? "county point" : "Census place point"}</span>}{tree.state === "PA" && <span>{tree.status} · county point</span>}{tree.state === "NJ" && <span>NJDEP: {tree.status} · {tree.mapPrecision === "county" ? "county point" : "municipality point"}</span>}{tree.state === "NY" && <span>{tree.status} · county point</span>}{tree.state === "CT" && <span>{tree.status} · access unclassified</span>}{tree.state === "RI" && <span>2026 register · access not specified</span>}{tree.state === "ME" && <span>2020 register · access not specified</span>}{tree.state === "MD" && <span>{tree.publicAccess ? "Public access listed by Maryland" : "Not publicly accessible"} · county/city point</span>}{tree.state === "VT" && <span>{tree.publicAccess ? "Public access listed" : "Private · no public access"}</span>}<span className="champion-result-metrics">{formatMeasurement(tree.height)} ft tall · {formatMeasurement(tree.points)} points</span><span className="champion-result-open">Explore this record →</span>
         </button></li>)}</ul> : <div className="champion-no-results"><h3>No trees match these filters.</h3><p>Try a broader search or return to the full list.</p><button type="button" className="button secondary" onClick={reset}>Show all {championTrees.length} records</button></div>}
-        {!loading && !loadError && visibleResults.length < results.length && <div className="champion-pagination"><p>Showing {visibleResults.length} of {results.length.toLocaleString("en-US")} listed trees. The map includes all {mappedCount.toLocaleString("en-US")} mapped matches.</p><button type="button" className="button secondary" onClick={() => setPage(n => n + 1)}>Show 50 more trees</button></div>}
+        {!loading && !loadError && visibleResults.length < results.length && <div className="champion-pagination"><p>Showing {visibleResults.length} of {results.length.toLocaleString("en-US")} listed trees. The map includes all {mappedCount.toLocaleString("en-US")} mapped matches.</p><button type="button" className="button secondary" onClick={() => setPage(Math.ceil(visibleResults.length / 50) + 1)}>Show 50 more trees</button></div>}
       </div>
     </div>
   </section>;

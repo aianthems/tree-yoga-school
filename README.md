@@ -289,3 +289,11 @@ The Library now contains 16 species profiles. Red maple, northern red oak, yello
 `lib/tree-library-expansion.ts` contains the six profiles; `lib/tree-images.ts` contains their photograph metadata and identification galleries for the original nine non-pine profiles. Pine retains its existing gallery. The expansion adds 50 real photographs with individual credits and licenses; original sources and conversion details are recorded in `public/images/trees/ATTRIBUTION.md`. Galleries preserve full photographs rather than cropping identification features.
 
 The six exact scientific-name mappings in `lib/champion-trees.ts` make the profiles available from existing Champion Map records. Existing location precision, access labels, and source-review warnings continue to apply.
+
+### Shareable Champion Map selections
+
+Every Library profile links to an exact scientific-name selection on the Champion Map. Map records link back to the species practice. The address bar tracks region, state, search text, county, mapped place, genus, exact species, access/location filters, sorting, and selected record. Native browser history restores selections without reloading state datasets. Search typing replaces the current history entry; other filter changes and record selections add an entry.
+
+`Copy selection link` shares the filters without an open record. `Copy tree link` shares the selected record and its state independently of the current filters. Clipboard restrictions reveal a selectable link instead. A missing or filtered-out record displays recovery options; selected records beyond the first 50 results are included automatically.
+
+URL parameters: `region`, `state`, `q`, `county`, `place`, `genus`, `species`, `public=1`, `location=1`, `sort`, and `tree`. Record IDs retain their source-derived values. Unknown regions, state codes, and sort values fall back safely. Query parsing/serialization regression checks: `node --test scripts/test-champion-links.cjs`.

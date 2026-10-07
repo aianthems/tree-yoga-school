@@ -821,3 +821,9 @@ section[id] { scroll-margin-top: 90px; }
 .champion-region-bar { display: flex; align-items: center; flex-wrap: wrap; gap: .6rem; margin-bottom: 1rem; }
 .champion-region-bar button[aria-pressed="true"] { outline: 2px solid #38583b; outline-offset: 2px; }
 .champion-pagination { padding: 1rem; }
+
+.champion-sharing-bar { display: flex; align-items: center; flex-wrap: wrap; gap: 1rem 2rem; margin: 1rem 0; }
+.champion-share { display: flex; align-items: center; flex-wrap: wrap; gap: .6rem; }
+.champion-share label { display: grid; gap: .3rem; width: 100%; }
+.champion-share input { width: 100%; padding: .7rem; font: inherit; }
+.champion-species-filter { margin: 0; }
