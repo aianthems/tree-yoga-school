@@ -55,7 +55,7 @@ test("every current record ID survives URL encoding unchanged", () => {
       count++;
     }
   }
-  assert.equal(count, 2723);
+  assert.equal(count, 2882);
 });
 
 const { championSpeciesOptions } = require('../lib/champion-species.ts');
@@ -99,6 +99,47 @@ test('visit guides resolve to the intended existing trees and real practice rout
 
 
 const { townKey, placeName, championRegions } = require('../lib/champion-trees.ts');
+test('West Virginia selections and county places survive sharing', () => {
+  const selection = { ...emptySelection, region: 'mid-atlantic', state: 'WV', county: 'Randolph', town: 'WV:county:Randolph', species: 'Abies balsamea', selectedId: 'wv-2025-conifers-10' };
+  assert.deepEqual(read(championHref(selection)), selection);
+  assert.ok(championRegions['mid-atlantic'].states.includes('WV'));
+  assert.equal(placeName({ state: 'WV', mapPrecision: 'county', county: 'Randolph' }), 'Randolph County');
+});
+test('West Virginia includes only audited score leaders, ties and mapped counties', () => {
+  const records = require('../lib/data/west-virginia-champion-trees.json');
+  const points = require('../lib/data/west-virginia-county-points.json');
+  const audit = require('../lib/data/west-virginia-import-audit.json');
+  assert.equal(records.length, 159);
+  assert.equal(new Set(records.map(t => t.id)).size, 159);
+  assert.equal(Object.keys(points).length, 35);
+  assert.equal(audit.sourceFiles.flowering.records + audit.sourceFiles.conifers.records, 533);
+  assert.equal(audit.selection.length, 157);
+  assert.equal(audit.selection.filter(group => group.selectedRows.length === 2).length, 2);
+  const selected = new Map(audit.selection.flatMap(group => group.selectedRows.map(row => [`wv-2025-${row.replace(':', '-')}`, group.maximumPublishedPoints])));
+  assert.equal(selected.size, records.length);
+  for (const tree of records) {
+    assert.equal(tree.state, 'WV');
+    assert.equal(tree.points, selected.get(tree.id));
+    assert.equal(tree.mapPrecision, 'county');
+    assert.ok(points[tree.county]);
+    assert.ok(points[tree.county].lat > 37 && points[tree.county].lat < 41);
+    assert.ok(points[tree.county].lng > -83 && points[tree.county].lng < -77);
+    assert.equal(tree.location, null);
+    assert.equal(tree.publicAccess, undefined);
+    assert.equal(tree.publicCoordinates, undefined);
+    assert.match(tree.measured, /^\d{4}$/);
+    assert.match(tree.sourceUrl, /^https:\/\/wvforestry.com\/pdf\/bigtree\/2025-(Flowering|Conifers)-Common.xlsx$/);
+  }
+  // A close runner-up is not a tie; legacy labels do not override the selection.
+  for (const excluded of ['wv-2025-conifers-11', 'wv-2025-flowering-148', 'wv-2025-flowering-156', 'wv-2025-flowering-201', 'wv-2025-flowering-103', 'wv-2025-flowering-101']) {
+    assert.ok(!selected.has(excluded));
+  }
+  assert.equal(records.find(t => t.id === 'wv-2025-flowering-8').county, 'Pendleton');
+  assert.equal(records.find(t => t.commonName === 'Fraser Fir').county, 'Pocahontas');
+  const dawn = records.find(t => t.commonName === 'Dawn Redwood');
+  assert.equal(dawn.circumference, 193);
+  assert.ok(dawn.sourceReviewNotes.some(note => note.includes("193 @ 5 1/2'")));
+});
 test('Virginia retains separate city and county map identities and shareable regional filters', () => {
   const county = { state: 'VA', town: 'Fairfax', county: 'Fairfax', mapPrecision: 'county' };
   const city = { ...county, town: 'City of Fairfax', county: 'Fairfax City' };

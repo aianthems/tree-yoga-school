@@ -1,0 +1,1973 @@
+{
+  "edition": "2025",
+  "sourceFiles": {
+    "flowering": {
+      "sha256": "2506f3ccbb168c1c7a3af2f70d2ab25cfd1d27cdca128ffd78c0f2d442bb5bd2",
+      "records": 424
+    },
+    "conifers": {
+      "sha256": "0439a1b40663b6edd8f90efa97b54e450784d100537788f16977a10b345150e3",
+      "records": 109
+    }
+  },
+  "excludedCategories": [
+    {
+      "category": "Chinese Chestnut",
+      "reason": "Leading row 103 has conflicting common/scientific names; no successor inferred.",
+      "rows": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ]
+    }
+  ],
+  "selection": [
+    {
+      "category": "Ailanthus, Tree-of-Heaven",
+      "maximumPublishedPoints": 281.0,
+      "sourceRowsCompared": [
+        "flowering:2",
+        "flowering:3",
+        "flowering:4",
+        "flowering:5",
+        "flowering:6",
+        "flowering:7"
+      ],
+      "selectedRows": [
+        "flowering:2"
+      ]
+    },
+    {
+      "category": "Allegheny Chinquapin",
+      "maximumPublishedPoints": 80.0,
+      "sourceRowsCompared": [
+        "flowering:8"
+      ],
+      "selectedRows": [
+        "flowering:8"
+      ]
+    },
+    {
+      "category": "Allegheny Serviceberry, Smooth Serviceberry",
+      "maximumPublishedPoints": 130.0,
+      "sourceRowsCompared": [
+        "flowering:9"
+      ],
+      "selectedRows": [
+        "flowering:9"
+      ]
+    },
+    {
+      "category": "American Basswood",
+      "maximumPublishedPoints": 298.0,
+      "sourceRowsCompared": [
+        "flowering:10",
+        "flowering:11",
+        "flowering:12"
+      ],
+      "selectedRows": [
+        "flowering:10"
+      ]
+    },
+    {
+      "category": "American Beech",
+      "maximumPublishedPoints": 302.0,
+      "sourceRowsCompared": [
+        "flowering:13",
+        "flowering:14",
+        "flowering:15",
+        "flowering:16",
+        "flowering:17",
+        "flowering:18",
+        "flowering:19"
+      ],
+      "selectedRows": [
+        "flowering:13"
+      ]
+    },
+    {
+      "category": "American Chestnut",
+      "maximumPublishedPoints": 147.0,
+      "sourceRowsCompared": [
+        "flowering:20",
+        "flowering:21",
+        "flowering:22",
+        "flowering:23"
+      ],
+      "selectedRows": [
+        "flowering:20"
+      ]
+    },
+    {
+      "category": "American Elm",
+      "maximumPublishedPoints": 407.0,
+      "sourceRowsCompared": [
+        "flowering:24",
+        "flowering:25",
+        "flowering:26",
+        "flowering:27",
+        "flowering:28",
+        "flowering:29"
+      ],
+      "selectedRows": [
+        "flowering:24"
+      ]
+    },
+    {
+      "category": "American Holly",
+      "maximumPublishedPoints": 165.0,
+      "sourceRowsCompared": [
+        "flowering:30",
+        "flowering:31"
+      ],
+      "selectedRows": [
+        "flowering:30"
+      ]
+    },
+    {
+      "category": "American Hornbeam, Musclewood",
+      "maximumPublishedPoints": 83.0,
+      "sourceRowsCompared": [
+        "flowering:32",
+        "flowering:33",
+        "flowering:34"
+      ],
+      "selectedRows": [
+        "flowering:32"
+      ]
+    },
+    {
+      "category": "American Mountain Ash",
+      "maximumPublishedPoints": 65.0,
+      "sourceRowsCompared": [
+        "flowering:35"
+      ],
+      "selectedRows": [
+        "flowering:35"
+      ]
+    },
+    {
+      "category": "American Plum",
+      "maximumPublishedPoints": 85.0,
+      "sourceRowsCompared": [
+        "flowering:36",
+        "flowering:37",
+        "flowering:38"
+      ],
+      "selectedRows": [
+        "flowering:36"
+      ]
+    },
+    {
+      "category": "Bear Oak",
+      "maximumPublishedPoints": 44.9,
+      "sourceRowsCompared": [
+        "flowering:39"
+      ],
+      "selectedRows": [
+        "flowering:39"
+      ]
+    },
+    {
+      "category": "Bigleaf Magnolia",
+      "maximumPublishedPoints": 102.0,
+      "sourceRowsCompared": [
+        "flowering:40",
+        "flowering:41",
+        "flowering:42"
+      ],
+      "selectedRows": [
+        "flowering:40"
+      ]
+    },
+    {
+      "category": "Bigtooth Aspen",
+      "maximumPublishedPoints": 224.0,
+      "sourceRowsCompared": [
+        "flowering:43",
+        "flowering:44",
+        "flowering:45"
+      ],
+      "selectedRows": [
+        "flowering:43"
+      ]
+    },
+    {
+      "category": "Bitternut Hickory",
+      "maximumPublishedPoints": 311.0,
+      "sourceRowsCompared": [
+        "flowering:46",
+        "flowering:47",
+        "flowering:48"
+      ],
+      "selectedRows": [
+        "flowering:46"
+      ]
+    },
+    {
+      "category": "Black Cherry",
+      "maximumPublishedPoints": 315.0,
+      "sourceRowsCompared": [
+        "flowering:49",
+        "flowering:50",
+        "flowering:51",
+        "flowering:52"
+      ],
+      "selectedRows": [
+        "flowering:49"
+      ]
+    },
+    {
+      "category": "Black Locust",
+      "maximumPublishedPoints": 258.0,
+      "sourceRowsCompared": [
+        "flowering:53",
+        "flowering:54"
+      ],
+      "selectedRows": [
+        "flowering:53"
+      ]
+    },
+    {
+      "category": "Black Oak",
+      "maximumPublishedPoints": 419.0,
+      "sourceRowsCompared": [
+        "flowering:55",
+        "flowering:56",
+        "flowering:57",
+        "flowering:58",
+        "flowering:59",
+        "flowering:60",
+        "flowering:61",
+        "flowering:62"
+      ],
+      "selectedRows": [
+        "flowering:55"
+      ]
+    },
+    {
+      "category": "Black Sugar Maple",
+      "maximumPublishedPoints": 270.0,
+      "sourceRowsCompared": [
+        "flowering:63",
+        "flowering:64"
+      ],
+      "selectedRows": [
+        "flowering:63"
+      ]
+    },
+    {
+      "category": "Black Walnut",
+      "maximumPublishedPoints": 297.0,
+      "sourceRowsCompared": [
+        "flowering:65",
+        "flowering:66",
+        "flowering:67",
+        "flowering:68",
+        "flowering:69",
+        "flowering:70"
+      ],
+      "selectedRows": [
+        "flowering:65"
+      ]
+    },
+    {
+      "category": "Black Willow",
+      "maximumPublishedPoints": 127.4,
+      "sourceRowsCompared": [
+        "flowering:71",
+        "flowering:72",
+        "flowering:73",
+        "flowering:74"
+      ],
+      "selectedRows": [
+        "flowering:73"
+      ]
+    },
+    {
+      "category": "Blackgum, Sourgum",
+      "maximumPublishedPoints": 274.0,
+      "sourceRowsCompared": [
+        "flowering:75",
+        "flowering:76",
+        "flowering:77",
+        "flowering:78",
+        "flowering:79",
+        "flowering:80"
+      ],
+      "selectedRows": [
+        "flowering:75"
+      ]
+    },
+    {
+      "category": "Blackjack Oak",
+      "maximumPublishedPoints": 87.0,
+      "sourceRowsCompared": [
+        "flowering:81"
+      ],
+      "selectedRows": [
+        "flowering:81"
+      ]
+    },
+    {
+      "category": "Boxelder, Ashleaf Maple",
+      "maximumPublishedPoints": 217.0,
+      "sourceRowsCompared": [
+        "flowering:82",
+        "flowering:83",
+        "flowering:84",
+        "flowering:85",
+        "flowering:86"
+      ],
+      "selectedRows": [
+        "flowering:82"
+      ]
+    },
+    {
+      "category": "Bur Oak",
+      "maximumPublishedPoints": 428.0,
+      "sourceRowsCompared": [
+        "flowering:87",
+        "flowering:88",
+        "flowering:89"
+      ],
+      "selectedRows": [
+        "flowering:87"
+      ]
+    },
+    {
+      "category": "Butternut, White Walnut",
+      "maximumPublishedPoints": 337.0,
+      "sourceRowsCompared": [
+        "flowering:90",
+        "flowering:91",
+        "flowering:92",
+        "flowering:93",
+        "flowering:94"
+      ],
+      "selectedRows": [
+        "flowering:90"
+      ]
+    },
+    {
+      "category": "Callery Pear",
+      "maximumPublishedPoints": 132.0,
+      "sourceRowsCompared": [
+        "flowering:95",
+        "flowering:96"
+      ],
+      "selectedRows": [
+        "flowering:95"
+      ]
+    },
+    {
+      "category": "Chestnut Hybrid",
+      "maximumPublishedPoints": 138.0,
+      "sourceRowsCompared": [
+        "flowering:97"
+      ],
+      "selectedRows": [
+        "flowering:97"
+      ]
+    },
+    {
+      "category": "Chestnut Oak",
+      "maximumPublishedPoints": 308.0,
+      "sourceRowsCompared": [
+        "flowering:98",
+        "flowering:99",
+        "flowering:100"
+      ],
+      "selectedRows": [
+        "flowering:98"
+      ]
+    },
+    {
+      "category": "Chinese Elm, Lacebark Elm",
+      "maximumPublishedPoints": 147.0,
+      "sourceRowsCompared": [
+        "flowering:106",
+        "flowering:107"
+      ],
+      "selectedRows": [
+        "flowering:106"
+      ]
+    },
+    {
+      "category": "Chinkapin Oak",
+      "maximumPublishedPoints": 362.0,
+      "sourceRowsCompared": [
+        "flowering:108",
+        "flowering:109",
+        "flowering:110",
+        "flowering:111"
+      ],
+      "selectedRows": [
+        "flowering:108"
+      ]
+    },
+    {
+      "category": "Common Persimmon",
+      "maximumPublishedPoints": 168.5,
+      "sourceRowsCompared": [
+        "flowering:112",
+        "flowering:113",
+        "flowering:114",
+        "flowering:115",
+        "flowering:116",
+        "flowering:117"
+      ],
+      "selectedRows": [
+        "flowering:112"
+      ]
+    },
+    {
+      "category": "Common Serviceberry, Downy Serviceberry",
+      "maximumPublishedPoints": 163.0,
+      "sourceRowsCompared": [
+        "flowering:118",
+        "flowering:119",
+        "flowering:120"
+      ],
+      "selectedRows": [
+        "flowering:118",
+        "flowering:119"
+      ]
+    },
+    {
+      "category": "Crack Willow",
+      "maximumPublishedPoints": 293.0,
+      "sourceRowsCompared": [
+        "flowering:121",
+        "flowering:122"
+      ],
+      "selectedRows": [
+        "flowering:121"
+      ]
+    },
+    {
+      "category": "Cucumber-tree",
+      "maximumPublishedPoints": 313.0,
+      "sourceRowsCompared": [
+        "flowering:123",
+        "flowering:124",
+        "flowering:125",
+        "flowering:126",
+        "flowering:127"
+      ],
+      "selectedRows": [
+        "flowering:123"
+      ]
+    },
+    {
+      "category": "Dwarf Hackberry",
+      "maximumPublishedPoints": 37.5,
+      "sourceRowsCompared": [
+        "flowering:128"
+      ],
+      "selectedRows": [
+        "flowering:128"
+      ]
+    },
+    {
+      "category": "Eastern Cottonwood",
+      "maximumPublishedPoints": 346.0,
+      "sourceRowsCompared": [
+        "flowering:129",
+        "flowering:130",
+        "flowering:131",
+        "flowering:132"
+      ],
+      "selectedRows": [
+        "flowering:129"
+      ]
+    },
+    {
+      "category": "English Oak, Pedunculate Oak",
+      "maximumPublishedPoints": 230.0,
+      "sourceRowsCompared": [
+        "flowering:133",
+        "flowering:134",
+        "flowering:135"
+      ],
+      "selectedRows": [
+        "flowering:133"
+      ]
+    },
+    {
+      "category": "English Walnut",
+      "maximumPublishedPoints": 224.0,
+      "sourceRowsCompared": [
+        "flowering:136",
+        "flowering:137"
+      ],
+      "selectedRows": [
+        "flowering:136"
+      ]
+    },
+    {
+      "category": "European Beech",
+      "maximumPublishedPoints": 280.0,
+      "sourceRowsCompared": [
+        "flowering:138"
+      ],
+      "selectedRows": [
+        "flowering:138"
+      ]
+    },
+    {
+      "category": "European Black Alder",
+      "maximumPublishedPoints": 71.0,
+      "sourceRowsCompared": [
+        "flowering:139"
+      ],
+      "selectedRows": [
+        "flowering:139"
+      ]
+    },
+    {
+      "category": "European Chestnut",
+      "maximumPublishedPoints": 170.0,
+      "sourceRowsCompared": [
+        "flowering:140"
+      ],
+      "selectedRows": [
+        "flowering:140"
+      ]
+    },
+    {
+      "category": "European Purple Beech",
+      "maximumPublishedPoints": 333.0,
+      "sourceRowsCompared": [
+        "flowering:141",
+        "flowering:142"
+      ],
+      "selectedRows": [
+        "flowering:141"
+      ]
+    },
+    {
+      "category": "European Tri-color Beech",
+      "maximumPublishedPoints": 94.0,
+      "sourceRowsCompared": [
+        "flowering:143"
+      ],
+      "selectedRows": [
+        "flowering:143"
+      ]
+    },
+    {
+      "category": "European White Birch",
+      "maximumPublishedPoints": 87.0,
+      "sourceRowsCompared": [
+        "flowering:144",
+        "flowering:145"
+      ],
+      "selectedRows": [
+        "flowering:144"
+      ]
+    },
+    {
+      "category": "Fire/Pin Cherry",
+      "maximumPublishedPoints": 121.0,
+      "sourceRowsCompared": [
+        "flowering:146",
+        "flowering:147",
+        "flowering:148",
+        "flowering:149",
+        "flowering:150"
+      ],
+      "selectedRows": [
+        "flowering:146"
+      ]
+    },
+    {
+      "category": "Flowering Dogwood",
+      "maximumPublishedPoints": 105.0,
+      "sourceRowsCompared": [
+        "flowering:151",
+        "flowering:152",
+        "flowering:153",
+        "flowering:154"
+      ],
+      "selectedRows": [
+        "flowering:151"
+      ]
+    },
+    {
+      "category": "Ginkgo",
+      "maximumPublishedPoints": 414.0,
+      "sourceRowsCompared": [
+        "flowering:155",
+        "flowering:156",
+        "flowering:157",
+        "flowering:158",
+        "flowering:159",
+        "flowering:160",
+        "flowering:161",
+        "flowering:162"
+      ],
+      "selectedRows": [
+        "flowering:155"
+      ]
+    },
+    {
+      "category": "Green Ash, Red Ash",
+      "maximumPublishedPoints": 314.0,
+      "sourceRowsCompared": [
+        "flowering:163",
+        "flowering:164"
+      ],
+      "selectedRows": [
+        "flowering:163"
+      ]
+    },
+    {
+      "category": "Hackberry",
+      "maximumPublishedPoints": 361.6,
+      "sourceRowsCompared": [
+        "flowering:165",
+        "flowering:166",
+        "flowering:167",
+        "flowering:168",
+        "flowering:169"
+      ],
+      "selectedRows": [
+        "flowering:165"
+      ]
+    },
+    {
+      "category": "Hazel Alder",
+      "maximumPublishedPoints": 51.0,
+      "sourceRowsCompared": [
+        "flowering:170"
+      ],
+      "selectedRows": [
+        "flowering:170"
+      ]
+    },
+    {
+      "category": "Honeylocust",
+      "maximumPublishedPoints": 304.0,
+      "sourceRowsCompared": [
+        "flowering:171",
+        "flowering:172",
+        "flowering:173"
+      ],
+      "selectedRows": [
+        "flowering:171"
+      ]
+    },
+    {
+      "category": "Hophornbeam, Ironwood",
+      "maximumPublishedPoints": 165.0,
+      "sourceRowsCompared": [
+        "flowering:174",
+        "flowering:175",
+        "flowering:176"
+      ],
+      "selectedRows": [
+        "flowering:174"
+      ]
+    },
+    {
+      "category": "Horse-chestnut",
+      "maximumPublishedPoints": 172.0,
+      "sourceRowsCompared": [
+        "flowering:177",
+        "flowering:178",
+        "flowering:179"
+      ],
+      "selectedRows": [
+        "flowering:178"
+      ]
+    },
+    {
+      "category": "Japanese Chestnut",
+      "maximumPublishedPoints": 169.0,
+      "sourceRowsCompared": [
+        "flowering:180"
+      ],
+      "selectedRows": [
+        "flowering:180"
+      ]
+    },
+    {
+      "category": "Japanese Maple",
+      "maximumPublishedPoints": 94.0,
+      "sourceRowsCompared": [
+        "flowering:181",
+        "flowering:182",
+        "flowering:183"
+      ],
+      "selectedRows": [
+        "flowering:181"
+      ]
+    },
+    {
+      "category": "Japanese Pagoda - Scholar Tree",
+      "maximumPublishedPoints": 117.0,
+      "sourceRowsCompared": [
+        "flowering:184"
+      ],
+      "selectedRows": [
+        "flowering:184"
+      ]
+    },
+    {
+      "category": "Japanese Zelkova",
+      "maximumPublishedPoints": 140.0,
+      "sourceRowsCompared": [
+        "flowering:185"
+      ],
+      "selectedRows": [
+        "flowering:185"
+      ]
+    },
+    {
+      "category": "Japenese Tree Lilac",
+      "maximumPublishedPoints": 61.0,
+      "sourceRowsCompared": [
+        "flowering:186"
+      ],
+      "selectedRows": [
+        "flowering:186"
+      ]
+    },
+    {
+      "category": "Japense Walnut",
+      "maximumPublishedPoints": 158.0,
+      "sourceRowsCompared": [
+        "flowering:187"
+      ],
+      "selectedRows": [
+        "flowering:187"
+      ]
+    },
+    {
+      "category": "Kentucky Coffeetree",
+      "maximumPublishedPoints": 239.0,
+      "sourceRowsCompared": [
+        "flowering:188",
+        "flowering:189",
+        "flowering:190",
+        "flowering:191",
+        "flowering:192",
+        "flowering:193",
+        "flowering:194",
+        "flowering:195"
+      ],
+      "selectedRows": [
+        "flowering:188"
+      ]
+    },
+    {
+      "category": "Lea's Oak",
+      "maximumPublishedPoints": 173.0,
+      "sourceRowsCompared": [
+        "flowering:196"
+      ],
+      "selectedRows": [
+        "flowering:196"
+      ]
+    },
+    {
+      "category": "Littleleaf Linden",
+      "maximumPublishedPoints": 233.0,
+      "sourceRowsCompared": [
+        "flowering:197",
+        "flowering:198"
+      ],
+      "selectedRows": [
+        "flowering:197"
+      ]
+    },
+    {
+      "category": "London Planetree",
+      "maximumPublishedPoints": 220.5,
+      "sourceRowsCompared": [
+        "flowering:199"
+      ],
+      "selectedRows": [
+        "flowering:199"
+      ]
+    },
+    {
+      "category": "Mazzard Cherry",
+      "maximumPublishedPoints": 226.0,
+      "sourceRowsCompared": [
+        "flowering:200",
+        "flowering:201"
+      ],
+      "selectedRows": [
+        "flowering:200"
+      ]
+    },
+    {
+      "category": "Mockernut Hickory",
+      "maximumPublishedPoints": 196.0,
+      "sourceRowsCompared": [
+        "flowering:202",
+        "flowering:203"
+      ],
+      "selectedRows": [
+        "flowering:202"
+      ]
+    },
+    {
+      "category": "Mountain Laurel",
+      "maximumPublishedPoints": 42.0,
+      "sourceRowsCompared": [
+        "flowering:204"
+      ],
+      "selectedRows": [
+        "flowering:204"
+      ]
+    },
+    {
+      "category": "Mountain Magnolia, Fraser Magnolia",
+      "maximumPublishedPoints": 173.0,
+      "sourceRowsCompared": [
+        "flowering:205",
+        "flowering:206",
+        "flowering:207",
+        "flowering:208"
+      ],
+      "selectedRows": [
+        "flowering:205"
+      ]
+    },
+    {
+      "category": "Mountain Silverbell",
+      "maximumPublishedPoints": 115.0,
+      "sourceRowsCompared": [
+        "flowering:209",
+        "flowering:210",
+        "flowering:211"
+      ],
+      "selectedRows": [
+        "flowering:209"
+      ]
+    },
+    {
+      "category": "Northern Catalpa",
+      "maximumPublishedPoints": 323.0,
+      "sourceRowsCompared": [
+        "flowering:212",
+        "flowering:213",
+        "flowering:214",
+        "flowering:215"
+      ],
+      "selectedRows": [
+        "flowering:212"
+      ]
+    },
+    {
+      "category": "Northern Red Oak",
+      "maximumPublishedPoints": 387.0,
+      "sourceRowsCompared": [
+        "flowering:216",
+        "flowering:217",
+        "flowering:218",
+        "flowering:219",
+        "flowering:220",
+        "flowering:221",
+        "flowering:222",
+        "flowering:223",
+        "flowering:224",
+        "flowering:225"
+      ],
+      "selectedRows": [
+        "flowering:216"
+      ]
+    },
+    {
+      "category": "Norway Maple",
+      "maximumPublishedPoints": 179.0,
+      "sourceRowsCompared": [
+        "flowering:226"
+      ],
+      "selectedRows": [
+        "flowering:226"
+      ]
+    },
+    {
+      "category": "Ohio Buckeye",
+      "maximumPublishedPoints": 87.9,
+      "sourceRowsCompared": [
+        "flowering:227"
+      ],
+      "selectedRows": [
+        "flowering:227"
+      ]
+    },
+    {
+      "category": "Osage-orange, Hedge-apple",
+      "maximumPublishedPoints": 280.0,
+      "sourceRowsCompared": [
+        "flowering:228",
+        "flowering:229",
+        "flowering:230",
+        "flowering:231",
+        "flowering:232",
+        "flowering:233",
+        "flowering:234",
+        "flowering:235"
+      ],
+      "selectedRows": [
+        "flowering:228"
+      ]
+    },
+    {
+      "category": "Paper Birch, White Birch",
+      "maximumPublishedPoints": 103.0,
+      "sourceRowsCompared": [
+        "flowering:236"
+      ],
+      "selectedRows": [
+        "flowering:236"
+      ]
+    },
+    {
+      "category": "Paperbark Maple",
+      "maximumPublishedPoints": 75.0,
+      "sourceRowsCompared": [
+        "flowering:237"
+      ],
+      "selectedRows": [
+        "flowering:237"
+      ]
+    },
+    {
+      "category": "Paulownia, Princess-tree",
+      "maximumPublishedPoints": 176.0,
+      "sourceRowsCompared": [
+        "flowering:238",
+        "flowering:239"
+      ],
+      "selectedRows": [
+        "flowering:238"
+      ]
+    },
+    {
+      "category": "Pawpaw",
+      "maximumPublishedPoints": 87.0,
+      "sourceRowsCompared": [
+        "flowering:240",
+        "flowering:241",
+        "flowering:242"
+      ],
+      "selectedRows": [
+        "flowering:240",
+        "flowering:241"
+      ]
+    },
+    {
+      "category": "Pecan",
+      "maximumPublishedPoints": 294.0,
+      "sourceRowsCompared": [
+        "flowering:243",
+        "flowering:244",
+        "flowering:245",
+        "flowering:246"
+      ],
+      "selectedRows": [
+        "flowering:243"
+      ]
+    },
+    {
+      "category": "Pignut Hickory",
+      "maximumPublishedPoints": 303.0,
+      "sourceRowsCompared": [
+        "flowering:247",
+        "flowering:248"
+      ],
+      "selectedRows": [
+        "flowering:247"
+      ]
+    },
+    {
+      "category": "Pin Oak",
+      "maximumPublishedPoints": 342.0,
+      "sourceRowsCompared": [
+        "flowering:249",
+        "flowering:250",
+        "flowering:251",
+        "flowering:252"
+      ],
+      "selectedRows": [
+        "flowering:249"
+      ]
+    },
+    {
+      "category": "Post Oak",
+      "maximumPublishedPoints": 270.0,
+      "sourceRowsCompared": [
+        "flowering:253",
+        "flowering:254",
+        "flowering:255",
+        "flowering:256"
+      ],
+      "selectedRows": [
+        "flowering:253"
+      ]
+    },
+    {
+      "category": "Quaking Aspen",
+      "maximumPublishedPoints": 149.0,
+      "sourceRowsCompared": [
+        "flowering:257"
+      ],
+      "selectedRows": [
+        "flowering:257"
+      ]
+    },
+    {
+      "category": "Red Maple, Soft Maple",
+      "maximumPublishedPoints": 275.0,
+      "sourceRowsCompared": [
+        "flowering:258",
+        "flowering:259",
+        "flowering:260"
+      ],
+      "selectedRows": [
+        "flowering:258"
+      ]
+    },
+    {
+      "category": "Red Mulberry",
+      "maximumPublishedPoints": 142.0,
+      "sourceRowsCompared": [
+        "flowering:261",
+        "flowering:262"
+      ],
+      "selectedRows": [
+        "flowering:261"
+      ]
+    },
+    {
+      "category": "Redbud",
+      "maximumPublishedPoints": 95.0,
+      "sourceRowsCompared": [
+        "flowering:263",
+        "flowering:264"
+      ],
+      "selectedRows": [
+        "flowering:263"
+      ]
+    },
+    {
+      "category": "River Birch, Red Birch",
+      "maximumPublishedPoints": 201.0,
+      "sourceRowsCompared": [
+        "flowering:265",
+        "flowering:266",
+        "flowering:267",
+        "flowering:268",
+        "flowering:269",
+        "flowering:270",
+        "flowering:271"
+      ],
+      "selectedRows": [
+        "flowering:266"
+      ]
+    },
+    {
+      "category": "Sassafras",
+      "maximumPublishedPoints": 249.0,
+      "sourceRowsCompared": [
+        "flowering:272",
+        "flowering:273",
+        "flowering:274",
+        "flowering:275",
+        "flowering:276",
+        "flowering:277",
+        "flowering:278"
+      ],
+      "selectedRows": [
+        "flowering:272"
+      ]
+    },
+    {
+      "category": "Saucer Magnolia",
+      "maximumPublishedPoints": 100.0,
+      "sourceRowsCompared": [
+        "flowering:279"
+      ],
+      "selectedRows": [
+        "flowering:279"
+      ]
+    },
+    {
+      "category": "Sawtooth Oak",
+      "maximumPublishedPoints": 140.0,
+      "sourceRowsCompared": [
+        "flowering:280",
+        "flowering:281",
+        "flowering:282"
+      ],
+      "selectedRows": [
+        "flowering:280"
+      ]
+    },
+    {
+      "category": "Scarlet Oak",
+      "maximumPublishedPoints": 329.0,
+      "sourceRowsCompared": [
+        "flowering:283",
+        "flowering:284",
+        "flowering:285"
+      ],
+      "selectedRows": [
+        "flowering:283"
+      ]
+    },
+    {
+      "category": "Shagbark Hickory",
+      "maximumPublishedPoints": 254.0,
+      "sourceRowsCompared": [
+        "flowering:286",
+        "flowering:287",
+        "flowering:288",
+        "flowering:289"
+      ],
+      "selectedRows": [
+        "flowering:286"
+      ]
+    },
+    {
+      "category": "Shellbark Hickory, King Nut",
+      "maximumPublishedPoints": 266.0,
+      "sourceRowsCompared": [
+        "flowering:290",
+        "flowering:291",
+        "flowering:292",
+        "flowering:293"
+      ],
+      "selectedRows": [
+        "flowering:290"
+      ]
+    },
+    {
+      "category": "Shingle Oak",
+      "maximumPublishedPoints": 270.0,
+      "sourceRowsCompared": [
+        "flowering:294",
+        "flowering:295",
+        "flowering:296",
+        "flowering:297",
+        "flowering:298"
+      ],
+      "selectedRows": [
+        "flowering:294"
+      ]
+    },
+    {
+      "category": "Shumard Oak",
+      "maximumPublishedPoints": 167.4,
+      "sourceRowsCompared": [
+        "flowering:299"
+      ],
+      "selectedRows": [
+        "flowering:299"
+      ]
+    },
+    {
+      "category": "Siberian Elm",
+      "maximumPublishedPoints": 279.0,
+      "sourceRowsCompared": [
+        "flowering:300",
+        "flowering:301"
+      ],
+      "selectedRows": [
+        "flowering:300"
+      ]
+    },
+    {
+      "category": "Silk Tree",
+      "maximumPublishedPoints": 115.0,
+      "sourceRowsCompared": [
+        "flowering:302",
+        "flowering:303",
+        "flowering:304"
+      ],
+      "selectedRows": [
+        "flowering:302"
+      ]
+    },
+    {
+      "category": "Silver Maple, River Maple",
+      "maximumPublishedPoints": 408.0,
+      "sourceRowsCompared": [
+        "flowering:305",
+        "flowering:306",
+        "flowering:307",
+        "flowering:308",
+        "flowering:309",
+        "flowering:310",
+        "flowering:311",
+        "flowering:312"
+      ],
+      "selectedRows": [
+        "flowering:305"
+      ]
+    },
+    {
+      "category": "Slippery Elm",
+      "maximumPublishedPoints": 288.0,
+      "sourceRowsCompared": [
+        "flowering:313",
+        "flowering:314",
+        "flowering:315"
+      ],
+      "selectedRows": [
+        "flowering:313"
+      ]
+    },
+    {
+      "category": "Sourwood",
+      "maximumPublishedPoints": 187.0,
+      "sourceRowsCompared": [
+        "flowering:316",
+        "flowering:317",
+        "flowering:318",
+        "flowering:319"
+      ],
+      "selectedRows": [
+        "flowering:316"
+      ]
+    },
+    {
+      "category": "Southern Catalpa",
+      "maximumPublishedPoints": 263.0,
+      "sourceRowsCompared": [
+        "flowering:320",
+        "flowering:321",
+        "flowering:322"
+      ],
+      "selectedRows": [
+        "flowering:320"
+      ]
+    },
+    {
+      "category": "Southern Magnolia",
+      "maximumPublishedPoints": 160.0,
+      "sourceRowsCompared": [
+        "flowering:323",
+        "flowering:324",
+        "flowering:325",
+        "flowering:326"
+      ],
+      "selectedRows": [
+        "flowering:323"
+      ]
+    },
+    {
+      "category": "Southern Red Oak, Spanish Oak",
+      "maximumPublishedPoints": 292.0,
+      "sourceRowsCompared": [
+        "flowering:327",
+        "flowering:328",
+        "flowering:329",
+        "flowering:330"
+      ],
+      "selectedRows": [
+        "flowering:327"
+      ]
+    },
+    {
+      "category": "Southern Sugar Maple",
+      "maximumPublishedPoints": 171.0,
+      "sourceRowsCompared": [
+        "flowering:331"
+      ],
+      "selectedRows": [
+        "flowering:331"
+      ]
+    },
+    {
+      "category": "Striped Maple",
+      "maximumPublishedPoints": 71.0,
+      "sourceRowsCompared": [
+        "flowering:332",
+        "flowering:333"
+      ],
+      "selectedRows": [
+        "flowering:332"
+      ]
+    },
+    {
+      "category": "Sugar Maple, Hard Maple",
+      "maximumPublishedPoints": 295.0,
+      "sourceRowsCompared": [
+        "flowering:334",
+        "flowering:335",
+        "flowering:336",
+        "flowering:337",
+        "flowering:338",
+        "flowering:339"
+      ],
+      "selectedRows": [
+        "flowering:335"
+      ]
+    },
+    {
+      "category": "Swamp Tupelo",
+      "maximumPublishedPoints": 77.0,
+      "sourceRowsCompared": [
+        "flowering:340"
+      ],
+      "selectedRows": [
+        "flowering:340"
+      ]
+    },
+    {
+      "category": "Swamp White Oak",
+      "maximumPublishedPoints": 325.0,
+      "sourceRowsCompared": [
+        "flowering:341",
+        "flowering:342",
+        "flowering:343"
+      ],
+      "selectedRows": [
+        "flowering:342"
+      ]
+    },
+    {
+      "category": "Sweet Birch, Black Birch",
+      "maximumPublishedPoints": 206.0,
+      "sourceRowsCompared": [
+        "flowering:344",
+        "flowering:345",
+        "flowering:346"
+      ],
+      "selectedRows": [
+        "flowering:344"
+      ]
+    },
+    {
+      "category": "Sweet Oak",
+      "maximumPublishedPoints": 175.0,
+      "sourceRowsCompared": [
+        "flowering:347",
+        "flowering:348"
+      ],
+      "selectedRows": [
+        "flowering:347"
+      ]
+    },
+    {
+      "category": "Sweetbay Magnolia",
+      "maximumPublishedPoints": 56.0,
+      "sourceRowsCompared": [
+        "flowering:349",
+        "flowering:350"
+      ],
+      "selectedRows": [
+        "flowering:349"
+      ]
+    },
+    {
+      "category": "Sweetgum, Redgum",
+      "maximumPublishedPoints": 250.0,
+      "sourceRowsCompared": [
+        "flowering:351",
+        "flowering:352",
+        "flowering:353",
+        "flowering:354",
+        "flowering:355"
+      ],
+      "selectedRows": [
+        "flowering:351"
+      ]
+    },
+    {
+      "category": "Sycamore",
+      "maximumPublishedPoints": 458.0,
+      "sourceRowsCompared": [
+        "flowering:356",
+        "flowering:357",
+        "flowering:358",
+        "flowering:359",
+        "flowering:360",
+        "flowering:361",
+        "flowering:362",
+        "flowering:363",
+        "flowering:364",
+        "flowering:365",
+        "flowering:366",
+        "flowering:367"
+      ],
+      "selectedRows": [
+        "flowering:356"
+      ]
+    },
+    {
+      "category": "Tuliptree, Yellow-poplar",
+      "maximumPublishedPoints": 401.0,
+      "sourceRowsCompared": [
+        "flowering:368",
+        "flowering:369",
+        "flowering:370",
+        "flowering:371",
+        "flowering:372",
+        "flowering:373",
+        "flowering:374",
+        "flowering:375",
+        "flowering:376"
+      ],
+      "selectedRows": [
+        "flowering:368"
+      ]
+    },
+    {
+      "category": "Weeping Willow",
+      "maximumPublishedPoints": 335.0,
+      "sourceRowsCompared": [
+        "flowering:377",
+        "flowering:378",
+        "flowering:379",
+        "flowering:380"
+      ],
+      "selectedRows": [
+        "flowering:377"
+      ]
+    },
+    {
+      "category": "White Ash, Biltmore Ash",
+      "maximumPublishedPoints": 247.0,
+      "sourceRowsCompared": [
+        "flowering:381"
+      ],
+      "selectedRows": [
+        "flowering:381"
+      ]
+    },
+    {
+      "category": "White Basswood",
+      "maximumPublishedPoints": 242.0,
+      "sourceRowsCompared": [
+        "flowering:382"
+      ],
+      "selectedRows": [
+        "flowering:382"
+      ]
+    },
+    {
+      "category": "White Fringetree",
+      "maximumPublishedPoints": 44.0,
+      "sourceRowsCompared": [
+        "flowering:383",
+        "flowering:384",
+        "flowering:385",
+        "flowering:386",
+        "flowering:387"
+      ],
+      "selectedRows": [
+        "flowering:383"
+      ]
+    },
+    {
+      "category": "White Mulberry",
+      "maximumPublishedPoints": 204.0,
+      "sourceRowsCompared": [
+        "flowering:388",
+        "flowering:389",
+        "flowering:390"
+      ],
+      "selectedRows": [
+        "flowering:389"
+      ]
+    },
+    {
+      "category": "White Oak",
+      "maximumPublishedPoints": 368.0,
+      "sourceRowsCompared": [
+        "flowering:391",
+        "flowering:392",
+        "flowering:393",
+        "flowering:394",
+        "flowering:395",
+        "flowering:396",
+        "flowering:397",
+        "flowering:398",
+        "flowering:399",
+        "flowering:400",
+        "flowering:401",
+        "flowering:402",
+        "flowering:403",
+        "flowering:404",
+        "flowering:405",
+        "flowering:406",
+        "flowering:407",
+        "flowering:408",
+        "flowering:409",
+        "flowering:410",
+        "flowering:411"
+      ],
+      "selectedRows": [
+        "flowering:391"
+      ]
+    },
+    {
+      "category": "White Poplar",
+      "maximumPublishedPoints": 185.0,
+      "sourceRowsCompared": [
+        "flowering:412",
+        "flowering:413"
+      ],
+      "selectedRows": [
+        "flowering:412"
+      ]
+    },
+    {
+      "category": "Willow Oak",
+      "maximumPublishedPoints": 309.0,
+      "sourceRowsCompared": [
+        "flowering:414",
+        "flowering:415"
+      ],
+      "selectedRows": [
+        "flowering:414"
+      ]
+    },
+    {
+      "category": "Yellow Birch",
+      "maximumPublishedPoints": 171.0,
+      "sourceRowsCompared": [
+        "flowering:416",
+        "flowering:417"
+      ],
+      "selectedRows": [
+        "flowering:416"
+      ]
+    },
+    {
+      "category": "Yellow Buckeye, Sweet Buckeye",
+      "maximumPublishedPoints": 357.0,
+      "sourceRowsCompared": [
+        "flowering:418",
+        "flowering:419",
+        "flowering:420",
+        "flowering:421",
+        "flowering:422"
+      ],
+      "selectedRows": [
+        "flowering:418"
+      ]
+    },
+    {
+      "category": "Yellowwood",
+      "maximumPublishedPoints": 147.0,
+      "sourceRowsCompared": [
+        "flowering:423",
+        "flowering:424",
+        "flowering:425"
+      ],
+      "selectedRows": [
+        "flowering:423"
+      ]
+    },
+    {
+      "category": "Austrian-Black Pine",
+      "maximumPublishedPoints": 138.0,
+      "sourceRowsCompared": [
+        "conifers:2",
+        "conifers:3"
+      ],
+      "selectedRows": [
+        "conifers:2"
+      ]
+    },
+    {
+      "category": "Baldcypress",
+      "maximumPublishedPoints": 365.0,
+      "sourceRowsCompared": [
+        "conifers:4",
+        "conifers:5",
+        "conifers:6",
+        "conifers:7",
+        "conifers:8",
+        "conifers:9"
+      ],
+      "selectedRows": [
+        "conifers:4"
+      ]
+    },
+    {
+      "category": "Balsam Fir",
+      "maximumPublishedPoints": 159.0,
+      "sourceRowsCompared": [
+        "conifers:10",
+        "conifers:11",
+        "conifers:12",
+        "conifers:13",
+        "conifers:14",
+        "conifers:15"
+      ],
+      "selectedRows": [
+        "conifers:10"
+      ]
+    },
+    {
+      "category": "Dawn Redwood",
+      "maximumPublishedPoints": 315.0,
+      "sourceRowsCompared": [
+        "conifers:16",
+        "conifers:17",
+        "conifers:18",
+        "conifers:19"
+      ],
+      "selectedRows": [
+        "conifers:16"
+      ]
+    },
+    {
+      "category": "Douglas-fir",
+      "maximumPublishedPoints": 239.0,
+      "sourceRowsCompared": [
+        "conifers:20",
+        "conifers:21"
+      ],
+      "selectedRows": [
+        "conifers:20"
+      ]
+    },
+    {
+      "category": "Eastern Hemlock",
+      "maximumPublishedPoints": 286.0,
+      "sourceRowsCompared": [
+        "conifers:22",
+        "conifers:23",
+        "conifers:24",
+        "conifers:25",
+        "conifers:26",
+        "conifers:27"
+      ],
+      "selectedRows": [
+        "conifers:22"
+      ]
+    },
+    {
+      "category": "Eastern Redcedar",
+      "maximumPublishedPoints": 250.0,
+      "sourceRowsCompared": [
+        "conifers:28",
+        "conifers:29",
+        "conifers:30",
+        "conifers:31",
+        "conifers:32"
+      ],
+      "selectedRows": [
+        "conifers:28"
+      ]
+    },
+    {
+      "category": "English Yew",
+      "maximumPublishedPoints": 119.0,
+      "sourceRowsCompared": [
+        "conifers:33"
+      ],
+      "selectedRows": [
+        "conifers:33"
+      ]
+    },
+    {
+      "category": "European Larch",
+      "maximumPublishedPoints": 261.2,
+      "sourceRowsCompared": [
+        "conifers:34",
+        "conifers:35",
+        "conifers:36"
+      ],
+      "selectedRows": [
+        "conifers:35"
+      ]
+    },
+    {
+      "category": "Fraser Fir",
+      "maximumPublishedPoints": 81.0,
+      "sourceRowsCompared": [
+        "conifers:37",
+        "conifers:38",
+        "conifers:39"
+      ],
+      "selectedRows": [
+        "conifers:37"
+      ]
+    },
+    {
+      "category": "Hinoki False Cypress",
+      "maximumPublishedPoints": 139.0,
+      "sourceRowsCompared": [
+        "conifers:40"
+      ],
+      "selectedRows": [
+        "conifers:40"
+      ]
+    },
+    {
+      "category": "Japanese Cedar, Sugi",
+      "maximumPublishedPoints": 78.0,
+      "sourceRowsCompared": [
+        "conifers:41"
+      ],
+      "selectedRows": [
+        "conifers:41"
+      ]
+    },
+    {
+      "category": "Limber Pine",
+      "maximumPublishedPoints": 54.0,
+      "sourceRowsCompared": [
+        "conifers:42",
+        "conifers:43"
+      ],
+      "selectedRows": [
+        "conifers:42"
+      ]
+    },
+    {
+      "category": "Loblolly Pine",
+      "maximumPublishedPoints": 201.0,
+      "sourceRowsCompared": [
+        "conifers:44",
+        "conifers:45"
+      ],
+      "selectedRows": [
+        "conifers:44"
+      ]
+    },
+    {
+      "category": "Longleaf Pine",
+      "maximumPublishedPoints": 91.0,
+      "sourceRowsCompared": [
+        "conifers:46"
+      ],
+      "selectedRows": [
+        "conifers:46"
+      ]
+    },
+    {
+      "category": "Noble Fir",
+      "maximumPublishedPoints": 163.4,
+      "sourceRowsCompared": [
+        "conifers:47"
+      ],
+      "selectedRows": [
+        "conifers:47"
+      ]
+    },
+    {
+      "category": "Northern White-cedar, Arborvitae",
+      "maximumPublishedPoints": 179.0,
+      "sourceRowsCompared": [
+        "conifers:48",
+        "conifers:49",
+        "conifers:50",
+        "conifers:51",
+        "conifers:52"
+      ],
+      "selectedRows": [
+        "conifers:48"
+      ]
+    },
+    {
+      "category": "Norway Spruce",
+      "maximumPublishedPoints": 267.0,
+      "sourceRowsCompared": [
+        "conifers:53",
+        "conifers:54",
+        "conifers:55",
+        "conifers:56",
+        "conifers:57",
+        "conifers:58",
+        "conifers:59",
+        "conifers:60",
+        "conifers:61",
+        "conifers:62"
+      ],
+      "selectedRows": [
+        "conifers:53"
+      ]
+    },
+    {
+      "category": "Oriental Arborvitae",
+      "maximumPublishedPoints": 166.0,
+      "sourceRowsCompared": [
+        "conifers:63"
+      ],
+      "selectedRows": [
+        "conifers:63"
+      ]
+    },
+    {
+      "category": "Pacific Silver Fir",
+      "maximumPublishedPoints": 171.0,
+      "sourceRowsCompared": [
+        "conifers:64"
+      ],
+      "selectedRows": [
+        "conifers:64"
+      ]
+    },
+    {
+      "category": "Pitch Pine",
+      "maximumPublishedPoints": 223.0,
+      "sourceRowsCompared": [
+        "conifers:65",
+        "conifers:66",
+        "conifers:67",
+        "conifers:68",
+        "conifers:69",
+        "conifers:70"
+      ],
+      "selectedRows": [
+        "conifers:65"
+      ]
+    },
+    {
+      "category": "Pond Cypress",
+      "maximumPublishedPoints": 168.0,
+      "sourceRowsCompared": [
+        "conifers:71"
+      ],
+      "selectedRows": [
+        "conifers:71"
+      ]
+    },
+    {
+      "category": "Red Pine",
+      "maximumPublishedPoints": 170.0,
+      "sourceRowsCompared": [
+        "conifers:72",
+        "conifers:73",
+        "conifers:74"
+      ],
+      "selectedRows": [
+        "conifers:72"
+      ]
+    },
+    {
+      "category": "Red Spruce",
+      "maximumPublishedPoints": 221.0,
+      "sourceRowsCompared": [
+        "conifers:75",
+        "conifers:76"
+      ],
+      "selectedRows": [
+        "conifers:75"
+      ]
+    },
+    {
+      "category": "Sawara False Cypress",
+      "maximumPublishedPoints": 194.0,
+      "sourceRowsCompared": [
+        "conifers:77",
+        "conifers:78",
+        "conifers:79",
+        "conifers:80",
+        "conifers:81"
+      ],
+      "selectedRows": [
+        "conifers:77"
+      ]
+    },
+    {
+      "category": "Shortleaf Pine",
+      "maximumPublishedPoints": 252.0,
+      "sourceRowsCompared": [
+        "conifers:82",
+        "conifers:83",
+        "conifers:84",
+        "conifers:85",
+        "conifers:86",
+        "conifers:87",
+        "conifers:88"
+      ],
+      "selectedRows": [
+        "conifers:82"
+      ]
+    },
+    {
+      "category": "Table Mountain Pine",
+      "maximumPublishedPoints": 178.0,
+      "sourceRowsCompared": [
+        "conifers:89",
+        "conifers:90",
+        "conifers:91",
+        "conifers:92"
+      ],
+      "selectedRows": [
+        "conifers:89"
+      ]
+    },
+    {
+      "category": "Tamarack, Eastern Larch",
+      "maximumPublishedPoints": 100.7,
+      "sourceRowsCompared": [
+        "conifers:93",
+        "conifers:94"
+      ],
+      "selectedRows": [
+        "conifers:93"
+      ]
+    },
+    {
+      "category": "Tiger-tail Spruce",
+      "maximumPublishedPoints": 194.0,
+      "sourceRowsCompared": [
+        "conifers:95"
+      ],
+      "selectedRows": [
+        "conifers:95"
+      ]
+    },
+    {
+      "category": "Virginia Pine, Scrub Pine",
+      "maximumPublishedPoints": 177.0,
+      "sourceRowsCompared": [
+        "conifers:96",
+        "conifers:97",
+        "conifers:98",
+        "conifers:99",
+        "conifers:100"
+      ],
+      "selectedRows": [
+        "conifers:96"
+      ]
+    },
+    {
+      "category": "White Fir",
+      "maximumPublishedPoints": 80.0,
+      "sourceRowsCompared": [
+        "conifers:101",
+        "conifers:102"
+      ],
+      "selectedRows": [
+        "conifers:101"
+      ]
+    },
+    {
+      "category": "White Pine",
+      "maximumPublishedPoints": 297.0,
+      "sourceRowsCompared": [
+        "conifers:103",
+        "conifers:104",
+        "conifers:105",
+        "conifers:106",
+        "conifers:107",
+        "conifers:108",
+        "conifers:109",
+        "conifers:110"
+      ],
+      "selectedRows": [
+        "conifers:103"
+      ]
+    }
+  ],
+  "selectedRecords": 159,
+  "selectedCategories": 157
+}
