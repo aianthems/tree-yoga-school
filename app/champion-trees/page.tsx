@@ -4,22 +4,22 @@ import Link from "next/link";
 import SiteHeader from "../components/site-header";
 import SiteFooter from "../components/site-footer";
 import ChampionExplorer from "./champion-explorer";
-import { championSource, scChampionSource, ncChampionSource, wvChampionSource, vaChampionSource, nhChampionSource, vtChampionSource, meChampionSource, riChampionSource, ctChampionSource, nyChampionSource, njChampionSource, paChampionSource, deChampionSource, mdChampionSource, stateNames, sourceDates } from "../../lib/champion-trees";
+import { championSource, tnChampionSource, scChampionSource, ncChampionSource, wvChampionSource, vaChampionSource, nhChampionSource, vtChampionSource, meChampionSource, riChampionSource, ctChampionSource, nyChampionSource, njChampionSource, paChampionSource, deChampionSource, mdChampionSource, stateNames, sourceDates } from "../../lib/champion-trees";
 import "leaflet/dist/leaflet.css";
 import { championTrees, championManifest } from "../../lib/champion-tree-data";
 
 export const metadata: Metadata = {
   title: "Champion Tree Map | Tree Yoga School",
-  description: "Explore 3,424 champion and score-based leader records across Massachusetts, New Hampshire, Vermont, Maine, Rhode Island, Connecticut, New York, New Jersey, Pennsylvania, Delaware, Maryland, Virginia, West Virginia, North Carolina, and South Carolina. Browse an interactive town and county map, measurements, source records, and tree practices.",
+  description: "Explore 3,607 champion and score-based leader records across Massachusetts, New Hampshire, Vermont, Maine, Rhode Island, Connecticut, New York, New Jersey, Pennsylvania, Delaware, Maryland, Virginia, West Virginia, North Carolina, South Carolina, and Tennessee. Browse an interactive town and county map, measurements, source records, and tree practices.",
 };
 
 export default function ChampionTreesPage() {
   return <><SiteHeader /><main id="content" className="champion-page">
     <section className="champion-intro">
       <Link className="lesson-back" href="/trees">The Tree Library · Out in the world</Link>
-      <p className="section-kicker">Fifteen states to explore · Champion Tree Map</p>
+      <p className="section-kicker">Sixteen states to explore · Champion Tree Map</p>
       <h1>Meet the giants<br />among us.</h1>
-      <p className="lesson-lede">Remarkable trees, rooted in real places. Explore champion trees across Massachusetts, New Hampshire, Vermont, Maine, Rhode Island, Connecticut, New York, New Jersey, Pennsylvania, Delaware, Maryland, Virginia, West Virginia, North Carolina, and South Carolina, discover their scale, and let curiosity lead you into a deeper relationship with the trees around you.</p>
+      <p className="lesson-lede">Remarkable trees, rooted in real places. Explore champion trees across Massachusetts, New Hampshire, Vermont, Maine, Rhode Island, Connecticut, New York, New Jersey, Pennsylvania, Delaware, Maryland, Virginia, West Virginia, North Carolina, South Carolina, and Tennessee, discover their scale, and let curiosity lead you into a deeper relationship with the trees around you.</p>
       <div className="champion-stats"><span><strong>{championTrees.length.toLocaleString("en-US")}</strong> listed trees</span><span><strong>{championManifest.reduce((total, state) => total + state.mapped, 0).toLocaleString("en-US")}</strong> mapped trees</span><span><strong>{Object.keys(stateNames).length}</strong> states to explore</span></div>
     </section>
     <aside className="tree-visit-teaser"><h2>Looking for a tree to visit?</h2><p>Begin with three selected trees, arrival guidance, and a quiet practice for each.</p><Link className="course-link" href="/tree-visits">Explore trees to visit →</Link></aside>
@@ -52,6 +52,10 @@ export default function ChampionTreesPage() {
       <p>Names, addresses, counties, measurements, points, source ranks, and ranking dates are preserved with whitespace normalized. The dataset does not provide measurement dates or public-access permissions; ranking dates are shown separately. No current national title is inferred from the older book. Each tree links to its original FirstMap record and the official interactive map.</p>
       <p>All 91 records remain searchable and mapped: 86 use 31 approximate Census place points, including towns and census-designated places. Five records in Canterbury, Rockland, and Yorklyn use two county points because those names are not in the 2025 Census Places Gazetteer. Original place names remain visible. These markers do not locate individual trees. Delaware warns that many trees are on private property; confirm visiting guidance and obtain permission before entering.</p>
       <div className="course-actions"><a className="course-link" href={deChampionSource.registerUrl} target="_blank" rel="noreferrer">Official Big Trees Playground ↗</a><a className="course-link" href={deChampionSource.dataUrl} target="_blank" rel="noreferrer">Delaware FirstMap dataset ↗</a><a className="course-link" href={`${deChampionSource.bookUrl}#page=5`} target="_blank" rel="noreferrer">2019 register &amp; co-champion rule ↗</a><a className="course-link" href={deChampionSource.geographyUrl} target="_blank" rel="noreferrer">Census place geography ↗</a><a className="course-link" href={nyChampionSource.geographyUrl} target="_blank" rel="noreferrer">Census county geography ↗</a></div>
+      <h3 id="source-TN">Tennessee · 183 published champion entries</h3>
+      <p>The University of Tennessee’s Current Champion Trees list is maintained by its School of Natural Resources with the Tennessee Division of Forestry. This October 7, 2026 snapshot retains all 183 entries across 164 published scientific names, including repeated species. It does not derive additional champion or national titles from scores. The page supplies no measurement dates or edition date.</p>
+      <p>182 records use 38 approximate Census county points. One record lists “Lafayette” as a county; that source value is retained and left unmapped. Public access and exact tree locations are not supplied. County markers do not provide directions to a tree.</p>
+      <p><a href={tnChampionSource.registerUrl} target="_blank" rel="noreferrer">UT Current Champion Trees ↗</a> · <a href={tnChampionSource.programUrl} target="_blank" rel="noreferrer">Tennessee program and scoring guidance ↗</a></p>
       <h3 id="source-SC">South Carolina · 196 state-designated champions</h3>
       <p>Clemson University’s official South Carolina Champion Tree Database, retrieved October 7, 2026. We include all 196 records explicitly marked “State Champ” from 269 published records. The 66 runners-up and seven other entries are excluded. The champions span 190 published botanical categories, with multiple designated trees retained in six categories. Inclusion follows Clemson’s designation rather than recalculated scores or an inferred co-champion threshold.</p>
       <p>Names, measurements, scores, dates, and condition reports are retained with whitespace normalized. Ten records carry a National Champ label and one a National Co-Champ label; these are Clemson’s published designations, not independently verified current national titles. The Tungoil tree (record 250) has no published circumference or score, so both remain blank. Published score discrepancies remain visible in record details.</p>
@@ -80,7 +84,7 @@ export default function ChampionTreesPage() {
       <p>The snapshot preserves original record links, tree IDs, common and scientific names, measurements, points, towns, and last-measured years. It includes native and introduced trees as listed in the current register. The source explicitly marks 127 trees publicly accessible and 147 not publicly accessible; those labels power the public-access filter. Check the original record and current visiting guidance before an outing.</p>
       <p>All 274 records are searchable and mapped at 24 approximate Census county or independent-city points. Baltimore City is kept distinct from Baltimore County. Published towns and addresses remain on the cards, but these markers do not locate individual trees. Tree GPS coordinates and personal owner or nominator details are not imported. Measurement years are separate from this snapshot’s retrieval date.</p>
       <div className="course-actions"><a className="course-link" href={mdChampionSource.registerUrl} target="_blank" rel="noreferrer">Maryland State Champion Trees ↗</a><a className="course-link" href={mdChampionSource.programUrl} target="_blank" rel="noreferrer">Maryland DNR Big Tree Program ↗</a><a className="course-link" href={mdChampionSource.geographyUrl} target="_blank" rel="noreferrer">Census county geography ↗</a></div>
-      <p>Map tiles: © OpenStreetMap contributors. Tree Yoga School created this independent exploration of the fifteen registers.</p>
+      <p>Map tiles: © OpenStreetMap contributors. Tree Yoga School created this independent exploration of the sixteen registers.</p>
     </section>
   </main><SiteFooter /></>;
 }

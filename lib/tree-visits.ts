@@ -33,7 +33,7 @@ export const treeVisits: TreeVisit[] = [
       { label: "UVM · visitor parking guidance", href: "https://www.uvm.edu/transportation/short-term-parking-color-codes" },
       { label: "UVM · campus maps and self-guided visits", href: "https://www.uvm.edu/admissions/undergraduate/visit-options" },
     ],
-    practice: { title: "Return to one detail", text: "Choose a branch against the sky. Notice its outline, the light, and any movement. Let the sounds of campus come and go, returning to that one detail whenever attention wanders.", href: "/lessons/first-five-minutes", label: "Try your first five minutes" },
+    practice: { title: "Return to one detail", text: "Choose a branch against the sky. Notice its outline, the light, and any movement. Let the sounds of campus come and go, returning to that one detail whenever attention wanders.", href: "/trees/dawn-redwood#practice", label: "Continue the Dawn Redwood practice" },
   },
   {
     slug: "smith-castor-aralia", championId: "dcr-2026-24", state: "MA",

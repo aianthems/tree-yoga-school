@@ -1,6 +1,8 @@
 import type { ChampionTree } from "./champion-trees";
 
 const familiarNames: Record<string, string> = {
+  "Liriodendron tulipifera": "Tulip tree", "Sassafras albidum": "Sassafras",
+  "Nyssa sylvatica": "Blackgum", "Metasequoia glyptostroboides": "Dawn redwood",
   "Acer saccharum": "Sugar maple", "Acer rubrum": "Red maple",
   "Quercus alba": "White oak", "Quercus rubra": "Northern red oak",
   "Betula papyrifera": "Paper birch", "Betula alleghaniensis": "Yellow birch",

@@ -1,4 +1,6 @@
 import "server-only";
+import tnRecords from "./data/tennessee-champion-trees.json";
+import tnCoordinates from "./data/tennessee-county-points.json";
 import scRecords from "./data/south-carolina-champion-trees.json";
 import scCoordinates from "./data/south-carolina-county-points.json";
 import ncRecords from "./data/north-carolina-champion-trees.json";
@@ -33,6 +35,7 @@ import coordinates from "./data/massachusetts-town-centroids.json";
 
 import { townKey, stateNames, type ChampionState, type ChampionTree } from "./champion-trees";
 export const championTrees: readonly ChampionTree[] = [
+  ...tnRecords.map(tree => ({ ...tree, state: "TN" as const, mapPrecision: "county" as const })),
   ...scRecords.map(tree => ({ ...tree, state: "SC" as const, mapPrecision: "county" as const })),
   ...[...ncRecords, ...ncCoRecords].map(tree => ({ ...tree, state: "NC" as const, mapPrecision: "county" as const })),
   ...wvRecords.map(tree => ({ ...tree, state: "WV" as const, mapPrecision: "county" as const })),
@@ -50,6 +53,7 @@ export const championTrees: readonly ChampionTree[] = [
   ...meRecords.map(tree => ({ ...tree, state: "ME" as const })),
 ];
 export const townCoordinates: Record<string, { lat: number; lng: number }> = Object.fromEntries([
+  ...Object.entries(tnCoordinates).map(([county, point]) => [`TN:county:${county}`, point]),
   ...Object.entries(scCoordinates).map(([county, point]) => [`SC:county:${county}`, point]),
   ...Object.entries(ncCoordinates).map(([county, point]) => [`NC:county:${county}`, point]),
   ...Object.entries(wvCoordinates).map(([county, point]) => [`WV:county:${county}`, point]),
