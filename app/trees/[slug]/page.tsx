@@ -42,11 +42,11 @@ export default async function TreePage({ params }: { params: Promise<{ slug: str
           <h2>Meet {tree.species.toLowerCase()}.</h2>
           <p className="section-lede">{tree.introduction}</p>
           <div className="tree-facts">{tree.identity.map((fact) => <article key={fact.title}><h3>{fact.title}</h3><p>{fact.text}</p></article>)}</div>
-          {tree.detailImages.length > 0 && <div className="tree-detail-grid">
+          {tree.detailImages.length > 0 && <><h3>Look closer.</h3><p>Compare several features, and notice how age and season change their appearance. These photographs are starting points for observation; leave living leaves, needles, cones, and bark attached.</p><div className="tree-detail-grid">
             {tree.detailImages.map((detail) => <figure key={detail.image}><Image src={detail.image} alt={detail.imageAlt} width={detail.imageWidth} height={detail.imageHeight} sizes="(max-width: 760px) 100vw, 50vw" /><figcaption>{detail.credit.label} · {detail.credit.photographer} · <a href={detail.credit.licenseUrl} target="_blank" rel="noreferrer">{detail.credit.license}</a> · <a href={detail.credit.sourceUrl} target="_blank" rel="noreferrer">Source</a> · Converted to WebP</figcaption></figure>)}
-          </div>}
+          </div></>}
           <h3>Return across the seasons.</h3><p className="section-lede">{tree.seasons}</p>
-          <p className="lesson-note">Botanical reference: <a href={tree.sourceUrl} target="_blank" rel="noreferrer">NC State Extension’s {tree.species.toLowerCase()} profile</a>. This is a starting point for observation, not a complete identification key.</p>
+          <p className="lesson-note">Botanical reference: <a href={tree.sourceUrl} target="_blank" rel="noreferrer">{tree.sourceLabel ?? `NC State Extension’s ${tree.species.toLowerCase()} profile`}</a>. This is a starting point for observation, not a complete identification key.</p>
         </section>
         <section id="energy" className="tree-section energy-section">
           <p className="section-kicker">02 · Energy & character</p>

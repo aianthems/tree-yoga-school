@@ -8,7 +8,7 @@ Tree Yoga School is a yoga school founded by **Alex Julian**, now being renewed 
 
 [Read the original book][book] · [Explore the curriculum](#the-original-curriculum) · [Build with us](#contributing)
 
-**Project status:** A content-led Next.js school with a four-practice introduction, seven book chapter companions, and a growing Tree Library beginning with Pine. The school is still early: there is no account system, database, certification platform, or AI teaching assistant.
+**Project status:** A content-led Next.js school with a four-practice introduction, seven book chapter companions, and a 16-species Tree Library. The school is still early: there is no account system, database, certification platform, or AI teaching assistant.
 
 ## What is Tree Yoga?
 
@@ -281,3 +281,11 @@ The October 6, 2026 public [State Champion Trees table](https://www.mdbigtrees.o
 `lib/data/maryland-champion-trees.json` retains record links, IDs (including suffixes), names, measurements, dates, public-access labels, towns, and published addresses. It excludes GPS coordinates, images, personal owner/nominator details, and free-text comments. All records use 24 representative Census county/independent-city points, with Baltimore City distinct from Baltimore County.
 
 Rebuild using `python3 scripts/import-maryland-champions.py PUBLIC_DOM_ROWS.json 2025_Gaz_counties_national.txt`. The input is a read-only extraction of the publicly rendered Airtable grid: map record IDs to `{id, href, cells}`; `cells` uses published column indices documented in the importer. Extract all 274 rows and verify access and designation fields; the importer fails on incomplete required fields. The retrieval date is not a measurement date. Maryland joins the existing lazy-loaded API, state and Mid-Atlantic filters, source cards, and listed/mapped counts.
+
+### Tree Library expansion · October 7, 2026
+
+The Library now contains 16 species profiles. Red maple, northern red oak, yellow birch, balsam fir, tamarack, and American sycamore each have identification guidance, seasonal observations, original contemplative prompts, and a short accessible practice. Botanical observations are separated from creative interpretations.
+
+`lib/tree-library-expansion.ts` contains the six profiles; `lib/tree-images.ts` contains their photograph metadata and identification galleries for the original nine non-pine profiles. Pine retains its existing gallery. The expansion adds 50 real photographs with individual credits and licenses; original sources and conversion details are recorded in `public/images/trees/ATTRIBUTION.md`. Galleries preserve full photographs rather than cropping identification features.
+
+The six exact scientific-name mappings in `lib/champion-trees.ts` make the profiles available from existing Champion Map records. Existing location precision, access labels, and source-review warnings continue to apply.
