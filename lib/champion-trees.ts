@@ -101,6 +101,12 @@ export const librarySpecies: Record<string, { slug: string; name: string }> = {
   "Thuja occidentalis": { slug: "cedar", name: "Cedar" },
   "Populus tremuloides": { slug: "aspen", name: "Aspen" },
   "Picea rubens": { slug: "spruce", name: "Spruce" },
+  "Acer rubrum": { slug: "red-maple", name: "Red Maple" },
+  "Quercus rubra": { slug: "red-oak", name: "Red Oak" },
+  "Betula alleghaniensis": { slug: "yellow-birch", name: "Yellow Birch" },
+  "Abies balsamea": { slug: "balsam-fir", name: "Balsam Fir" },
+  "Larix laricina": { slug: "tamarack", name: "Tamarack" },
+  "Platanus occidentalis": { slug: "sycamore", name: "Sycamore" },
 };
 export function sourceWarnings(tree: ChampionTree): string[] {
   const warnings: string[] = [...(tree.sourceReviewNotes || [])];

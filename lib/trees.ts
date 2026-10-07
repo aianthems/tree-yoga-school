@@ -1,10 +1,13 @@
+import { additionalTrees } from "./tree-library-expansion";
+import { treeDetailImages } from "./tree-images";
+
 type TreeImageCredit = { photographer: string; license: string; licenseUrl: string; sourceUrl: string; label: string };
 type TreeDetailImage = { image: string; imageAlt: string; imageWidth: number; imageHeight: number; credit: TreeImageCredit };
 export type Tree = {
  slug: string; name: string; species: string; scientificName: string; image: string; imageAlt: string; imageWidth: number; imageHeight: number;
  themes: readonly string[]; invitation: string; introduction: string; identity: readonly { title: string; text: string }[]; seasons: string;
  energies: readonly { title: string; observation: string; meaning: string; question: string }[];
- practiceTitle: string; practiceIntroduction: string; practice: readonly { title: string; text: string }[]; reflection: string; sourceUrl: string;
+ practiceTitle: string; practiceIntroduction: string; practice: readonly { title: string; text: string }[]; reflection: string; sourceUrl: string; sourceLabel?: string;
  credit: TreeImageCredit; detailImages: readonly TreeDetailImage[]; principles: string;
 };
 
@@ -41,7 +44,7 @@ const pine = {
     sourceUrl: "https://plants.ces.ncsu.edu/plants/pinus-strobus/",
   } as const;
 
-export const trees: readonly Tree[] = [
+const originalTrees: readonly Tree[] = [
 { ...pine, ...{
   "practiceTitle": "One pine. One clear point.",
   "practiceIntroduction": "A new observation meditation connecting the book’s one-pointed focus and perseverance to time beside a pine. Read once, then practice away from the screen.",
@@ -829,6 +832,11 @@ export const trees: readonly Tree[] = [
   "detailImages": [],
   "principles": "One-pointed focus and aspiration for excellence, perseverance, and balance and optimization"
 }
+];
+
+export const trees: readonly Tree[] = [
+  ...originalTrees.map(tree => ({ ...tree, detailImages: treeDetailImages[tree.slug] ?? tree.detailImages })),
+  ...additionalTrees,
 ];
 
 export function getTree(slug: string) { return trees.find((tree) => tree.slug === slug); }
