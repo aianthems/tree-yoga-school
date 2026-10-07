@@ -13,6 +13,10 @@ test('search accepts common names, botanical names, aliases, whitespace, and pun
   assert.deepEqual(slugs('Carpinus caroliniana'), ['american-hornbeam']);
   assert.deepEqual(slugs('white cedar'), ['cedar']);
   assert.deepEqual(slugs('tulip-poplar'), ['tulip-tree']);
+  assert.deepEqual(slugs('white elm'), ['american-elm']);
+  assert.deepEqual(slugs('American ash'), ['white-ash']);
+  assert.deepEqual(slugs('baldcypress'), ['bald-cypress']);
+  assert.deepEqual(slugs('redbud', 'Joy'), ['eastern-redbud']);
   assert.deepEqual(slugs('tupelo'), ['blackgum']);
   assert.deepEqual(slugs('maple'), ['maple', 'red-maple', 'silver-maple']);
   assert.deepEqual(slugs('Acer'), ['maple', 'red-maple', 'silver-maple']);
