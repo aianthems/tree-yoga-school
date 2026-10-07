@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import SiteHeader from "../../components/site-header";
 import SiteFooter from "../../components/site-footer";
 import { getTree, trees } from "../../../lib/trees";
+import { championHref } from "../../../lib/champion-links";
 import { bookUrl } from "../../../lib/intro-lessons";
 
 export const dynamicParams = false;
@@ -45,6 +46,7 @@ export default async function TreePage({ params }: { params: Promise<{ slug: str
           {tree.detailImages.length > 0 && <><h3>Look closer.</h3><p>Compare several features, and notice how age and season change their appearance. These photographs are starting points for observation; leave living leaves, needles, cones, and bark attached.</p><div className="tree-detail-grid">
             {tree.detailImages.map((detail) => <figure key={detail.image}><Image src={detail.image} alt={detail.imageAlt} width={detail.imageWidth} height={detail.imageHeight} sizes="(max-width: 760px) 100vw, 50vw" /><figcaption>{detail.credit.label} · {detail.credit.photographer} · <a href={detail.credit.licenseUrl} target="_blank" rel="noreferrer">{detail.credit.license}</a> · <a href={detail.credit.sourceUrl} target="_blank" rel="noreferrer">Source</a> · Converted to WebP</figcaption></figure>)}
           </div></>}
+          <div className="course-actions"><Link className="button secondary" href={championHref({ species: tree.scientificName })}>Explore champion {tree.species.toLowerCase()} trees →</Link></div>
           <h3>Return across the seasons.</h3><p className="section-lede">{tree.seasons}</p>
           <p className="lesson-note">Botanical reference: <a href={tree.sourceUrl} target="_blank" rel="noreferrer">{tree.sourceLabel ?? `NC State Extension’s ${tree.species.toLowerCase()} profile`}</a>. This is a starting point for observation, not a complete identification key.</p>
         </section>
