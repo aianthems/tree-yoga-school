@@ -358,3 +358,7 @@ State registers publish independently as downloads complete. A failed request le
 American hornbeam, shagbark hickory, silver maple, and black cherry bring the Library to 24 profiles. Each includes three identification notes, seasonal guidance, three original contemplative themes, a four-step practice, and NC Extension botanical sources. Thirteen licensed real photographs include individual credits and source links in the page and image attribution file. These are new practices, not species teachings attributed to the original book.
 
 Exact scientific-name connections add 79 existing champion records (21 hornbeam, 20 hickory, 20 silver maple, 18 black cherry), bringing direct Library coverage to 386 of 3,607 records. No champion data changes.
+
+### Tree Library discovery
+
+The Library filters its existing profiles by common name, scientific name, selected alternate names, and one practice theme. Name terms are case-insensitive, ignore punctuation, and combine with the theme. Theme choices derive from the current profiles. Matching shortcuts, result counts, empty-state recovery, reset controls, and direct practice links update without a network request. The server sends only card fields to the interactive component; complete practices and galleries stay on species pages. Search logic and current profile integration are covered by `node --test scripts/test-library-search.cjs`.
