@@ -863,3 +863,43 @@ section[id] { scroll-margin-top: 90px; }
   .library-filter-fields { grid-template-columns: 1fr; }
   .library-reset { justify-self: start; }
 }
+
+/* A quiet, readable practice sheet, on screen and on paper. */
+.outdoor-practice { max-width: 760px; margin: 0 auto; padding: 28px 24px 60px; color: #173329; font-size: 20px; line-height: 1.7; }
+.outdoor-navigation { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px; font-size: 16px; margin-bottom: 48px; }
+.outdoor-practice a { text-decoration: underline; text-underline-offset: 4px; }
+.outdoor-practice h1 { font-family: Georgia, serif; font-size: clamp(36px, 7vw, 58px); line-height: 1.12; letter-spacing: -0.035em; margin: 14px 0 24px; }
+.outdoor-practice h2 { font-size: 25px; line-height: 1.35; margin: 0 0 10px; }
+.outdoor-practice p { margin: 0 0 18px; }
+.outdoor-eyebrow { font-size: 14px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; }
+.outdoor-settle, .outdoor-reflection { border-top: 1px solid #9ba99f; margin-top: 36px; padding-top: 28px; }
+.outdoor-steps { padding-left: 30px; margin: 40px 0; }
+.outdoor-steps li { padding-left: 8px; margin: 0 0 30px; }
+.outdoor-steps li::marker { font-weight: 700; }
+.practice-controls { padding: 24px; border: 1px solid #9ba99f; border-radius: 12px; background: #f2efe4; }
+.practice-controls .practice-clock { font-size: 52px; line-height: 1.2; font-variant-numeric: tabular-nums; margin: 20px 0; }
+.practice-buttons { display: flex; flex-wrap: wrap; gap: 12px; }
+.practice-buttons button { min-height: 48px; padding: 12px 18px; background: #173329; color: #fff; border: 2px solid #173329; border-radius: 6px; font: inherit; font-size: 17px; cursor: pointer; }
+.practice-buttons button:not(:first-child) { background: transparent; color: #173329; }
+.outdoor-practice :focus-visible { outline: 3px solid #895319; outline-offset: 4px; }
+.practice-sound { display: flex; align-items: center; gap: 12px; min-height: 48px; margin: 18px 0; cursor: pointer; }
+.practice-sound input { width: 22px; height: 22px; accent-color: #173329; }
+.practice-status { font-weight: 700; }
+.practice-controls .practice-timer-note { font-size: 16px; margin-bottom: 0; }
+.outdoor-practice footer { margin-top: 36px; font-size: 16px; }
+.outdoor-print-source { display: none; }
+@media (max-width: 480px) { .outdoor-practice { padding: 20px 20px 40px; } .practice-controls { padding: 20px; } }
+@media print {
+  .outdoor-practice { max-width: none; padding: 0; color: #000; font-size: 11pt; line-height: 1.4; }
+  .outdoor-practice .outdoor-navigation, .outdoor-practice .practice-controls, .outdoor-practice footer a { display: none; }
+  .outdoor-practice h1 { font-size: 24pt; margin: 8px 0 14px; }
+  .outdoor-practice h2 { font-size: 14pt; }
+  .outdoor-practice p { margin-bottom: 10px; }
+  .outdoor-practice .outdoor-eyebrow { font-size: 9pt; }
+  .outdoor-settle, .outdoor-reflection { margin-top: 16px; padding-top: 14px; }
+  .outdoor-steps { margin: 20px 0; }
+  .outdoor-steps li { margin-bottom: 16px; break-inside: avoid; }
+  .outdoor-reflection { break-inside: avoid; }
+  .outdoor-practice footer { font-size: 9pt; margin-top: 20px; }
+  .outdoor-print-source { display: block; overflow-wrap: anywhere; }
+}

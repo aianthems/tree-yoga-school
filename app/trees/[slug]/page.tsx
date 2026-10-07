@@ -61,6 +61,7 @@ export default async function TreePage({ params }: { params: Promise<{ slug: str
           <p className="section-kicker">03 · Practice with this tree · About 5 minutes</p>
           <h2>{tree.practiceTitle}</h2>
           <p className="section-lede">{tree.practiceIntroduction}</p>
+          <Link className="button primary" href={`/practice/${tree.slug}`}>Open outdoor practice →</Link>
           <ol className="lesson-steps">{tree.practice.map((step) => <li key={step.title}><h3>{step.title}</h3><p>{step.text}</p></li>)}</ol>
           <div className="tree-pause"><h3>Let the visit be enough.</h3><p>Spend about five minutes, or less if that suits you. Keep your device available when needed. No touching, collecting, controlled breathing, or tree-supported movement is required; leave the tree and its surroundings undisturbed.</p></div>
           <Link className="course-link" href="/lessons/meditation-with-a-tree">Continue with Meditation with a Tree</Link>
