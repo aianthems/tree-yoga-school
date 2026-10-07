@@ -25,7 +25,7 @@ test('South Carolina champions preserve missing values, county precision and sha
   assert.equal(records.filter(t => t.measured === null).length, 12);
   assert.equal(stateNames.SC, 'South Carolina');
   assert.match(sourceDates.SC, /October 7, 2026/);
-  assert.deepEqual(championRegions.southeast.states, ['NC', 'SC']);
+  assert.deepEqual(championRegions.southeast.states, ['NC', 'SC', 'TN']);
   for (const t of records) {
     assert.equal(t.status, 'State Champ');
     assert.equal(t.id, `sc-${t.sourceRow}`);
@@ -88,7 +88,7 @@ test("every current record ID survives URL encoding unchanged", () => {
       count++;
     }
   }
-  assert.equal(count, 3424);
+  assert.equal(count, 3607);
 });
 
 const { championSpeciesOptions } = require('../lib/champion-species.ts');
@@ -124,7 +124,7 @@ test('visit guides resolve to the intended existing trees and real practice rout
     assert.equal(record.scientificName, visit.scientificName);
     assert.equal(record.state || "MA", visit.state);
     assert.ok(visit.sources.length >= 2);
-    assert.ok(['/trees/sycamore#practice', '/lessons/first-five-minutes'].includes(visit.practice.href));
+    assert.ok(['/trees/sycamore#practice', '/trees/dawn-redwood#practice', '/lessons/first-five-minutes'].includes(visit.practice.href));
     for (const source of visit.sources) if (source.href.startsWith('/')) assert.ok(fs.existsSync(path.join(__dirname, '../public', source.href)));
   }
   assert.equal(championSpeciesOptions(records).reduce((total, option) => total + option.count, 0), records.length);

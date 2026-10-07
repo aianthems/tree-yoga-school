@@ -8,7 +8,7 @@ Tree Yoga School is a yoga school founded by **Alex Julian**, now being renewed 
 
 [Read the original book][book] · [Explore the curriculum](#the-original-curriculum) · [Build with us](#contributing)
 
-**Project status:** A content-led Next.js school with a four-practice introduction, seven book chapter companions, and a 16-species Tree Library. The school is still early: there is no account system, database, certification platform, or AI teaching assistant.
+**Project status:** A content-led Next.js school with a four-practice introduction, seven book chapter companions, and a 20-species Tree Library. The school is still early: there is no account system, database, certification platform, or AI teaching assistant.
 
 ## What is Tree Yoga?
 
@@ -333,3 +333,21 @@ node --test scripts/test-champion-links.cjs
 ```
 
 The importer rejects incomplete or changed snapshot totals, duplicate source IDs, unknown counties, and invalid measurements before writing outputs. Source names, scores, and condition text are preserved with whitespace normalized. Tungoil tree `sc-250` retains null circumference and score. Twelve records lack dates. Clemson's web map labels `submission_date` as Measurement Date, while layer metadata calls it Today's Date; the UI uses “Date shown by Clemson” and explains the field. The layer's last data edit is November 25, 2025; snapshot retrieval is October 7, 2026. Condition descriptions and dates are historical source observations, not current inspections. No owner/contact fields, addresses, coordinates, attachments, or remarks are imported. Source OBJECTIDs provide stable `sc-<id>` share links.
+
+
+### Tennessee and four Library profiles · October 7, 2026
+
+The University of Tennessee Current Champion Trees page adds 183 entries across 164 published scientific names. Preserve every published entry, including repeated species; do not infer co-champion or national labels from scores. The page gives no measurement dates, edition date, exact tree coordinates, or access classification. 182 records map to 38 representative Census county points. One entry says Lafayette in the county field: retain it with a review note, without guessing a county or map point.
+
+Reproduce from the complete HTML of https://naturalresources.tennessee.edu/trees/ and the 2025 national Census county Gazetteer ZIP:
+
+```sh
+python scripts/import-tennessee-champions.py TREES.html COUNTIES.zip
+node --test scripts/test-champion-links.cjs scripts/test-champion-expansion.cjs
+```
+
+The importer requires Beautiful Soup, checks source totals and numeric fields, and uses hashes of source names/place/image URL as stable snapshot identities because UT supplies no record IDs. Measurement changes and source row reordering do not change these identities; changes to the identity fields require reconciliation before a refresh. No source photos, owner contacts, or inferred locations are included in the map data.
+
+Tulip tree, sassafras, blackgum, and dawn redwood bring the Library to 20 species. Each has botanical guidance, credited real photographs, original contemplative prompts, and a short practice. Exact scientific-name links connect profiles and map records. The University Green dawn redwood visit now links to its own species practice.
+
+State registers publish independently as downloads complete. A failed request leaves successful records and map markers usable, names missing states, and offers a retry that skips cached successes. Requests time out after 20 seconds. Partial result counts are labeled; empty-state messaging does not claim there are no matching trees while registers are missing.

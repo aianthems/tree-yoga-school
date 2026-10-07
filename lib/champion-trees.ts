@@ -1,4 +1,4 @@
-export type ChampionState = "MA" | "NH" | "VT" | "ME" | "RI" | "CT" | "NY" | "NJ" | "PA" | "DE" | "MD" | "VA" | "WV" | "NC" | "SC";
+export type ChampionState = "MA" | "NH" | "VT" | "ME" | "RI" | "CT" | "NY" | "NJ" | "PA" | "DE" | "MD" | "VA" | "WV" | "NC" | "SC" | "TN";
 export type ChampionTree = {
   rankingDate?: string | null; sourcePage?: number; mapPrecision?: "county"; sourceCounty?: string; crownPoints?: number; crownUnitUncertain?: boolean; sourceReviewNotes?: string[];
   id: string; state: ChampionState; publicAccess?: boolean; visibleFromPublic?: string | null; accessDetails?: string | null; publicCoordinates?: { lat: number; lng: number } | null; yearListed?: string | null; mapTown?: string; nominated?: string; status?: string; nationalFlag?: string; sourceUrl?: string; sourceRow: number; sourceTreeId?: string | null; scientificName: string; commonName: string;
@@ -6,7 +6,13 @@ export type ChampionTree = {
   circumference: number | null; height: number | null; crown: number | null;
   points: number | null; notes: string | null;
 };
-export const stateNames = { MA: "Massachusetts", NH: "New Hampshire", VT: "Vermont", ME: "Maine", RI: "Rhode Island", CT: "Connecticut", NY: "New York", NJ: "New Jersey", PA: "Pennsylvania", DE: "Delaware", MD: "Maryland", VA: "Virginia", WV: "West Virginia", NC: "North Carolina", SC: "South Carolina" };
+export const stateNames = { MA: "Massachusetts", NH: "New Hampshire", VT: "Vermont", ME: "Maine", RI: "Rhode Island", CT: "Connecticut", NY: "New York", NJ: "New Jersey", PA: "Pennsylvania", DE: "Delaware", MD: "Maryland", VA: "Virginia", WV: "West Virginia", NC: "North Carolina", SC: "South Carolina", TN: "Tennessee" };
+export const tnChampionSource = {
+  retrieved: "October 7, 2026",
+  programUrl: "https://naturalresources.tennessee.edu/champion-tree/",
+  registerUrl: "https://naturalresources.tennessee.edu/trees/",
+  geographyUrl: "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_counties_national.zip",
+};
 export const scChampionSource = {
   retrieved: "October 7, 2026", dataEdited: "November 25, 2025",
   programUrl: "https://www.clemson.edu/cafls/champtree/",
@@ -121,6 +127,10 @@ export const championSource = {
   geographyUrl: "https://www.mass.gov/info-details/massgis-data-municipalities",
 };
 export const librarySpecies: Record<string, { slug: string; name: string }> = {
+  "Liriodendron tulipifera": { slug: "tulip-tree", name: "Tulip Tree" },
+  "Sassafras albidum": { slug: "sassafras", name: "Sassafras" },
+  "Nyssa sylvatica": { slug: "blackgum", name: "Blackgum" },
+  "Metasequoia glyptostroboides": { slug: "dawn-redwood", name: "Dawn Redwood" },
   "Pinus strobus": { slug: "pine", name: "Pine" },
   "Quercus alba": { slug: "oak", name: "Oak" },
   "Betula papyrifera": { slug: "birch", name: "Birch" },
@@ -165,7 +175,7 @@ export function formatMeasurement(value: number | null) {
   return value === null ? "Not listed" : new Intl.NumberFormat("en-US", { maximumFractionDigits: 5 }).format(value);
 }
 
-export const sourceDates: Record<ChampionState, string> = { SC: "Clemson database · retrieved October 7, 2026", NC: "September 2026 edition · retrieved October 7, 2026", WV: "2025 workbooks · highest published scores · retrieved October 7, 2026", VA: "Retrieved October 7, 2026 · live register snapshot", MD: "Retrieved October 6, 2026 · live register snapshot", MA: "May 2026 edition", NH: "Retrieved October 6, 2026 · edition not stated", VT: "Retrieved October 6, 2026 · edition not stated", ME: "2020 edition · retrieved October 6, 2026", RI: "March 24, 2026 edition", CT: "Retrieved October 6, 2026 · edition not stated", NY: "January 31, 2025 edition", NJ: "Data edited March 19, 2026 · retrieved October 6, 2026", PA: "October 2026 extraction · score-based leaders", DE: "October 6, 2026 GIS snapshot · five-point rule from 2019" };
+export const sourceDates: Record<ChampionState, string> = { TN: "UT current list · retrieved October 7, 2026 · edition not stated", SC: "Clemson database · retrieved October 7, 2026", NC: "September 2026 edition · retrieved October 7, 2026", WV: "2025 workbooks · highest published scores · retrieved October 7, 2026", VA: "Retrieved October 7, 2026 · live register snapshot", MD: "Retrieved October 6, 2026 · live register snapshot", MA: "May 2026 edition", NH: "Retrieved October 6, 2026 · edition not stated", VT: "Retrieved October 6, 2026 · edition not stated", ME: "2020 edition · retrieved October 6, 2026", RI: "March 24, 2026 edition", CT: "Retrieved October 6, 2026 · edition not stated", NY: "January 31, 2025 edition", NJ: "Data edited March 19, 2026 · retrieved October 6, 2026", PA: "October 2026 extraction · score-based leaders", DE: "October 6, 2026 GIS snapshot · five-point rule from 2019" };
 export type ChampionManifest = { state: ChampionState; name: string; listed: number; mapped: number }[];
 export type ChampionPayload = { trees: ChampionTree[]; coordinates: Record<string, { lat: number; lng: number }> };
-export const championRegions = { southeast: { name: "Southeast", states: ["NC", "SC"] }, "new-england": { name: "New England", states: ["MA", "NH", "VT", "ME", "RI", "CT"] }, northeast: { name: "Northeast", states: ["MA", "NH", "VT", "ME", "RI", "CT", "NY", "NJ", "PA"] }, "mid-atlantic": { name: "Mid-Atlantic", states: ["NY", "NJ", "PA", "DE", "MD", "VA", "WV"] } };
+export const championRegions = { southeast: { name: "Southeast", states: ["NC", "SC", "TN"] }, "new-england": { name: "New England", states: ["MA", "NH", "VT", "ME", "RI", "CT"] }, northeast: { name: "Northeast", states: ["MA", "NH", "VT", "ME", "RI", "CT", "NY", "NJ", "PA"] }, "mid-atlantic": { name: "Mid-Atlantic", states: ["NY", "NJ", "PA", "DE", "MD", "VA", "WV"] } };
