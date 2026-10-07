@@ -1,3 +1,4 @@
+import { fourPracticeTrees } from "./tree-library-four";
 import { tennesseeTrees } from "./tree-library-tennessee";
 import { additionalTrees } from "./tree-library-expansion";
 import { treeDetailImages } from "./tree-images";
@@ -839,6 +840,7 @@ export const trees: readonly Tree[] = [
   ...originalTrees.map(tree => ({ ...tree, detailImages: treeDetailImages[tree.slug] ?? tree.detailImages })),
   ...additionalTrees,
   ...tennesseeTrees,
+  ...fourPracticeTrees,
 ];
 
 export function getTree(slug: string) { return trees.find((tree) => tree.slug === slug); }

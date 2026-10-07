@@ -8,7 +8,7 @@ Tree Yoga School is a yoga school founded by **Alex Julian**, now being renewed 
 
 [Read the original book][book] · [Explore the curriculum](#the-original-curriculum) · [Build with us](#contributing)
 
-**Project status:** A content-led Next.js school with a four-practice introduction, seven book chapter companions, and a 20-species Tree Library. The school is still early: there is no account system, database, certification platform, or AI teaching assistant.
+**Project status:** A content-led Next.js school with a four-practice introduction, seven book chapter companions, and a 24-species Tree Library. The school is still early: there is no account system, database, certification platform, or AI teaching assistant.
 
 ## What is Tree Yoga?
 
@@ -351,3 +351,10 @@ The importer requires Beautiful Soup, checks source totals and numeric fields, a
 Tulip tree, sassafras, blackgum, and dawn redwood bring the Library to 20 species. Each has botanical guidance, credited real photographs, original contemplative prompts, and a short practice. Exact scientific-name links connect profiles and map records. The University Green dawn redwood visit now links to its own species practice.
 
 State registers publish independently as downloads complete. A failed request leaves successful records and map markers usable, names missing states, and offers a retry that skips cached successes. Requests time out after 20 seconds. Partial result counts are labeled; empty-state messaging does not claim there are no matching trees while registers are missing.
+
+
+### Four-tree practice expansion · October 7, 2026
+
+American hornbeam, shagbark hickory, silver maple, and black cherry bring the Library to 24 profiles. Each includes three identification notes, seasonal guidance, three original contemplative themes, a four-step practice, and NC Extension botanical sources. Thirteen licensed real photographs include individual credits and source links in the page and image attribution file. These are new practices, not species teachings attributed to the original book.
+
+Exact scientific-name connections add 79 existing champion records (21 hornbeam, 20 hickory, 20 silver maple, 18 black cherry), bringing direct Library coverage to 386 of 3,607 records. No champion data changes.
