@@ -13,6 +13,39 @@ require.extensions[".ts"] = (module, filename) => {
 const { championHref, emptySelection, readChampionSelection } = require("../lib/champion-links.ts");
 const read = href => readChampionSelection(new URL(href, "https://example.com").searchParams);
 
+test('South Carolina champions preserve missing values, county precision and shared selections', () => {
+  const records = require('../lib/data/south-carolina-champion-trees.json');
+  const coordinates = require('../lib/data/south-carolina-county-points.json');
+  const { championRegions, sourceDates, stateNames, townKey } = require('../lib/champion-trees.ts');
+  assert.equal(records.length, 196);
+  assert.equal(new Set(records.map(t => t.id)).size, 196);
+  assert.equal(new Set(records.map(t => t.scientificName)).size, 190);
+  assert.equal(Object.keys(coordinates).length, 35);
+  assert.equal(records.filter(t => t.nationalFlag).length, 11);
+  assert.equal(records.filter(t => t.measured === null).length, 12);
+  assert.equal(stateNames.SC, 'South Carolina');
+  assert.match(sourceDates.SC, /October 7, 2026/);
+  assert.deepEqual(championRegions.southeast.states, ['NC', 'SC']);
+  for (const t of records) {
+    assert.equal(t.status, 'State Champ');
+    assert.equal(t.id, `sc-${t.sourceRow}`);
+    assert.equal(t.publicAccess, undefined);
+    assert.equal(t.publicCoordinates, undefined);
+    assert.equal(t.location, null);
+    assert.ok(coordinates[t.county]);
+    assert.equal(townKey({ ...t, state: 'SC', mapPrecision: 'county' }), `SC:county:${t.county}`);
+    const selection = { ...emptySelection, region: 'southeast', state: 'SC', county: t.county, species: t.scientificName, selectedId: t.id };
+    assert.deepEqual(read(championHref(selection)), selection);
+  }
+  const incomplete = records.find(t => t.id === 'sc-250');
+  assert.equal(incomplete.points, null);
+  assert.equal(incomplete.circumference, null);
+  assert.equal(incomplete.height, 35);
+  assert.equal(incomplete.crown, 44.75);
+  // Distinct source-designated champions must not be deduplicated by species.
+  assert.equal(records.filter(t => t.scientificName === 'Taxodium distichum').length, 2);
+});
+
 test("the default view has a clean URL", () => {
   assert.equal(championHref(emptySelection), "/champion-trees");
   assert.deepEqual(read("/champion-trees"), emptySelection);
@@ -55,7 +88,7 @@ test("every current record ID survives URL encoding unchanged", () => {
       count++;
     }
   }
-  assert.equal(count, 3228);
+  assert.equal(count, 3424);
 });
 
 const { championSpeciesOptions } = require('../lib/champion-species.ts');
