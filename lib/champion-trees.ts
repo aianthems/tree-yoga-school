@@ -127,6 +127,10 @@ export const championSource = {
   geographyUrl: "https://www.mass.gov/info-details/massgis-data-municipalities",
 };
 export const librarySpecies: Record<string, { slug: string; name: string }> = {
+  "Carpinus caroliniana": { slug: "american-hornbeam", name: "American Hornbeam" },
+  "Carya ovata": { slug: "shagbark-hickory", name: "Shagbark Hickory" },
+  "Acer saccharinum": { slug: "silver-maple", name: "Silver Maple" },
+  "Prunus serotina": { slug: "black-cherry", name: "Black Cherry" },
   "Liriodendron tulipifera": { slug: "tulip-tree", name: "Tulip Tree" },
   "Sassafras albidum": { slug: "sassafras", name: "Sassafras" },
   "Nyssa sylvatica": { slug: "blackgum", name: "Blackgum" },

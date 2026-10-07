@@ -60,10 +60,10 @@ test('Tennessee keeps all source entries and leaves the unmatched county unmappe
   assert.ok(championRegions.southeast.states.includes('TN'));
 });
 
-test('all four complete profiles have matching map links and local credited images', () => {
+test('all eight new profiles have matching map links and local credited images', () => {
   const { trees } = require('../lib/trees.ts');
-  assert.equal(trees.length, 20);
-  for (const name of ['Liriodendron tulipifera', 'Sassafras albidum', 'Nyssa sylvatica', 'Metasequoia glyptostroboides']) {
+  assert.equal(trees.length, 24);
+  for (const name of ['Liriodendron tulipifera', 'Sassafras albidum', 'Nyssa sylvatica', 'Metasequoia glyptostroboides', 'Carpinus caroliniana', 'Carya ovata', 'Acer saccharinum', 'Prunus serotina']) {
     const tree = trees.find(t => t.scientificName === name);
     assert.ok(tree); assert.equal(librarySpecies[name].slug, tree.slug);
     assert.equal(tree.identity.length, 3); assert.equal(tree.energies.length, 3); assert.equal(tree.practice.length, 4);
