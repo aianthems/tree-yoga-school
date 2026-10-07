@@ -827,3 +827,19 @@ section[id] { scroll-margin-top: 90px; }
 .champion-share label { display: grid; gap: .3rem; width: 100%; }
 .champion-share input { width: 100%; padding: .7rem; font: inherit; }
 .champion-species-filter { margin: 0; }
+
+/* Small, source-backed collection of visits. */
+.tree-visit-teaser { padding: 1.5rem 2rem; margin: 2rem 0; border: 1px solid var(--line); background: var(--paper); }
+.tree-visit-teaser h2 { margin: 0 0 .5rem; }
+.tree-visit-list { display: grid; gap: 2rem; margin: 2rem 0 3rem; }
+.tree-visit-card { border: 1px solid var(--line); padding: clamp(1.25rem, 4vw, 3rem); scroll-margin-top: 6rem; }
+.tree-visit-heading h2 { font-size: clamp(1.8rem, 3vw, 2.8rem); margin: .7rem 0; }
+.tree-visit-columns { display: grid; grid-template-columns: 1.3fr 1fr; gap: 2.5rem; margin: 1.5rem 0 2rem; }
+.tree-visit-columns p { line-height: 1.75; }
+.tree-visit-practice { border-left: 2px solid var(--line); padding-left: 2rem; }
+.tree-visit-sources { padding-left: 1.2rem; line-height: 1.7; }
+.tree-visit-sources li + li { margin-top: .5rem; }
+.tree-visit-sources a { overflow-wrap: anywhere; }
+.champion-species-select { grid-column: span 2; }
+@media (max-width: 700px) { .tree-visit-columns { grid-template-columns: 1fr; gap: 1.25rem; } .tree-visit-practice { padding-left: 1.25rem; } }
+@media (max-width: 400px) { .champion-species-select { grid-column: auto; } }

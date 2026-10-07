@@ -297,3 +297,9 @@ Every Library profile links to an exact scientific-name selection on the Champio
 `Copy selection link` shares the filters without an open record. `Copy tree link` shares the selected record and its state independently of the current filters. Clipboard restrictions reveal a selectable link instead. A missing or filtered-out record displays recovery options; selected records beyond the first 50 results are included automatically.
 
 URL parameters: `region`, `state`, `q`, `county`, `place`, `genus`, `species`, `public=1`, `location=1`, `sort`, and `tree`. Record IDs retain their source-derived values. Unknown regions, state codes, and sort values fall back safely. Query parsing/serialization regression checks: `node --test scripts/test-champion-links.cjs`.
+
+### Trees to visit and familiar species names
+
+`/tree-visits` offers three source-checked starting points: the Pinchot Sycamore (CT), University Green dawn redwood (VT), and Smith College castor aralia (MA). `lib/tree-visits.ts` contains stable champion record IDs, arrival/access guidance, official sources, check dates, and related practices. Check dates describe online research, not field inspections. These guides do not alter source-register access flags or map coordinates. Links from the Library, Champion Map, and matching record details make the collection discoverable.
+
+The Champion Map’s Tree species selector displays familiar names, scientific names, and counts within the loaded state/region. It filters exact published botanical categories; cultivars and hybrids remain distinct. `lib/champion-species.ts` normalizes inverted common names and prefers common names over botanical fallbacks. Choosing species clears genus, and choosing genus clears species. Existing `species` URLs, sharing, and browser history continue to work. Regression coverage is in `node --test scripts/test-champion-links.cjs`.

@@ -57,3 +57,42 @@ test("every current record ID survives URL encoding unchanged", () => {
   }
   assert.equal(count, 2354);
 });
+
+const { championSpeciesOptions } = require('../lib/champion-species.ts');
+const { treeVisits } = require('../lib/tree-visits.ts');
+test('familiar species names group exact botanical categories without merging cultivars', () => {
+  const options = championSpeciesOptions([
+    { scientificName: 'Acer rubrum', commonName: 'Maple, Red' },
+    { scientificName: 'Acer rubrum', commonName: 'Red Maple' },
+    { scientificName: 'Acer rubrum October Glory', commonName: 'October Glory red maple' },
+    { scientificName: 'Ginkgo biloba', commonName: 'Ginkgo biloba' },
+    { scientificName: 'Ginkgo biloba', commonName: 'Maidenhair tree' },
+    { scientificName: 'Ulmus americana', commonName: 'Elm, American' },
+  ]);
+  assert.equal(options.length, 4);
+  assert.deepEqual(options.find(x => x.scientificName === 'Acer rubrum'), { scientificName: 'Acer rubrum', name: 'Red maple', count: 2 });
+  assert.equal(options.find(x => x.scientificName === 'Ginkgo biloba').name, 'Maidenhair tree');
+  assert.equal(options[0].name, 'American elm');
+  assert.deepEqual(options, championSpeciesOptions([
+    { scientificName: 'Ulmus americana', commonName: 'Elm, American' },
+    { scientificName: 'Ginkgo biloba', commonName: 'Maidenhair tree' },
+    { scientificName: 'Ginkgo biloba', commonName: 'Ginkgo biloba' },
+    { scientificName: 'Acer rubrum October Glory', commonName: 'October Glory red maple' },
+    { scientificName: 'Acer rubrum', commonName: 'Red Maple' },
+    { scientificName: 'Acer rubrum', commonName: 'Maple, Red' },
+  ]));
+});
+test('visit guides resolve to the intended existing trees and real practice routes', () => {
+  const dataDir = path.join(__dirname, '../lib/data');
+  const records = fs.readdirSync(dataDir).filter(name => name.endsWith('champion-trees.json')).flatMap(name => JSON.parse(fs.readFileSync(path.join(dataDir, name), 'utf8')));
+  for (const visit of treeVisits) {
+    const record = records.find(tree => tree.id === visit.championId);
+    assert.ok(record, visit.championId);
+    assert.equal(record.scientificName, visit.scientificName);
+    assert.equal(record.state || "MA", visit.state);
+    assert.ok(visit.sources.length >= 2);
+    assert.ok(['/trees/sycamore#practice', '/lessons/first-five-minutes'].includes(visit.practice.href));
+    for (const source of visit.sources) if (source.href.startsWith('/')) assert.ok(fs.existsSync(path.join(__dirname, '../public', source.href)));
+  }
+  assert.equal(championSpeciesOptions(records).reduce((total, option) => total + option.count, 0), records.length);
+});
