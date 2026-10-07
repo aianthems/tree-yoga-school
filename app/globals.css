@@ -843,3 +843,23 @@ section[id] { scroll-margin-top: 90px; }
 .champion-species-select { grid-column: span 2; }
 @media (max-width: 700px) { .tree-visit-columns { grid-template-columns: 1fr; gap: 1.25rem; } .tree-visit-practice { padding-left: 1.25rem; } }
 @media (max-width: 400px) { .champion-species-select { grid-column: auto; } }
+
+/* Tree Library discovery */
+.library-discovery { padding: clamp(1.25rem, 3vw, 2rem); margin-bottom: 1.5rem; border: 1px solid var(--line); background: var(--cream); }
+.library-discovery h2, .library-empty h2 { font-family: Georgia, "Times New Roman", serif; font-size: clamp(1.8rem, 3vw, 2.6rem); font-weight: 400; line-height: 1.15; }
+.library-discovery > p { line-height: 1.6; }
+.library-filter-fields { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr) auto; gap: 1rem; align-items: end; margin-top: 1.5rem; }
+.library-filter-field { min-width: 0; }
+.library-filter-field label { display: block; font-weight: 600; margin-bottom: 0.5rem; }
+.library-filter-field input, .library-filter-field select { display: block; width: 100%; min-height: 48px; padding: 0.75rem; border: 1px solid var(--ink-soft); border-radius: 0; background: var(--paper, #faf9f3); color: var(--ink); font: inherit; }
+.library-filter-field input:focus-visible, .library-filter-field select:focus-visible, .library-reset:focus-visible, .library-empty button:focus-visible { outline: 3px solid var(--ink); outline-offset: 3px; }
+.library-reset { min-height: 48px; cursor: pointer; }
+.library-reset:disabled { opacity: 0.5; cursor: default; }
+.library-result-count { margin: 1.25rem 0 0; font-weight: 600; }
+.library-empty { padding: clamp(1.5rem, 4vw, 3rem); border: 1px solid var(--line); }
+.library-empty p { max-width: 60ch; line-height: 1.7; }
+.library-empty button { cursor: pointer; }
+@media (max-width: 760px) {
+  .library-filter-fields { grid-template-columns: 1fr; }
+  .library-reset { justify-self: start; }
+}
