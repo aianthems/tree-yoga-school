@@ -401,3 +401,9 @@ npm run build
 Alabama includes all 145 tree rows on pages 3–9 of AFC’s 2025 PDF, retrieved October 8, 2026, with 49 approximate Census county markers. Names and published scores are preserved; year crowned and remeasurement due are separate from unknown measurement dates. Visiting access is unclassified. Repeated species remain separate records without inferred co-champion labels.
 
 Regenerate using `python scripts/import-alabama-champions.py REGISTER.pdf COUNTIES.zip` (requires `pdfplumber` and the 2025 national Census county Gazetteer ZIP). The importer records source SHA256 and audit counts. Run `node --test scripts/test-alabama-champions.cjs`.
+
+### Florida champion register
+
+Florida includes 311 unique champion/co-champion IDs from the Forest Service summary table retrieved October 8, 2026, mapped to 47 approximate county points. Of 600 rows, 313 match the four included designations; repeated IDs 155 and 1270 are identical and deduplicated. Exclude challengers, emeritus, discontinued, nominees, and unknown designations. Preserve national labels as source designations, without independent verification. Summary-only import: dates, ownership, coordinates, and access from detail pages are not inferred.
+
+Regenerate with `python scripts/import-florida-champions.py REGISTER.html COUNTIES.zip` (requires lxml and the 2025 Census national county ZIP). Audit includes source hash, exclusions, and duplicate rows.

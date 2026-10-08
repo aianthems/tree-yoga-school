@@ -1,0 +1,1177 @@
+{
+  "sourceUrl": "https://ffs.fdacs.gov/ChampionTrees/home.mvc/Index",
+  "retrieved": "October 8, 2026",
+  "sourceSha256": "a9b2ab69279e9cb57e8aecd78659eed5e719454760d1f1a319e3b04c2d292b75",
+  "sourceRows": 600,
+  "included": 311,
+  "counties": 47,
+  "designations": {
+    "Florida Champion": 184,
+    "National Champion": 79,
+    "Florida Co-Champion": 23,
+    "National Co-Champion": 25
+  },
+  "excludedRows": [
+    {
+      "sourceTreeId": "1039",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "1012",
+      "designation": "Emeritus Florida Champion"
+    },
+    {
+      "sourceTreeId": "1253",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "390",
+      "designation": "Emeritus Florida Co-Champion"
+    },
+    {
+      "sourceTreeId": "1239",
+      "designation": "Emeritus Florida Champion"
+    },
+    {
+      "sourceTreeId": "233",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "313",
+      "designation": "Emeritus Florida Champion"
+    },
+    {
+      "sourceTreeId": "128",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "186",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "288",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "113",
+      "designation": "Emeritus Florida Champion"
+    },
+    {
+      "sourceTreeId": "926",
+      "designation": "National Challenger"
+    },
+    {
+      "sourceTreeId": "167",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "1072",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "72",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "393",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "1060",
+      "designation": "Unknown"
+    },
+    {
+      "sourceTreeId": "1030",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "174",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "175",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "1246",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "1196",
+      "designation": "National Challenger"
+    },
+    {
+      "sourceTreeId": "1163",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "1222",
+      "designation": "Emeritus Florida Champion"
+    },
+    {
+      "sourceTreeId": "1110",
+      "designation": "Emeritus Florida Champion"
+    },
+    {
+      "sourceTreeId": "1115",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "1156",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "1095",
+      "designation": "Emeritus Florida Champion"
+    },
+    {
+      "sourceTreeId": "1325",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "903",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "253",
+      "designation": "Emeritus National Champion"
+    },
+    {
+      "sourceTreeId": "84",
+      "designation": "Emeritus National Champion"
+    },
+    {
+      "sourceTreeId": "392",
+      "designation": "Emeritus Florida Champion"
+    },
+    {
+      "sourceTreeId": "191",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "930",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "143",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "107",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "262",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "885",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "1127",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "941",
+      "designation": "Emeritus Florida Champion"
+    },
+    {
+      "sourceTreeId": "230",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "403",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "335",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "374",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "884",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "423",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "1018",
+      "designation": "Emeritus Florida Co-Champion"
+    },
+    {
+      "sourceTreeId": "1158",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "141",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "70",
+      "designation": "Emeritus National Champion"
+    },
+    {
+      "sourceTreeId": "80",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "968",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "11",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "1299",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "91",
+      "designation": "Emeritus National Champion"
+    },
+    {
+      "sourceTreeId": "1047",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "1217",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "918",
+      "designation": "Emeritus Florida Champion"
+    },
+    {
+      "sourceTreeId": "360",
+      "designation": "Emeritus National Champion"
+    },
+    {
+      "sourceTreeId": "235",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "1295",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "1336",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "1265",
+      "designation": "National Champion Nominee"
+    },
+    {
+      "sourceTreeId": "124",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "898",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "85",
+      "designation": "Emeritus National Champion"
+    },
+    {
+      "sourceTreeId": "177",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "1152",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "1151",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "391",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "1190",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "1064",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "89",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "90",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "1207",
+      "designation": "National Challenger"
+    },
+    {
+      "sourceTreeId": "153",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "142",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "73",
+      "designation": "Emeritus Florida Champion"
+    },
+    {
+      "sourceTreeId": "97",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "74",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "1120",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "879",
+      "designation": "National Challenger"
+    },
+    {
+      "sourceTreeId": "874",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "1134",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "1244",
+      "designation": "National Challenger"
+    },
+    {
+      "sourceTreeId": "942",
+      "designation": "Emeritus Florida Champion"
+    },
+    {
+      "sourceTreeId": "936",
+      "designation": "Emeritus National Champion"
+    },
+    {
+      "sourceTreeId": "271",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "1024",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "976",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "973",
+      "designation": "National Challenger"
+    },
+    {
+      "sourceTreeId": "414",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "385",
+      "designation": "Emeritus National Co-Champion"
+    },
+    {
+      "sourceTreeId": "26",
+      "designation": "Emeritus National Champion"
+    },
+    {
+      "sourceTreeId": "1204",
+      "designation": "National Co-Champion Nominee"
+    },
+    {
+      "sourceTreeId": "1306",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "1183",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "330",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "117",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "157",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "315",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "184",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "402",
+      "designation": "Emeritus Florida Champion"
+    },
+    {
+      "sourceTreeId": "401",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "902",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "92",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "1326",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "209",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "1017",
+      "designation": "Emeritus National Champion"
+    },
+    {
+      "sourceTreeId": "894",
+      "designation": "Emeritus National Champion"
+    },
+    {
+      "sourceTreeId": "381",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "104",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "35",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "947",
+      "designation": "Emeritus Florida Champion"
+    },
+    {
+      "sourceTreeId": "407",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "922",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "1230",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "1266",
+      "designation": "National Champion Nominee"
+    },
+    {
+      "sourceTreeId": "418",
+      "designation": "National Challenger"
+    },
+    {
+      "sourceTreeId": "1314",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "1109",
+      "designation": "Emeritus Florida Champion"
+    },
+    {
+      "sourceTreeId": "78",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "66",
+      "designation": "Emeritus National Co-Champion"
+    },
+    {
+      "sourceTreeId": "1281",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "229",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "228",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "45",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "389",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "195",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "232",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "996",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "359",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "81",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "81",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "31",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "51",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "237",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "52",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "986",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "1069",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "1069",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "1146",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "1145",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "194",
+      "designation": "National Challenger"
+    },
+    {
+      "sourceTreeId": "65",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "337",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "134",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "983",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "1323",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "399",
+      "designation": "Emeritus Florida Champion"
+    },
+    {
+      "sourceTreeId": "888",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "77",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "197",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "1237",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "347",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "343",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "422",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "208",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "1092",
+      "designation": "National Challenger"
+    },
+    {
+      "sourceTreeId": "110",
+      "designation": "National Challenger"
+    },
+    {
+      "sourceTreeId": "1",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "878",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "61",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "924",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "161",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "972",
+      "designation": "Emeritus National Co-Champion"
+    },
+    {
+      "sourceTreeId": "311",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "1028",
+      "designation": "National Challenger"
+    },
+    {
+      "sourceTreeId": "1269",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "887",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "1282",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "112",
+      "designation": "Emeritus Florida Co-Champion"
+    },
+    {
+      "sourceTreeId": "950",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "869",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "405",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "1185",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "308",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "156",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "156",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "30",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "1063",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "907",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "1273",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "962",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "375",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "1257",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "1248",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "283",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "1200",
+      "designation": "Emeritus Florida Champion"
+    },
+    {
+      "sourceTreeId": "281",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "901",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "102",
+      "designation": "Emeritus National Champion"
+    },
+    {
+      "sourceTreeId": "387",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "1144",
+      "designation": "National Champion Nominee"
+    },
+    {
+      "sourceTreeId": "268",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "1085",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "1087",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "1086",
+      "designation": "Emeritus Florida Champion"
+    },
+    {
+      "sourceTreeId": "1118",
+      "designation": "Emeritus Florida Champion"
+    },
+    {
+      "sourceTreeId": "1107",
+      "designation": "Emeritus Florida Champion"
+    },
+    {
+      "sourceTreeId": "1083",
+      "designation": "Emeritus Florida Champion"
+    },
+    {
+      "sourceTreeId": "997",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "1103",
+      "designation": "Emeritus Florida Champion"
+    },
+    {
+      "sourceTreeId": "1241",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "1122",
+      "designation": "Emeritus Florida Champion"
+    },
+    {
+      "sourceTreeId": "1108",
+      "designation": "Emeritus Florida Champion"
+    },
+    {
+      "sourceTreeId": "1098",
+      "designation": "Emeritus Florida Champion"
+    },
+    {
+      "sourceTreeId": "1089",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "1267",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "1233",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "1088",
+      "designation": "Emeritus Florida Champion"
+    },
+    {
+      "sourceTreeId": "1117",
+      "designation": "Emeritus Florida Champion"
+    },
+    {
+      "sourceTreeId": "1099",
+      "designation": "Emeritus Florida Champion"
+    },
+    {
+      "sourceTreeId": "1097",
+      "designation": "Emeritus Florida Champion"
+    },
+    {
+      "sourceTreeId": "412",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "1111",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "1116",
+      "designation": "Emeritus Florida Champion"
+    },
+    {
+      "sourceTreeId": "1275",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "1276",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "181",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "125",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "125",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "1168",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "213",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "251",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "1236",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "317",
+      "designation": "National Challenger"
+    },
+    {
+      "sourceTreeId": "148",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "86",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "223",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "977",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "225",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "224",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "938",
+      "designation": "Emeritus Florida Champion"
+    },
+    {
+      "sourceTreeId": "261",
+      "designation": "National Challenger"
+    },
+    {
+      "sourceTreeId": "935",
+      "designation": "Emeritus National Champion"
+    },
+    {
+      "sourceTreeId": "266",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "876",
+      "designation": "Emeritus National Champion"
+    },
+    {
+      "sourceTreeId": "877",
+      "designation": "Emeritus National Co-Champion"
+    },
+    {
+      "sourceTreeId": "895",
+      "designation": "Emeritus National Co-Champion"
+    },
+    {
+      "sourceTreeId": "409",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "1003",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "1019",
+      "designation": "National Challenger"
+    },
+    {
+      "sourceTreeId": "210",
+      "designation": "Emeritus National Champion"
+    },
+    {
+      "sourceTreeId": "172",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "56",
+      "designation": "Emeritus Florida Champion"
+    },
+    {
+      "sourceTreeId": "1252",
+      "designation": "National Champion Nominee"
+    },
+    {
+      "sourceTreeId": "1001",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "1294",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "1298",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "1139",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "1126",
+      "designation": "Emeritus Florida Champion"
+    },
+    {
+      "sourceTreeId": "1128",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "1058",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "1102",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "952",
+      "designation": "National Challenger"
+    },
+    {
+      "sourceTreeId": "1329",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "928",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "965",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "964",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "297",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "382",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "1079",
+      "designation": "Emeritus Florida Champion"
+    },
+    {
+      "sourceTreeId": "945",
+      "designation": "Emeritus Florida Champion"
+    },
+    {
+      "sourceTreeId": "1084",
+      "designation": "Emeritus Florida Champion"
+    },
+    {
+      "sourceTreeId": "305",
+      "designation": "Emeritus Florida Champion"
+    },
+    {
+      "sourceTreeId": "180",
+      "designation": "Emeritus Florida Champion"
+    },
+    {
+      "sourceTreeId": "189",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "188",
+      "designation": "National Challenger"
+    },
+    {
+      "sourceTreeId": "295",
+      "designation": "Emeritus Florida Champion"
+    },
+    {
+      "sourceTreeId": "309",
+      "designation": "Emeritus Florida Champion"
+    },
+    {
+      "sourceTreeId": "1279",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "1283",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "1166",
+      "designation": "Emeritus Florida Champion"
+    },
+    {
+      "sourceTreeId": "201",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "1051",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "304",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "39",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "245",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "946",
+      "designation": "Discontinued"
+    },
+    {
+      "sourceTreeId": "959",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "1046",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "1214",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "1215",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "979",
+      "designation": "Florida Challenger"
+    },
+    {
+      "sourceTreeId": "1093",
+      "designation": "Emeritus Florida Champion"
+    }
+  ],
+  "duplicateRows": [
+    {
+      "sourceRow": 253,
+      "sourceTreeId": "155"
+    },
+    {
+      "sourceRow": 300,
+      "sourceTreeId": "1270"
+    }
+  ],
+  "policy": "Include only Florida Champion, Florida Co-Champion, National Champion and National Co-Champion. Exclude challengers, emeritus, discontinued, nominees and unknown designations. National labels are Florida source designations, not independently verified.",
+  "geography": "2025 Census county internal points. County markers are approximate and do not locate individual trees.",
+  "fields": "Summary-table import: measurement dates, property ownership and individual tree coordinates are not imported. Visiting access remains unclassified; see each linked official record."
+}
