@@ -1,4 +1,6 @@
 import "server-only";
+import ilRecords from "./data/illinois-champion-trees.json";
+import ilCoordinates from "./data/illinois-county-points.json";
 import flRecords from "./data/florida-champion-trees.json";
 import flCoordinates from "./data/florida-county-points.json";
 import alRecords from "./data/alabama-champion-trees.json";
@@ -45,6 +47,7 @@ import coordinates from "./data/massachusetts-town-centroids.json";
 
 import { townKey, stateNames, type ChampionState, type ChampionTree } from "./champion-trees";
 export const championTrees: readonly ChampionTree[] = [
+  ...ilRecords.map(tree => ({ ...tree, state: "IL" as const, mapPrecision: "county" as const })),
   ...flRecords.map(tree => ({ ...tree, state: "FL" as const, mapPrecision: "county" as const })),
   ...alRecords.map(tree => ({ ...tree, state: "AL" as const, mapPrecision: "county" as const })),
   ...inRecords.map(tree => ({ ...tree, state: "IN" as const, mapPrecision: "county" as const })),
@@ -68,6 +71,7 @@ export const championTrees: readonly ChampionTree[] = [
   ...meRecords.map(tree => ({ ...tree, state: "ME" as const })),
 ];
 export const townCoordinates: Record<string, { lat: number; lng: number }> = Object.fromEntries([
+  ...Object.entries(ilCoordinates).map(([county, point]) => [`IL:county:${county}`, point]),
   ...Object.entries(flCoordinates).map(([county, point]) => [`FL:county:${county}`, point]),
   ...Object.entries(alCoordinates).map(([county, point]) => [`AL:county:${county}`, point]),
   ...Object.entries(inCoordinates).map(([county, point]) => [`IN:county:${county}`, point]),

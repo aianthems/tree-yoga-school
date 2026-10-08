@@ -407,3 +407,28 @@ Regenerate using `python scripts/import-alabama-champions.py REGISTER.pdf COUNTI
 Florida includes 311 unique champion/co-champion IDs from the Forest Service summary table retrieved October 8, 2026, mapped to 47 approximate county points. Of 600 rows, 313 match the four included designations; repeated IDs 155 and 1270 are identical and deduplicated. Exclude challengers, emeritus, discontinued, nominees, and unknown designations. Preserve national labels as source designations, without independent verification. Summary-only import: dates, ownership, coordinates, and access from detail pages are not inferred.
 
 Regenerate with `python scripts/import-florida-champions.py REGISTER.html COUNTIES.zip` (requires lxml and the 2025 Census national county ZIP). Audit includes source hash, exclusions, and duplicate rows.
+
+
+### Illinois champion register · October 8, 2026
+
+Illinois Extension's [official program page](https://extension.illinois.edu/forestry/big-tree-register) links Experience Builder item `df5e7296d76a4c8ba133c9e8adf1f85a`. Its web map `32415ec76af74ff8b50165d7b1e360e1` uses `https://services.arcgis.com/GL0fWlNkwysZaKeV/arcgis/rest/services/IBTR_masterfile/FeatureServer/0`. The unfiltered layer has 202 records (also confirmed with `returnCountOnly=true`): 124 populated entries across 106 botanical categories, including 18 name-labeled co-champions, and 78 empty species slots without counties or measurements. Include every populated entry; do not derive extra titles or discard designated co-champions based on points. Dataset last edited July 30, 2026.
+
+All 124 records map to 47 representative Census 2025 county points. `Saint Clair` maps to `St. Clair` while preserving source wording. Exact tree coordinates, street locations, nominator details, and images are not imported; public visiting access remains unclassified. Stable `il-<ObjectId>` IDs support shared selections. Circumference is displayed in source feet; the internal inches field is feet × 12 for existing score checks. Published points are unchanged. The combined `Year listed/Last measured` text remains separate from the null measurement date. Missing silverbell circumference and the cottonwood's non-typical form are retained with notes. Scientific-name synonym annotations are preserved as published.
+
+Illinois joins the Midwest shortcut, state/species filters, shared URLs, source dates, and `/api/champion-trees/IL`. Total coverage is 4,790 records across 22 states. The Library's map teaser now derives its state count from available states.
+
+Reproduce using the layer's `/query` endpoint with `where=1=1`, `returnGeometry=false`, `orderByFields=ObjectId`, `f=json`, and this `outFields` allowlist:
+
+```text
+ObjectId,GlobalId,name,Species,Common_name,County,Year_listed_Last_measured,Diameter_at_breast_height__in__,Circumference__ft__,Height__ft__,Spread__ft__,Total_Points,shortlist_id,tab_id
+```
+
+Save the complete response as `RECORDS.json`, download the 2025 national Census county Gazetteer ZIP, then run:
+
+```sh
+python scripts/import-illinois-champions.py RECORDS.json COUNTIES.zip
+node --test scripts/test-*.cjs
+npm run build
+```
+
+The audit stores source SHA256, inclusion counts, and excluded slot IDs. Refreshing a changed source requires reconciling counts, IDs, and schema before updating importer assertions.
