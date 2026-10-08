@@ -1,0 +1,14 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+import SiteHeader from "../../components/site-header";
+import SiteFooter from "../../components/site-footer";
+import { beginnerJourney } from "../../../lib/beginner-journey";
+export const metadata: Metadata = { title: "Seven Days with a Tree | Tree Yoga School", description: "A seven-day beginner journey through observation, meditation, gentle movement, and walking. Five to ten minutes at your own pace." };
+export default function SevenDays() {
+  return <><SiteHeader /><main id="content" className="lesson">
+    <section className="lesson-intro"><Link className="lesson-back" href="/begin-here">← Begin Here</Link><p className="section-kicker">A seven-day beginner journey</p><h1>Seven days.<br />One tree to begin.</h1><p className="lesson-lede">Start by looking. Learn to return your attention, explore a little movement, and take a noticing walk. Find a practice you want to return to.</p><p>Allow about five to ten minutes per visit, or less. The days are a suggested order, not a deadline: repeat, skip, or take a day off whenever you like. You can begin again without catching up.</p><div className="course-actions"><Link className="button primary" href="/begin-here/seven-days/1">Begin Day 1 →</Link><a className="course-link" href="#days">Choose a day</a></div></section>
+    <section className="lesson-section"><h2>A small beginning, close to home.</h2><p>An ordinary tree is enough. Return to the same one when convenient, or meet another along the way. Each day includes practical steps, an option to adapt, and one reflection. Seated and stationary alternatives are part of the journey.</p><p>Bookmark this page or the day you want to return to. No account or daily check-in is needed.</p></section>
+    <section id="days" className="lesson-section" aria-labelledby="days-title"><p className="section-kicker">Your next visit</p><h2 id="days-title">A little more attention each day.</h2><ol className="journey-days">{beginnerJourney.map(day => <li key={day.day} className="course-card"><p className="section-kicker">Day {day.day} · {day.duration}</p><h3><Link href={`/begin-here/seven-days/${day.day}`}>{day.title}</Link></h3><p>{day.purpose}</p><Link className="course-link" href={`/begin-here/seven-days/${day.day}`}>Open Day {day.day} →</Link></li>)}</ol></section>
+    <section className="lesson-section"><h2>Rooted in the school’s practices.</h2><p>This journey is a new sequence for the digital school, developed with AI assistance. It brings together the existing introductory lessons and Tree Library; it is not a seven-day program reproduced from the original book. Follow each day’s lesson links for sources and adaptations.</p><Link className="course-link" href="/book">Explore the original book →</Link></section>
+  </main><SiteFooter /></>;
+}

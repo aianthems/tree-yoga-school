@@ -903,3 +903,13 @@ section[id] { scroll-margin-top: 90px; }
   .outdoor-practice footer { font-size: 9pt; margin-top: 20px; }
   .outdoor-print-source { display: block; overflow-wrap: anywhere; }
 }
+
+.journey-days { list-style: none; padding: 0; display: grid; gap: 20px; }
+.journey-days h3 { margin-top: 8px; }
+.journey-navigation { display: flex; gap: 10px; flex-wrap: wrap; margin: 20px 0 32px; }
+.journey-navigation a { display: grid; place-items: center; width: 48px; min-height: 48px; border: 1px solid var(--ink); border-radius: 50%; font-weight: 700; }
+.journey-navigation a[aria-current="page"] { background: var(--ink); color: var(--paper); text-decoration: underline; text-underline-offset: 4px; }
+.journey-navigation a:focus-visible, .journey-days a:focus-visible { outline: 3px solid var(--ink); outline-offset: 4px; }
+.journey-resources { margin-top: 32px; padding-top: 20px; border-top: 1px solid var(--line); }
+.journey-resources li { margin-bottom: 14px; }
+.journey-next { padding-top: 24px; border-top: 1px solid var(--line); }
