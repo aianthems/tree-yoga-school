@@ -8,6 +8,12 @@ const { filterLibraryTrees, libraryThemes } = require('../lib/tree-library-searc
 const slugs = (q, theme = '') => filterLibraryTrees(trees, q, theme).map(t => t.slug);
 
 test('search accepts common names, botanical names, aliases, whitespace, and punctuation', () => {
+  assert.deepEqual(slugs('hop-hornbeam'), ['american-hophornbeam']);
+  assert.deepEqual(slugs('leverwood'), ['american-hophornbeam']);
+  assert.deepEqual(slugs('red birch'), ['river-birch']);
+  assert.deepEqual(slugs('Juglans nigra'), ['black-walnut']);
+  assert.deepEqual(slugs('American linden'), ['american-basswood']);
+  assert.deepEqual(slugs('basswood', 'Generosity'), ['american-basswood']);
   assert.deepEqual(slugs('  MUSCLEWOOD  '), ['american-hornbeam']);
   assert.deepEqual(slugs('blue-beech'), ['american-hornbeam']);
   assert.deepEqual(slugs('Carpinus caroliniana'), ['american-hornbeam']);
@@ -37,3 +43,4 @@ test('every offered theme comes from current profiles and returns exact matches'
     assert.deepEqual(filterLibraryTrees(trees, '', theme), expected);
   }
 });
+

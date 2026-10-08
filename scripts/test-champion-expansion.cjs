@@ -60,10 +60,10 @@ test('Tennessee keeps all source entries and leaves the unmatched county unmappe
   assert.ok(championRegions.southeast.states.includes('TN'));
 });
 
-test('all twelve new profiles have matching map links and local credited images', () => {
+test('all sixteen added profiles have matching map links and local credited images', () => {
   const { trees } = require('../lib/trees.ts');
-  assert.equal(trees.length, 28);
-  for (const name of ['Ulmus americana', 'Fraxinus americana', 'Cercis canadensis', 'Taxodium distichum', 'Liriodendron tulipifera', 'Sassafras albidum', 'Nyssa sylvatica', 'Metasequoia glyptostroboides', 'Carpinus caroliniana', 'Carya ovata', 'Acer saccharinum', 'Prunus serotina']) {
+  assert.equal(trees.length, 32);
+  for (const name of ['Ulmus americana', 'Fraxinus americana', 'Cercis canadensis', 'Taxodium distichum', 'Liriodendron tulipifera', 'Sassafras albidum', 'Nyssa sylvatica', 'Metasequoia glyptostroboides', 'Carpinus caroliniana', 'Carya ovata', 'Acer saccharinum', 'Prunus serotina', 'Ostrya virginiana', 'Betula nigra', 'Juglans nigra', 'Tilia americana']) {
     const tree = trees.find(t => t.scientificName === name);
     assert.ok(tree); assert.equal(librarySpecies[name].slug, tree.slug);
     assert.equal(tree.identity.length, 3); assert.equal(tree.energies.length, 3); assert.equal(tree.practice.length, 4);
@@ -73,3 +73,4 @@ test('all twelve new profiles have matching map links and local credited images'
     }
   }
 });
+

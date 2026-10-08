@@ -5,6 +5,10 @@ export type LibraryTree = Pick<Tree, "slug" | "name" | "species" | "scientificNa
 
 // Alternate names from the botanical references linked on the species pages.
 export const treeAliases: Readonly<Record<string, readonly string[]>> = {
+  "american-hophornbeam": ["American hop hornbeam", "eastern hophornbeam", "eastern hop hornbeam", "ironwood", "leverwood"],
+  "river-birch": ["red birch", "water birch"],
+  "black-walnut": ["eastern black walnut"],
+  "american-basswood": ["American linden", "basswood", "bee tree", "linden"],
   "american-elm": ["white elm", "water elm"],
   "white-ash": ["American ash"],
   "eastern-redbud": ["American redbud"],
@@ -33,3 +37,4 @@ export function filterLibraryTrees(items: readonly LibraryTree[], query: string,
 export function libraryThemes(items: readonly LibraryTree[]) {
   return [...new Set(items.flatMap(tree => [...tree.themes]))].sort((a, b) => a.localeCompare(b, "en"));
 }
+

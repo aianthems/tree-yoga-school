@@ -143,6 +143,10 @@ export const championSource = {
   geographyUrl: "https://www.mass.gov/info-details/massgis-data-municipalities",
 };
 export const librarySpecies: Record<string, { slug: string; name: string }> = {
+  "Ostrya virginiana": { slug: "american-hophornbeam", name: "American Hophornbeam" },
+  "Betula nigra": { slug: "river-birch", name: "River Birch" },
+  "Juglans nigra": { slug: "black-walnut", name: "Black Walnut" },
+  "Tilia americana": { slug: "american-basswood", name: "American Basswood" },
   "Carpinus caroliniana": { slug: "american-hornbeam", name: "American Hornbeam" },
   "Carya ovata": { slug: "shagbark-hickory", name: "Shagbark Hickory" },
   "Acer saccharinum": { slug: "silver-maple", name: "Silver Maple" },
