@@ -88,7 +88,7 @@ test("every current record ID survives URL encoding unchanged", () => {
       count++;
     }
   }
-  assert.equal(count, 4666);
+  assert.equal(count, 4790);
 });
 
 const { championSpeciesOptions } = require('../lib/champion-species.ts');

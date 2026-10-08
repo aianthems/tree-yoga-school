@@ -1,0 +1,401 @@
+{
+  "retrieved": "2026-10-08",
+  "sourceUrl": "https://services.arcgis.com/GL0fWlNkwysZaKeV/arcgis/rest/services/IBTR_masterfile/FeatureServer/0",
+  "sourceSha256": "045e0b0e6721dac61c971eded6c0c8876e06c82f792637647b61581e5dff159d",
+  "sourceRows": 202,
+  "includedRows": 124,
+  "excludedRows": [
+    {
+      "sourceTreeId": "1",
+      "name": "Acer floridanum [Florida maple]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "6",
+      "name": "Acer rubrum var. drummondii [Drummond red maple]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "12",
+      "name": "Alnus incana ssp. rugosa [speckled alder]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "13",
+      "name": "Alnus serrulata [hazel alder]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "15",
+      "name": "Amelanchier interior [inland serviceberry]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "17",
+      "name": "Amelanchier sanguinea [roundleaf serviceberry]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "24",
+      "name": "Betula populifolia [gray birch]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "37",
+      "name": "Carya texana [black hickory]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "39",
+      "name": "Castanea dentata [American chestnut]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "43",
+      "name": "Celtis tenuifolia [Georgia hackberry]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "46",
+      "name": "Cladrastis kentukea [yellowwood]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "47",
+      "name": "Cornus alternifolia [alternate-leaf dogwood]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "48",
+      "name": "Cornus drummondii [roughleaf dogwood]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "50",
+      "name": "Cornus foemina [stiff dogwood]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "52",
+      "name": "Cornus rugosa [roundleaf dogwood]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "53",
+      "name": "Cornus sericea [red-osier dogwood]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "54",
+      "name": "Crataegus calpodendron [pear hawthorn]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "55",
+      "name": "Crataegus chyrsocarpa [fireberry hawthorn]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "58",
+      "name": "Crataegus collina [hillside hawthorn]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "59",
+      "name": "Crataegus corusca [shiningbranch hawthorn]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "60",
+      "name": "Crataegus crus-galli [cockspur hawthorn]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "61",
+      "name": "Crataegus disperma [spreading hawthorn]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "62",
+      "name": "Crataegus dispessa [mink hawthorn]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "63",
+      "name": "Crataegus dodgei [Dodge hawthorn]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "64",
+      "name": "Crataegus fecunda [fruitful hawthorn]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "65",
+      "name": "Crataegus flabellata [fanleaf hawthorn]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "66",
+      "name": "Crataegus holmesiana [Holmes hawthorn]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "67",
+      "name": "Crataegus intricata [Biltmore hawthorn]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "68",
+      "name": "Crataegus lucorum [grove hawthorn]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "69",
+      "name": "Crataegus macrosperma [bigfruit hawthorn]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "70",
+      "name": "Crataegus margarettae [Margarett hawthorn]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "71",
+      "name": "Crataegus marshallii [parsley hawthorn]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "73",
+      "name": "Crataegus neobushii [Bush hawthorn]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "74",
+      "name": "Crataegus nitida [glossy hawthorn]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "76",
+      "name": "Crataegus pratensis [prairie hawthorn]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "77",
+      "name": "Crataegus pruinosa [frosted hawthorn]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "79",
+      "name": "Crataegus schuettei [Schuette hawthorn]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "80",
+      "name": "Crataegus spathulata [littlehip hawthorn]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "81",
+      "name": "Crataegus succulenta [fleshy hawthorn]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "90",
+      "name": "Fraxinus profunda [pumpkin ash]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "97",
+      "name": "Hamamelis virginiana [witch-hazel]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "101",
+      "name": "Ilex verticillata [common winterberry]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "105",
+      "name": "Larix laricina [tamarack]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "111",
+      "name": "Malus angustifolia [southern crabapple]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "112",
+      "name": "Malus coronaria [sweet crabapple]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "113",
+      "name": "Malus ioensis [prairie crabapple]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "115",
+      "name": "Nyssa aquatica [water tupelo]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "118",
+      "name": "Ostrya virginiana [eastern hophornbeam]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "125",
+      "name": "Populus balsamifera [balsam poplar]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "127",
+      "name": "Populus grandidentata [bigtooth aspen]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "128",
+      "name": "Populus heterophylla [swamp cottonwood]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "129",
+      "name": "Populus tremuloides [quaking aspen]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "130",
+      "name": "Prunus americana [American plum]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "131",
+      "name": "Prunus angustifolia [Chickasaw plum]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "132",
+      "name": "Prunus hortulana [hortulan plum]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "133",
+      "name": "Prunus mexicana [Mexican plum]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "134",
+      "name": "Prunus nigra [Canada plum]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "135",
+      "name": "Prunus pensylvanica [pin cherry]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "139",
+      "name": "Ptelea trifoliata [common hoptree]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "144",
+      "name": "Quercus ellipsoidalis [northern pin oak]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "158",
+      "name": "Quercus prinoides [dwarf chinkapin oak]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "161",
+      "name": "Quercus shumardii [Shumard oak]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "165",
+      "name": "Rhamnus caroliniana [Carolina buckthorn]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "167",
+      "name": "Rhus glabra [smooth sumac]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "170",
+      "name": "Salix amygdaloides [peachleaf willow]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "171",
+      "name": "Salix bebbiana [Bebb willow]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "172",
+      "name": "Salix caroliniana [coastal plain willow]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "173",
+      "name": "Salix discolor [pussy willow]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "174",
+      "name": "Salix eriocephala [Missouri River willow]v",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "176",
+      "name": "Salix lucida [shining willow]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "177",
+      "name": "Salix myricoides [bayberry willow]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "179",
+      "name": "Salix sericea [silky willow]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "180",
+      "name": "Salix serissima [autumn willow]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "183",
+      "name": "Sideroxylon lycioides [buckthorn bumelia]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "184",
+      "name": "Sorbus americana [American mountain-ash]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "185",
+      "name": "Staphylea trifolia [American bladdernut]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "200",
+      "name": "Zanthoxylum americanum [prickly-ash]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    },
+    {
+      "sourceTreeId": "212",
+      "name": "Rhus typhina [staghorn sumac]",
+      "reason": "Unpopulated species slot: no county or measurements"
+    }
+  ],
+  "circumference": "Source feet preserved; inches field is feet × 12 for cross-state scoring checks.",
+  "dates": "Combined Year listed/Last measured retained verbatim; measured remains null."
+}
