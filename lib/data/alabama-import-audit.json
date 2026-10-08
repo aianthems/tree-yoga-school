@@ -1,0 +1,25 @@
+{
+  "sourceUrl": "https://www.forestry.alabama.gov/Pages/Management/Forms/Champion_Trees_2025.pdf",
+  "edition": "2025",
+  "retrieved": "October 8, 2026",
+  "sourceSha256": "149957c5fc1428a67d8fffe26e6f6e687683c3f337708c8c9671cae1f88e1275",
+  "included": 145,
+  "counties": 49,
+  "scientificCategories": 134,
+  "sourcePages": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "identity": "SHA256 of published scientific name, county, common name and year crowned; first 12 hex digits. Reconcile name changes on refresh.",
+  "geography": "2025 Census county internal points; approximate county markers, not tree coordinates",
+  "notes": [
+    "All table rows retained, including multiple trees for the same species; no score-based selection or inferred co-champion labels.",
+    "Year crowned and remeasurement due are not measurement dates. Ownership does not establish visiting permission.",
+    "PDF line breaks collapsed; hyphenated scientific names rejoined. Published names and scores retained."
+  ]
+}

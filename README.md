@@ -395,3 +395,9 @@ python scripts/import-indiana-champions.py REGISTER.html COUNTIES.zip
 node --test scripts/test-*.cjs
 npm run build
 ```
+
+### Alabama champion register
+
+Alabama includes all 145 tree rows on pages 3–9 of AFC’s 2025 PDF, retrieved October 8, 2026, with 49 approximate Census county markers. Names and published scores are preserved; year crowned and remeasurement due are separate from unknown measurement dates. Visiting access is unclassified. Repeated species remain separate records without inferred co-champion labels.
+
+Regenerate using `python scripts/import-alabama-champions.py REGISTER.pdf COUNTIES.zip` (requires `pdfplumber` and the 2025 national Census county Gazetteer ZIP). The importer records source SHA256 and audit counts. Run `node --test scripts/test-alabama-champions.cjs`.
