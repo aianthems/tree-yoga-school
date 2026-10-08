@@ -88,7 +88,7 @@ test("every current record ID survives URL encoding unchanged", () => {
       count++;
     }
   }
-  assert.equal(count, 4117);
+  assert.equal(count, 4210);
 });
 
 const { championSpeciesOptions } = require('../lib/champion-species.ts');
@@ -240,3 +240,4 @@ test('North Carolina preserves official designations, access and distinct source
     assert.deepEqual(read(championHref(selection)), selection);
   }
 });
+

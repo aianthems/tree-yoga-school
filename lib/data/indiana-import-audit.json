@@ -1,0 +1,23 @@
+{
+  "sourceUrl": "https://www.in.gov/dnr/forestry/forestry-publications-and-presentations/indiana-big-tree-register/",
+  "retrieved": "October 8, 2026",
+  "sourceRows": 95,
+  "included": 93,
+  "coChampions": 10,
+  "excludedRows": [
+    {
+      "sourceRow": 51,
+      "commonName": "Maple, Sugar",
+      "scientificName": "Acer saccharum",
+      "reason": "Empty species row; no tree, county, or measurements supplied"
+    },
+    {
+      "sourceRow": 79,
+      "commonName": "Plum, Canada",
+      "scientificName": "Prunus nigra",
+      "reason": "Empty species row; no tree, county, or measurements supplied"
+    }
+  ],
+  "identity": "SHA256 of scientific name, canonical county, and common name without co-champion suffix; first 12 hex digits. Source supplies no tree IDs. Changes to names or county require reconciliation on refresh.",
+  "geography": "2025 Census county internal points; approximate county markers, not tree coordinates"
+}

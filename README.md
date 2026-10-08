@@ -380,3 +380,18 @@ npm run build
 ```
 
 The import audit records duplicate variants, summary/detail differences and unavailable detail pages. Georgia regression checks cover county precision, missing locations, stable source IDs, shared selections, measurements and duplicate handling.
+
+
+### Indiana champion register · October 8, 2026
+
+Indiana adds 93 populated records from Indiana DNR’s current champion table, including 10 source-labeled co-champions, bringing the map to 4,210 entries across 19 states. Two empty rows (sugar maple and Canada plum) are excluded and recorded in `lib/data/indiana-import-audit.json`. The source contradicts itself about umbrella magnolia: both populated co-champion rows remain with a warning. Published measurements and scores are unchanged; no measurement dates or access permissions are inferred.
+
+All 93 records map to 40 approximate Census 2025 county internal points. St Joseph and Laporte are matched to St. Joseph and LaPorte, retaining original county wording. Local IDs hash scientific name, canonical county, and common name without the co-champion suffix; measurement updates and row reordering do not change them. Name or county changes require reconciliation. Indiana is available through the state selector, Midwest shortcut, species filters, shared record URLs, and `/api/champion-trees/IN`.
+
+Reproduce with saved register HTML and the Census 2025 national counties Gazetteer ZIP (Python standard library only):
+
+```sh
+python scripts/import-indiana-champions.py REGISTER.html COUNTIES.zip
+node --test scripts/test-*.cjs
+npm run build
+```
