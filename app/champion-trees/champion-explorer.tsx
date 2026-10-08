@@ -167,7 +167,7 @@ export default function ChampionExplorer({ manifest }: { manifest: ChampionManif
   const visibleResults = results.slice(0, Math.max(page, Math.ceil((selectedIndex + 1) / 50)) * 50);
   return <section className="champion-explorer" aria-label="Explore champion trees">
     <div className="champion-region-bar" aria-label="Explore by region"><span>Explore a region</span>{[["", "All available states"], ["new-england", "New England"], ["northeast", "Northeast"], ["mid-atlantic", "Mid-Atlantic"], ["southeast", "Southeast"]].map(([value, name]) => <button key={value} type="button" className="button secondary" aria-pressed={region === value} onClick={() => { updateSelection({ region: value, state: "", county: "", town: "" }); }}>{name}</button>)}</div>
-    {region === "southeast" && <p className="champion-location-note">Southeast currently includes North Carolina and South Carolina.</p>}
+    {region === "southeast" && <p className="champion-location-note">Southeast currently includes North Carolina, South Carolina, Tennessee, Georgia, and Kentucky.</p>}
     {region === "northeast" && <p className="champion-location-note">Northeast covers Pennsylvania, New York, New Jersey, and all six New England states.</p>}
     {region === "mid-atlantic" && <p className="champion-location-note">Mid-Atlantic currently includes New York, New Jersey, Pennsylvania, Delaware, Maryland, Virginia, and West Virginia.</p>}
     <div className="champion-toolbar">

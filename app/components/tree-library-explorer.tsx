@@ -58,7 +58,7 @@ export default function TreeLibraryExplorer({ trees }: { trees: readonly Library
               <p>{tree.invitation}</p>
               <div className="course-actions">
                 <Link className="button primary" href={`/trees/${tree.slug}`}>Meet {tree.name}</Link>
-                <Link className="course-link" href={`/trees/${tree.slug}#practice`}>Practice with {tree.name} →</Link>
+                <Link className="course-link" href={`/practice/${tree.slug}`}>Practice with {tree.name} →</Link>
               </div>
             </div>
           </article>
