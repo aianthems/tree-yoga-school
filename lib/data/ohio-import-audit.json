@@ -1,0 +1,29 @@
+{
+  "coverage": "partial",
+  "captured": "2026-10-09",
+  "includedRecords": 25,
+  "nativeRecords": 7,
+  "nonNativeRecords": 18,
+  "completeRegisterRetrieved": false,
+  "edition": "Not stated in screenshots",
+  "sourceUrls": [
+    "https://ohiodnr.gov/discover-and-learn/safety-conservation/about-odnr/forestry/champion-trees/native-champion-trees",
+    "https://ohiodnr.gov/wps/portal/gov/odnr/discover-and-learn/safety-conservation/about-ODNR/forestry/champion-trees/nonnative-champions"
+  ],
+  "screenshots": [
+    {
+      "filename": "Screenshot 2026-10-09 at 10.32.08 AM.png",
+      "sha256": "ba8c1cc979b758437d234843efb8d95d53e48d24096cf0fc69a539f7357c69ce"
+    },
+    {
+      "filename": "Screenshot 2026-10-09 at 10.32.19 AM.png",
+      "sha256": "579f45a5e8fba91b6efc468e51bf419323821d1fa56a2b2b6e207b42ae6c2672"
+    }
+  ],
+  "selection": "All fully readable rows in the two user-supplied screenshots; cropped and unseen rows excluded.",
+  "omittedFields": [
+    "Nominator"
+  ],
+  "geographySource": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_counties_national.zip",
+  "mappedCounties": 15
+}
