@@ -1,6 +1,7 @@
 import { championStates, type ChampionState } from "./champion-states";
 export { stateNames, sourceDates, championRegions, type ChampionState } from "./champion-states";
 export type ChampionTree = {
+  certified?: string; stateChampionCode?: number; nationalChampionCode?: number; sourceCondition?: string;
   circumferenceFeet?: number | null; yearCrowned?: string; remeasureDue?: string; rankingDate?: string | null; sourcePage?: number; mapPrecision?: "county"; sourceCounty?: string; crownPoints?: number; crownUnitUncertain?: boolean; sourceReviewNotes?: string[];
   id: string; state: ChampionState; publicAccess?: boolean; visibleFromPublic?: string | null; accessDetails?: string | null; publicCoordinates?: { lat: number; lng: number } | null; yearListed?: string | null; mapTown?: string; nominated?: string; status?: string; nationalFlag?: string; sourceUrl?: string; sourceRow: number; sourceTreeId?: string | null; scientificName: string; commonName: string;
   location: string | null; town: string; county: string; measured: string | null;
@@ -117,3 +118,11 @@ export const ohChampionSource = championStates.OH.source;
 export const wiChampionSource = championStates.WI.source;
 
 export const mnChampionSource = championStates.MN.source;
+
+// Preserve the source date precision instead of inventing a day for month-only dates.
+export function formatChampionDate(value: string | null): string {
+  if (!value) return "Not listed";
+  if (/^\d{4}$/.test(value)) return value;
+  if (/^\d{4}-\d{2}$/.test(value)) return new Date(`${value}-01T12:00:00Z`).toLocaleDateString("en-US", { month: "long", year: "numeric", timeZone: "UTC" });
+  return new Date(`${value}T12:00:00Z`).toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric", timeZone: "UTC" });
+}

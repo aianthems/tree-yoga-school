@@ -1,0 +1,24 @@
+{
+  "sourceUrl": "https://texasforestinfo.tamu.edu/BigTreeRegistry/",
+  "apiUrl": "https://texasforestinfo.tamu.edu/BigTreeRegistry/Home/GetAllTrees",
+  "request": {
+    "method": "POST",
+    "body": {
+      "species": "all"
+    }
+  },
+  "retrieved": "October 9, 2026",
+  "sourceSHA256": "c0967ae758e23a028209506591c95264885cd59c83f728d0851ffc63f5de65f2",
+  "geographyUrl": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_counties_national.zip",
+  "geographySHA256": "4c90d0f805779923b5958ab13d0c1e9b99fe4932b786bfcf75dd739bb2dcb4ea",
+  "totalRegistry": 661,
+  "stateChampions": 229,
+  "nationalChampions": 54,
+  "overlap": 51,
+  "included": 232,
+  "mapped": 232,
+  "counties": 79,
+  "unmapped": [],
+  "selection": "Union of StateChampion or NationalChampion code 1 (champion) or 2 (co-champion), deduplicated by TreeID. Other registry records excluded.",
+  "geography": "Exact published county name matches to approximate Census county internal points. No tree coordinates, private owner names, or visiting permission inferred."
+}

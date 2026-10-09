@@ -516,3 +516,11 @@ All 90 Nebraska Forest Service register rows are included, preserving numbered e
 83 records map to 42 approximate Census places. Seven remain searchable unmapped: Sparks, Marsland and five records without an unambiguous municipality. Published location descriptions remain available; exact tree coordinates and personal steward names are omitted. Coverage is now 5,865 records across 31 states.
 
 Reproduce with `python scripts/import-nebraska-champions.py REGISTER.html PLACES.txt` using the official register and Census URLs in the state configuration. The audit records source hashes, reviewed place labels, counts, unmapped IDs and the unit exception. Regression tests compare every name, date, measurement and score with a reviewed source fixture. Changed source structure, row counts or place labels require review before refresh.
+
+## Texas champion registry · October 9, 2026
+
+Includes 232 unique Tree IDs from the union of 229 state and 54 national champion designations (51 overlap). Codes 1 and 2 retain champion/co-champion status in separate state and national fields for a future national filter. The other 429 records in the 661-tree registry are excluded. No titles are inferred from scores.
+
+All records map to 79 approximate Census county points. Private owner names and all source tree coordinates are omitted; 152 private, 72 public and eight unclassified ownership labels are preserved without inferring visiting permission. Month/year date precision, source condition labels and unmodified Tree Index values are retained. Total coverage: 6,097 records across 32 states.
+
+Reproduce with `python scripts/import-texas-champions.py REGISTRY.json COUNTIES.zip`. Obtain the official registry using POST `Home/GetAllTrees` with JSON `{"species":"all"}` under the register origin. Use the 2025 Census county Gazetteer listed in configuration. Reviewed fixture comparisons and audited counts require explicit source review if refreshes change names, measurements, dates, ownership or titles.
