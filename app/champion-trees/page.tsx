@@ -118,7 +118,7 @@ export default function ChampionTreesPage() {
       <p>The snapshot preserves original record links, tree IDs, common and scientific names, measurements, points, towns, and last-measured years. It includes native and introduced trees as listed in the current register. The source explicitly marks 127 trees publicly accessible and 147 not publicly accessible; those labels power the public-access filter. Check the original record and current visiting guidance before an outing.</p>
       <p>All 274 records are searchable and mapped at 24 approximate Census county or independent-city points. Baltimore City is kept distinct from Baltimore County. Published towns and addresses remain on the cards, but these markers do not locate individual trees. Tree GPS coordinates and personal owner or nominator details are not imported. Measurement years are separate from this snapshot’s retrieval date.</p>
       <div className="course-actions"><a className="course-link" href={mdChampionSource.registerUrl} target="_blank" rel="noreferrer">Maryland State Champion Trees ↗</a><a className="course-link" href={mdChampionSource.programUrl} target="_blank" rel="noreferrer">Maryland DNR Big Tree Program ↗</a><a className="course-link" href={mdChampionSource.geographyUrl} target="_blank" rel="noreferrer">Census county geography ↗</a></div>
-      <p>Map tiles: © OpenStreetMap contributors. Tree Yoga School created this independent exploration of the 22 registers.</p>
+      <p>Map tiles: © OpenStreetMap contributors. Tree Yoga School created this independent exploration of the {Object.keys(stateNames).length} registers.</p>
     </section>
   </main><SiteFooter /></>;
 }
