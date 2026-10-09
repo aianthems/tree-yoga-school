@@ -7,6 +7,11 @@ export type ChampionStateConfig = {
   source: Readonly<Record<string, string | number>>;
 };
 export const championStates = {
+  MO: { name: "Missouri", sourceDate: "MDC register · retrieved October 9, 2026 · update year unconfirmed", recordFiles: ["missouri-champion-trees.json"], coordinateFile: "missouri-county-points.json", recordPrecision: "county", coordinatePrecision: "county", recordOrder: -2, expectedRecords: 151, expectedMapped: 151, unmappedIds: [], importer: "import-missouri-champions.py", auditFile: "missouri-import-audit.json", source: {
+    registerUrl: "https://gisblue.mdc.mo.gov/arcgis/rest/services/Land_Cover/Champion_Trees_List/MapServer/0",
+    retrieved: "October 9, 2026", metadataCreated: "December 2, 2021", count: 151,
+    geographyUrl: "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_counties_national.zip",
+  } },
   IA: { name: "Iowa", sourceDate: "Iowa DNR current map · retrieved October 9, 2026", recordFiles: ["iowa-champion-trees.json"], coordinateFile: "iowa-county-points.json", recordPrecision: "county", coordinatePrecision: "county", recordOrder: -1, expectedRecords: 67, expectedMapped: 66, unmappedIds: ["ia-220"], importer: "import-iowa-champions.py", auditFile: "iowa-import-audit.json", source: {
     registerUrl: "https://experience.arcgis.com/experience/db8a533a6ca34fc89a3df0603b6b2cb4/",
     programUrl: "https://www.iowadnr.gov/news-release/2025-04-22/celebrate-iowas-big-trees-arbor-day",
@@ -190,4 +195,4 @@ export const championStates = {
 export type ChampionState = keyof typeof championStates;
 export const stateNames = Object.fromEntries(Object.entries(championStates).map(([state, config]) => [state, config.name])) as Record<ChampionState, string>;
 export const sourceDates = Object.fromEntries(Object.entries(championStates).map(([state, config]) => [state, config.sourceDate])) as Record<ChampionState, string>;
-export const championRegions = { midwest: { name: "Midwest", states: ["IN", "IL", "MI", "OH", "WI", "MN", "IA"] }, southeast: { name: "Southeast", states: ["NC", "SC", "TN", "GA", "KY", "AL", "FL"] }, "new-england": { name: "New England", states: ["MA", "NH", "VT", "ME", "RI", "CT"] }, northeast: { name: "Northeast", states: ["MA", "NH", "VT", "ME", "RI", "CT", "NY", "NJ", "PA"] }, "mid-atlantic": { name: "Mid-Atlantic", states: ["NY", "NJ", "PA", "DE", "MD", "VA", "WV"] } };
+export const championRegions = { midwest: { name: "Midwest", states: ["IN", "IL", "MI", "OH", "WI", "MN", "IA", "MO"] }, southeast: { name: "Southeast", states: ["NC", "SC", "TN", "GA", "KY", "AL", "FL"] }, "new-england": { name: "New England", states: ["MA", "NH", "VT", "ME", "RI", "CT"] }, northeast: { name: "Northeast", states: ["MA", "NH", "VT", "ME", "RI", "CT", "NY", "NJ", "PA"] }, "mid-atlantic": { name: "Mid-Atlantic", states: ["NY", "NJ", "PA", "DE", "MD", "VA", "WV"] } };
