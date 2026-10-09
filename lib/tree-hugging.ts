@@ -3,7 +3,7 @@ export const treeHuggingPractice = {
   title: "Hug a tree. Come back to yourself.",
   reflection: "What changes when you give your attention to a living thing?",
   steps: [
-    { title: "Meet the tree", text: "Choose a tree you may approach on stable, permitted ground. Look at its trunk and canopy. Notice what is living here. Stay outside barriers and away from damaged limbs, nests, sharp bark, irritating plants, or sticky sap." },
+    { title: "Meet the tree", text: "Choose a tree you may approach on stable, permitted ground. Look at its trunk and canopy. Notice its shape, a pattern in the bark, and what is living around it. Let this particular tree become the center of your attention." },
     { title: "Find your embrace", text: "Stand comfortably and rest your hands or arms lightly against the trunk, only if touch feels welcome to you and is allowed here. Keep your own balance; the tree need not bear your weight. Your arms do not have to meet. One palm, a seated view, or simply being nearby is enough." },
     { title: "Let the senses lead", text: "Notice texture, temperature, light, and sound. Keep your face clear of the bark and your breathing natural. Let your shoulders soften if comfortable. Stay aware of your surroundings, with eyes open if that feels better." },
     { title: "Stay, and return", text: "Let this one tree be your point of attention. When thoughts wander, come back to a texture, a sound, or the movement of your breath. Stay for a few breaths or a few minutes. Change position or step away whenever you wish." },
