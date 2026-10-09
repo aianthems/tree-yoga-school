@@ -1,15 +1,16 @@
+import { pageMetadata } from "../../lib/site-seo";
 import type { Metadata } from "next";
 import Link from "next/link";
 import SiteHeader from "../components/site-header";
 import SiteFooter from "../components/site-footer";
 import { treeVisits, treeVisitStateCount, treeVisitSummary } from "../../lib/tree-visits";
-import { championHref } from "../../lib/champion-links";
-import { stateNames } from "../../lib/champion-trees";
+import TreeVisitCard from "../components/tree-visit-card";
 
-export const metadata: Metadata = {
+const pageInfo: Metadata = {
   title: "Trees to Visit | Tree Yoga School",
   description: treeVisitSummary,
 };
+export const metadata: Metadata = pageMetadata("/tree-visits", String(pageInfo.title), String(pageInfo.description));
 
 export default function TreeVisitsPage() {
   return <><SiteHeader /><main id="content" className="explore-shell tree-visits-page">
@@ -21,12 +22,7 @@ export default function TreeVisitsPage() {
       <p>Each guide lists when its visitor sources were checked. These are online source checks, not field inspections. Check the linked site guidance before travelling. Champion Map markers show approximate towns or counties; use each guide’s published location information to find the tree.</p>
       <nav className="tree-picker" aria-label="Choose a visit">{treeVisits.map(visit => <a key={visit.slug} href={`#${visit.slug}`}>{visit.state} · {visit.name}</a>)}</nav>
     </section>
-    <div className="tree-visit-list">{treeVisits.map((visit, index) => <article className="tree-visit-card" id={visit.slug} key={visit.slug}>
-      <div className="tree-visit-heading"><p className="section-kicker">Visit {String(index + 1).padStart(2, "0")} · {visit.kind} · {visit.place}</p><h2>{visit.name}</h2><p><i>{visit.scientificName}</i></p></div>
-      <div className="tree-visit-columns"><div><h3>Arrival & parking</h3><p>{visit.arrival}</p><h3>Walking & terrain</h3><p>{visit.walking}</p><h3>Access, fees & seasons</h3><p>{visit.access}</p><p className="champion-location-note">Sources checked <time dateTime={visit.checked}>{new Date(`${visit.checked}T12:00:00Z`).toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric", timeZone: "UTC" })}</time></p><ul className="tree-visit-sources">{visit.sources.map(source => <li key={source.href}><a href={source.href}>{source.label} ↗</a></li>)}</ul></div>
-      <aside className="tree-visit-practice"><h3>A place to pause</h3><p>{visit.pause}</p><p className="section-kicker">A moment beside the tree</p><h3>{visit.practice.title}</h3><p>{visit.practice.text}</p><Link className="button secondary" href={visit.practice.href.startsWith("/trees/") ? `/practice/${visit.practice.href.split("/")[2].split("#")[0]}` : "/practice/first-five-minutes"}>Open outdoor practice →</Link><Link className="course-link" href={visit.practice.href}>{visit.practice.label} →</Link></aside></div>
-      <Link className="button primary" href={visit.championId ? championHref({ state: visit.state, selectedId: visit.championId }) : championHref({ state: visit.state })}>{visit.championId ? "Open champion record →" : `Explore ${stateNames[visit.state]} champion trees →`}</Link>
-    </article>)}</div>
+    <div className="tree-visit-list">{treeVisits.map((visit, index) => <TreeVisitCard visit={visit} index={index} key={visit.slug} />)}</div>
     <div className="course-actions"><Link className="button secondary" href="/champion-trees">Explore the full Champion Map</Link><Link className="course-link" href="/trees">Get to know a species in the Tree Library →</Link></div>
   </main><SiteFooter /></>;
 }

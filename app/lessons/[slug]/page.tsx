@@ -1,3 +1,4 @@
+import { pageMetadata } from "../../../lib/site-seo";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import SiteHeader from "../../components/site-header";
@@ -11,7 +12,8 @@ export const dynamicParams = false;
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   const lesson = introLessons.find((item) => item.slug === slug);
-  return { title: lesson ? `${lesson.title} | Tree Yoga School` : "Lesson not found", description: lesson?.purpose };
+  if (!lesson) notFound();
+  return pageMetadata(`/lessons/${slug}`, `${lesson.title} | Tree Yoga School`, lesson.purpose);
 }
 
 export default async function LessonPage({ params }: { params: Promise<{ slug: string }> }) {

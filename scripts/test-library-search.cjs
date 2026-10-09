@@ -50,3 +50,45 @@ test('every offered theme comes from current profiles and returns exact matches'
   }
 });
 
+
+const { discoveryPages, pageMetadata, siteOrigin } = require('../lib/site-seo.ts');
+test('sitemap covers every content collection exactly once on the production origin', () => {
+  const sitemap = require('../app/sitemap.ts').default();
+  const paths = discoveryPages.map(page => page.path);
+  assert.equal(new Set(paths).size, paths.length);
+  for (const { slug } of trees) {
+    assert.ok(paths.includes(`/trees/${slug}`));
+    assert.ok(paths.includes(`/practice/${slug}`));
+  }
+  for (const { slug } of require('../lib/tree-visits.ts').treeVisits) assert.ok(paths.includes(`/tree-visits/${slug}`));
+  for (const { slug } of require('../lib/intro-lessons.ts').introLessons) assert.ok(paths.includes(`/lessons/${slug}`));
+  for (const { slug } of require('../lib/book-chapters.ts').bookChapters) assert.ok(paths.includes(`/book/${slug}`));
+  for (const { day } of require('../lib/beginner-journey.ts').beginnerJourney) assert.ok(paths.includes(`/begin-here/seven-days/${day}`));
+  assert.equal(sitemap.length, paths.length);
+  for (const entry of sitemap) {
+    assert.equal(new URL(entry.url).origin, siteOrigin);
+    assert.ok(!/[?#]/.test(entry.url));
+    assert.ok(!entry.url.includes('/api/'));
+    assert.equal(entry.lastModified, undefined);
+  }
+});
+test('each page has its own canonical, social URL and full-size preview', () => {
+  for (const page of discoveryPages) {
+    const metadata = pageMetadata(page.path, page.title, page.description);
+    assert.equal(metadata.alternates.canonical, siteOrigin + page.path);
+    assert.equal(metadata.openGraph.url, metadata.alternates.canonical);
+    assert.equal(metadata.openGraph.title, page.title);
+    assert.equal(metadata.twitter.card, 'summary_large_image');
+    const image = metadata.openGraph.images[0];
+    assert.equal(image.width, 1200);
+    assert.equal(image.height, 630);
+    assert.equal(new URL(image.url).searchParams.get('path'), page.path);
+    assert.deepEqual(metadata.twitter.images[0], image);
+  }
+});
+test('robots advertises the production sitemap and leaves content crawlable', () => {
+  const robots = require('../app/robots.ts').default();
+  assert.equal(robots.sitemap, siteOrigin + '/sitemap.xml');
+  assert.equal(robots.rules.allow, '/');
+  assert.deepEqual(robots.rules.disallow, ['/api/', '/social-preview']);
+});

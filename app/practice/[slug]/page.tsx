@@ -1,3 +1,4 @@
+import { pageMetadata } from "../../../lib/site-seo";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -20,8 +21,9 @@ function getPractice(slug: string) {
     reflection: tree.reflection, back: `/trees/${tree.slug}#practice`, backLabel: `Back to ${tree.name}` };
 }
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
-  const practice = getPractice((await params).slug);
-  return { title: `${practice.label} Outdoor Practice | Tree Yoga School`, description: `Practice beside a tree: ${practice.title} Readable steps, an optional five-minute timer, and a printable practice sheet.` };
+  const { slug } = await params;
+  const practice = getPractice(slug);
+  return pageMetadata(`/practice/${slug}`, `${practice.label} Outdoor Practice | Tree Yoga School`, `Practice beside a tree: ${practice.title} Readable steps, an optional five-minute timer, and a printable practice sheet.`);
 }
 export default async function OutdoorPractice({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;

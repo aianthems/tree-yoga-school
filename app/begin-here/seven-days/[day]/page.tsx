@@ -1,3 +1,4 @@
+import { pageMetadata } from "../../../../lib/site-seo";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -9,7 +10,7 @@ export function generateStaticParams() { return beginnerJourney.map(item => ({ d
 function getDay(value: string) { const day = beginnerJourney.find(item => String(item.day) === value); if (!day) notFound(); return day; }
 export async function generateMetadata({ params }: { params: Promise<{ day: string }> }): Promise<Metadata> {
   const day = getDay((await params).day);
-  return { title: `Day ${day.day}: ${day.title} | Tree Yoga School`, description: day.purpose };
+  return pageMetadata(`/begin-here/seven-days/${day.day}`, `Day ${day.day}: ${day.title} | Tree Yoga School`, day.purpose);
 }
 export default async function JourneyDayPage({ params }: { params: Promise<{ day: string }> }) {
   const day = getDay((await params).day);

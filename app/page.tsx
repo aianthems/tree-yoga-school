@@ -1,3 +1,5 @@
+import { pageMetadata, siteDescription } from "../lib/site-seo";
+export const metadata = pageMetadata("/", "Tree Yoga School", siteDescription);
 import SiteHeader from "./components/site-header";
 import Image from "next/image";
 import Link from "next/link";

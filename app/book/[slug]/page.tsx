@@ -1,3 +1,4 @@
+import { pageMetadata } from "../../../lib/site-seo";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -12,7 +13,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const chapter = bookChapters.find((item) => item.slug === slug);
   if (!chapter) notFound();
-  return { title: `${chapter.title} | Tree Yoga School`, description: chapter.description };
+  return pageMetadata(`/book/${slug}`, `${chapter.title} | Tree Yoga School`, chapter.description);
 }
 export default async function ChapterPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
