@@ -432,3 +432,27 @@ npm run build
 ```
 
 The audit stores source SHA256, inclusion counts, and excluded slot IDs. Refreshing a changed source requires reconciling counts, IDs, and schema before updating importer assertions.
+
+### Michigan champion selection
+
+`python scripts/import-michigan-champions.py REGISTER.xlsx COUNTIES.zip` imports
+the Michigan Botanical Society public spreadsheet linked from
+https://michiganbotanicalsociety.org/big-tree-on-google. Download the XLSX via
+https://docs.google.com/spreadsheets/d/1x0l0BRXxdGzV6kxMLtvNBb88x0jqlTJfNLpQGZtjrB8/export?format=xlsx
+and use the Census 2025 national county Gazetteer ZIP.
+
+The October 9, 2026 snapshot has one sheet, `Big_Tree_Data_2026-07-14`, with 667
+populated rows. It has no state-champion designation field. We include only the
+highest published Points per scientific-name species category, including exact
+ties: 122 leaders across 120 categories at 38 county points. The 545 smaller
+entries are excluded. Variety metadata does not create extra categories. The two
+spellings of Magnolia x soulangeana are grouped for ranking while the original
+scientific names stay on cards. No additional near-score co-champions are inferred.
+
+The import audit retains every candidate ID, source row, category, score, and
+selection decision, plus the XLSX SHA-256. Names, measurements and scores follow
+the source; common-name fallbacks are disclosed. Verification dates are preserved,
+including five older than ten years and one missing. County names are normalized
+against Census geography, including Gd. Traverse → Grand Traverse. GPS coordinates,
+addresses, owners and location field notes are omitted. Visiting access remains
+unclassified. National Y flags are source labels, not independently verified titles.
