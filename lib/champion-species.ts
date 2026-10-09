@@ -1,6 +1,10 @@
 import type { ChampionTree } from "./champion-trees";
 
 const familiarNames: Record<string, string> = {
+  "Fraxinus pennsylvanica": "Green ash",
+  "Quercus velutina": "Black oak",
+  "Liquidambar styraciflua": "Sweetgum",
+  "Quercus macrocarpa": "Bur oak",
   "Carpinus caroliniana": "American hornbeam",
   "Carya ovata": "Shagbark hickory",
   "Acer saccharinum": "Silver maple",

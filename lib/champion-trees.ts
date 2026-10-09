@@ -149,6 +149,10 @@ export const championSource = {
   geographyUrl: "https://www.mass.gov/info-details/massgis-data-municipalities",
 };
 export const librarySpecies: Record<string, { slug: string; name: string }> = {
+  "Fraxinus pennsylvanica": { slug: "green-ash", name: "Green Ash" },
+  "Quercus velutina": { slug: "black-oak", name: "Black Oak" },
+  "Liquidambar styraciflua": { slug: "sweetgum", name: "Sweetgum" },
+  "Quercus macrocarpa": { slug: "bur-oak", name: "Bur Oak" },
   "Ostrya virginiana": { slug: "american-hophornbeam", name: "American Hophornbeam" },
   "Betula nigra": { slug: "river-birch", name: "River Birch" },
   "Juglans nigra": { slug: "black-walnut", name: "Black Walnut" },

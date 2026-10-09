@@ -5,6 +5,10 @@ export type LibraryTree = Pick<Tree, "slug" | "name" | "species" | "scientificNa
 
 // Alternate names from the botanical references linked on the species pages.
 export const treeAliases: Readonly<Record<string, readonly string[]>> = {
+  "green-ash": ["red ash", "water ash"],
+  "black-oak": ["eastern black oak", "yellow oak"],
+  sweetgum: ["sweet gum", "American sweet gum", "redgum", "red sweet gum"],
+  "bur-oak": ["burr oak", "moss cap oak"],
   "american-hophornbeam": ["American hop hornbeam", "eastern hophornbeam", "eastern hop hornbeam", "ironwood", "leverwood"],
   "river-birch": ["red birch", "water birch"],
   "black-walnut": ["eastern black walnut"],

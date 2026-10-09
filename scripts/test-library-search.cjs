@@ -8,6 +8,12 @@ const { filterLibraryTrees, libraryThemes } = require('../lib/tree-library-searc
 const slugs = (q, theme = '') => filterLibraryTrees(trees, q, theme).map(t => t.slug);
 
 test('search accepts common names, botanical names, aliases, whitespace, and punctuation', () => {
+  assert.deepEqual(slugs('red ash'), ['green-ash']);
+  assert.deepEqual(slugs('yellow oak'), ['black-oak']);
+  assert.deepEqual(slugs('sweet gum'), ['sweetgum']);
+  assert.deepEqual(slugs('moss-cap oak'), ['bur-oak']);
+  assert.deepEqual(slugs('Fraxinus pennsylvanica', 'Renewal'), ['green-ash']);
+  assert.deepEqual(slugs('bur oak', 'Spaciousness'), ['bur-oak']);
   assert.deepEqual(slugs('hop-hornbeam'), ['american-hophornbeam']);
   assert.deepEqual(slugs('leverwood'), ['american-hophornbeam']);
   assert.deepEqual(slugs('red birch'), ['river-birch']);
