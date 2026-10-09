@@ -1,3 +1,4 @@
+import { sixLibraryTrees } from "./tree-library-six";
 import { iowaLibraryTrees } from "./tree-library-iowa";
 import { mapPracticeTrees } from "./tree-library-map";
 import { growthPracticeTrees } from "./tree-library-growth";
@@ -849,6 +850,7 @@ export const trees: readonly Tree[] = [
   ...newPracticeTrees,
   ...growthPracticeTrees,
   ...mapPracticeTrees,
+  ...sixLibraryTrees,
 ];
 
 export function getTree(slug: string) { return trees.find((tree) => tree.slug === slug); }

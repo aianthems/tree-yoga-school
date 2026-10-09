@@ -35,6 +35,12 @@ export const vtChampionSource = championStates.VT.source;
 export const nhChampionSource = championStates.NH.source;
 export const championSource = championStates.MA.source;
 export const librarySpecies: Record<string, { slug: string; name: string }> = {
+  "Juniperus virginiana": { slug: "eastern-redcedar", name: "Eastern Redcedar" },
+  "Catalpa speciosa": { slug: "northern-catalpa", name: "Northern Catalpa" },
+  "Magnolia acuminata": { slug: "cucumber-magnolia", name: "Cucumber Magnolia" },
+  "Populus deltoides": { slug: "eastern-cottonwood", name: "Eastern Cottonwood" },
+  "Carya cordiformis": { slug: "bitternut-hickory", name: "Bitternut Hickory" },
+  "Cornus florida": { slug: "flowering-dogwood", name: "Flowering Dogwood" },
   "Quercus palustris": { slug: "pin-oak", name: "Pin Oak" },
   "Quercus bicolor": { slug: "swamp-white-oak", name: "Swamp White Oak" },
   "Acer negundo": { slug: "boxelder", name: "Boxelder" },
@@ -125,4 +131,9 @@ export function formatChampionDate(value: string | null): string {
   if (/^\d{4}$/.test(value)) return value;
   if (/^\d{4}-\d{2}$/.test(value)) return new Date(`${value}-01T12:00:00Z`).toLocaleDateString("en-US", { month: "long", year: "numeric", timeZone: "UTC" });
   return new Date(`${value}T12:00:00Z`).toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric", timeZone: "UTC" });
+}
+
+export function libraryTreeForSpecies(scientificName: string) {
+  const key = Object.keys(librarySpecies).find(name => name.toLowerCase() === scientificName.trim().toLowerCase());
+  return key ? librarySpecies[key] : undefined;
 }
