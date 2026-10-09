@@ -41,3 +41,19 @@ test('the assembled dataset keeps every row, stable order and per-state coordina
     for (const key of Object.keys(datasets[state].coordinates)) assert.ok(dataset.coordinates[`${state}:${config.coordinatePrecision === 'county' ? 'county:' : ''}${key}`]);
   }
 });
+test('server dataset bindings match the registry files and every manifest count', () => {
+  const Module = require('node:module');
+  const originalLoad = Module._load;
+  let server;
+  try {
+    Module._load = function(request, ...args) { return request === 'server-only' ? {} : originalLoad.call(this, request, ...args); };
+    server = require('../lib/champion-tree-data.ts');
+  } finally { Module._load = originalLoad; }
+  const expected = buildChampionDataset(Object.fromEntries(Object.keys(championStates).map(state => [state, readState(state)])));
+  assert.deepEqual(server.championTrees, expected.trees);
+  assert.deepEqual(server.townCoordinates, expected.coordinates);
+  for (const entry of server.championManifest) {
+    assert.equal(entry.listed, championStates[entry.state].expectedRecords);
+    assert.equal(entry.mapped, championStates[entry.state].expectedMapped);
+  }
+});
