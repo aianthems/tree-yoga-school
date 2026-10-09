@@ -1,8 +1,8 @@
 {
-  "coverage": "partial",
+  "coverage": "complete native list; partial non-native list",
   "captured": "2026-10-09",
-  "includedRecords": 25,
-  "nativeRecords": 7,
+  "includedRecords": 145,
+  "nativeRecords": 127,
   "nonNativeRecords": 18,
   "completeRegisterRetrieved": false,
   "edition": "Not stated in screenshots",
@@ -12,18 +12,93 @@
   ],
   "screenshots": [
     {
-      "filename": "Screenshot 2026-10-09 at 10.32.08 AM.png",
-      "sha256": "ba8c1cc979b758437d234843efb8d95d53e48d24096cf0fc69a539f7357c69ce"
+      "filename": "Screenshot 2026-10-09 at 11.08.18 AM.png",
+      "sha256": "3758a8c00332a5bcd83c74ab222404ca0bba5c823ada7b1560cc408518f798cd",
+      "category": "native",
+      "page": 1,
+      "firstRow": 1,
+      "lastRow": 25,
+      "publishedTotal": 127
+    },
+    {
+      "filename": "Screenshot 2026-10-09 at 11.08.32 AM.png",
+      "sha256": "796df39121459c372506ad3cb45611df9996f4c2e40a1c0a93025348d6bc9579",
+      "category": "native",
+      "page": 2,
+      "firstRow": 26,
+      "lastRow": 50,
+      "publishedTotal": 127
+    },
+    {
+      "filename": "Screenshot 2026-10-09 at 11.08.45 AM.png",
+      "sha256": "66349b5e1aae960ad4e5500744b20c2092e20c6004668e20d69e0a5eacd176eb",
+      "category": "native",
+      "page": 3,
+      "firstRow": 51,
+      "lastRow": 75,
+      "publishedTotal": 127
+    },
+    {
+      "filename": "Screenshot 2026-10-09 at 11.08.55 AM.png",
+      "sha256": "a42b21f9949fb159a01faf05bb62a7683ceb08a0367e42bc90d152ffdc34f8f1",
+      "category": "native",
+      "page": 4,
+      "firstRow": 76,
+      "lastRow": 100,
+      "publishedTotal": 127
+    },
+    {
+      "filename": "Screenshot 2026-10-09 at 11.09.03 AM.png",
+      "sha256": "c740a9b3ceeefa2d53ca75cb1555fe7adeb45604bf310713fa9f2abbdc7de8a3",
+      "category": "native",
+      "page": 5,
+      "firstRow": 101,
+      "lastRow": 125,
+      "publishedTotal": 127
+    },
+    {
+      "filename": "Screenshot 2026-10-09 at 11.09.13 AM.png",
+      "sha256": "5e0ec0c97aeb735e0eece1d9b39966a32c1752bd174e40ef441f268af154c7d5",
+      "category": "native",
+      "page": 6,
+      "firstRow": 126,
+      "lastRow": 127,
+      "publishedTotal": 127
     },
     {
       "filename": "Screenshot 2026-10-09 at 10.32.19 AM.png",
-      "sha256": "579f45a5e8fba91b6efc468e51bf419323821d1fa56a2b2b6e207b42ae6c2672"
+      "sha256": "579f45a5e8fba91b6efc468e51bf419323821d1fa56a2b2b6e207b42ae6c2672",
+      "category": "non-native",
+      "firstRow": 1,
+      "lastRow": 18
     }
   ],
-  "selection": "All fully readable rows in the two user-supplied screenshots; cropped and unseen rows excluded.",
+  "selection": "Every row from all six native table pages (1–127 of 127), plus the 18 previously imported non-native rows. Distinct entries are retained even when botanical names repeat. Category follows the source table without reclassification.",
   "omittedFields": [
     "Nominator"
   ],
   "geographySource": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_counties_national.zip",
-  "mappedCounties": 15
+  "mappedCounties": 62,
+  "nativeCoverage": "complete",
+  "nonNativeCoverage": "partial",
+  "nativePublishedTotal": 127,
+  "nativePages": 6,
+  "nativePageRows": [
+    25,
+    25,
+    25,
+    25,
+    25,
+    2
+  ],
+  "completeNativeRegisterRetrieved": true,
+  "mappedRecords": 144,
+  "unmappedRecords": [
+    {
+      "id": "oh-bda3adb9d0a2",
+      "commonName": "Gray Birch",
+      "reason": "County blank in source table"
+    }
+  ],
+  "identity": "Existing category/scientific-name/county hashes are preserved. Repeated scientific-name/county combinations add the common name to distinguish separate source rows."
 }
