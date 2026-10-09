@@ -456,3 +456,7 @@ including five older than ten years and one missing. County names are normalized
 against Census geography, including Gd. Traverse → Grand Traverse. GPS coordinates,
 addresses, owners and location field notes are omitted. Visiting access remains
 unclassified. National Y flags are source labels, not independently verified titles.
+
+### Ohio champion trees (partial coverage)
+
+Ohio adds 25 fully readable records from user-provided ODNR screenshots captured October 9, 2026 (7 native, 18 non-native). This is not the complete register. The import audit records screenshot hashes, source URLs, and selection limits. County points use the 2025 Census Gazetteer; no exact locations, access permission, or measurement dates are inferred. The American elm score discrepancy is preserved and flagged.
