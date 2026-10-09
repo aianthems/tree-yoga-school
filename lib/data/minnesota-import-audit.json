@@ -1,0 +1,28 @@
+{
+  "retrieved": "2026-10-09",
+  "sourceUrl": "https://www.dnr.state.mn.us/trees/bigtree/big-tree-champions.html",
+  "speciesSlots": 53,
+  "populatedSpecies": 51,
+  "includedRecords": 62,
+  "emptySpecies": [
+    "Northern mountain ash",
+    "Mountain maple"
+  ],
+  "mappedRecords": 62,
+  "mappedCounties": 28,
+  "completeRegisterRetrieved": true,
+  "sourceSha256": "8a2ca762aaa61200d76401aaadd12b098019623ad1adab9c14ce81e12ee01700",
+  "selection": "Every tree in the official current-champions species array; multiple trees in a species are labelled co-champions by the official page template. Empty species slots are excluded.",
+  "countyAliases": {
+    "St Louis": "St. Louis",
+    "St.Louis": "St. Louis",
+    "Fairibault": "Faribault"
+  },
+  "points": "Calculated exactly as the official getTotalPoints function: circumference + height + crown_spread / 4. No ranking changes.",
+  "year": "Source year appears beside the nominator; retained separately, not assumed to be a measurement date.",
+  "ownership": "24 Private records marked publicAccess=false; Public, Federal and Tribal ownership do not establish public visiting permission.",
+  "omittedFields": [
+    "nominator"
+  ],
+  "geography": "2025 Census national county Gazetteer; approximate county points"
+}
