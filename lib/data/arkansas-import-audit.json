@@ -1,0 +1,46 @@
+{
+  "retrieved": "2026-10-09",
+  "registerUrl": "https://agriculture.arkansas.gov/forests/urban-community-forestry/champion-trees/search-champion-trees/",
+  "extractSha256": "a81c01e576ac6b91bb765c5bf54b8a036e919798f4e2b89c9ef3b30aa1dc2919",
+  "sourcePages": [
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    5
+  ],
+  "includedRecords": 125,
+  "detailPagesReviewed": 125,
+  "mappedRecords": 124,
+  "mappedCounties": 50,
+  "unmappedIds": [
+    "ar-43890"
+  ],
+  "accessCounts": {
+    "Private": 84,
+    "Public": 30,
+    "Public with limited access": 1,
+    "Private, but viewable from street": 1,
+    "Private, but access allowed": 1,
+    "Private with public access": 1,
+    "Access not classified by the source": 7
+  },
+  "selection": "All nine register pages: 125 unique published post IDs; every detail page read. Co- and tri-champions, repeated species and unequal scores retained. Vacancies and the 133-option species filter are not tree records.",
+  "transportCheck": "Reviewed extraction matched browser serialization: 125 rows, 13120 characters, FNV-1a 3687991186.",
+  "names": "Source common-name casing retained, Native/Non-native/Naturalized suffixes removed. Missing names resolved from detail-page titles. Ginkgo detail title overrides erroneous card scientific field Maidenhair.",
+  "units": "Program formula uses circumference inches, height feet, crown spread feet. Four circumference foot marks and one crown inch mark interpreted using the published formula and scores, with explicit per-record notes. Bigness Index punctuation stripped; scores never recalculated.",
+  "unitExceptions": {
+    "43895": "Circumference: 104'",
+    "43904": "Circumference: 169’",
+    "43905": "Circumference: 162’",
+    "54870": "Circumference: 180'",
+    "43984": "Crown Width: 12”"
+  },
+  "dates": "No measurement dates or confirmed list edition supplied. Retrieval date is not a measurement date.",
+  "privacy": "No owner identities, addresses, directions or exact tree coordinates imported. Property/access labels retained verbatim. Private viewable from street remains private.",
+  "geography": "2025 Census national county Gazetteer. Eastern Cottonwood has no county on list card or detail page and remains searchable without a map point."
+}

@@ -10,7 +10,7 @@ export const siteDescription = "Rooted in nature. Practiced in the real world. A
 export const discoveryPages = [
   { path: "/", title: "Tree Yoga School", description: siteDescription },
   { path: "/trees", title: "Tree Library", description: "Meet trees through observation, contemplative themes, and outdoor practices." },
-  { path: "/champion-trees", title: "Champion Tree Map", description: "Explore champion trees across 28 states, with measurements, official sources, and linked practices." },
+  { path: "/champion-trees", title: "Champion Tree Map", description: "Explore champion trees across 29 states, with measurements, official sources, and linked practices." },
   { path: "/tree-visits", title: "Trees to Visit", description: "Plan a visit to a remarkable tree with arrival guidance, walking details, official sources, and a practice." },
   { path: "/begin-here", title: "Begin Here", description: "Begin Tree Yoga with a short lesson or a seven-day journey at your own pace." },
   { path: "/begin-here/seven-days", title: "Seven Days with a Tree", description: "Explore observation, meditation, gentle movement, and walking in seven short practices." },
