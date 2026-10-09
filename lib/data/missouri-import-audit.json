@@ -1,0 +1,18 @@
+{
+  "retrieved": "2026-10-09",
+  "dataUrl": "https://gisblue.mdc.mo.gov/arcgis/rest/services/Land_Cover/Champion_Trees_List/MapServer/0",
+  "sourceSha256": "b436c7e438551e215a10a8890ecbab79f3842449c01f8f5f77774a758ac7109e",
+  "layerSha256": "2c812338128c4da92c48baa11183ef2cee0547095a6d2ee525ca6c3aabc28705",
+  "sourceRecords": 151,
+  "includedRecords": 151,
+  "mappedRecords": 151,
+  "mappedCounties": 59,
+  "publicAccessRecords": 51,
+  "selection": "All MDC Champion Trees layer records retained, including repeated species. No derived ranking or current-title assumption.",
+  "names": "Common names use the official Species coded-value domain. Sideroxylon lanuginosum has no domain entry and retains its scientific name with Common name not listed.",
+  "units": "Circumference in inches; height and average crown spread in feet, following MDC measuring guidance. Published scores never recalculated.",
+  "measuringUrl": "https://mdc.mo.gov/magazines/xplor/2021-09/big-tree-hunters",
+  "dates": "Service metadata created December 2, 2021; this is not a list edition or record-update date. No measurement or latest record-update dates supplied.",
+  "privacy": "County/city points only; public site labels retained only for YES access. Personal owner names, private location labels and exact tree coordinates excluded.",
+  "geography": "2025 Census national county Gazetteer. County whitespace trimmed; St_Louis normalized to St. Louis. St. Louis City retained separately from St. Louis County."
+}
