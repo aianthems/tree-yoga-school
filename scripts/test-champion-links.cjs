@@ -249,3 +249,23 @@ test('North Carolina preserves official designations, access and distinct source
   }
 });
 
+
+
+test("related Library suggestions stay relevant, unique and limited for every profile", () => {
+  const { trees } = require("../lib/trees.ts");
+  const { relatedLibraryTrees } = require("../lib/tree-library-related.ts");
+  const before = trees.map(tree => tree.slug);
+  for (const tree of trees) {
+    const related = relatedLibraryTrees(tree, trees);
+    assert.ok(related.length <= 3);
+    assert.equal(new Set(related.map(item => item.tree.slug)).size, related.length);
+    for (const item of related) {
+      assert.notEqual(item.tree.slug, tree.slug);
+      assert.ok(item.tree.scientificName.split(" ")[0] === tree.scientificName.split(" ")[0] || item.tree.themes.some(theme => tree.themes.includes(theme)));
+    }
+  }
+  assert.deepEqual(trees.map(tree => tree.slug), before);
+  const oak = trees.find(tree => tree.slug === "bur-oak");
+  assert.ok(relatedLibraryTrees(oak, trees).every(item => item.tree.scientificName.startsWith("Quercus ")));
+  assert.deepEqual(relatedLibraryTrees(oak, [oak]), []);
+});

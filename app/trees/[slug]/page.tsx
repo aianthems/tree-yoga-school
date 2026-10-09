@@ -6,6 +6,7 @@ import SiteHeader from "../../components/site-header";
 import SiteFooter from "../../components/site-footer";
 import { getTree, trees } from "../../../lib/trees";
 import { championHref } from "../../../lib/champion-links";
+import { relatedLibraryTrees } from "../../../lib/tree-library-related";
 import { bookUrl } from "../../../lib/intro-lessons";
 
 export const dynamicParams = false;
@@ -22,6 +23,7 @@ export default async function TreePage({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const tree = getTree(slug);
   if (!tree) notFound();
+  const suggestions = relatedLibraryTrees(tree, trees);
   return (
     <>
       <SiteHeader />
@@ -80,7 +82,7 @@ export default async function TreePage({ params }: { params: Promise<{ slug: str
           <p className="section-kicker">05 · Notice for yourself</p>
           <h2>{tree.reflection}</h2>
           <p>Reflect quietly or write a sentence in your own notebook. On another visit, look at the same detail again. Your experience may fit these themes, suggest something different, or simply be a few minutes of looking.</p>
-          <nav className="tree-neighbors" aria-label="More trees to explore"><p className="section-kicker">Keep exploring</p>{trees.filter((other) => other.slug !== tree.slug).map((other) => <Link key={other.slug} href={`/trees/${other.slug}`}>{other.name}</Link>)}</nav>
+          {suggestions.length > 0 && <nav className="tree-neighbors tree-related" aria-label="Related trees to explore"><p className="section-kicker">Keep exploring · Related trees</p>{suggestions.map(({ tree: other, reason }) => <Link key={other.slug} href={`/trees/${other.slug}`}><span>{other.name}</span><small>{reason}</small></Link>)}</nav>}
           <div className="course-actions"><Link className="button primary" href="/trees">Return to the Tree Library</Link><Link className="button secondary" href="/book">Explore the book</Link></div>
         </section>
       </main>

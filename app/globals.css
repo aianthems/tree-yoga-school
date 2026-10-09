@@ -913,3 +913,22 @@ section[id] { scroll-margin-top: 90px; }
 .journey-resources { margin-top: 32px; padding-top: 20px; border-top: 1px solid var(--line); }
 .journey-resources li { margin-bottom: 14px; }
 .journey-next { padding-top: 24px; border-top: 1px solid var(--line); }
+
+/* Compact Library browsing shares the same search and theme selection. */
+.library-view-switch { display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center; margin-top: 1.5rem; }
+.library-view-switch > span { margin-right: 0.5rem; font-weight: 600; }
+.library-view-switch button { min-height: 44px; padding: 0.5rem 1rem; border: 1px solid var(--ink); background: var(--paper); color: var(--ink); font: inherit; cursor: pointer; }
+.library-view-switch button[aria-pressed="true"] { background: var(--ink); color: var(--paper); }
+.library-view-switch button:focus-visible, .library-compact-card a:focus-visible, .tree-related a:focus-visible { outline: 3px solid var(--ink); outline-offset: 3px; }
+.library-compact-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
+.library-compact-card { min-width: 0; padding: 1.25rem; border: 1px solid var(--line); background: var(--cream); scroll-margin-top: 2rem; }
+.library-compact-card h2 { font: 400 1.8rem/1.15 Georgia, serif; margin: 0 0 0.75rem; }
+.library-compact-card h2 a { text-decoration: underline; text-underline-offset: 4px; }
+.library-compact-card p { font-size: 0.9rem; line-height: 1.6; margin-bottom: 1rem; }
+.library-compact-card .theme-list { margin-bottom: 1rem; }
+.library-compact-card > a { display: inline-flex; align-items: center; min-height: 44px; }
+.library-compact-grid .library-empty { grid-column: 1 / -1; }
+.tree-related a { flex-direction: column; align-items: flex-start; justify-content: center; gap: 0.4rem; padding: 1rem; }
+.tree-related small { color: var(--ink-soft); font-size: 0.8rem; }
+@media (max-width: 1000px) { .library-compact-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 600px) { .library-compact-grid { grid-template-columns: 1fr; } .tree-related a { width: 100%; } }

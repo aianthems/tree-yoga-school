@@ -361,7 +361,7 @@ Exact scientific-name connections add 79 existing champion records (21 hornbeam,
 
 ### Tree Library discovery
 
-The Library filters its existing profiles by common name, scientific name, selected alternate names, and one practice theme. Name terms are case-insensitive, ignore punctuation, and combine with the theme. Theme choices derive from the current profiles. Matching shortcuts, result counts, empty-state recovery, reset controls, and direct practice links update without a network request. The server sends only card fields to the interactive component; complete practices and galleries stay on species pages. Search logic and current profile integration are covered by `node --test scripts/test-library-search.cjs`.
+The Library filters its existing profiles by common name, scientific name, selected alternate names, and one practice theme. Name terms are case-insensitive, ignore punctuation, and combine with the theme. Theme choices derive from the current profiles. Matching shortcuts, result counts, empty-state recovery, reset controls, and direct practice links update without a network request. The server sends only card fields to the interactive component; complete practices and galleries stay on species pages. An Illustrated/Compact toggle preserves the current search and theme selection; Compact shows text cards with profile and outdoor-practice links. Species pages suggest at most three related trees, prioritizing the same botanical genus and then shared contemplative themes, with reasons shown beside each link. Search logic and current profile integration are covered by `node --test scripts/test-library-search.cjs`.
 
 ### Georgia champion register · October 7, 2026
 
