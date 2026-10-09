@@ -1,0 +1,48 @@
+{
+  "retrieved": "2026-10-09",
+  "programUrl": "https://dnr.wisconsin.gov/topic/forests/championtrees",
+  "tableUrl": "https://experience.arcgis.com/experience/0f303a8067c1493aa62eb764375f64fe",
+  "mapUrl": "https://experience.arcgis.com/experience/3baffe32b8c246dc8848bde36e583d73",
+  "webMap": "ffca45f2133140ef99e718681d424ed5",
+  "layers": [
+    {
+      "url": "https://services5.arcgis.com/Ul9AyFFeFTjf08DW/arcgis/rest/services/CT_Nomination_PUB_TREE_MAP_View/FeatureServer/0",
+      "filter": "Map_Display = 'Exact location'",
+      "count": 47,
+      "dataLastEditDate": 1788793910355,
+      "fields": "globalid,county,privateProperty,commonName_verified,trunkCircumference_verified,verticalHeight_verified,diameter_verified,diameter2_verified,calcPoints_verified,genus_verified,species_verified,Map_Display,PLSS_TWN,objectid",
+      "sha256": "6060e2a0b19350c7b55c76f88a32bee0b32f7b4828ffade995ba96be3f7e80a8"
+    },
+    {
+      "url": "https://services5.arcgis.com/Ul9AyFFeFTjf08DW/arcgis/rest/services/CT_Nomination_PVT_TREE_MAP_TWN_View/FeatureServer/0",
+      "filter": "Map_Display = 'Township'",
+      "count": 10,
+      "dataLastEditDate": 1675959396242,
+      "fields": "globalid,county,privateProperty,commonName_verified,trunkCircumference_verified,verticalHeight_verified,diameter_verified,diameter2_verified,calcPoints_verified,genus_verified,species_verified,Map_Display,PLSS_TWN,OBJECTID",
+      "sha256": "74915f7a969d90482198a646e019a2c8981eea525632c1f34a69381d0868034a"
+    }
+  ],
+  "includedRecords": 57,
+  "mappedRecords": 57,
+  "mappedCounties": 21,
+  "privatePropertyRecords": 28,
+  "unclassifiedAccessRecords": 29,
+  "completePublicRegisterRetrieved": true,
+  "selection": "Every record from both official champion map layers using their published filters. Repeated botanical names remain separate. No score-based selection.",
+  "crownCalculation": "Average(diameter_verified,diameter2_verified), matching the official web-map popup. Circumference in inches; height and crown width in feet.",
+  "countyNormalization": {
+    "milwaukee": "Milwaukee"
+  },
+  "programStatus": "DNR reports staffing-related pause; nominations and information requests are not currently answered.",
+  "omittedFields": [
+    "geometry",
+    "latitude",
+    "longitude",
+    "ownerFirstName",
+    "ownerLastName",
+    "treeAccess",
+    "historicalFacts"
+  ],
+  "geography": "2025 Census national county Gazetteer; approximate county markers",
+  "access": "Private-property yes maps to publicAccess=false; no or blank stays unclassified. Exact-location sharing does not establish visiting permission."
+}
