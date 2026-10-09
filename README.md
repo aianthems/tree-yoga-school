@@ -481,6 +481,6 @@ All records map to 28 approximate Census county points. St Louis/St.Louis normal
 
 ## Four Library profiles from champion records
 
-Green Ash (`Fraxinus pennsylvanica`), Black Oak (`Quercus velutina`), Sweetgum (`Liquidambar styraciflua`), and Bur Oak (`Quercus macrocarpa`) bring the Library to 36 profiles. Each has botanical identification and seasonal notes, three original contemplative themes, four outdoor practice steps, a reflection, and reciprocal champion-map links. The existing profile and practice routes and sitemap derive these additions from `trees`.
+Green Ash (`Fraxinus pennsylvanica`), Black Oak (`Quercus velutina`), Sweetgum (`Liquidambar styraciflua`), and Bur Oak (`Quercus macrocarpa`) bring the Library to 36 profiles. Each has botanical identification and seasonal notes, three original contemplative themes, four outdoor practice steps, a reflection, and reciprocal champion-map links. The existing profile and practice routes derive these additions from `trees`.
 
 Botanical sources and photograph credits are recorded in `lib/tree-library-map.ts` and `lib/tree-library-map-images.ts`, using NC State Extension's species profiles. Ten photographs use CC BY or CC BY-SA licenses, with photographer, license, and source links on each gallery image. Local WebP assets preserve image proportions. These themes and practices are new interpretations, distinct from botanical facts and the original book's teachings.
