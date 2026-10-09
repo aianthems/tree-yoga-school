@@ -5,7 +5,7 @@ import { bookChapters } from "./book-chapters";
 import { beginnerJourney } from "./beginner-journey";
 import { treeVisits } from "./tree-visits";
 
-export const siteOrigin = "https://tree-yoga-school.vercel.app";
+export const siteOrigin = "https://treeyogaschool.com";
 export const siteDescription = "Rooted in nature. Practiced in the real world. A living school for tree hugging, yoga, meditation, and learning with trees.";
 export const discoveryPages = [
   { path: "/", title: "Tree Yoga School", description: siteDescription },
@@ -29,9 +29,14 @@ export const discoveryPages = [
   ...treeVisits.map(visit => ({ path: `/tree-visits/${visit.slug}`, title: `${visit.name}: Visit Guide`, description: `Plan a visit to ${visit.place}. Arrival, parking, walking, access information, and a linked outdoor practice.` })),
 ];
 
+// Local builds retain production SEO; Vercel previews/development/custom environments do not index.
+export function isIndexableDeployment(environment = process.env.VERCEL_ENV): boolean {
+  return !environment || environment === "production";
+}
+
 export function pageMetadata(path: string, title: string, description: string): Metadata {
   const image = { url: `${siteOrigin}/social-preview?path=${encodeURIComponent(path)}`, width: 1200, height: 630, alt: `${title.replace(/ \| Tree Yoga School$/, "")} · Tree Yoga School` };
-  return { title, description, alternates: { canonical: `${siteOrigin}${path}` },
+  return { title, description, robots: { index: isIndexableDeployment(), follow: isIndexableDeployment() }, alternates: { canonical: `${siteOrigin}${path}` },
     openGraph: { title, description, url: `${siteOrigin}${path}`, siteName: "Tree Yoga School", type: "website", locale: "en_US", images: [image] },
     twitter: { card: "summary_large_image", title, description, images: [image] },
   };
