@@ -494,3 +494,9 @@ These three destinations are not asserted to match a current champion record. `T
 ## Search and sharing
 
 `lib/site-seo.ts` defines the production origin and discoverable routes. All public content pages have a self-canonical, page-specific Open Graph and Twitter metadata, and a 1200×630 branded PNG preview served from `/social-preview?path=…`. Champion filter URLs canonicalize to the main map. `/sitemap.xml` lists content routes without API, query, fragment or image URLs; `/robots.txt` advertises it. Sitemap dates are omitted rather than invented. Visit guides now have individual `/tree-visits/[slug]` pages, sharing the overview's exact visitor details and source links.
+
+## Shared Champion Tree state configuration
+
+All 26 states use `lib/champion-states.ts` for names, provenance, source dates, saved dataset paths, precision rules and reviewed import baselines. `lib/champion-state-data.ts` normalizes records and coordinate prefixes once for the server loader and validation. Existing source aliases and state-specific warnings retain their behavior.
+
+Run `npm run validate:champions` for every state, or `npm run validate:champions -- --state MN` for one source refresh. `npm run build` runs validation automatically before building. See `docs/champion-state-expansion.md` for the complete import and release workflow.
