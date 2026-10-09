@@ -1,0 +1,86 @@
+{
+  "sourceUrl": "https://www.kansasforests.org/programs/championtreelist.html",
+  "retrieved": "October 9, 2026",
+  "sourceSHA256": "8f9a8946d5e4bc646301d81b0e534a92143e335c12ba1cc63164f92eb0d38408",
+  "geographyUrl": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_20.txt",
+  "geographySHA256": "b88c34224f3ace2f5f35b163a4503e73288c8ee68a4a6ae60e9f8586eb1e432d",
+  "sourceRows": 148,
+  "included": 148,
+  "mapped": 134,
+  "places": 60,
+  "coChampions": 4,
+  "unmapped": [
+    {
+      "id": "ks-6c2f2379fef8",
+      "sourceRow": 3,
+      "place": "Willowdale"
+    },
+    {
+      "id": "ks-18734471e94f",
+      "sourceRow": 28,
+      "place": "Fort Leavenworth"
+    },
+    {
+      "id": "ks-49375c98adb9",
+      "sourceRow": 29,
+      "place": "Studley"
+    },
+    {
+      "id": "ks-0882b5f58384",
+      "sourceRow": 39,
+      "place": "Fort Leavenworth"
+    },
+    {
+      "id": "ks-496087cb5923",
+      "sourceRow": 48,
+      "place": "Fort Leavenworth"
+    },
+    {
+      "id": "ks-87aadd949577",
+      "sourceRow": 59,
+      "place": "Fort Leavenworth"
+    },
+    {
+      "id": "ks-61dc25cbe176",
+      "sourceRow": 67,
+      "place": "Fort Leavenworth"
+    },
+    {
+      "id": "ks-1a8c76d79f1d",
+      "sourceRow": 72,
+      "place": "Stilwell"
+    },
+    {
+      "id": "ks-df548f4b9651",
+      "sourceRow": 84,
+      "place": "Fort Leavenworth"
+    },
+    {
+      "id": "ks-b3df858bdb60",
+      "sourceRow": 86,
+      "place": "Waterloo"
+    },
+    {
+      "id": "ks-7c1b206f86dd",
+      "sourceRow": 105,
+      "place": "Fort Leavenworth"
+    },
+    {
+      "id": "ks-220868376007",
+      "sourceRow": 111,
+      "place": "Sequin"
+    },
+    {
+      "id": "ks-c05937288fb6",
+      "sourceRow": 113,
+      "place": "Waterloo"
+    },
+    {
+      "id": "ks-6bfa18cc8e4e",
+      "sourceRow": 135,
+      "place": "Fort Leavenworth"
+    }
+  ],
+  "identity": "SHA256 of source scientific name, place and common name without nomination year or co-champion label; first 12 hex digits. Names/place changes require reconciliation on refresh.",
+  "geography": "Exact case-insensitive name matches to approximate Census place internal points. Unmatched names remain unmapped. Counties are not supplied or inferred. Markers do not locate trees or establish visiting access."
+}
