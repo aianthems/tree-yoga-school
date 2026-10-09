@@ -1,0 +1,6018 @@
+{
+  "retrieved": "2026-10-09",
+  "edition": "Big_Tree_Data_2026-07-14",
+  "sourceUrl": "https://docs.google.com/spreadsheets/d/1x0l0BRXxdGzV6kxMLtvNBb88x0jqlTJfNLpQGZtjrB8/edit?usp=sharing",
+  "sourceSha256": "b2e1ddc5cdb932a2461033bcd0ac456d0b518f63db49cb0668d3d6b0917a475f",
+  "sourceRows": 667,
+  "includedRows": 122,
+  "excludedRows": 545,
+  "categories": 120,
+  "selection": "Highest published Points per Scientific Name, including exact ties. Variety metadata does not create extra categories. Magnolia Xsoulangeana is grouped with Magnolia x soulangeana. No additional near-score co-champions inferred.",
+  "location": "County-only points from Census. GPS, addresses, owner information, and location field notes are not imported. Public visiting access unclassified.",
+  "dates": "Verification Date retained as measured date; missing dates remain null. Older dates are qualified, not used to replace a higher-scoring listed tree.",
+  "candidates": [
+    {
+      "sourceTreeId": "1201",
+      "sourceRow": 2,
+      "scientificName": "Betula alleghaniensis",
+      "category": "betula alleghaniensis",
+      "points": 234.0,
+      "highestPoints": 265.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1208",
+      "sourceRow": 3,
+      "scientificName": "Pinus resinosa",
+      "category": "pinus resinosa",
+      "points": 248.0,
+      "highestPoints": 248.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "1214",
+      "sourceRow": 4,
+      "scientificName": "Thuja occidentalis",
+      "category": "thuja occidentalis",
+      "points": 226.0,
+      "highestPoints": 258.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1221",
+      "sourceRow": 5,
+      "scientificName": "Liriodendron tulipifera",
+      "category": "liriodendron tulipifera",
+      "points": 350.0,
+      "highestPoints": 368.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1228",
+      "sourceRow": 6,
+      "scientificName": "Acer palmatum",
+      "category": "acer palmatum",
+      "points": 110.0,
+      "highestPoints": 110.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "1229",
+      "sourceRow": 7,
+      "scientificName": "Celtis occidentalis",
+      "category": "celtis occidentalis",
+      "points": 247.0,
+      "highestPoints": 310.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1231",
+      "sourceRow": 8,
+      "scientificName": "Taxodium distichum",
+      "category": "taxodium distichum",
+      "points": 198.0,
+      "highestPoints": 253.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1232",
+      "sourceRow": 9,
+      "scientificName": "Carya ovata",
+      "category": "carya ovata",
+      "points": 200.0,
+      "highestPoints": 245.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1238",
+      "sourceRow": 10,
+      "scientificName": "Magnolia acuminata",
+      "category": "magnolia acuminata",
+      "points": 286.0,
+      "highestPoints": 286.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "1239",
+      "sourceRow": 11,
+      "scientificName": "Fagus grandifolia",
+      "category": "fagus grandifolia",
+      "points": 275.0,
+      "highestPoints": 305.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1244",
+      "sourceRow": 12,
+      "scientificName": "Juglans regia",
+      "category": "juglans regia",
+      "points": 252.0,
+      "highestPoints": 252.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "1245",
+      "sourceRow": 13,
+      "scientificName": "Platanus occidentalis",
+      "category": "platanus occidentalis",
+      "points": 408.0,
+      "highestPoints": 456.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1248",
+      "sourceRow": 14,
+      "scientificName": "Sequoiadendron giganteum",
+      "category": "sequoiadendron giganteum",
+      "points": 297.0,
+      "highestPoints": 297.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "1250",
+      "sourceRow": 15,
+      "scientificName": "Metasequoia glyptostroboides",
+      "category": "metasequoia glyptostroboides",
+      "points": 221.0,
+      "highestPoints": 287.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1252",
+      "sourceRow": 16,
+      "scientificName": "Maclura pomifera",
+      "category": "maclura pomifera",
+      "points": 298.0,
+      "highestPoints": 298.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "1255",
+      "sourceRow": 17,
+      "scientificName": "Robinia pseudoacacia",
+      "category": "robinia pseudoacacia",
+      "points": 290.0,
+      "highestPoints": 292.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1256",
+      "sourceRow": 18,
+      "scientificName": "Quercus macrocarpa",
+      "category": "quercus macrocarpa",
+      "points": 448.0,
+      "highestPoints": 448.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "1257",
+      "sourceRow": 19,
+      "scientificName": "Taxodium distichum",
+      "category": "taxodium distichum",
+      "points": 232.0,
+      "highestPoints": 253.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1264",
+      "sourceRow": 20,
+      "scientificName": "Quercus velutina",
+      "category": "quercus velutina",
+      "points": 305.0,
+      "highestPoints": 378.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1268",
+      "sourceRow": 21,
+      "scientificName": "Larix laricina",
+      "category": "larix laricina",
+      "points": 140.0,
+      "highestPoints": 197.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1269",
+      "sourceRow": 22,
+      "scientificName": "Picea abies",
+      "category": "picea abies",
+      "points": 297.0,
+      "highestPoints": 297.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "1271",
+      "sourceRow": 23,
+      "scientificName": "Juglans cinerea",
+      "category": "juglans cinerea",
+      "points": 285.0,
+      "highestPoints": 285.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "1280",
+      "sourceRow": 24,
+      "scientificName": "Quercus robur",
+      "category": "quercus robur",
+      "points": 244.0,
+      "highestPoints": 276.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1281",
+      "sourceRow": 25,
+      "scientificName": "Carya glabra",
+      "category": "carya glabra",
+      "points": 250.0,
+      "highestPoints": 314.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1282",
+      "sourceRow": 26,
+      "scientificName": "Quercus rubra",
+      "category": "quercus rubra",
+      "points": 356.0,
+      "highestPoints": 406.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1287",
+      "sourceRow": 27,
+      "scientificName": "Ulmus pumila",
+      "category": "ulmus pumila",
+      "points": 361.0,
+      "highestPoints": 361.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "1315",
+      "sourceRow": 28,
+      "scientificName": "Quercus robur",
+      "category": "quercus robur",
+      "points": 146.0,
+      "highestPoints": 276.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1317",
+      "sourceRow": 29,
+      "scientificName": "Liquidambar styraciflua",
+      "category": "liquidambar styraciflua",
+      "points": 197.0,
+      "highestPoints": 209.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1318",
+      "sourceRow": 30,
+      "scientificName": "Taxodium distichum",
+      "category": "taxodium distichum",
+      "points": 243.0,
+      "highestPoints": 253.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1320",
+      "sourceRow": 31,
+      "scientificName": "Pinus nigra",
+      "category": "pinus nigra",
+      "points": 179.0,
+      "highestPoints": 222.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1328",
+      "sourceRow": 32,
+      "scientificName": "Aesculus pavia",
+      "category": "aesculus pavia",
+      "points": 166.0,
+      "highestPoints": 166.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "1334",
+      "sourceRow": 33,
+      "scientificName": "Aesculus hippocastanum",
+      "category": "aesculus hippocastanum",
+      "points": 224.0,
+      "highestPoints": 237.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1335",
+      "sourceRow": 34,
+      "scientificName": "Ostrya virginiana",
+      "category": "ostrya virginiana",
+      "points": 139.0,
+      "highestPoints": 199.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1339",
+      "sourceRow": 35,
+      "scientificName": "Ulmus americana",
+      "category": "ulmus americana",
+      "points": 415.0,
+      "highestPoints": 415.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "1341",
+      "sourceRow": 36,
+      "scientificName": "Castanea dentata",
+      "category": "castanea dentata",
+      "points": 321.0,
+      "highestPoints": 328.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1349",
+      "sourceRow": 37,
+      "scientificName": "Maclura pomifera",
+      "category": "maclura pomifera",
+      "points": 269.0,
+      "highestPoints": 298.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1352",
+      "sourceRow": 38,
+      "scientificName": "Platanus x acerifolia",
+      "category": "platanus x acerifolia",
+      "points": 214.0,
+      "highestPoints": 350.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1359",
+      "sourceRow": 39,
+      "scientificName": "Fraxinus americana",
+      "category": "fraxinus americana",
+      "points": 386.0,
+      "highestPoints": 386.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "1371",
+      "sourceRow": 40,
+      "scientificName": "Quercus acutissima",
+      "category": "quercus acutissima",
+      "points": 176.0,
+      "highestPoints": 176.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "1373",
+      "sourceRow": 41,
+      "scientificName": "Pseudotsuga menziesii",
+      "category": "pseudotsuga menziesii",
+      "points": 201.0,
+      "highestPoints": 201.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "1374",
+      "sourceRow": 42,
+      "scientificName": "Abies concolor",
+      "category": "abies concolor",
+      "points": 201.0,
+      "highestPoints": 229.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1378",
+      "sourceRow": 43,
+      "scientificName": "Liquidambar styraciflua",
+      "category": "liquidambar styraciflua",
+      "points": 205.0,
+      "highestPoints": 209.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1379",
+      "sourceRow": 44,
+      "scientificName": "Quercus rubra",
+      "category": "quercus rubra",
+      "points": 406.0,
+      "highestPoints": 406.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "1385",
+      "sourceRow": 45,
+      "scientificName": "Pinus nigra",
+      "category": "pinus nigra",
+      "points": 196.0,
+      "highestPoints": 222.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1391",
+      "sourceRow": 46,
+      "scientificName": "Quercus macrocarpa X Quercus alba",
+      "category": "quercus macrocarpa x quercus alba",
+      "points": 322.0,
+      "highestPoints": 354.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1393",
+      "sourceRow": 47,
+      "scientificName": "Syringa vulgaris",
+      "category": "syringa vulgaris",
+      "points": 103.0,
+      "highestPoints": 105.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1395",
+      "sourceRow": 48,
+      "scientificName": "Ginkgo biloba",
+      "category": "ginkgo biloba",
+      "points": 268.0,
+      "highestPoints": 268.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "1398",
+      "sourceRow": 49,
+      "scientificName": "Syringa vulgaris",
+      "category": "syringa vulgaris",
+      "points": 90.0,
+      "highestPoints": 105.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1399",
+      "sourceRow": 50,
+      "scientificName": "Syringa vulgaris",
+      "category": "syringa vulgaris",
+      "points": 78.0,
+      "highestPoints": 105.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1400",
+      "sourceRow": 51,
+      "scientificName": "Ulmus x vegeta",
+      "category": "ulmus x vegeta",
+      "points": 170.0,
+      "highestPoints": 228.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1401",
+      "sourceRow": 52,
+      "scientificName": "Syringa vulgaris",
+      "category": "syringa vulgaris",
+      "points": 81.0,
+      "highestPoints": 105.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1402",
+      "sourceRow": 53,
+      "scientificName": "Syringa vulgaris",
+      "category": "syringa vulgaris",
+      "points": 92.0,
+      "highestPoints": 105.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1403",
+      "sourceRow": 54,
+      "scientificName": "Syringa vulgaris",
+      "category": "syringa vulgaris",
+      "points": 91.0,
+      "highestPoints": 105.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1407",
+      "sourceRow": 55,
+      "scientificName": "Magnolia x soulangeana",
+      "category": "magnolia x soulangeana",
+      "points": 91.0,
+      "highestPoints": 118.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1423",
+      "sourceRow": 56,
+      "scientificName": "Pinus virginiana",
+      "category": "pinus virginiana",
+      "points": 48.0,
+      "highestPoints": 48.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "1430",
+      "sourceRow": 57,
+      "scientificName": "Platanus x acerifolia",
+      "category": "platanus x acerifolia",
+      "points": 216.0,
+      "highestPoints": 350.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1433",
+      "sourceRow": 58,
+      "scientificName": "Ulmus pumila",
+      "category": "ulmus pumila",
+      "points": 196.0,
+      "highestPoints": 361.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1442",
+      "sourceRow": 59,
+      "scientificName": "Fraxinus quadrangulata",
+      "category": "fraxinus quadrangulata",
+      "points": 135.0,
+      "highestPoints": 203.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1444",
+      "sourceRow": 60,
+      "scientificName": "Pinus rigida",
+      "category": "pinus rigida",
+      "points": 62.0,
+      "highestPoints": 115.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1465",
+      "sourceRow": 61,
+      "scientificName": "Metasequoia glyptostroboides",
+      "category": "metasequoia glyptostroboides",
+      "points": 245.0,
+      "highestPoints": 287.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1474",
+      "sourceRow": 62,
+      "scientificName": "Pinus jeffreyi",
+      "category": "pinus jeffreyi",
+      "points": 168.0,
+      "highestPoints": 168.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "1480",
+      "sourceRow": 63,
+      "scientificName": "Quercus robur",
+      "category": "quercus robur",
+      "points": 215.0,
+      "highestPoints": 276.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1503",
+      "sourceRow": 64,
+      "scientificName": "Platanus occidentalis",
+      "category": "platanus occidentalis",
+      "points": 301.0,
+      "highestPoints": 456.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1512",
+      "sourceRow": 65,
+      "scientificName": "Quercus stellata",
+      "category": "quercus stellata",
+      "points": 156.0,
+      "highestPoints": 156.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "1523",
+      "sourceRow": 66,
+      "scientificName": "Quercus macrocarpa",
+      "category": "quercus macrocarpa",
+      "points": 390.0,
+      "highestPoints": 448.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1526",
+      "sourceRow": 67,
+      "scientificName": "Morus alba",
+      "category": "morus alba",
+      "points": 216.0,
+      "highestPoints": 223.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1532",
+      "sourceRow": 68,
+      "scientificName": "Quercus macrocarpa",
+      "category": "quercus macrocarpa",
+      "points": 385.0,
+      "highestPoints": 448.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1539",
+      "sourceRow": 69,
+      "scientificName": "Pinus rigida",
+      "category": "pinus rigida",
+      "points": 115.0,
+      "highestPoints": 115.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "1544",
+      "sourceRow": 70,
+      "scientificName": "Quercus bicolor",
+      "category": "quercus bicolor",
+      "points": 308.0,
+      "highestPoints": 325.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1545",
+      "sourceRow": 71,
+      "scientificName": "Quercus macrocarpa",
+      "category": "quercus macrocarpa",
+      "points": 370.0,
+      "highestPoints": 448.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1551",
+      "sourceRow": 72,
+      "scientificName": "Carya ovata",
+      "category": "carya ovata",
+      "points": 235.0,
+      "highestPoints": 245.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1557",
+      "sourceRow": 73,
+      "scientificName": "Quercus muehlenbergii",
+      "category": "quercus muehlenbergii",
+      "points": 355.0,
+      "highestPoints": 367.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1558",
+      "sourceRow": 74,
+      "scientificName": "Cladrastis kentukea",
+      "category": "cladrastis kentukea",
+      "points": 294.0,
+      "highestPoints": 294.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "1560",
+      "sourceRow": 75,
+      "scientificName": "Diospyros virginiana",
+      "category": "diospyros virginiana",
+      "points": 157.0,
+      "highestPoints": 165.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1562",
+      "sourceRow": 76,
+      "scientificName": "Quercus petraea",
+      "category": "quercus petraea",
+      "points": 266.0,
+      "highestPoints": 266.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "1564",
+      "sourceRow": 77,
+      "scientificName": "Ulmus parvifolia",
+      "category": "ulmus parvifolia",
+      "points": 167.0,
+      "highestPoints": 203.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1571",
+      "sourceRow": 78,
+      "scientificName": "Carya laciniosa",
+      "category": "carya laciniosa",
+      "points": 198.0,
+      "highestPoints": 243.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1579",
+      "sourceRow": 79,
+      "scientificName": "Abies concolor",
+      "category": "abies concolor",
+      "points": 177.0,
+      "highestPoints": 229.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1580",
+      "sourceRow": 80,
+      "scientificName": "Ginkgo biloba",
+      "category": "ginkgo biloba",
+      "points": 245.0,
+      "highestPoints": 268.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1581",
+      "sourceRow": 81,
+      "scientificName": "Juniperus virginiana",
+      "category": "juniperus virginiana",
+      "points": 170.0,
+      "highestPoints": 203.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1591",
+      "sourceRow": 82,
+      "scientificName": "Quercus robur",
+      "category": "quercus robur",
+      "points": 276.0,
+      "highestPoints": 276.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "1592",
+      "sourceRow": 83,
+      "scientificName": "Quercus phellos",
+      "category": "quercus phellos",
+      "points": 182.0,
+      "highestPoints": 182.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "1594",
+      "sourceRow": 84,
+      "scientificName": "Picea abies",
+      "category": "picea abies",
+      "points": 275.0,
+      "highestPoints": 297.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1646",
+      "sourceRow": 85,
+      "scientificName": "Quercus macrocarpa x Quercus alba",
+      "category": "quercus macrocarpa x quercus alba",
+      "points": 354.0,
+      "highestPoints": 354.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "1652",
+      "sourceRow": 86,
+      "scientificName": "Gleditsia triacanthos",
+      "category": "gleditsia triacanthos",
+      "points": 316.0,
+      "highestPoints": 316.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "1654",
+      "sourceRow": 87,
+      "scientificName": "Quercus schuettei",
+      "category": "quercus schuettei",
+      "points": 358.0,
+      "highestPoints": 358.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "1657",
+      "sourceRow": 88,
+      "scientificName": "Acer palmatum",
+      "category": "acer palmatum",
+      "points": 93.0,
+      "highestPoints": 110.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1662",
+      "sourceRow": 89,
+      "scientificName": "Ulmus americana",
+      "category": "ulmus americana",
+      "points": 364.0,
+      "highestPoints": 415.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1666",
+      "sourceRow": 90,
+      "scientificName": "Ulmus americana",
+      "category": "ulmus americana",
+      "points": 379.0,
+      "highestPoints": 415.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1675",
+      "sourceRow": 91,
+      "scientificName": "Acer saccharinum",
+      "category": "acer saccharinum",
+      "points": 404.0,
+      "highestPoints": 411.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1679",
+      "sourceRow": 92,
+      "scientificName": "Juglans cinerea",
+      "category": "juglans cinerea",
+      "points": 285.0,
+      "highestPoints": 285.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "1685",
+      "sourceRow": 93,
+      "scientificName": "Aesculus hippocastanum",
+      "category": "aesculus hippocastanum",
+      "points": 222.0,
+      "highestPoints": 237.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1690",
+      "sourceRow": 94,
+      "scientificName": "Platanus occidentalis",
+      "category": "platanus occidentalis",
+      "points": 323.0,
+      "highestPoints": 456.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1691",
+      "sourceRow": 95,
+      "scientificName": "Ulmus pumila",
+      "category": "ulmus pumila",
+      "points": 316.0,
+      "highestPoints": 361.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1693",
+      "sourceRow": 96,
+      "scientificName": "Sassafras albidum",
+      "category": "sassafras albidum",
+      "points": 296.0,
+      "highestPoints": 296.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "1694",
+      "sourceRow": 97,
+      "scientificName": "Juglans regia",
+      "category": "juglans regia",
+      "points": 178.0,
+      "highestPoints": 252.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1696",
+      "sourceRow": 98,
+      "scientificName": "Liriodendron tulipifera",
+      "category": "liriodendron tulipifera",
+      "points": 334.0,
+      "highestPoints": 368.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1697",
+      "sourceRow": 99,
+      "scientificName": "Celtis occidentalis",
+      "category": "celtis occidentalis",
+      "points": 270.0,
+      "highestPoints": 310.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1700",
+      "sourceRow": 100,
+      "scientificName": "Gleditsia triacanthos",
+      "category": "gleditsia triacanthos",
+      "points": 181.0,
+      "highestPoints": 316.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1711",
+      "sourceRow": 101,
+      "scientificName": "Taxodium distichum",
+      "category": "taxodium distichum",
+      "points": 228.0,
+      "highestPoints": 253.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1712",
+      "sourceRow": 102,
+      "scientificName": "Taxodium distichum",
+      "category": "taxodium distichum",
+      "points": 232.0,
+      "highestPoints": 253.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1716",
+      "sourceRow": 103,
+      "scientificName": "Prunus serotina",
+      "category": "prunus serotina",
+      "points": 270.0,
+      "highestPoints": 293.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1724",
+      "sourceRow": 104,
+      "scientificName": "Acer platanoides",
+      "category": "acer platanoides",
+      "points": 270.0,
+      "highestPoints": 270.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "1725",
+      "sourceRow": 105,
+      "scientificName": "Acer platanoides",
+      "category": "acer platanoides",
+      "points": 262.0,
+      "highestPoints": 270.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1729",
+      "sourceRow": 106,
+      "scientificName": "Salix alba var. vitenella cv. pendula",
+      "category": "salix alba var. vitenella cv. pendula",
+      "points": 358.0,
+      "highestPoints": 430.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1735",
+      "sourceRow": 107,
+      "scientificName": "Fagus grandifolia",
+      "category": "fagus grandifolia",
+      "points": 283.0,
+      "highestPoints": 305.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1736",
+      "sourceRow": 108,
+      "scientificName": "Celtis occidentalis",
+      "category": "celtis occidentalis",
+      "points": 310.0,
+      "highestPoints": 310.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "1745",
+      "sourceRow": 109,
+      "scientificName": "Ulmus pumila",
+      "category": "ulmus pumila",
+      "points": 264.0,
+      "highestPoints": 361.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1748",
+      "sourceRow": 110,
+      "scientificName": "Ulmus x vegeta",
+      "category": "ulmus x vegeta",
+      "points": 228.0,
+      "highestPoints": 228.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "1757",
+      "sourceRow": 111,
+      "scientificName": "Pinus nigra",
+      "category": "pinus nigra",
+      "points": 186.0,
+      "highestPoints": 222.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1761",
+      "sourceRow": 112,
+      "scientificName": "Juniperus virginiana",
+      "category": "juniperus virginiana",
+      "points": 132.0,
+      "highestPoints": 203.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1762",
+      "sourceRow": 113,
+      "scientificName": "Aesculus glabra",
+      "category": "aesculus glabra",
+      "points": 219.0,
+      "highestPoints": 219.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "1763",
+      "sourceRow": 114,
+      "scientificName": "Quercus alba",
+      "category": "quercus alba",
+      "points": 378.0,
+      "highestPoints": 395.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1766",
+      "sourceRow": 115,
+      "scientificName": "Sassafras albidum",
+      "category": "sassafras albidum",
+      "points": 210.0,
+      "highestPoints": 296.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1779",
+      "sourceRow": 116,
+      "scientificName": "Pseudotsuga menziesii",
+      "category": "pseudotsuga menziesii",
+      "points": 162.0,
+      "highestPoints": 201.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1786",
+      "sourceRow": 117,
+      "scientificName": "Pinus resinosa",
+      "category": "pinus resinosa",
+      "points": 238.0,
+      "highestPoints": 248.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1790",
+      "sourceRow": 118,
+      "scientificName": "Abies concolor",
+      "category": "abies concolor",
+      "points": 160.0,
+      "highestPoints": 229.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1791",
+      "sourceRow": 119,
+      "scientificName": "Carya glabra",
+      "category": "carya glabra",
+      "points": 227.0,
+      "highestPoints": 314.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1793",
+      "sourceRow": 120,
+      "scientificName": "Picea abies",
+      "category": "picea abies",
+      "points": 265.0,
+      "highestPoints": 297.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1802",
+      "sourceRow": 121,
+      "scientificName": "Quercus coccinea",
+      "category": "quercus coccinea",
+      "points": 131.0,
+      "highestPoints": 307.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1803",
+      "sourceRow": 122,
+      "scientificName": "Ulmus parvifolia",
+      "category": "ulmus parvifolia",
+      "points": 178.0,
+      "highestPoints": 203.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1804",
+      "sourceRow": 123,
+      "scientificName": "Quercus muehlenbergii",
+      "category": "quercus muehlenbergii",
+      "points": 284.0,
+      "highestPoints": 367.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1805",
+      "sourceRow": 124,
+      "scientificName": "Metasequoia glyptostroboides",
+      "category": "metasequoia glyptostroboides",
+      "points": 221.0,
+      "highestPoints": 287.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1807",
+      "sourceRow": 125,
+      "scientificName": "Acer saccharinum",
+      "category": "acer saccharinum",
+      "points": 335.0,
+      "highestPoints": 411.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1809",
+      "sourceRow": 126,
+      "scientificName": "Picea glauca",
+      "category": "picea glauca",
+      "points": 213.0,
+      "highestPoints": 227.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1815",
+      "sourceRow": 127,
+      "scientificName": "Salix alba var. vitenella cv. pendula",
+      "category": "salix alba var. vitenella cv. pendula",
+      "points": 338.0,
+      "highestPoints": 430.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1816",
+      "sourceRow": 128,
+      "scientificName": "Quercus bicolor",
+      "category": "quercus bicolor",
+      "points": 302.0,
+      "highestPoints": 325.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1847",
+      "sourceRow": 129,
+      "scientificName": "Salix nigra",
+      "category": "salix nigra",
+      "points": 398.0,
+      "highestPoints": 398.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "1852",
+      "sourceRow": 130,
+      "scientificName": "Abies concolor",
+      "category": "abies concolor",
+      "points": 156.0,
+      "highestPoints": 229.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1854",
+      "sourceRow": 131,
+      "scientificName": "Salix alba var. vitenella cv. pendula",
+      "category": "salix alba var. vitenella cv. pendula",
+      "points": 411.0,
+      "highestPoints": 430.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1856",
+      "sourceRow": 132,
+      "scientificName": "Abies concolor",
+      "category": "abies concolor",
+      "points": 207.0,
+      "highestPoints": 229.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1860",
+      "sourceRow": 133,
+      "scientificName": "Quercus bicolor",
+      "category": "quercus bicolor",
+      "points": 325.0,
+      "highestPoints": 325.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "1861",
+      "sourceRow": 134,
+      "scientificName": "Ulmus parvifolia",
+      "category": "ulmus parvifolia",
+      "points": 200.0,
+      "highestPoints": 203.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1867",
+      "sourceRow": 135,
+      "scientificName": "Nyssa sylvatica",
+      "category": "nyssa sylvatica",
+      "points": 228.0,
+      "highestPoints": 228.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "1868",
+      "sourceRow": 136,
+      "scientificName": "Catalpa speciosa",
+      "category": "catalpa speciosa",
+      "points": 256.0,
+      "highestPoints": 333.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1869",
+      "sourceRow": 137,
+      "scientificName": "Quercus alba",
+      "category": "quercus alba",
+      "points": 358.0,
+      "highestPoints": 395.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1874",
+      "sourceRow": 138,
+      "scientificName": "Salix alba",
+      "category": "salix alba",
+      "points": 340.0,
+      "highestPoints": 340.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "1876",
+      "sourceRow": 139,
+      "scientificName": "Ulmus parvifolia",
+      "category": "ulmus parvifolia",
+      "points": 196.0,
+      "highestPoints": 203.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1877",
+      "sourceRow": 140,
+      "scientificName": "Ulmus parvifolia",
+      "category": "ulmus parvifolia",
+      "points": 185.0,
+      "highestPoints": 203.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1878",
+      "sourceRow": 141,
+      "scientificName": "Ginkgo biloba",
+      "category": "ginkgo biloba",
+      "points": 186.0,
+      "highestPoints": 268.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1896",
+      "sourceRow": 142,
+      "scientificName": "Rhus typhina",
+      "category": "rhus typhina",
+      "points": 47.0,
+      "highestPoints": 81.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1898",
+      "sourceRow": 143,
+      "scientificName": "Betula papyrifera",
+      "category": "betula papyrifera",
+      "points": 185.0,
+      "highestPoints": 200.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1899",
+      "sourceRow": 144,
+      "scientificName": "Tilia americana",
+      "category": "tilia americana",
+      "points": 224.0,
+      "highestPoints": 338.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1902",
+      "sourceRow": 145,
+      "scientificName": "Salix alba var. vitenella cv. pendula",
+      "category": "salix alba var. vitenella cv. pendula",
+      "points": 430.0,
+      "highestPoints": 430.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "1910",
+      "sourceRow": 146,
+      "scientificName": "Abies concolor",
+      "category": "abies concolor",
+      "points": 201.0,
+      "highestPoints": 229.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1912",
+      "sourceRow": 147,
+      "scientificName": "Acer negundo",
+      "category": "acer negundo",
+      "points": 203.0,
+      "highestPoints": 248.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1915",
+      "sourceRow": 148,
+      "scientificName": "Acer rubrum",
+      "category": "acer rubrum",
+      "points": 239.0,
+      "highestPoints": 345.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1916",
+      "sourceRow": 149,
+      "scientificName": "Acer rubrum",
+      "category": "acer rubrum",
+      "points": 345.0,
+      "highestPoints": 345.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "1917",
+      "sourceRow": 150,
+      "scientificName": "Acer saccharinum",
+      "category": "acer saccharinum",
+      "points": 334.0,
+      "highestPoints": 411.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1924",
+      "sourceRow": 151,
+      "scientificName": "Acer saccharum",
+      "category": "acer saccharum",
+      "points": 322.0,
+      "highestPoints": 341.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1925",
+      "sourceRow": 152,
+      "scientificName": "Acer nigrum",
+      "category": "acer nigrum",
+      "points": 291.0,
+      "highestPoints": 291.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "1927",
+      "sourceRow": 153,
+      "scientificName": "Aesculus hippocastanum",
+      "category": "aesculus hippocastanum",
+      "points": 210.0,
+      "highestPoints": 237.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1928",
+      "sourceRow": 154,
+      "scientificName": "Aesculus hippocastanum",
+      "category": "aesculus hippocastanum",
+      "points": 231.0,
+      "highestPoints": 237.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1930",
+      "sourceRow": 155,
+      "scientificName": "Amelanchier arborea",
+      "category": "amelanchier arborea",
+      "points": 109.0,
+      "highestPoints": 147.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1931",
+      "sourceRow": 156,
+      "scientificName": "Acer palmatum",
+      "category": "acer palmatum",
+      "points": 106.0,
+      "highestPoints": 110.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1932",
+      "sourceRow": 157,
+      "scientificName": "Betula alleghaniensis",
+      "category": "betula alleghaniensis",
+      "points": 224.0,
+      "highestPoints": 265.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1933",
+      "sourceRow": 158,
+      "scientificName": "Betula alleghaniensis",
+      "category": "betula alleghaniensis",
+      "points": 259.0,
+      "highestPoints": 265.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1935",
+      "sourceRow": 159,
+      "scientificName": "Carya cordiformis",
+      "category": "carya cordiformis",
+      "points": 270.0,
+      "highestPoints": 293.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1936",
+      "sourceRow": 160,
+      "scientificName": "Carya cordiformis",
+      "category": "carya cordiformis",
+      "points": 275.0,
+      "highestPoints": 293.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1937",
+      "sourceRow": 161,
+      "scientificName": "Carya cordiformis",
+      "category": "carya cordiformis",
+      "points": 289.0,
+      "highestPoints": 293.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1938",
+      "sourceRow": 162,
+      "scientificName": "Carya cordiformis",
+      "category": "carya cordiformis",
+      "points": 293.0,
+      "highestPoints": 293.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "1940",
+      "sourceRow": 163,
+      "scientificName": "Carya laciniosa",
+      "category": "carya laciniosa",
+      "points": 243.0,
+      "highestPoints": 243.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "1941",
+      "sourceRow": 164,
+      "scientificName": "Carya laciniosa",
+      "category": "carya laciniosa",
+      "points": 229.0,
+      "highestPoints": 243.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1942",
+      "sourceRow": 165,
+      "scientificName": "Castanea dentata",
+      "category": "castanea dentata",
+      "points": 328.0,
+      "highestPoints": 328.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "1943",
+      "sourceRow": 166,
+      "scientificName": "Castanea dentata",
+      "category": "castanea dentata",
+      "points": 221.0,
+      "highestPoints": 328.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1947",
+      "sourceRow": 167,
+      "scientificName": "Celtis occidentalis",
+      "category": "celtis occidentalis",
+      "points": 292.0,
+      "highestPoints": 310.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1949",
+      "sourceRow": 168,
+      "scientificName": "Celtis occidentalis",
+      "category": "celtis occidentalis",
+      "points": 260.0,
+      "highestPoints": 310.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1954",
+      "sourceRow": 169,
+      "scientificName": "Fagus sylvatica",
+      "category": "fagus sylvatica",
+      "points": 217.0,
+      "highestPoints": 277.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1955",
+      "sourceRow": 170,
+      "scientificName": "Fagus sylvatica",
+      "category": "fagus sylvatica",
+      "points": 276.0,
+      "highestPoints": 277.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1956",
+      "sourceRow": 171,
+      "scientificName": "Fagus grandifolia",
+      "category": "fagus grandifolia",
+      "points": 278.0,
+      "highestPoints": 305.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1958",
+      "sourceRow": 172,
+      "scientificName": "Fraxinus nigra",
+      "category": "fraxinus nigra",
+      "points": 274.0,
+      "highestPoints": 274.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "1959",
+      "sourceRow": 173,
+      "scientificName": "Fraxinus nigra",
+      "category": "fraxinus nigra",
+      "points": 229.0,
+      "highestPoints": 274.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1960",
+      "sourceRow": 174,
+      "scientificName": "Ginkgo biloba",
+      "category": "ginkgo biloba",
+      "points": 261.0,
+      "highestPoints": 268.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1961",
+      "sourceRow": 175,
+      "scientificName": "Gleditsia triacanthos",
+      "category": "gleditsia triacanthos",
+      "points": 281.0,
+      "highestPoints": 316.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1964",
+      "sourceRow": 176,
+      "scientificName": "Juglans nigra",
+      "category": "juglans nigra",
+      "points": 383.0,
+      "highestPoints": 383.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "1965",
+      "sourceRow": 177,
+      "scientificName": "Acer saccharinum",
+      "category": "acer saccharinum",
+      "points": 349.0,
+      "highestPoints": 411.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1968",
+      "sourceRow": 178,
+      "scientificName": "Juniperus virginiana",
+      "category": "juniperus virginiana",
+      "points": 158.0,
+      "highestPoints": 203.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1970",
+      "sourceRow": 179,
+      "scientificName": "Larix decidua",
+      "category": "larix decidua",
+      "points": 186.0,
+      "highestPoints": 239.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1971",
+      "sourceRow": 180,
+      "scientificName": "Larix decidua",
+      "category": "larix decidua",
+      "points": 175.0,
+      "highestPoints": 239.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1972",
+      "sourceRow": 181,
+      "scientificName": "Larix decidua",
+      "category": "larix decidua",
+      "points": 182.0,
+      "highestPoints": 239.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1973",
+      "sourceRow": 182,
+      "scientificName": "Liquidambar styraciflua",
+      "category": "liquidambar styraciflua",
+      "points": 191.0,
+      "highestPoints": 209.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1974",
+      "sourceRow": 183,
+      "scientificName": "Liriodendron tulipifera",
+      "category": "liriodendron tulipifera",
+      "points": 321.0,
+      "highestPoints": 368.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1975",
+      "sourceRow": 184,
+      "scientificName": "Liriodendron tulipifera",
+      "category": "liriodendron tulipifera",
+      "points": 368.0,
+      "highestPoints": 368.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "1979",
+      "sourceRow": 185,
+      "scientificName": "Picea glauca",
+      "category": "picea glauca",
+      "points": 222.0,
+      "highestPoints": 227.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1980",
+      "sourceRow": 186,
+      "scientificName": "Picea glauca",
+      "category": "picea glauca",
+      "points": 227.0,
+      "highestPoints": 227.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "1981",
+      "sourceRow": 187,
+      "scientificName": "Picea pungens",
+      "category": "picea pungens",
+      "points": 178.0,
+      "highestPoints": 178.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "1982",
+      "sourceRow": 188,
+      "scientificName": "Picea abies",
+      "category": "picea abies",
+      "points": 263.0,
+      "highestPoints": 297.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1983",
+      "sourceRow": 189,
+      "scientificName": "Picea glauca",
+      "category": "picea glauca",
+      "points": 212.0,
+      "highestPoints": 227.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1985",
+      "sourceRow": 190,
+      "scientificName": "Pinus strobus",
+      "category": "pinus strobus",
+      "points": 322.0,
+      "highestPoints": 357.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1986",
+      "sourceRow": 191,
+      "scientificName": "Pinus sylvestris",
+      "category": "pinus sylvestris",
+      "points": 166.0,
+      "highestPoints": 182.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1989",
+      "sourceRow": 192,
+      "scientificName": "Platanus occidentalis",
+      "category": "platanus occidentalis",
+      "points": 376.0,
+      "highestPoints": 456.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1990",
+      "sourceRow": 193,
+      "scientificName": "Platanus occidentalis",
+      "category": "platanus occidentalis",
+      "points": 383.0,
+      "highestPoints": 456.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1992",
+      "sourceRow": 194,
+      "scientificName": "Platanus occidentalis",
+      "category": "platanus occidentalis",
+      "points": 428.0,
+      "highestPoints": 456.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1993",
+      "sourceRow": 195,
+      "scientificName": "Platanus occidentalis",
+      "category": "platanus occidentalis",
+      "points": 456.0,
+      "highestPoints": 456.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "1994",
+      "sourceRow": 196,
+      "scientificName": "Catalpa speciosa",
+      "category": "catalpa speciosa",
+      "points": 302.0,
+      "highestPoints": 333.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "1996",
+      "sourceRow": 197,
+      "scientificName": "Populus heterophylla",
+      "category": "populus heterophylla",
+      "points": 198.0,
+      "highestPoints": 198.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2000",
+      "sourceRow": 198,
+      "scientificName": "Populus nigra",
+      "category": "populus nigra",
+      "points": 152.0,
+      "highestPoints": 177.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2002",
+      "sourceRow": 199,
+      "scientificName": "Populus nigra",
+      "category": "populus nigra",
+      "points": 177.0,
+      "highestPoints": 177.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2003",
+      "sourceRow": 200,
+      "scientificName": "Populus nigra",
+      "category": "populus nigra",
+      "points": 176.0,
+      "highestPoints": 177.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2004",
+      "sourceRow": 201,
+      "scientificName": "Populus tremuloides",
+      "category": "populus tremuloides",
+      "points": 214.0,
+      "highestPoints": 247.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2005",
+      "sourceRow": 202,
+      "scientificName": "Populus deltoides",
+      "category": "populus deltoides",
+      "points": 403.0,
+      "highestPoints": 463.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2008",
+      "sourceRow": 203,
+      "scientificName": "Prunus serotina",
+      "category": "prunus serotina",
+      "points": 252.0,
+      "highestPoints": 293.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2010",
+      "sourceRow": 204,
+      "scientificName": "Prunus serotina",
+      "category": "prunus serotina",
+      "points": 277.0,
+      "highestPoints": 293.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2014",
+      "sourceRow": 205,
+      "scientificName": "Quercus velutina",
+      "category": "quercus velutina",
+      "points": 321.0,
+      "highestPoints": 378.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2017",
+      "sourceRow": 206,
+      "scientificName": "Quercus velutina",
+      "category": "quercus velutina",
+      "points": 307.0,
+      "highestPoints": 378.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2018",
+      "sourceRow": 207,
+      "scientificName": "Quercus alba",
+      "category": "quercus alba",
+      "points": 333.0,
+      "highestPoints": 395.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2024",
+      "sourceRow": 208,
+      "scientificName": "Quercus rubra",
+      "category": "quercus rubra",
+      "points": 349.0,
+      "highestPoints": 406.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2030",
+      "sourceRow": 209,
+      "scientificName": "Quercus alba",
+      "category": "quercus alba",
+      "points": 395.0,
+      "highestPoints": 395.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2031",
+      "sourceRow": 210,
+      "scientificName": "Prunus serotina",
+      "category": "prunus serotina",
+      "points": 278.0,
+      "highestPoints": 293.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2033",
+      "sourceRow": 211,
+      "scientificName": "Quercus macrocarpa",
+      "category": "quercus macrocarpa",
+      "points": 405.0,
+      "highestPoints": 448.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2036",
+      "sourceRow": 212,
+      "scientificName": "Quercus rubra",
+      "category": "quercus rubra",
+      "points": 374.0,
+      "highestPoints": 406.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2037",
+      "sourceRow": 213,
+      "scientificName": "Quercus muehlenbergii",
+      "category": "quercus muehlenbergii",
+      "points": 349.0,
+      "highestPoints": 367.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2038",
+      "sourceRow": 214,
+      "scientificName": "Quercus palustris",
+      "category": "quercus palustris",
+      "points": 263.0,
+      "highestPoints": 304.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2039",
+      "sourceRow": 215,
+      "scientificName": "Quercus muehlenbergii",
+      "category": "quercus muehlenbergii",
+      "points": 282.0,
+      "highestPoints": 367.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2048",
+      "sourceRow": 216,
+      "scientificName": "Quercus macrocarpa",
+      "category": "quercus macrocarpa",
+      "points": 439.0,
+      "highestPoints": 448.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2049",
+      "sourceRow": 217,
+      "scientificName": "Quercus macrocarpa",
+      "category": "quercus macrocarpa",
+      "points": 361.0,
+      "highestPoints": 448.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2050",
+      "sourceRow": 218,
+      "scientificName": "Quercus coccinea",
+      "category": "quercus coccinea",
+      "points": 161.0,
+      "highestPoints": 307.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2052",
+      "sourceRow": 219,
+      "scientificName": "Quercus bicolor",
+      "category": "quercus bicolor",
+      "points": 314.0,
+      "highestPoints": 325.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2053",
+      "sourceRow": 220,
+      "scientificName": "Robinia pseudoacacia",
+      "category": "robinia pseudoacacia",
+      "points": 273.0,
+      "highestPoints": 292.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2056",
+      "sourceRow": 221,
+      "scientificName": "Rhus typhina",
+      "category": "rhus typhina",
+      "points": 49.0,
+      "highestPoints": 81.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2059",
+      "sourceRow": 222,
+      "scientificName": "Sassafras albidum",
+      "category": "sassafras albidum",
+      "points": 263.0,
+      "highestPoints": 296.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2061",
+      "sourceRow": 223,
+      "scientificName": "Tilia americana",
+      "category": "tilia americana",
+      "points": 311.0,
+      "highestPoints": 338.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2062",
+      "sourceRow": 224,
+      "scientificName": "Tilia americana",
+      "category": "tilia americana",
+      "points": 291.0,
+      "highestPoints": 338.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2063",
+      "sourceRow": 225,
+      "scientificName": "Tsuga canadensis",
+      "category": "tsuga canadensis",
+      "points": 240.0,
+      "highestPoints": 265.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2064",
+      "sourceRow": 226,
+      "scientificName": "Tsuga canadensis",
+      "category": "tsuga canadensis",
+      "points": 265.0,
+      "highestPoints": 265.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2065",
+      "sourceRow": 227,
+      "scientificName": "Ulmus americana",
+      "category": "ulmus americana",
+      "points": 313.0,
+      "highestPoints": 415.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2066",
+      "sourceRow": 228,
+      "scientificName": "Ulmus x vegeta",
+      "category": "ulmus x vegeta",
+      "points": 177.0,
+      "highestPoints": 228.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2070",
+      "sourceRow": 229,
+      "scientificName": "Ulmus americana",
+      "category": "ulmus americana",
+      "points": 336.0,
+      "highestPoints": 415.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2071",
+      "sourceRow": 230,
+      "scientificName": "Ulmus x vegeta",
+      "category": "ulmus x vegeta",
+      "points": 138.0,
+      "highestPoints": 228.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2072",
+      "sourceRow": 231,
+      "scientificName": "Ulmus x vegeta",
+      "category": "ulmus x vegeta",
+      "points": 152.0,
+      "highestPoints": 228.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2074",
+      "sourceRow": 232,
+      "scientificName": "Alnus glutinosa",
+      "category": "alnus glutinosa",
+      "points": 76.0,
+      "highestPoints": 201.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2075",
+      "sourceRow": 233,
+      "scientificName": "Alnus glutinosa",
+      "category": "alnus glutinosa",
+      "points": 126.0,
+      "highestPoints": 201.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2076",
+      "sourceRow": 234,
+      "scientificName": "Alnus glutinosa",
+      "category": "alnus glutinosa",
+      "points": 65.0,
+      "highestPoints": 201.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2077",
+      "sourceRow": 235,
+      "scientificName": "Alnus glutinosa",
+      "category": "alnus glutinosa",
+      "points": 119.0,
+      "highestPoints": 201.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2079",
+      "sourceRow": 236,
+      "scientificName": "Quercus coccinea",
+      "category": "quercus coccinea",
+      "points": 205.0,
+      "highestPoints": 307.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2080",
+      "sourceRow": 237,
+      "scientificName": "Thuja occidentalis",
+      "category": "thuja occidentalis",
+      "points": 234.0,
+      "highestPoints": 258.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2081",
+      "sourceRow": 238,
+      "scientificName": "Liquidambar styraciflua",
+      "category": "liquidambar styraciflua",
+      "points": 182.0,
+      "highestPoints": 209.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2082",
+      "sourceRow": 239,
+      "scientificName": "Alnus glutinosa",
+      "category": "alnus glutinosa",
+      "points": 116.0,
+      "highestPoints": 201.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2089",
+      "sourceRow": 240,
+      "scientificName": "Carya laciniosa",
+      "category": "carya laciniosa",
+      "points": 212.0,
+      "highestPoints": 243.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2092",
+      "sourceRow": 241,
+      "scientificName": "Quercus alba",
+      "category": "quercus alba",
+      "points": 353.0,
+      "highestPoints": 395.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2094",
+      "sourceRow": 242,
+      "scientificName": "Celtis occidentalis",
+      "category": "celtis occidentalis",
+      "points": 279.0,
+      "highestPoints": 310.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2095",
+      "sourceRow": 243,
+      "scientificName": "Juglans nigra",
+      "category": "juglans nigra",
+      "points": 303.0,
+      "highestPoints": 383.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2097",
+      "sourceRow": 244,
+      "scientificName": "Liriodendron tulipifera",
+      "category": "liriodendron tulipifera",
+      "points": 339.0,
+      "highestPoints": 368.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2098",
+      "sourceRow": 245,
+      "scientificName": "Ulmus pumila",
+      "category": "ulmus pumila",
+      "points": 290.0,
+      "highestPoints": 361.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2099",
+      "sourceRow": 246,
+      "scientificName": "Platanus x acerifolia",
+      "category": "platanus x acerifolia",
+      "points": 350.0,
+      "highestPoints": 350.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2100",
+      "sourceRow": 247,
+      "scientificName": "Quercus rubra",
+      "category": "quercus rubra",
+      "points": 370.0,
+      "highestPoints": 406.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2101",
+      "sourceRow": 248,
+      "scientificName": "Aesculus hippocastanum",
+      "category": "aesculus hippocastanum",
+      "points": 237.0,
+      "highestPoints": 237.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2102",
+      "sourceRow": 249,
+      "scientificName": "Magnolia acuminata",
+      "category": "magnolia acuminata",
+      "points": 232.0,
+      "highestPoints": 286.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2105",
+      "sourceRow": 250,
+      "scientificName": "Quercus rubra",
+      "category": "quercus rubra",
+      "points": 359.0,
+      "highestPoints": 406.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2106",
+      "sourceRow": 251,
+      "scientificName": "Larix laricina",
+      "category": "larix laricina",
+      "points": 197.0,
+      "highestPoints": 197.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2107",
+      "sourceRow": 252,
+      "scientificName": "Catalpa speciosa",
+      "category": "catalpa speciosa",
+      "points": 319.0,
+      "highestPoints": 333.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2108",
+      "sourceRow": 253,
+      "scientificName": "Populus alba",
+      "category": "populus alba",
+      "points": 252.0,
+      "highestPoints": 252.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2110",
+      "sourceRow": 254,
+      "scientificName": "Juglans nigra",
+      "category": "juglans nigra",
+      "points": 326.0,
+      "highestPoints": 383.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2116",
+      "sourceRow": 255,
+      "scientificName": "Carya glabra",
+      "category": "carya glabra",
+      "points": 275.0,
+      "highestPoints": 314.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2117",
+      "sourceRow": 256,
+      "scientificName": "Larix decidua",
+      "category": "larix decidua",
+      "points": 239.0,
+      "highestPoints": 239.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2119",
+      "sourceRow": 257,
+      "scientificName": "Juglans nigra",
+      "category": "juglans nigra",
+      "points": 304.0,
+      "highestPoints": 383.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2121",
+      "sourceRow": 258,
+      "scientificName": "Carya glabra",
+      "category": "carya glabra",
+      "points": 279.0,
+      "highestPoints": 314.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2122",
+      "sourceRow": 259,
+      "scientificName": "Magnolia acuminata",
+      "category": "magnolia acuminata",
+      "points": 242.0,
+      "highestPoints": 286.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2124",
+      "sourceRow": 260,
+      "scientificName": "Carya glabra",
+      "category": "carya glabra",
+      "points": 314.0,
+      "highestPoints": 314.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2128",
+      "sourceRow": 261,
+      "scientificName": "Metasequoia glyptostroboides",
+      "category": "metasequoia glyptostroboides",
+      "points": 239.0,
+      "highestPoints": 287.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2129",
+      "sourceRow": 262,
+      "scientificName": "Diospyros virginiana",
+      "category": "diospyros virginiana",
+      "points": 165.0,
+      "highestPoints": 165.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2131",
+      "sourceRow": 263,
+      "scientificName": "Alnus glutinosa",
+      "category": "alnus glutinosa",
+      "points": 131.0,
+      "highestPoints": 201.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2132",
+      "sourceRow": 264,
+      "scientificName": "Pinus nigra",
+      "category": "pinus nigra",
+      "points": 183.0,
+      "highestPoints": 222.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2135",
+      "sourceRow": 265,
+      "scientificName": "Acer saccharinum",
+      "category": "acer saccharinum",
+      "points": 354.0,
+      "highestPoints": 411.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2137",
+      "sourceRow": 266,
+      "scientificName": "Nyssa sylvatica",
+      "category": "nyssa sylvatica",
+      "points": 184.0,
+      "highestPoints": 228.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2140",
+      "sourceRow": 267,
+      "scientificName": "Fagus sylvatica",
+      "category": "fagus sylvatica",
+      "points": 277.0,
+      "highestPoints": 277.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2141",
+      "sourceRow": 268,
+      "scientificName": "Acer rubrum",
+      "category": "acer rubrum",
+      "points": 319.0,
+      "highestPoints": 345.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2142",
+      "sourceRow": 269,
+      "scientificName": "Aesculus hippocastanum",
+      "category": "aesculus hippocastanum",
+      "points": 224.0,
+      "highestPoints": 237.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2143",
+      "sourceRow": 270,
+      "scientificName": "Catalpa speciosa",
+      "category": "catalpa speciosa",
+      "points": 333.0,
+      "highestPoints": 333.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2147",
+      "sourceRow": 271,
+      "scientificName": "Fraxinus americana",
+      "category": "fraxinus americana",
+      "points": 222.0,
+      "highestPoints": 386.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2148",
+      "sourceRow": 272,
+      "scientificName": "Fraxinus americana",
+      "category": "fraxinus americana",
+      "points": 263.0,
+      "highestPoints": 386.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2150",
+      "sourceRow": 273,
+      "scientificName": "Fraxinus americana",
+      "category": "fraxinus americana",
+      "points": 283.0,
+      "highestPoints": 386.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2159",
+      "sourceRow": 274,
+      "scientificName": "Tsuga canadensis",
+      "category": "tsuga canadensis",
+      "points": 252.0,
+      "highestPoints": 265.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2160",
+      "sourceRow": 275,
+      "scientificName": "Cornus florida",
+      "category": "cornus florida",
+      "points": 69.0,
+      "highestPoints": 69.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2163",
+      "sourceRow": 276,
+      "scientificName": "Ulmus x vegeta",
+      "category": "ulmus x vegeta",
+      "points": 163.0,
+      "highestPoints": 228.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2164",
+      "sourceRow": 277,
+      "scientificName": "Ulmus x vegeta",
+      "category": "ulmus x vegeta",
+      "points": 151.0,
+      "highestPoints": 228.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2165",
+      "sourceRow": 278,
+      "scientificName": "Ginkgo biloba",
+      "category": "ginkgo biloba",
+      "points": 228.0,
+      "highestPoints": 268.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2166",
+      "sourceRow": 279,
+      "scientificName": "Taxodium distichum",
+      "category": "taxodium distichum",
+      "points": 238.0,
+      "highestPoints": 253.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2168",
+      "sourceRow": 280,
+      "scientificName": "Acer saccharum",
+      "category": "acer saccharum",
+      "points": 314.0,
+      "highestPoints": 341.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2169",
+      "sourceRow": 281,
+      "scientificName": "Carya cordiformis",
+      "category": "carya cordiformis",
+      "points": 236.0,
+      "highestPoints": 293.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2171",
+      "sourceRow": 282,
+      "scientificName": "Ulmus rubra",
+      "category": "ulmus rubra",
+      "points": 296.0,
+      "highestPoints": 296.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2172",
+      "sourceRow": 283,
+      "scientificName": "Gymnocladus dioicus",
+      "category": "gymnocladus dioicus",
+      "points": 210.0,
+      "highestPoints": 236.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2174",
+      "sourceRow": 284,
+      "scientificName": "Acer platanoides",
+      "category": "acer platanoides",
+      "points": 220.0,
+      "highestPoints": 270.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2180",
+      "sourceRow": 285,
+      "scientificName": "Larix laricina",
+      "category": "larix laricina",
+      "points": 130.0,
+      "highestPoints": 197.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2181",
+      "sourceRow": 286,
+      "scientificName": "Juniperus virginiana",
+      "category": "juniperus virginiana",
+      "points": 163.0,
+      "highestPoints": 203.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2182",
+      "sourceRow": 287,
+      "scientificName": "Pinus nigra",
+      "category": "pinus nigra",
+      "points": 204.0,
+      "highestPoints": 222.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2188",
+      "sourceRow": 288,
+      "scientificName": "Liriodendron tulipifera",
+      "category": "liriodendron tulipifera",
+      "points": 292.0,
+      "highestPoints": 368.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2192",
+      "sourceRow": 289,
+      "scientificName": "Acer rubrum",
+      "category": "acer rubrum",
+      "points": 296.0,
+      "highestPoints": 345.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2193",
+      "sourceRow": 290,
+      "scientificName": "Quercus velutina",
+      "category": "quercus velutina",
+      "points": 312.0,
+      "highestPoints": 378.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2194",
+      "sourceRow": 291,
+      "scientificName": "Pinus nigra",
+      "category": "pinus nigra",
+      "points": 170.0,
+      "highestPoints": 222.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2199",
+      "sourceRow": 292,
+      "scientificName": "Pinus nigra",
+      "category": "pinus nigra",
+      "points": 191.0,
+      "highestPoints": 222.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2200",
+      "sourceRow": 293,
+      "scientificName": "Prunus serotina",
+      "category": "prunus serotina",
+      "points": 293.0,
+      "highestPoints": 293.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2201",
+      "sourceRow": 294,
+      "scientificName": "Prunus serotina",
+      "category": "prunus serotina",
+      "points": 278.0,
+      "highestPoints": 293.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2203",
+      "sourceRow": 295,
+      "scientificName": "Ulmus americana",
+      "category": "ulmus americana",
+      "points": 309.0,
+      "highestPoints": 415.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2204",
+      "sourceRow": 296,
+      "scientificName": "Liriodendron tulipifera",
+      "category": "liriodendron tulipifera",
+      "points": 308.0,
+      "highestPoints": 368.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2207",
+      "sourceRow": 297,
+      "scientificName": "Tsuga canadensis",
+      "category": "tsuga canadensis",
+      "points": 245.0,
+      "highestPoints": 265.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2209",
+      "sourceRow": 298,
+      "scientificName": "Fagus grandifolia",
+      "category": "fagus grandifolia",
+      "points": 279.0,
+      "highestPoints": 305.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2210",
+      "sourceRow": 299,
+      "scientificName": "Acer saccharum",
+      "category": "acer saccharum",
+      "points": 329.0,
+      "highestPoints": 341.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2211",
+      "sourceRow": 300,
+      "scientificName": "Liriodendron tulipifera",
+      "category": "liriodendron tulipifera",
+      "points": 322.0,
+      "highestPoints": 368.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2213",
+      "sourceRow": 301,
+      "scientificName": "Ulmus pumila",
+      "category": "ulmus pumila",
+      "points": 304.0,
+      "highestPoints": 361.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2215",
+      "sourceRow": 302,
+      "scientificName": "Ginkgo biloba",
+      "category": "ginkgo biloba",
+      "points": 211.0,
+      "highestPoints": 268.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2216",
+      "sourceRow": 303,
+      "scientificName": "Juglans nigra",
+      "category": "juglans nigra",
+      "points": 312.0,
+      "highestPoints": 383.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2217",
+      "sourceRow": 304,
+      "scientificName": "Gymnocladus dioicus",
+      "category": "gymnocladus dioicus",
+      "points": 236.0,
+      "highestPoints": 236.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2218",
+      "sourceRow": 305,
+      "scientificName": "Quercus palustris",
+      "category": "quercus palustris",
+      "points": 231.0,
+      "highestPoints": 304.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2219",
+      "sourceRow": 306,
+      "scientificName": "Quercus macrocarpa",
+      "category": "quercus macrocarpa",
+      "points": 422.0,
+      "highestPoints": 448.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2221",
+      "sourceRow": 307,
+      "scientificName": "Thuja occidentalis",
+      "category": "thuja occidentalis",
+      "points": 204.0,
+      "highestPoints": 258.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2223",
+      "sourceRow": 308,
+      "scientificName": "Juniperus virginiana",
+      "category": "juniperus virginiana",
+      "points": 181.0,
+      "highestPoints": 203.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2224",
+      "sourceRow": 309,
+      "scientificName": "Quercus bicolor",
+      "category": "quercus bicolor",
+      "points": 310.0,
+      "highestPoints": 325.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2225",
+      "sourceRow": 310,
+      "scientificName": "Metasequoia glyptostroboides",
+      "category": "metasequoia glyptostroboides",
+      "points": 242.0,
+      "highestPoints": 287.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2226",
+      "sourceRow": 311,
+      "scientificName": "Liquidambar styraciflua",
+      "category": "liquidambar styraciflua",
+      "points": 171.0,
+      "highestPoints": 209.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2227",
+      "sourceRow": 312,
+      "scientificName": "Quercus bicolor",
+      "category": "quercus bicolor",
+      "points": 315.0,
+      "highestPoints": 325.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2228",
+      "sourceRow": 313,
+      "scientificName": "Catalpa bignonioides",
+      "category": "catalpa bignonioides",
+      "points": 257.0,
+      "highestPoints": 334.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2229",
+      "sourceRow": 314,
+      "scientificName": "Quercus muehlenbergii",
+      "category": "quercus muehlenbergii",
+      "points": 346.0,
+      "highestPoints": 367.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2231",
+      "sourceRow": 315,
+      "scientificName": "Robinia pseudoacacia",
+      "category": "robinia pseudoacacia",
+      "points": 292.0,
+      "highestPoints": 292.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2232",
+      "sourceRow": 316,
+      "scientificName": "Ulmus americana",
+      "category": "ulmus americana",
+      "points": 325.0,
+      "highestPoints": 415.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2233",
+      "sourceRow": 317,
+      "scientificName": "Taxodium distichum",
+      "category": "taxodium distichum",
+      "points": 199.0,
+      "highestPoints": 253.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2234",
+      "sourceRow": 318,
+      "scientificName": "Picea abies",
+      "category": "picea abies",
+      "points": 272.0,
+      "highestPoints": 297.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2235",
+      "sourceRow": 319,
+      "scientificName": "Betula nigra",
+      "category": "betula nigra",
+      "points": 205.0,
+      "highestPoints": 205.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2237",
+      "sourceRow": 320,
+      "scientificName": "Taxodium distichum",
+      "category": "taxodium distichum",
+      "points": 212.0,
+      "highestPoints": 253.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2241",
+      "sourceRow": 321,
+      "scientificName": "Pseudotsuga menziesii",
+      "category": "pseudotsuga menziesii",
+      "points": 143.0,
+      "highestPoints": 201.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2243",
+      "sourceRow": 322,
+      "scientificName": "Ulmus americana",
+      "category": "ulmus americana",
+      "points": 394.0,
+      "highestPoints": 415.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2244",
+      "sourceRow": 323,
+      "scientificName": "Fraxinus quadrangulata",
+      "category": "fraxinus quadrangulata",
+      "points": 127.0,
+      "highestPoints": 203.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2245",
+      "sourceRow": 324,
+      "scientificName": "Quercus rubra",
+      "category": "quercus rubra",
+      "points": 387.0,
+      "highestPoints": 406.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2246",
+      "sourceRow": 325,
+      "scientificName": "Thuja occidentalis",
+      "category": "thuja occidentalis",
+      "points": 183.0,
+      "highestPoints": 258.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2247",
+      "sourceRow": 326,
+      "scientificName": "Thuja occidentalis",
+      "category": "thuja occidentalis",
+      "points": 184.0,
+      "highestPoints": 258.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2248",
+      "sourceRow": 327,
+      "scientificName": "Metasequoia glyptostroboides",
+      "category": "metasequoia glyptostroboides",
+      "points": 226.0,
+      "highestPoints": 287.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2250",
+      "sourceRow": 328,
+      "scientificName": "Acer saccharinum",
+      "category": "acer saccharinum",
+      "points": 338.0,
+      "highestPoints": 411.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2254",
+      "sourceRow": 329,
+      "scientificName": "Syringa vulgaris",
+      "category": "syringa vulgaris",
+      "points": 105.0,
+      "highestPoints": 105.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2255",
+      "sourceRow": 330,
+      "scientificName": "Juniperus virginiana",
+      "category": "juniperus virginiana",
+      "points": 190.0,
+      "highestPoints": 203.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2256",
+      "sourceRow": 331,
+      "scientificName": "Sassafras albidum",
+      "category": "sassafras albidum",
+      "points": 228.0,
+      "highestPoints": 296.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2258",
+      "sourceRow": 332,
+      "scientificName": "Carya laciniosa",
+      "category": "carya laciniosa",
+      "points": 205.0,
+      "highestPoints": 243.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2259",
+      "sourceRow": 333,
+      "scientificName": "Ostrya virginiana",
+      "category": "ostrya virginiana",
+      "points": 199.0,
+      "highestPoints": 199.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2260",
+      "sourceRow": 334,
+      "scientificName": "Fagus grandifolia",
+      "category": "fagus grandifolia",
+      "points": 305.0,
+      "highestPoints": 305.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2261",
+      "sourceRow": 335,
+      "scientificName": "Cornus florida",
+      "category": "cornus florida",
+      "points": 50.0,
+      "highestPoints": 69.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2262",
+      "sourceRow": 336,
+      "scientificName": "Carpinus caroliniana",
+      "category": "carpinus caroliniana",
+      "points": 49.0,
+      "highestPoints": 105.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2263",
+      "sourceRow": 337,
+      "scientificName": "Acer nigrum",
+      "category": "acer nigrum",
+      "points": 214.0,
+      "highestPoints": 291.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2264",
+      "sourceRow": 338,
+      "scientificName": "Morus alba",
+      "category": "morus alba",
+      "points": 223.0,
+      "highestPoints": 223.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2265",
+      "sourceRow": 339,
+      "scientificName": "Ginkgo biloba",
+      "category": "ginkgo biloba",
+      "points": 231.0,
+      "highestPoints": 268.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2266",
+      "sourceRow": 340,
+      "scientificName": "Acer nigrum",
+      "category": "acer nigrum",
+      "points": 223.0,
+      "highestPoints": 291.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2267",
+      "sourceRow": 341,
+      "scientificName": "Celtis occidentalis",
+      "category": "celtis occidentalis",
+      "points": 267.0,
+      "highestPoints": 310.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2268",
+      "sourceRow": 342,
+      "scientificName": "Quercus bicolor",
+      "category": "quercus bicolor",
+      "points": 298.0,
+      "highestPoints": 325.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2269",
+      "sourceRow": 343,
+      "scientificName": "Celtis occidentalis",
+      "category": "celtis occidentalis",
+      "points": 296.0,
+      "highestPoints": 310.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2270",
+      "sourceRow": 344,
+      "scientificName": "Fagus grandifolia",
+      "category": "fagus grandifolia",
+      "points": 273.0,
+      "highestPoints": 305.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2271",
+      "sourceRow": 345,
+      "scientificName": "Acer rubrum",
+      "category": "acer rubrum",
+      "points": 309.0,
+      "highestPoints": 345.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2272",
+      "sourceRow": 346,
+      "scientificName": "Carpinus caroliniana",
+      "category": "carpinus caroliniana",
+      "points": 53.0,
+      "highestPoints": 105.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2274",
+      "sourceRow": 347,
+      "scientificName": "Carya laciniosa",
+      "category": "carya laciniosa",
+      "points": 213.0,
+      "highestPoints": 243.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2275",
+      "sourceRow": 348,
+      "scientificName": "Catalpa speciosa",
+      "category": "catalpa speciosa",
+      "points": 300.0,
+      "highestPoints": 333.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2276",
+      "sourceRow": 349,
+      "scientificName": "Sassafras albidum",
+      "category": "sassafras albidum",
+      "points": 222.0,
+      "highestPoints": 296.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2278",
+      "sourceRow": 350,
+      "scientificName": "Picea pungens",
+      "category": "picea pungens",
+      "points": 139.0,
+      "highestPoints": 178.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2279",
+      "sourceRow": 351,
+      "scientificName": "Pinus resinosa",
+      "category": "pinus resinosa",
+      "points": 210.0,
+      "highestPoints": 248.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2280",
+      "sourceRow": 352,
+      "scientificName": "Sassafras albidum",
+      "category": "sassafras albidum",
+      "points": 220.0,
+      "highestPoints": 296.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2281",
+      "sourceRow": 353,
+      "scientificName": "Carya ovata",
+      "category": "carya ovata",
+      "points": 182.0,
+      "highestPoints": 245.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2282",
+      "sourceRow": 354,
+      "scientificName": "Salix nigra",
+      "category": "salix nigra",
+      "points": 395.0,
+      "highestPoints": 398.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2284",
+      "sourceRow": 355,
+      "scientificName": "Fraxinus pennsylvanica",
+      "category": "fraxinus pennsylvanica",
+      "points": 320.0,
+      "highestPoints": 320.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2285",
+      "sourceRow": 356,
+      "scientificName": "Quercus alba",
+      "category": "quercus alba",
+      "points": 350.0,
+      "highestPoints": 395.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2286",
+      "sourceRow": 357,
+      "scientificName": "Populus tremuloides",
+      "category": "populus tremuloides",
+      "points": 247.0,
+      "highestPoints": 247.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2287",
+      "sourceRow": 358,
+      "scientificName": "Populus tremuloides",
+      "category": "populus tremuloides",
+      "points": 205.0,
+      "highestPoints": 247.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2288",
+      "sourceRow": 359,
+      "scientificName": "Fraxinus pennsylvanica",
+      "category": "fraxinus pennsylvanica",
+      "points": 192.0,
+      "highestPoints": 320.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2289",
+      "sourceRow": 360,
+      "scientificName": "Salix nigra",
+      "category": "salix nigra",
+      "points": 384.0,
+      "highestPoints": 398.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2290",
+      "sourceRow": 361,
+      "scientificName": "Fraxinus americana",
+      "category": "fraxinus americana",
+      "points": 239.0,
+      "highestPoints": 386.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2292",
+      "sourceRow": 362,
+      "scientificName": "Acer pensylvanicum",
+      "category": "acer pensylvanicum",
+      "points": 52.0,
+      "highestPoints": 52.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2297",
+      "sourceRow": 363,
+      "scientificName": "Magnolia X soulangeana",
+      "category": "magnolia x soulangeana",
+      "points": 96.0,
+      "highestPoints": 118.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2298",
+      "sourceRow": 364,
+      "scientificName": "Aesculus octcandra",
+      "category": "aesculus octcandra",
+      "points": 206.0,
+      "highestPoints": 206.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2299",
+      "sourceRow": 365,
+      "scientificName": "Carya illinoensis",
+      "category": "carya illinoensis",
+      "points": 218.0,
+      "highestPoints": 218.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2300",
+      "sourceRow": 366,
+      "scientificName": "Pinus ponderosa",
+      "category": "pinus ponderosa",
+      "points": 211.0,
+      "highestPoints": 211.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2301",
+      "sourceRow": 367,
+      "scientificName": "Taxodium distichum",
+      "category": "taxodium distichum",
+      "points": 252.0,
+      "highestPoints": 253.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2302",
+      "sourceRow": 368,
+      "scientificName": "Acer saccharinum",
+      "category": "acer saccharinum",
+      "points": 369.0,
+      "highestPoints": 411.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2305",
+      "sourceRow": 369,
+      "scientificName": "Catalpa speciosa",
+      "category": "catalpa speciosa",
+      "points": 282.0,
+      "highestPoints": 333.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2306",
+      "sourceRow": 370,
+      "scientificName": "Metasequoia glyptostroboides",
+      "category": "metasequoia glyptostroboides",
+      "points": 225.0,
+      "highestPoints": 287.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2307",
+      "sourceRow": 371,
+      "scientificName": "Ulmus rubra",
+      "category": "ulmus rubra",
+      "points": 215.0,
+      "highestPoints": 296.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2310",
+      "sourceRow": 372,
+      "scientificName": "Tsuga canadensis",
+      "category": "tsuga canadensis",
+      "points": 257.0,
+      "highestPoints": 265.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2311",
+      "sourceRow": 373,
+      "scientificName": "Ulmus parvifolia",
+      "category": "ulmus parvifolia",
+      "points": 203.0,
+      "highestPoints": 203.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2312",
+      "sourceRow": 374,
+      "scientificName": "Quercus imbricaria",
+      "category": "quercus imbricaria",
+      "points": 188.0,
+      "highestPoints": 311.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2313",
+      "sourceRow": 375,
+      "scientificName": "Thuja occidentalis",
+      "category": "thuja occidentalis",
+      "points": 249.0,
+      "highestPoints": 258.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2315",
+      "sourceRow": 376,
+      "scientificName": "Betula papyrifera",
+      "category": "betula papyrifera",
+      "points": 182.0,
+      "highestPoints": 200.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2317",
+      "sourceRow": 377,
+      "scientificName": "Alnus glutinosa",
+      "category": "alnus glutinosa",
+      "points": 142.0,
+      "highestPoints": 201.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2318",
+      "sourceRow": 378,
+      "scientificName": "Populus deltoides",
+      "category": "populus deltoides",
+      "points": 419.0,
+      "highestPoints": 463.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2319",
+      "sourceRow": 379,
+      "scientificName": "Platanus occidentalis",
+      "category": "platanus occidentalis",
+      "points": 320.0,
+      "highestPoints": 456.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2322",
+      "sourceRow": 380,
+      "scientificName": "Ostrya virginiana",
+      "category": "ostrya virginiana",
+      "points": 131.0,
+      "highestPoints": 199.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2323",
+      "sourceRow": 381,
+      "scientificName": "Aesculus octcandra",
+      "category": "aesculus octcandra",
+      "points": 198.0,
+      "highestPoints": 206.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2324",
+      "sourceRow": 382,
+      "scientificName": "Robinia pseudoacacia",
+      "category": "robinia pseudoacacia",
+      "points": 196.0,
+      "highestPoints": 292.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2325",
+      "sourceRow": 383,
+      "scientificName": "Ulmus X vegeta",
+      "category": "ulmus x vegeta",
+      "points": 151.0,
+      "highestPoints": 228.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2326",
+      "sourceRow": 384,
+      "scientificName": "Morus alba",
+      "category": "morus alba",
+      "points": 210.0,
+      "highestPoints": 223.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2330",
+      "sourceRow": 385,
+      "scientificName": "Carya illinoensis",
+      "category": "carya illinoensis",
+      "points": 187.0,
+      "highestPoints": 218.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2331",
+      "sourceRow": 386,
+      "scientificName": "Quercus alba",
+      "category": "quercus alba",
+      "points": 360.0,
+      "highestPoints": 395.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2332",
+      "sourceRow": 387,
+      "scientificName": "Catalpa speciosa",
+      "category": "catalpa speciosa",
+      "points": 287.0,
+      "highestPoints": 333.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2334",
+      "sourceRow": 388,
+      "scientificName": "Morus alba",
+      "category": "morus alba",
+      "points": 169.0,
+      "highestPoints": 223.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2335",
+      "sourceRow": 389,
+      "scientificName": "Carya ovata",
+      "category": "carya ovata",
+      "points": 189.0,
+      "highestPoints": 245.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2336",
+      "sourceRow": 390,
+      "scientificName": "Picea pungens",
+      "category": "picea pungens",
+      "points": 101.0,
+      "highestPoints": 178.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2337",
+      "sourceRow": 391,
+      "scientificName": "Carya glabra",
+      "category": "carya glabra",
+      "points": 281.0,
+      "highestPoints": 314.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2338",
+      "sourceRow": 392,
+      "scientificName": "Tsuga canadensis",
+      "category": "tsuga canadensis",
+      "points": 225.0,
+      "highestPoints": 265.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2340",
+      "sourceRow": 393,
+      "scientificName": "Acer rubrum",
+      "category": "acer rubrum",
+      "points": 242.0,
+      "highestPoints": 345.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2341",
+      "sourceRow": 394,
+      "scientificName": "Acer platanoides",
+      "category": "acer platanoides",
+      "points": 234.0,
+      "highestPoints": 270.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2347",
+      "sourceRow": 395,
+      "scientificName": "Cercis canadensis",
+      "category": "cercis canadensis",
+      "points": 126.0,
+      "highestPoints": 141.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2349",
+      "sourceRow": 396,
+      "scientificName": "Platanus occidentalis",
+      "category": "platanus occidentalis",
+      "points": 339.0,
+      "highestPoints": 456.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2351",
+      "sourceRow": 397,
+      "scientificName": "Populus deltoides",
+      "category": "populus deltoides",
+      "points": 394.0,
+      "highestPoints": 463.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2352",
+      "sourceRow": 398,
+      "scientificName": "Liriodendron tulipifera",
+      "category": "liriodendron tulipifera",
+      "points": 325.0,
+      "highestPoints": 368.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2353",
+      "sourceRow": 399,
+      "scientificName": "Carya cordiformis",
+      "category": "carya cordiformis",
+      "points": 286.0,
+      "highestPoints": 293.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2354",
+      "sourceRow": 400,
+      "scientificName": "Carya glabra",
+      "category": "carya glabra",
+      "points": 276.0,
+      "highestPoints": 314.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2355",
+      "sourceRow": 401,
+      "scientificName": "Sassafras albidum",
+      "category": "sassafras albidum",
+      "points": 244.0,
+      "highestPoints": 296.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2358",
+      "sourceRow": 402,
+      "scientificName": "Acer saccharinum",
+      "category": "acer saccharinum",
+      "points": 332.0,
+      "highestPoints": 411.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2359",
+      "sourceRow": 403,
+      "scientificName": "Asimina triloba",
+      "category": "asimina triloba",
+      "points": 54.0,
+      "highestPoints": 101.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2360",
+      "sourceRow": 404,
+      "scientificName": "Pinus strobus",
+      "category": "pinus strobus",
+      "points": 322.0,
+      "highestPoints": 357.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2362",
+      "sourceRow": 405,
+      "scientificName": "Juniperus virginiana",
+      "category": "juniperus virginiana",
+      "points": 131.0,
+      "highestPoints": 203.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2363",
+      "sourceRow": 406,
+      "scientificName": "Castanea dentata",
+      "category": "castanea dentata",
+      "points": 235.0,
+      "highestPoints": 328.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2364",
+      "sourceRow": 407,
+      "scientificName": "Juglans nigra",
+      "category": "juglans nigra",
+      "points": 319.0,
+      "highestPoints": 383.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2365",
+      "sourceRow": 408,
+      "scientificName": "Quercus robur",
+      "category": "quercus robur",
+      "points": 269.0,
+      "highestPoints": 276.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2367",
+      "sourceRow": 409,
+      "scientificName": "Quercus acutissima",
+      "category": "quercus acutissima",
+      "points": 145.0,
+      "highestPoints": 176.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2368",
+      "sourceRow": 410,
+      "scientificName": "Quercus acutissima",
+      "category": "quercus acutissima",
+      "points": 120.0,
+      "highestPoints": 176.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2369",
+      "sourceRow": 411,
+      "scientificName": "Larix laricina",
+      "category": "larix laricina",
+      "points": 162.0,
+      "highestPoints": 197.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2370",
+      "sourceRow": 412,
+      "scientificName": "Carya ovata",
+      "category": "carya ovata",
+      "points": 217.0,
+      "highestPoints": 245.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2371",
+      "sourceRow": 413,
+      "scientificName": "Liquidambar styraciflua",
+      "category": "liquidambar styraciflua",
+      "points": 169.0,
+      "highestPoints": 209.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2372",
+      "sourceRow": 414,
+      "scientificName": "Liquidambar styraciflua",
+      "category": "liquidambar styraciflua",
+      "points": 209.0,
+      "highestPoints": 209.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2373",
+      "sourceRow": 415,
+      "scientificName": "Acer platanoides",
+      "category": "acer platanoides",
+      "points": 222.0,
+      "highestPoints": 270.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2374",
+      "sourceRow": 416,
+      "scientificName": "Betula alleghaniensis",
+      "category": "betula alleghaniensis",
+      "points": 265.0,
+      "highestPoints": 265.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2376",
+      "sourceRow": 417,
+      "scientificName": "Sequoiadendron giganteum",
+      "category": "sequoiadendron giganteum",
+      "points": 242.0,
+      "highestPoints": 297.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2378",
+      "sourceRow": 418,
+      "scientificName": "Ginkgo biloba",
+      "category": "ginkgo biloba",
+      "points": 171.0,
+      "highestPoints": 268.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2381",
+      "sourceRow": 419,
+      "scientificName": "Alnus glutinosa",
+      "category": "alnus glutinosa",
+      "points": 201.0,
+      "highestPoints": 201.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2382",
+      "sourceRow": 420,
+      "scientificName": "Betula alleghaniensis",
+      "category": "betula alleghaniensis",
+      "points": 243.0,
+      "highestPoints": 265.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2383",
+      "sourceRow": 421,
+      "scientificName": "Quercus velutina",
+      "category": "quercus velutina",
+      "points": 378.0,
+      "highestPoints": 378.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2384",
+      "sourceRow": 422,
+      "scientificName": "Quercus velutina",
+      "category": "quercus velutina",
+      "points": 320.0,
+      "highestPoints": 378.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2385",
+      "sourceRow": 423,
+      "scientificName": "Quercus velutina",
+      "category": "quercus velutina",
+      "points": 323.0,
+      "highestPoints": 378.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2387",
+      "sourceRow": 424,
+      "scientificName": "Populus deltoides",
+      "category": "populus deltoides",
+      "points": 389.0,
+      "highestPoints": 463.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2388",
+      "sourceRow": 425,
+      "scientificName": "Quercus imbricaria",
+      "category": "quercus imbricaria",
+      "points": 311.0,
+      "highestPoints": 311.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2390",
+      "sourceRow": 426,
+      "scientificName": "Metasequoia glyptostroboides",
+      "category": "metasequoia glyptostroboides",
+      "points": 287.0,
+      "highestPoints": 287.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2391",
+      "sourceRow": 427,
+      "scientificName": "Platanus x acerifolia",
+      "category": "platanus x acerifolia",
+      "points": 289.0,
+      "highestPoints": 350.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2392",
+      "sourceRow": 428,
+      "scientificName": "Salix alba var. vitenella cv. pendula",
+      "category": "salix alba var. vitenella cv. pendula",
+      "points": 354.0,
+      "highestPoints": 430.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2393",
+      "sourceRow": 429,
+      "scientificName": "Quercus macrocarpa",
+      "category": "quercus macrocarpa",
+      "points": 388.0,
+      "highestPoints": 448.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2394",
+      "sourceRow": 430,
+      "scientificName": "Quercus palustris",
+      "category": "quercus palustris",
+      "points": 304.0,
+      "highestPoints": 304.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2395",
+      "sourceRow": 431,
+      "scientificName": "Tilia americana",
+      "category": "tilia americana",
+      "points": 338.0,
+      "highestPoints": 338.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2397",
+      "sourceRow": 432,
+      "scientificName": "Salix alba var. vitenella cv. pendula",
+      "category": "salix alba var. vitenella cv. pendula",
+      "points": 389.0,
+      "highestPoints": 430.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2398",
+      "sourceRow": 433,
+      "scientificName": "Acer nigrum",
+      "category": "acer nigrum",
+      "points": 248.0,
+      "highestPoints": 291.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2399",
+      "sourceRow": 434,
+      "scientificName": "Sassafras albidum",
+      "category": "sassafras albidum",
+      "points": 284.0,
+      "highestPoints": 296.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2400",
+      "sourceRow": 435,
+      "scientificName": "Sassafras albidum",
+      "category": "sassafras albidum",
+      "points": 220.0,
+      "highestPoints": 296.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2401",
+      "sourceRow": 436,
+      "scientificName": "Acer saccharinum",
+      "category": "acer saccharinum",
+      "points": 411.0,
+      "highestPoints": 411.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2402",
+      "sourceRow": 437,
+      "scientificName": "Catalpa speciosa",
+      "category": "catalpa speciosa",
+      "points": 300.0,
+      "highestPoints": 333.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2403",
+      "sourceRow": 438,
+      "scientificName": "Prunus serotina",
+      "category": "prunus serotina",
+      "points": 282.0,
+      "highestPoints": 293.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2405",
+      "sourceRow": 439,
+      "scientificName": "Acer nigrum",
+      "category": "acer nigrum",
+      "points": 258.0,
+      "highestPoints": 291.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2406",
+      "sourceRow": 440,
+      "scientificName": "Ulmus americana",
+      "category": "ulmus americana",
+      "points": 319.0,
+      "highestPoints": 415.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2409",
+      "sourceRow": 441,
+      "scientificName": "Quercus coccinea",
+      "category": "quercus coccinea",
+      "points": 307.0,
+      "highestPoints": 307.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2410",
+      "sourceRow": 442,
+      "scientificName": "Cercis canadensis",
+      "category": "cercis canadensis",
+      "points": 79.0,
+      "highestPoints": 141.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2411",
+      "sourceRow": 443,
+      "scientificName": "Sorbus decora",
+      "category": "sorbus decora",
+      "points": 84.0,
+      "highestPoints": 84.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2412",
+      "sourceRow": 444,
+      "scientificName": "Thuja occidentalis",
+      "category": "thuja occidentalis",
+      "points": 258.0,
+      "highestPoints": 258.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2413",
+      "sourceRow": 445,
+      "scientificName": "Metasequoia glyptostroboides",
+      "category": "metasequoia glyptostroboides",
+      "points": 249.0,
+      "highestPoints": 287.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2416",
+      "sourceRow": 446,
+      "scientificName": "Liquidambar styraciflua",
+      "category": "liquidambar styraciflua",
+      "points": 191.0,
+      "highestPoints": 209.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2417",
+      "sourceRow": 447,
+      "scientificName": "Liquidambar styraciflua",
+      "category": "liquidambar styraciflua",
+      "points": 179.0,
+      "highestPoints": 209.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2418",
+      "sourceRow": 448,
+      "scientificName": "Gleditsia triacanthos",
+      "category": "gleditsia triacanthos",
+      "points": 311.0,
+      "highestPoints": 316.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2419",
+      "sourceRow": 449,
+      "scientificName": "Juglans nigra",
+      "category": "juglans nigra",
+      "points": 319.0,
+      "highestPoints": 383.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2420",
+      "sourceRow": 450,
+      "scientificName": "Quercus imbricaria",
+      "category": "quercus imbricaria",
+      "points": 254.0,
+      "highestPoints": 311.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2421",
+      "sourceRow": 451,
+      "scientificName": "Pinus sylvestris",
+      "category": "pinus sylvestris",
+      "points": 160.0,
+      "highestPoints": 182.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2422",
+      "sourceRow": 452,
+      "scientificName": "Carya ovata",
+      "category": "carya ovata",
+      "points": 182.0,
+      "highestPoints": 245.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2423",
+      "sourceRow": 453,
+      "scientificName": "Betula alleghaniensis",
+      "category": "betula alleghaniensis",
+      "points": 259.0,
+      "highestPoints": 265.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2424",
+      "sourceRow": 454,
+      "scientificName": "Salix alba",
+      "category": "salix alba",
+      "points": 222.0,
+      "highestPoints": 340.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2426",
+      "sourceRow": 455,
+      "scientificName": "Betula papyrifera",
+      "category": "betula papyrifera",
+      "points": 162.0,
+      "highestPoints": 200.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2427",
+      "sourceRow": 456,
+      "scientificName": "Celtis occidentalis",
+      "category": "celtis occidentalis",
+      "points": 243.0,
+      "highestPoints": 310.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2428",
+      "sourceRow": 457,
+      "scientificName": "Carya ovata",
+      "category": "carya ovata",
+      "points": 192.0,
+      "highestPoints": 245.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2429",
+      "sourceRow": 458,
+      "scientificName": "Cercis canadensis",
+      "category": "cercis canadensis",
+      "points": 141.0,
+      "highestPoints": 141.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2430",
+      "sourceRow": 459,
+      "scientificName": "Catalpa bignonioides",
+      "category": "catalpa bignonioides",
+      "points": 334.0,
+      "highestPoints": 334.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2432",
+      "sourceRow": 460,
+      "scientificName": "Quercus ellipsoidalis",
+      "category": "quercus ellipsoidalis",
+      "points": 198.0,
+      "highestPoints": 198.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2433",
+      "sourceRow": 461,
+      "scientificName": "Abies Concolor",
+      "category": "abies concolor",
+      "points": 171.0,
+      "highestPoints": 229.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2436",
+      "sourceRow": 462,
+      "scientificName": "Abies Concolor",
+      "category": "abies concolor",
+      "points": 177.0,
+      "highestPoints": 229.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2437",
+      "sourceRow": 463,
+      "scientificName": "Pinus resinosa",
+      "category": "pinus resinosa",
+      "points": 190.0,
+      "highestPoints": 248.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2440",
+      "sourceRow": 464,
+      "scientificName": "Acer nigrum",
+      "category": "acer nigrum",
+      "points": 214.0,
+      "highestPoints": 291.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2442",
+      "sourceRow": 465,
+      "scientificName": "Salix alba var. vitenella cv. pendula",
+      "category": "salix alba var. vitenella cv. pendula",
+      "points": 345.0,
+      "highestPoints": 430.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2443",
+      "sourceRow": 466,
+      "scientificName": "Magnolia Xsoulangeana",
+      "category": "magnolia x soulangeana",
+      "points": 118.0,
+      "highestPoints": 118.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2446",
+      "sourceRow": 467,
+      "scientificName": "Thuja occidentalis",
+      "category": "thuja occidentalis",
+      "points": 178.0,
+      "highestPoints": 258.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2447",
+      "sourceRow": 468,
+      "scientificName": "Acer nigrum",
+      "category": "acer nigrum",
+      "points": 273.0,
+      "highestPoints": 291.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2448",
+      "sourceRow": 469,
+      "scientificName": "Betula papyrifera",
+      "category": "betula papyrifera",
+      "points": 144.0,
+      "highestPoints": 200.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2449",
+      "sourceRow": 470,
+      "scientificName": "Juglans nigra",
+      "category": "juglans nigra",
+      "points": 325.0,
+      "highestPoints": 383.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2450",
+      "sourceRow": 471,
+      "scientificName": "Acer nigrum",
+      "category": "acer nigrum",
+      "points": 242.0,
+      "highestPoints": 291.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2451",
+      "sourceRow": 472,
+      "scientificName": "Quercus macrocarpa",
+      "category": "quercus macrocarpa",
+      "points": 370.0,
+      "highestPoints": 448.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2452",
+      "sourceRow": 473,
+      "scientificName": "Fagus grandifolia",
+      "category": "fagus grandifolia",
+      "points": 285.0,
+      "highestPoints": 305.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2453",
+      "sourceRow": 474,
+      "scientificName": "Larix decidua",
+      "category": "larix decidua",
+      "points": 230.0,
+      "highestPoints": 239.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2454",
+      "sourceRow": 475,
+      "scientificName": "Larix decidua",
+      "category": "larix decidua",
+      "points": 207.0,
+      "highestPoints": 239.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2455",
+      "sourceRow": 476,
+      "scientificName": "Larix decidua",
+      "category": "larix decidua",
+      "points": 188.0,
+      "highestPoints": 239.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2456",
+      "sourceRow": 477,
+      "scientificName": "Liriodendron tulipifera",
+      "category": "liriodendron tulipifera",
+      "points": 352.0,
+      "highestPoints": 368.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2461",
+      "sourceRow": 478,
+      "scientificName": "Salix alba",
+      "category": "salix alba",
+      "points": 317.0,
+      "highestPoints": 340.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2462",
+      "sourceRow": 479,
+      "scientificName": "Juglans cinerea",
+      "category": "juglans cinerea",
+      "points": 208.0,
+      "highestPoints": 285.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2463",
+      "sourceRow": 480,
+      "scientificName": "Magnolia Xsoulangeana",
+      "category": "magnolia x soulangeana",
+      "points": 107.0,
+      "highestPoints": 118.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2464",
+      "sourceRow": 481,
+      "scientificName": "Acer saccharum",
+      "category": "acer saccharum",
+      "points": 312.0,
+      "highestPoints": 341.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2465",
+      "sourceRow": 482,
+      "scientificName": "Acer rubrum",
+      "category": "acer rubrum",
+      "points": 237.0,
+      "highestPoints": 345.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2468",
+      "sourceRow": 483,
+      "scientificName": "Picea abies",
+      "category": "picea abies",
+      "points": 267.0,
+      "highestPoints": 297.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2470",
+      "sourceRow": 484,
+      "scientificName": "Quercus imbricaria",
+      "category": "quercus imbricaria",
+      "points": 184.0,
+      "highestPoints": 311.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2471",
+      "sourceRow": 485,
+      "scientificName": "Pinus banksiana",
+      "category": "pinus banksiana",
+      "points": 116.0,
+      "highestPoints": 140.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2472",
+      "sourceRow": 486,
+      "scientificName": "Pinus banksiana",
+      "category": "pinus banksiana",
+      "points": 114.0,
+      "highestPoints": 140.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2473",
+      "sourceRow": 487,
+      "scientificName": "Pinus banksiana",
+      "category": "pinus banksiana",
+      "points": 102.0,
+      "highestPoints": 140.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2474",
+      "sourceRow": 488,
+      "scientificName": "Pinus banksiana",
+      "category": "pinus banksiana",
+      "points": 104.0,
+      "highestPoints": 140.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2475",
+      "sourceRow": 489,
+      "scientificName": "Pinus banksiana",
+      "category": "pinus banksiana",
+      "points": 128.0,
+      "highestPoints": 140.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2477",
+      "sourceRow": 490,
+      "scientificName": "Picea abies",
+      "category": "picea abies",
+      "points": 253.0,
+      "highestPoints": 297.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2479",
+      "sourceRow": 491,
+      "scientificName": "Picea abies",
+      "category": "picea abies",
+      "points": 256.0,
+      "highestPoints": 297.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2480",
+      "sourceRow": 492,
+      "scientificName": "Platanus occidentalis",
+      "category": "platanus occidentalis",
+      "points": 320.0,
+      "highestPoints": 456.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2481",
+      "sourceRow": 493,
+      "scientificName": "Acer saccharum",
+      "category": "acer saccharum",
+      "points": 322.0,
+      "highestPoints": 341.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2482",
+      "sourceRow": 494,
+      "scientificName": "Catalpa speciosa",
+      "category": "catalpa speciosa",
+      "points": 293.0,
+      "highestPoints": 333.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2483",
+      "sourceRow": 495,
+      "scientificName": "Ulmus americana",
+      "category": "ulmus americana",
+      "points": 360.0,
+      "highestPoints": 415.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2484",
+      "sourceRow": 496,
+      "scientificName": "Acer negundo",
+      "category": "acer negundo",
+      "points": 242.0,
+      "highestPoints": 248.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2485",
+      "sourceRow": 497,
+      "scientificName": "Catalpa speciosa",
+      "category": "catalpa speciosa",
+      "points": 303.0,
+      "highestPoints": 333.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2488",
+      "sourceRow": 498,
+      "scientificName": "Fagus grandifolia",
+      "category": "fagus grandifolia",
+      "points": 285.0,
+      "highestPoints": 305.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2489",
+      "sourceRow": 499,
+      "scientificName": "Fagus grandifolia",
+      "category": "fagus grandifolia",
+      "points": 282.0,
+      "highestPoints": 305.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2490",
+      "sourceRow": 500,
+      "scientificName": "Liriodendron tulipifera",
+      "category": "liriodendron tulipifera",
+      "points": 309.0,
+      "highestPoints": 368.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2491",
+      "sourceRow": 501,
+      "scientificName": "Liriodendron tulipifera",
+      "category": "liriodendron tulipifera",
+      "points": 321.0,
+      "highestPoints": 368.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2492",
+      "sourceRow": 502,
+      "scientificName": "Prunus serotina",
+      "category": "prunus serotina",
+      "points": 275.0,
+      "highestPoints": 293.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2493",
+      "sourceRow": 503,
+      "scientificName": "Carya cordiformis",
+      "category": "carya cordiformis",
+      "points": 245.0,
+      "highestPoints": 293.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2494",
+      "sourceRow": 504,
+      "scientificName": "Catalpa speciosa",
+      "category": "catalpa speciosa",
+      "points": 278.0,
+      "highestPoints": 333.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2496",
+      "sourceRow": 505,
+      "scientificName": "Carya cordiformis",
+      "category": "carya cordiformis",
+      "points": 253.0,
+      "highestPoints": 293.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2498",
+      "sourceRow": 506,
+      "scientificName": "Carya glabra",
+      "category": "carya glabra",
+      "points": 261.0,
+      "highestPoints": 314.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2499",
+      "sourceRow": 507,
+      "scientificName": "Quercus velutina",
+      "category": "quercus velutina",
+      "points": 321.0,
+      "highestPoints": 378.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2500",
+      "sourceRow": 508,
+      "scientificName": "Ginkgo biloba",
+      "category": "ginkgo biloba",
+      "points": 191.0,
+      "highestPoints": 268.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2501",
+      "sourceRow": 509,
+      "scientificName": "Rhus typhina",
+      "category": "rhus typhina",
+      "points": 81.0,
+      "highestPoints": 81.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2504",
+      "sourceRow": 510,
+      "scientificName": "Cercis canadensis",
+      "category": "cercis canadensis",
+      "points": 68.0,
+      "highestPoints": 141.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2505",
+      "sourceRow": 511,
+      "scientificName": "Juglans nigra",
+      "category": "juglans nigra",
+      "points": 315.0,
+      "highestPoints": 383.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2506",
+      "sourceRow": 512,
+      "scientificName": "Quercus rubra",
+      "category": "quercus rubra",
+      "points": 383.0,
+      "highestPoints": 406.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2507",
+      "sourceRow": 513,
+      "scientificName": "Fagus grandifolia",
+      "category": "fagus grandifolia",
+      "points": 271.0,
+      "highestPoints": 305.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2508",
+      "sourceRow": 514,
+      "scientificName": "Thuja occidentalis",
+      "category": "thuja occidentalis",
+      "points": 170.0,
+      "highestPoints": 258.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2509",
+      "sourceRow": 515,
+      "scientificName": "Quercus velutina",
+      "category": "quercus velutina",
+      "points": 327.0,
+      "highestPoints": 378.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2510",
+      "sourceRow": 516,
+      "scientificName": "Gleditsia triacanthos",
+      "category": "gleditsia triacanthos",
+      "points": 230.0,
+      "highestPoints": 316.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2511",
+      "sourceRow": 517,
+      "scientificName": "Morus alba",
+      "category": "morus alba",
+      "points": 212.0,
+      "highestPoints": 223.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2512",
+      "sourceRow": 518,
+      "scientificName": "Quercus bicolor",
+      "category": "quercus bicolor",
+      "points": 310.0,
+      "highestPoints": 325.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2513",
+      "sourceRow": 519,
+      "scientificName": "Salix alba var. vitenella cv. pendula",
+      "category": "salix alba var. vitenella cv. pendula",
+      "points": 397.0,
+      "highestPoints": 430.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2515",
+      "sourceRow": 520,
+      "scientificName": "Quercus coccinea",
+      "category": "quercus coccinea",
+      "points": 261.0,
+      "highestPoints": 307.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2516",
+      "sourceRow": 521,
+      "scientificName": "Taxodium distichum",
+      "category": "taxodium distichum",
+      "points": 253.0,
+      "highestPoints": 253.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2519",
+      "sourceRow": 522,
+      "scientificName": "Metasequoia glyptostroboides",
+      "category": "metasequoia glyptostroboides",
+      "points": 230.0,
+      "highestPoints": 287.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2520",
+      "sourceRow": 523,
+      "scientificName": "Acer nigrum",
+      "category": "acer nigrum",
+      "points": 206.0,
+      "highestPoints": 291.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2523",
+      "sourceRow": 524,
+      "scientificName": "Acer saccharum",
+      "category": "acer saccharum",
+      "points": 323.0,
+      "highestPoints": 341.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2525",
+      "sourceRow": 525,
+      "scientificName": "Quercus bicolor",
+      "category": "quercus bicolor",
+      "points": 273.0,
+      "highestPoints": 325.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2526",
+      "sourceRow": 526,
+      "scientificName": "Quercus bicolor",
+      "category": "quercus bicolor",
+      "points": 288.0,
+      "highestPoints": 325.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2527",
+      "sourceRow": 527,
+      "scientificName": "Fagus sylvatica",
+      "category": "fagus sylvatica",
+      "points": 272.0,
+      "highestPoints": 277.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2529",
+      "sourceRow": 528,
+      "scientificName": "Quercus alba",
+      "category": "quercus alba",
+      "points": 365.0,
+      "highestPoints": 395.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2530",
+      "sourceRow": 529,
+      "scientificName": "Quercus velutina",
+      "category": "quercus velutina",
+      "points": 352.0,
+      "highestPoints": 378.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2531",
+      "sourceRow": 530,
+      "scientificName": "Tilia americana",
+      "category": "tilia americana",
+      "points": 234.0,
+      "highestPoints": 338.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2532",
+      "sourceRow": 531,
+      "scientificName": "Carya cordiformis",
+      "category": "carya cordiformis",
+      "points": 276.0,
+      "highestPoints": 293.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2533",
+      "sourceRow": 532,
+      "scientificName": "Pinus resinosa",
+      "category": "pinus resinosa",
+      "points": 185.0,
+      "highestPoints": 248.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2534",
+      "sourceRow": 533,
+      "scientificName": "Pinus resinosa",
+      "category": "pinus resinosa",
+      "points": 175.0,
+      "highestPoints": 248.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2535",
+      "sourceRow": 534,
+      "scientificName": "Pinus strobus",
+      "category": "pinus strobus",
+      "points": 357.0,
+      "highestPoints": 357.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2537",
+      "sourceRow": 535,
+      "scientificName": "Populus grandidentata",
+      "category": "populus grandidentata",
+      "points": 237.0,
+      "highestPoints": 237.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2539",
+      "sourceRow": 536,
+      "scientificName": "Carya ovata",
+      "category": "carya ovata",
+      "points": 181.0,
+      "highestPoints": 245.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2540",
+      "sourceRow": 537,
+      "scientificName": "Carya ovata",
+      "category": "carya ovata",
+      "points": 174.0,
+      "highestPoints": 245.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2541",
+      "sourceRow": 538,
+      "scientificName": "Pinus resinosa",
+      "category": "pinus resinosa",
+      "points": 178.0,
+      "highestPoints": 248.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2542",
+      "sourceRow": 539,
+      "scientificName": "Pinus resinosa",
+      "category": "pinus resinosa",
+      "points": 233.0,
+      "highestPoints": 248.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2543",
+      "sourceRow": 540,
+      "scientificName": "Quercus prinus",
+      "category": "quercus prinus",
+      "points": 183.0,
+      "highestPoints": 183.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2544",
+      "sourceRow": 541,
+      "scientificName": "Betula alleghaniensis",
+      "category": "betula alleghaniensis",
+      "points": 237.0,
+      "highestPoints": 265.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2545",
+      "sourceRow": 542,
+      "scientificName": "Fraxinus quadrangulata",
+      "category": "fraxinus quadrangulata",
+      "points": 167.0,
+      "highestPoints": 203.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2546",
+      "sourceRow": 543,
+      "scientificName": "Populus balsamifera",
+      "category": "populus balsamifera",
+      "points": 342.0,
+      "highestPoints": 342.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2547",
+      "sourceRow": 544,
+      "scientificName": "Prunus pensylvanica",
+      "category": "prunus pensylvanica",
+      "points": 96.0,
+      "highestPoints": 96.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2548",
+      "sourceRow": 545,
+      "scientificName": "Populus grandidentata",
+      "category": "populus grandidentata",
+      "points": 214.0,
+      "highestPoints": 237.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2549",
+      "sourceRow": 546,
+      "scientificName": "Pinus banksiana",
+      "category": "pinus banksiana",
+      "points": 140.0,
+      "highestPoints": 140.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2550",
+      "sourceRow": 547,
+      "scientificName": "Picea glauca",
+      "category": "picea glauca",
+      "points": 200.0,
+      "highestPoints": 227.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2552",
+      "sourceRow": 548,
+      "scientificName": "Castanea dentata",
+      "category": "castanea dentata",
+      "points": 197.0,
+      "highestPoints": 328.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2553",
+      "sourceRow": 549,
+      "scientificName": "Thuja occidentalis",
+      "category": "thuja occidentalis",
+      "points": 204.0,
+      "highestPoints": 258.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2554",
+      "sourceRow": 550,
+      "scientificName": "Quercus macrocarpa x Quercus alba",
+      "category": "quercus macrocarpa x quercus alba",
+      "points": 332.0,
+      "highestPoints": 354.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2555",
+      "sourceRow": 551,
+      "scientificName": "Carya cordiformis",
+      "category": "carya cordiformis",
+      "points": 262.0,
+      "highestPoints": 293.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2556",
+      "sourceRow": 552,
+      "scientificName": "Quercus rubra",
+      "category": "quercus rubra",
+      "points": 366.0,
+      "highestPoints": 406.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2557",
+      "sourceRow": 553,
+      "scientificName": "Ailanthus altissima",
+      "category": "ailanthus altissima",
+      "points": 232.0,
+      "highestPoints": 232.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2558",
+      "sourceRow": 554,
+      "scientificName": "Picea pungens",
+      "category": "picea pungens",
+      "points": 157.0,
+      "highestPoints": 178.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2559",
+      "sourceRow": 555,
+      "scientificName": "Prunus serotina",
+      "category": "prunus serotina",
+      "points": 278.0,
+      "highestPoints": 293.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2560",
+      "sourceRow": 556,
+      "scientificName": "Pinus sylvestris",
+      "category": "pinus sylvestris",
+      "points": 169.0,
+      "highestPoints": 182.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2561",
+      "sourceRow": 557,
+      "scientificName": "Pinus ponderosa",
+      "category": "pinus ponderosa",
+      "points": 157.0,
+      "highestPoints": 211.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2562",
+      "sourceRow": 558,
+      "scientificName": "Acer negundo",
+      "category": "acer negundo",
+      "points": 171.0,
+      "highestPoints": 248.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2563",
+      "sourceRow": 559,
+      "scientificName": "Quercus alba",
+      "category": "quercus alba",
+      "points": 338.0,
+      "highestPoints": 395.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2564",
+      "sourceRow": 560,
+      "scientificName": "Acer negundo",
+      "category": "acer negundo",
+      "points": 248.0,
+      "highestPoints": 248.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2565",
+      "sourceRow": 561,
+      "scientificName": "Quercus macrocarpa x Quercus alba",
+      "category": "quercus macrocarpa x quercus alba",
+      "points": 339.0,
+      "highestPoints": 354.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2568",
+      "sourceRow": 562,
+      "scientificName": "Abies Concolor",
+      "category": "abies concolor",
+      "points": 229.0,
+      "highestPoints": 229.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2569",
+      "sourceRow": 563,
+      "scientificName": "Picea abies",
+      "category": "picea abies",
+      "points": 281.0,
+      "highestPoints": 297.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2570",
+      "sourceRow": 564,
+      "scientificName": "Pinus nigra",
+      "category": "pinus nigra",
+      "points": 222.0,
+      "highestPoints": 222.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2571",
+      "sourceRow": 565,
+      "scientificName": "Picea mariana",
+      "category": "picea mariana",
+      "points": 137.0,
+      "highestPoints": 137.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2572",
+      "sourceRow": 566,
+      "scientificName": "Picea mariana",
+      "category": "picea mariana",
+      "points": 131.0,
+      "highestPoints": 137.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2573",
+      "sourceRow": 567,
+      "scientificName": "Acer saccharum",
+      "category": "acer saccharum",
+      "points": 341.0,
+      "highestPoints": 341.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2575",
+      "sourceRow": 568,
+      "scientificName": "Metasequoia glyptostroboides",
+      "category": "metasequoia glyptostroboides",
+      "points": 260.0,
+      "highestPoints": 287.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2576",
+      "sourceRow": 569,
+      "scientificName": "Betula nigra",
+      "category": "betula nigra",
+      "points": 154.0,
+      "highestPoints": 205.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2578",
+      "sourceRow": 570,
+      "scientificName": "Ulmus X vegeta",
+      "category": "ulmus x vegeta",
+      "points": 136.0,
+      "highestPoints": 228.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2579",
+      "sourceRow": 571,
+      "scientificName": "Acer saccharum",
+      "category": "acer saccharum",
+      "points": 322.0,
+      "highestPoints": 341.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2580",
+      "sourceRow": 572,
+      "scientificName": "Acer saccharum",
+      "category": "acer saccharum",
+      "points": 324.0,
+      "highestPoints": 341.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2581",
+      "sourceRow": 573,
+      "scientificName": "Liriodendron tulipifera",
+      "category": "liriodendron tulipifera",
+      "points": 359.0,
+      "highestPoints": 368.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2582",
+      "sourceRow": 574,
+      "scientificName": "Acer negundo",
+      "category": "acer negundo",
+      "points": 167.0,
+      "highestPoints": 248.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2583",
+      "sourceRow": 575,
+      "scientificName": "Acer saccharinum",
+      "category": "acer saccharinum",
+      "points": 410.0,
+      "highestPoints": 411.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2584",
+      "sourceRow": 576,
+      "scientificName": "Gleditsia triacanthos",
+      "category": "gleditsia triacanthos",
+      "points": 199.0,
+      "highestPoints": 316.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2585",
+      "sourceRow": 577,
+      "scientificName": "Prunus serotina",
+      "category": "prunus serotina",
+      "points": 258.0,
+      "highestPoints": 293.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2586",
+      "sourceRow": 578,
+      "scientificName": "Gleditsia triacanthos",
+      "category": "gleditsia triacanthos",
+      "points": 184.0,
+      "highestPoints": 316.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2588",
+      "sourceRow": 579,
+      "scientificName": "Carya ovata",
+      "category": "carya ovata",
+      "points": 245.0,
+      "highestPoints": 245.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2589",
+      "sourceRow": 580,
+      "scientificName": "Juglans cinerea",
+      "category": "juglans cinerea",
+      "points": 256.0,
+      "highestPoints": 285.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2590",
+      "sourceRow": 581,
+      "scientificName": "Gymnocladus dioicus",
+      "category": "gymnocladus dioicus",
+      "points": 235.0,
+      "highestPoints": 236.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2591",
+      "sourceRow": 582,
+      "scientificName": "Juglans nigra",
+      "category": "juglans nigra",
+      "points": 330.0,
+      "highestPoints": 383.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2592",
+      "sourceRow": 583,
+      "scientificName": "Populus deltoides",
+      "category": "populus deltoides",
+      "points": 411.0,
+      "highestPoints": 463.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2593",
+      "sourceRow": 584,
+      "scientificName": "Betula alleghaniensis",
+      "category": "betula alleghaniensis",
+      "points": 247.0,
+      "highestPoints": 265.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2594",
+      "sourceRow": 585,
+      "scientificName": "Picea abies",
+      "category": "picea abies",
+      "points": 268.0,
+      "highestPoints": 297.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2595",
+      "sourceRow": 586,
+      "scientificName": "Sorbus americana",
+      "category": "sorbus americana",
+      "points": 79.0,
+      "highestPoints": 79.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2598",
+      "sourceRow": 587,
+      "scientificName": "Salix alba var. vitenella cv. pendula",
+      "category": "salix alba var. vitenella cv. pendula",
+      "points": 356.0,
+      "highestPoints": 430.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2599",
+      "sourceRow": 588,
+      "scientificName": "Picea glauca",
+      "category": "picea glauca",
+      "points": 147.0,
+      "highestPoints": 227.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2601",
+      "sourceRow": 589,
+      "scientificName": "Carya glabra",
+      "category": "carya glabra",
+      "points": 258.0,
+      "highestPoints": 314.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2603",
+      "sourceRow": 590,
+      "scientificName": "Quercus muehlenbergii",
+      "category": "quercus muehlenbergii",
+      "points": 309.0,
+      "highestPoints": 367.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2605",
+      "sourceRow": 591,
+      "scientificName": "Betula papyrifera",
+      "category": "betula papyrifera",
+      "points": 171.0,
+      "highestPoints": 200.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2606",
+      "sourceRow": 592,
+      "scientificName": "Ostrya virginiana",
+      "category": "ostrya virginiana",
+      "points": 128.0,
+      "highestPoints": 199.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2607",
+      "sourceRow": 593,
+      "scientificName": "Betula alleghaniensis",
+      "category": "betula alleghaniensis",
+      "points": 207.0,
+      "highestPoints": 265.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2608",
+      "sourceRow": 594,
+      "scientificName": "Populus deltoides",
+      "category": "populus deltoides",
+      "points": 407.0,
+      "highestPoints": 463.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2609",
+      "sourceRow": 595,
+      "scientificName": "Quercus alba",
+      "category": "quercus alba",
+      "points": 346.0,
+      "highestPoints": 395.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2610",
+      "sourceRow": 596,
+      "scientificName": "Salix alba var. vitenella cv. pendula",
+      "category": "salix alba var. vitenella cv. pendula",
+      "points": 390.0,
+      "highestPoints": 430.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2611",
+      "sourceRow": 597,
+      "scientificName": "Carya glabra",
+      "category": "carya glabra",
+      "points": 292.0,
+      "highestPoints": 314.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2612",
+      "sourceRow": 598,
+      "scientificName": "Quercus muehlenbergii",
+      "category": "quercus muehlenbergii",
+      "points": 277.0,
+      "highestPoints": 367.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2613",
+      "sourceRow": 599,
+      "scientificName": "Catalpa speciosa",
+      "category": "catalpa speciosa",
+      "points": 271.0,
+      "highestPoints": 333.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2614",
+      "sourceRow": 600,
+      "scientificName": "Catalpa speciosa",
+      "category": "catalpa speciosa",
+      "points": 269.0,
+      "highestPoints": 333.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2615",
+      "sourceRow": 601,
+      "scientificName": "Quercus muehlenbergii",
+      "category": "quercus muehlenbergii",
+      "points": 304.0,
+      "highestPoints": 367.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2617",
+      "sourceRow": 602,
+      "scientificName": "Pinus sylvestris",
+      "category": "pinus sylvestris",
+      "points": 182.0,
+      "highestPoints": 182.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2618",
+      "sourceRow": 603,
+      "scientificName": "Quercus bicolor",
+      "category": "quercus bicolor",
+      "points": 306.0,
+      "highestPoints": 325.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2619",
+      "sourceRow": 604,
+      "scientificName": "Abies Concolor",
+      "category": "abies concolor",
+      "points": 186.0,
+      "highestPoints": 229.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2620",
+      "sourceRow": 605,
+      "scientificName": "Carya cordiformis",
+      "category": "carya cordiformis",
+      "points": 251.0,
+      "highestPoints": 293.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2621",
+      "sourceRow": 606,
+      "scientificName": "Morus alba",
+      "category": "morus alba",
+      "points": 187.0,
+      "highestPoints": 223.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2622",
+      "sourceRow": 607,
+      "scientificName": "Juniperus virginiana",
+      "category": "juniperus virginiana",
+      "points": 203.0,
+      "highestPoints": 203.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2623",
+      "sourceRow": 608,
+      "scientificName": "Pinus sylvestris",
+      "category": "pinus sylvestris",
+      "points": 173.0,
+      "highestPoints": 182.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2624",
+      "sourceRow": 609,
+      "scientificName": "Tsuga canadensis",
+      "category": "tsuga canadensis",
+      "points": 189.0,
+      "highestPoints": 265.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2625",
+      "sourceRow": 610,
+      "scientificName": "Fagus grandifolia",
+      "category": "fagus grandifolia",
+      "points": 284.0,
+      "highestPoints": 305.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2628",
+      "sourceRow": 611,
+      "scientificName": "Metasequoia glyptostroboides",
+      "category": "metasequoia glyptostroboides",
+      "points": 209.0,
+      "highestPoints": 287.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2632",
+      "sourceRow": 612,
+      "scientificName": "Acer saccharinum",
+      "category": "acer saccharinum",
+      "points": 349.0,
+      "highestPoints": 411.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2633",
+      "sourceRow": 613,
+      "scientificName": "Quercus alba",
+      "category": "quercus alba",
+      "points": 354.0,
+      "highestPoints": 395.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2634",
+      "sourceRow": 614,
+      "scientificName": "Ulmus parvifolia",
+      "category": "ulmus parvifolia",
+      "points": 164.0,
+      "highestPoints": 203.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2636",
+      "sourceRow": 615,
+      "scientificName": "Tilia americana",
+      "category": "tilia americana",
+      "points": 322.0,
+      "highestPoints": 338.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2637",
+      "sourceRow": 616,
+      "scientificName": "Quercus muehlenbergii",
+      "category": "quercus muehlenbergii",
+      "points": 347.0,
+      "highestPoints": 367.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2638",
+      "sourceRow": 617,
+      "scientificName": "Acer rubrum",
+      "category": "acer rubrum",
+      "points": 264.0,
+      "highestPoints": 345.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2639",
+      "sourceRow": 618,
+      "scientificName": "Acer rubrum",
+      "category": "acer rubrum",
+      "points": 272.0,
+      "highestPoints": 345.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2640",
+      "sourceRow": 619,
+      "scientificName": "Quercus imbricaria",
+      "category": "quercus imbricaria",
+      "points": 257.0,
+      "highestPoints": 311.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2641",
+      "sourceRow": 620,
+      "scientificName": "Quercus alba",
+      "category": "quercus alba",
+      "points": 340.0,
+      "highestPoints": 395.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2642",
+      "sourceRow": 621,
+      "scientificName": "Quercus muehlenbergii",
+      "category": "quercus muehlenbergii",
+      "points": 367.0,
+      "highestPoints": 367.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2643",
+      "sourceRow": 622,
+      "scientificName": "Fraxinus pennsylvanica",
+      "category": "fraxinus pennsylvanica",
+      "points": 261.0,
+      "highestPoints": 320.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2644",
+      "sourceRow": 623,
+      "scientificName": "Populus deltoides",
+      "category": "populus deltoides",
+      "points": 463.0,
+      "highestPoints": 463.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2645",
+      "sourceRow": 624,
+      "scientificName": "Metasequoia glyptostroboides",
+      "category": "metasequoia glyptostroboides",
+      "points": 233.0,
+      "highestPoints": 287.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2647",
+      "sourceRow": 625,
+      "scientificName": "Quercus rubra",
+      "category": "quercus rubra",
+      "points": 289.0,
+      "highestPoints": 406.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2648",
+      "sourceRow": 626,
+      "scientificName": "Thuja occidentalis",
+      "category": "thuja occidentalis",
+      "points": 247.0,
+      "highestPoints": 258.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2649",
+      "sourceRow": 627,
+      "scientificName": "Carya glabra",
+      "category": "carya glabra",
+      "points": 301.0,
+      "highestPoints": 314.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2651",
+      "sourceRow": 628,
+      "scientificName": "Pinus resinosa",
+      "category": "pinus resinosa",
+      "points": 199.0,
+      "highestPoints": 248.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2652",
+      "sourceRow": 629,
+      "scientificName": "Metasequoia glyptostroboides",
+      "category": "metasequoia glyptostroboides",
+      "points": 232.0,
+      "highestPoints": 287.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2654",
+      "sourceRow": 630,
+      "scientificName": "Populus deltoides",
+      "category": "populus deltoides",
+      "points": 411.0,
+      "highestPoints": 463.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2655",
+      "sourceRow": 631,
+      "scientificName": "Asimina triloba",
+      "category": "asimina triloba",
+      "points": 101.0,
+      "highestPoints": 101.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2656",
+      "sourceRow": 632,
+      "scientificName": "Carpinus caroliniana",
+      "category": "carpinus caroliniana",
+      "points": 105.0,
+      "highestPoints": 105.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2659",
+      "sourceRow": 633,
+      "scientificName": "Metasequoia glyptostroboides",
+      "category": "metasequoia glyptostroboides",
+      "points": 231.0,
+      "highestPoints": 287.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2664",
+      "sourceRow": 634,
+      "scientificName": "Pinus strobus",
+      "category": "pinus strobus",
+      "points": 320.0,
+      "highestPoints": 357.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2665",
+      "sourceRow": 635,
+      "scientificName": "Ostrya virginiana",
+      "category": "ostrya virginiana",
+      "points": 155.0,
+      "highestPoints": 199.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2667",
+      "sourceRow": 636,
+      "scientificName": "Betula alleghaniensis",
+      "category": "betula alleghaniensis",
+      "points": 201.0,
+      "highestPoints": 265.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2670",
+      "sourceRow": 637,
+      "scientificName": "Fagus sylvatica",
+      "category": "fagus sylvatica",
+      "points": 88.0,
+      "highestPoints": 277.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2671",
+      "sourceRow": 638,
+      "scientificName": "Betula papyrifera",
+      "category": "betula papyrifera",
+      "points": 141.0,
+      "highestPoints": 200.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2672",
+      "sourceRow": 639,
+      "scientificName": "Fraxinus quadrangulata",
+      "category": "fraxinus quadrangulata",
+      "points": 203.0,
+      "highestPoints": 203.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2674",
+      "sourceRow": 640,
+      "scientificName": "Betula papyrifera",
+      "category": "betula papyrifera",
+      "points": 158.0,
+      "highestPoints": 200.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2675",
+      "sourceRow": 641,
+      "scientificName": "Castanea dentata",
+      "category": "castanea dentata",
+      "points": 198.0,
+      "highestPoints": 328.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2676",
+      "sourceRow": 642,
+      "scientificName": "Picea glauca",
+      "category": "picea glauca",
+      "points": 145.0,
+      "highestPoints": 227.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2677",
+      "sourceRow": 643,
+      "scientificName": "Picea glauca",
+      "category": "picea glauca",
+      "points": 125.0,
+      "highestPoints": 227.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2678",
+      "sourceRow": 644,
+      "scientificName": "Quercus velutina",
+      "category": "quercus velutina",
+      "points": 314.0,
+      "highestPoints": 378.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2679",
+      "sourceRow": 645,
+      "scientificName": "Pinus strobus",
+      "category": "pinus strobus",
+      "points": 325.0,
+      "highestPoints": 357.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2680",
+      "sourceRow": 646,
+      "scientificName": "Quercus rubra",
+      "category": "quercus rubra",
+      "points": 399.0,
+      "highestPoints": 406.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2681",
+      "sourceRow": 647,
+      "scientificName": "Quercus rubra",
+      "category": "quercus rubra",
+      "points": 350.0,
+      "highestPoints": 406.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2682",
+      "sourceRow": 648,
+      "scientificName": "Gymnocladus dioicus",
+      "category": "gymnocladus dioicus",
+      "points": 220.0,
+      "highestPoints": 236.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2683",
+      "sourceRow": 649,
+      "scientificName": "Fraxinus quadrangulata",
+      "category": "fraxinus quadrangulata",
+      "points": 184.0,
+      "highestPoints": 203.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2684",
+      "sourceRow": 650,
+      "scientificName": "Fraxinus quadrangulata",
+      "category": "fraxinus quadrangulata",
+      "points": 193.0,
+      "highestPoints": 203.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2685",
+      "sourceRow": 651,
+      "scientificName": "Fraxinus quadrangulata",
+      "category": "fraxinus quadrangulata",
+      "points": 196.0,
+      "highestPoints": 203.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2686",
+      "sourceRow": 652,
+      "scientificName": "Acer saccharinum",
+      "category": "acer saccharinum",
+      "points": 372.0,
+      "highestPoints": 411.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2687",
+      "sourceRow": 653,
+      "scientificName": "Fraxinus quadrangulata",
+      "category": "fraxinus quadrangulata",
+      "points": 203.0,
+      "highestPoints": 203.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2689",
+      "sourceRow": 654,
+      "scientificName": "Gymnocladus dioicus",
+      "category": "gymnocladus dioicus",
+      "points": 206.0,
+      "highestPoints": 236.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2690",
+      "sourceRow": 655,
+      "scientificName": "Acer saccharinum",
+      "category": "acer saccharinum",
+      "points": 373.0,
+      "highestPoints": 411.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2691",
+      "sourceRow": 656,
+      "scientificName": "Carya glabra",
+      "category": "carya glabra",
+      "points": 236.0,
+      "highestPoints": 314.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2692",
+      "sourceRow": 657,
+      "scientificName": "Gleditsia triacanthos",
+      "category": "gleditsia triacanthos",
+      "points": 185.0,
+      "highestPoints": 316.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2694",
+      "sourceRow": 658,
+      "scientificName": "Amelanchier arborea",
+      "category": "amelanchier arborea",
+      "points": 144.0,
+      "highestPoints": 147.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2695",
+      "sourceRow": 659,
+      "scientificName": "Quercus macrocarpa",
+      "category": "quercus macrocarpa",
+      "points": 364.0,
+      "highestPoints": 448.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2696",
+      "sourceRow": 660,
+      "scientificName": "Quercus velutina",
+      "category": "quercus velutina",
+      "points": 372.0,
+      "highestPoints": 378.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2697",
+      "sourceRow": 661,
+      "scientificName": "Tsuga canadensis",
+      "category": "tsuga canadensis",
+      "points": 201.0,
+      "highestPoints": 265.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2698",
+      "sourceRow": 662,
+      "scientificName": "Tsuga canadensis",
+      "category": "tsuga canadensis",
+      "points": 216.0,
+      "highestPoints": 265.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2699",
+      "sourceRow": 663,
+      "scientificName": "Prunus serotina",
+      "category": "prunus serotina",
+      "points": 276.0,
+      "highestPoints": 293.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2700",
+      "sourceRow": 664,
+      "scientificName": "Metasequoia glyptostroboides",
+      "category": "metasequoia glyptostroboides",
+      "points": 258.0,
+      "highestPoints": 287.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2701",
+      "sourceRow": 665,
+      "scientificName": "Betula papyrifera",
+      "category": "betula papyrifera",
+      "points": 200.0,
+      "highestPoints": 200.0,
+      "included": true
+    },
+    {
+      "sourceTreeId": "2702",
+      "sourceRow": 666,
+      "scientificName": "Betula papyrifera",
+      "category": "betula papyrifera",
+      "points": 160.0,
+      "highestPoints": 200.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2703",
+      "sourceRow": 667,
+      "scientificName": "Picea abies",
+      "category": "picea abies",
+      "points": 277.0,
+      "highestPoints": 297.0,
+      "included": false
+    },
+    {
+      "sourceTreeId": "2704",
+      "sourceRow": 668,
+      "scientificName": "Amelanchier arborea",
+      "category": "amelanchier arborea",
+      "points": 147.0,
+      "highestPoints": 147.0,
+      "included": true
+    }
+  ]
+}
