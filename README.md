@@ -457,6 +457,8 @@ against Census geography, including Gd. Traverse → Grand Traverse. GPS coordin
 addresses, owners and location field notes are omitted. Visiting access remains
 unclassified. National Y flags are source labels, not independently verified titles.
 
-### Ohio champion trees (partial coverage)
+### Ohio champion trees
 
-Ohio adds 25 fully readable records from user-provided ODNR screenshots captured October 9, 2026 (7 native, 18 non-native). This is not the complete register. The import audit records screenshot hashes, source URLs, and selection limits. County points use the 2025 Census Gazetteer; no exact locations, access permission, or measurement dates are inferred. The American elm score discrepancy is preserved and flagged.
+Ohio includes all 127 entries from the Native Ohio Champion Trees table, transcribed and checked against the six supplied screenshots captured October 9, 2026 (pages 1–6, ending at 127 of 127). The 18 previously imported non-native records are retained; non-native coverage remains partial. There are 145 Ohio records: 144 mapped to 62 approximate Census county points and one Gray Birch with a blank source county, retained in results without an invented location.
+
+The import audit records screenshot hashes, page ranges, published totals, and coverage for each list. All source rows are preserved, including repeated botanical categories and decimal measurements/scores. Category follows the source table. Existing record IDs remain stable; same-species/same-county rows use common names to distinguish separate trees. No measurement dates, precise locations, or visiting permission are inferred. American elm’s published score discrepancy is retained and flagged. County points use the 2025 Census Gazetteer.
