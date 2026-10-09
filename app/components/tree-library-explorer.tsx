@@ -8,6 +8,7 @@ import { filterLibraryTrees, libraryThemes, type LibraryTree } from "../../lib/t
 export default function TreeLibraryExplorer({ trees }: { trees: readonly LibraryTree[] }) {
   const [query, setQuery] = useState("");
   const [theme, setTheme] = useState("");
+  const [view, setView] = useState<"illustrated" | "compact">("illustrated");
   const results = filterLibraryTrees(trees, query, theme);
   const themes = libraryThemes(trees);
   const hasFilters = query.length > 0 || theme.length > 0;
@@ -34,19 +35,31 @@ export default function TreeLibraryExplorer({ trees }: { trees: readonly Library
             <button className="button secondary library-reset" type="button" onClick={reset} disabled={!hasFilters}>Reset filters</button>
           </div>
         </form>
+        <div className="library-view-switch" role="group" aria-label="Library view">
+          <span>Browse as</span>
+          <button type="button" aria-pressed={view === "illustrated"} aria-controls="library-results" onClick={() => setView("illustrated")}>Illustrated</button>
+          <button type="button" aria-pressed={view === "compact"} aria-controls="library-results" onClick={() => setView("compact")}>Compact</button>
+        </div>
         <p className="library-result-count" role="status" aria-live="polite" aria-atomic="true">
           {results.length === trees.length ? `${trees.length} trees to explore` : `${results.length} of ${trees.length} trees match`}{theme ? ` · ${theme}` : ""}
         </p>
       </section>
-      {results.length > 0 && <nav className="tree-picker" aria-label="Jump to a matching tree">{results.map(tree => <a key={tree.slug} href={`#${tree.slug}`}>{tree.name}</a>)}</nav>}
-      <section id="library-results" aria-label="Trees to explore" className="tree-library-grid">
+      {view === "illustrated" && results.length > 0 && <nav className="tree-picker" aria-label="Jump to a matching tree">{results.map(tree => <a key={tree.slug} href={`#${tree.slug}`}>{tree.name}</a>)}</nav>}
+      <section id="library-results" aria-label="Trees to explore" className={view === "compact" ? "library-compact-grid" : "tree-library-grid"}>
         {results.length === 0 ? (
           <div className="library-empty">
             <h2>No trees match this combination.</h2>
             <p>Try a shorter name, choose another theme, or reset the filters to see every tree.</p>
             <button className="button primary" type="button" onClick={reset}>Show all trees</button>
           </div>
-        ) : results.map(tree => (
+        ) : view === "compact" ? results.map(tree => (
+          <article className="library-compact-card" id={tree.slug} key={tree.slug}>
+            <h2><Link href={`/trees/${tree.slug}`}>{tree.name}</Link></h2>
+            <p>{tree.species} · <i>{tree.scientificName}</i></p>
+            <ul className="theme-list" aria-label="Contemplative themes">{tree.themes.map(value => <li key={value}>{value}</li>)}</ul>
+            <Link className="course-link" href={`/practice/${tree.slug}`}>Open outdoor practice →</Link>
+          </article>
+        )) : results.map(tree => (
           <article className="tree-feature" id={tree.slug} key={tree.slug}>
             <Link className="tree-feature-image" href={`/trees/${tree.slug}`} aria-label={`Meet ${tree.name}: ${tree.species}`}>
               <Image src={tree.image} alt={tree.imageAlt} width={tree.imageWidth} height={tree.imageHeight} sizes="(max-width: 760px) 100vw, 55vw" priority={tree.slug === trees[0]?.slug} />
