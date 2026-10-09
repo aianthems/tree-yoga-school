@@ -1,3 +1,4 @@
+import { pageMetadata } from "../../lib/site-seo";
 import type { Metadata } from "next";
 import Link from "next/link";
 import TreeLibraryExplorer from "../components/tree-library-explorer";
@@ -7,10 +8,11 @@ import { stateNames } from "../../lib/champion-trees";
 import { trees } from "../../lib/trees";
 import { treeVisitSummary } from "../../lib/tree-visits";
 
-export const metadata: Metadata = {
+const pageInfo: Metadata = {
   title: "Tree Library | Tree Yoga School",
   description: "Meet individual trees through observation, contemplative energies, practices, and connections to the original Tree Yoga School book.",
 };
+export const metadata: Metadata = pageMetadata("/trees", String(pageInfo.title), String(pageInfo.description));
 
 export default function TreeLibrary() {
   return (

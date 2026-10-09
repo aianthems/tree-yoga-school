@@ -1,9 +1,11 @@
+import { pageMetadata } from "../../../lib/site-seo";
 import type { Metadata } from "next";
 import Link from "next/link";
 import SiteHeader from "../../components/site-header";
 import SiteFooter from "../../components/site-footer";
 import { beginnerJourney } from "../../../lib/beginner-journey";
-export const metadata: Metadata = { title: "Seven Days with a Tree | Tree Yoga School", description: "A seven-day beginner journey through observation, meditation, gentle movement, and walking. Five to ten minutes at your own pace." };
+const pageInfo: Metadata = { title: "Seven Days with a Tree | Tree Yoga School", description: "A seven-day beginner journey through observation, meditation, gentle movement, and walking. Five to ten minutes at your own pace." };
+export const metadata: Metadata = pageMetadata("/begin-here/seven-days", String(pageInfo.title), String(pageInfo.description));
 export default function SevenDays() {
   return <><SiteHeader /><main id="content" className="lesson">
     <section className="lesson-intro"><Link className="lesson-back" href="/begin-here">← Begin Here</Link><p className="section-kicker">A seven-day beginner journey</p><h1>Seven days.<br />One tree to begin.</h1><p className="lesson-lede">Start by looking. Learn to return your attention, explore a little movement, and take a noticing walk. Find a practice you want to return to.</p><p>Allow about five to ten minutes per visit, or less. The days are a suggested order, not a deadline: repeat, skip, or take a day off whenever you like. You can begin again without catching up.</p><div className="course-actions"><Link className="button primary" href="/begin-here/seven-days/1">Begin Day 1 →</Link><a className="course-link" href="#days">Choose a day</a></div></section>

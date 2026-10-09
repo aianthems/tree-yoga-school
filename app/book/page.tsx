@@ -1,3 +1,4 @@
+import { pageMetadata } from "../../lib/site-seo";
 import type { Metadata } from "next";
 import Link from "next/link";
 import SiteHeader from "../components/site-header";
@@ -5,7 +6,8 @@ import SiteFooter from "../components/site-footer";
 import { bookChapters } from "../../lib/book-chapters";
 import { bookUrl } from "../../lib/intro-lessons";
 
-export const metadata: Metadata = { title: "Explore the Book | Tree Yoga School", description: "Explore the seven chapters of Alex Julian’s Tree Yoga School through reading companions, original book references, trees, and practices." };
+const pageInfo: Metadata = { title: "Explore the Book | Tree Yoga School", description: "Explore the seven chapters of Alex Julian’s Tree Yoga School through reading companions, original book references, trees, and practices." };
+export const metadata: Metadata = pageMetadata("/book", String(pageInfo.title), String(pageInfo.description));
 
 export default function BookPage() {
   return <><SiteHeader /><main id="content" className="explore-shell">

@@ -1,3 +1,4 @@
+import { pageMetadata } from "../../lib/site-seo";
 import { Suspense } from "react";
 import type { Metadata } from "next";
 import Link from "next/link";
@@ -9,10 +10,11 @@ import "leaflet/dist/leaflet.css";
 import { championTrees, championManifest } from "../../lib/champion-tree-data";
 import { treeVisitSummary } from "../../lib/tree-visits";
 
-export const metadata: Metadata = {
+const pageInfo: Metadata = {
   title: "Champion Tree Map | Tree Yoga School",
   description: `Explore ${championTrees.length.toLocaleString("en-US")} champion and score-based leader records across Massachusetts, New Hampshire, Vermont, Maine, Rhode Island, Connecticut, New York, New Jersey, Pennsylvania, Delaware, Maryland, Virginia, West Virginia, North Carolina, South Carolina, Tennessee, Georgia, Kentucky, Indiana, Alabama, Florida, Illinois, Michigan, Ohio, Wisconsin, and Minnesota. Browse an interactive town and county map, measurements, source records, and tree practices. Ohio includes the complete 127-entry native and 126-entry non-native lists.`,
 };
+export const metadata: Metadata = pageMetadata("/champion-trees", String(pageInfo.title), String(pageInfo.description));
 
 export default function ChampionTreesPage() {
   return <><SiteHeader /><main id="content" className="champion-page">

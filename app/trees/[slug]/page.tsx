@@ -1,3 +1,4 @@
+import { pageMetadata } from "../../../lib/site-seo";
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -16,7 +17,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const tree = getTree(slug);
   if (!tree) notFound();
-  return { title: `${tree.name}: Energy & Practice | Tree Yoga School`, description: `Meet ${tree.species} and explore ${tree.themes.join(", ").toLowerCase()} through observation and a five-minute practice.` };
+  return pageMetadata(`/trees/${slug}`, `${tree.name}: Energy & Practice | Tree Yoga School`, `Meet ${tree.species} and explore ${tree.themes.join(", ").toLowerCase()} through observation and a five-minute practice.`);
 }
 
 export default async function TreePage({ params }: { params: Promise<{ slug: string }> }) {

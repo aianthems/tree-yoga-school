@@ -1,8 +1,10 @@
+import { pageMetadata } from "../../lib/site-seo";
 import type { Metadata } from "next";
 import SiteHeader from "../components/site-header";
 import { introLessons } from "../../lib/intro-lessons";
 
-export const metadata: Metadata = { title: "Begin Here | Tree Yoga School", description: "Follow a seven-day beginner journey through observation, meditation, gentle movement, and walking, or choose an individual lesson." };
+const pageInfo: Metadata = { title: "Begin Here | Tree Yoga School", description: "Follow a seven-day beginner journey through observation, meditation, gentle movement, and walking, or choose an individual lesson." };
+export const metadata: Metadata = pageMetadata("/begin-here", String(pageInfo.title), String(pageInfo.description));
 
 export default function BeginHere() {
   return (

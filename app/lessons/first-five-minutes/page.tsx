@@ -1,12 +1,14 @@
+import { pageMetadata } from "../../../lib/site-seo";
 import Link from "next/link";
 import { firstPractice } from "../../../lib/first-practice";
 import type { Metadata } from "next";
 import SiteHeader from "../../components/site-header";
 
-export const metadata: Metadata = {
+const pageInfo: Metadata = {
   title: "Your First Five Minutes with a Tree | Tree Yoga School",
   description: "A simple introduction to observing a living tree, with seated and standing options and time to practice away from the screen.",
 };
+export const metadata: Metadata = pageMetadata("/lessons/first-five-minutes", String(pageInfo.title), String(pageInfo.description));
 
 const book = "https://media.aianthems.com/books/tree-yoga-school/tree-yoga-school-ebook.pdf";
 
