@@ -1,0 +1,19 @@
+{
+  "retrieved": "2026-10-09",
+  "registerUrl": "https://experience.arcgis.com/experience/db8a533a6ca34fc89a3df0603b6b2cb4/",
+  "dataUrl": "https://services2.arcgis.com/r6iFVcMJeA4kB4GC/arcgis/rest/services/The_Big_Tree_Program/FeatureServer/0",
+  "sourceSha256": "9203858cd7195c88e7cc5220e46dbab28f2e13279ed1e872cf5216990a2c9b2f",
+  "activeSourceRecords": 159,
+  "includedRecords": 67,
+  "mappedRecords": 66,
+  "mappedCounties": 36,
+  "unmappedIds": [
+    "ia-220"
+  ],
+  "selection": "Current web map layer, Depricated_on IS NULL; Champion_Status='1', explicitly rendered as Champion Tree. Status 2 and 3 are Big Tree runners-up. Older separate spreadsheet is not merged.",
+  "circumference": "Official web-map field configuration labels Circumference__in_ as Circumference (ft). Values converted feet × 12, original text preserved. Published scores never recalculated.",
+  "crown": "Explicit source averages preserved even if inconsistent. Unaveraged diameter pairs retained as text with null numeric crown.",
+  "privacy": "No owner identities, contact details, addresses, directions or exact coordinates included. Explicit private ownership marked false; other access unclassified.",
+  "dates": "Last update retained in notes, not treated as a measurement date. Map service data last edited July 9, 2026.",
+  "geography": "2025 Census national county Gazetteer; whitespace trimmed in county names; missing county remains unmapped."
+}

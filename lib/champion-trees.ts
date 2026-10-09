@@ -34,6 +34,10 @@ export const vtChampionSource = championStates.VT.source;
 export const nhChampionSource = championStates.NH.source;
 export const championSource = championStates.MA.source;
 export const librarySpecies: Record<string, { slug: string; name: string }> = {
+  "Quercus palustris": { slug: "pin-oak", name: "Pin Oak" },
+  "Quercus bicolor": { slug: "swamp-white-oak", name: "Swamp White Oak" },
+  "Acer negundo": { slug: "boxelder", name: "Boxelder" },
+  "Celtis occidentalis": { slug: "hackberry", name: "Hackberry" },
   "Fraxinus pennsylvanica": { slug: "green-ash", name: "Green Ash" },
   "Quercus velutina": { slug: "black-oak", name: "Black Oak" },
   "Liquidambar styraciflua": { slug: "sweetgum", name: "Sweetgum" },

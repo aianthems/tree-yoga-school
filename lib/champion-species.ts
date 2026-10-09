@@ -1,6 +1,8 @@
 import type { ChampionTree } from "./champion-trees";
 
 const familiarNames: Record<string, string> = {
+  "Quercus palustris": "Pin oak", "Quercus bicolor": "Swamp white oak",
+  "Acer negundo": "Boxelder", "Celtis occidentalis": "Hackberry",
   "Fraxinus pennsylvanica": "Green ash",
   "Quercus velutina": "Black oak",
   "Liquidambar styraciflua": "Sweetgum",

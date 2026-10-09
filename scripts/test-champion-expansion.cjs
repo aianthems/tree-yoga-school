@@ -62,7 +62,7 @@ test('Tennessee keeps all source entries and leaves the unmatched county unmappe
 
 test('all twenty added profiles have matching map links and local credited images', () => {
   const { trees } = require('../lib/trees.ts');
-  assert.equal(trees.length, 36);
+  assert.equal(trees.length, 40);
   for (const name of ['Ulmus americana', 'Fraxinus americana', 'Cercis canadensis', 'Taxodium distichum', 'Liriodendron tulipifera', 'Sassafras albidum', 'Nyssa sylvatica', 'Metasequoia glyptostroboides', 'Carpinus caroliniana', 'Carya ovata', 'Acer saccharinum', 'Prunus serotina', 'Ostrya virginiana', 'Betula nigra', 'Juglans nigra', 'Tilia americana', 'Fraxinus pennsylvanica', 'Quercus velutina', 'Liquidambar styraciflua', 'Quercus macrocarpa']) {
     const tree = trees.find(t => t.scientificName === name);
     assert.ok(tree); assert.equal(librarySpecies[name].slug, tree.slug);

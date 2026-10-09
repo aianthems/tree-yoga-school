@@ -1,4 +1,6 @@
 import "server-only";
+import iaRecords from "./data/iowa-champion-trees.json";
+import iaCoordinates from "./data/iowa-county-points.json";
 import mnRecords from "./data/minnesota-champion-trees.json";
 import mnCoordinates from "./data/minnesota-county-points.json";
 import wiRecords from "./data/wisconsin-champion-trees.json";
@@ -58,6 +60,7 @@ import { championStates, type ChampionState } from "./champion-states";
 import { buildChampionDataset } from "./champion-state-data";
 
 const datasets = {
+  IA: { records: iaRecords, coordinates: iaCoordinates },
   MN: { records: mnRecords, coordinates: mnCoordinates },
   WI: { records: wiRecords, coordinates: wiCoordinates },
   OH: { records: ohRecords, coordinates: ohCoordinates },
