@@ -25,7 +25,7 @@ test('South Carolina champions preserve missing values, county precision and sha
   assert.equal(records.filter(t => t.measured === null).length, 12);
   assert.equal(stateNames.SC, 'South Carolina');
   assert.match(sourceDates.SC, /October 7, 2026/);
-  assert.deepEqual(championRegions.southeast.states, ['NC', 'SC', 'TN', 'GA', 'KY', 'AL', 'FL']);
+  assert.deepEqual(championRegions.southeast.states, ['NC', 'SC', 'TN', 'GA', 'KY', 'AL', 'FL', 'AR']);
   for (const t of records) {
     assert.equal(t.status, 'State Champ');
     assert.equal(t.id, `sc-${t.sourceRow}`);
@@ -88,7 +88,7 @@ test("every current record ID survives URL encoding unchanged", () => {
       count++;
     }
   }
-  assert.equal(count, 5502);
+  assert.equal(count, 5627);
 });
 
 const { championSpeciesOptions } = require('../lib/champion-species.ts');

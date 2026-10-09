@@ -7,6 +7,12 @@ export type ChampionStateConfig = {
   source: Readonly<Record<string, string | number>>;
 };
 export const championStates = {
+  AR: { name: "Arkansas", sourceDate: "Arkansas Forestry register · retrieved October 9, 2026 · edition not stated", recordFiles: ["arkansas-champion-trees.json"], coordinateFile: "arkansas-county-points.json", recordPrecision: "county", coordinatePrecision: "county", recordOrder: -3, expectedRecords: 125, expectedMapped: 124, unmappedIds: ["ar-43890"], importer: "import-arkansas-champions.py", auditFile: "arkansas-import-audit.json", source: {
+    registerUrl: "https://agriculture.arkansas.gov/forests/urban-community-forestry/champion-trees/search-champion-trees/",
+    programUrl: "https://agriculture.arkansas.gov/forests/urban-community-forestry/champion-trees/",
+    retrieved: "October 9, 2026", count: 125,
+    geographyUrl: "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_counties_national.zip",
+  } },
   MO: { name: "Missouri", sourceDate: "MDC register · retrieved October 9, 2026 · update year unconfirmed", recordFiles: ["missouri-champion-trees.json"], coordinateFile: "missouri-county-points.json", recordPrecision: "county", coordinatePrecision: "county", recordOrder: -2, expectedRecords: 151, expectedMapped: 151, unmappedIds: [], importer: "import-missouri-champions.py", auditFile: "missouri-import-audit.json", source: {
     registerUrl: "https://gisblue.mdc.mo.gov/arcgis/rest/services/Land_Cover/Champion_Trees_List/MapServer/0",
     retrieved: "October 9, 2026", metadataCreated: "December 2, 2021", count: 151,
@@ -195,4 +201,4 @@ export const championStates = {
 export type ChampionState = keyof typeof championStates;
 export const stateNames = Object.fromEntries(Object.entries(championStates).map(([state, config]) => [state, config.name])) as Record<ChampionState, string>;
 export const sourceDates = Object.fromEntries(Object.entries(championStates).map(([state, config]) => [state, config.sourceDate])) as Record<ChampionState, string>;
-export const championRegions = { midwest: { name: "Midwest", states: ["IN", "IL", "MI", "OH", "WI", "MN", "IA", "MO"] }, southeast: { name: "Southeast", states: ["NC", "SC", "TN", "GA", "KY", "AL", "FL"] }, "new-england": { name: "New England", states: ["MA", "NH", "VT", "ME", "RI", "CT"] }, northeast: { name: "Northeast", states: ["MA", "NH", "VT", "ME", "RI", "CT", "NY", "NJ", "PA"] }, "mid-atlantic": { name: "Mid-Atlantic", states: ["NY", "NJ", "PA", "DE", "MD", "VA", "WV"] } };
+export const championRegions = { midwest: { name: "Midwest", states: ["IN", "IL", "MI", "OH", "WI", "MN", "IA", "MO"] }, southeast: { name: "Southeast", states: ["NC", "SC", "TN", "GA", "KY", "AL", "FL", "AR"] }, "new-england": { name: "New England", states: ["MA", "NH", "VT", "ME", "RI", "CT"] }, northeast: { name: "Northeast", states: ["MA", "NH", "VT", "ME", "RI", "CT", "NY", "NJ", "PA"] }, "mid-atlantic": { name: "Mid-Atlantic", states: ["NY", "NJ", "PA", "DE", "MD", "VA", "WV"] } };
