@@ -7,6 +7,11 @@ export type ChampionStateConfig = {
   source: Readonly<Record<string, string | number>>;
 };
 export const championStates = {
+  KS: { name: "Kansas", sourceDate: "Kansas Forest Service register · retrieved October 9, 2026 · edition not stated", recordFiles: ["kansas-champion-trees.json"], coordinateFile: "kansas-place-points.json", recordPrecision: "preserve", coordinatePrecision: "place", recordOrder: -4, expectedRecords: 148, expectedMapped: 134, unmappedIds: ["ks-6c2f2379fef8", "ks-18734471e94f", "ks-49375c98adb9", "ks-0882b5f58384", "ks-496087cb5923", "ks-87aadd949577", "ks-61dc25cbe176", "ks-1a8c76d79f1d", "ks-df548f4b9651", "ks-b3df858bdb60", "ks-7c1b206f86dd", "ks-220868376007", "ks-c05937288fb6", "ks-6bfa18cc8e4e"], importer: "import-kansas-champions.py", auditFile: "kansas-import-audit.json", source: {
+    registerUrl: "https://www.kansasforests.org/programs/championtreelist.html",
+    retrieved: "October 9, 2026", count: 148,
+    geographyUrl: "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_20.txt",
+  } },
   AR: { name: "Arkansas", sourceDate: "Arkansas Forestry register · retrieved October 9, 2026 · edition not stated", recordFiles: ["arkansas-champion-trees.json"], coordinateFile: "arkansas-county-points.json", recordPrecision: "county", coordinatePrecision: "county", recordOrder: -3, expectedRecords: 125, expectedMapped: 124, unmappedIds: ["ar-43890"], importer: "import-arkansas-champions.py", auditFile: "arkansas-import-audit.json", source: {
     registerUrl: "https://agriculture.arkansas.gov/forests/urban-community-forestry/champion-trees/search-champion-trees/",
     programUrl: "https://agriculture.arkansas.gov/forests/urban-community-forestry/champion-trees/",
@@ -201,4 +206,4 @@ export const championStates = {
 export type ChampionState = keyof typeof championStates;
 export const stateNames = Object.fromEntries(Object.entries(championStates).map(([state, config]) => [state, config.name])) as Record<ChampionState, string>;
 export const sourceDates = Object.fromEntries(Object.entries(championStates).map(([state, config]) => [state, config.sourceDate])) as Record<ChampionState, string>;
-export const championRegions = { midwest: { name: "Midwest", states: ["IN", "IL", "MI", "OH", "WI", "MN", "IA", "MO"] }, southeast: { name: "Southeast", states: ["NC", "SC", "TN", "GA", "KY", "AL", "FL", "AR"] }, "new-england": { name: "New England", states: ["MA", "NH", "VT", "ME", "RI", "CT"] }, northeast: { name: "Northeast", states: ["MA", "NH", "VT", "ME", "RI", "CT", "NY", "NJ", "PA"] }, "mid-atlantic": { name: "Mid-Atlantic", states: ["NY", "NJ", "PA", "DE", "MD", "VA", "WV"] } };
+export const championRegions = { midwest: { name: "Midwest", states: ["IN", "IL", "MI", "OH", "WI", "MN", "IA", "MO", "KS"] }, southeast: { name: "Southeast", states: ["NC", "SC", "TN", "GA", "KY", "AL", "FL", "AR"] }, "new-england": { name: "New England", states: ["MA", "NH", "VT", "ME", "RI", "CT"] }, northeast: { name: "Northeast", states: ["MA", "NH", "VT", "ME", "RI", "CT", "NY", "NJ", "PA"] }, "mid-atlantic": { name: "Mid-Atlantic", states: ["NY", "NJ", "PA", "DE", "MD", "VA", "WV"] } };

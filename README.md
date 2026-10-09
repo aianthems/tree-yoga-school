@@ -500,3 +500,11 @@ These three destinations are not asserted to match a current champion record. `T
 All 26 states use `lib/champion-states.ts` for names, provenance, source dates, saved dataset paths, precision rules and reviewed import baselines. `lib/champion-state-data.ts` normalizes records and coordinate prefixes once for the server loader and validation. Existing source aliases and state-specific warnings retain their behavior.
 
 Run `npm run validate:champions` for every state, or `npm run validate:champions -- --state MN` for one source refresh. `npm run build` runs validation automatically before building. See `docs/champion-state-expansion.md` for the complete import and release workflow.
+
+## Kansas champion register · October 9, 2026
+
+All 148 rows from the Kansas Forest Service table are included, with four explicit co-champions and every repeated species. Published names, measurements, scores, nomination years and last-measured dates are retained. Source spelling is not silently corrected, and scores do not determine additional champion designations. No nominator names, private addresses or individual-tree coordinates are imported; visiting access remains unclassified.
+
+134 records match 60 approximate Census place points. Fourteen records in six unmatched places remain searchable without markers. The source does not provide counties, and none are inferred. Census points represent places, not tree locations. Kansas joins the Midwest filter, state selection, species search, shareable links and `/api/champion-trees/KS`. Total coverage: 5,775 records across 30 states.
+
+Reproduce with `python scripts/import-kansas-champions.py REGISTER.html PLACES.txt`, using the official register and 2025 Kansas Census place Gazetteer URLs in the state registry. The audit records both source hashes, reviewed counts and explicit unmapped IDs. Changed counts, identities or units require source review before refreshing. Run `npm run validate:champions`, `npm test`, and `npm run build`.
