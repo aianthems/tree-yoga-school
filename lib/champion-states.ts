@@ -7,6 +7,11 @@ export type ChampionStateConfig = {
   source: Readonly<Record<string, string | number>>;
 };
 export const championStates = {
+  TX: { name: "Texas", sourceDate: "Texas A&M Forest Service registry · retrieved October 9, 2026", recordFiles: ["texas-champion-trees.json"], coordinateFile: "texas-county-points.json", recordPrecision: "county", coordinatePrecision: "county", recordOrder: -6, expectedRecords: 232, expectedMapped: 232, unmappedIds: [], importer: "import-texas-champions.py", auditFile: "texas-import-audit.json", source: {
+    registerUrl: "https://texasforestinfo.tamu.edu/BigTreeRegistry/", apiUrl: "https://texasforestinfo.tamu.edu/BigTreeRegistry/Home/GetAllTrees",
+    retrieved: "October 9, 2026", count: 232,
+    geographyUrl: "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_counties_national.zip",
+  } },
   NE: { name: "Nebraska", sourceDate: "Nebraska Forest Service register · retrieved October 9, 2026 · edition not stated", recordFiles: ["nebraska-champion-trees.json"], coordinateFile: "nebraska-place-points.json", recordPrecision: "preserve", coordinatePrecision: "place", recordOrder: -5, expectedRecords: 90, expectedMapped: 83, unmappedIds: ["ne-8982e68aca53", "ne-83b3914dc66e", "ne-d06c3d2c17c2", "ne-e1846026a65d", "ne-b4312e442d1f", "ne-2b7649f998d4", "ne-941f46d0a7f4"], importer: "import-nebraska-champions.py", auditFile: "nebraska-import-audit.json", source: {
     registerUrl: "https://nfs.unl.edu/registry/", programUrl: "https://nfs.unl.edu/champions/",
     retrieved: "October 9, 2026", count: 90,
@@ -211,4 +216,4 @@ export const championStates = {
 export type ChampionState = keyof typeof championStates;
 export const stateNames = Object.fromEntries(Object.entries(championStates).map(([state, config]) => [state, config.name])) as Record<ChampionState, string>;
 export const sourceDates = Object.fromEntries(Object.entries(championStates).map(([state, config]) => [state, config.sourceDate])) as Record<ChampionState, string>;
-export const championRegions = { midwest: { name: "Midwest", states: ["IN", "IL", "MI", "OH", "WI", "MN", "IA", "MO", "KS", "NE"] }, southeast: { name: "Southeast", states: ["NC", "SC", "TN", "GA", "KY", "AL", "FL", "AR"] }, "new-england": { name: "New England", states: ["MA", "NH", "VT", "ME", "RI", "CT"] }, northeast: { name: "Northeast", states: ["MA", "NH", "VT", "ME", "RI", "CT", "NY", "NJ", "PA"] }, "mid-atlantic": { name: "Mid-Atlantic", states: ["NY", "NJ", "PA", "DE", "MD", "VA", "WV"] } };
+export const championRegions = { "south-central": { name: "South Central", states: ["TX"] }, midwest: { name: "Midwest", states: ["IN", "IL", "MI", "OH", "WI", "MN", "IA", "MO", "KS", "NE"] }, southeast: { name: "Southeast", states: ["NC", "SC", "TN", "GA", "KY", "AL", "FL", "AR"] }, "new-england": { name: "New England", states: ["MA", "NH", "VT", "ME", "RI", "CT"] }, northeast: { name: "Northeast", states: ["MA", "NH", "VT", "ME", "RI", "CT", "NY", "NJ", "PA"] }, "mid-atlantic": { name: "Mid-Atlantic", states: ["NY", "NJ", "PA", "DE", "MD", "VA", "WV"] } };
