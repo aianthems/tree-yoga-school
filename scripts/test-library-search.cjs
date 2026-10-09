@@ -31,7 +31,7 @@ test('search accepts common names, botanical names, aliases, whitespace, and pun
   assert.deepEqual(slugs('redbud', 'Joy'), ['eastern-redbud']);
   assert.deepEqual(slugs('tupelo'), ['blackgum']);
   assert.deepEqual(slugs('maple'), ['maple', 'red-maple', 'silver-maple']);
-  assert.deepEqual(slugs('Acer'), ['maple', 'red-maple', 'silver-maple']);
+  assert.deepEqual(slugs('Acer'), ['boxelder', 'maple', 'red-maple', 'silver-maple']);
 });
 test('theme and name intersect, empty results recover, and reset restores original order', () => {
   assert.deepEqual(slugs('musclewood', 'Quiet Strength'), ['american-hornbeam']);

@@ -1,3 +1,4 @@
+import { iowaLibraryTrees } from "./tree-library-iowa";
 import { mapPracticeTrees } from "./tree-library-map";
 import { growthPracticeTrees } from "./tree-library-growth";
 import { newPracticeTrees } from "./tree-library-new";
@@ -840,6 +841,7 @@ const originalTrees: readonly Tree[] = [
 ];
 
 export const trees: readonly Tree[] = [
+  ...iowaLibraryTrees,
   ...originalTrees.map(tree => ({ ...tree, detailImages: treeDetailImages[tree.slug] ?? tree.detailImages })),
   ...additionalTrees,
   ...tennesseeTrees,
