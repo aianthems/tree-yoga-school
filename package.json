@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "validate:champions": "node scripts/validate-champion-imports.cjs",
+    "test": "node --test scripts/test-*.cjs",
+    "prebuild": "npm run validate:champions"
   },
   "dependencies": {
     "leaflet": "1.9.4",

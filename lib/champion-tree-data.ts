@@ -53,66 +53,42 @@ import nhRecords from "./data/new-hampshire-champion-trees.json";
 import nhCoordinates from "./data/new-hampshire-town-points.json";
 import coordinates from "./data/massachusetts-town-centroids.json";
 
-import { townKey, stateNames, type ChampionState, type ChampionTree } from "./champion-trees";
-export const championTrees: readonly ChampionTree[] = [
-  ...mnRecords.map(tree => ({ ...tree, state: "MN" as const, mapPrecision: "county" as const })),
-  ...wiRecords.map(tree => ({ ...tree, state: "WI" as const, mapPrecision: "county" as const })),
-  ...ohRecords.map(tree => ({ ...tree, state: "OH" as const, mapPrecision: "county" as const })),
-  ...miRecords.map(tree => ({ ...tree, state: "MI" as const, mapPrecision: "county" as const })),
-  ...ilRecords.map(tree => ({ ...tree, state: "IL" as const, mapPrecision: "county" as const })),
-  ...flRecords.map(tree => ({ ...tree, state: "FL" as const, mapPrecision: "county" as const })),
-  ...alRecords.map(tree => ({ ...tree, state: "AL" as const, mapPrecision: "county" as const })),
-  ...inRecords.map(tree => ({ ...tree, state: "IN" as const, mapPrecision: "county" as const })),
-  ...kyRecords.map(tree => ({ ...tree, state: "KY" as const, mapPrecision: "county" as const })),
-  ...gaRecords.map(tree => ({ ...tree, state: "GA" as const, mapPrecision: "county" as const })),
-  ...tnRecords.map(tree => ({ ...tree, state: "TN" as const, mapPrecision: "county" as const })),
-  ...scRecords.map(tree => ({ ...tree, state: "SC" as const, mapPrecision: "county" as const })),
-  ...[...ncRecords, ...ncCoRecords].map(tree => ({ ...tree, state: "NC" as const, mapPrecision: "county" as const })),
-  ...wvRecords.map(tree => ({ ...tree, state: "WV" as const, mapPrecision: "county" as const })),
-  ...vaRecords.map(tree => ({ ...tree, state: "VA" as const, mapPrecision: "county" as const })),
-  ...mdRecords.map(tree => ({ ...tree, state: "MD" as const, mapPrecision: "county" as const })),
-  ...deRecords.map(tree => ({ ...tree, state: "DE" as const, mapPrecision: tree.mapPrecision as "county" | undefined })),
-  ...paRecords.map(tree => ({ ...tree, state: "PA" as const, mapPrecision: "county" as const })),
-  ...njRecords.map(tree => ({ ...tree, state: "NJ" as const, mapPrecision: tree.mapPrecision as "county" | undefined })),
-  ...nyRecords.map(tree => ({ ...tree, state: "NY" as const, mapPrecision: "county" as const })),
-  ...records.map(tree => ({ ...tree, state: "MA" as const })),
-  ...nhRecords.map(tree => ({ ...tree, state: "NH" as const })),
-  ...vtRecords.map(tree => ({ ...tree, state: "VT" as const })),
-  ...ctRecords.map(tree => ({ ...tree, state: "CT" as const })),
-  ...riRecords.map(tree => ({ ...tree, state: "RI" as const })),
-  ...meRecords.map(tree => ({ ...tree, state: "ME" as const })),
-];
-export const townCoordinates: Record<string, { lat: number; lng: number }> = Object.fromEntries([
-  ...Object.entries(mnCoordinates).map(([county, point]) => [`MN:county:${county}`, point]),
-  ...Object.entries(wiCoordinates).map(([county, point]) => [`WI:county:${county}`, point]),
-  ...Object.entries(ohCoordinates).map(([county, point]) => [`OH:county:${county}`, point]),
-  ...Object.entries(miCoordinates).map(([county, point]) => [`MI:county:${county}`, point]),
-  ...Object.entries(ilCoordinates).map(([county, point]) => [`IL:county:${county}`, point]),
-  ...Object.entries(flCoordinates).map(([county, point]) => [`FL:county:${county}`, point]),
-  ...Object.entries(alCoordinates).map(([county, point]) => [`AL:county:${county}`, point]),
-  ...Object.entries(inCoordinates).map(([county, point]) => [`IN:county:${county}`, point]),
-  ...Object.entries(kyCoordinates).map(([county, point]) => [`KY:county:${county}`, point]),
-  ...Object.entries(gaCoordinates).map(([county, point]) => [`GA:county:${county}`, point]),
-  ...Object.entries(tnCoordinates).map(([county, point]) => [`TN:county:${county}`, point]),
-  ...Object.entries(scCoordinates).map(([county, point]) => [`SC:county:${county}`, point]),
-  ...Object.entries(ncCoordinates).map(([county, point]) => [`NC:county:${county}`, point]),
-  ...Object.entries(wvCoordinates).map(([county, point]) => [`WV:county:${county}`, point]),
-  ...Object.entries(vaCoordinates).map(([county, point]) => [`VA:county:${county}`, point]),
-  ...Object.entries(mdCoordinates).map(([county, point]) => [`MD:county:${county}`, point]),
-  ...Object.entries(deCoordinates).map(([place, point]) => [`DE:${place}`, point]),
-  ...Object.entries(paCoordinates).map(([county, point]) => [`PA:county:${county}`, point]),
-  ...Object.entries(njCoordinates).map(([place, point]) => [`NJ:${place}`, point]),
-  ...Object.entries(nyCoordinates).map(([county, point]) => [`NY:county:${county}`, point]),
-  ...Object.entries(coordinates).map(([town, point]) => [`MA:${town}`, point]),
-  ...Object.entries(nhCoordinates).map(([town, point]) => [`NH:${town}`, point]),
-  ...Object.entries(vtCoordinates).map(([town, point]) => [`VT:${town}`, point]),
-  ...Object.entries(ctCoordinates).map(([town, point]) => [`CT:${town}`, point]),
-  ...Object.entries(riCoordinates).map(([town, point]) => [`RI:${town}`, point]),
-  ...Object.entries(meCoordinates).map(([town, point]) => [`ME:${town}`, point]),
-]);
+import { townKey, type ChampionTree } from "./champion-trees";
+import { championStates, type ChampionState } from "./champion-states";
+import { buildChampionDataset } from "./champion-state-data";
 
-export const championManifest = Object.entries(stateNames).map(([state, name]) => {
- const trees = championTrees.filter(t => t.state === state);
- return { state: state as ChampionState, name, listed: trees.length, mapped: trees.filter(t => Boolean(townCoordinates[townKey(t)])).length };
+const datasets = {
+  MN: { records: mnRecords, coordinates: mnCoordinates },
+  WI: { records: wiRecords, coordinates: wiCoordinates },
+  OH: { records: ohRecords, coordinates: ohCoordinates },
+  MI: { records: miRecords, coordinates: miCoordinates },
+  IL: { records: ilRecords, coordinates: ilCoordinates },
+  MA: { records: records, coordinates: coordinates },
+  NH: { records: nhRecords, coordinates: nhCoordinates },
+  VT: { records: vtRecords, coordinates: vtCoordinates },
+  ME: { records: meRecords, coordinates: meCoordinates },
+  RI: { records: riRecords, coordinates: riCoordinates },
+  CT: { records: ctRecords, coordinates: ctCoordinates },
+  NY: { records: nyRecords, coordinates: nyCoordinates },
+  NJ: { records: njRecords, coordinates: njCoordinates },
+  PA: { records: paRecords, coordinates: paCoordinates },
+  DE: { records: deRecords, coordinates: deCoordinates },
+  MD: { records: mdRecords, coordinates: mdCoordinates },
+  VA: { records: vaRecords, coordinates: vaCoordinates },
+  WV: { records: wvRecords, coordinates: wvCoordinates },
+  NC: { records: [...ncRecords,...ncCoRecords], coordinates: ncCoordinates },
+  SC: { records: scRecords, coordinates: scCoordinates },
+  TN: { records: tnRecords, coordinates: tnCoordinates },
+  GA: { records: gaRecords, coordinates: gaCoordinates },
+  KY: { records: kyRecords, coordinates: kyCoordinates },
+  IN: { records: inRecords, coordinates: inCoordinates },
+  AL: { records: alRecords, coordinates: alCoordinates },
+  FL: { records: flRecords, coordinates: flCoordinates },
+} satisfies Record<ChampionState, { records: readonly unknown[]; coordinates: Record<string, { lat: number; lng: number }> }>;
+const dataset = buildChampionDataset(datasets);
+export const championTrees: readonly ChampionTree[] = dataset.trees;
+export const townCoordinates = dataset.coordinates;
+export const championManifest = Object.entries(championStates).map(([state, config]) => {
+  const trees = championTrees.filter(tree => tree.state === state);
+  return { state: state as ChampionState, name: config.name, listed: trees.length, mapped: trees.filter(tree => Boolean(townCoordinates[townKey(tree)])).length };
 });
-
