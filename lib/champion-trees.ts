@@ -1,4 +1,4 @@
-export type ChampionState = "OH" | "MI" | "IL" | "MA" | "NH" | "VT" | "ME" | "RI" | "CT" | "NY" | "NJ" | "PA" | "DE" | "MD" | "VA" | "WV" | "NC" | "SC" | "TN" | "GA" | "KY" | "IN" | "AL" | "FL";
+export type ChampionState = "WI" | "OH" | "MI" | "IL" | "MA" | "NH" | "VT" | "ME" | "RI" | "CT" | "NY" | "NJ" | "PA" | "DE" | "MD" | "VA" | "WV" | "NC" | "SC" | "TN" | "GA" | "KY" | "IN" | "AL" | "FL";
 export type ChampionTree = {
   circumferenceFeet?: number | null; yearCrowned?: string; remeasureDue?: string; rankingDate?: string | null; sourcePage?: number; mapPrecision?: "county"; sourceCounty?: string; crownPoints?: number; crownUnitUncertain?: boolean; sourceReviewNotes?: string[];
   id: string; state: ChampionState; publicAccess?: boolean; visibleFromPublic?: string | null; accessDetails?: string | null; publicCoordinates?: { lat: number; lng: number } | null; yearListed?: string | null; mapTown?: string; nominated?: string; status?: string; nationalFlag?: string; sourceUrl?: string; sourceRow: number; sourceTreeId?: string | null; scientificName: string; commonName: string;
@@ -6,7 +6,7 @@ export type ChampionTree = {
   circumference: number | null; height: number | null; crown: number | null;
   points: number | null; notes: string | null;
 };
-export const stateNames = { OH: "Ohio", MI: "Michigan", IL: "Illinois", MA: "Massachusetts", NH: "New Hampshire", VT: "Vermont", ME: "Maine", RI: "Rhode Island", CT: "Connecticut", NY: "New York", NJ: "New Jersey", PA: "Pennsylvania", DE: "Delaware", MD: "Maryland", VA: "Virginia", WV: "West Virginia", NC: "North Carolina", SC: "South Carolina", TN: "Tennessee", GA: "Georgia", KY: "Kentucky", IN: "Indiana", AL: "Alabama", FL: "Florida" };
+export const stateNames = { WI: "Wisconsin", OH: "Ohio", MI: "Michigan", IL: "Illinois", MA: "Massachusetts", NH: "New Hampshire", VT: "Vermont", ME: "Maine", RI: "Rhode Island", CT: "Connecticut", NY: "New York", NJ: "New Jersey", PA: "Pennsylvania", DE: "Delaware", MD: "Maryland", VA: "Virginia", WV: "West Virginia", NC: "North Carolina", SC: "South Carolina", TN: "Tennessee", GA: "Georgia", KY: "Kentucky", IN: "Indiana", AL: "Alabama", FL: "Florida" };
 export const flChampionSource = {
   registerUrl: "https://ffs.fdacs.gov/ChampionTrees/home.mvc/Index",
   programUrl: "https://www.fdacs.gov/Forest-Wildfire/Our-Forests/Florida-Champion-Trees",
@@ -209,10 +209,10 @@ export function formatMeasurement(value: number | null) {
   return value === null ? "Not listed" : new Intl.NumberFormat("en-US", { maximumFractionDigits: 5 }).format(value);
 }
 
-export const sourceDates: Record<ChampionState, string> = { OH: "Complete native and non-native lists · screenshots October 9, 2026", MI: "MBS July 14, 2026 sheet · score-based leaders · retrieved October 9, 2026", IL: "Illinois Extension register · retrieved October 8, 2026", FL: "Florida Forest Service register · retrieved October 8, 2026", AL: "AFC 2025 edition · retrieved October 8, 2026", IN: "Indiana DNR current list · retrieved October 8, 2026 · edition not stated", KY: "Kentucky Forestry register · retrieved October 7, 2026 · edition not stated", GA: "GFC register · retrieved October 7, 2026 · edition not stated", TN: "UT current list · retrieved October 7, 2026 · edition not stated", SC: "Clemson database · retrieved October 7, 2026", NC: "September 2026 edition · retrieved October 7, 2026", WV: "2025 workbooks · highest published scores · retrieved October 7, 2026", VA: "Retrieved October 7, 2026 · live register snapshot", MD: "Retrieved October 6, 2026 · live register snapshot", MA: "May 2026 edition", NH: "Retrieved October 6, 2026 · edition not stated", VT: "Retrieved October 6, 2026 · edition not stated", ME: "2020 edition · retrieved October 6, 2026", RI: "March 24, 2026 edition", CT: "Retrieved October 6, 2026 · edition not stated", NY: "January 31, 2025 edition", NJ: "Data edited March 19, 2026 · retrieved October 6, 2026", PA: "October 2026 extraction · score-based leaders", DE: "October 6, 2026 GIS snapshot · five-point rule from 2019" };
+export const sourceDates: Record<ChampionState, string> = { WI: "DNR champion map · retrieved October 9, 2026 · program on hold", OH: "Complete native and non-native lists · screenshots October 9, 2026", MI: "MBS July 14, 2026 sheet · score-based leaders · retrieved October 9, 2026", IL: "Illinois Extension register · retrieved October 8, 2026", FL: "Florida Forest Service register · retrieved October 8, 2026", AL: "AFC 2025 edition · retrieved October 8, 2026", IN: "Indiana DNR current list · retrieved October 8, 2026 · edition not stated", KY: "Kentucky Forestry register · retrieved October 7, 2026 · edition not stated", GA: "GFC register · retrieved October 7, 2026 · edition not stated", TN: "UT current list · retrieved October 7, 2026 · edition not stated", SC: "Clemson database · retrieved October 7, 2026", NC: "September 2026 edition · retrieved October 7, 2026", WV: "2025 workbooks · highest published scores · retrieved October 7, 2026", VA: "Retrieved October 7, 2026 · live register snapshot", MD: "Retrieved October 6, 2026 · live register snapshot", MA: "May 2026 edition", NH: "Retrieved October 6, 2026 · edition not stated", VT: "Retrieved October 6, 2026 · edition not stated", ME: "2020 edition · retrieved October 6, 2026", RI: "March 24, 2026 edition", CT: "Retrieved October 6, 2026 · edition not stated", NY: "January 31, 2025 edition", NJ: "Data edited March 19, 2026 · retrieved October 6, 2026", PA: "October 2026 extraction · score-based leaders", DE: "October 6, 2026 GIS snapshot · five-point rule from 2019" };
 export type ChampionManifest = { state: ChampionState; name: string; listed: number; mapped: number }[];
 export type ChampionPayload = { trees: ChampionTree[]; coordinates: Record<string, { lat: number; lng: number }> };
-export const championRegions = { midwest: { name: "Midwest", states: ["IN", "IL", "MI", "OH"] }, southeast: { name: "Southeast", states: ["NC", "SC", "TN", "GA", "KY", "AL", "FL"] }, "new-england": { name: "New England", states: ["MA", "NH", "VT", "ME", "RI", "CT"] }, northeast: { name: "Northeast", states: ["MA", "NH", "VT", "ME", "RI", "CT", "NY", "NJ", "PA"] }, "mid-atlantic": { name: "Mid-Atlantic", states: ["NY", "NJ", "PA", "DE", "MD", "VA", "WV"] } };
+export const championRegions = { midwest: { name: "Midwest", states: ["IN", "IL", "MI", "OH", "WI"] }, southeast: { name: "Southeast", states: ["NC", "SC", "TN", "GA", "KY", "AL", "FL"] }, "new-england": { name: "New England", states: ["MA", "NH", "VT", "ME", "RI", "CT"] }, northeast: { name: "Northeast", states: ["MA", "NH", "VT", "ME", "RI", "CT", "NY", "NJ", "PA"] }, "mid-atlantic": { name: "Mid-Atlantic", states: ["NY", "NJ", "PA", "DE", "MD", "VA", "WV"] } };
 
 export const kyChampionSource = { registerUrl: "https://eec.ky.gov/Natural-Resources/Forestry/ky-champion-trees/Pages/default.aspx", retrieved: "October 7, 2026", geographyUrl: "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_counties_national.zip" };
 
@@ -242,4 +242,11 @@ export const ohChampionSource = {
   nonNativeCount: 126,
   mappedCount: 252,
   countyCount: 67,
+};
+
+export const wiChampionSource = {
+ registerUrl: "https://experience.arcgis.com/experience/0f303a8067c1493aa62eb764375f64fe",
+ mapUrl: "https://experience.arcgis.com/experience/3baffe32b8c246dc8848bde36e583d73",
+ programUrl: "https://dnr.wisconsin.gov/topic/forests/championtrees",
+ retrieved: "October 9, 2026", count: 57, countyCount: 21,
 };
