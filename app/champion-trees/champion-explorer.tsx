@@ -130,7 +130,7 @@ export default function ChampionExplorer({ manifest }: { manifest: ChampionManif
       if (!disposed) setCache({ ...cached.current });
     }, code => {
       if (!disposed) setFailedStates(current => [...current, code]);
-    });
+    }, () => !disposed);
     return () => { disposed = true; };
   }, [requestKey, retry]);
   const missingStates = requestedStates.filter(code => !cache[code]);
