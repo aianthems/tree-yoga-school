@@ -118,22 +118,30 @@ test('familiar species names group exact botanical categories without merging cu
 test('visit guides resolve to the intended existing trees and real practice routes', () => {
   const dataDir = path.join(__dirname, '../lib/data');
   const records = fs.readdirSync(dataDir).filter(name => name.endsWith('champion-trees.json')).flatMap(name => JSON.parse(fs.readFileSync(path.join(dataDir, name), 'utf8')));
-  assert.equal(treeVisits.length, 8);
-  assert.equal(new Set(treeVisits.map(v => v.slug)).size, 8);
+  assert.equal(treeVisits.length, 11);
+  assert.equal(new Set(treeVisits.map(v => v.slug)).size, 11);
+  assert.equal(treeVisits.filter(v => v.championId).length, 8);
+  assert.deepEqual(treeVisits.filter(v => !v.championId).map(v => v.state), ["SC", "FL", "IL"]);
   for (const visit of treeVisits) {
     for (const field of ['arrival', 'walking', 'access', 'pause', 'kind', 'checked']) assert.ok(visit[field], `${visit.slug}: ${field}`);
     const record = records.find(tree => tree.id === visit.championId);
-    assert.ok(record, visit.championId);
-    assert.equal(record.scientificName, visit.scientificName);
-    assert.equal(record.state || "MA", visit.state);
+    if (visit.championId) {
+      assert.ok(record, visit.championId);
+      assert.equal(record.scientificName, visit.scientificName);
+      assert.equal(record.state || "MA", visit.state);
+    } else {
+      assert.ok(Object.hasOwn(require("../lib/champion-trees.ts").stateNames, visit.state));
+      assert.equal(visit.checked, "2026-10-09");
+    }
     assert.ok(visit.sources.length >= 2);
     if (visit.practice.href.startsWith('/trees/')) {
       const slug = visit.practice.href.split('/')[2].split('#')[0];
       assert.ok(require('../lib/trees.ts').trees.some(t => t.slug === slug));
       assert.ok(visit.practice.href.endsWith('#practice'));
     } else assert.equal(visit.practice.href, '/lessons/first-five-minutes');
-    const selection = read(championHref({ state: visit.state, selectedId: visit.championId }));
-    assert.equal(selection.selectedId, visit.championId);
+    const selection = read(championHref(visit.championId ? { state: visit.state, selectedId: visit.championId } : { state: visit.state }));
+    if (visit.championId) assert.equal(selection.selectedId, visit.championId);
+    else { assert.equal(selection.selectedId, null); assert.equal(selection.species, ""); }
     assert.equal(selection.state, visit.state);
     for (const source of visit.sources) if (source.href.startsWith('/')) assert.ok(fs.existsSync(path.join(__dirname, '../public', source.href)));
   }

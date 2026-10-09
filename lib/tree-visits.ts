@@ -1,13 +1,73 @@
 import type { ChampionState } from "./champion-trees";
 
 export type TreeVisit = {
-  slug: string; championId: string; state: ChampionState; name: string; scientificName: string;
+  slug: string; championId?: string; state: ChampionState; name: string; scientificName: string;
   place: string; kind: string; arrival: string; walking: string; access: string; pause: string; checked: string;
   sources: { label: string; href: string }[];
   practice: { title: string; text: string; href: string; label: string };
 };
 
 export const treeVisits: TreeVisit[] = [
+  {
+    slug: "angel-oak", state: "SC", name: "Angel Oak", scientificName: "Quercus virginiana",
+    place: "Angel Oak Park · Johns Island, South Carolina", kind: "Public park visit",
+    arrival: "Arrive at 3688 Angel Oak Road on Johns Island, using the City of Charleston's directions link. Follow the signed entrance and designated parking. The city pages do not describe parking capacity or a measured parking-to-tree route.",
+    walking: "Explore the park around the spreading live oak from permitted viewpoints. The city lists benches and picnic facilities, but does not document a step-free route to the tree. Check ground conditions on arrival and keep clear of roots and low branches.",
+    access: "Admission is free. Posted city hours are Monday–Saturday, 9 a.m.–5 p.m., and Sunday, 1–5 p.m.; last entry is 4:50 p.m. The park is closed on holidays. Food, drinks, blankets, props, and tripods are not allowed on or around the tree. Check the city pages for current notices before travelling.",
+    pause: "Use a permitted bench or a stable viewpoint with room for others to pass. Keep belongings away from the tree and follow staff instructions; let a distant view of the limbs be enough.",
+    checked: "2026-10-09",
+    sources: [
+      { label: "City of Charleston · park hours and facilities", href: "https://www.charleston-sc.gov/facilities/facility/details/Angel-Oak-Park-7" },
+      { label: "City of Charleston · directions, holidays and tree rules", href: "https://www.charleston-sc.gov/153/Angel-Oak" },
+    ],
+    practice: {
+      title: "Let the whole scene in.",
+      text: "Choose one curve in a branch, then include the space around it. Notice a line, a texture, and an opening in the crown. Breathe naturally, letting observation come before any meaning you give the tree.",
+      href: "/lessons/first-five-minutes", label: "Begin an observation practice",
+    },
+  },
+  {
+    slug: "lady-liberty-cypress", state: "FL", name: "Lady Liberty at Big Tree Park", scientificName: "Taxodium distichum",
+    place: "Big Tree Park · Longwood, Florida", kind: "Public park and boardwalk visit",
+    arrival: "Use Big Tree Park's entrance at 761 General Hutchison Parkway in Longwood; the county trail page spells the road Hutchinson. Use the park's designated parking and signs for the trees. The county lists restrooms, a water fountain, picnic facilities, and a playground at this trailhead.",
+    walking: "Follow the park's signed nature walk and boardwalk through the hammock to Lady Liberty. The county does not publish a measured parking-to-tree distance in the reviewed visitor pages. Its 2020 accessibility report lists accessible parking and a sidewalk at the playground; it does not establish the current condition of the entire route to the tree. Confirm the approach and any boardwalk closures with park staff.",
+    access: "The county's parks brochure lists Big Tree Park and Trailhead as open 8 a.m. to sunset. A separate entry fee is not stated in the reviewed county information. Check current park notices before travelling. Lady Liberty is the living bald cypress described by Seminole County Tourism; the original Senator tree was lost to fire in 2012.",
+    pause: "Pause at a permitted viewpoint beside the established route, leaving the boardwalk clear. Stay out of the wetland and behind any protective barriers; use your usual supports and a comfortable viewing angle.",
+    checked: "2026-10-09",
+    sources: [
+      { label: "Seminole County · Big Tree Park and boardwalk", href: "https://www.seminolecountyfl.gov/locations/location-info/big-tree-park" },
+      { label: "Seminole County · park hours, 2025 brochure (PDF)", href: "https://www.seminolecountyfl.gov/docs/default-source/pdf/trails_parks_and_natural_lands_brochure_2025_for_web_ada.pdf" },
+      { label: "Seminole County · trailhead address and amenities", href: "https://www.seminolecountyfl.gov/departments-services/parks-recreation/parks-trails-and-natural-lands/trails/cross-seminole-trail" },
+      { label: "Seminole County Tourism · Lady Liberty and the Senator", href: "https://doorlandonorth.com/america-250-seminole-county-itinerary/" },
+      { label: "Seminole County · 2020 accessibility report (PDF)", href: "https://www.seminolecountyfl.gov/docs/default-source/pdf/list-of-accessible-parksada.pdf?sfvrsn=8f7491cc_5" },
+    ],
+    practice: {
+      title: "A steady form. A changing detail.",
+      text: "Rest your attention on a trunk line or branch outline. Include a moving leaf, a passing sound, or a change in light. Let the scene change while you return gently to the same visible detail, breathing naturally.",
+      href: "/trees/bald-cypress#practice", label: "Continue the Bald Cypress practice",
+    },
+  },
+  {
+    slug: "morton-bur-oaks", state: "IL", name: "Bur oaks in the Oak Collection", scientificName: "Quercus macrocarpa",
+    place: "The Morton Arboretum · Lisle, Illinois", kind: "Arboretum collection visit",
+    arrival: "Enter The Morton Arboretum at 4100 Illinois Route 53, Lisle. After admission, use the grounds map and one-way driving route to East Side parking lot P-8 for the Oak Collection. The Arboretum identifies mature bur oaks here; use tree labels or ask staff to help identify a suitable tree. This guide explores a collection, rather than a single designated champion.",
+    walking: "The Oak Collection extends across 12 acres. Choose a walk suited to your time and mobility from P-8; no single parking-to-tree distance applies. Trails beyond the central visitor area are generally wood-chipped. Ask staff about the day's route conditions and accessibility instead of assuming the collection has a paved final approach.",
+    access: "The collection is included with paid Arboretum admission, and admission includes parking. Buy online in advance or at the gatehouse; check current ticket prices for your date. General grounds hours are daily, 9 a.m. to sunset, with last entry one hour before sunset. Special holiday and weather arrangements may differ; consult the hours page.",
+    pause: "Choose an established viewpoint where you can see a labelled bur oak without crossing planted areas or blocking a trail. Notice a branch and the opening beside it; leave bark, leaves, and acorns in place.",
+    checked: "2026-10-09",
+    sources: [
+      { label: "Morton Arboretum · Oak Collection and P-8", href: "https://mortonarb.org/explore/activities/explore-grounds/oak-collection/" },
+      { label: "Morton Arboretum · admission and tickets", href: "https://mortonarb.org/visit-the-arboretum/" },
+      { label: "Morton Arboretum · address, parking and directions", href: "https://mortonarb.org/visit-the-arboretum/parking-and-directions/" },
+      { label: "Morton Arboretum · grounds and holiday hours", href: "https://mortonarb.org/visit-the-arboretum/hours/" },
+      { label: "Morton Arboretum · paths and exploring the Oak Collection", href: "https://mortonarb.org/guides/wonder-woods/" },
+    ],
+    practice: {
+      title: "Make room to continue.",
+      text: "Look at a branch, then at the space beside it. Give both room in your attention. Consider one ongoing effort and the pace or support that would help you sustain it; choose one modest next step.",
+      href: "/trees/bur-oak#practice", label: "Continue the Bur Oak practice",
+    },
+  },
   {
     "slug": "pinchot-sycamore",
     "championId": "ct-128002",
@@ -297,3 +357,6 @@ export const treeVisits: TreeVisit[] = [
     "checked": "2026-10-07"
   }
 ];
+
+export const treeVisitStateCount = new Set(treeVisits.map(visit => visit.state)).size;
+export const treeVisitSummary = `${treeVisits.length} tree visits across New England, South Carolina, Florida, and Illinois, with arrival guidance, walking details, and a practice to bring along.`;
