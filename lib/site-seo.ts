@@ -6,9 +6,11 @@ import { beginnerJourney } from "./beginner-journey";
 import { treeVisits } from "./tree-visits";
 
 export const siteOrigin = "https://tree-yoga-school.vercel.app";
-export const siteDescription = "Rooted in nature. Practiced in the real world. A living school for yoga, meditation, and learning with trees.";
+export const siteDescription = "Rooted in nature. Practiced in the real world. A living school for tree hugging, yoga, meditation, and learning with trees.";
 export const discoveryPages = [
   { path: "/", title: "Tree Yoga School", description: siteDescription },
+  { path: "/tree-hugging", title: "Tree Hugging: Practice & Benefits", description: "A gentle tree-hugging meditation, research on nature and wellbeing, and an invitation to care for trees." },
+  { path: "/practice/tree-hugging", title: "Tree Hugging Outdoor Practice", description: "Five gentle steps for tree hugging, with seated and no-touch options, an optional timer, and printable guidance." },
   { path: "/trees", title: "Tree Library", description: "Meet trees through observation, contemplative themes, and outdoor practices." },
   { path: "/champion-trees", title: "Champion Tree Map", description: "Explore champion trees across 29 states, with measurements, official sources, and linked practices." },
   { path: "/tree-visits", title: "Trees to Visit", description: "Plan a visit to a remarkable tree with arrival guidance, walking details, official sources, and a practice." },

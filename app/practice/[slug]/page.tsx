@@ -3,14 +3,19 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { trees, getTree } from "../../../lib/trees";
+import { treeHuggingPractice } from "../../../lib/tree-hugging";
 import { firstPractice } from "../../../lib/first-practice";
 import PracticeControls from "../../components/practice-controls";
 
 export const dynamicParams = false;
 export function generateStaticParams() {
-  return [...trees.map(({ slug }) => ({ slug })), { slug: "first-five-minutes" }];
+  return [...trees.map(({ slug }) => ({ slug })), { slug: "first-five-minutes" }, { slug: "tree-hugging" }];
 }
 function getPractice(slug: string) {
+  if (slug === "tree-hugging") return {
+    title: treeHuggingPractice.title, label: "Tree Hugging", steps: treeHuggingPractice.steps,
+    reflection: treeHuggingPractice.reflection, back: "/tree-hugging", backLabel: "Tree Hugging: practice & benefits",
+  };
   if (slug === "first-five-minutes") return {
     title: firstPractice.title, label: "Any tree", steps: firstPractice.steps,
     reflection: firstPractice.reflection, back: "/lessons/first-five-minutes", backLabel: "Full first lesson",

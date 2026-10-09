@@ -1,5 +1,6 @@
 import { pageMetadata, siteDescription } from "../lib/site-seo";
 export const metadata = pageMetadata("/", "Tree Yoga School", siteDescription);
+import TreeEmbrace from "./components/tree-embrace";
 import SiteHeader from "./components/site-header";
 import Image from "next/image";
 import Link from "next/link";
@@ -53,7 +54,7 @@ export default function Home() {
           <p className="eyebrow">A living school rooted in nature</p>
           <h1>Practice beneath<br />something older<br />than your plans.</h1>
           <p className="hero-lede">
-            Tree Yoga School brings together yoga, meditation, hiking, and
+            Tree Yoga School brings together tree hugging, yoga, meditation, hiking, and
             sustained attention to the living world.
           </p>
           <div className="hero-actions">
@@ -86,6 +87,10 @@ export default function Home() {
           as a public, AI-native school. The original 2023 book remains the root
           source; the digital school grows outward from it.
         </p>
+      </section>
+
+      <section className="home-hug" aria-labelledby="home-hug-title">
+        <div className="home-hug-copy"><p className="section-kicker">Tree Hugging · A central practice</p><h2 id="home-hug-title">An embrace.<br /><em>A living connection.</em></h2><p>Slow down beside a tree. Rest your hands or arms gently against its trunk, or simply stay nearby. Explore a practice of presence, gratitude, and care.</p><Link className="button hug-button" href="/tree-hugging">Discover Tree Hugging →</Link><p className="home-hug-note">The practice · The benefits · The research</p></div><div className="home-hug-art"><TreeEmbrace compact /></div>
       </section>
 
       <section className="pathways section-shell" id="practice">

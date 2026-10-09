@@ -12,6 +12,6 @@ Expand the Champion Tree map from official registers, preserving source provenan
 
 ## Tree Hugging
 
-Make Tree Hugging a central practice in future Tree Yoga School content, with space for stillness, connection and personal reflection. The founder regards it as a profoundly meditative and healing practice. When writing about benefits, distinguish personal experience from supported research rather than presenting medical promises. Explore Tree Hug events when the community foundation is ready.
+Tree Hugging launched October 9, 2026 at `/tree-hugging`, with a homepage feature, navigation link, research sources, and `/practice/tree-hugging` outdoor guide. Make Tree Hugging a central practice, with space for stillness, connection and personal reflection. The founder regards it as a profoundly meditative and healing practice. When writing about benefits, distinguish personal experience from supported research rather than presenting medical promises. Explore Tree Hug events when the community foundation is ready.
 
-These are future directions, not currently launched programs or events.
+The volunteer program and Tree Hug events remain future directions, not currently launched programs or events.
