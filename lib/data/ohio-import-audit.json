@@ -1,10 +1,10 @@
 {
-  "coverage": "complete native list; partial non-native list",
+  "coverage": "complete native and non-native lists",
   "captured": "2026-10-09",
-  "includedRecords": 145,
+  "includedRecords": 253,
   "nativeRecords": 127,
-  "nonNativeRecords": 18,
-  "completeRegisterRetrieved": false,
+  "nonNativeRecords": 126,
+  "completeRegisterRetrieved": true,
   "edition": "Not stated in screenshots",
   "sourceUrls": [
     "https://ohiodnr.gov/discover-and-learn/safety-conservation/about-odnr/forestry/champion-trees/native-champion-trees",
@@ -66,21 +66,68 @@
       "publishedTotal": 127
     },
     {
-      "filename": "Screenshot 2026-10-09 at 10.32.19 AM.png",
-      "sha256": "579f45a5e8fba91b6efc468e51bf419323821d1fa56a2b2b6e207b42ae6c2672",
+      "filename": "Screenshot 2026-10-09 at 11.30.51 AM.png",
+      "sha256": "3d8405412b36ec5d0b3efe8516b58914294565e3529153ba66b78e5b26c6af07",
       "category": "non-native",
+      "page": 1,
       "firstRow": 1,
-      "lastRow": 18
+      "lastRow": 25,
+      "publishedTotal": 126
+    },
+    {
+      "filename": "Screenshot 2026-10-09 at 11.31.09 AM.png",
+      "sha256": "19260e9be52714acf080780ac96746fa6fa777a8090afaf26ea8d1950aa639c0",
+      "category": "non-native",
+      "page": 2,
+      "firstRow": 26,
+      "lastRow": 50,
+      "publishedTotal": 126
+    },
+    {
+      "filename": "Screenshot 2026-10-09 at 11.31.18 AM.png",
+      "sha256": "2eda6a40b3fee679d18f5998fa77eb0dfac4987e12f3cf6d8dc7b4e94419ff79",
+      "category": "non-native",
+      "page": 3,
+      "firstRow": 51,
+      "lastRow": 75,
+      "publishedTotal": 126
+    },
+    {
+      "filename": "Screenshot 2026-10-09 at 11.31.28 AM.png",
+      "sha256": "3a9cf63458ecf1467f8a16e387518817619a39e70a2431deedd4792c000e8f9d",
+      "category": "non-native",
+      "page": 4,
+      "firstRow": 76,
+      "lastRow": 100,
+      "publishedTotal": 126
+    },
+    {
+      "filename": "Screenshot 2026-10-09 at 11.31.38 AM.png",
+      "sha256": "f5fd8cecb17599312dbfa32e3422866182d0482c39e2ac1f5398e39645f8d417",
+      "category": "non-native",
+      "page": 5,
+      "firstRow": 101,
+      "lastRow": 125,
+      "publishedTotal": 126
+    },
+    {
+      "filename": "Screenshot 2026-10-09 at 11.31.46 AM.png",
+      "sha256": "c6b1d5e8cb012e1ee3059ce4ce1f3e77e57ccda41a1ddf75342ac54d0de503e3",
+      "category": "non-native",
+      "page": 6,
+      "firstRow": 126,
+      "lastRow": 126,
+      "publishedTotal": 126
     }
   ],
-  "selection": "Every row from all six native table pages (1–127 of 127), plus the 18 previously imported non-native rows. Distinct entries are retained even when botanical names repeat. Category follows the source table without reclassification.",
+  "selection": "Every published row from all six native pages (127 entries) and all six non-native pages (126 entries). Repeated rows are retained, including both Western Red Cedar entries. Category follows the source table without reclassification.",
   "omittedFields": [
     "Nominator"
   ],
   "geographySource": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_counties_national.zip",
-  "mappedCounties": 62,
+  "mappedCounties": 67,
   "nativeCoverage": "complete",
-  "nonNativeCoverage": "partial",
+  "nonNativeCoverage": "complete",
   "nativePublishedTotal": 127,
   "nativePages": 6,
   "nativePageRows": [
@@ -92,7 +139,7 @@
     2
   ],
   "completeNativeRegisterRetrieved": true,
-  "mappedRecords": 144,
+  "mappedRecords": 252,
   "unmappedRecords": [
     {
       "id": "oh-bda3adb9d0a2",
@@ -100,5 +147,16 @@
       "reason": "County blank in source table"
     }
   ],
-  "identity": "Existing category/scientific-name/county hashes are preserved. Repeated scientific-name/county combinations add the common name to distinguish separate source rows."
+  "identity": "Existing IDs are preserved. New IDs hash category, scientific name and county; repeated combinations additionally include common name and source row.",
+  "nonNativePublishedTotal": 126,
+  "nonNativePages": 6,
+  "nonNativePageRows": [
+    25,
+    25,
+    25,
+    25,
+    25,
+    1
+  ],
+  "completeNonNativeRegisterRetrieved": true
 }
