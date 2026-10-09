@@ -508,3 +508,11 @@ All 148 rows from the Kansas Forest Service table are included, with four explic
 134 records match 60 approximate Census place points. Fourteen records in six unmatched places remain searchable without markers. The source does not provide counties, and none are inferred. Census points represent places, not tree locations. Kansas joins the Midwest filter, state selection, species search, shareable links and `/api/champion-trees/KS`. Total coverage: 5,775 records across 30 states.
 
 Reproduce with `python scripts/import-kansas-champions.py REGISTER.html PLACES.txt`, using the official register and 2025 Kansas Census place Gazetteer URLs in the state registry. The audit records both source hashes, reviewed counts and explicit unmapped IDs. Changed counts, identities or units require source review before refreshing. Run `npm run validate:champions`, `npm test`, and `npm run build`.
+
+## Nebraska champion register · October 9, 2026
+
+All 90 Nebraska Forest Service register rows are included, preserving numbered entries, source spelling, published scores, and separate nomination/measurement dates. Year-only dates remain years. Circumference feet convert to inches, except Peachleaf Willow’s explicit `124"` entry. No titles or visiting access are inferred.
+
+83 records map to 42 approximate Census places. Seven remain searchable unmapped: Sparks, Marsland and five records without an unambiguous municipality. Published location descriptions remain available; exact tree coordinates and personal steward names are omitted. Coverage is now 5,865 records across 31 states.
+
+Reproduce with `python scripts/import-nebraska-champions.py REGISTER.html PLACES.txt` using the official register and Census URLs in the state configuration. The audit records source hashes, reviewed place labels, counts, unmapped IDs and the unit exception. Regression tests compare every name, date, measurement and score with a reviewed source fixture. Changed source structure, row counts or place labels require review before refresh.
