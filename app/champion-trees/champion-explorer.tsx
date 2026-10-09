@@ -4,17 +4,17 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { championHref, emptySelection, readChampionSelection, type ChampionSelection } from "../../lib/champion-links";
-import { championSpeciesOptions, familiarSpeciesName } from "../../lib/champion-species";
+import { championSpeciesOptions, familiarSpeciesName, sameChampionSpecies } from "../../lib/champion-species";
 import { treeVisits } from "../../lib/tree-visits";
 import { loadChampionStates } from "../../lib/champion-loader";
 import ShareLink from "./share-link";
 import ChampionMap from "./champion-map";
-import { championRegions, mnChampionSource, wiChampionSource, ohChampionSource, miChampionSource, ilChampionSource, flChampionSource, alChampionSource, inChampionSource, kyChampionSource, gaChampionSource, tnChampionSource, scChampionSource, ncChampionSource, wvChampionSource, vaChampionSource, sourceDates, placeName, nyChampionSource, njChampionSource, paChampionSource, deChampionSource, mdChampionSource, type ChampionManifest, type ChampionPayload, formatMeasurement, formatChampionDate, librarySpecies, sourceWarnings, townKey, stateNames, nhChampionSource, vtChampionSource, meChampionSource, riChampionSource, ctChampionSource, type ChampionState, type ChampionTree } from "../../lib/champion-trees";
+import { championRegions, mnChampionSource, wiChampionSource, ohChampionSource, miChampionSource, ilChampionSource, flChampionSource, alChampionSource, inChampionSource, kyChampionSource, gaChampionSource, tnChampionSource, scChampionSource, ncChampionSource, wvChampionSource, vaChampionSource, sourceDates, placeName, nyChampionSource, njChampionSource, paChampionSource, deChampionSource, mdChampionSource, type ChampionManifest, type ChampionPayload, formatMeasurement, formatChampionDate, libraryTreeForSpecies, sourceWarnings, townKey, stateNames, nhChampionSource, vtChampionSource, meChampionSource, riChampionSource, ctChampionSource, type ChampionState, type ChampionTree } from "../../lib/champion-trees";
 
 function RecordDetails({ tree, mapped }: { tree: ChampionTree; mapped: boolean }) {
   const warnings = sourceWarnings(tree);
   const visit = treeVisits.find(item => item.championId === tree.id);
-  const library = tree.state === "MA" && tree.sourceRow === 132 ? undefined : librarySpecies[tree.scientificName];
+  const library = tree.state === "MA" && tree.sourceRow === 132 ? undefined : libraryTreeForSpecies(tree.scientificName);
   const measured = formatChampionDate(tree.measured);
   return <article className="champion-detail" aria-labelledby="selected-tree-title">
     <p className="section-kicker">{tree.state === "NE" && !tree.town ? "Place not listed" : placeName(tree)}, {tree.state}{tree.mapPrecision !== "county" && tree.county && <> · {tree.county} {tree.state === "CT" ? "Planning Region" : "County"}</>}</p>
@@ -141,13 +141,13 @@ export default function ChampionExplorer({ manifest }: { manifest: ChampionManif
   const coordinates = useMemo(() => Object.assign({}, ...requestKey.split(",").map(code => cache[code as ChampionState]?.coordinates || {})) as ChampionPayload["coordinates"], [requestKey, cache]);
   const townOptions = useMemo(() => [...new Map(championTrees.filter(t => t.town || t.mapPrecision === "county").map(tree => [townKey(tree), { key: townKey(tree), town: placeName(tree), state: tree.state, precision: tree.mapPrecision === "county" && tree.county.endsWith(" City") ? "independent city" : tree.mapPrecision || (tree.state === "DE" || tree.state === "KS" ? "Census place" : "municipality") }])).values()].sort((a, b) => a.town.localeCompare(b.town) || a.state.localeCompare(b.state)), [championTrees]);
   const speciesOptions = useMemo(() => championSpeciesOptions(championTrees), [championTrees]);
-  const activeSpeciesName = speciesOptions.find(option => option.scientificName === species)?.name || familiarSpeciesName(species);
+  const activeSpeciesName = speciesOptions.find(option => sameChampionSpecies(option.scientificName, species))?.name || familiarSpeciesName(species);
   const genera = useMemo(() => [...new Set(championTrees.map(t => t.scientificName.split(" ")[0]))].sort(), [championTrees]);
   const detail = useRef<HTMLDivElement>(null);
   const resultsHeading = useRef<HTMLHeadingElement>(null);
   const results = useMemo(() => {
     const words = query.trim().toLowerCase().split(/\s+/).filter(Boolean);
-    return championTrees.filter(t => (!state || t.state === state) && (!species || t.scientificName === species) && (!county || t.county === county) && (!town || townKey(t) === town) && (!genus || t.scientificName.split(" ")[0] === genus) && (!locationsOnly || Boolean(t.location || t.publicCoordinates)) && (!publicOnly || t.publicAccess === true) && words.every(word => `${stateNames[t.state]} ${t.state} ${t.mapTown || ""} ${t.commonName} ${t.scientificName} ${t.town} ${t.county} ${t.location || ""} ${t.notes || ""}`.toLowerCase().includes(word))).sort((a, b) => {
+    return championTrees.filter(t => (!state || t.state === state) && (!species || sameChampionSpecies(t.scientificName, species)) && (!county || t.county === county) && (!town || townKey(t) === town) && (!genus || t.scientificName.split(" ")[0] === genus) && (!locationsOnly || Boolean(t.location || t.publicCoordinates)) && (!publicOnly || t.publicAccess === true) && words.every(word => `${stateNames[t.state]} ${t.state} ${t.mapTown || ""} ${t.commonName} ${t.scientificName} ${t.town} ${t.county} ${t.location || ""} ${t.notes || ""}`.toLowerCase().includes(word))).sort((a, b) => {
       if (sort === "height") return (b.height ?? -1) - (a.height ?? -1) || a.sourceRow - b.sourceRow;
       if (sort === "points") return (b.points ?? -1) - (a.points ?? -1) || a.sourceRow - b.sourceRow;
       if (sort === "town") return placeName(a).localeCompare(placeName(b)) || a.commonName.localeCompare(b.commonName);
@@ -194,7 +194,7 @@ export default function ChampionExplorer({ manifest }: { manifest: ChampionManif
       <label className="champion-search">Find a tree, county, town, or place<input type="search" value={query} onChange={e => updateSelection({ query: e.target.value }, true)} placeholder="Try pine, Portland, or Smith College…" /></label>
       <label>County, city, or planning region<select aria-label="County, city, or planning region" value={county} onChange={e => { updateSelection({ county: e.target.value, town: "" }); }}><option value="">All counties, cities & regions</option>{counties.map(c => <option key={c}>{c}</option>)}</select></label>
       <label>Mapped place<select aria-label="Mapped place" value={town} onChange={e => updateSelection({ town: e.target.value })}><option value="">All mapped places</option>{townOptions.filter(t => (!state || t.state === state) && (!county || championTrees.some(r => townKey(r) === t.key && r.county === county))).map(t => <option key={t.key} value={t.key}>{t.town}, {t.state}</option>)}</select></label>
-      <label className="champion-species-select">Tree species<select aria-label="Tree species" value={species} onChange={e => updateSelection({ species: e.target.value, genus: "" })}><option value="">All species</option>{species && !speciesOptions.some(option => option.scientificName === species) && <option value={species}>{activeSpeciesName} · no loaded records</option>}{speciesOptions.map(option => <option key={option.scientificName} value={option.scientificName}>{option.name} · {option.scientificName} ({option.count})</option>)}</select></label>
+      <label className="champion-species-select">Tree species<select aria-label="Tree species" value={speciesOptions.find(option => sameChampionSpecies(option.scientificName, species))?.scientificName || species} onChange={e => updateSelection({ species: e.target.value, genus: "" })}><option value="">All species</option>{species && !speciesOptions.some(option => sameChampionSpecies(option.scientificName, species)) && <option value={species}>{activeSpeciesName} · no loaded records</option>}{speciesOptions.map(option => <option key={option.scientificName} value={option.scientificName}>{option.name} · {option.scientificName} ({option.count})</option>)}</select></label>
       <label>Tree genus<select aria-label="Tree genus" value={genus} onChange={e => updateSelection({ genus: e.target.value, species: "" })}><option value="">All genera</option>{genera.map(g => <option key={g}>{g}</option>)}</select></label>
     </div>
     <div className="champion-filter-bar"><label className="champion-check"><input type="checkbox" checked={locationsOnly} onChange={e => updateSelection({ locationsOnly: e.target.checked })} /> With a published location</label><label className="champion-check"><input type="checkbox" checked={publicOnly} onChange={e => updateSelection({ publicOnly: e.target.checked })} /> Source confirms public access</label><button type="button" className="champion-text-button" onClick={reset}>Reset all filters & map</button><a className="champion-text-button" href="#champion-results">Skip to tree results ↓</a></div>
