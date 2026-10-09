@@ -1,4 +1,4 @@
-import { pageMetadata } from "../../../lib/site-seo";
+import { pageMetadata, siteOrigin } from "../../../lib/site-seo";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -40,6 +40,6 @@ export default async function OutdoorPractice({ params }: { params: Promise<{ sl
     <ol className="outdoor-steps">{practice.steps.map(step => <li key={step.title}><h2>{step.title}</h2><p>{step.text}</p></li>)}</ol>
     <PracticeControls key={slug} />
     <section className="outdoor-reflection" aria-labelledby="reflection"><p className="outdoor-eyebrow">When you are ready</p><h2 id="reflection">{practice.reflection}</h2><p>Reflect quietly, or write a sentence in your own notebook. Let the visit be enough.</p></section>
-    <footer><p>Leave the tree and its surroundings undisturbed.</p><Link href={practice.back}>{practice.backLabel} →</Link><p className="outdoor-print-source">Tree Yoga School · tree-yoga-school.vercel.app/practice/{slug}</p></footer>
+    <footer><p>Leave the tree and its surroundings undisturbed.</p><Link href={practice.back}>{practice.backLabel} →</Link><p className="outdoor-print-source">Tree Yoga School · {new URL(siteOrigin).host}/practice/{slug}</p></footer>
   </main>;
 }

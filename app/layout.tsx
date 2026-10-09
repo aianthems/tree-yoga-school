@@ -5,7 +5,6 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL(siteOrigin),
   ...pageMetadata("/", "Tree Yoga School", siteDescription),
-  robots: { index: true, follow: true },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
