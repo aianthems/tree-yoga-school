@@ -1,3 +1,4 @@
+import BookConnections from "../../components/book-connections";
 import SiteFooter from "../../components/site-footer";
 import { pageMetadata } from "../../../lib/site-seo";
 import Link from "next/link";
@@ -71,6 +72,7 @@ export default function FirstLesson() {
             <li><a href={`${book}#page=97`} target="_blank" rel="noreferrer">Chapter 5, “Chair Meditation,” printed p. 92 ↗</a>: seated practice, adapted here for comfortable natural breathing and usual supports.</li>
           </ul>
           <p className="lesson-note">This observation lesson makes no medical or healing claims. Leave bark, roots, wildlife, and habitat undisturbed.</p>
+          <BookConnections chapters={["who-and-how", "when-and-where"]} description="Read about choosing a tree and beginning with five or ten minutes, or watch Alex’s original lessons before your next visit." />
           <div className="course-actions"><a className="button secondary" href="/begin-here">Explore the Begin Here course →</a><a className="button primary" href="/lessons/meditation-with-a-tree">Next: Meditation with a Tree →</a></div>
           <p className="book-source-note">Want to get to know a particular tree? <a href="/trees/pine">Meet Pine in the Tree Library.</a></p>
         </section>

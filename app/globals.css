@@ -1244,3 +1244,32 @@ section[id] { scroll-margin-top: 90px; }
   .book-hub-intro { padding-top: 0; padding-bottom: 3rem; }
   .book-hub-chapter { grid-template-columns: 32px minmax(0, 1fr); gap: 1rem; }
 }
+
+/* A clear path from the book to the living school. */
+.chapter-steps { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .75rem; margin-top: 2.5rem; }
+.chapter-steps a { display: flex; flex-wrap: wrap; align-items: center; gap: .65rem; padding: 1rem; border: 1px solid var(--line); border-radius: 4px; opacity: 1; }
+.chapter-steps span { font-size: .8rem; color: var(--ink-soft); }
+.chapter-steps small { flex-basis: 100%; font-size: .75rem; }
+.chapter-steps a:hover { background: #eee8db; }
+.book-companion h2[id], #hug-book-title { scroll-margin-top: 140px; }
+.chapter-reading-notes { margin: 3rem 0; }
+.chapter-reading-notes > div + div { margin-top: 2.5rem; }
+.chapter-reading h3 { font-family: Georgia, "Times New Roman", serif; font-weight: 400; font-size: clamp(1.5rem, 3vw, 2rem); line-height: 1.25; }
+.chapter-reading p { max-width: 70ch; }
+.chapter-video > .course-link { display: inline-block; margin-top: 2rem; }
+.chapter-practice-alternative a { display: inline-block; margin-top: 1rem; text-decoration: underline; text-underline-offset: 4px; }
+.chapter-next-title { font-size: 1.2rem; }
+.chapter-continue .button { white-space: normal; text-align: center; }
+.book-connections { border-top: 1px solid var(--line); margin-top: 2rem; padding-top: 1.5rem; }
+.book-connections > p { max-width: 70ch; line-height: 1.7; }
+.book-connections ul { padding: 0; margin: 1rem 0 0; list-style: none; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem 2rem; }
+.book-connections li { display: flex; flex-direction: column; align-items: flex-start; }
+.book-connections a { display: inline-block; padding: .6rem 0; text-decoration: underline; text-underline-offset: 4px; line-height: 1.6; }
+.book-connection-watch { font-size: .9rem; }
+.book-connections-compact { font-size: 1rem; margin-bottom: 1.5rem; }
+.tree-season-book { font-size: .95rem; max-width: 70ch; line-height: 1.75; }
+.tree-season-book a { display: inline-block; padding: .4rem 0; margin-right: 1rem; text-decoration: underline; text-underline-offset: 4px; }
+.hug-book { padding-top: 4rem; padding-bottom: 4rem; }
+.hug-book h2 { font-family: Georgia, "Times New Roman", serif; font-weight: 400; font-size: clamp(2.2rem, 4vw, 3.5rem); line-height: 1.15; }
+@media (max-width: 700px) { .book-connections ul { grid-template-columns: minmax(0, 1fr); } .chapter-steps { gap: .4rem; font-size: .9rem; } .chapter-steps a { padding: .75rem .5rem; gap: .4rem; } }
+@media print { .outdoor-practice .book-connections { display: none; } .chapter-steps { display: none; } }

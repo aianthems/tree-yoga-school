@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import { trees, getTree } from "../../../lib/trees";
 import { treeHuggingPractice } from "../../../lib/tree-hugging";
 import { firstPractice } from "../../../lib/first-practice";
+import BookConnections from "../../components/book-connections";
 import PracticeControls from "../../components/practice-controls";
 
 export const dynamicParams = false;
@@ -40,6 +41,7 @@ export default async function OutdoorPractice({ params }: { params: Promise<{ sl
     <ol className="outdoor-steps">{practice.steps.map(step => <li key={step.title}><h2>{step.title}</h2><p>{step.text}</p></li>)}</ol>
     <PracticeControls key={slug} />
     <section className="outdoor-reflection" aria-labelledby="reflection"><p className="outdoor-eyebrow">When you are ready</p><h2 id="reflection">{practice.reflection}</h2><p>Reflect quietly, or write a sentence in your own notebook. Let the visit be enough.</p></section>
-    <footer><p>Leave the tree and its surroundings undisturbed.</p><Link href={practice.back}>{practice.backLabel} →</Link><p className="outdoor-print-source">Tree Yoga School · {new URL(siteOrigin).host}/practice/{slug}</p></footer>
+    <footer><p>Leave the tree and its surroundings undisturbed.</p>
+      <BookConnections compact chapters={slug === "tree-hugging" ? ["what-is-tree-yoga", "wisdom-and-wonder"] : slug === "first-five-minutes" ? ["who-and-how", "when-and-where"] : ["wisdom-and-wonder", "when-and-where"]} description={slug === "tree-hugging" ? "This new embrace practice connects the book’s attention to trees with presence, gratitude, and love." : slug === "first-five-minutes" ? "This new practice follows the book’s invitations to choose a tree and begin with a few minutes." : "This new species-specific practice grows from the book’s invitations to learn from trees and begin small."} /><Link href={practice.back}>{practice.backLabel} →</Link><p className="outdoor-print-source">Tree Yoga School · {new URL(siteOrigin).host}/practice/{slug}</p></footer>
   </main>;
 }

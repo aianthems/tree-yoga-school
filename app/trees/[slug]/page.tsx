@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import BookConnections from "../../components/book-connections";
 import TreeComparisonLinks from "../../components/tree-comparison-links";
 import SiteHeader from "../../components/site-header";
 import SiteFooter from "../../components/site-footer";
@@ -53,6 +54,7 @@ export default async function TreePage({ params }: { params: Promise<{ slug: str
           <div className="course-actions"><Link className="button secondary" href={championHref({ species: tree.scientificName })}>Explore champion {tree.species.toLowerCase()} trees →</Link></div>
           <TreeComparisonLinks treeSlug={tree.slug} />
           <h3>Return across the seasons.</h3><p className="section-lede">{tree.seasons}</p>
+          <p className="tree-season-book">Chapter 4 invites a practice of returning across seasons. <Link href="/book/when-and-where">Read When and Where →</Link> <Link href="/return-to-your-tree">Try the seasonal observation practice →</Link></p>
           <p className="lesson-note">Botanical reference: <a href={tree.sourceUrl} target="_blank" rel="noreferrer">{tree.sourceLabel ?? `NC State Extension’s ${tree.species.toLowerCase()} profile`}</a>. This is a starting point for observation, not a complete identification key.</p>
           {tree.additionalSources?.map(source => <p className="lesson-note" key={source.url}>Explore the habitat: <a href={source.url} target="_blank" rel="noreferrer">{source.label}</a>.</p>)}
         </section>
@@ -71,6 +73,7 @@ export default async function TreePage({ params }: { params: Promise<{ slug: str
           <ol className="lesson-steps">{tree.practice.map((step) => <li key={step.title}><h3>{step.title}</h3><p>{step.text}</p></li>)}</ol>
           <div className="tree-pause"><h3>Let the visit be enough.</h3><p>Spend about five minutes, or less if that suits you. Keep your device available when needed. No touching, collecting, controlled breathing, or tree-supported movement is required; leave the tree and its surroundings undisturbed.</p></div>
           <Link className="course-link" href="/lessons/meditation-with-a-tree">Continue with Meditation with a Tree</Link>
+          <BookConnections chapters={["wisdom-and-wonder"]} description={`${tree.principles} connect this new ${tree.name.toLowerCase()} practice with Chapter 6’s invitation to learn from trees. Read the companion or watch Alex’s lessons, then return to your own observations.`} />
         </section>
         <section id="roots" className="tree-section tree-roots">
           <p className="section-kicker">04 · Roots in the book</p>

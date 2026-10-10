@@ -45,7 +45,7 @@ export const bookChapters = [
       { title: "Practice with the conditions", text: "The book reflects on seasons and sunlight. The new lessons adapt that invitation to suitable weather, daylight, and comfortable conditions. Shorten a visit, choose shade, change location, or return another day when needed." },
     ],
     question: "Where could a few minutes with a tree naturally fit into your day?",
-    practiceHref: "/trees/pine#practice", practiceLabel: "Try the five-minute pine practice",
+    practiceHref: "/return-to-your-tree", practiceLabel: "Return to your tree across the seasons",
   },
   {
     number: "05", slug: "poses-flows-and-meditations", title: "Poses, Flows, and Meditations", printedPage: 34, pdfPage: 39,
@@ -69,7 +69,7 @@ export const bookChapters = [
       { title: "Explore the energy of a tree", text: "The Pine page introduces constancy, clarity, and perseverance as contemplative themes. These species-specific associations are new extensions of the school, not quotations from the original chapter or scientific descriptions of a healing field." },
     ],
     question: "Which principle could guide one small action today?",
-    practiceHref: "/trees/pine#energy", practiceLabel: "Explore the energy of pine",
+    practiceHref: "/practice/pine", practiceLabel: "Take the pine practice outside",
   },
   {
     number: "07", slug: "graduation", title: "Graduation", printedPage: 125, pdfPage: 130,
@@ -81,7 +81,7 @@ export const bookChapters = [
       { title: "Let the habit fit your life", text: "The original closing challenge proposes thirty minutes each day. The digital school also retains chapter 4’s small-beginnings approach: start with a duration that fits you, adapt as needed, and return without making a streak the goal." },
     ],
     question: "What would you like to notice on your next visit?",
-    practiceHref: "/lessons/tree-yoga-hiking", practiceLabel: "Take a Tree Yoga Hiking practice outside",
+    practiceHref: "/return-to-your-tree/journal", practiceLabel: "Keep a tree observation journal",
   },
 ] as const;
 

@@ -1,3 +1,4 @@
+import BookConnections from "../../components/book-connections";
 import SiteFooter from "../../components/site-footer";
 import { pageMetadata } from "../../../lib/site-seo";
 import type { Metadata } from "next";
@@ -47,6 +48,7 @@ export default async function LessonPage({ params }: { params: Promise<{ slug: s
         <section className="lesson-pause" aria-labelledby="pause"><p className="section-kicker">Time away from the screen</p><h2 id="pause">{lesson.pause}</h2><p>Keep your device available whenever you need it for access, navigation, or communication.</p></section>
         <section className="lesson-section" aria-labelledby="reflection"><p className="section-kicker">Reflection</p><h2 id="reflection">{lesson.reflection}</h2><p>Reflect quietly or write a sentence in your own notebook. Nothing needs to be submitted or shared. Repeat this lesson as often as you like.</p></section>
         <section className="lesson-section lesson-sources" aria-labelledby="sources"><p className="section-kicker">Roots of this lesson</p><h2 id="sources">Sources and adaptations.</h2><p>{lesson.adaptation}</p><ul>{lesson.sources.map((source) => <li key={source.title}><a href={`${bookUrl}#page=${source.page}`} target="_blank" rel="noreferrer">{source.title} ↗</a>: {source.note}</li>)}</ul><p className="lesson-note">Developed with AI assistance for the renewed digital school. This lesson makes no medical or healing claims.</p>
+          <BookConnections chapters={lesson.slug === "tree-yoga-hiking" ? ["who-and-how", "graduation"] : ["who-and-how", "poses-flows-and-meditations"]} description={lesson.slug === "tree-yoga-hiking" ? "Follow the book’s walking pathway in Chapter 3, then explore Chapter 7’s invitation to keep learning outside." : "Chapter 3 introduces the practice pathways; Chapter 5 offers the original movement and meditation reference. This lesson adapts those teachings into an introductory sequence."} />
           <div className="course-actions"><a className="button secondary" href="/begin-here">Return to the course</a>{next ? <a className="button primary" href={`/lessons/${next.slug}`}>Next: {next.title} →</a> : <a className="button primary" href="/lessons/first-five-minutes">Return to your first practice →</a>}</div>
           <p className="book-source-note">Explore a particular tree: <a href="/trees/pine">Pine in the Tree Library</a>, or <a href="/book">follow the teachings through the book</a>.</p>
         </section>
