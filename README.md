@@ -10,6 +10,10 @@ Tree Yoga School is a yoga school founded by **Alex Julian**, now being renewed 
 
 **Project status:** A content-led Next.js school with a four-practice introduction, seven book chapter companions, and a 63-species Tree Library. The school is still early: there is no account system, database, certification platform, or AI teaching assistant.
 
+## Return and contribute
+
+Trees to Visit and Return to Your Tree are primary navigation destinations. The School menu connects About, Contact, Big Tree Volunteers, and the original book. The return practice includes a four-visit handwritten journal and a downloadable one-page PDF. Contact drafts open a visitor’s own email application; the site does not store messages or observations.
+
 ## Current coverage
 
 <!-- coverage:start -->

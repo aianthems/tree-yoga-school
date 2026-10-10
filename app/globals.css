@@ -1151,3 +1151,57 @@ section[id] { scroll-margin-top: 90px; }
 .library-comparison-discovery > summary { cursor: pointer; font-weight: 600; line-height: 1.5; }
 .library-comparison-discovery > summary:focus-visible { outline: 3px solid var(--ink); outline-offset: 4px; }
 .library-filter-field select:disabled { opacity: .55; }
+
+/* Return visits and a modest contribution doorway. */
+.site-header nav { align-items: center; }
+.school-menu { position: relative; }
+.school-menu summary { cursor: pointer; min-height: 44px; display: flex; align-items: center; gap: .45rem; }
+.school-menu summary::after { content: "⌄"; }
+.school-menu-links { position: absolute; right: 0; top: 100%; min-width: 220px; padding: .75rem; background: var(--paper); border: 1px solid var(--line); box-shadow: 0 12px 28px rgba(23,51,41,.1); }
+.school-menu-links a { display: flex; min-height: 44px; align-items: center; padding: .25rem .65rem; }
+.school-footer { flex-wrap: wrap; align-items: center; }
+.school-footer nav { font-size: inherit; flex-wrap: wrap; gap: .4rem 1.25rem; }
+.school-footer nav a { min-height: 44px; display: inline-flex; align-items: center; text-decoration: underline; text-underline-offset: 4px; }
+.volunteer-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 1.25rem; margin-top: 2rem; }
+.volunteer-grid article { padding: 1.5rem; background: var(--cream); }
+.contact-draft { max-width: 720px; }
+.contact-draft .library-filter-field { margin: 1.5rem 0; }
+.contact-draft textarea, .contact-draft input, .contact-draft select { width: 100%; min-height: 48px; font: inherit; padding: .8rem; border: 1px solid var(--moss); background: var(--paper); color: var(--ink); border-radius: 0; }
+.contact-draft textarea { resize: vertical; line-height: 1.5; }
+.return-invitation { padding: 2rem; border: 1px solid var(--line); background: var(--cream); margin: 0 0 3rem; }
+.return-invitation h2 { font-family: Georgia,serif; font-weight: 400; font-size: 2rem; margin-top: 0; }
+.return-invitation p { line-height: 1.7; }
+.journal-page { padding: 2rem 5vw 4rem; }
+.journal-controls { display: flex; gap: 1rem; flex-wrap: wrap; align-items: center; max-width: 850px; margin: 0 auto 2rem; }
+.journal-controls p { flex-basis: 100%; line-height: 1.6; }
+.observation-sheet { max-width: 850px; margin: auto; padding: clamp(1rem,4vw,3rem); border: 1px solid var(--line); background: white; color: #173329; }
+.observation-sheet h1 { font-size: 2.8rem; margin: .5rem 0; }
+.observation-sheet p { font-size: 14px; line-height: 1.5; }
+.journal-identity span, .journal-date span { display: inline-block; min-width: 45%; border-bottom: 1px solid #85978d; }
+.journal-date { display: flex; gap: 2rem; }
+.journal-date p { width: 50%; }
+.journal-visit { border-top: 1px solid #85978d; margin-top: 1rem; padding-top: .7rem; break-inside: avoid; }
+.journal-visit h2 { font-family: Georgia,serif; font-size: 1.4rem; margin: 0; }
+.journal-visit p { margin: .5rem 0; }
+.writing-line { border-bottom: 1px solid #c6cfc9; min-height: 1.7rem; }
+.journal-sketch { min-height: 100px; border: 1px solid #c6cfc9; margin-top: 1.5rem; padding: .5rem; }
+.journal-source { font-size: 11px !important; }
+@media (max-width: 900px) { .school-menu-links { position: static; margin-bottom: .5rem; box-shadow: none; } .volunteer-grid { grid-template-columns: 1fr; } }
+@media (max-width: 560px) { .journal-date { display: block; } .journal-date p { width: 100%; } .school-footer { flex-direction: column; align-items: flex-start; } }
+@media print {
+  body:has(.journal-page) { background: white; }
+  body:has(.journal-page) .site-header, body:has(.journal-page) .skip-link, body:has(.journal-page) .school-footer, .journal-controls { display: none !important; }
+  .journal-page { padding: 0; }
+  .observation-sheet { max-width: none; padding: 0; border: none; }
+  .observation-sheet h1 { font-size: 22pt; }
+  .observation-sheet .section-kicker { font-size: 8pt; margin: 0; }
+  .observation-sheet p { font-size: 9pt; margin: 4pt 0; }
+  .journal-identity span, .journal-date span { min-width: 40%; }
+  .journal-date { display: flex; gap: 10pt; }
+  .journal-date p { width: 50%; }
+  .journal-visit { margin-top: 8pt; padding-top: 5pt; }
+  .journal-visit h2 { font-size: 12pt; }
+  .writing-line { min-height: 10pt; }
+  .journal-sketch { min-height: 55pt; margin-top: 9pt; }
+  .journal-source { font-size: 7pt !important; }
+}

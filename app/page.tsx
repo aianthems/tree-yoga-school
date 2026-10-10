@@ -1,3 +1,4 @@
+import SiteFooter from "./components/site-footer";
 import { pageMetadata, siteDescription } from "../lib/site-seo";
 export const metadata = pageMetadata("/", "Tree Yoga School", siteDescription);
 import TreeEmbrace from "./components/tree-embrace";
@@ -215,10 +216,7 @@ export default function Home() {
       </section>
 
       </main>
-      <footer>
-        <p>Founded by Alex Julian · Rooted in the original Tree Yoga School.</p>
-        <p>© 2026 Tree Yoga School</p>
-      </footer>
+      <SiteFooter />
     </>
   );
 }

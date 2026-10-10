@@ -1,3 +1,4 @@
+import SiteFooter from "../components/site-footer";
 import Link from "next/link";
 import SiteHeader from "../components/site-header";
 import TreeEmbrace from "../components/tree-embrace";
@@ -48,6 +49,6 @@ export default function TreeHugging() {
       <section className="hug-questions hug-shell" aria-labelledby="hug-questions-title"><h2 id="hug-questions-title">A little room for questions.</h2><div className="hug-question-grid"><article><h3>What if I feel nothing?</h3><p>You do not have to feel calm, connected, or moved. Notice your actual experience. Curiosity is enough, and you can stop at any time.</p></article><article><h3>Do I need a forest?</h3><p>A permitted tree beside an accessible path or in a neighborhood park is enough to begin this practice. The forest-study results do not automatically apply to every setting.</p></article><article><h3>What does “healing” mean here?</h3><p>It may describe someone’s experience of comfort, perspective, or reconnection. It is personal language, not a claim that a tree embrace cures illness.</p></article><article><h3>Will there be Tree Hug events?</h3><p>We envision gentle gatherings where people meet trees, practice together, and care for the place. That is a future direction; no events are scheduled yet.</p></article></div></section>
 
       <section className="hug-closing"><div className="hug-shell"><p className="section-kicker">Begin close to home</p><h2>You do not need<br />a famous tree.<br /><em>You need a moment.</em></h2><p>Let one ordinary tree become someone you notice.</p><div className="hero-actions"><Link className="button hug-button" href="/practice/tree-hugging">Take the practice outside →</Link><Link className="button light" href="/tree-visits">Explore trees to visit</Link></div><p className="hug-closing-map"><Link href="/champion-trees">Curious about remarkable trees? Explore the Champion Map ↗</Link></p></div></section>
-    </main><footer><p>Founded by Alex Julian · Rooted in the original Tree Yoga School.</p><p>© 2026 Tree Yoga School</p></footer>
+    </main><SiteFooter />
   </>;
 }

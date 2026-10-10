@@ -22,7 +22,7 @@ export default function TreeVisitsPage() {
       <p>Each guide lists when its visitor sources were checked. These are online source checks, not field inspections. Check the linked site guidance before travelling. Champion Map markers show approximate towns or counties; use each guide’s published location information to find the tree.</p>
       <nav className="tree-picker" aria-label="Choose a visit">{treeVisits.map(visit => <a key={visit.slug} href={`#${visit.slug}`}>{visit.state} · {visit.name}</a>)}</nav>
     </section>
-    <div className="tree-visit-list">{treeVisits.map((visit, index) => <TreeVisitCard visit={visit} index={index} key={visit.slug} />)}</div>
+    <section className="return-invitation"><h2>One visit can become a relationship.</h2><p>Return to a tree you can visit with permission. Keep a small journal, or help improve a guide with a dated correction.</p><div className="course-actions"><Link className="course-link" href="/return-to-your-tree">Try the return practice →</Link><Link className="course-link" href="/contact#contribute">Report a guide correction →</Link></div></section><div className="tree-visit-list">{treeVisits.map((visit, index) => <TreeVisitCard visit={visit} index={index} key={visit.slug} />)}</div>
     <div className="course-actions"><Link className="button secondary" href="/champion-trees">Explore the full Champion Map</Link><Link className="course-link" href="/trees">Get to know a species in the Tree Library →</Link></div>
   </main><SiteFooter /></>;
 }
