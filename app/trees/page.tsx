@@ -5,7 +5,7 @@ import TreeComparisonLinks from "../components/tree-comparison-links";
 import TreeLibraryExplorer from "../components/tree-library-explorer";
 import SiteHeader from "../components/site-header";
 import SiteFooter from "../components/site-footer";
-import { stateNames } from "../../lib/champion-trees";
+import { championCoverage } from "../../lib/champion-states";
 import { trees } from "../../lib/trees";
 import { treeVisitSummary } from "../../lib/tree-visits";
 
@@ -28,7 +28,7 @@ export default function TreeLibrary() {
         </section>
         <section id="compare-trees"><TreeComparisonLinks /></section>
         <TreeLibraryExplorer trees={trees.map(({ slug, name, species, scientificName, themes, invitation, image, imageAlt, imageWidth, imageHeight }) => ({ slug, name, species, scientificName, themes, invitation, image, imageAlt, imageWidth, imageHeight }))} />
-        <aside className="champion-library-link"><p className="section-kicker">Out in the world · {Object.keys(stateNames).length} states to explore</p><h2>Meet the champion trees.</h2><p>Explore champion and score-based leader records across New England, the Mid-Atlantic, the Southeast, the Midwest, South Central, and the West. Find remarkable trees by town or county, discover their measurements, and follow your curiosity.</p><Link href="/champion-trees">Explore the interactive Champion Map →</Link></aside>
+        <aside className="champion-library-link"><p className="section-kicker">Out in the world · {championCoverage.states} states to explore</p><h2>Meet the champion trees.</h2><p>Explore champion and score-based leader records across New England, the Mid-Atlantic, the Southeast, the Midwest, South Central, and the West. Find remarkable trees by town or county, discover their measurements, and follow your curiosity.</p><Link href="/champion-trees">Explore the interactive Champion Map →</Link></aside>
         <aside className="tree-visit-teaser"><h2>A place to begin outdoors.</h2><p>{treeVisitSummary}</p><Link className="course-link" href="/tree-visits">Explore trees to visit →</Link></aside>
         <section className="library-note" aria-labelledby="energy-intro">
           <p className="section-kicker">The energies of different trees</p>

@@ -1,10 +1,10 @@
 import Link from "next/link";
-import { championStates, type ChampionState } from "../../lib/champion-states";
+import { championCoverage, championStates, type ChampionState } from "../../lib/champion-states";
 import { championHref } from "../../lib/champion-links";
 
 const featuredStates: ChampionState[] = ["MA", "NH", "CO", "LA", "OK", "TX"];
 const availableStates = Object.entries(championStates).sort((a, b) => a[1].name.localeCompare(b[1].name));
-const listedCount = availableStates.reduce((total, [, state]) => total + state.expectedRecords, 0);
+
 
 export default function HomeChampions() {
   return (
@@ -16,8 +16,8 @@ export default function HomeChampions() {
           <p className="home-champions-lede">A wider world of wonder. A closer relationship with trees.</p>
           <p>Discover remarkable trees across the country. Explore their measurements, the places they grow, and the stories their state registers share.</p>
           <div className="home-champions-stats">
-            <span><strong>{listedCount.toLocaleString("en-US")}</strong> listed tree records</span>
-            <span><strong>{availableStates.length}</strong> states to explore</span>
+            <span><strong>{championCoverage.listed.toLocaleString("en-US")}</strong> listed tree records</span>
+            <span><strong>{championCoverage.states}</strong> states to explore</span>
           </div>
           <Link className="button home-champions-button" href="/champion-trees#explorer" prefetch={false}>Explore the Champion Map →</Link>
           <p className="home-champions-note">Markers show approximate areas. Check the original record and visiting guidance before heading out.</p>
@@ -63,7 +63,7 @@ export default function HomeChampions() {
           ))}
         </nav>
         <details className="home-champions-directory">
-          <summary>Find your state · All {availableStates.length} available states</summary>
+          <summary>Find your state · All {championCoverage.states} available states</summary>
           <nav aria-label="All states on the Champion Map">
             {availableStates.map(([state, config]) => (
               <Link key={state} href={`${championHref({ state })}#explorer`} prefetch={false}>{config.name}<span>{config.expectedRecords.toLocaleString("en-US")} records</span></Link>

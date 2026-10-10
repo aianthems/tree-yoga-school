@@ -1,3 +1,4 @@
+import { championCoverage, championMapDescription } from "../../lib/champion-states";
 import { pageMetadata } from "../../lib/site-seo";
 import { Suspense } from "react";
 import type { Metadata } from "next";
@@ -5,14 +6,14 @@ import Link from "next/link";
 import SiteHeader from "../components/site-header";
 import SiteFooter from "../components/site-footer";
 import ChampionExplorer from "./champion-explorer";
-import { championSource, mnChampionSource, wiChampionSource, ohChampionSource, miChampionSource, ilChampionSource, flChampionSource, alChampionSource, inChampionSource, kyChampionSource, gaChampionSource, tnChampionSource, scChampionSource, ncChampionSource, wvChampionSource, vaChampionSource, nhChampionSource, vtChampionSource, meChampionSource, riChampionSource, ctChampionSource, nyChampionSource, njChampionSource, paChampionSource, deChampionSource, mdChampionSource, stateNames, sourceDates } from "../../lib/champion-trees";
+import { championSource, mnChampionSource, wiChampionSource, ohChampionSource, miChampionSource, ilChampionSource, flChampionSource, alChampionSource, inChampionSource, kyChampionSource, gaChampionSource, tnChampionSource, scChampionSource, ncChampionSource, wvChampionSource, vaChampionSource, nhChampionSource, vtChampionSource, meChampionSource, riChampionSource, ctChampionSource, nyChampionSource, njChampionSource, paChampionSource, deChampionSource, mdChampionSource, sourceDates } from "../../lib/champion-trees";
 import "leaflet/dist/leaflet.css";
 import { championTrees, championManifest } from "../../lib/champion-tree-data";
 import { treeVisitSummary } from "../../lib/tree-visits";
 
 const pageInfo: Metadata = {
   title: "Champion Tree Map | Tree Yoga School",
-  description: `Explore ${championTrees.length.toLocaleString("en-US")} champion and score-based leader records across Massachusetts, New Hampshire, Vermont, Maine, Rhode Island, Connecticut, New York, New Jersey, Pennsylvania, Delaware, Maryland, Virginia, West Virginia, North Carolina, South Carolina, Tennessee, Georgia, Kentucky, Indiana, Alabama, Florida, Illinois, Michigan, Ohio, Wisconsin, Minnesota, Iowa, Missouri, Arkansas, Kansas, Nebraska, Texas, Colorado, Louisiana, and Oklahoma. Browse an interactive town, county, and parish map, measurements, source records, and tree practices. Ohio includes the complete 127-entry native and 126-entry non-native lists.`,
+  description: championMapDescription,
 };
 export const metadata: Metadata = pageMetadata("/champion-trees", String(pageInfo.title), String(pageInfo.description));
 
@@ -20,10 +21,10 @@ export default function ChampionTreesPage() {
   return <><SiteHeader /><main id="content" className="champion-page">
     <section className="champion-intro">
       <Link className="lesson-back" href="/trees">The Tree Library · Out in the world</Link>
-      <p className="section-kicker">{Object.keys(stateNames).length} states to explore · Champion Tree Map</p>
+      <p className="section-kicker">{championCoverage.states} states to explore · Champion Tree Map</p>
       <h1>Meet the giants<br />among us.</h1>
-      <p className="lesson-lede">Remarkable trees, rooted in real places. Explore published champion and score-based leader records across {Object.keys(stateNames).length} states. Choose a state, find a species, and discover the scale of the trees around you.</p>
-      <div className="champion-stats"><span><strong>{championTrees.length.toLocaleString("en-US")}</strong> listed trees</span><span><strong>{championManifest.reduce((total, state) => total + state.mapped, 0).toLocaleString("en-US")}</strong> mapped trees</span><span><strong>{Object.keys(stateNames).length}</strong> states to explore</span></div>
+      <p className="lesson-lede">Remarkable trees, rooted in real places. Explore published champion and score-based leader records across {championCoverage.states} states. Choose a state, find a species, and discover the scale of the trees around you.</p>
+      <div className="champion-stats"><span><strong>{championTrees.length.toLocaleString("en-US")}</strong> listed trees</span><span><strong>{championManifest.reduce((total, state) => total + state.mapped, 0).toLocaleString("en-US")}</strong> mapped trees</span><span><strong>{championCoverage.states}</strong> states to explore</span></div>
       <nav className="champion-page-links" aria-label="On the Champion Map page"><a className="button primary" href="#explorer">Explore the map ↓</a><a className="course-link" href="#registers">State registers & sources ↓</a></nav>
     </section>
     <Suspense fallback={<p role="status">Opening the champion tree explorer…</p>}><ChampionExplorer manifest={championManifest} /></Suspense>
@@ -135,7 +136,7 @@ export default function ChampionTreesPage() {
       <p>The snapshot preserves original record links, tree IDs, common and scientific names, measurements, points, towns, and last-measured years. It includes native and introduced trees as listed in the current register. The source explicitly marks 127 trees publicly accessible and 147 not publicly accessible; those labels power the public-access filter. Check the original record and current visiting guidance before an outing.</p>
       <p>All 274 records are searchable and mapped at 24 approximate Census county or independent-city points. Baltimore City is kept distinct from Baltimore County. Published towns and addresses remain on the cards, but these markers do not locate individual trees. Tree GPS coordinates and personal owner or nominator details are not imported. Measurement years are separate from this snapshot’s retrieval date.</p>
       <div className="course-actions"><a className="course-link" href={mdChampionSource.registerUrl} target="_blank" rel="noreferrer">Maryland State Champion Trees ↗</a><a className="course-link" href={mdChampionSource.programUrl} target="_blank" rel="noreferrer">Maryland DNR Big Tree Program ↗</a><a className="course-link" href={mdChampionSource.geographyUrl} target="_blank" rel="noreferrer">Census county geography ↗</a></div>
-      <p>Map tiles: © OpenStreetMap contributors. Tree Yoga School created this independent exploration of the {Object.keys(stateNames).length} registers.</p>
+      <p>Map tiles: © OpenStreetMap contributors. Tree Yoga School created this independent exploration of the {championCoverage.states} registers.</p>
     </section>
   </main><SiteFooter /></>;
 }

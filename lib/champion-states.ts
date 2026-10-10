@@ -234,3 +234,16 @@ export type ChampionState = keyof typeof championStates;
 export const stateNames = Object.fromEntries(Object.entries(championStates).map(([state, config]) => [state, config.name])) as Record<ChampionState, string>;
 export const sourceDates = Object.fromEntries(Object.entries(championStates).map(([state, config]) => [state, config.sourceDate])) as Record<ChampionState, string>;
 export const championRegions = { west: { name: "West", states: ["CO"] }, "south-central": { name: "South Central", states: ["TX", "LA", "OK"] }, midwest: { name: "Midwest", states: ["IN", "IL", "MI", "OH", "WI", "MN", "IA", "MO", "KS", "NE"] }, southeast: { name: "Southeast", states: ["NC", "SC", "TN", "GA", "KY", "AL", "FL", "AR"] }, "new-england": { name: "New England", states: ["MA", "NH", "VT", "ME", "RI", "CT"] }, northeast: { name: "Northeast", states: ["MA", "NH", "VT", "ME", "RI", "CT", "NY", "NJ", "PA"] }, "mid-atlantic": { name: "Mid-Atlantic", states: ["NY", "NJ", "PA", "DE", "MD", "VA", "WV"] } };
+
+// Coverage copy follows the same registry that drives imports and state filters.
+export const championCoverage = {
+  states: Object.keys(championStates).length,
+  listed: Object.values(championStates).reduce((total, state) => total + state.expectedRecords, 0),
+  mapped: Object.values(championStates).reduce((total, state) => total + state.expectedMapped, 0),
+};
+export const championMapDescription = `Explore ${championCoverage.listed.toLocaleString("en-US")} champion and score-based leader records across ${championCoverage.states} states. Browse approximate town, county, and parish markers, measurements, source records, and tree practices.`;
+export function championRegionCoverage(region: keyof typeof championRegions) {
+  const config = championRegions[region];
+  const names = config.states.filter(state => state in championStates).map(state => stateNames[state as ChampionState]);
+  return `${config.name} currently includes ${new Intl.ListFormat("en-US", { style: "long", type: "conjunction" }).format(names)}.`;
+}
