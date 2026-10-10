@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { treeComparisons } from "./tree-comparisons";
 import { trees } from "./trees";
 import { introLessons } from "./intro-lessons";
 import { bookChapters } from "./book-chapters";
@@ -19,6 +20,7 @@ export const discoveryPages = [
   { path: "/book", title: "Explore the Book", description: "Explore the seven chapters of Alex Julian’s Tree Yoga School." },
   { path: "/lessons/first-five-minutes", title: "Your First Five Minutes with a Tree", description: "Begin with observation, natural breathing, and a few minutes beside a tree." },
   { path: "/practice/first-five-minutes", title: "Any Tree Outdoor Practice", description: "Readable observation steps, an optional timer, and a printable practice sheet." },
+  ...treeComparisons.map(pair => ({ path: `/compare-trees/${pair.slug}`, title: `${pair.title}: Compare Similar Trees`, description: pair.lead })),
   ...trees.flatMap(tree => [
     { path: `/trees/${tree.slug}`, title: `${tree.name}: Energy & Practice`, description: `Meet ${tree.species} and explore ${tree.themes.join(", ").toLowerCase()} through observation and a five-minute practice.` },
     { path: `/practice/${tree.slug}`, title: `${tree.name} Outdoor Practice`, description: tree.practiceIntroduction },

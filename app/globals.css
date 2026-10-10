@@ -1116,3 +1116,20 @@ section[id] { scroll-margin-top: 90px; }
   .home-champions-directory nav { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 @media (prefers-reduced-motion: reduce) { .home-champions-shortcuts a { transition: none; } }
+
+/* Photographic tree comparisons */
+.tree-comparison-links { margin: 2rem 0; padding: clamp(1.25rem, 3vw, 2.5rem); border: 1px solid var(--line); background: #edf1e8; }
+.tree-comparison-links > div { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); gap: 1rem; }
+.tree-comparison-links > div > a { display: flex; flex-direction: column; gap: .5rem; padding: 1.2rem; background: var(--paper); border: 1px solid var(--line); text-decoration: none; font-weight: 600; }
+.tree-comparison-links span { font-size: .85rem; font-weight: 400; }
+.comparison-page h1 { font-size: clamp(2.5rem, 5vw, 5rem); }
+.comparison-feature { padding: 3rem 0; border-bottom: 1px solid var(--line); scroll-margin-top: 100px; }
+.comparison-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; }
+.comparison-grid article { min-width: 0; }
+.comparison-scientific { font-size: .9rem; }
+.comparison-clue { min-height: 5rem; }
+.comparison-grid figure { margin: 1rem 0; }
+.comparison-grid img { width: 100%; height: clamp(260px, 32vw, 420px); object-fit: contain; background: #edf1e8; }
+.comparison-grid figcaption { font-size: .8rem; line-height: 1.6; margin-top: .7rem; }
+.comparison-other { display: flex; flex-wrap: wrap; gap: 1.5rem; margin: 2rem 0; }
+@media (max-width: 760px) { .comparison-grid { grid-template-columns: 1fr; } .comparison-clue { min-height: 0; } .comparison-grid img { height: auto; max-height: 420px; } }
