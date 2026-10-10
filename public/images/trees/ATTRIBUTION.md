@@ -187,3 +187,75 @@ Photographs resized to a maximum of 1200 pixels, orientation normalized, and con
 - `/images/trees/bitternut-hickory-detail.webp`: End bud by NatureServe. [CC BY 2.0](http://creativecommons.org/licenses/by/2.0/legalcode); [botanical source](https://plants.ces.ncsu.edu/plants/carya-cordiformis/); [original photograph](https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/Carya-cordiformis--NatureServe--CC-BY.jpg). Converted to WebP.
 - `/images/trees/flowering-dogwood.webp`: Form by Jim Janke. [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/legalcode); [botanical source](https://plants.ces.ncsu.edu/plants/cornus-florida/); [original photograph](https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/Cornus_florida_Haywo_RAnn0m8ZkXO8.jpeg). Converted to WebP.
 - `/images/trees/flowering-dogwood-detail.webp`: Flowers (Warren County, NC) by Cathy Dewitt. [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/legalcode); [botanical source](https://plants.ces.ncsu.edu/plants/cornus-florida/); [original photograph](https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/Cornus-florida-Easte_VEarVF4p23sQ.jpg). Converted to WebP.
+
+## osage-orange.webp
+- Photo: Form — H. Zell
+- License: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.en)
+- [Original image](https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/Maclura_pomifera_for_HMT4JchMS4TG.jfif) · [Source and credit](https://plants.ces.ncsu.edu/plants/maclura-pomifera/)
+- Changes: oriented, resized to at most 1000 pixels, converted to WebP. Adaptations retain the source license.
+
+## osage-orange-detail.webp
+- Photo: Fruit — Lazaregagnidze
+- License: [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/legalcode)
+- [Original image](https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/Maclura_pomifera_fru_ycrrfS1DUwWP.jfif) · [Source and credit](https://plants.ces.ncsu.edu/plants/maclura-pomifera/)
+- Changes: oriented, resized to at most 1000 pixels, converted to WebP. Adaptations retain the source license.
+
+## chinkapin-oak.webp
+- Photo: Quercus muehlenbergii - Form — Bruce Kirchoff
+- License: [CC BY 2.0](http://creativecommons.org/licenses/by/2.0/legalcode)
+- [Original image](https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/Quercus_muehlenbergi_OKKyHq7p6yb4.jpe) · [Source and credit](https://plants.ces.ncsu.edu/plants/quercus-muehlenbergii/)
+- Changes: oriented, resized to at most 1000 pixels, converted to WebP. Adaptations retain the source license.
+
+## chinkapin-oak-detail.webp
+- Photo: Quercus muehlenbergii - Leaves and young acorns — Vojtech Zavadil
+- License: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.en)
+- [Original image](https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/2494-Quercus_muehlen_S5WwkcA0UBIe.jpe) · [Source and credit](https://plants.ces.ncsu.edu/plants/quercus-muehlenbergii/)
+- Changes: oriented, resized to at most 1000 pixels, converted to WebP. Adaptations retain the source license.
+
+## butternut.webp
+- Photo: Form — H. Zell
+- License: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.en)
+- [Original image](https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/Juglans_cinerea_form_tkWV7JpxALFx.jpg) · [Source and credit](https://plants.ces.ncsu.edu/plants/juglans-cinerea/)
+- Changes: oriented, resized to at most 1000 pixels, converted to WebP. Adaptations retain the source license.
+
+## butternut-detail.webp
+- Photo: Bark — Illustratedjc
+- License: [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/legalcode)
+- [Original image](https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/Juglans-cinerea-bark_gzONXSIsX6RT.jpe) · [Source and credit](https://plants.ces.ncsu.edu/plants/juglans-cinerea/)
+- Changes: oriented, resized to at most 1000 pixels, converted to WebP. Adaptations retain the source license.
+
+## slippery-elm.webp
+- Photo: Rough, toothed slippery elm leaves at the Botanical Gardens at Asheville — David J. Stang
+- License: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0)
+- [Original image](https://upload.wikimedia.org/wikipedia/commons/1/1d/Ulmus_rubra_11zz.jpg) · [Source and credit](https://commons.wikimedia.org/wiki/File:Ulmus_rubra_11zz.jpg)
+- Changes: oriented, resized to at most 1000 pixels, converted to WebP. Adaptations retain the source license.
+
+## slippery-elm-detail.webp
+- Photo: Bark close-up — Cephas
+- License: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.en)
+- [Original image](https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/Ulmus_rubra_Cephas_c_Lnc8Zu0QQrRw.jpeg) · [Source and credit](https://plants.ces.ncsu.edu/plants/ulmus-rubra/)
+- Changes: oriented, resized to at most 1000 pixels, converted to WebP. Adaptations retain the source license.
+
+## post-oak.webp
+- Photo: Post oak growing in an open serpentine barrens landscape — Choess
+- License: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0)
+- [Original image](https://upload.wikimedia.org/wikipedia/commons/c/c7/Quercus_stellata_tree.jpg) · [Source and credit](https://commons.wikimedia.org/wiki/File:Quercus_stellata_tree.jpg)
+- Changes: oriented, resized to at most 1000 pixels, converted to WebP. Adaptations retain the source license.
+
+## post-oak-detail.webp
+- Photo: Post oak leaves and bark — Robert H. Mohlenbrock / USDA NRCS
+- License: [Public domain](https://creativecommons.org/publicdomain/mark/1.0/)
+- [Original image](https://upload.wikimedia.org/wikipedia/commons/1/13/Quercus_stellata_%28USDA%29.jpg) · [Source and credit](https://commons.wikimedia.org/wiki/File:Quercus_stellata_(USDA).jpg)
+- Changes: oriented, resized to at most 1000 pixels, converted to WebP. Adaptations retain the source license.
+
+## kentucky-coffeetree.webp
+- Photo: Kentucky coffeetree leaves and developing pods at Royal Botanical Gardens in Ontario — Leonora (Ellie) Enking
+- License: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0)
+- [Original image](https://upload.wikimedia.org/wikipedia/commons/f/f8/Gymnocladus_dioicus_%28Kentucky_Coffee_Tree%29_%2828773254876%29.jpg) · [Source and credit](https://commons.wikimedia.org/wiki/File:Gymnocladus_dioicus_(Kentucky_Coffee_Tree)_(28773254876).jpg)
+- Changes: oriented, resized to at most 1000 pixels, converted to WebP. Adaptations retain the source license.
+
+## kentucky-coffeetree-detail.webp
+- Photo: A complete twice-compound Kentucky coffeetree leaf against a wall — Tobias 67
+- License: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0)
+- [Original image](https://upload.wikimedia.org/wikipedia/commons/f/ff/Gymnocladus_dioicus_leaf_TP01.jpg) · [Source and credit](https://commons.wikimedia.org/wiki/File:Gymnocladus_dioicus_leaf_TP01.jpg)
+- Changes: oriented, resized to at most 1000 pixels, converted to WebP. Adaptations retain the source license.
