@@ -1,0 +1,3308 @@
+[
+  {
+    "page": 12,
+    "row": 1,
+    "category": "ALDER",
+    "native": true,
+    "values": [
+      "Green or Sitka",
+      "Alnus viridus ssp sinuata*",
+      "W",
+      "43 (43)",
+      "5",
+      "15",
+      "26",
+      "6",
+      "Flathead",
+      "2015"
+    ],
+    "national": true
+  },
+  {
+    "page": 12,
+    "row": 2,
+    "category": "ALDER",
+    "native": true,
+    "values": [
+      "Green or Sitka",
+      "Alnus viridus ssp sinuata*",
+      "W",
+      "39 (43)",
+      "6",
+      "18",
+      "19",
+      "10",
+      "Flathead",
+      "2015"
+    ],
+    "national": false
+  },
+  {
+    "page": 12,
+    "row": 3,
+    "category": "ALDER",
+    "native": true,
+    "values": [
+      "Mountain or Thinleaf",
+      "Alnus incana ssp. Tenuifolia*",
+      "W",
+      "116 (none)",
+      "17",
+      "53",
+      "54",
+      "35",
+      "Ravalli",
+      "2023"
+    ],
+    "national": false
+  },
+  {
+    "page": 12,
+    "row": 4,
+    "category": "ALDER",
+    "native": true,
+    "values": [
+      "Mountain or Thinleaf",
+      "Alnus incana ssp. Tenuifolia*",
+      "W",
+      "104 (none)",
+      "14",
+      "44",
+      "54",
+      "24",
+      "Ravalli",
+      "2013"
+    ],
+    "national": false
+  },
+  {
+    "page": 12,
+    "row": 5,
+    "category": "ALDER",
+    "native": true,
+    "values": [
+      "Red",
+      "Alnus rubra",
+      "W",
+      "178 (280)",
+      "39",
+      "122",
+      "46",
+      "39",
+      "Sanders",
+      "1999, 2013, 2023"
+    ],
+    "national": false
+  },
+  {
+    "page": 12,
+    "row": 6,
+    "category": "ASH",
+    "native": true,
+    "values": [
+      "Green",
+      "Fraxinus pennsylvanica",
+      "W",
+      "268 (349)",
+      "54",
+      "170",
+      "84",
+      "58",
+      "Ravvalli",
+      "1998, 2012, 2022"
+    ],
+    "national": true
+  },
+  {
+    "page": 12,
+    "row": 7,
+    "category": "ASPEN",
+    "native": true,
+    "values": [
+      "Quaking",
+      "Populus tremuloides*",
+      "W",
+      "245 (247)",
+      "38",
+      "118",
+      "119",
+      "33",
+      "Sanders",
+      "2014"
+    ],
+    "national": false
+  },
+  {
+    "page": 12,
+    "row": 8,
+    "category": "ASPEN",
+    "native": true,
+    "values": [
+      "Quaking",
+      "Populus tremuloides*",
+      "W",
+      "238 (247)",
+      "37",
+      "116",
+      "115",
+      "29",
+      "Sanders",
+      "2014"
+    ],
+    "national": false
+  },
+  {
+    "page": 12,
+    "row": 9,
+    "category": "ASPEN",
+    "native": true,
+    "values": [
+      "Quaking",
+      "Populus tremuloides*",
+      "W",
+      "234 (247)",
+      "37",
+      "116",
+      "103",
+      "46",
+      "Sanders",
+      "2012, 2022"
+    ],
+    "national": false
+  },
+  {
+    "page": 12,
+    "row": 10,
+    "category": "ASPEN",
+    "native": true,
+    "values": [
+      "Quaking",
+      "Populus tremuloides*",
+      "W",
+      "230 (247)",
+      "39",
+      "121",
+      "100",
+      "37",
+      "Sanders",
+      "2009, 2019"
+    ],
+    "national": false
+  },
+  {
+    "page": 12,
+    "row": 11,
+    "category": "BIRCH",
+    "native": true,
+    "values": [
+      "Paper",
+      "Betula papyrifera var. papyrifera",
+      "W",
+      "221 (none)",
+      "36",
+      "114",
+      "94",
+      "52",
+      "Sanders",
+      "1996, 2012, 2022"
+    ],
+    "national": true
+  },
+  {
+    "page": 12,
+    "row": 12,
+    "category": "BIRCH",
+    "native": true,
+    "values": [
+      "Water",
+      "Betula occidentalis",
+      "W",
+      "148 (none)",
+      "19",
+      "60",
+      "78",
+      "40",
+      "Ravalli",
+      "2010, 2020"
+    ],
+    "national": false
+  },
+  {
+    "page": 12,
+    "row": 13,
+    "category": "BOXELDER",
+    "native": true,
+    "values": [
+      "Boxelder",
+      "Acer negundo",
+      "U",
+      "266 (312)",
+      "68",
+      "112",
+      "42",
+      "48",
+      "Ravalli",
+      "2001, 2012, 2022"
+    ],
+    "national": false
+  },
+  {
+    "page": 12,
+    "row": 14,
+    "category": "BUCKTHORN",
+    "native": true,
+    "values": [
+      "Pursh\u2019s or Cascara",
+      "Rhamnus (Frangula) purshiana",
+      "W",
+      "71 (165)",
+      "8",
+      "24",
+      "40",
+      "26",
+      "Lincoln",
+      "2003, 2008, 2018"
+    ],
+    "national": false
+  },
+  {
+    "page": 12,
+    "row": 15,
+    "category": "BUFFALOBERRY",
+    "native": true,
+    "values": [
+      "Silver",
+      "Shepherdia argentea*",
+      "W",
+      "56 (none)",
+      "11",
+      "34",
+      "17",
+      "18",
+      "Madison",
+      "2013"
+    ],
+    "national": false
+  },
+  {
+    "page": 12,
+    "row": 16,
+    "category": "BUFFALOBERRY",
+    "native": true,
+    "values": [
+      "Silver",
+      "Shepherdia argentea*",
+      "U",
+      "43 (none)",
+      "5",
+      "15",
+      "22",
+      "24",
+      "Ravalli",
+      "2016"
+    ],
+    "national": false
+  },
+  {
+    "page": 12,
+    "row": 17,
+    "category": "CEDAR",
+    "native": true,
+    "values": [
+      "Western Red- cedar",
+      "Thuja plicata",
+      "W",
+      "577 (566)",
+      "131",
+      "412",
+      "156",
+      "36",
+      "Lincoln",
+      "2022"
+    ],
+    "national": false
+  },
+  {
+    "page": 13,
+    "row": 1,
+    "category": "CEDAR",
+    "native": true,
+    "values": [
+      "Western Red- cedar",
+      "Thuja plicata",
+      "W",
+      "562 (566)",
+      "115",
+      "362",
+      "190",
+      "38",
+      "Lincoln",
+      "2022"
+    ],
+    "national": false
+  },
+  {
+    "page": 13,
+    "row": 2,
+    "category": "CHOKECHERRY",
+    "native": true,
+    "values": [
+      "Black Chokecherry",
+      "Prunus virginiana var. melanocarpa",
+      "U",
+      "111 (111)",
+      "12",
+      "39",
+      "66",
+      "22",
+      "Flathead",
+      "2015"
+    ],
+    "national": true
+  },
+  {
+    "page": 13,
+    "row": 3,
+    "category": "COTTONWOOD",
+    "native": true,
+    "values": [
+      "Black",
+      "Populus balsamifera ssp. trichocarpa",
+      "W",
+      "407 (544)",
+      "83",
+      "260",
+      "124",
+      "90",
+      "Sanders",
+      "2016"
+    ],
+    "national": false
+  },
+  {
+    "page": 13,
+    "row": 4,
+    "category": "COTTONWOOD",
+    "native": true,
+    "values": [
+      "Lanceleaf",
+      "Populus acuminata",
+      "W",
+      "254 (none)",
+      "47",
+      "148",
+      "94",
+      "50",
+      "Sweet Grass",
+      "2004, 2010, 2020"
+    ],
+    "national": false
+  },
+  {
+    "page": 13,
+    "row": 5,
+    "category": "COTTONWOOD",
+    "native": true,
+    "values": [
+      "Narrowleaf",
+      "Populus angustifolia",
+      "W",
+      "305 (305/ 311)",
+      "62",
+      "195",
+      "92",
+      "70",
+      "Sweet Grass",
+      "2014"
+    ],
+    "national": true
+  },
+  {
+    "page": 13,
+    "row": 6,
+    "category": "COTTONWOOD",
+    "native": true,
+    "values": [
+      "Plains",
+      "Populus deltoides ssp. monilifera*",
+      "U",
+      "530 (530)",
+      "124",
+      "394",
+      "112",
+      "94",
+      "Ravalli",
+      "1999, 2009 2014"
+    ],
+    "national": true
+  },
+  {
+    "page": 13,
+    "row": 7,
+    "category": "COTTONWOOD",
+    "native": true,
+    "values": [
+      "Plains",
+      "Populus deltoides ssp. monilifera*",
+      "W",
+      "525 (530)",
+      "132",
+      "416",
+      "88",
+      "85",
+      "Richland",
+      "2018"
+    ],
+    "national": false
+  },
+  {
+    "page": 13,
+    "row": 8,
+    "category": "DOGWOOD",
+    "native": true,
+    "values": [
+      "Red-osier",
+      "Cornus sericea*",
+      "W",
+      "33 (none)",
+      "3",
+      "10",
+      "17",
+      "23",
+      "Missoula",
+      "2019"
+    ],
+    "national": false
+  },
+  {
+    "page": 13,
+    "row": 9,
+    "category": "DOGWOOD",
+    "native": true,
+    "values": [
+      "Red-osier",
+      "Cornus sericea*",
+      "W",
+      "27 (none)",
+      "3",
+      "10",
+      "15",
+      "9",
+      "Ravalli",
+      "2018"
+    ],
+    "national": false
+  },
+  {
+    "page": 13,
+    "row": 10,
+    "category": "DOUGLAS-FIR",
+    "native": true,
+    "values": [
+      "Douglas-fir",
+      "Pseudotsuga menziessi*",
+      "W",
+      "385 (414)",
+      "58",
+      "183",
+      "191",
+      "44",
+      "Lake",
+      "2023"
+    ],
+    "national": false
+  },
+  {
+    "page": 13,
+    "row": 11,
+    "category": "DOUGLAS-FIR",
+    "native": true,
+    "values": [
+      "Douglas-fir",
+      "Pseudotsuga menziessii*",
+      "W",
+      "378 (414)",
+      "58",
+      "183",
+      "186",
+      "34",
+      "Lake",
+      "2023"
+    ],
+    "national": false
+  },
+  {
+    "page": 13,
+    "row": 12,
+    "category": "DOUGLAS-FIR",
+    "native": true,
+    "values": [
+      "Douglas-fir",
+      "Pseudotsuga menziessii*",
+      "U",
+      "276 (414)",
+      "46",
+      "145",
+      "118",
+      "46",
+      "Ravalli",
+      "2023"
+    ],
+    "national": false
+  },
+  {
+    "page": 13,
+    "row": 13,
+    "category": "DOUGLAS-FIR",
+    "native": true,
+    "values": [
+      "Rocky Mountain",
+      "Pseudotsuga menziesii var. glauca",
+      "W",
+      "299 (891)",
+      "64",
+      "202",
+      "83",
+      "56",
+      "Beaver- head",
+      "2022"
+    ],
+    "national": false
+  },
+  {
+    "page": 13,
+    "row": 14,
+    "category": "ELDER",
+    "native": true,
+    "values": [
+      "Blue",
+      "Sambucus ceruleai*",
+      "W",
+      "87 (170)",
+      "17",
+      "52",
+      "30",
+      "18",
+      "Missoula",
+      "2019"
+    ],
+    "national": false
+  },
+  {
+    "page": 13,
+    "row": 15,
+    "category": "ELDER",
+    "native": true,
+    "values": [
+      "Blue",
+      "Sambucus ceruleai*",
+      "W",
+      "82 (170)",
+      "14",
+      "43",
+      "28",
+      "42",
+      "Ravalli",
+      "2011, 2021"
+    ],
+    "national": false
+  },
+  {
+    "page": 13,
+    "row": 16,
+    "category": "ELDER",
+    "native": true,
+    "values": [
+      "Blue",
+      "Sambucus ceruleai*",
+      "W",
+      "81 (170)",
+      "15",
+      "47",
+      "29",
+      "20",
+      "Lincoln",
+      "2023"
+    ],
+    "national": false
+  },
+  {
+    "page": 13,
+    "row": 17,
+    "category": "ELM",
+    "native": true,
+    "values": [
+      "American",
+      "Ulmus american",
+      "U",
+      "312 (393)",
+      "63",
+      "197",
+      "97",
+      "73",
+      "Ravalli",
+      "2001, 2012, 2022"
+    ],
+    "national": false
+  },
+  {
+    "page": 14,
+    "row": 1,
+    "category": "FIR",
+    "native": true,
+    "values": [
+      "Grand",
+      "Abies grandisi*",
+      "W",
+      "359 (511)",
+      "52",
+      "163",
+      "187",
+      "35",
+      "Lincoln",
+      "2008, 2018"
+    ],
+    "national": false
+  },
+  {
+    "page": 14,
+    "row": 2,
+    "category": "FIR",
+    "native": true,
+    "values": [
+      "Grand",
+      "Abies grandisi*",
+      "W",
+      "355 (511)",
+      "66",
+      "206",
+      "140",
+      "36",
+      "Lincoln",
+      "2019"
+    ],
+    "national": false
+  },
+  {
+    "page": 14,
+    "row": 3,
+    "category": "FIR",
+    "native": true,
+    "values": [
+      "Grand",
+      "Abies grandisi*",
+      "W",
+      "348 (511)",
+      "52",
+      "162",
+      "176",
+      "39",
+      "Lake",
+      "2016"
+    ],
+    "national": false
+  },
+  {
+    "page": 14,
+    "row": 4,
+    "category": "FIR",
+    "native": true,
+    "values": [
+      "Subalpine",
+      "Abies lasiocarpa var. lasiocarpa*",
+      "W",
+      "240 (384)",
+      "29",
+      "91",
+      "144",
+      "20",
+      "Ravalli",
+      "2018"
+    ],
+    "national": false
+  },
+  {
+    "page": 14,
+    "row": 5,
+    "category": "FIR",
+    "native": true,
+    "values": [
+      "Subalpine",
+      "Abies lasiocarpa var. lasiocarpa*",
+      "W",
+      "237 (384)",
+      "34",
+      "106",
+      "126",
+      "20",
+      "Lincoln",
+      "2018"
+    ],
+    "national": false
+  },
+  {
+    "page": 14,
+    "row": 6,
+    "category": "FIR",
+    "native": true,
+    "values": [
+      "Subalpine",
+      "Abies lasiocarpa var. lasiocarpa*",
+      "W",
+      "232 (384)",
+      "31",
+      "95",
+      "131",
+      "22",
+      "Beaver- head",
+      "2021"
+    ],
+    "national": false
+  },
+  {
+    "page": 14,
+    "row": 7,
+    "category": "HAWTHORN",
+    "native": true,
+    "values": [
+      "Black",
+      "Crataegus douglasii",
+      "W",
+      "95 (none)",
+      "13",
+      "41",
+      "35",
+      "38",
+      "Missoula",
+      "2006, 2016"
+    ],
+    "national": false
+  },
+  {
+    "page": 14,
+    "row": 8,
+    "category": "HAWTHORN",
+    "native": true,
+    "values": [
+      "Castlegar",
+      "Crataegus castlegarensis",
+      "W",
+      "91 (91)",
+      "14",
+      "43",
+      "42",
+      "23",
+      "Flathead",
+      "2015"
+    ],
+    "national": true
+  },
+  {
+    "page": 14,
+    "row": 9,
+    "category": "HAWTHORN",
+    "native": true,
+    "values": [
+      "Fleshy",
+      "Crataegus succulenta",
+      "W",
+      "68 (71)",
+      "11",
+      "34",
+      "28",
+      "25",
+      "Flathead",
+      "2013, 2023"
+    ],
+    "national": false
+  },
+  {
+    "page": 14,
+    "row": 10,
+    "category": "HEMLOCK",
+    "native": true,
+    "values": [
+      "Mountain",
+      "Tsuga mertensiana",
+      "W",
+      "326 (347)",
+      "49",
+      "155",
+      "162",
+      "34",
+      "Sanders",
+      "2019"
+    ],
+    "national": false
+  },
+  {
+    "page": 14,
+    "row": 11,
+    "category": "HEMLOCK",
+    "native": true,
+    "values": [
+      "Western",
+      "Tsuga heterophylla",
+      "W",
+      "376 (546)",
+      "55",
+      "172",
+      "194",
+      "41",
+      "Lincoln",
+      "2018"
+    ],
+    "national": false
+  },
+  {
+    "page": 14,
+    "row": 12,
+    "category": "JUNIPER",
+    "native": true,
+    "values": [
+      "Rocky Mountain",
+      "Juniperus scopulorum",
+      "W",
+      "195 (331)",
+      "41",
+      "130",
+      "55",
+      "39",
+      "Lake",
+      "2013"
+    ],
+    "national": false
+  },
+  {
+    "page": 14,
+    "row": 13,
+    "category": "LARCH",
+    "native": true,
+    "values": [
+      "Alpine",
+      "Larix lyallii",
+      "W",
+      "272 (391)",
+      "56",
+      "177",
+      "84",
+      "42",
+      "Ravalli",
+      "1996, 2022"
+    ],
+    "national": false
+  },
+  {
+    "page": 14,
+    "row": 14,
+    "category": "LARCH",
+    "native": true,
+    "values": [
+      "Hybrid",
+      "Larix lyallii x occidentalis",
+      "W",
+      "255 (391)",
+      "38",
+      "119",
+      "128",
+      "32",
+      "Missoula",
+      "2020"
+    ],
+    "national": false
+  },
+  {
+    "page": 14,
+    "row": 15,
+    "category": "LARCH",
+    "native": true,
+    "values": [
+      "Western",
+      "Larix occidentalisi*",
+      "W",
+      "430 (430)",
+      "85",
+      "267",
+      "154",
+      "36",
+      "Missoula",
+      "1995, 2011"
+    ],
+    "national": true
+  },
+  {
+    "page": 14,
+    "row": 16,
+    "category": "LARCH",
+    "native": true,
+    "values": [
+      "Western",
+      "Larix occidentalisi*",
+      "W",
+      "421 (430)",
+      "75",
+      "235",
+      "178",
+      "31",
+      "Sanders",
+      "2018, 2022"
+    ],
+    "national": false
+  },
+  {
+    "page": 14,
+    "row": 17,
+    "category": "MAHOGANY",
+    "native": true,
+    "values": [
+      "Mountain/ Alderleaf",
+      "Cercocarpus montanus",
+      "W",
+      "67 (110)",
+      "13",
+      "42",
+      "17",
+      "32",
+      "Ravalli",
+      "2013, 2023"
+    ],
+    "national": false
+  },
+  {
+    "page": 14,
+    "row": 18,
+    "category": "MAPLE",
+    "native": true,
+    "values": [
+      "Rocky Mountain",
+      "Acer glabrumi*",
+      "W",
+      "134 (196)",
+      "19",
+      "61",
+      "62",
+      "44",
+      "Lincoln",
+      "2023"
+    ],
+    "national": false
+  },
+  {
+    "page": 14,
+    "row": 19,
+    "category": "MAPLE",
+    "native": true,
+    "values": [
+      "Rocky Mountain",
+      "Acer glabrumi*",
+      "W",
+      "124 (196)",
+      "16",
+      "51",
+      "64",
+      "37",
+      "Sanders",
+      "2016"
+    ],
+    "national": false
+  },
+  {
+    "page": 15,
+    "row": 1,
+    "category": "OAK",
+    "native": true,
+    "values": [
+      "Bur",
+      "Quercus macrocarpa",
+      "\u2206U",
+      "305 (448)",
+      "54",
+      "169",
+      "116",
+      "79",
+      "Ravalli",
+      "2013, 2023"
+    ],
+    "national": false
+  },
+  {
+    "page": 15,
+    "row": 2,
+    "category": "PINE",
+    "native": true,
+    "values": [
+      "Lodgepole",
+      "Pinus contorta var. latifoliai*",
+      "W",
+      "236 (391)",
+      "35",
+      "110",
+      "121",
+      "21",
+      "Ravalli",
+      "2013"
+    ],
+    "national": false
+  },
+  {
+    "page": 15,
+    "row": 3,
+    "category": "PINE",
+    "native": true,
+    "values": [
+      "Lodgepole",
+      "Pinus contorta var. latifoliai*",
+      "W",
+      "228 (391)",
+      "36",
+      "117",
+      "100",
+      "45",
+      "Missoula",
+      "2009, 2019"
+    ],
+    "national": false
+  },
+  {
+    "page": 15,
+    "row": 4,
+    "category": "PINE",
+    "native": true,
+    "values": [
+      "Lodgepole",
+      "Pinus contorta var. latifoliai*",
+      "W",
+      "221 (391)",
+      "36",
+      "113",
+      "96",
+      "46",
+      "Beaver- head",
+      "2018"
+    ],
+    "national": false
+  },
+  {
+    "page": 15,
+    "row": 5,
+    "category": "PINE",
+    "native": true,
+    "values": [
+      "Ponderosa",
+      "Pinus ponderosa var. scopulorum",
+      "W",
+      "456 (576)",
+      "78",
+      "246",
+      "195",
+      "61",
+      "Mineral",
+      "1982, 2005, 2015"
+    ],
+    "national": false
+  },
+  {
+    "page": 15,
+    "row": 6,
+    "category": "PINE",
+    "native": true,
+    "values": [
+      "Western White",
+      "Pinus monticola*",
+      "W",
+      "424 (483)",
+      "75",
+      "237",
+      "178",
+      "35",
+      "Lincoln",
+      "1996, 2008, 2018"
+    ],
+    "national": false
+  },
+  {
+    "page": 15,
+    "row": 7,
+    "category": "PINE",
+    "native": true,
+    "values": [
+      "Whitebark",
+      "Pinus albicaulis",
+      "W",
+      "263 (none)",
+      "46",
+      "146",
+      "108",
+      "34",
+      "Flathead",
+      "2023"
+    ],
+    "national": true
+  },
+  {
+    "page": 15,
+    "row": 8,
+    "category": "SAGEBRUSH",
+    "native": true,
+    "values": [
+      "Big",
+      "Artemesia tridentata",
+      "W",
+      "36 (53)",
+      "6",
+      "20",
+      "13",
+      "12",
+      "Beaver- head",
+      "2012, 2022"
+    ],
+    "national": false
+  },
+  {
+    "page": 15,
+    "row": 9,
+    "category": "SERVICEBERRY",
+    "native": true,
+    "values": [
+      "Western",
+      "Amelanchier alnifolia",
+      "W",
+      "46 (none)",
+      "5",
+      "17",
+      "26",
+      "14",
+      "Lincoln",
+      "2023"
+    ],
+    "national": false
+  },
+  {
+    "page": 15,
+    "row": 10,
+    "category": "SPRUCE",
+    "native": true,
+    "values": [
+      "Engelmann",
+      "Picea engelmannii",
+      "W",
+      "409 (409)",
+      "72",
+      "227",
+      "173",
+      "35",
+      "Flathead",
+      "2014"
+    ],
+    "national": false
+  },
+  {
+    "page": 15,
+    "row": 11,
+    "category": "SPRUCE",
+    "native": true,
+    "values": [
+      "White",
+      "Picea glauca",
+      "U",
+      "291 (269)",
+      "61",
+      "191",
+      "95",
+      "19",
+      "Lincoln",
+      "2009, 2019"
+    ],
+    "national": true
+  },
+  {
+    "page": 15,
+    "row": 12,
+    "category": "WILLOW",
+    "native": true,
+    "values": [
+      "Bebb",
+      "Salix bebbianai*",
+      "W",
+      "93 (none)",
+      "15",
+      "48",
+      "40",
+      "24",
+      "Ravalli",
+      "2011"
+    ],
+    "national": false
+  },
+  {
+    "page": 15,
+    "row": 13,
+    "category": "WILLOW",
+    "native": true,
+    "values": [
+      "Bebb",
+      "Salix bebbianai*",
+      "W",
+      "90 (none)",
+      "19",
+      "59",
+      "27",
+      "15",
+      "Beaver- head",
+      "2020"
+    ],
+    "national": false
+  },
+  {
+    "page": 15,
+    "row": 14,
+    "category": "WILLOW",
+    "native": true,
+    "values": [
+      "Booth",
+      "Salix boothii",
+      "W",
+      "84 (none)",
+      "15",
+      "48",
+      "31",
+      "20",
+      "Beaver- head",
+      "2018"
+    ],
+    "national": false
+  },
+  {
+    "page": 15,
+    "row": 15,
+    "category": "WILLOW",
+    "native": true,
+    "values": [
+      "Geyer",
+      "Salix geyeriana",
+      "W",
+      "44 (none)",
+      "3",
+      "10",
+      "31",
+      "13",
+      "Beaver- head",
+      "2018"
+    ],
+    "national": false
+  },
+  {
+    "page": 15,
+    "row": 16,
+    "category": "WILLOW",
+    "native": true,
+    "values": [
+      "Pacific",
+      "Sali lucida*",
+      "U",
+      "190 (199)",
+      "32",
+      "101",
+      "80",
+      "37",
+      "Ravalli",
+      "2021"
+    ],
+    "national": false
+  },
+  {
+    "page": 15,
+    "row": 17,
+    "category": "WILLOW",
+    "native": true,
+    "values": [
+      "Pacific",
+      "Sali lucida*",
+      "U",
+      "188 (199)",
+      "33",
+      "104",
+      "76",
+      "30",
+      "Ravalli",
+      "2021"
+    ],
+    "national": false
+  },
+  {
+    "page": 15,
+    "row": 18,
+    "category": "WILLOW",
+    "native": true,
+    "values": [
+      "Peachleaf",
+      "Salix amygdaloidesi*",
+      "W",
+      "176 (304)",
+      "35",
+      "110",
+      "50",
+      "64",
+      "Stillwater",
+      "2014"
+    ],
+    "national": false
+  },
+  {
+    "page": 15,
+    "row": 19,
+    "category": "WILLOW",
+    "native": true,
+    "values": [
+      "Peachleaf",
+      "Salix amygdaloidesi*",
+      "W",
+      "172 (304)",
+      "36",
+      "114",
+      "49",
+      "34",
+      "Yellow- stone",
+      "2016"
+    ],
+    "national": false
+  },
+  {
+    "page": 16,
+    "row": 1,
+    "category": "WILLOW",
+    "native": true,
+    "values": [
+      "Planeleaf",
+      "Salix planifola",
+      "U",
+      "63 (none)",
+      "13",
+      "40",
+      "18",
+      "20",
+      "Madison",
+      "2018"
+    ],
+    "national": false
+  },
+  {
+    "page": 16,
+    "row": 2,
+    "category": "WILLOW",
+    "native": true,
+    "values": [
+      "Sandbar",
+      "Salix interior",
+      "W",
+      "66 (59)",
+      "11",
+      "34",
+      "25",
+      "28",
+      "Ravalli",
+      "2011"
+    ],
+    "national": true
+  },
+  {
+    "page": 16,
+    "row": 3,
+    "category": "WILLOW",
+    "native": true,
+    "values": [
+      "Scouler",
+      "Salix scouleri*",
+      "W",
+      "124 (228)",
+      "21",
+      "96",
+      "22",
+      "25",
+      "Ravalli",
+      "2021"
+    ],
+    "national": false
+  },
+  {
+    "page": 16,
+    "row": 4,
+    "category": "WILLOW",
+    "native": true,
+    "values": [
+      "Scouler",
+      "Salix scouleri*",
+      "W",
+      "123 (228)",
+      "24",
+      "75",
+      "39",
+      "34",
+      "Ravalli",
+      "2011, 2021"
+    ],
+    "national": false
+  },
+  {
+    "page": 16,
+    "row": 5,
+    "category": "WILLOW",
+    "native": true,
+    "values": [
+      "Whiplash or Greenleaf",
+      "Salix lasiandra var. caudata",
+      "W",
+      "124 (none)",
+      "22",
+      "69",
+      "45",
+      "39",
+      "Sweet Grass",
+      "2014"
+    ],
+    "national": false
+  },
+  {
+    "page": 16,
+    "row": 6,
+    "category": "WILLOW",
+    "native": true,
+    "values": [
+      "Yellow",
+      "Salix lutea",
+      "W",
+      "36 (none)",
+      "4",
+      "14",
+      "18",
+      "17",
+      "Beaver- head",
+      "2018"
+    ],
+    "national": false
+  },
+  {
+    "page": 16,
+    "row": 7,
+    "category": "YEW",
+    "native": true,
+    "values": [
+      "Pacific",
+      "Taxus brevifoliai*",
+      "W",
+      "97 (250)",
+      "17",
+      "52",
+      "38",
+      "29",
+      "Ravalli",
+      "2017, 2022"
+    ],
+    "national": false
+  },
+  {
+    "page": 16,
+    "row": 8,
+    "category": "YEW",
+    "native": true,
+    "values": [
+      "Pacific",
+      "Taxus brevifoliai*",
+      "W",
+      "96 (250)",
+      "18",
+      "55",
+      "34",
+      "28",
+      "Lake",
+      "1992, 2012, 2022"
+    ],
+    "national": false
+  },
+  {
+    "page": 16,
+    "row": 9,
+    "category": "YEW",
+    "native": true,
+    "values": [
+      "Pacific",
+      "Taxus brevifoliai*",
+      "W",
+      "84 (250)",
+      "15",
+      "48",
+      "29",
+      "26",
+      "Ravalli",
+      "2017"
+    ],
+    "national": false
+  },
+  {
+    "page": 17,
+    "row": 1,
+    "category": "APPLE",
+    "native": false,
+    "values": [
+      "Chief Plenty Coups Heritage",
+      "Malus pumila",
+      "U",
+      "75 (none)",
+      "13",
+      "41",
+      "28",
+      "23",
+      "Big Horn",
+      "2016"
+    ],
+    "national": false
+  },
+  {
+    "page": 17,
+    "row": 2,
+    "category": "APPLE",
+    "native": false,
+    "values": [
+      "MacIntosh",
+      "Malus domestica",
+      "U",
+      "80 (none)",
+      "23",
+      "71.5",
+      "29",
+      "42",
+      "Flathead",
+      "2022"
+    ],
+    "national": false
+  },
+  {
+    "page": 17,
+    "row": 3,
+    "category": "APRICOT",
+    "native": false,
+    "values": [
+      "Manchurian",
+      "Prunus mandshurica",
+      "U",
+      "99 (none)",
+      "17",
+      "54",
+      "40",
+      "18",
+      "Ravalli",
+      "2020"
+    ],
+    "national": false
+  },
+  {
+    "page": 17,
+    "row": 4,
+    "category": "ASH",
+    "native": false,
+    "values": [
+      "Blue",
+      "Fraxinau quadrangulatai*",
+      "U",
+      "149 (315)",
+      "29",
+      "91",
+      "47",
+      "42",
+      "Ravalli",
+      "2016"
+    ],
+    "national": false
+  },
+  {
+    "page": 17,
+    "row": 5,
+    "category": "ASH",
+    "native": false,
+    "values": [
+      "Blue",
+      "Fraxinau quadrangulatai*",
+      "U",
+      "140 (315)",
+      "28",
+      "87",
+      "43",
+      "41",
+      "Ravalli",
+      "2016"
+    ],
+    "national": false
+  },
+  {
+    "page": 17,
+    "row": 6,
+    "category": "ASH",
+    "native": false,
+    "values": [
+      "European",
+      "Fraxinus excelsior",
+      "U",
+      "492 (none)",
+      "116",
+      "360",
+      "115",
+      "66",
+      "Yellow- stone",
+      "2022"
+    ],
+    "national": false
+  },
+  {
+    "page": 17,
+    "row": 7,
+    "category": "ASH",
+    "native": false,
+    "values": [
+      "European Mountain Ash",
+      "Sorbus aucuparia",
+      "U",
+      "151 (none)",
+      "30",
+      "94",
+      "48",
+      "35",
+      "Flathead",
+      "2013, 2023"
+    ],
+    "national": false
+  },
+  {
+    "page": 17,
+    "row": 8,
+    "category": "ASH",
+    "native": false,
+    "values": [
+      "European Oak- leaf Mountain Ash",
+      "Sorbus x hybrida",
+      "U",
+      "150 (none)",
+      "32",
+      "101",
+      "38",
+      "44",
+      "Flathead",
+      "2016"
+    ],
+    "national": false
+  },
+  {
+    "page": 17,
+    "row": 9,
+    "category": "ASH",
+    "native": false,
+    "values": [
+      "White",
+      "Fraxinus americanai*",
+      "U",
+      "159 (398)",
+      "28",
+      "87",
+      "58",
+      "57",
+      "Ravalli",
+      "2016"
+    ],
+    "national": false
+  },
+  {
+    "page": 17,
+    "row": 10,
+    "category": "ASH",
+    "native": false,
+    "values": [
+      "White",
+      "Fraxinus americanai*",
+      "U",
+      "156 (398)",
+      "27",
+      "86",
+      "58",
+      "50",
+      "Ravalli",
+      "2016"
+    ],
+    "national": false
+  },
+  {
+    "page": 17,
+    "row": 11,
+    "category": "BIRCH",
+    "native": false,
+    "values": [
+      "European White",
+      "Betula pendula",
+      "U",
+      "213 (none)",
+      "40",
+      "125",
+      "76",
+      "47",
+      "Ravalli",
+      "2014"
+    ],
+    "national": true
+  },
+  {
+    "page": 17,
+    "row": 12,
+    "category": "BUCKEYE",
+    "native": false,
+    "values": [
+      "Ohio",
+      "Aesculus galbrai*",
+      "U",
+      "97 (274)",
+      "19",
+      "61",
+      "29",
+      "26",
+      "Missoula",
+      "2014"
+    ],
+    "national": false
+  },
+  {
+    "page": 17,
+    "row": 13,
+    "category": "BUCKEYE",
+    "native": false,
+    "values": [
+      "Ohio",
+      "Aesculus galbra*",
+      "U",
+      "97 (274)",
+      "18",
+      "57",
+      "34",
+      "25",
+      "Ravalli",
+      "2013, 2023"
+    ],
+    "national": false
+  },
+  {
+    "page": 17,
+    "row": 14,
+    "category": "BUCKEYE",
+    "native": false,
+    "values": [
+      "Yellow",
+      "Aesculus flava",
+      "U",
+      "142 (390)",
+      "28",
+      "87",
+      "44",
+      "42",
+      "Ravalli",
+      "2021"
+    ],
+    "national": false
+  },
+  {
+    "page": 17,
+    "row": 15,
+    "category": "BUCKTHORN",
+    "native": false,
+    "values": [
+      "European",
+      "Rhamnus cathartica",
+      "W",
+      "48 (60)",
+      "6",
+      "19",
+      "23",
+      "23",
+      "Lake",
+      "2013, 2023"
+    ],
+    "national": false
+  },
+  {
+    "page": 17,
+    "row": 16,
+    "category": "BUNYA BUNYA",
+    "native": false,
+    "values": [
+      "Bunya",
+      "Araucaria bidwillii",
+      "U",
+      "59 (none)",
+      "5",
+      "17",
+      "38",
+      "15",
+      "Missoula",
+      "2019"
+    ],
+    "national": false
+  },
+  {
+    "page": 17,
+    "row": 17,
+    "category": "BUTTERNUT",
+    "native": false,
+    "values": [
+      "Butternut",
+      "Juglans cinereai*",
+      "U",
+      "168 (352)",
+      "31",
+      "97",
+      "56",
+      "59",
+      "Ravalli",
+      "2016"
+    ],
+    "national": false
+  },
+  {
+    "page": 17,
+    "row": 18,
+    "category": "BUTTERNUT",
+    "native": false,
+    "values": [
+      "Butternut",
+      "Juglans cinereai*",
+      "U",
+      "162 (352)",
+      "32",
+      "102",
+      "46",
+      "57",
+      "Ravalli",
+      "2016"
+    ],
+    "national": false
+  },
+  {
+    "page": 18,
+    "row": 1,
+    "category": "CATALPA",
+    "native": false,
+    "values": [
+      "Northern",
+      "Catalpa speciosa",
+      "U",
+      "218 (195)",
+      "47",
+      "147",
+      "60",
+      "43",
+      "Yellow- stone",
+      "2012, 2022"
+    ],
+    "national": true
+  },
+  {
+    "page": 18,
+    "row": 2,
+    "category": "CHOKECHERRY",
+    "native": false,
+    "values": [
+      "Black Cherry",
+      "Prunus serotina",
+      "U",
+      "135 (135)",
+      "19",
+      "58",
+      "68",
+      "36",
+      "Ravalli",
+      "2023"
+    ],
+    "national": false
+  },
+  {
+    "page": 18,
+    "row": 3,
+    "category": "CHOKECHERRY",
+    "native": false,
+    "values": [
+      "Canada Red",
+      "Prunus virginiana",
+      "U",
+      "101 (254)",
+      "18",
+      "58",
+      "33",
+      "38",
+      "Gallatin",
+      "2016"
+    ],
+    "national": false
+  },
+  {
+    "page": 18,
+    "row": 4,
+    "category": "CRABAPPLE",
+    "native": false,
+    "values": [
+      "Siberian",
+      "Malus barcata",
+      "U",
+      "90 (none)",
+      "14",
+      "44",
+      "33",
+      "52",
+      "Ravalli",
+      "2016"
+    ],
+    "national": false
+  },
+  {
+    "page": 18,
+    "row": 5,
+    "category": "ELM",
+    "native": false,
+    "values": [
+      "Camperdown",
+      "Ulmus glabra",
+      "U",
+      "137 (none)",
+      "35",
+      "111",
+      "18",
+      "30",
+      "Ravalli",
+      "2020"
+    ],
+    "national": false
+  },
+  {
+    "page": 18,
+    "row": 6,
+    "category": "ELM",
+    "native": false,
+    "values": [
+      "English",
+      "Ulmus procera",
+      "U",
+      "193 (none)",
+      "37",
+      "115",
+      "64",
+      "58",
+      "Missoula",
+      "2019"
+    ],
+    "national": false
+  },
+  {
+    "page": 18,
+    "row": 7,
+    "category": "ELM",
+    "native": false,
+    "values": [
+      "Siberian",
+      "Ulmus pumila",
+      "\u2206U",
+      "290 (398)",
+      "56",
+      "177",
+      "92",
+      "83",
+      "Missoula",
+      "2017"
+    ],
+    "national": false
+  },
+  {
+    "page": 18,
+    "row": 8,
+    "category": "FIG",
+    "native": false,
+    "values": [
+      "Laurel",
+      "Ficus microcarpa nitida",
+      "U",
+      "74 (none)",
+      "7",
+      "23",
+      "42",
+      "36",
+      "Missoula",
+      "2019"
+    ],
+    "national": false
+  },
+  {
+    "page": 18,
+    "row": 9,
+    "category": "FIG",
+    "native": false,
+    "values": [
+      "Fiddeleaf",
+      "Ficus lyrata",
+      "U",
+      "67 (none)",
+      "6",
+      "20",
+      "40",
+      "28",
+      "Missoula",
+      "2019"
+    ],
+    "national": false
+  },
+  {
+    "page": 18,
+    "row": 10,
+    "category": "FIR",
+    "native": false,
+    "values": [
+      "White",
+      "Abies concolor",
+      "W",
+      "266 (359)",
+      "35",
+      "110",
+      "148",
+      "32",
+      "Sanders",
+      "2022"
+    ],
+    "national": true
+  },
+  {
+    "page": 18,
+    "row": 11,
+    "category": "GINKGO",
+    "native": false,
+    "values": [
+      "Ginkgo",
+      "Ginkgo biloba",
+      "U",
+      "145 (none)",
+      "23",
+      "73",
+      "61",
+      "45",
+      "Missoula",
+      "2019"
+    ],
+    "national": false
+  },
+  {
+    "page": 18,
+    "row": 12,
+    "category": "HACKBERRY",
+    "native": false,
+    "values": [
+      "Common",
+      "Celtis occidentalis",
+      "U",
+      "197 (398)",
+      "35",
+      "109",
+      "75",
+      "51",
+      "Yellow- stone",
+      "2012, 2022"
+    ],
+    "national": false
+  },
+  {
+    "page": 18,
+    "row": 13,
+    "category": "HAWTHORN",
+    "native": false,
+    "values": [
+      "European/ Oneseed",
+      "Crataegus monoyna",
+      "U",
+      "46 (none)",
+      "7",
+      "23",
+      "19",
+      "17",
+      "Ravalli",
+      "2016"
+    ],
+    "national": false
+  },
+  {
+    "page": 18,
+    "row": 14,
+    "category": "HICKORY",
+    "native": false,
+    "values": [
+      "Shellbark",
+      "Carya laciniosa",
+      "U",
+      "119 (327)",
+      "15",
+      "47",
+      "62",
+      "33",
+      "Yellow- stone",
+      "2022"
+    ],
+    "national": false
+  },
+  {
+    "page": 18,
+    "row": 15,
+    "category": "HONEYLOCUST",
+    "native": false,
+    "values": [
+      "Thornless Common",
+      "Gleditsia triacanthos var. inermis",
+      "U",
+      "192 (none)",
+      "33",
+      "102",
+      "77",
+      "51",
+      "Yellow- stone",
+      "2012, 2022"
+    ],
+    "national": false
+  },
+  {
+    "page": 19,
+    "row": 1,
+    "category": "HONEYSUCKLE",
+    "native": false,
+    "values": [
+      "Tartarian",
+      "Lonicera tartarica",
+      "U",
+      "55 (none)",
+      "9",
+      "29",
+      "21",
+      "21",
+      "Missoula",
+      "2018"
+    ],
+    "national": false
+  },
+  {
+    "page": 19,
+    "row": 2,
+    "category": "HORSECHESTNUT",
+    "native": false,
+    "values": [
+      "Horsechestnut",
+      "Aesculus hippocastanum",
+      "U",
+      "244 (none)",
+      "54",
+      "169",
+      "62",
+      "52",
+      "Ravalli",
+      "2014"
+    ],
+    "national": true
+  },
+  {
+    "page": 19,
+    "row": 3,
+    "category": "JUNIPER",
+    "native": false,
+    "values": [
+      "Drooping",
+      "Juniperus flaccidai*",
+      "U",
+      "68 (160)",
+      "11",
+      "30",
+      "34",
+      "14",
+      "Missoula",
+      "2020"
+    ],
+    "national": false
+  },
+  {
+    "page": 19,
+    "row": 4,
+    "category": "JUNIPER",
+    "native": false,
+    "values": [
+      "Drooping",
+      "Juniperus flaccidai*",
+      "U",
+      "58 (160)",
+      "8",
+      "25",
+      "28",
+      "15",
+      "Missoula",
+      "2020"
+    ],
+    "national": false
+  },
+  {
+    "page": 19,
+    "row": 5,
+    "category": "KAPOK",
+    "native": false,
+    "values": [
+      "Kapok Tree",
+      "Ceiba pentrandra",
+      "U",
+      "63 (none)",
+      "4",
+      "13",
+      "38",
+      "50",
+      "Missoula",
+      "2022"
+    ],
+    "national": false
+  },
+  {
+    "page": 19,
+    "row": 6,
+    "category": "KENTUCKY",
+    "native": false,
+    "values": [
+      "Kentucky cof- feetree",
+      "Gymnocladus dioicus",
+      "U",
+      "126 (317)",
+      "22",
+      "69",
+      "57",
+      "40",
+      "Yellow- stone",
+      "2022"
+    ],
+    "national": false
+  },
+  {
+    "page": 19,
+    "row": 7,
+    "category": "LARCH",
+    "native": false,
+    "values": [
+      "European",
+      "Larix decidua",
+      "U",
+      "161 (294)",
+      "28",
+      "89",
+      "62",
+      "39",
+      "Missoula",
+      "2019"
+    ],
+    "national": false
+  },
+  {
+    "page": 19,
+    "row": 8,
+    "category": "LILAC",
+    "native": false,
+    "values": [
+      "Common",
+      "Syringa vulgaris",
+      "U",
+      "60 (none)",
+      "11",
+      "34",
+      "24",
+      "10",
+      "Ravalli",
+      "2013, 2023"
+    ],
+    "national": false
+  },
+  {
+    "page": 19,
+    "row": 9,
+    "category": "LILAC",
+    "native": false,
+    "values": [
+      "Japanese Tree",
+      "Syrimga retoci;ata",
+      "U",
+      "122 (none)",
+      "26",
+      "83",
+      "32",
+      "29",
+      "Missoula",
+      "2014"
+    ],
+    "national": true
+  },
+  {
+    "page": 19,
+    "row": 10,
+    "category": "LINDEN",
+    "native": false,
+    "values": [
+      "American",
+      "Tilia americana",
+      "U",
+      "246 (399)",
+      "45",
+      "140",
+      "96",
+      "41",
+      "Ravalli",
+      "2010, 2020"
+    ],
+    "national": false
+  },
+  {
+    "page": 19,
+    "row": 11,
+    "category": "LINDEN",
+    "native": false,
+    "values": [
+      "Little Leaf",
+      "Tilia cordata",
+      "U",
+      "243 (none)",
+      "46",
+      "145",
+      "81",
+      "68",
+      "Missoula",
+      "2014"
+    ],
+    "national": true
+  },
+  {
+    "page": 19,
+    "row": 12,
+    "category": "LOCUST",
+    "native": false,
+    "values": [
+      "Black",
+      "Robinia pseudoacaciai*",
+      "\u2206U",
+      "269 (443)",
+      "58",
+      "181",
+      "74",
+      "56",
+      "Ravalli",
+      "2010, 2020"
+    ],
+    "national": false
+  },
+  {
+    "page": 19,
+    "row": 13,
+    "category": "LOCUST",
+    "native": false,
+    "values": [
+      "Black",
+      "Robinia pseudoacaciai*",
+      "\u2206U",
+      "267 (443)",
+      "61",
+      "190",
+      "66",
+      "42",
+      "Ravalli",
+      "2010, 2020"
+    ],
+    "national": false
+  },
+  {
+    "page": 19,
+    "row": 14,
+    "category": "LOCUST",
+    "native": false,
+    "values": [
+      "Bristly",
+      "Robinia hispida",
+      "U",
+      "33 (none)",
+      "4",
+      "12",
+      "18",
+      "13",
+      "Lake",
+      "2015"
+    ],
+    "national": false
+  },
+  {
+    "page": 19,
+    "row": 15,
+    "category": "LOCUST",
+    "native": false,
+    "values": [
+      "Clammy",
+      "Robinia viscosa",
+      "U",
+      "60 (60)",
+      "9",
+      "27",
+      "27",
+      "25",
+      "Ravalli",
+      "2016"
+    ],
+    "national": true
+  },
+  {
+    "page": 19,
+    "row": 16,
+    "category": "MAPLE",
+    "native": false,
+    "values": [
+      "Amur",
+      "Acer ginnal",
+      "U",
+      "57 (none)",
+      "10",
+      "30",
+      "21",
+      "22",
+      "Ravalli",
+      "2016"
+    ],
+    "national": true
+  },
+  {
+    "page": 20,
+    "row": 1,
+    "category": "MAPLE",
+    "native": false,
+    "values": [
+      "Norway",
+      "Acer platanoides",
+      "\u2206U",
+      "298 (298)",
+      "67",
+      "210",
+      "70",
+      "7.",
+      "Ravalli",
+      "2010, 2020"
+    ],
+    "national": true
+  },
+  {
+    "page": 20,
+    "row": 2,
+    "category": "MAPLE",
+    "native": false,
+    "values": [
+      "Red",
+      "Acer rubrum",
+      "U",
+      "140 (365)",
+      "26",
+      "82",
+      "47",
+      "44",
+      "Missoula",
+      "2014"
+    ],
+    "national": false
+  },
+  {
+    "page": 20,
+    "row": 3,
+    "category": "MAPLE",
+    "native": false,
+    "values": [
+      "Silver",
+      "Acer saccharinum",
+      "U",
+      "367 (501)",
+      "80",
+      "252",
+      "99",
+      "65",
+      "Ravalli",
+      "2010, 2020"
+    ],
+    "national": false
+  },
+  {
+    "page": 20,
+    "row": 4,
+    "category": "MAPLE",
+    "native": false,
+    "values": [
+      "Sugar",
+      "Acer saccharumi*",
+      "U",
+      "213 (363)",
+      "45",
+      "141",
+      "59",
+      "51",
+      "Ravalli",
+      "2013"
+    ],
+    "national": false
+  },
+  {
+    "page": 20,
+    "row": 5,
+    "category": "MAPLE",
+    "native": false,
+    "values": [
+      "Sugar",
+      "Acer saccharumi*",
+      "U",
+      "200 (363)",
+      "38",
+      "120",
+      "62",
+      "55",
+      "Ravalli",
+      "2013"
+    ],
+    "national": false
+  },
+  {
+    "page": 20,
+    "row": 6,
+    "category": "MAPLE",
+    "native": false,
+    "values": [
+      "Sycamore",
+      "Acer pseudoplantanus",
+      "U",
+      "197 (none)",
+      "37",
+      "117",
+      "65",
+      "15",
+      "Flathead",
+      "2018"
+    ],
+    "national": false
+  },
+  {
+    "page": 20,
+    "row": 7,
+    "category": "MULBERRY",
+    "native": false,
+    "values": [
+      "Red",
+      "Morus rubra",
+      "U",
+      "137 (398)",
+      "25",
+      "77",
+      "49",
+      "43",
+      "Ravalli",
+      "2022"
+    ],
+    "national": false
+  },
+  {
+    "page": 20,
+    "row": 8,
+    "category": "OAK",
+    "native": false,
+    "values": [
+      "English",
+      "Quercus roburi*",
+      "U",
+      "212 (none)",
+      "38",
+      "119",
+      "79",
+      "54",
+      "Ravalli",
+      "2022"
+    ],
+    "national": true
+  },
+  {
+    "page": 20,
+    "row": 9,
+    "category": "OAK",
+    "native": false,
+    "values": [
+      "English",
+      "Quercus roburi*",
+      "U",
+      "207 (none)",
+      "40",
+      "125",
+      "66",
+      "64",
+      "Missoula",
+      "2019"
+    ],
+    "national": false
+  },
+  {
+    "page": 20,
+    "row": 10,
+    "category": "OAK",
+    "native": false,
+    "values": [
+      "Oregon White",
+      "Quercus garryana",
+      "U",
+      "160 (408)",
+      "32",
+      "101",
+      "44",
+      "60",
+      "Ravalli",
+      "2016"
+    ],
+    "national": false
+  },
+  {
+    "page": 20,
+    "row": 11,
+    "category": "OAK",
+    "native": false,
+    "values": [
+      "Pin",
+      "Quercus palustris",
+      "U",
+      "198 (307)",
+      "35",
+      "111",
+      "76",
+      "45",
+      "Missoula",
+      "2014"
+    ],
+    "national": false
+  },
+  {
+    "page": 20,
+    "row": 12,
+    "category": "OAK",
+    "native": false,
+    "values": [
+      "Red",
+      "Quercus rubra",
+      "U",
+      "246 (455)",
+      "55",
+      "174",
+      "82",
+      "74",
+      "Missoula",
+      "2014"
+    ],
+    "national": false
+  },
+  {
+    "page": 20,
+    "row": 13,
+    "category": "OAK",
+    "native": false,
+    "values": [
+      "Scarlet",
+      "Quercus rubra",
+      "U",
+      "173 (360)",
+      "33",
+      "103",
+      "53",
+      "70",
+      "Missoula",
+      "2022"
+    ],
+    "national": false
+  },
+  {
+    "page": 20,
+    "row": 14,
+    "category": "OAK",
+    "native": false,
+    "values": [
+      "Swamp White",
+      "Quercus bicolor",
+      "U",
+      "174 (399)",
+      "32",
+      "101",
+      "60",
+      "50",
+      "Yellow- stone",
+      "2012, 2022"
+    ],
+    "national": false
+  },
+  {
+    "page": 20,
+    "row": 15,
+    "category": "PEAR",
+    "native": false,
+    "values": [
+      "Tait",
+      "Pyrus spp.",
+      "U",
+      "126 (none)",
+      "23",
+      "72",
+      "46",
+      "31",
+      "Ravalli",
+      "2020"
+    ],
+    "national": false
+  },
+  {
+    "page": 20,
+    "row": 16,
+    "category": "PINE",
+    "native": false,
+    "values": [
+      "Austrian",
+      "Pinus nigrai*",
+      "U",
+      "170 (none)",
+      "34",
+      "107",
+      "51",
+      "48",
+      "Missoula",
+      "2021"
+    ],
+    "national": false
+  },
+  {
+    "page": 20,
+    "row": 17,
+    "category": "PINE",
+    "native": false,
+    "values": [
+      "Austrian",
+      "Pinus nigrai*",
+      "U",
+      "158 (none)",
+      "30",
+      "95",
+      "51",
+      "46",
+      "Missoula",
+      "2021"
+    ],
+    "national": false
+  },
+  {
+    "page": 20,
+    "row": 18,
+    "category": "PINE",
+    "native": false,
+    "values": [
+      "Eastern White",
+      "Pinus strobus",
+      "U",
+      "213 (390)",
+      "36",
+      "114",
+      "88",
+      "44",
+      "Missoula",
+      "2019"
+    ],
+    "national": false
+  },
+  {
+    "page": 20,
+    "row": 19,
+    "category": "PINE",
+    "native": false,
+    "values": [
+      "Rocky Mtn. Bristlecone",
+      "Pinus aristata",
+      "U",
+      "114 (243)",
+      "19",
+      "61",
+      "45",
+      "33",
+      "Missoula",
+      "2019"
+    ],
+    "national": false
+  },
+  {
+    "page": 20,
+    "row": 20,
+    "category": "PINE",
+    "native": false,
+    "values": [
+      "Scotch",
+      "Pinus sylvestris",
+      "U",
+      "190 (none)",
+      "33",
+      "105",
+      "76",
+      "37",
+      "Missoula",
+      "2013, 2023"
+    ],
+    "national": true
+  },
+  {
+    "page": 21,
+    "row": 1,
+    "category": "POPLAR",
+    "native": false,
+    "values": [
+      "Carolina",
+      "Populus canadensis",
+      "U",
+      "533 (none)",
+      "123",
+      "385",
+      "123",
+      "98",
+      "Lake",
+      "2018"
+    ],
+    "national": false
+  },
+  {
+    "page": 21,
+    "row": 2,
+    "category": "POPLAR",
+    "native": false,
+    "values": [
+      "Lombardy",
+      "Populus nigra var. italicai*",
+      "U",
+      "312 (none)",
+      "63",
+      "199",
+      "106",
+      "29",
+      "Flathead",
+      "2023"
+    ],
+    "national": false
+  },
+  {
+    "page": 21,
+    "row": 3,
+    "category": "POPLAR",
+    "native": false,
+    "values": [
+      "Lombardy",
+      "Populus nigra var. italicai*",
+      "U",
+      "305 (none)",
+      "75",
+      "236",
+      "65",
+      "14",
+      "Ravalli",
+      "2016"
+    ],
+    "national": false
+  },
+  {
+    "page": 21,
+    "row": 4,
+    "category": "POPLAR",
+    "native": false,
+    "values": [
+      "White or Silver",
+      "Populus alba",
+      "\u2206U",
+      "415 (415)",
+      "96",
+      "301",
+      "92",
+      "86",
+      "Gallatin",
+      "2014"
+    ],
+    "national": true
+  },
+  {
+    "page": 21,
+    "row": 5,
+    "category": "RUSSIAN-OLIVE",
+    "native": false,
+    "values": [
+      "Russian Olive",
+      "Elaeagnus angustifolia*",
+      "\u2206U",
+      "183 (none)",
+      "41",
+      "130",
+      "42",
+      "42",
+      "Missoula",
+      "2016"
+    ],
+    "national": false
+  },
+  {
+    "page": 21,
+    "row": 6,
+    "category": "RUSSIAN-OLIVE",
+    "native": false,
+    "values": [
+      "Russian Olive",
+      "Elaeagnus angustifolia*",
+      "\u2206U",
+      "175 (none)",
+      "38",
+      "119",
+      "42",
+      "55",
+      "Sanders",
+      "2015"
+    ],
+    "national": false
+  },
+  {
+    "page": 21,
+    "row": 7,
+    "category": "SMOKETREE",
+    "native": false,
+    "values": [
+      "American",
+      "Cotinus obovatus",
+      "U",
+      "46 (195)",
+      "6",
+      "20",
+      "23",
+      "11",
+      "Ravalli",
+      "2017"
+    ],
+    "national": false
+  },
+  {
+    "page": 21,
+    "row": 8,
+    "category": "SPRUCE",
+    "native": false,
+    "values": [
+      "Black Hills",
+      "Picea glauca Densata",
+      "U",
+      "172 (none)",
+      "34",
+      "108",
+      "54",
+      "42",
+      "Missoula",
+      "2018"
+    ],
+    "national": false
+  },
+  {
+    "page": 21,
+    "row": 9,
+    "category": "SPRUCE",
+    "native": false,
+    "values": [
+      "Blue",
+      "Picea pungensi*",
+      "\u2206U",
+      "235 (339)",
+      "35",
+      "111",
+      "116",
+      "31",
+      "Ravalli",
+      "2010, 2020"
+    ],
+    "national": false
+  },
+  {
+    "page": 21,
+    "row": 10,
+    "category": "SPRUCE",
+    "native": false,
+    "values": [
+      "Blue",
+      "Picea pungensi*",
+      "\u2206U",
+      "234 (339)",
+      "37",
+      "117",
+      "108",
+      "37",
+      "Ravalli",
+      "2023"
+    ],
+    "national": false
+  },
+  {
+    "page": 21,
+    "row": 11,
+    "category": "SPRUCE",
+    "native": false,
+    "values": [
+      "Blue",
+      "Picea pungensi*",
+      "\u2206U",
+      "232 (339)",
+      "35",
+      "113",
+      "110",
+      "31",
+      "Ravalli",
+      "2010, 2020"
+    ],
+    "national": false
+  },
+  {
+    "page": 21,
+    "row": 12,
+    "category": "SPRUCE",
+    "native": false,
+    "values": [
+      "Norway",
+      "Picea abies*",
+      "U",
+      "253 (none)",
+      "45",
+      "142",
+      "98",
+      "53",
+      "Missoula",
+      "2014"
+    ],
+    "national": true
+  },
+  {
+    "page": 21,
+    "row": 13,
+    "category": "SPRUCE",
+    "native": false,
+    "values": [
+      "Norway",
+      "Picea abies*",
+      "U",
+      "250 (none)",
+      "39",
+      "121",
+      "120",
+      "35",
+      "Ravalli",
+      "2014"
+    ],
+    "national": false
+  },
+  {
+    "page": 21,
+    "row": 14,
+    "category": "SUMAC",
+    "native": false,
+    "values": [
+      "Staghorn",
+      "Rhus typhina*",
+      "U",
+      "69 (none)",
+      "14",
+      "44",
+      "19",
+      "26",
+      "Ravalli",
+      "2014"
+    ],
+    "national": true
+  },
+  {
+    "page": 21,
+    "row": 15,
+    "category": "SUMAC",
+    "native": false,
+    "values": [
+      "Staghorn",
+      "Rhus typhina*",
+      "U",
+      "63 (none)",
+      "10",
+      "30",
+      "27",
+      "22",
+      "Missoula",
+      "2023"
+    ],
+    "national": false
+  },
+  {
+    "page": 21,
+    "row": 16,
+    "category": "SUMAC",
+    "native": false,
+    "values": [
+      "Staghorn",
+      "Rhus typhina*",
+      "U",
+      "61 (none)",
+      "8",
+      "25",
+      "31",
+      "18",
+      "Missoula",
+      "2023"
+    ],
+    "national": false
+  },
+  {
+    "page": 21,
+    "row": 17,
+    "category": "SUMAC",
+    "native": false,
+    "values": [
+      "Tiger Eye",
+      "Rhus typhina lacinata",
+      "U",
+      "29 (none)",
+      "4",
+      "12",
+      "14",
+      "11",
+      "Lake",
+      "2018"
+    ],
+    "national": false
+  },
+  {
+    "page": 21,
+    "row": 18,
+    "category": "SYCAMORE",
+    "native": false,
+    "values": [
+      "American",
+      "Platanus occidentalis",
+      "U",
+      "203 (578)",
+      "40",
+      "127",
+      "67",
+      "35",
+      "Ravalli",
+      "2013, 2023"
+    ],
+    "national": false
+  },
+  {
+    "page": 22,
+    "row": 1,
+    "category": "WALNUT",
+    "native": false,
+    "values": [
+      "Black",
+      "Juglans nigra",
+      "U",
+      "216 (376)",
+      "44",
+      "138",
+      "61",
+      "70",
+      "Missoula",
+      "2014"
+    ],
+    "national": false
+  },
+  {
+    "page": 22,
+    "row": 2,
+    "category": "WILLOW",
+    "native": false,
+    "values": [
+      "Crack",
+      "Salix fragilisi*",
+      "\u2206U",
+      "464 (none)",
+      "115",
+      "362",
+      "79",
+      "90",
+      "Ravalli",
+      "2021"
+    ],
+    "national": true
+  },
+  {
+    "page": 22,
+    "row": 3,
+    "category": "WILLOW",
+    "native": false,
+    "values": [
+      "Crack",
+      "Salix fragilisi*",
+      "\u2206U",
+      "461 (none)",
+      "124",
+      "388",
+      "55",
+      "72",
+      "Ravalli",
+      "2011"
+    ],
+    "national": false
+  },
+  {
+    "page": 22,
+    "row": 4,
+    "category": "WILLOW",
+    "native": false,
+    "values": [
+      "Weeping",
+      "Salix babylonica*",
+      "\u2206U",
+      "301 (none)",
+      "61",
+      "191",
+      "94",
+      "65",
+      "Ravalli",
+      "2020"
+    ],
+    "national": true
+  },
+  {
+    "page": 22,
+    "row": 5,
+    "category": "WILLOW",
+    "native": false,
+    "values": [
+      "Weeping",
+      "Salix babylonica*",
+      "\u2206U",
+      "292 (none)",
+      "72",
+      "226",
+      "54",
+      "49",
+      "Ravalli",
+      "2014"
+    ],
+    "national": false
+  },
+  {
+    "page": 22,
+    "row": 6,
+    "category": "WILLOW",
+    "native": false,
+    "values": [
+      "White",
+      "Salix alba",
+      "\u2206U",
+      "414 (none)",
+      "106",
+      "333",
+      "67",
+      "56",
+      "Ravalli",
+      "1995, 2009, 2019"
+    ],
+    "national": true
+  }
+]

@@ -7,6 +7,13 @@ export type ChampionStateConfig = {
   source: Readonly<Record<string, string | number>>;
 };
 export const championStates = {
+  MT: { name: "Montana", sourceDate: "DNRC 2024 register · retrieved October 10, 2026", recordFiles: ["montana-champion-trees.json"], coordinateFile: "montana-county-points.json", recordPrecision: "county", coordinatePrecision: "county", recordOrder: -10, expectedRecords: 174, expectedMapped: 174, unmappedIds: [], importer: "import-montana-champions.py", auditFile: "montana-import-audit.json", source: {
+    registerUrl: "https://dnrc.mt.gov/Forestry/Forest-Management/_2024_Compiled-Final-Register-_-SPREAD-PRINTABLE.pdf",
+    alternateUrl: "https://dnrc.mt.gov/Forestry/Forest-Management/2024-Big-Tree-Register-_-Compiled-_-Website.pdf",
+    programUrl: "https://dnrc.mt.gov/Forestry/Forest-Management/montana-big-trees-program",
+    geographyUrl: "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_counties_national.zip",
+    retrieved: "October 10, 2026", count: 174,
+  } },
   OK: { name: "Oklahoma", sourceDate: "Oklahoma Forestry Services map · data updated June 10, 2026 · retrieved October 10, 2026", recordFiles: ["oklahoma-champion-trees.json"], coordinateFile: "oklahoma-county-points.json", recordPrecision: "county", coordinatePrecision: "county", recordOrder: -9, expectedRecords: 79, expectedMapped: 79, unmappedIds: [], importer: "import-oklahoma-champions.py", auditFile: "oklahoma-import-audit.json", source: {
     registerUrl: "https://storymaps.arcgis.com/stories/05009ef918c34590b5ba5d9fb4ec6334", programUrl: "https://ag.ok.gov/championtrees/",
     dataUrl: "https://services3.arcgis.com/yrIZ0Nv0mSGTWJsH/arcgis/rest/services/Champion_Tree_Map_View/FeatureServer/0", retrieved: "October 10, 2026", count: 79,
@@ -233,7 +240,7 @@ export const championStates = {
 export type ChampionState = keyof typeof championStates;
 export const stateNames = Object.fromEntries(Object.entries(championStates).map(([state, config]) => [state, config.name])) as Record<ChampionState, string>;
 export const sourceDates = Object.fromEntries(Object.entries(championStates).map(([state, config]) => [state, config.sourceDate])) as Record<ChampionState, string>;
-export const championRegions = { west: { name: "West", states: ["CO"] }, "south-central": { name: "South Central", states: ["TX", "LA", "OK"] }, midwest: { name: "Midwest", states: ["IN", "IL", "MI", "OH", "WI", "MN", "IA", "MO", "KS", "NE"] }, southeast: { name: "Southeast", states: ["NC", "SC", "TN", "GA", "KY", "AL", "FL", "AR"] }, "new-england": { name: "New England", states: ["MA", "NH", "VT", "ME", "RI", "CT"] }, northeast: { name: "Northeast", states: ["MA", "NH", "VT", "ME", "RI", "CT", "NY", "NJ", "PA"] }, "mid-atlantic": { name: "Mid-Atlantic", states: ["NY", "NJ", "PA", "DE", "MD", "VA", "WV"] } };
+export const championRegions = { west: { name: "West", states: ["CO", "MT"] }, "south-central": { name: "South Central", states: ["TX", "LA", "OK"] }, midwest: { name: "Midwest", states: ["IN", "IL", "MI", "OH", "WI", "MN", "IA", "MO", "KS", "NE"] }, southeast: { name: "Southeast", states: ["NC", "SC", "TN", "GA", "KY", "AL", "FL", "AR"] }, "new-england": { name: "New England", states: ["MA", "NH", "VT", "ME", "RI", "CT"] }, northeast: { name: "Northeast", states: ["MA", "NH", "VT", "ME", "RI", "CT", "NY", "NJ", "PA"] }, "mid-atlantic": { name: "Mid-Atlantic", states: ["NY", "NJ", "PA", "DE", "MD", "VA", "WV"] } };
 
 // Coverage copy follows the same registry that drives imports and state filters.
 export const championCoverage = {
