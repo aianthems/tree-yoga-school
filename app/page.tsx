@@ -1,6 +1,7 @@
 import { pageMetadata, siteDescription } from "../lib/site-seo";
 export const metadata = pageMetadata("/", "Tree Yoga School", siteDescription);
 import TreeEmbrace from "./components/tree-embrace";
+import HomeChampions from "./components/home-champions";
 import SiteHeader from "./components/site-header";
 import Image from "next/image";
 import Link from "next/link";
@@ -138,6 +139,8 @@ export default function Home() {
           <div><p className="section-kicker">Begin with Eastern white pine</p><h3>Pine.</h3><p className="home-tree-themes">Constancy · Clarity · Perseverance</p><p>Meet the tree, explore its contemplative energy, and try a five-minute practice of returning to one clear point.</p><div className="course-actions"><Link className="button primary" href="/trees/pine">Meet the pine</Link><Link className="course-link" href="/trees">Explore the Tree Library</Link></div></div>
         </div>
       </section>
+
+      <HomeChampions />
 
       <section className="curriculum section-shell" id="curriculum">
         <div className="section-heading">

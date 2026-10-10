@@ -815,6 +815,11 @@ section[id] { scroll-margin-top: 90px; }
 
 /* Champion register coverage and regional navigation. */
 .champion-source-dates { max-width: 1200px; margin: 0 auto 2rem; padding: 0 1.5rem; }
+.champion-source-dates > .course-link { display: inline-flex; min-height: 44px; align-items: center; margin-bottom: 1.25rem; }
+.champion-source-dates h2 { font: 400 clamp(2rem, 3.5vw, 3rem)/1.15 Georgia, serif; letter-spacing: -.035em; }
+.champion-page-links { display: flex; flex-wrap: wrap; align-items: center; gap: .75rem 2rem; margin-top: 1.5rem; }
+.champion-page-links .course-link { display: inline-flex; min-height: 44px; align-items: center; }
+.champion-page [id^="source-"] { scroll-margin-top: 100px; }
 .champion-date-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: .8rem; }
 .champion-date-grid a { display: grid; gap: .35rem; padding: 1rem; border: 1px solid #b9c6b3; border-radius: 12px; color: inherit; text-decoration: none; }
 .champion-date-grid span, .champion-date-grid small { font-size: .85rem; }
@@ -1061,3 +1066,45 @@ section[id] { scroll-margin-top: 90px; }
   .home-hug .hug-art { max-height: 410px; }
 }
 @media (prefers-reduced-motion: reduce) { .hug-details-icon { transition: none; } }
+
+/* The homepage invitation stays lightweight: artwork and state links are server rendered. */
+.home-champions { background: #173329; color: #fbfaf5; overflow: hidden; }
+.home-champions-main { display: grid; grid-template-columns: 1.15fr 1fr; max-width: 1500px; margin: auto; padding: clamp(3rem, 7vw, 6rem) clamp(1.25rem, 6vw, 6rem) 2rem; gap: 3vw; align-items: center; }
+.home-champions .section-kicker { color: #edc580; line-height: 1.6; }
+.home-champions h2 { font: 400 clamp(4.5rem, 9vw, 9rem)/.92 Georgia, serif; letter-spacing: -.055em; margin: 1.5rem 0 2rem; }
+.home-champions h2 em { color: #edc580; font-weight: 400; }
+.home-champions-copy > p:not(.section-kicker) { max-width: 49ch; color: #dae3d5; line-height: 1.75; }
+.home-champions-copy .home-champions-lede { font: 400 clamp(1.35rem, 2vw, 1.8rem)/1.4 Georgia, serif; color: #fbfaf5; }
+.home-champions-stats { display: flex; flex-wrap: wrap; gap: 1.25rem 2.5rem; margin: 2rem 0; }
+.home-champions-stats span { display: flex; flex-direction: column; gap: .35rem; font-size: .8rem; color: #dae3d5; }
+.home-champions-stats strong { font: 400 2.75rem/1 Georgia, serif; color: #fbfaf5; }
+.home-champions-button { background: #edc580; color: #173329; border: 1px solid #edc580; white-space: normal; text-align: center; }
+.home-champions-button:hover { background: #fbfaf5; border-color: #fbfaf5; }
+.home-champions-copy .home-champions-note { font-size: .8rem; max-width: 55ch; margin-top: 1.25rem; }
+.home-champions-art { position: relative; color: #edc580; align-self: stretch; display: grid; align-content: center; }
+.home-champions-art svg { display: block; width: 100%; max-height: 620px; }
+.home-champions-art p { position: absolute; bottom: 0; right: 0; font: 400 clamp(1.3rem, 2vw, 2rem)/1.2 Georgia, serif; text-align: right; color: #dae3d5; }
+.home-champions-art p em { color: #edc580; }
+.home-champions-states { max-width: 1500px; margin: auto; padding: 1.5rem clamp(1.25rem, 6vw, 6rem) clamp(2.5rem, 5vw, 4.5rem); }
+.home-champions-shortcuts { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .75rem; font-size: 1rem; }
+.home-champions-shortcuts a { display: flex; justify-content: space-between; align-items: center; gap: .75rem; min-height: 64px; padding: 1rem 1.25rem; border: 1px solid #748a75; opacity: 1; transition: background 160ms ease, border-color 160ms ease; }
+.home-champions-shortcuts a:hover { background: #29493a; border-color: #edc580; }
+.home-champions-shortcuts a > span:last-child { color: #edc580; }
+.home-champions-directory { margin-top: 1.5rem; border-top: 1px solid #748a75; }
+.home-champions-directory summary { padding: 1.25rem 0; cursor: pointer; font-size: .95rem; min-height: 48px; }
+.home-champions-directory nav { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: .5rem 1.5rem; }
+.home-champions-directory a { display: flex; flex-direction: column; justify-content: center; gap: .25rem; min-height: 64px; padding: .65rem 0; opacity: 1; border-bottom: 1px solid #748a75; }
+.home-champions-directory a:hover { color: #edc580; }
+.home-champions-directory a span { font-size: .75rem; color: #c4d2bd; }
+.home-champions :focus-visible { outline: 3px solid #edc580; outline-offset: 4px; }
+@media (max-width: 760px) {
+  .home-champions-main { grid-template-columns: 1fr; gap: 0; padding-bottom: 0; }
+  .home-champions h2 { font-size: clamp(4.5rem, 15vw, 7rem); }
+  .home-champions-art { max-width: 460px; justify-self: center; width: 100%; margin-top: 1.5rem; }
+  .home-champions-art svg { max-height: 400px; }
+  .home-champions-art p { bottom: 1rem; right: .5rem; }
+  .home-champions-shortcuts { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .home-champions-shortcuts a { padding: .8rem; min-height: 60px; font-size: .9rem; }
+  .home-champions-directory nav { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (prefers-reduced-motion: reduce) { .home-champions-shortcuts a { transition: none; } }
