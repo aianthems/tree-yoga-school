@@ -13,7 +13,7 @@ Tree Yoga School is a yoga school founded by **Alex Julian**, now being renewed 
 ## Current coverage
 
 <!-- coverage:start -->
-- Champion Map: **37 states**, **7,348 listed records**, and **7,318 records with approximate map points**.
+- Champion Map: **38 states**, **7,480 listed records**, and **7,319 records with approximate map points**.
 - Tree Library: **52 species profiles** and **3 photographic comparisons**.
 - Trees to Visit: **14 guides across 11 states**.
 
@@ -588,3 +588,7 @@ Montana: the complete DNRC 2024 printable register contributes 174 entries (81 n
 ### New Mexico source import
 
 `python scripts/import-new-mexico-champions.py REGISTER.pdf COUNTIES.zip` reproduces the reviewed April 14, 2020 Forestry Division database import. Only 37 of 144 entries explicitly marked STATE CHAMPION are included. The sanitized fixture omits names, addresses and tree coordinates. County points are approximate; submission dates are separate from measurements, and national labels remain dated source designations. Nomination consent notes and the Catron/Socorro conflict are visible on records.
+
+### Oregon V1 source import
+
+`python scripts/import-oregon-champions.py REGISTRY.html COUNTIES.zip` reproduces the reviewed Oregon literal Google Charts table without executing source JavaScript. 132 SC/SC-C/NC/NC-C records are included; 35 PV entries excluded. The sanitized fixture omits nominators. 131 records are searchable without markers. One Port-Orford cedar exactly matches the Oregon scientific name and all four measurements/points in the 2012 national register (PDF page 58), supplying Coos County for an explicitly historical county marker. Edition and measurement dates remain unknown; current titles and access are unconfirmed.

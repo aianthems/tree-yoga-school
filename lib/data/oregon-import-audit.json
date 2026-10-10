@@ -1,0 +1,26 @@
+{
+  "retrieved": "October 10, 2026",
+  "registerUrl": "https://www.championtreeregistry.com/oregon-registry/",
+  "historicalCountyUrl": "https://nationalchampiontree.org/wp-content/uploads/sites/270/2025/09/National-Register-of-Big-Trees-2012.pdf#page=58",
+  "geographyUrl": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_counties_national.zip",
+  "sourceRows": 167,
+  "expectedRecords": 132,
+  "mappedRecords": 1,
+  "unmappedRecords": 131,
+  "pendingExcluded": 35,
+  "statusCounts": {
+    "SC": 62,
+    "PV": 35,
+    "NC": 52,
+    "NC-C": 5,
+    "SC-C": 13
+  },
+  "edition": "Not stated",
+  "sourceHashes": {
+    "oregon-registry.html": "824d05032f293d300d9b2a65f867016d3680e0aa02b7a24f367fa16400870c43",
+    "mt-counties.zip": "4c90d0f805779923b5958ab13d0c1e9b99fe4932b786bfcf75dd739bb2dcb4ea"
+  },
+  "review": "All SC, SC-C, NC and NC-C entries retained. PV excluded without score-based promotion. Source national labels unverified. One exact historical county match: Chamaecyparis lawsoniana, OR, 522/242/35/773, Coos, 2012 register PDF page 58. Other counties remain unknown. Names and measurements preserved as published.",
+  "privacy": "Nominators omitted. No names, addresses, exact tree positions or inferred visiting permissions.",
+  "units": "Circumference in inches; height and average crown spread in feet. Points preserved."
+}

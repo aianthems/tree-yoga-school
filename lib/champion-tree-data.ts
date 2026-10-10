@@ -1,4 +1,6 @@
 import "server-only";
+import orRecords from "./data/oregon-champion-trees.json";
+import orCoordinates from "./data/oregon-county-points.json";
 import nmRecords from "./data/new-mexico-champion-trees.json";
 import nmCoordinates from "./data/new-mexico-county-points.json";
 import mtRecords from "./data/montana-champion-trees.json";
@@ -80,6 +82,7 @@ import { championStates, type ChampionState } from "./champion-states";
 import { buildChampionDataset } from "./champion-state-data";
 
 const datasets = {
+  OR: { records: orRecords, coordinates: orCoordinates },
   NM: { records: nmRecords, coordinates: nmCoordinates },
   MT: { records: mtRecords, coordinates: mtCoordinates },
   OK: { records: okRecords, coordinates: okCoordinates },
