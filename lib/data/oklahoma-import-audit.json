@@ -1,0 +1,46 @@
+{
+  "sourceUrl": "https://storymaps.arcgis.com/stories/05009ef918c34590b5ba5d9fb4ec6334",
+  "dataUrl": "https://services3.arcgis.com/yrIZ0Nv0mSGTWJsH/arcgis/rest/services/Champion_Tree_Map_View/FeatureServer/0",
+  "retrieved": "2026-10-10",
+  "sourceDataUpdated": "2026-06-10",
+  "sourceRows": 213,
+  "statusCounts": {
+    "Undefined": 108,
+    "Yes": 83,
+    "No": 22
+  },
+  "included": 79,
+  "countyPoints": 27,
+  "excludedDeadChampions": [
+    {
+      "objectId": 27,
+      "commonName": "Weeping Willow",
+      "reason": "Date reported dead or explicit dead status"
+    },
+    {
+      "objectId": 152,
+      "commonName": "Lacebark Elm",
+      "reason": "Date reported dead or explicit dead status"
+    },
+    {
+      "objectId": 193,
+      "commonName": "Black Hickory",
+      "reason": "Date reported dead or explicit dead status"
+    },
+    {
+      "objectId": 280,
+      "commonName": "Pecan",
+      "reason": "Date reported dead or explicit dead status"
+    }
+  ],
+  "missingScores": [
+    "ok-165",
+    "ok-263",
+    "ok-284",
+    "ok-288"
+  ],
+  "geographyUrl": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_counties_national.zip",
+  "selection": "Champion_Status=Yes, with no reported death. No inferred champions from No/Undefined rows; both River Birch records retained.",
+  "dates": "Only DateMeasured is used as a measurement date. Year is preserved separately; data update date is not a measurement date.",
+  "privacy": "County points only. Landowner contact details, addresses and individual tree coordinates omitted."
+}
