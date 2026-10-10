@@ -18,6 +18,7 @@ test('Montana preserves all table entries, published measurements and source des
   assert.equal(fixture.filter(f => !f.native).length, 93);
   assert.deepEqual([...new Set(rows.map(r => r.sourcePage))], [12,13,14,15,16,17,18,19,20,21,22]);
   assert.equal(new Set(rows.map(r => r.id)).size, 174);
+  for (const name of ['Bunya Bunya','Russian Olive','Black Cherry']) assert.ok(rows.some(r => r.commonName===name));
   for (const [i,r] of rows.entries()) {
     const f=fixture[i], v=f.values;
     assert.equal(r.sourcePage, f.page); assert.equal(r.sourceRow, f.row);

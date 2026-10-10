@@ -62,7 +62,9 @@ def build(register, geography):
         common, scientific, setting, score, diameter, circ, height, crown, county, years = f['values']
         common=unwrap(common); category=f['category'].title()
         if f['category'] == 'KENTUCKY': category='Kentucky Coffeetree'
-        if category.casefold() not in common.casefold(): common += ' ' + category
+        comparable = lambda value: re.sub(r'[-\s]', '', value.casefold())
+        if common == 'Bunya': common = category
+        elif common != 'Black Cherry' and comparable(category) not in comparable(common): common += ' ' + category
         cochamp='*' in scientific
         scientific=unwrap(scientific.replace('*',''))
         mapped=unwrap(county).replace('Ravvalli','Ravalli')
