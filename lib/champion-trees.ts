@@ -36,6 +36,12 @@ export const vtChampionSource = championStates.VT.source;
 export const nhChampionSource = championStates.NH.source;
 export const championSource = championStates.MA.source;
 export const librarySpecies: Record<string, { slug: string; name: string }> = {
+  "Maclura pomifera": { slug: "osage-orange", name: "Osage Orange" },
+  "Quercus muehlenbergii": { slug: "chinkapin-oak", name: "Chinkapin Oak" },
+  "Quercus stellata": { slug: "post-oak", name: "Post Oak" },
+  "Gymnocladus dioicus": { slug: "kentucky-coffeetree", name: "Kentucky Coffeetree" },
+  "Ulmus rubra": { slug: "slippery-elm", name: "Slippery Elm" },
+  "Juglans cinerea": { slug: "butternut", name: "Butternut" },
   "Juniperus virginiana": { slug: "eastern-redcedar", name: "Eastern Redcedar" },
   "Catalpa speciosa": { slug: "northern-catalpa", name: "Northern Catalpa" },
   "Magnolia acuminata": { slug: "cucumber-magnolia", name: "Cucumber Magnolia" },
