@@ -145,4 +145,5 @@ export function libraryTreeForSpecies(scientificName: string) {
   return key ? librarySpecies[key] : undefined;
 }
 
+export const nmChampionSource = championStates.NM.source;
 export const mtChampionSource = championStates.MT.source;

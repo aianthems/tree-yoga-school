@@ -1,0 +1,23 @@
+{
+  "edition": "April 14, 2020",
+  "retrieved": "October 10, 2026",
+  "registerUrl": "https://www.emnrd.nm.gov/sfd/wp-content/uploads/sites/4/NMBigTreeDatabase_2020.pdf",
+  "geographyUrl": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_counties_national.zip",
+  "expectedRecords": 37,
+  "mappedRecords": 37,
+  "sourceRows": 144,
+  "excludedRows": 107,
+  "countyCount": 16,
+  "nationalLabels": {
+    "NATIONAL CHAMPION": 6,
+    "NOMINEE": 2,
+    "NATIONAL CHAMPION - DECERT": 1
+  },
+  "sourceHashes": {
+    "new-mexico-big-trees-2020.pdf": "18757a9014d5a2191ad50148c54f1ba8462e25d2967f0ad36dc2db5f45d57494",
+    "mt-counties.zip": "4c90d0f805779923b5958ab13d0c1e9b99fe4932b786bfcf75dd739bb2dcb4ea"
+  },
+  "review": "Only explicit STATE CHAMPION rows included. Past national and undesignated entries excluded. Published spelling, measurements and points retained. Submission dates are not measurement dates. Two formal nomination consent notes and a Catron/Socorro conflict retained. Dona Ana matched to Census Doña Ana.",
+  "privacy": "No names, addresses or exact tree coordinates. County points do not establish visiting permission.",
+  "units": "Circumference in inches; height and crown spread in feet."
+}

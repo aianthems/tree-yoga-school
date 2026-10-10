@@ -7,6 +7,12 @@ export type ChampionStateConfig = {
   source: Readonly<Record<string, string | number>>;
 };
 export const championStates = {
+  NM: { name: "New Mexico", sourceDate: "Forestry Division April 14, 2020 database · retrieved October 10, 2026", recordFiles: ["new-mexico-champion-trees.json"], coordinateFile: "new-mexico-county-points.json", recordPrecision: "county", coordinatePrecision: "county", recordOrder: -11, expectedRecords: 37, expectedMapped: 37, unmappedIds: [], importer: "import-new-mexico-champions.py", auditFile: "new-mexico-import-audit.json", source: {
+    registerUrl: "https://www.emnrd.nm.gov/sfd/wp-content/uploads/sites/4/NMBigTreeDatabase_2020.pdf",
+    programUrl: "https://www.emnrd.nm.gov/sfd/urban-forestry-program/find-or-register-a-big-tree/",
+    geographyUrl: "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_counties_national.zip",
+    retrieved: "October 10, 2026", count: 37,
+  } },
   MT: { name: "Montana", sourceDate: "DNRC 2024 register · retrieved October 10, 2026", recordFiles: ["montana-champion-trees.json"], coordinateFile: "montana-county-points.json", recordPrecision: "county", coordinatePrecision: "county", recordOrder: -10, expectedRecords: 174, expectedMapped: 174, unmappedIds: [], importer: "import-montana-champions.py", auditFile: "montana-import-audit.json", source: {
     registerUrl: "https://dnrc.mt.gov/Forestry/Forest-Management/_2024_Compiled-Final-Register-_-SPREAD-PRINTABLE.pdf",
     alternateUrl: "https://dnrc.mt.gov/Forestry/Forest-Management/2024-Big-Tree-Register-_-Compiled-_-Website.pdf",
@@ -240,7 +246,7 @@ export const championStates = {
 export type ChampionState = keyof typeof championStates;
 export const stateNames = Object.fromEntries(Object.entries(championStates).map(([state, config]) => [state, config.name])) as Record<ChampionState, string>;
 export const sourceDates = Object.fromEntries(Object.entries(championStates).map(([state, config]) => [state, config.sourceDate])) as Record<ChampionState, string>;
-export const championRegions = { west: { name: "West", states: ["CO", "MT"] }, "south-central": { name: "South Central", states: ["TX", "LA", "OK"] }, midwest: { name: "Midwest", states: ["IN", "IL", "MI", "OH", "WI", "MN", "IA", "MO", "KS", "NE"] }, southeast: { name: "Southeast", states: ["NC", "SC", "TN", "GA", "KY", "AL", "FL", "AR"] }, "new-england": { name: "New England", states: ["MA", "NH", "VT", "ME", "RI", "CT"] }, northeast: { name: "Northeast", states: ["MA", "NH", "VT", "ME", "RI", "CT", "NY", "NJ", "PA"] }, "mid-atlantic": { name: "Mid-Atlantic", states: ["NY", "NJ", "PA", "DE", "MD", "VA", "WV"] } };
+export const championRegions = { west: { name: "West", states: ["CO", "MT", "NM"] }, "south-central": { name: "South Central", states: ["TX", "LA", "OK"] }, midwest: { name: "Midwest", states: ["IN", "IL", "MI", "OH", "WI", "MN", "IA", "MO", "KS", "NE"] }, southeast: { name: "Southeast", states: ["NC", "SC", "TN", "GA", "KY", "AL", "FL", "AR"] }, "new-england": { name: "New England", states: ["MA", "NH", "VT", "ME", "RI", "CT"] }, northeast: { name: "Northeast", states: ["MA", "NH", "VT", "ME", "RI", "CT", "NY", "NJ", "PA"] }, "mid-atlantic": { name: "Mid-Atlantic", states: ["NY", "NJ", "PA", "DE", "MD", "VA", "WV"] } };
 
 // Coverage copy follows the same registry that drives imports and state filters.
 export const championCoverage = {
