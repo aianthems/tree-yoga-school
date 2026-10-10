@@ -3,6 +3,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
+import { championRegionCoverage } from "../../lib/champion-states";
 import { championHref, emptySelection, readChampionSelection, type ChampionSelection } from "../../lib/champion-links";
 import { championSpeciesOptions, familiarSpeciesName, sameChampionSpecies } from "../../lib/champion-species";
 import { treeVisits } from "../../lib/tree-visits";
@@ -187,12 +188,7 @@ export default function ChampionExplorer({ manifest }: { manifest: ChampionManif
   const visibleResults = results.slice(0, Math.max(page, Math.ceil((selectedIndex + 1) / 50)) * 50);
   return <section className="champion-explorer" id="explorer" aria-label="Explore champion trees">
     <div className="champion-region-bar" aria-label="Explore by region"><span>Explore a region</span>{[["", "All available states"], ["new-england", "New England"], ["northeast", "Northeast"], ["mid-atlantic", "Mid-Atlantic"], ["southeast", "Southeast"], ["midwest", "Midwest"], ["south-central", "South Central"], ["west", "West"]].map(([value, name]) => <button key={value} type="button" className="button secondary" aria-pressed={region === value} onClick={() => { updateSelection({ region: value, state: "", county: "", town: "" }); }}>{name}</button>)}</div>
-    {region === "west" && <p className="champion-location-note">West currently includes Colorado.</p>}
-    {region === "south-central" && <p className="champion-location-note">South Central currently includes Texas, Louisiana, and Oklahoma.</p>}
-    {region === "midwest" && <p className="champion-location-note">Midwest currently includes Indiana, Illinois, Michigan, Ohio, Wisconsin, Minnesota, Iowa, Missouri, Kansas, and Nebraska.</p>}
-    {region === "southeast" && <p className="champion-location-note">Southeast currently includes North Carolina, South Carolina, Tennessee, Georgia, Kentucky, Alabama, Florida, and Arkansas.</p>}
-    {region === "northeast" && <p className="champion-location-note">Northeast covers Pennsylvania, New York, New Jersey, and all six New England states.</p>}
-    {region === "mid-atlantic" && <p className="champion-location-note">Mid-Atlantic currently includes New York, New Jersey, Pennsylvania, Delaware, Maryland, Virginia, and West Virginia.</p>}
+    {region && region in championRegions && <p className="champion-location-note">{championRegionCoverage(region as keyof typeof championRegions)}</p>}
     <div className="champion-toolbar">
       <label>State<select aria-label="State" value={state} onChange={e => { updateSelection({ state: e.target.value, county: "", town: "" }); }}><option value="">All states</option>{statesInRegion.map(({ state: code, listed }) => <option key={code} value={code}>{stateNames[code]} · {listed} records</option>)}</select></label>
       <label className="champion-search">Find a tree, county, parish, town, or place<input type="search" value={query} onChange={e => updateSelection({ query: e.target.value }, true)} placeholder="Try pine, Portland, or Smith College…" /></label>
@@ -233,7 +229,7 @@ export default function ChampionExplorer({ manifest }: { manifest: ChampionManif
     {state === "PA" && <p className="champion-location-note"><strong>Pennsylvania:</strong> 445 score-based leaders from PA Big Trees. Published-score ties and legacy national labels are retained with qualifications. <a href="#source-PA">Read the selection and review notes.</a></p>}
     {(loading || loadError) && <p role="status">{loadError ? `Could not load ${failed.map(code => stateNames[code]).join(", ")}. Available records remain below.` : "Loading tree registers… Available records appear as they arrive."} {loadError && <button type="button" className="champion-text-button" onClick={() => setRetry(n => n + 1)}>Retry missing states</button>}</p>}
     {publicOnly && <p className="champion-location-note" role="status">Showing only records whose source explicitly confirms public access. Access information is currently available for Vermont, Maryland, and North Carolina; MA, NH, Maine, Rhode Island, Connecticut, New York, New Jersey, Pennsylvania, Delaware, Virginia, West Virginia, South Carolina, Tennessee, Georgia, Kentucky, Indiana, Alabama, Florida, Illinois, Michigan, and Ohio records are not confirmed publicly accessible here; Kentucky’s explicit private labels are retained.</p>}
-    <p className="champion-map-note"><span aria-hidden="true">●</span> Numbers show matching tree records. Nearby places group together when zoomed out; select a group to zoom in, then select a place to browse its trees. Louisiana uses parish points. Oklahoma, Colorado, Texas, Arkansas, Missouri, Iowa, Minnesota, Wisconsin, Florida, Alabama, Illinois, Indiana, Michigan, Ohio, Kentucky, Georgia, Tennessee, South Carolina, North Carolina, West Virginia, Virginia, Maryland, New York, Pennsylvania, and some New Jersey and Delaware records use county points; other markers use approximate town or Census place points. These are approximate areas, not exact tree locations.</p>
+    <p className="champion-map-note"><span aria-hidden="true">●</span> Numbers show matching tree records. Nearby places group together when zoomed out; select a group to zoom in, then select a place to browse its trees. Markers use approximate towns, Census places, counties, or Louisiana parishes. Each marker and record states its location precision. These are approximate areas, not exact tree locations.</p>
     <div className="champion-workspace">
       <div className="champion-map-column"><ChampionMap coordinates={coordinates} groups={groups} selectedTown={selected ? townKey(selected) : town || null} onTown={selectTown} resetKey={resetKey} />
         <div ref={detail} className="champion-detail-region" tabIndex={-1} aria-label="Selected tree details">

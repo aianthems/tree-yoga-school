@@ -8,7 +8,17 @@ Tree Yoga School is a yoga school founded by **Alex Julian**, now being renewed 
 
 [Read the original book][book] · [Explore the curriculum](#the-original-curriculum) · [Build with us](#contributing)
 
-**Project status:** A content-led Next.js school with a four-practice introduction, seven book chapter companions, and a 46-species Tree Library. The school is still early: there is no account system, database, certification platform, or AI teaching assistant.
+**Project status:** A content-led Next.js school with a four-practice introduction, seven book chapter companions, and a 52-species Tree Library. The school is still early: there is no account system, database, certification platform, or AI teaching assistant.
+
+## Current coverage
+
+<!-- coverage:start -->
+- Champion Map: **35 states**, **7,137 listed records**, and **7,107 records with approximate map points**.
+- Tree Library: **52 species profiles** and **3 photographic comparisons**.
+- Trees to Visit: **14 guides across 11 states**.
+
+Generated from the state registry and content collections. Run `npm run sync:coverage` after content changes; builds check for stale counts.
+<!-- coverage:end -->
 
 ## What is Tree Yoga?
 
@@ -172,7 +182,7 @@ The `/begin-here` page connects the first five-minute practice to three introduc
 
 Lesson content lives in `lib/intro-lessons.ts`; the shared lesson route is `app/lessons/[slug]/page.tsx`. Only the three authored slugs are generated. The original first lesson keeps its existing URL.
 
-## Tree Library and native book companions
+## Initial Tree Library and native book companions
 
 `/trees` introduces the Tree Library; `/trees/pine` is its first complete entry. It focuses botanical identification on Eastern white pine (*Pinus strobus*), with licensed photographs, observable features, seasonal observation, contemplative energy themes, a new five-minute practice, book references, and reflection. Constancy, clarity, and perseverance are new interpretations for this digital edition, not fixed traditional correspondences or claims about a measured healing field.
 
@@ -180,7 +190,11 @@ Lesson content lives in `lib/intro-lessons.ts`; the shared lesson route is `app/
 
 Tree records live in `lib/trees.ts`; chapter records live in `lib/book-chapters.ts`. Both route families generate only authored slugs and return 404 for unknown entries. Add a tree record and any licensed assets to grow the library; keep botanical information sourced and distinguish new interpretation from original teaching or cultural tradition. Photo attribution and licenses are recorded in `public/images/trees/ATTRIBUTION.md` and on the Pine page.
 
-The Tree Library includes Pine, Oak, Birch, Maple, Willow, Beech, Hemlock, Cedar, Aspen, and Spruce. Each entry in `lib/trees.ts` supplies species details, licensed imagery, energy reflections, a distinct practice, and book connections to the shared static page template.
+The initial Tree Library included Pine, Oak, Birch, Maple, Willow, Beech, Hemlock, Cedar, Aspen, and Spruce. Each entry in `lib/trees.ts` supplies species details, licensed imagery, energy reflections, a distinct practice, and book connections to the shared static page template.
+
+## Implementation and import history
+
+The following entries describe their original release snapshots. Cumulative counts and phrases such as “now” in these historical notes apply to that release, not current coverage. See the generated current coverage summary above.
 
 ## Massachusetts Champion Map
 
@@ -300,7 +314,7 @@ URL parameters: `region`, `state`, `q`, `county`, `place`, `genus`, `species`, `
 
 ### Trees to visit and familiar species names
 
-`/tree-visits` offers three source-checked starting points: the Pinchot Sycamore (CT), University Green dawn redwood (VT), and Smith College castor aralia (MA). `lib/tree-visits.ts` contains stable champion record IDs, arrival/access guidance, official sources, check dates, and related practices. Check dates describe online research, not field inspections. These guides do not alter source-register access flags or map coordinates. Links from the Library, Champion Map, and matching record details make the collection discoverable.
+The initial `/tree-visits` release offered three source-checked starting points: the Pinchot Sycamore (CT), University Green dawn redwood (VT), and Smith College castor aralia (MA). `lib/tree-visits.ts` contains stable champion record IDs, arrival/access guidance, official sources, check dates, and related practices. Check dates describe online research, not field inspections. These guides do not alter source-register access flags or map coordinates. Links from the Library, Champion Map, and matching record details make the collection discoverable.
 
 The Champion Map’s Tree species selector displays familiar names, scientific names, and counts within the loaded state/region. It filters exact published botanical categories; cultivars and hybrids remain distinct. `lib/champion-species.ts` normalizes inverted common names and prefers common names over botanical fallbacks. Choosing species clears genus, and choosing genus clears species. Existing `species` URLs, sharing, and browser history continue to work. Regression coverage is in `node --test scripts/test-champion-links.cjs`.
 
@@ -562,3 +576,9 @@ Each new guide includes two existing licensed Library photographs explicitly lab
 ### Compare similar trees (October 10, 2026)
 
 The Library and the six relevant profiles link to three statically rendered comparison pages: white oak/bur oak, red maple/sugar maple, and eastern redcedar/northern white-cedar. Each compares foliage, bark, and acorns/samaras/cones with credited photographs, observable clues, seasonal and age variation, botanical reference links, and profile/outdoor-practice links. Photos retain their full frame with `object-fit: contain`; mobile cards stack within each feature. No client bundle, external image requests, or additional dependencies are required. Sources were checked online, not through a field identification.
+
+### Coverage maintenance and measured mobile rendering · October 10, 2026
+
+Shared Champion Map metadata, homepage totals, Library coverage counts, and region descriptions follow `lib/champion-states.ts`. `npm run sync:coverage` refreshes the README current-coverage block; `npm run check:coverage` runs before builds and in regression tests. Historical import entries retain their original release counts.
+
+Six cold-cache Chromium runs apply mobile emulation, network throttling, and 4× CPU slowdown to a local production build with Brotli state responses. Results and limitations are in [Champion map loading](docs/champion-map-loading.md). Downloads stay capped at four; measured long tasks and cached filter latency warrant a focused rendering profile before further substantial expansion. These runs are not a physical phone or production CDN benchmark.

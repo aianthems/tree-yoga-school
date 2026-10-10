@@ -64,3 +64,12 @@ test('changing filters stops queued obsolete downloads while caching active succ
   await loadChampionStates(states, async () => { calls++; }, () => assert.fail(), () => assert.fail(), () => false);
   assert.equal(calls, 0);
 });
+
+test('shared coverage and region copy follow the registry and README stays synchronized', () => {
+ const {championCoverage,championMapDescription,championRegionCoverage,championRegions}=require('../lib/champion-states.ts');
+ const {discoveryPages}=require('../lib/site-seo.ts');
+ assert.deepEqual(championCoverage,{states:Object.keys(championStates).length,listed:Object.values(championStates).reduce((n,s)=>n+s.expectedRecords,0),mapped:Object.values(championStates).reduce((n,s)=>n+s.expectedMapped,0)});
+ assert.ok(championMapDescription.includes(`${championCoverage.states} states`));assert.equal(discoveryPages.find(p=>p.path==='/champion-trees').description,championMapDescription);
+ for(const [region,config] of Object.entries(championRegions))for(const state of config.states.filter(s=>s in championStates))assert.ok(championRegionCoverage(region).includes(championStates[state].name));
+ const check=require('node:child_process').spawnSync(process.execPath,['scripts/sync-coverage-readme.cjs','--check'],{encoding:'utf8'});assert.equal(check.status,0,check.stderr);
+});

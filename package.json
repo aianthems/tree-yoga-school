@@ -9,7 +9,9 @@
     "lint": "next lint",
     "validate:champions": "node scripts/validate-champion-imports.cjs",
     "test": "node --test scripts/test-*.cjs",
-    "prebuild": "npm run validate:champions"
+    "prebuild": "npm run check:coverage && npm run validate:champions",
+    "sync:coverage": "node scripts/sync-coverage-readme.cjs",
+    "check:coverage": "node scripts/sync-coverage-readme.cjs --check"
   },
   "dependencies": {
     "leaflet": "1.9.4",
