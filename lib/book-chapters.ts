@@ -89,3 +89,8 @@ export const bookPrinciples = [
   "Acceptance", "Adaptability", "Balance and Optimization", "One-Pointed Focus and Aspiration for Excellence",
   "Perseverance", "Presence", "Release", "Strength", "Unconditional Forgiveness", "Unconditional Love",
 ];
+
+// Original video lessons supplied by the founder, paired with their chapters.
+export const bookChapterVideos: Record<string, { youtubeId: string; title: string }> = {
+  "what-is-tree-yoga": { youtubeId: "YjxodHRM1ks", title: "What is Tree Yoga? — Video lesson with Alex Julian" },
+};
