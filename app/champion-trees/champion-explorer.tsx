@@ -166,7 +166,7 @@ export default function ChampionExplorer({ manifest }: { manifest: ChampionManif
     results.forEach(t => counts.set(townKey(t), (counts.get(townKey(t)) || 0) + 1));
     return townOptions.filter(t => counts.has(t.key) && coordinates[t.key]).map(t => ({ ...t, count: counts.get(t.key)! }));
   }, [results, townOptions, coordinates]);
-  const counties = [...new Set(championTrees.filter(t => !state || t.state === state).map(t => t.county))].sort();
+  const counties = [...new Set(championTrees.filter(t => !state || t.state === state).map(t => t.county).filter(Boolean))].sort();
   const selected = results.find(t => t.id === selectedId);
   const selectTown = useCallback((value: string) => {
     updateSelection({ town: value });
@@ -196,7 +196,7 @@ export default function ChampionExplorer({ manifest }: { manifest: ChampionManif
       <label>State<select aria-label="State" value={state} onChange={e => { updateSelection({ state: e.target.value, county: "", town: "" }); }}><option value="">All states</option>{statesInRegion.map(({ state: code, listed }) => <option key={code} value={code}>{stateNames[code]} · {listed} records</option>)}</select></label>
       <label className="champion-search">Find a tree, county, parish, town, or place<input type="search" value={query} onChange={e => updateSelection({ query: e.target.value }, true)} placeholder="Try pine, Portland, or Smith College…" /></label>
       <label>County, parish, city, or planning region<select aria-label="County, parish, city, or planning region" value={county} onChange={e => { updateSelection({ county: e.target.value, town: "" }); }}><option value="">All counties, parishes, cities & regions</option>{counties.map(c => <option key={c}>{c}</option>)}</select></label>
-      <label>Mapped place<select aria-label="Mapped place" value={town} onChange={e => updateSelection({ town: e.target.value })}><option value="">All mapped places</option>{townOptions.filter(t => (!state || t.state === state) && (!county || championTrees.some(r => townKey(r) === t.key && r.county === county))).map(t => <option key={t.key} value={t.key}>{t.town}, {t.state}</option>)}</select></label>
+      <label>Mapped place<select aria-label="Mapped place" value={town} onChange={e => updateSelection({ town: e.target.value })}><option value="">All mapped places</option>{townOptions.filter(t => Boolean(coordinates[t.key]) && (!state || t.state === state) && (!county || championTrees.some(r => townKey(r) === t.key && r.county === county))).map(t => <option key={t.key} value={t.key}>{t.town}, {t.state}</option>)}</select></label>
       <label className="champion-species-select">Tree species<select aria-label="Tree species" value={speciesOptions.find(option => sameChampionSpecies(option.scientificName, species))?.scientificName || species} onChange={e => updateSelection({ species: e.target.value, genus: "" })}><option value="">All species</option>{species && !speciesOptions.some(option => sameChampionSpecies(option.scientificName, species)) && <option value={species}>{activeSpeciesName} · no loaded records</option>}{speciesOptions.map(option => <option key={option.scientificName} value={option.scientificName}>{option.name} · {option.scientificName} ({option.count})</option>)}</select></label>
       <label>Tree genus<select aria-label="Tree genus" value={genus} onChange={e => updateSelection({ genus: e.target.value, species: "" })}><option value="">All genera</option>{genera.map(g => <option key={g}>{g}</option>)}</select></label>
     </div>
