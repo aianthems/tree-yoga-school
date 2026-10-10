@@ -1,13 +1,75 @@
 import type { ChampionState } from "./champion-trees";
 
 export type TreeVisit = {
-  slug: string; championId?: string; state: ChampionState; name: string; scientificName: string;
+  slug: string; championId?: string; librarySlug?: string; state: ChampionState; name: string; scientificName: string;
   place: string; kind: string; arrival: string; walking: string; access: string; pause: string; checked: string;
   sources: { label: string; href: string }[];
   practice: { title: string; text: string; href: string; label: string };
 };
 
 export const treeVisits: TreeVisit[] = [
+  {
+    slug: "chatfield-cottonwood", state: "CO", name: "Cottonwood at Chatfield Farms", scientificName: "Populus deltoides", librarySlug: "eastern-cottonwood",
+    place: "Denver Botanic Gardens Chatfield Farms · Littleton, Colorado", kind: "Public garden visit",
+    arrival: "Arrive at 8500 W Deer Creek Canyon Road, Littleton. Parking is included with admission; the lot opens at 8:50 a.m. Ask Welcome Center staff for the Center Water Feature Garden cottonwood. The Gardens' 2024 walking guide describes crossing the first Deer Creek bridge southwest of the Earl J. Sinnamon Center and Deer Creek Schoolhouse toward a small pond. Use current signs and staff guidance to confirm the route.",
+    walking: "The July 2025 grounds map distinguishes paved and unpaved paths and footbridges. The garden visit is separate from the marked 1.4-mile hiking trail; a parking-to-cottonwood distance is not published. Some areas need assistance for wheelchair access. Ask staff to identify a suitable route and viewpoint before crossing the creek. The Gardens identifies this tree as Populus deltoides; no champion designation is asserted here.",
+    access: "Regular general-admission hours are listed as 9 a.m.–4 p.m. daily. Paid admission includes parking; check the current ticket page for prices, holiday hours, and early closures. Special events have separate arrangements. Pets are not permitted; service animals are welcome. Do not climb trees, pick plants, or enter garden beds.",
+    pause: "Choose a permitted path-side viewpoint of the cottonwood, leaving the bridge and paths clear. Follow a moving leaf or branch tip, then widen your view to the surrounding garden. A short garden visit is enough.",
+    checked: "2026-10-10",
+    sources: [
+      { label: "Denver Botanic Gardens · Chatfield hours, admission and closures", href: "https://www.botanicgardens.org/chatfield-farms" },
+      { label: "Denver Botanic Gardens · cottonwood identification and garden approach (2024)", href: "https://www.botanicgardens.org/blog/may-walking-tour-center-water-feature-chatfield-farms" },
+      { label: "Denver Botanic Gardens · parking and accessibility", href: "https://www.botanicgardens.org/chatfield-farms/parking-transportation-accessibility-chatfield-farms" },
+      { label: "Denver Botanic Gardens · July 2025 grounds map (PDF)", href: "https://www.botanicgardens.org/sites/default/files/file/2025-07/ChatfieldFarmsMap-wlogo-07-2025.pdf" },
+      { label: "Denver Botanic Gardens · accessible routes and support", href: "https://www.botanicgardens.org/accessibility" },
+      { label: "Denver Botanic Gardens · visitor guidelines", href: "https://www.botanicgardens.org/chatfield-farms/chatfield-farms-visitor-guidelines" },
+    ],
+    practice: {
+      title: "Notice movement. Allow change.",
+      text: "Let a leaf's movement draw your attention, then include something relatively still: the trunk, a patch of ground, or a branch junction. Notice both without controlling your breathing. Consider one change you can meet with a little more flexibility.",
+      href: "/trees/eastern-cottonwood#practice", label: "Explore Eastern Cottonwood and its practice",
+    },
+  },
+  {
+    slug: "burden-woods", state: "LA", name: "Cypress and the forest at Burden Woods", scientificName: "Taxodium distichum", librarySlug: "bald-cypress",
+    place: "LSU AgCenter Botanic Gardens at Burden · Baton Rouge, Louisiana", kind: "Public woodland and wetland visit",
+    arrival: "Enter at 4560 Essen Lane, Baton Rouge, near I-10. Follow the road toward the Burden Museum & Gardens Visitor Information Center and use the mapped visitor parking. Trees & Trails signs are behind the Steele Burden Memorial Orangerie. Ask staff about today's route to Black Swamp and the Mosaic Boardwalk before setting out.",
+    walking: "LSU describes about three miles of trails through Burden Woods. Its linked 2019 map labels Black Swamp Trail as 0.7 miles and the Mosaic Boardwalk Loop as 0.19 miles; these are route labels, not distances from parking. Choose a shorter out-and-back if needed. The reviewed sources do not document a continuous step-free approach. Check wet-ground conditions and boardwalk access with staff. LSU's Black Swamp learning resources include bald cypress; this guide explores a woodland habitat, rather than one designated champion.",
+    access: "Botanic Gardens admission and parking are free; neighboring museum and Windrush Gardens visits have separate fees. The current Trees & Trails page lists 8 a.m.–4:30 p.m., with closures on Easter, Thanksgiving, Christmas Eve, Christmas Day and New Year's Day. The general visitor page lists gates closing at 5 p.m.; plan to finish the trail by 4:30 p.m. Follow current notices rather than the older map's 'dusk' wording.",
+    pause: "Use a dry, permitted viewpoint on the established route. Leave the boardwalk clear and remain out of the wetland. Notice a trunk line and the changing reflections or light nearby; use labels or staff guidance before naming an individual tree.",
+    checked: "2026-10-10",
+    sources: [
+      { label: "LSU · visitor address, free admission and parking", href: "https://www.lsu.edu/botanic-gardens/visit/_index.php" },
+      { label: "LSU · current Trees & Trails hours and trailhead", href: "https://www.lsu.edu/botanic-gardens/research/trees.php" },
+      { label: "LSU · Burden Woods and Black Swamp habitat", href: "https://www.lsu.edu/botanic-gardens/gardens/gardens.php" },
+      { label: "LSU · Black Swamp bald cypress learning resources", href: "https://www.lsu.edu/botanic-gardens/research/burdenbuddies.php" },
+      { label: "LSU · 2019 trail map and route lengths (PDF)", href: "https://www.lsu.edu/botanic-gardens/images/tntmap.2019.pdf" },
+    ],
+    practice: {
+      title: "One steady detail in a changing scene.",
+      text: "Rest your attention on one visible line in a trunk. Include a passing sound, a reflection, or a shift in light. Return gently to the same detail, allowing the surroundings to change. Let a view from the path be enough.",
+      href: "/trees/bald-cypress#practice", label: "Explore Bald Cypress and its practice",
+    },
+  },
+  {
+    slug: "keystone-post-oaks", state: "OK", name: "Post oaks of Keystone Ancient Forest", scientificName: "Quercus stellata", librarySlug: "post-oak",
+    place: "Keystone Ancient Forest · Sand Springs, Oklahoma", kind: "Public preserve hike",
+    arrival: "Arrive at 160 Ancient Forest Drive, Sand Springs. The Nature Conservancy describes heading north on Prue Road from the Highway 64/412 exit for about two miles to the sandstone-and-iron entrance opposite the second cell tower. Use the visitor-center parking and ask staff or a Trail Ambassador to help choose a post-oak viewpoint and route.",
+    walking: "The preserve has marked trails through rocky Cross Timbers woodland. The city advertises ADA-compliant trails and all-terrain track chairs; ask which route is appropriate, how chairs are arranged, and whether they are available for your visit. The Nature Conservancy rates trails easy to moderate, but that does not establish accessibility on every trail. Follow marked routes and current staff advice. This is a forest encounter, with post oaks identified by the managing city, rather than a visit to one certified champion.",
+    access: "The city and Nature Conservancy list Thursday, 7 a.m.–2 p.m., and Friday–Sunday, 7 a.m.–6 p.m. The property is locked promptly at closing. The reviewed pages do not state an admission fee; confirm arrangements with the visitor center. No reservations are normally required, but weather can change hike access. Pets are allowed only on designated dog days; verify the schedule before bringing one.",
+    pause: "Choose a stable viewpoint on a route suited to you, with room for others to pass. Look at the oak's branches and its place among neighboring trees. Leave bark, leaves, and acorns attached or on the ground, and avoid stepping into undergrowth.",
+    checked: "2026-10-10",
+    sources: [
+      { label: "City of Sand Springs · address, hours, post oaks and accessibility", href: "https://www.sandspringsok.gov/175/Keystone-Ancient-Forest" },
+      { label: "Nature Conservancy · directions, hiking conditions and visiting guidelines", href: "https://www.nature.org/en-us/get-involved/how-to-help/places-we-protect/keystone-ancient-forest-preserve/" },
+    ],
+    practice: {
+      title: "Choose a pace you can sustain.",
+      text: "Notice one branch and the space around it. Consider a small commitment you can repeat without forcing yourself. Let a comfortable pause count, and choose one modest next step before continuing your walk.",
+      href: "/trees/post-oak#practice", label: "Explore Post Oak and its practice",
+    },
+  },
+
   {
     slug: "angel-oak", state: "SC", name: "Angel Oak", scientificName: "Quercus virginiana",
     place: "Angel Oak Park · Johns Island, South Carolina", kind: "Public park visit",
@@ -359,4 +421,4 @@ export const treeVisits: TreeVisit[] = [
 ];
 
 export const treeVisitStateCount = new Set(treeVisits.map(visit => visit.state)).size;
-export const treeVisitSummary = `${treeVisits.length} tree visits across New England, South Carolina, Florida, and Illinois, with arrival guidance, walking details, and a practice to bring along.`;
+export const treeVisitSummary = `${treeVisits.length} tree visits across ${treeVisitStateCount} states, with arrival guidance, walking details, and a practice to bring along.`;

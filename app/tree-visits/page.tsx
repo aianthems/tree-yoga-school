@@ -16,7 +16,7 @@ export default function TreeVisitsPage() {
   return <><SiteHeader /><main id="content" className="explore-shell tree-visits-page">
     <section className="library-intro">
       <Link className="lesson-back" href="/champion-trees">← The Champion Map</Link>
-      <p className="section-kicker">Out in the world · {treeVisitStateCount} states · New England, the Southeast & Midwest</p>
+      <p className="section-kicker">Out in the world · {treeVisitStateCount} states to explore</p>
       <h1>{treeVisits.length} visits.<br />A place to begin.</h1>
       <p className="lesson-lede">Choose a tree, plan a visit, and bring a little attention. Choose a forest walk, a garden outing, or a town or campus encounter. Each guide pairs practical visiting information with a simple practice.</p>
       <p>Each guide lists when its visitor sources were checked. These are online source checks, not field inspections. Check the linked site guidance before travelling. Champion Map markers show approximate towns or counties; use each guide’s published location information to find the tree.</p>
