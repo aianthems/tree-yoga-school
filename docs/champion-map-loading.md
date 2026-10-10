@@ -123,3 +123,18 @@ change species/sort, activate a cluster and reset. Record device/browser/network
 visible lag and tile failures. Repeat with a state-specific link and a cached
 return to the full map. New throttled production measurements are also needed
 before claiming an improvement over the historical 0.7–0.8-second filter latency.
+
+Production functional verification completed October 10, 2026 against code
+commit `d2ae0a6eb1d682cf94a301ca1aa0980b7818ef70` on
+`https://treeyogaschool.com/champion-trees` after Vercel reported READY with the
+production domain alias. The default view reached 7,759 listed, 7,320 mapped and
+1,812 mapped places; 19 tile images had loaded successfully with no tile warning.
+Changing to tallest-first preserved every marker label and position. Searching
+“pitch pine” returned 20 mapped records; Enter zoomed a three-place cluster, and
+Space selected Georgetown, Delaware and reduced the results to one record.
+Species `Pinus rigida` plus confirmed public access returned two records. Reset
+restored the complete dataset. Oregon returned 132 listed and one mapped record;
+the Alaska-cedar detail retained its undisclosed-location wording and no map
+point. The production check was functional, unthrottled remote-browser QA; it
+provides no new phone or interaction-latency measurement. All 104 tests,
+TypeScript checking and the production build passed before deployment.
