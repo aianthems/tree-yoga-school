@@ -259,3 +259,9 @@ Photographs resized to a maximum of 1200 pixels, orientation normalized, and con
 - License: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0)
 - [Original image](https://upload.wikimedia.org/wikipedia/commons/f/ff/Gymnocladus_dioicus_leaf_TP01.jpg) · [Source and credit](https://commons.wikimedia.org/wiki/File:Gymnocladus_dioicus_leaf_TP01.jpg)
 - Changes: oriented, resized to at most 1000 pixels, converted to WebP. Adaptations retain the source license.
+
+## Tree comparison photographs · October 10, 2026
+
+- `/images/trees/compare-bur-oak-bark.webp` — Deeply furrowed bark of bur oak. Cossey25. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Bur_Oak_Quercus_macrocarpa_bark.jpg). Resized and converted to WebP; no crop.
+- `/images/trees/compare-redcedar-bark.webp` — Fibrous peeling bark of eastern redcedar. Gmihail at Serbian Wikipedia. [CC BY-SA 3.0 rs](https://creativecommons.org/licenses/by-sa/3.0/rs/deed.en); [source](https://commons.wikimedia.org/wiki/File:Juniperus_virginiana_bark,_Belgrade.jpg). Resized and converted to WebP; no crop.
+- `/images/trees/compare-bur-oak-leaves.webp` — Bur oak leaves. Andrey Zharkikh. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/); [source](https://plants.ces.ncsu.edu/plants/quercus-macrocarpa/). Resized and converted to WebP; no crop.
