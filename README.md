@@ -13,7 +13,7 @@ Tree Yoga School is a yoga school founded by **Alex Julian**, now being renewed 
 ## Current coverage
 
 <!-- coverage:start -->
-- Champion Map: **35 states**, **7,137 listed records**, and **7,107 records with approximate map points**.
+- Champion Map: **36 states**, **7,311 listed records**, and **7,281 records with approximate map points**.
 - Tree Library: **52 species profiles** and **3 photographic comparisons**.
 - Trees to Visit: **14 guides across 11 states**.
 
@@ -582,3 +582,5 @@ The Library and the six relevant profiles link to three statically rendered comp
 Shared Champion Map metadata, homepage totals, Library coverage counts, and region descriptions follow `lib/champion-states.ts`. `npm run sync:coverage` refreshes the README current-coverage block; `npm run check:coverage` runs before builds and in regression tests. Historical import entries retain their original release counts.
 
 Six cold-cache Chromium runs apply mobile emulation, network throttling, and 4× CPU slowdown to a local production build with Brotli state responses. Results and limitations are in [Champion map loading](docs/champion-map-loading.md). Downloads stay capped at four; measured long tasks and cached filter latency warrant a focused rendering profile before further substantial expansion. These runs are not a physical phone or production CDN benchmark.
+
+Montana: the complete DNRC 2024 printable register contributes 174 entries (81 native, 93 non-native), mapped to 15 approximate Census county points. Both official PDF layouts reconcile. Regenerate with `python scripts/import-montana-champions.py REGISTER.pdf COUNTIES.zip` (requires pdfplumber); reviewed non-personal table fields are in `scripts/fixtures/montana-champions-2024.json`. Published co-champions, urban/wildland categories, national badges, scores and year histories are retained. The ambiguous “7.” crown cell remains null and the Scarlet Oak / Quercus rubra mismatch is flagged.

@@ -144,3 +144,5 @@ export function libraryTreeForSpecies(scientificName: string) {
   const key = Object.keys(librarySpecies).find(name => name.toLowerCase() === scientificName.trim().toLowerCase());
   return key ? librarySpecies[key] : undefined;
 }
+
+export const mtChampionSource = championStates.MT.source;

@@ -1,4 +1,6 @@
 import "server-only";
+import mtRecords from "./data/montana-champion-trees.json";
+import mtCoordinates from "./data/montana-county-points.json";
 import okRecords from "./data/oklahoma-champion-trees.json";
 import okCoordinates from "./data/oklahoma-county-points.json";
 import laRecords from "./data/louisiana-champion-trees.json";
@@ -76,6 +78,7 @@ import { championStates, type ChampionState } from "./champion-states";
 import { buildChampionDataset } from "./champion-state-data";
 
 const datasets = {
+  MT: { records: mtRecords, coordinates: mtCoordinates },
   OK: { records: okRecords, coordinates: okCoordinates },
   LA: { records: laRecords, coordinates: laCoordinates },
   CO: { records: coRecords, coordinates: coCoordinates },
