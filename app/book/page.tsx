@@ -1,18 +1,42 @@
 import { pageMetadata } from "../../lib/site-seo";
-import type { Metadata } from "next";
 import Link from "next/link";
 import SiteHeader from "../components/site-header";
 import SiteFooter from "../components/site-footer";
-import { bookChapters } from "../../lib/book-chapters";
+import BookCover from "../components/book-cover";
+import { bookChapters, bookChapterVideos } from "../../lib/book-chapters";
 import { bookUrl } from "../../lib/intro-lessons";
 
-const pageInfo: Metadata = { title: "Explore the Book | Tree Yoga School", description: "Explore the seven chapters of Alex Julian’s Tree Yoga School through reading companions, original book references, trees, and practices." };
-export const metadata: Metadata = pageMetadata("/book", String(pageInfo.title), String(pageInfo.description));
+export const metadata = pageMetadata("/book", "Explore the Book | Tree Yoga School", "Begin Alex Julian’s Tree Yoga School book: seven chapters, original video lessons, reading companions, and practices to take outside.");
 
 export default function BookPage() {
-  return <><SiteHeader /><main id="content" className="explore-shell">
-    <section className="library-intro"><p className="section-kicker">Alex Julian · The original 2023 book</p><h1>The roots<br />of the school.</h1><p className="lesson-lede">Seven chapters, with new ways to bring their teachings into practice. Explore a chapter here, follow it into the Tree Library, or read the original text.</p><p>These reading companions summarize selected themes and connect them to the digital school. They are new adaptations; the full original book remains available as a PDF.</p><a className="button secondary" href={bookUrl} target="_blank" rel="noreferrer">Read the original book</a></section>
-    <section className="book-index" aria-label="Seven chapter companions">{bookChapters.map((chapter) => <Link key={chapter.slug} href={`/book/${chapter.slug}`} className="book-chapter-link"><span className="chapter-number">{chapter.number}</span><div><h2>{chapter.title}</h2><p>{chapter.description}</p></div><span className="book-page-number">Printed p. {chapter.printedPage}</span></Link>)}</section>
+  const videoCount = bookChapters.reduce((total, chapter) => total + (bookChapterVideos[chapter.slug]?.length ?? 0), 0);
+  return <><SiteHeader /><main id="content" className="explore-shell book-hub">
+    <section className="book-feature book-hub-intro" aria-labelledby="book-title">
+      <BookCover priority />
+      <div className="book-feature-copy">
+        <p className="section-kicker">Alex Julian · The original 2023 book</p>
+        <h1 id="book-title">Tree Yoga School.</h1>
+        <p className="lesson-lede">The book at the roots of the school. Explore seven chapters that bring yoga, meditation, hiking, and the wisdom of trees into everyday life.</p>
+        <p>Start with Chapter 1, or choose a topic below. Read the chapter companion, watch Alex’s available lessons beside remarkable trees, and take a practice outside.</p>
+        <p className="book-availability">{bookChapters.length} chapters · {videoCount} original video lessons · Free book PDF</p>
+        <div className="course-actions"><Link className="button primary" href={`/book/${bookChapters[0].slug}`}>Start Chapter 1</Link><a className="button secondary" href={bookUrl} target="_blank" rel="noreferrer">Read the book ↗</a></div>
+        <a className="book-jump" href="#chapters">Explore all seven chapters ↓</a>
+      </div>
+    </section>
+    <section id="chapters" className="book-hub-chapters" aria-labelledby="chapters-title">
+      <p className="section-kicker">Read · Watch · Practice</p><h2 id="chapters-title">Explore the seven chapters.</h2>
+      <p className="book-companion-note">The chapter pages offer new reading companions and practices. For Alex’s full original text, use the book PDF; the videos are his original lessons.</p>
+      <div className="book-index">{bookChapters.map((chapter) => {
+        const videos = bookChapterVideos[chapter.slug] ?? [];
+        return <article key={chapter.slug} className="book-hub-chapter">
+          <span className="chapter-number" aria-label={`Chapter ${Number(chapter.number)}`}>{chapter.number}</span>
+          <div><h3><Link href={`/book/${chapter.slug}`}>{chapter.title}</Link></h3><p>{chapter.description}</p>
+            <p className="book-chapter-availability">Printed p. {chapter.printedPage} · {videos.length ? `${videos.length} video lesson${videos.length > 1 ? "s" : ""}` : "Reading & practice"}</p>
+            <div className="book-chapter-actions"><Link href={`/book/${chapter.slug}`}>Explore chapter →</Link>{videos.length > 0 && <Link href={`/book/${chapter.slug}#chapter-video-title`}>Watch {videos.length > 1 ? "lessons" : "lesson"} →</Link>}<a href={`${bookUrl}#page=${chapter.pdfPage}`} target="_blank" rel="noreferrer">Read original chapter ↗</a></div>
+          </div>
+        </article>;
+      })}</div>
+    </section>
     <section className="library-note"><p className="section-kicker">From reading to relationship</p><h2>Find a teaching.<br />Spend time with a tree.</h2><p>The Tree Library connects observation and the book’s principles with new species-specific practices. Begin with Pine, or choose a short introductory lesson.</p><div className="course-actions"><Link className="button primary" href="/trees/pine">Meet the pine</Link><Link className="button secondary" href="/begin-here">Begin Here</Link></div></section>
   </main><SiteFooter /></>;
 }
