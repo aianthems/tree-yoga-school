@@ -91,6 +91,14 @@ export const bookPrinciples = [
 ];
 
 // Original video lessons supplied by the founder, paired with their chapters.
-export const bookChapterVideos: Record<string, { youtubeId: string; title: string }> = {
-  "what-is-tree-yoga": { youtubeId: "YjxodHRM1ks", title: "What is Tree Yoga? — Video lesson with Alex Julian" },
+export const bookChapterVideos: Record<string, { youtubeId: string; title: string }[]> = {
+  "what-is-tree-yoga": [{ youtubeId: "YjxodHRM1ks", title: "What is Tree Yoga? — Video lesson with Alex Julian" }],
+  "why-tree-yoga": [{ youtubeId: "ebMjh4jalZo", title: "Why Tree Yoga? — Video lesson with Alex Julian" }],
+  "who-and-how": [{ youtubeId: "qRu6-o2aL-s", title: "Who and How — Video lesson with Alex Julian" }],
+  "when-and-where": [{ youtubeId: "iO4tdHOtsqU", title: "When and Where — Video lesson with Alex Julian" }],
+  "wisdom-and-wonder": [
+    { youtubeId: "2lAhA8yb67Y", title: "Wisdom and Wonder — Video 1 with Alex Julian" },
+    { youtubeId: "pRVobjDjqlc", title: "Wisdom and Wonder — Video 2 with Alex Julian" },
+  ],
+  "graduation": [{ youtubeId: "D5N0mHKzWSY", title: "Graduation — Video lesson with Alex Julian" }],
 };

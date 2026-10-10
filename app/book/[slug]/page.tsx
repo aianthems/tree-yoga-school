@@ -1,3 +1,4 @@
+import VideoLesson from "../../components/video-lesson";
 import { pageMetadata } from "../../../lib/site-seo";
 import type { Metadata } from "next";
 import Link from "next/link";
@@ -20,12 +21,12 @@ export default async function ChapterPage({ params }: { params: Promise<{ slug: 
   const index = bookChapters.findIndex((item) => item.slug === slug);
   const chapter = bookChapters[index];
   if (!chapter) notFound();
-  const video = bookChapterVideos[chapter.slug];
+  const videos = bookChapterVideos[chapter.slug];
   const previous = bookChapters[index - 1];
   const next = bookChapters[index + 1];
   return <><SiteHeader /><main id="content" className="lesson book-companion">
     <section className="lesson-intro"><Link className="lesson-back" href="/book">Explore the book</Link><p className="section-kicker">Chapter {chapter.number} · Reading companion</p><h1>{chapter.title}</h1><p className="lesson-lede">{chapter.introduction}</p><p className="lesson-note">A new companion to the original chapter, developed with AI assistance. Summaries and practice connections are adaptations, rather than a transcription.</p><a className="button secondary" href={`${bookUrl}#page=${chapter.pdfPage}`} target="_blank" rel="noreferrer">Read the original · printed p. {chapter.printedPage}</a></section>
-    {video && <section className="lesson-section chapter-video" aria-labelledby="chapter-video-title"><p className="section-kicker">The original school · With Alex Julian</p><h2 id="chapter-video-title">Watch the chapter lesson.</h2><p>Join Alex beside a tree for the video lesson that accompanies this chapter.</p><div className="chapter-video-frame"><iframe src={`https://www.youtube-nocookie.com/embed/${video.youtubeId}`} title={video.title} loading="lazy" referrerPolicy="strict-origin-when-cross-origin" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowFullScreen /></div><a className="course-link" href={`https://www.youtube.com/watch?v=${video.youtubeId}`} target="_blank" rel="noreferrer">Watch on YouTube ↗</a></section>}
+    {videos?.length > 0 && <section className="lesson-section chapter-video" aria-labelledby="chapter-video-title"><p className="section-kicker">The original school · With Alex Julian</p><h2 id="chapter-video-title">{videos.length === 1 ? "Watch the chapter lesson." : "Watch the chapter lessons."}</h2><p>Join Alex beside a tree for {videos.length === 1 ? "the video lesson" : "the video lessons"} that {videos.length === 1 ? "accompanies" : "accompany"} this chapter.</p>{videos.map((video, index) => <div key={video.youtubeId}>{videos.length > 1 && <h3>Video {index + 1}</h3>}<VideoLesson {...video} /></div>)}</section>}
     {chapter.sections.map((section) => <section className="lesson-section" key={section.title}><h2>{section.title}</h2><p>{section.text}</p></section>)}
     {chapter.slug === "wisdom-and-wonder" && <section className="lesson-section"><p className="section-kicker">From chapter 6 · printed pp. 97–109</p><h2>Ten principles.</h2><ol className="principle-list">{bookPrinciples.map((principle, i) => <li key={principle}><span>{String(i + 1).padStart(2, "0")}</span>{principle}</li>)}</ol><p className="book-source-note"><a href={`${bookUrl}#page=102`} target="_blank" rel="noreferrer">Read the original reflections on these principles</a></p></section>}
     <section className="lesson-pause"><p className="section-kicker">Bring it into practice</p><h2>{chapter.question}</h2><p>Let this question accompany a short visit. Reflect quietly or keep a note for yourself.</p><Link className="button light" href={chapter.practiceHref}>{chapter.practiceLabel}</Link></section>

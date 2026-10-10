@@ -1,3 +1,4 @@
+import VideoLesson from "./components/video-lesson";
 import SiteFooter from "./components/site-footer";
 import { pageMetadata, siteDescription } from "../lib/site-seo";
 export const metadata = pageMetadata("/", "Tree Yoga School", siteDescription);
@@ -78,6 +79,8 @@ export default function Home() {
           <p className="hero-mantra">Nature is the teacher.</p>
         </div>
       </section>
+
+      <section className="home-video section-shell" aria-labelledby="welcome-video-title"><div className="home-video-inner"><p className="section-kicker">A welcome from Alex Julian</p><h2 id="welcome-video-title">Welcome to Tree Yoga School.</h2><p>Meet Alex in the trees, and begin with the original school.</p><VideoLesson youtubeId="e7HtBaV_n5s" title="Welcome to Tree Yoga School — Alex Julian" /></div></section>
 
       <section className="manifesto section-shell">
         <p className="section-kicker">The school in one sentence</p>
@@ -214,6 +217,8 @@ export default function Home() {
           </a>
         </div>
       </section>
+
+      <section className="home-video home-final-video section-shell" aria-labelledby="final-video-title"><div className="home-video-inner"><p className="section-kicker">The original school · With Alex Julian</p><h2 id="final-video-title">Before you go.</h2><p>One more video from the original Tree Yoga School.</p><VideoLesson youtubeId="bAi5qa-1H-0" title="Tree Yoga School — Closing video with Alex Julian" /></div></section>
 
       </main>
       <SiteFooter />

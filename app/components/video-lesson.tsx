@@ -1,0 +1,3 @@
+export default function VideoLesson({ youtubeId, title }: { youtubeId: string; title: string }) {
+  return <div className="video-lesson"><div className="chapter-video-frame"><iframe src={`https://www.youtube-nocookie.com/embed/${youtubeId}`} title={title} loading="lazy" referrerPolicy="strict-origin-when-cross-origin" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowFullScreen /></div><a className="course-link" href={`https://www.youtube.com/watch?v=${youtubeId}`} target="_blank" rel="noreferrer">Watch on YouTube ↗<span className="sr-only"> {title}</span></a></div>;
+}
