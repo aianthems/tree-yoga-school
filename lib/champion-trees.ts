@@ -36,6 +36,12 @@ export const vtChampionSource = championStates.VT.source;
 export const nhChampionSource = championStates.NH.source;
 export const championSource = championStates.MA.source;
 export const librarySpecies: Record<string, { slug: string; name: string }> = {
+  "Quercus coccinea": { slug: "scarlet-oak", name: "Scarlet Oak" },
+  "Morus rubra": { slug: "red-mulberry", name: "Red Mulberry" },
+  "Robinia pseudoacacia": { slug: "black-locust", name: "Black Locust" },
+  "Asimina triloba": { slug: "pawpaw", name: "Pawpaw" },
+  "Ginkgo biloba": { slug: "ginkgo", name: "Ginkgo" },
+  "Ilex opaca": { slug: "american-holly", name: "American Holly" },
   "Maclura pomifera": { slug: "osage-orange", name: "Osage Orange" },
   "Quercus muehlenbergii": { slug: "chinkapin-oak", name: "Chinkapin Oak" },
   "Quercus stellata": { slug: "post-oak", name: "Post Oak" },

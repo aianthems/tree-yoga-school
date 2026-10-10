@@ -1,0 +1,182 @@
+{
+  "scarlet-oak": [
+    {
+      "originalUrl": "https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/Quercus_coccinea_for_UonWu2IamEYS.jfif",
+      "image": "/images/trees/scarlet-oak.webp",
+      "imageAlt": "Form \u2014 scarlet oak",
+      "imageWidth": 1000,
+      "imageHeight": 666,
+      "credit": {
+        "photographer": "Cephas",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+        "sourceUrl": "https://plants.ces.ncsu.edu/plants/quercus-coccinea/",
+        "label": "Form"
+      }
+    },
+    {
+      "originalUrl": "https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/Quercus_coccinea_lea_UdvVUfdISVsQ.jfif",
+      "image": "/images/trees/scarlet-oak-detail.webp",
+      "imageAlt": "Leaf closeup \u2014 scarlet oak",
+      "imageWidth": 1000,
+      "imageHeight": 748,
+      "credit": {
+        "photographer": "El Grafo",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+        "sourceUrl": "https://plants.ces.ncsu.edu/plants/quercus-coccinea/",
+        "label": "Leaf closeup"
+      }
+    }
+  ],
+  "red-mulberry": [
+    {
+      "originalUrl": "https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/morus-rubra-Katja_Schulz_ccby20.jpg",
+      "image": "/images/trees/red-mulberry.webp",
+      "imageAlt": "Morus rubra Autumn Leaves \u2014 red mulberry",
+      "imageWidth": 600,
+      "imageHeight": 600,
+      "credit": {
+        "photographer": "Katja Schultz",
+        "license": "CC BY 2.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by/2.0/legalcode",
+        "sourceUrl": "https://plants.ces.ncsu.edu/plants/morus-rubra/",
+        "label": "Morus rubra Autumn Leaves"
+      }
+    },
+    {
+      "originalUrl": "https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/Morus-rubra-Red-mulb_ZJdxlnOVQAHS.jpeg",
+      "image": "/images/trees/red-mulberry-detail.webp",
+      "imageAlt": "Leaves - June - Halifax Co., NC \u2014 red mulberry",
+      "imageWidth": 666,
+      "imageHeight": 1000,
+      "credit": {
+        "photographer": "Cathy DeWitt",
+        "license": "CC BY 4.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0/legalcode",
+        "sourceUrl": "https://plants.ces.ncsu.edu/plants/morus-rubra/",
+        "label": "Leaves - June - Halifax Co., NC"
+      }
+    }
+  ],
+  "black-locust": [
+    {
+      "originalUrl": "https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/Robinia_pseudoacacia_YGrFXXpGDDF4.jfif",
+      "image": "/images/trees/black-locust.webp",
+      "imageAlt": "Tree height (Buncombe, NC) \u2014 black locust",
+      "imageWidth": 1000,
+      "imageHeight": 750,
+      "credit": {
+        "photographer": "Randy Harter",
+        "license": "CC BY 4.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0/legalcode",
+        "sourceUrl": "https://plants.ces.ncsu.edu/plants/robinia-pseudoacacia/",
+        "label": "Tree height (Buncombe, NC)"
+      }
+    },
+    {
+      "originalUrl": "https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/Robinia_pseudoacacia_TpMFteHAxXno.jfif",
+      "image": "/images/trees/black-locust-detail.webp",
+      "imageAlt": "Flower and Leaves (Warren County, NC)-Spring \u2014 black locust",
+      "imageWidth": 985,
+      "imageHeight": 1000,
+      "credit": {
+        "photographer": "Cathy Dewitt",
+        "license": "CC BY 4.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0/legalcode",
+        "sourceUrl": "https://plants.ces.ncsu.edu/plants/robinia-pseudoacacia/",
+        "label": "Flower and Leaves (Warren County, NC)-Spring"
+      }
+    }
+  ],
+  "pawpaw": [
+    {
+      "originalUrl": "https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/Asimina_triloba_leav_xBhmWHpGHZuz.jpeg",
+      "image": "/images/trees/pawpaw.webp",
+      "imageAlt": "Asimina triloba, Buncombe Co. NC, early fall \u2014 pawpaw",
+      "imageWidth": 420,
+      "imageHeight": 315,
+      "credit": {
+        "photographer": "Randy Harter",
+        "license": "CC BY 4.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0/legalcode",
+        "sourceUrl": "https://plants.ces.ncsu.edu/plants/asimina-triloba/",
+        "label": "Asimina triloba, Buncombe Co. NC, early fall"
+      }
+    },
+    {
+      "originalUrl": "https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/Asimina_triloba_leaf_A7yZftDRVYfS.jpeg",
+      "image": "/images/trees/pawpaw-detail.webp",
+      "imageAlt": "Asimina triloba. Leaf \u2014 pawpaw",
+      "imageWidth": 667,
+      "imageHeight": 1000,
+      "credit": {
+        "photographer": "Plant Image Library",
+        "license": "CC-BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "sourceUrl": "https://plants.ces.ncsu.edu/plants/asimina-triloba/",
+        "label": "Asimina triloba. Leaf"
+      }
+    }
+  ],
+  "ginkgo": [
+    {
+      "originalUrl": "https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/ginkgo_biloba_Ginkgo_CZ-ccby201_qVmuCju.jpg",
+      "image": "/images/trees/ginkgo.webp",
+      "imageAlt": "Ginkgo biloba \u2014 ginkgo",
+      "imageWidth": 450,
+      "imageHeight": 600,
+      "credit": {
+        "photographer": "Ginkgo CZ",
+        "license": "CC BY 2.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by/2.0/legalcode",
+        "sourceUrl": "https://plants.ces.ncsu.edu/plants/ginkgo-biloba/",
+        "label": "Ginkgo biloba"
+      }
+    },
+    {
+      "originalUrl": "https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/Ginkgo_biloba_1_Rand_TqVT5FCUEMkv.jfif",
+      "image": "/images/trees/ginkgo-detail.webp",
+      "imageAlt": "Ginkgo biloba \u2014 ginkgo",
+      "imageWidth": 1000,
+      "imageHeight": 750,
+      "credit": {
+        "photographer": "Randy Harter",
+        "license": "CC BY 4.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0/legalcode",
+        "sourceUrl": "https://plants.ces.ncsu.edu/plants/ginkgo-biloba/",
+        "label": "Ginkgo biloba"
+      }
+    }
+  ],
+  "american-holly": [
+    {
+      "originalUrl": "https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/Illex-opaca-American_D3shhQdaKnGm.jpeg",
+      "image": "/images/trees/american-holly.webp",
+      "imageAlt": "Leaves & Berries - November - Warren Co., NC \u2014 american holly",
+      "imageWidth": 1000,
+      "imageHeight": 871,
+      "credit": {
+        "photographer": "Cathy DeWitt",
+        "license": "CC BY 4.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0/legalcode",
+        "sourceUrl": "https://plants.ces.ncsu.edu/plants/ilex-opaca/",
+        "label": "Leaves & Berries - November - Warren Co., NC"
+      }
+    },
+    {
+      "originalUrl": "https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/american_holly_in_sp_ZGXC8apMcS3e.jpeg",
+      "image": "/images/trees/american-holly-detail.webp",
+      "imageAlt": "leaf and flower in spring Brunswick Nature Park \u2014 american holly",
+      "imageWidth": 763,
+      "imageHeight": 1000,
+      "credit": {
+        "photographer": "skdavidson",
+        "license": "CC-BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "sourceUrl": "https://plants.ces.ncsu.edu/plants/ilex-opaca/",
+        "label": "leaf and flower in spring Brunswick Nature Park"
+      }
+    }
+  ]
+}

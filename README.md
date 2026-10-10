@@ -8,13 +8,13 @@ Tree Yoga School is a yoga school founded by **Alex Julian**, now being renewed 
 
 [Read the original book][book] · [Explore the curriculum](#the-original-curriculum) · [Build with us](#contributing)
 
-**Project status:** A content-led Next.js school with a four-practice introduction, seven book chapter companions, and a 52-species Tree Library. The school is still early: there is no account system, database, certification platform, or AI teaching assistant.
+**Project status:** A content-led Next.js school with a four-practice introduction, seven book chapter companions, and a 58-species Tree Library. The school is still early: there is no account system, database, certification platform, or AI teaching assistant.
 
 ## Current coverage
 
 <!-- coverage:start -->
 - Champion Map: **39 states**, **7,759 listed records**, and **7,320 records with approximate map points**.
-- Tree Library: **52 species profiles** and **3 photographic comparisons**.
+- Tree Library: **58 species profiles** and **3 photographic comparisons**.
 - Trees to Visit: **14 guides across 11 states**.
 
 Generated from the state registry and content collections. Run `npm run sync:coverage` after content changes; builds check for stale counts.
@@ -596,3 +596,7 @@ Montana: the complete DNRC 2024 printable register contributes 174 entries (81 n
 ### Washington V1 source import
 
 `python scripts/import-washington-champions.py REGISTRY.html COUNTIES.zip` reproduces the reviewed literal Google Charts table without executing source JavaScript. All 279 SC/SC-C/NC/NC-C records are included; 13 PV entries excluded. Sanitized fixtures omit nominators. 278 entries remain searchable without markers. One Pacific silver fir exactly matches the Washington species and all three measurements plus score in the 2020 national register (PDF page 1, record 2915), supplying Clallam County for an explicitly historical marker. The other silver fir co-champion remains separate and unmapped. Edition and measurement dates remain unknown; current titles and visiting access are unconfirmed.
+
+## Six more Library trees
+
+Adds Scarlet Oak, Red Mulberry, Black Locust, Pawpaw, Ginkgo, and American Holly, bringing the Library to 58 species. Each has identification and seasonal notes, three original contemplative themes, a four-step observation practice, two locally hosted licensed photographs, and exact scientific-name links to matching Champion Tree records. Botanical references and photographic attribution link to NC State Extension’s Plant Toolbox; source URLs, credits, dimensions, and originals are recorded in `scripts/fixtures/tree-library-next-photo-sources.json`. Practices are original interpretations, not botanical or therapeutic claims.
