@@ -1,43 +1,4 @@
 {
-  "compare-bur-oak-bark": {
-    "image": "/images/trees/compare-bur-oak-bark.webp",
-    "imageAlt": "Deeply furrowed bark of bur oak",
-    "imageWidth": 900,
-    "imageHeight": 1200,
-    "credit": {
-      "photographer": "Cossey25",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bur_Oak_Quercus_macrocarpa_bark.jpg",
-      "label": "Deeply furrowed bark of bur oak"
-    }
-  },
-  "compare-redcedar-bark": {
-    "image": "/images/trees/compare-redcedar-bark.webp",
-    "imageAlt": "Fibrous peeling bark of eastern redcedar",
-    "imageWidth": 1200,
-    "imageHeight": 1200,
-    "credit": {
-      "photographer": "Gmihail at Serbian Wikipedia",
-      "license": "CC BY-SA 3.0 rs",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/rs/deed.en",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Juniperus_virginiana_bark,_Belgrade.jpg",
-      "label": "Fibrous peeling bark of eastern redcedar"
-    }
-  },
-  "compare-bur-oak-leaves": {
-    "image": "/images/trees/compare-bur-oak-leaves.webp",
-    "imageAlt": "Lobed bur oak leaves with a broad upper blade",
-    "imageWidth": 1024,
-    "imageHeight": 834,
-    "credit": {
-      "photographer": "Andrey Zharkikh",
-      "license": "CC BY 2.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-      "sourceUrl": "https://plants.ces.ncsu.edu/plants/quercus-macrocarpa/",
-      "label": "Bur oak leaves"
-    }
-  },
   "compare-hophornbeam-bark": {
     "image": "/images/trees/compare-hophornbeam-bark.webp",
     "imageAlt": "Gray-brown hophornbeam bark with narrow loose scales",
@@ -49,7 +10,8 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ostrya_virginiana_bark.jpg",
       "label": "Gray-brown hophornbeam bark with narrow loose scales"
-    }
+    },
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Ostrya_virginiana_bark.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
   },
   "compare-hornbeam-fruit": {
     "image": "/images/trees/compare-hornbeam-fruit.webp",
@@ -62,7 +24,8 @@
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0/us/deed.en",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Carpinus_caroliniana_fruit.jpg",
       "label": "American hornbeam nutlets attached to leafy three-lobed bracts"
-    }
+    },
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Carpinus_caroliniana_fruit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
   },
   "compare-yellow-birch-fruit": {
     "image": "/images/trees/compare-yellow-birch-fruit.webp",
@@ -75,7 +38,8 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Betula_alleghaniensis_Keltakoivu_Gulbj%C3%B6rk_C_IMG_6145.JPG",
       "label": "Upright seed-bearing structures among yellow birch leaves"
-    }
+    },
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/Betula_alleghaniensis_Keltakoivu_Gulbj%C3%B6rk_C_IMG_6145.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
   },
   "compare-white-ash-seeds": {
     "image": "/images/trees/compare-white-ash-seeds.webp",
@@ -88,7 +52,8 @@
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0/us/deed.en",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fraxinus_americana_seeds.jpg",
       "label": "White ash samaras with a wing at one end of the seed body"
-    }
+    },
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/af/Fraxinus_americana_seeds.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
   },
   "compare-green-ash-seeds": {
     "image": "/images/trees/compare-green-ash-seeds.webp",
@@ -101,7 +66,8 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fraxinus_pennsylvanica_15zz.jpg",
       "label": "Green ash samaras with a wing extending alongside the seed body"
-    }
+    },
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Fraxinus_pennsylvanica_15zz.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
   },
   "compare-green-ash-bark": {
     "image": "/images/trees/compare-green-ash-bark.webp",
@@ -114,7 +80,8 @@
       "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Green_Ash_(Fraxinus_pennsylvanica)_bark_detail.jpg",
       "label": "Green ash bark with interlacing ridges and furrows"
-    }
+    },
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/31/Green_Ash_%28Fraxinus_pennsylvanica%29_bark_detail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
   },
   "compare-green-ash-leaves": {
     "image": "/images/trees/compare-green-ash-leaves.webp",
@@ -127,6 +94,7 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Korina_2012-08-28_Fraxinus_pennsylvanica_7.jpg",
       "label": "Green ash compound leaves showing their leaflets"
-    }
+    },
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/40/Korina_2012-08-28_Fraxinus_pennsylvanica_7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
   }
 }

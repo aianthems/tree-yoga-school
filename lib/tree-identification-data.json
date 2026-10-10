@@ -1,0 +1,911 @@
+{
+  "pin-oak": {
+    "foliage": [
+      "broad"
+    ],
+    "arrangement": [
+      "alternate"
+    ],
+    "lobes": [
+      "lobed"
+    ],
+    "bark": [
+      "furrowed"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/quercus-palustris/"
+  },
+  "swamp-white-oak": {
+    "foliage": [
+      "broad"
+    ],
+    "arrangement": [
+      "alternate"
+    ],
+    "lobes": [
+      "lobed",
+      "unlobed"
+    ],
+    "bark": [
+      "peeling",
+      "furrowed"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/quercus-bicolor/"
+  },
+  "boxelder": {
+    "foliage": [
+      "broad"
+    ],
+    "arrangement": [
+      "opposite"
+    ],
+    "lobes": [
+      "lobed",
+      "unlobed"
+    ],
+    "bark": [
+      "furrowed"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/acer-negundo/"
+  },
+  "hackberry": {
+    "foliage": [
+      "broad"
+    ],
+    "arrangement": [
+      "alternate"
+    ],
+    "lobes": [
+      "unlobed"
+    ],
+    "bark": [
+      "corky"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/celtis-occidentalis/"
+  },
+  "pine": {
+    "foliage": [
+      "needles"
+    ],
+    "arrangement": [],
+    "lobes": [],
+    "bark": [
+      "furrowed"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/pinus-strobus/"
+  },
+  "oak": {
+    "foliage": [
+      "broad"
+    ],
+    "arrangement": [
+      "alternate"
+    ],
+    "lobes": [
+      "lobed"
+    ],
+    "bark": [
+      "furrowed"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/quercus-alba/"
+  },
+  "birch": {
+    "foliage": [
+      "broad"
+    ],
+    "arrangement": [
+      "alternate"
+    ],
+    "lobes": [
+      "unlobed"
+    ],
+    "bark": [
+      "peeling"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/betula-papyrifera/"
+  },
+  "maple": {
+    "foliage": [
+      "broad"
+    ],
+    "arrangement": [
+      "opposite"
+    ],
+    "lobes": [
+      "lobed"
+    ],
+    "bark": [
+      "furrowed"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/acer-saccharum/"
+  },
+  "willow": {
+    "foliage": [
+      "broad"
+    ],
+    "arrangement": [
+      "alternate"
+    ],
+    "lobes": [
+      "unlobed"
+    ],
+    "bark": [
+      "furrowed"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/salix-nigra/"
+  },
+  "beech": {
+    "foliage": [
+      "broad"
+    ],
+    "arrangement": [
+      "alternate"
+    ],
+    "lobes": [
+      "unlobed"
+    ],
+    "bark": [
+      "smooth"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/fagus-grandifolia/"
+  },
+  "hemlock": {
+    "foliage": [
+      "needles"
+    ],
+    "arrangement": [],
+    "lobes": [],
+    "bark": [
+      "furrowed"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/tsuga-canadensis/"
+  },
+  "cedar": {
+    "foliage": [
+      "scales"
+    ],
+    "arrangement": [],
+    "lobes": [],
+    "bark": [
+      "peeling",
+      "furrowed"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/thuja-occidentalis/"
+  },
+  "aspen": {
+    "foliage": [
+      "broad"
+    ],
+    "arrangement": [
+      "alternate"
+    ],
+    "lobes": [
+      "unlobed"
+    ],
+    "bark": [
+      "furrowed"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/populus-tremuloides/"
+  },
+  "spruce": {
+    "foliage": [
+      "needles"
+    ],
+    "arrangement": [],
+    "lobes": [],
+    "bark": [],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/picea-rubens/"
+  },
+  "red-maple": {
+    "foliage": [
+      "broad"
+    ],
+    "arrangement": [
+      "opposite"
+    ],
+    "lobes": [
+      "lobed"
+    ],
+    "bark": [
+      "furrowed"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/acer-rubrum/"
+  },
+  "red-oak": {
+    "foliage": [
+      "broad"
+    ],
+    "arrangement": [
+      "alternate"
+    ],
+    "lobes": [
+      "lobed"
+    ],
+    "bark": [
+      "furrowed"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/quercus-rubra/"
+  },
+  "yellow-birch": {
+    "foliage": [
+      "broad"
+    ],
+    "arrangement": [
+      "alternate"
+    ],
+    "lobes": [
+      "unlobed"
+    ],
+    "bark": [
+      "peeling"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/betula-alleghaniensis/"
+  },
+  "balsam-fir": {
+    "foliage": [
+      "needles"
+    ],
+    "arrangement": [],
+    "lobes": [],
+    "bark": [
+      "furrowed"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/abies-balsamea/"
+  },
+  "tamarack": {
+    "foliage": [
+      "needles"
+    ],
+    "arrangement": [],
+    "lobes": [],
+    "bark": [],
+    "sourceUrl": "https://research.fs.usda.gov/silvics/tamarack"
+  },
+  "sycamore": {
+    "foliage": [
+      "broad"
+    ],
+    "arrangement": [
+      "alternate"
+    ],
+    "lobes": [
+      "lobed"
+    ],
+    "bark": [
+      "peeling",
+      "patchwork",
+      "furrowed"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/platanus-occidentalis/"
+  },
+  "tulip-tree": {
+    "foliage": [
+      "broad"
+    ],
+    "arrangement": [
+      "alternate"
+    ],
+    "lobes": [
+      "lobed"
+    ],
+    "bark": [
+      "furrowed"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/liriodendron-tulipifera/"
+  },
+  "sassafras": {
+    "foliage": [
+      "broad"
+    ],
+    "arrangement": [
+      "alternate"
+    ],
+    "lobes": [
+      "lobed",
+      "unlobed"
+    ],
+    "bark": [
+      "corky",
+      "furrowed"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/sassafras-albidum/"
+  },
+  "blackgum": {
+    "foliage": [
+      "broad"
+    ],
+    "arrangement": [
+      "alternate"
+    ],
+    "lobes": [
+      "unlobed"
+    ],
+    "bark": [
+      "blocks",
+      "furrowed"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/nyssa-sylvatica/"
+  },
+  "dawn-redwood": {
+    "foliage": [
+      "needles"
+    ],
+    "arrangement": [],
+    "lobes": [],
+    "bark": [
+      "furrowed"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/metasequoia-glyptostroboides/"
+  },
+  "american-hornbeam": {
+    "foliage": [
+      "broad"
+    ],
+    "arrangement": [
+      "alternate"
+    ],
+    "lobes": [
+      "unlobed"
+    ],
+    "bark": [
+      "smooth"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/carpinus-caroliniana/"
+  },
+  "shagbark-hickory": {
+    "foliage": [
+      "broad"
+    ],
+    "arrangement": [
+      "alternate"
+    ],
+    "lobes": [
+      "unlobed"
+    ],
+    "bark": [
+      "peeling"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/carya-ovata/"
+  },
+  "silver-maple": {
+    "foliage": [
+      "broad"
+    ],
+    "arrangement": [
+      "opposite"
+    ],
+    "lobes": [
+      "lobed"
+    ],
+    "bark": [
+      "peeling"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/acer-saccharinum/"
+  },
+  "black-cherry": {
+    "foliage": [
+      "broad"
+    ],
+    "arrangement": [
+      "alternate"
+    ],
+    "lobes": [
+      "unlobed"
+    ],
+    "bark": [],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/prunus-serotina/"
+  },
+  "american-elm": {
+    "foliage": [
+      "broad"
+    ],
+    "arrangement": [
+      "alternate"
+    ],
+    "lobes": [
+      "unlobed"
+    ],
+    "bark": [
+      "furrowed"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/ulmus-americana/"
+  },
+  "white-ash": {
+    "foliage": [
+      "broad"
+    ],
+    "arrangement": [
+      "opposite"
+    ],
+    "lobes": [
+      "unlobed"
+    ],
+    "bark": [
+      "corky",
+      "furrowed"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/fraxinus-americana/"
+  },
+  "eastern-redbud": {
+    "foliage": [
+      "broad"
+    ],
+    "arrangement": [
+      "alternate"
+    ],
+    "lobes": [
+      "unlobed"
+    ],
+    "bark": [],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/cercis-canadensis/"
+  },
+  "bald-cypress": {
+    "foliage": [
+      "needles"
+    ],
+    "arrangement": [],
+    "lobes": [],
+    "bark": [
+      "peeling"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/taxodium-distichum/"
+  },
+  "american-hophornbeam": {
+    "foliage": [
+      "broad"
+    ],
+    "arrangement": [
+      "alternate"
+    ],
+    "lobes": [
+      "unlobed"
+    ],
+    "bark": [
+      "peeling"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/ostrya-virginiana/"
+  },
+  "river-birch": {
+    "foliage": [
+      "broad"
+    ],
+    "arrangement": [
+      "alternate"
+    ],
+    "lobes": [
+      "unlobed"
+    ],
+    "bark": [
+      "peeling"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/betula-nigra/"
+  },
+  "black-walnut": {
+    "foliage": [
+      "broad"
+    ],
+    "arrangement": [
+      "alternate"
+    ],
+    "lobes": [
+      "unlobed"
+    ],
+    "bark": [
+      "furrowed"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/juglans-nigra/"
+  },
+  "american-basswood": {
+    "foliage": [
+      "broad"
+    ],
+    "arrangement": [
+      "alternate"
+    ],
+    "lobes": [
+      "unlobed"
+    ],
+    "bark": [
+      "furrowed"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/tilia-americana/"
+  },
+  "green-ash": {
+    "foliage": [
+      "broad"
+    ],
+    "arrangement": [
+      "opposite"
+    ],
+    "lobes": [
+      "unlobed"
+    ],
+    "bark": [
+      "corky",
+      "furrowed"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/fraxinus-pennsylvanica/"
+  },
+  "black-oak": {
+    "foliage": [
+      "broad"
+    ],
+    "arrangement": [
+      "alternate"
+    ],
+    "lobes": [
+      "lobed"
+    ],
+    "bark": [
+      "blocks",
+      "furrowed"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/quercus-velutina/"
+  },
+  "sweetgum": {
+    "foliage": [
+      "broad"
+    ],
+    "arrangement": [
+      "alternate"
+    ],
+    "lobes": [
+      "lobed"
+    ],
+    "bark": [
+      "corky",
+      "furrowed"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/liquidambar-styraciflua/"
+  },
+  "bur-oak": {
+    "foliage": [
+      "broad"
+    ],
+    "arrangement": [
+      "alternate"
+    ],
+    "lobes": [
+      "lobed"
+    ],
+    "bark": [
+      "furrowed"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/quercus-macrocarpa/"
+  },
+  "eastern-redcedar": {
+    "foliage": [
+      "scales",
+      "needles"
+    ],
+    "arrangement": [],
+    "lobes": [],
+    "bark": [
+      "peeling"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/juniperus-virginiana/"
+  },
+  "northern-catalpa": {
+    "foliage": [
+      "broad"
+    ],
+    "arrangement": [
+      "opposite",
+      "whorled"
+    ],
+    "lobes": [
+      "unlobed"
+    ],
+    "bark": [
+      "furrowed"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/catalpa-speciosa/"
+  },
+  "cucumber-magnolia": {
+    "foliage": [
+      "broad"
+    ],
+    "arrangement": [
+      "alternate"
+    ],
+    "lobes": [
+      "unlobed"
+    ],
+    "bark": [
+      "furrowed"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/magnolia-acuminata/"
+  },
+  "eastern-cottonwood": {
+    "foliage": [
+      "broad"
+    ],
+    "arrangement": [
+      "alternate"
+    ],
+    "lobes": [
+      "unlobed"
+    ],
+    "bark": [
+      "furrowed"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/populus-deltoides/"
+  },
+  "bitternut-hickory": {
+    "foliage": [
+      "broad"
+    ],
+    "arrangement": [
+      "alternate"
+    ],
+    "lobes": [
+      "unlobed"
+    ],
+    "bark": [],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/carya-cordiformis/"
+  },
+  "flowering-dogwood": {
+    "foliage": [
+      "broad"
+    ],
+    "arrangement": [
+      "opposite"
+    ],
+    "lobes": [
+      "unlobed"
+    ],
+    "bark": [
+      "blocks"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/cornus-florida/"
+  },
+  "osage-orange": {
+    "foliage": [
+      "broad"
+    ],
+    "arrangement": [
+      "alternate"
+    ],
+    "lobes": [
+      "unlobed"
+    ],
+    "bark": [
+      "furrowed"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/maclura-pomifera/"
+  },
+  "chinkapin-oak": {
+    "foliage": [
+      "broad"
+    ],
+    "arrangement": [
+      "alternate"
+    ],
+    "lobes": [
+      "lobed",
+      "unlobed"
+    ],
+    "bark": [
+      "furrowed"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/quercus-muehlenbergii/"
+  },
+  "post-oak": {
+    "foliage": [
+      "broad"
+    ],
+    "arrangement": [
+      "alternate"
+    ],
+    "lobes": [
+      "lobed"
+    ],
+    "bark": [
+      "blocks",
+      "furrowed"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/quercus-stellata/"
+  },
+  "kentucky-coffeetree": {
+    "foliage": [
+      "broad"
+    ],
+    "arrangement": [
+      "alternate"
+    ],
+    "lobes": [
+      "unlobed"
+    ],
+    "bark": [
+      "furrowed"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/gymnocladus-dioicus/"
+  },
+  "slippery-elm": {
+    "foliage": [
+      "broad"
+    ],
+    "arrangement": [
+      "alternate"
+    ],
+    "lobes": [
+      "unlobed"
+    ],
+    "bark": [
+      "furrowed"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/ulmus-rubra/"
+  },
+  "butternut": {
+    "foliage": [
+      "broad"
+    ],
+    "arrangement": [
+      "alternate"
+    ],
+    "lobes": [
+      "unlobed"
+    ],
+    "bark": [
+      "furrowed"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/juglans-cinerea/"
+  },
+  "scarlet-oak": {
+    "foliage": [
+      "broad"
+    ],
+    "arrangement": [
+      "alternate"
+    ],
+    "lobes": [
+      "lobed"
+    ],
+    "bark": [
+      "furrowed"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/quercus-coccinea/"
+  },
+  "red-mulberry": {
+    "foliage": [
+      "broad"
+    ],
+    "arrangement": [
+      "alternate"
+    ],
+    "lobes": [
+      "lobed",
+      "unlobed"
+    ],
+    "bark": [
+      "peeling"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/morus-rubra/"
+  },
+  "black-locust": {
+    "foliage": [
+      "broad"
+    ],
+    "arrangement": [
+      "alternate"
+    ],
+    "lobes": [
+      "unlobed"
+    ],
+    "bark": [
+      "furrowed"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/robinia-pseudoacacia/"
+  },
+  "pawpaw": {
+    "foliage": [
+      "broad"
+    ],
+    "arrangement": [
+      "alternate"
+    ],
+    "lobes": [
+      "unlobed"
+    ],
+    "bark": [
+      "furrowed"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/asimina-triloba/"
+  },
+  "ginkgo": {
+    "foliage": [
+      "broad"
+    ],
+    "arrangement": [
+      "alternate"
+    ],
+    "lobes": [
+      "lobed",
+      "unlobed"
+    ],
+    "bark": [
+      "furrowed"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/ginkgo-biloba/"
+  },
+  "american-holly": {
+    "foliage": [
+      "broad"
+    ],
+    "arrangement": [
+      "alternate"
+    ],
+    "lobes": [
+      "unlobed"
+    ],
+    "bark": [
+      "smooth"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/ilex-opaca/"
+  },
+  "southern-magnolia": {
+    "foliage": [
+      "broad"
+    ],
+    "arrangement": [
+      "alternate"
+    ],
+    "lobes": [
+      "unlobed"
+    ],
+    "bark": [],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/magnolia-grandiflora/"
+  },
+  "honeylocust": {
+    "foliage": [
+      "broad"
+    ],
+    "arrangement": [
+      "alternate"
+    ],
+    "lobes": [
+      "unlobed"
+    ],
+    "bark": [
+      "peeling"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/gleditsia-triacanthos/"
+  },
+  "loblolly-pine": {
+    "foliage": [
+      "needles"
+    ],
+    "arrangement": [],
+    "lobes": [],
+    "bark": [
+      "furrowed"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/pinus-taeda/"
+  },
+  "american-persimmon": {
+    "foliage": [
+      "broad"
+    ],
+    "arrangement": [
+      "alternate"
+    ],
+    "lobes": [
+      "unlobed"
+    ],
+    "bark": [
+      "blocks",
+      "furrowed"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/diospyros-virginiana/"
+  },
+  "pitch-pine": {
+    "foliage": [
+      "needles"
+    ],
+    "arrangement": [],
+    "lobes": [],
+    "bark": [
+      "furrowed"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/pinus-rigida/"
+  }
+}

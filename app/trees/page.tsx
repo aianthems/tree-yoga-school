@@ -26,8 +26,7 @@ export default function TreeLibrary() {
           <p className="lesson-lede">Each tree offers a new way into the practice. Begin with observation, explore its character, and bring one teaching into your day.</p>
           <div className="library-meta"><span>{trees.length === 1 ? "One tree to begin" : `${trees.length} trees to explore`}</span><span>Observation · Energy · Practice</span></div>
         </section>
-        <section id="compare-trees"><TreeComparisonLinks /></section>
-        <TreeLibraryExplorer trees={trees.map(({ slug, name, species, scientificName, themes, invitation, image, imageAlt, imageWidth, imageHeight }) => ({ slug, name, species, scientificName, themes, invitation, image, imageAlt, imageWidth, imageHeight }))} />
+        <TreeLibraryExplorer comparisons={<TreeComparisonLinks />} trees={trees.map(({ slug, name, species, scientificName, themes, invitation, image, imageAlt, imageWidth, imageHeight }) => ({ slug, name, species, scientificName, themes, invitation, image, imageAlt, imageWidth, imageHeight }))} />
         <aside className="champion-library-link"><p className="section-kicker">Out in the world · {championCoverage.states} states to explore</p><h2>Meet the champion trees.</h2><p>Explore champion and score-based leader records across New England, the Mid-Atlantic, the Southeast, the Midwest, South Central, and the West. Find remarkable trees by town or county, discover their measurements, and follow your curiosity.</p><Link href="/champion-trees">Explore the interactive Champion Map →</Link></aside>
         <aside className="tree-visit-teaser"><h2>A place to begin outdoors.</h2><p>{treeVisitSummary}</p><Link className="course-link" href="/tree-visits">Explore trees to visit →</Link></aside>
         <section className="library-note" aria-labelledby="energy-intro">

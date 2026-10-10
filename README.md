@@ -14,7 +14,7 @@ Tree Yoga School is a yoga school founded by **Alex Julian**, now being renewed 
 
 <!-- coverage:start -->
 - Champion Map: **39 states**, **7,759 listed records**, and **7,320 records with approximate map points**.
-- Tree Library: **63 species profiles** and **3 photographic comparisons**.
+- Tree Library: **63 species profiles** and **6 photographic comparisons**.
 - Trees to Visit: **14 guides across 11 states**.
 
 Generated from the state registry and content collections. Run `npm run sync:coverage` after content changes; builds check for stale counts.
