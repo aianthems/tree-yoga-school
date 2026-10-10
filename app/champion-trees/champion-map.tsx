@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import type * as Leaflet from "leaflet";
+import { clusterChampionPlaces } from "../../lib/champion-marker-clusters";
 import { type ChampionState } from "../../lib/champion-trees";
 
 export type TownGroup = { key: string; town: string; state: ChampionState; count: number; precision: string };
@@ -11,6 +12,9 @@ export default function ChampionMap({ groups, selectedTown, onTown, resetKey, co
   coordinates: Record<string, { lat: number; lng: number }>; groups: TownGroup[]; selectedTown: string | null; onTown: (town: string) => void; resetKey: number;
 }) {
   const container = useRef<HTMLDivElement>(null);
+  const retained = useRef(new Map<string, Leaflet.Marker>());
+  const onTownRef = useRef(onTown);
+  useEffect(() => { onTownRef.current = onTown; }, [onTown]);
   const [engine, setEngine] = useState<Engine | null>(null);
   const [failed, setFailed] = useState(false);
   const [tileError, setTileError] = useState(false);
@@ -45,17 +49,19 @@ export default function ChampionMap({ groups, selectedTown, onTown, resetKey, co
       return coordinate ? [{ ...group, point: [coordinate.lat, coordinate.lng] as Leaflet.LatLngTuple }] : [];
     });
     const redraw = () => {
-      markers.clearLayers();
+      const nextKeys = new Set<string>();
       // Keep marker centers at least 44 pixels apart. Cluster anchors remain at
       // a source municipality point; each cluster retains all its town groups.
-      const clusters: { anchor: Leaflet.Point; towns: typeof located }[] = [];
-      located.forEach(group => {
+      const clusters = clusterChampionPlaces(located.map(group => {
         const pixel = map.latLngToLayerPoint(group.point);
-        const cluster = clusters.find(c => c.anchor.distanceTo(pixel) < 44);
-        if (cluster) cluster.towns.push(group);
-        else clusters.push({ anchor: pixel, towns: [group] });
-      });
-      clusters.forEach(({ towns }) => {
+        return { x: pixel.x, y: pixel.y, value: group };
+      }));
+      clusters.forEach(towns => {
+        // Include the anchor, membership, labels and counts so unchanged markers
+        // keep their DOM nodes, focus, tooltips and handlers as registers arrive.
+        const key = JSON.stringify(towns.map(t => [t.key, t.count, t.town, t.state, t.precision, t.point]));
+        nextKeys.add(key);
+        if (retained.current.has(key)) return;
         const first = towns[0];
         const count = towns.reduce((total, town) => total + town.count, 0);
         const combined = towns.length > 1;
@@ -64,12 +70,13 @@ export default function ChampionMap({ groups, selectedTown, onTown, resetKey, co
           : `${first.town}, ${first.state}: show ${count} ${count === 1 ? "tree" : "trees"}. Approximate ${first.precision} point.`;
         const activate = () => {
           if (combined) map.fitBounds(L.latLngBounds(towns.map(t => t.point)), { padding: [50, 50], maxZoom: Math.min(map.getZoom() + 2, 14), animate: false });
-          else onTown(first.key);
+          else onTownRef.current(first.key);
         };
         const marker = L.marker(first.point, {
           icon: L.divIcon({ className: `champion-marker${combined ? " champion-cluster" : ""}`, html: `<span>${count}</span>`, iconSize: [36, 36], iconAnchor: [18, 18] }),
           title: name, alt: name, keyboard: true,
         }).addTo(markers);
+        retained.current.set(key, marker);
         const label = document.createElement("span");
         label.textContent = combined
           ? `${count} records · ${towns.length} places · select to zoom in`
@@ -84,13 +91,27 @@ export default function ChampionMap({ groups, selectedTown, onTown, resetKey, co
           }
         });
       });
+      for (const [key, marker] of retained.current) {
+        if (!nextKeys.has(key)) {
+          markers.removeLayer(marker);
+          retained.current.delete(key);
+        }
+      }
     };
+    let frame: number | undefined;
+    const scheduleRedraw = () => {
+      if (frame !== undefined) return;
+      frame = requestAnimationFrame(() => { frame = undefined; redraw(); });
+    };
+    map.on("zoomend", scheduleRedraw);
     if (located.length) map.fitBounds(L.latLngBounds(located.map(t => t.point)), { padding: [35, 35], maxZoom: 10, animate: false });
-    redraw();
-    map.on("zoomend", redraw);
-    return () => { map.off("zoomend", redraw); };
+    scheduleRedraw();
+    return () => {
+      map.off("zoomend", scheduleRedraw);
+      if (frame !== undefined) cancelAnimationFrame(frame);
+    };
 
-  }, [engine, groups, onTown, resetKey, townCoordinates]);
+  }, [engine, groups, resetKey, townCoordinates]);
 
   useEffect(() => {
     if (!engine || !selectedTown) return;

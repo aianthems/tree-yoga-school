@@ -23,9 +23,11 @@ const familiarNames: Record<string, string> = {
   "Larix laricina": "Tamarack", "Platanus occidentalis": "American sycamore",
 };
 
+const familiarNameIndex = new Map(Object.entries(familiarNames).map(([name, label]) => [name.toLowerCase(), label]));
+
 export function familiarSpeciesName(scientificName: string, commonName = scientificName) {
-  const key = Object.keys(familiarNames).find(name => name.toLowerCase() === scientificName.trim().toLowerCase());
-  if (key) return familiarNames[key];
+  const familiar = familiarNameIndex.get(scientificName.trim().toLowerCase());
+  if (familiar) return familiar;
   const parts = commonName.replaceAll("_", " ").trim().split(/,\s*/);
   return parts.length === 2 ? `${parts[1]} ${parts[0].toLowerCase()}` : parts.join(", ");
 }
@@ -47,4 +49,30 @@ export function championSpeciesOptions(trees: Pick<ChampionTree, "scientificName
 
 export function sameChampionSpecies(a: string, b: string) {
   return a.trim().toLowerCase() === b.trim().toLowerCase();
+}
+
+// State payloads are immutable and cached. Group each register once, then merge
+// its compact species summary when another state finishes downloading.
+const batchOptions = new WeakMap<Pick<ChampionTree, "scientificName" | "commonName">[], ReturnType<typeof championSpeciesOptions>>();
+export function championSpeciesOptionsForBatches(batches: Pick<ChampionTree, "scientificName" | "commonName">[][]) {
+  const grouped = new Map<string, ReturnType<typeof championSpeciesOptions>[number]>();
+  for (const batch of batches) {
+    let options = batchOptions.get(batch);
+    if (!options) {
+      options = championSpeciesOptions(batch.filter(tree => tree.scientificName !== "Not supplied by source"));
+      batchOptions.set(batch, options);
+    }
+    for (const option of options) {
+      const key = option.scientificName.trim().toLowerCase();
+      const existing = grouped.get(key);
+      if (!existing) grouped.set(key, { ...option });
+      else {
+        existing.count += option.count;
+        const botanical = (name: string) => name.toLowerCase() === option.scientificName.toLowerCase();
+        if ((!botanical(option.name) && botanical(existing.name)) ||
+            (botanical(option.name) === botanical(existing.name) && option.name.localeCompare(existing.name, "en") < 0)) existing.name = option.name;
+      }
+    }
+  }
+  return [...grouped.values()].sort((a, b) => a.name.localeCompare(b.name, "en") || a.scientificName.localeCompare(b.scientificName, "en"));
 }

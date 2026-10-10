@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-10T20:55:51.295Z",
+  "runtime": "v24.19.0",
+  "states": 39,
+  "records": 7759,
+  "places": 1812,
+  "method": "21-run median after 5 warmups. CPU-only Node timings; excludes React, DOM, Leaflet marker reconciliation, downloads and tiles. Search measures 8 successive queries with a cached register and unchanged sort. Species measures a 39-arrival sequence after state summaries are cached. Clusters use Web Mercator projection at zoom 10.",
+  "milliseconds": {
+    "eightQueries": {
+      "before": 30.047,
+      "after": 8.9
+    },
+    "speciesArrivalSequence": {
+      "before": 108.045,
+      "after": 33.913
+    },
+    "clustering": {
+      "before": 32.442,
+      "after": 1.388
+    }
+  }
+}

@@ -77,3 +77,49 @@ mapping plus the source records `vt-42`, `me-2020-19`, `me-2020-29` and
 `me-2020-120`. The original source names remain intact; botanical synonyms remain
 separate. The first three were identified in the original review; the fourth now
 links to the newly added Eastern Redcedar profile.
+
+## Responsiveness update — October 10, 2026
+
+Coverage is now 39 states, 7,759 listed records and 7,320 mapped records. The
+older throttled-browser results in `champion-mobile-measurements-2026-10-10.json`
+used a smaller dataset, a local production build and failed tile requests. They
+are historical evidence, not a before/after production comparison.
+
+The current update removes repeated work from the explorer:
+
+- Search text, place keys and genus are indexed once per immutable payload record.
+- A sorted register is reused across filter edits. Map groups depend on matches,
+  so changing the list sort does not regroup places or rebuild markers.
+- Each state's species summary is cached and merged when registers arrive;
+  familiar species names use a direct lookup rather than a linear key search.
+- Register arrivals use React transitions so input updates can take priority.
+- A spatial grid replaces the linear cluster search, preserving the original
+  first-anchor rule, strict 44-pixel threshold and all place memberships.
+- Marker reconciliation retains unchanged markers, including their focus and
+  handlers. Obsolete markers are removed; changed clusters are replaced.
+  Animation-frame scheduling coalesces redraw requests in a single frame.
+
+`node scripts/measure-champion-computation.cjs` reproduces the CPU-only profile.
+Raw results are in `champion-computation-2026-10-10.json` (Node v24.19.0,
+21-run medians after five warmups). These are operation timings, **not browser
+interaction latency, mobile performance or Core Web Vitals**. Species timings
+use cached state summaries; initial grouping and DOM work are excluded.
+
+| Operation | Previous computation | Updated computation |
+| --- | ---: | ---: |
+| Eight successive queries, cached register and unchanged sort | 30.047 ms | 8.900 ms |
+| Species summaries across a 39-register arrival sequence | 108.045 ms | 33.913 ms |
+| Clustering 1,812 place points at zoom 10 | 32.442 ms | 1.388 ms |
+
+Regression checks compare exact result IDs and ordering for all four sorts,
+filters, case-insensitive species and mixed search words. Species summaries
+match full regrouping after every state arrival. Clusters match the original
+algorithm at zooms 4, 7, 10 and 14, with negative-coordinate/boundary cases and
+seeded randomized inputs. Unlocated records remain searchable without markers.
+
+A physical-phone check remains outstanding. On the live default map, check first
+records/markers and complete loading on cellular service, then type a search,
+change species/sort, activate a cluster and reset. Record device/browser/network,
+visible lag and tile failures. Repeat with a state-specific link and a cached
+return to the full map. New throttled production measurements are also needed
+before claiming an improvement over the historical 0.7–0.8-second filter latency.

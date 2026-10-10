@@ -1,13 +1,14 @@
 "use client";
 
-import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { startTransition, useCallback, useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { championRegionCoverage } from "../../lib/champion-states";
 import { championHref, emptySelection, readChampionSelection, type ChampionSelection } from "../../lib/champion-links";
-import { championSpeciesOptions, familiarSpeciesName, sameChampionSpecies } from "../../lib/champion-species";
+import { championSpeciesOptionsForBatches, familiarSpeciesName, sameChampionSpecies } from "../../lib/champion-species";
 import { treeVisits } from "../../lib/tree-visits";
 import { loadChampionStates } from "../../lib/champion-loader";
+import { filterChampionRecords, sortChampionRecords } from "../../lib/champion-explorer-index";
 import ShareLink from "./share-link";
 import ChampionMap from "./champion-map";
 import { championRegions, mnChampionSource, wiChampionSource, ohChampionSource, miChampionSource, ilChampionSource, flChampionSource, alChampionSource, inChampionSource, kyChampionSource, gaChampionSource, tnChampionSource, scChampionSource, ncChampionSource, wvChampionSource, vaChampionSource, sourceDates, placeName, nyChampionSource, njChampionSource, paChampionSource, deChampionSource, mdChampionSource, type ChampionManifest, type ChampionPayload, formatMeasurement, formatChampionDate, libraryTreeForSpecies, sourceWarnings, townKey, stateNames, nhChampionSource, vtChampionSource, meChampionSource, riChampionSource, ctChampionSource, type ChampionState, type ChampionTree } from "../../lib/champion-trees";
@@ -135,7 +136,7 @@ export default function ChampionExplorer({ manifest }: { manifest: ChampionManif
       return request;
     }, (code, payload) => {
       cached.current[code] = payload;
-      if (!disposed) setCache({ ...cached.current });
+      if (!disposed) startTransition(() => setCache({ ...cached.current }));
     }, code => {
       if (!disposed) setFailedStates(current => [...current, code]);
     }, () => !disposed);
@@ -145,29 +146,29 @@ export default function ChampionExplorer({ manifest }: { manifest: ChampionManif
   const failed = missingStates.filter(code => failedStates.includes(code));
   const loadError = failed.length > 0;
   const loading = missingStates.some(code => !failedStates.includes(code));
-  const championTrees = useMemo(() => requestKey.split(",").flatMap(code => cache[code as ChampionState]?.trees || []), [requestKey, cache]);
+  const batches = useMemo(() => requestKey.split(",").flatMap(code => cache[code as ChampionState] ? [cache[code as ChampionState]!.trees] : []), [requestKey, cache]);
+  const championTrees = useMemo(() => batches.flat(), [batches]);
   const coordinates = useMemo(() => Object.assign({}, ...requestKey.split(",").map(code => cache[code as ChampionState]?.coordinates || {})) as ChampionPayload["coordinates"], [requestKey, cache]);
   const townOptions = useMemo(() => [...new Map(championTrees.filter(t => t.town || t.mapPrecision === "county").map(tree => [townKey(tree), { key: townKey(tree), town: placeName(tree), state: tree.state, precision: tree.state === "LA" ? "parish" : tree.mapPrecision === "county" && tree.county.endsWith(" City") ? "independent city" : tree.mapPrecision || (tree.state === "DE" || tree.state === "KS" ? "Census place" : "municipality") }])).values()].sort((a, b) => a.town.localeCompare(b.town) || a.state.localeCompare(b.state)), [championTrees]);
-  const speciesOptions = useMemo(() => championSpeciesOptions(championTrees.filter(tree => tree.scientificName !== "Not supplied by source")), [championTrees]);
+  const speciesOptions = useMemo(() => championSpeciesOptionsForBatches(batches), [batches]);
   const activeSpeciesName = speciesOptions.find(option => sameChampionSpecies(option.scientificName, species))?.name || familiarSpeciesName(species);
   const genera = useMemo(() => [...new Set(championTrees.filter(t => t.scientificName !== "Not supplied by source").map(t => t.scientificName.split(" ")[0]))].sort(), [championTrees]);
   const detail = useRef<HTMLDivElement>(null);
   const resultsHeading = useRef<HTMLHeadingElement>(null);
+  const matches = useMemo(() => filterChampionRecords(championTrees, { region, state, query, county, town, genus, species, locationsOnly, publicOnly, sort: "name", selectedId: null }), [championTrees, region, state, query, county, town, genus, species, locationsOnly, publicOnly]);
+  // Sort the loaded register only when its contents or sort choice change.
+  // Subsequent search/filter edits select from that order without sorting again.
+  const ordered = useMemo(() => sortChampionRecords(championTrees, sort), [championTrees, sort]);
   const results = useMemo(() => {
-    const words = query.trim().toLowerCase().split(/\s+/).filter(Boolean);
-    return championTrees.filter(t => (!state || t.state === state) && (!species || sameChampionSpecies(t.scientificName, species)) && (!county || t.county === county) && (!town || townKey(t) === town) && (!genus || t.scientificName.split(" ")[0] === genus) && (!locationsOnly || Boolean(t.location || t.publicCoordinates)) && (!publicOnly || t.publicAccess === true) && words.every(word => `${stateNames[t.state]} ${t.state} ${t.mapTown || ""} ${t.commonName} ${t.scientificName} ${t.town} ${t.county} ${t.location || ""} ${t.notes || ""} ${t.sourceVariety || ""} ${t.status || ""}`.toLowerCase().includes(word))).sort((a, b) => {
-      if (sort === "height") return (b.height ?? -1) - (a.height ?? -1) || a.sourceRow - b.sourceRow;
-      if (sort === "points") return (b.points ?? -1) - (a.points ?? -1) || a.sourceRow - b.sourceRow;
-      if (sort === "town") return placeName(a).localeCompare(placeName(b)) || a.commonName.localeCompare(b.commonName);
-      return a.commonName.localeCompare(b.commonName) || a.sourceRow - b.sourceRow;
-    });
-  }, [championTrees, state, query, county, town, genus, species, locationsOnly, publicOnly, sort]);
+    const included = new Set(matches);
+    return ordered.filter(tree => included.has(tree));
+  }, [ordered, matches]);
   const groups = useMemo(() => {
     const counts = new Map<string, number>();
-    results.forEach(t => counts.set(townKey(t), (counts.get(townKey(t)) || 0) + 1));
+    matches.forEach(t => counts.set(townKey(t), (counts.get(townKey(t)) || 0) + 1));
     return townOptions.filter(t => counts.has(t.key) && coordinates[t.key]).map(t => ({ ...t, count: counts.get(t.key)! }));
-  }, [results, townOptions, coordinates]);
-  const counties = [...new Set(championTrees.filter(t => !state || t.state === state).map(t => t.county).filter(Boolean))].sort();
+  }, [matches, townOptions, coordinates]);
+  const counties = useMemo(() => [...new Set(championTrees.filter(t => !state || t.state === state).map(t => t.county).filter(Boolean))].sort(), [championTrees, state]);
   const selected = results.find(t => t.id === selectedId);
   const selectTown = useCallback((value: string) => {
     updateSelection({ town: value });
@@ -180,7 +181,7 @@ export default function ChampionExplorer({ manifest }: { manifest: ChampionManif
     updateSelection({ selectedId: tree.id });
   }
   useEffect(() => { setPage(1); }, [requestKey, query, county, town, genus, species, locationsOnly, publicOnly, sort]);
-  const mappedCount = results.filter(t => Boolean(coordinates[townKey(t)])).length;
+  const mappedCount = useMemo(() => groups.reduce((count, group) => count + group.count, 0), [groups]);
   const selectedTreeId = selected?.id;
   useEffect(() => {
     if (selectedTreeId) {
