@@ -7,6 +7,14 @@ export type ChampionStateConfig = {
   source: Readonly<Record<string, string | number>>;
 };
 export const championStates = {
+  CO: { name: "Colorado", sourceDate: "CTC 2026 workbooks · retrieved October 10, 2026", recordFiles: ["colorado-champion-trees.json"], coordinateFile: "colorado-county-points.json", recordPrecision: "county", coordinatePrecision: "county", recordOrder: -7, expectedRecords: 846, expectedMapped: 846, unmappedIds: [], importer: "import-colorado-champions.py", auditFile: "colorado-import-audit.json", source: {
+    registerUrl: "https://www.coloradotrees.org/colorado-champion-trees",
+    countyUrl: "https://www.coloradotrees.org/s/2026-Website-County-champ-list.xlsx",
+    alphabeticalUrl: "https://www.coloradotrees.org/s/2026-Website-Champ-Trees.xlsx",
+    measuringUrl: "https://www.coloradotrees.org/how-to-measure-a-tree",
+    geographyUrl: "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_counties_national.zip",
+    retrieved: "October 10, 2026", count: 846,
+  } },
   TX: { name: "Texas", sourceDate: "Texas A&M Forest Service registry · retrieved October 9, 2026", recordFiles: ["texas-champion-trees.json"], coordinateFile: "texas-county-points.json", recordPrecision: "county", coordinatePrecision: "county", recordOrder: -6, expectedRecords: 232, expectedMapped: 232, unmappedIds: [], importer: "import-texas-champions.py", auditFile: "texas-import-audit.json", source: {
     registerUrl: "https://texasforestinfo.tamu.edu/BigTreeRegistry/", apiUrl: "https://texasforestinfo.tamu.edu/BigTreeRegistry/Home/GetAllTrees",
     retrieved: "October 9, 2026", count: 232,
@@ -216,4 +224,4 @@ export const championStates = {
 export type ChampionState = keyof typeof championStates;
 export const stateNames = Object.fromEntries(Object.entries(championStates).map(([state, config]) => [state, config.name])) as Record<ChampionState, string>;
 export const sourceDates = Object.fromEntries(Object.entries(championStates).map(([state, config]) => [state, config.sourceDate])) as Record<ChampionState, string>;
-export const championRegions = { "south-central": { name: "South Central", states: ["TX"] }, midwest: { name: "Midwest", states: ["IN", "IL", "MI", "OH", "WI", "MN", "IA", "MO", "KS", "NE"] }, southeast: { name: "Southeast", states: ["NC", "SC", "TN", "GA", "KY", "AL", "FL", "AR"] }, "new-england": { name: "New England", states: ["MA", "NH", "VT", "ME", "RI", "CT"] }, northeast: { name: "Northeast", states: ["MA", "NH", "VT", "ME", "RI", "CT", "NY", "NJ", "PA"] }, "mid-atlantic": { name: "Mid-Atlantic", states: ["NY", "NJ", "PA", "DE", "MD", "VA", "WV"] } };
+export const championRegions = { west: { name: "West", states: ["CO"] }, "south-central": { name: "South Central", states: ["TX"] }, midwest: { name: "Midwest", states: ["IN", "IL", "MI", "OH", "WI", "MN", "IA", "MO", "KS", "NE"] }, southeast: { name: "Southeast", states: ["NC", "SC", "TN", "GA", "KY", "AL", "FL", "AR"] }, "new-england": { name: "New England", states: ["MA", "NH", "VT", "ME", "RI", "CT"] }, northeast: { name: "Northeast", states: ["MA", "NH", "VT", "ME", "RI", "CT", "NY", "NJ", "PA"] }, "mid-atlantic": { name: "Mid-Atlantic", states: ["NY", "NJ", "PA", "DE", "MD", "VA", "WV"] } };

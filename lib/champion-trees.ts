@@ -1,6 +1,7 @@
 import { championStates, type ChampionState } from "./champion-states";
 export { stateNames, sourceDates, championRegions, type ChampionState } from "./champion-states";
 export type ChampionTree = {
+  sourcePosition?: string | null; sourceVariety?: string | null; diameter?: number | null; sourceAlphabeticalRow?: number;
   certified?: string; stateChampionCode?: number; nationalChampionCode?: number; sourceCondition?: string;
   circumferenceFeet?: number | null; yearCrowned?: string; remeasureDue?: string; rankingDate?: string | null; sourcePage?: number; mapPrecision?: "county"; sourceCounty?: string; crownPoints?: number; crownUnitUncertain?: boolean; sourceReviewNotes?: string[];
   id: string; state: ChampionState; publicAccess?: boolean; visibleFromPublic?: string | null; accessDetails?: string | null; publicCoordinates?: { lat: number; lng: number } | null; yearListed?: string | null; mapTown?: string; nominated?: string; status?: string; nationalFlag?: string; sourceUrl?: string; sourceRow: number; sourceTreeId?: string | null; scientificName: string; commonName: string;

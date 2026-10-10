@@ -88,7 +88,7 @@ test("every current record ID survives URL encoding unchanged", () => {
       count++;
     }
   }
-  assert.equal(count, 6097);
+  assert.equal(count, Object.values(require("../lib/champion-states.ts").championStates).reduce((total, state) => total + state.expectedRecords, 0));
 });
 
 const { championSpeciesOptions } = require('../lib/champion-species.ts');

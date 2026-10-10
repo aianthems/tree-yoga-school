@@ -8,7 +8,7 @@ Tree Yoga School is a yoga school founded by **Alex Julian**, now being renewed 
 
 [Read the original book][book] · [Explore the curriculum](#the-original-curriculum) · [Build with us](#contributing)
 
-**Project status:** A content-led Next.js school with a four-practice introduction, seven book chapter companions, and a 24-species Tree Library. The school is still early: there is no account system, database, certification platform, or AI teaching assistant.
+**Project status:** A content-led Next.js school with a four-practice introduction, seven book chapter companions, and a 46-species Tree Library. The school is still early: there is no account system, database, certification platform, or AI teaching assistant.
 
 ## What is Tree Yoga?
 
@@ -530,3 +530,11 @@ Reproduce with `python scripts/import-texas-champions.py REGISTRY.json COUNTIES.
 Adds Eastern Redcedar, Northern Catalpa, Cucumber Magnolia, Eastern Cottonwood, Bitternut Hickory and Flowering Dogwood. The Library now has 46 authored profiles, each with identification, seasonal observations, three contemplative themes and a four-step outdoor practice. Botanical references are NC State Extension profiles; practice associations are original interpretations. Eleven local WebP photographs retain source, photographer and CC BY/CC BY-SA credits, recorded in `scripts/fixtures/tree-library-six-photo-sources.json` and on the species pages.
 
 New profiles generate six tree routes and six outdoor practice routes automatically, including canonical/social metadata and sitemap entries. Library-to-map species links and map-to-Library links match scientific names without regard to capitalization; botanical synonyms and varieties remain separate. Search aliases support common names such as red cedar, cigar tree and cucumber tree. Tests cover route discovery, attributed local images, aliases and reciprocal matching against all register records.
+
+## Colorado champion register · October 10, 2026
+
+All 846 entries from both Colorado Tree Coalition 2026 workbooks reconcile across source fields except one cultivar label (Hot Wings versus GarAnn Hot Wings), documented on the record and in the audit. There are 354 position-1/1T listings, further positions through 7, and one unranked entry. Position codes and T suffixes are preserved; scores never generate replacement titles, and “Nat’l Pts.” is not a national champion flag.
+
+All records map to 45 approximate Census county points. Moffatt maps to Moffat with original spelling retained. One street address is omitted; visiting access and measurement dates remain unclassified. Source names, cultivar strings, null measurements, DBH, circumference, crown spread and scores remain intact. County/alphabetical row references provide provenance; hashed full-row fingerprints distinguish entries without inventing source tree IDs. Source changes may change those fingerprints.
+
+Reproduce with `python scripts/import-colorado-champions.py COUNTY.xlsx ALPHABETICAL.xlsx COUNTIES.zip`, using the URLs in `lib/champion-states.ts`. The importer compares both lists and every sanitized row against the reviewed fixture before writing. Builds run common import validation; source regression tests cover all 846 records, position codes, missing values, geography and omitted addresses. Colorado joins the West filter and `/api/champion-trees/CO`. Total coverage: 6,943 records across 33 states.
