@@ -97,18 +97,6 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="manifesto section-shell">
-        <p className="section-kicker">The school in one sentence</p>
-        <blockquote>
-          “Nature is the teacher. Technology is the tool. Practice is the point.”
-        </blockquote>
-        <p>
-          Tree Yoga School was founded by Alex Julian and is now being renewed
-          as a public, AI-native school. The original 2023 book remains the root
-          source; the digital school grows outward from it.
-        </p>
-      </section>
-
       <section className="home-hug" aria-labelledby="home-hug-title">
         <div className="home-hug-copy"><p className="section-kicker">Tree Hugging · A central practice</p><h2 id="home-hug-title">An embrace.<br /><em>A living connection.</em></h2><p>Slow down beside a tree. Rest your hands or arms gently against its trunk, or simply stay nearby. Explore a practice of presence, gratitude, and care.</p><Link className="button hug-button" href="/tree-hugging">Discover Tree Hugging →</Link><p className="home-hug-note">The practice · The benefits · The research</p></div><div className="home-hug-art"><TreeEmbrace compact /></div>
       </section>
