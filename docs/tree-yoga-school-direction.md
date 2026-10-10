@@ -4,7 +4,7 @@ User direction, October 9, 2026: grow Tree Yoga School gradually while AI Anthem
 
 ## Current foundation
 
-Expand the Champion Tree map from official registers, preserving source provenance, measurements, access labels and approximate geography. Missouri adds 151 register records and Arkansas adds 125, bringing coverage to 29 states and 5,627 records. Kansas adds 148 records, bringing coverage to 30 states and 5,775 records. Nebraska adds 90 records, bringing coverage to 31 states and 5,865 records. Texas adds 232 unique state/national champion records, bringing coverage to 32 states and 6,097 records. Source dates need not block inclusion when their limitations are clearly described.
+Expand the Champion Tree map from official registers, preserving source provenance, measurements, access labels and approximate geography. Missouri adds 151 register records and Arkansas adds 125, bringing coverage to 29 states and 5,627 records. Kansas adds 148 records, bringing coverage to 30 states and 5,775 records. Nebraska adds 90 records, bringing coverage to 31 states and 5,865 records. Texas adds 232 unique state/national champion records, bringing coverage to 32 states and 6,097 records. Colorado adds all 846 entries from the 2026 register, bringing coverage to 33 states and 6,943 records. Source dates need not block inclusion when their limitations are clearly described.
 
 ## Future community
 

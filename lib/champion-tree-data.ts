@@ -1,4 +1,6 @@
 import "server-only";
+import coRecords from "./data/colorado-champion-trees.json";
+import coCoordinates from "./data/colorado-county-points.json";
 import txRecords from "./data/texas-champion-trees.json";
 import txCoordinates from "./data/texas-county-points.json";
 import neRecords from "./data/nebraska-champion-trees.json";
@@ -70,6 +72,7 @@ import { championStates, type ChampionState } from "./champion-states";
 import { buildChampionDataset } from "./champion-state-data";
 
 const datasets = {
+  CO: { records: coRecords, coordinates: coCoordinates },
   TX: { records: txRecords, coordinates: txCoordinates },
   NE: { records: neRecords, coordinates: neCoordinates },
   KS: { records: ksRecords, coordinates: ksCoordinates },
