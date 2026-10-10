@@ -1,0 +1,26 @@
+{
+  "retrieved": "October 10, 2026",
+  "registerUrl": "https://www.championtreeregistry.com/washington-registry/",
+  "historicalCountyUrl": "https://nationalchampiontree.org/wp-content/uploads/sites/270/2025/09/Finalized-American-Forests-2020-National-Register-of-Champion-Trees.pdf#page=1",
+  "geographyUrl": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_counties_national.zip",
+  "sourceRows": 292,
+  "expectedRecords": 279,
+  "mappedRecords": 1,
+  "unmappedRecords": 278,
+  "pendingExcluded": 13,
+  "statusCounts": {
+    "NC-C": 7,
+    "SC": 166,
+    "SC-C": 79,
+    "NC": 27,
+    "PV": 13
+  },
+  "edition": "Not stated",
+  "sourceHashes": {
+    "washington-registry.html": "bb6a801238a7f0072450da97d382d45b95b276a1564e2011af19ce2018296aac",
+    "mt-counties.zip": "4c90d0f805779923b5958ab13d0c1e9b99fe4932b786bfcf75dd739bb2dcb4ea"
+  },
+  "review": "All SC, SC-C, NC and NC-C entries retained. PV excluded without score-based promotion. Source national labels unverified. One exact historical county match: Abies amabilis, WA, 212/222/38/444, Clallam, 2020 register PDF page 1, record 2915. Other counties remain unknown. Names and measurements preserved as published.",
+  "privacy": "Nominators omitted. No names, addresses, exact tree positions or inferred visiting permissions.",
+  "units": "Circumference in inches; height and average crown spread in feet. Points preserved."
+}

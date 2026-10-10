@@ -1,0 +1,3506 @@
+[
+  {
+    "row": 1,
+    "values": [
+      "Abies amabilis",
+      "Pacific Silver Fir",
+      "NC-C",
+      216,
+      220,
+      38,
+      446
+    ]
+  },
+  {
+    "row": 2,
+    "values": [
+      "Abies amabilis",
+      "Pacific Silver Fir",
+      "NC-C",
+      212,
+      222,
+      38,
+      444
+    ]
+  },
+  {
+    "row": 3,
+    "values": [
+      "Abies balsamea",
+      "Balsam Fir",
+      "SC",
+      31,
+      67,
+      20,
+      103
+    ]
+  },
+  {
+    "row": 4,
+    "values": [
+      "Abies bracteata",
+      "Bristlecone Fir",
+      "SC-C",
+      44,
+      57,
+      29,
+      108
+    ]
+  },
+  {
+    "row": 5,
+    "values": [
+      "Abies bracteata",
+      "Bristlecone Fir",
+      "SC-C",
+      48,
+      51,
+      29,
+      106
+    ]
+  },
+  {
+    "row": 6,
+    "values": [
+      "Abies concolor",
+      "White Fir",
+      "SC",
+      107,
+      111,
+      38,
+      227
+    ]
+  },
+  {
+    "row": 7,
+    "values": [
+      "Abies fraseri",
+      "Fraser Fir",
+      "SC",
+      46,
+      40,
+      20,
+      90
+    ]
+  },
+  {
+    "row": 8,
+    "values": [
+      "Abies grandis",
+      "Grand Fir",
+      "NC",
+      260,
+      227,
+      47,
+      499
+    ]
+  },
+  {
+    "row": 9,
+    "values": [
+      "Abies lasiocarpa",
+      "Subalpine Fir",
+      "NC",
+      252,
+      130,
+      26,
+      389
+    ]
+  },
+  {
+    "row": 10,
+    "values": [
+      "Abies mangifica",
+      "California Red Fir",
+      "SC",
+      50,
+      99,
+      17,
+      153
+    ]
+  },
+  {
+    "row": 11,
+    "values": [
+      "Abies procera",
+      "Noble Fir",
+      "SC-C",
+      313,
+      272,
+      49,
+      597
+    ]
+  },
+  {
+    "row": 12,
+    "values": [
+      "Abies procera",
+      "Noble Fir",
+      "SC-C",
+      359,
+      227,
+      41,
+      596
+    ]
+  },
+  {
+    "row": 13,
+    "values": [
+      "Acer circinatum",
+      "Vine Maple",
+      "NC",
+      64,
+      55,
+      41,
+      129
+    ]
+  },
+  {
+    "row": 14,
+    "values": [
+      "Acer glabrum var. douglasii",
+      "Douglas Maple",
+      "NC",
+      109,
+      71,
+      57,
+      194
+    ]
+  },
+  {
+    "row": 15,
+    "values": [
+      "Acer macrophyllum",
+      "Bigleaf Maple",
+      "NC",
+      433,
+      90,
+      109,
+      550
+    ]
+  },
+  {
+    "row": 16,
+    "values": [
+      "Acer macrophyllum",
+      "Bigleaf Maple",
+      "PV",
+      450,
+      90,
+      85,
+      561
+    ]
+  },
+  {
+    "row": 17,
+    "values": [
+      "Acer negundo",
+      "Boxelder",
+      "SC",
+      149,
+      69,
+      95,
+      242
+    ]
+  },
+  {
+    "row": 18,
+    "values": [
+      "Acer pensylvanicum",
+      "Striped Maple",
+      "SC-C",
+      24,
+      21,
+      16,
+      49
+    ]
+  },
+  {
+    "row": 19,
+    "values": [
+      "Acer pensylvanicum",
+      "Striped Maple",
+      "SC-C",
+      18,
+      26,
+      13,
+      47
+    ]
+  },
+  {
+    "row": 20,
+    "values": [
+      "Acer pensylvanicum",
+      "Striped Maple",
+      "SC-C",
+      15,
+      26,
+      21,
+      46
+    ]
+  },
+  {
+    "row": 21,
+    "values": [
+      "Acer platanoides",
+      "Norway Maple",
+      "SC",
+      157,
+      73,
+      76,
+      249
+    ]
+  },
+  {
+    "row": 22,
+    "values": [
+      "Acer rubrum",
+      "Red Maple",
+      "SC",
+      131,
+      73,
+      75,
+      223
+    ]
+  },
+  {
+    "row": 23,
+    "values": [
+      "Acer saccharinum",
+      "Silver Maple",
+      "SC",
+      270,
+      84,
+      84,
+      375
+    ]
+  },
+  {
+    "row": 24,
+    "values": [
+      "Acer saccharum",
+      "Sugar Maple",
+      "SC-C",
+      135,
+      86,
+      83,
+      242
+    ]
+  },
+  {
+    "row": 25,
+    "values": [
+      "Acer saccharum",
+      "Sugar Maple",
+      "SC-C",
+      132,
+      90,
+      72,
+      240
+    ]
+  },
+  {
+    "row": 26,
+    "values": [
+      "Aesculus californica",
+      "California Buckeye",
+      "SC",
+      69,
+      38,
+      45,
+      118
+    ]
+  },
+  {
+    "row": 27,
+    "values": [
+      "Aesculus flava",
+      "Yellow Buckeye",
+      "SC-C",
+      123,
+      86,
+      56,
+      223
+    ]
+  },
+  {
+    "row": 28,
+    "values": [
+      "Aesculus flava",
+      "Yellow Buckeye",
+      "SC-C",
+      111,
+      95,
+      68,
+      223
+    ]
+  },
+  {
+    "row": 29,
+    "values": [
+      "Aesculus flava",
+      "Yellow Buckeye",
+      "SC-C",
+      143,
+      67,
+      45,
+      221
+    ]
+  },
+  {
+    "row": 30,
+    "values": [
+      "Aesculus glabra",
+      "Ohio Buckeye",
+      "SC-C",
+      88,
+      75,
+      43,
+      174
+    ]
+  },
+  {
+    "row": 31,
+    "values": [
+      "Aesculus glabra",
+      "Ohio Buckeye",
+      "SC-C",
+      82,
+      76,
+      44,
+      173
+    ]
+  },
+  {
+    "row": 32,
+    "values": [
+      "Aesculus pavia",
+      "Red Buckeye",
+      "SC-C",
+      29,
+      17,
+      25,
+      52
+    ]
+  },
+  {
+    "row": 33,
+    "values": [
+      "Aesculus pavia",
+      "Red Buckeye",
+      "SC-C",
+      22,
+      21,
+      25,
+      49
+    ]
+  },
+  {
+    "row": 34,
+    "values": [
+      "Ailanthus altissima",
+      "Tree-of-heaven",
+      "SC",
+      159,
+      75,
+      51,
+      254
+    ]
+  },
+  {
+    "row": 35,
+    "values": [
+      "Albizia julibrissin",
+      "Mimosa Silktree",
+      "SC",
+      86,
+      46,
+      75,
+      151
+    ]
+  },
+  {
+    "row": 36,
+    "values": [
+      "Alnus glutinosa",
+      "European Alder",
+      "SC",
+      65,
+      65,
+      41,
+      140
+    ]
+  },
+  {
+    "row": 37,
+    "values": [
+      "Alnus incana ssp. tenuifolia",
+      "Mountain Alder",
+      "NC",
+      94,
+      71,
+      39,
+      175
+    ]
+  },
+  {
+    "row": 38,
+    "values": [
+      "Alnus iridis ssp. sinuata",
+      "Sitka Alder",
+      "NC",
+      34,
+      30,
+      34,
+      73
+    ]
+  },
+  {
+    "row": 39,
+    "values": [
+      "Alnus rhombifolia",
+      "White Alder",
+      "SC",
+      118,
+      67,
+      67,
+      202
+    ]
+  },
+  {
+    "row": 40,
+    "values": [
+      "Alnus rubra",
+      "Red Alder",
+      "SC-C",
+      195,
+      73,
+      76,
+      287
+    ]
+  },
+  {
+    "row": 41,
+    "values": [
+      "Alnus rubra",
+      "Red Alder",
+      "SC-C",
+      178,
+      86,
+      81,
+      284
+    ]
+  },
+  {
+    "row": 42,
+    "values": [
+      "Alnus rubra",
+      "Red Alder",
+      "PV",
+      234,
+      85,
+      45,
+      330
+    ]
+  },
+  {
+    "row": 43,
+    "values": [
+      "Alnus rubra",
+      "Red Alder",
+      "PV",
+      171,
+      102,
+      74,
+      291
+    ]
+  },
+  {
+    "row": 44,
+    "values": [
+      "Amelanchier alnifolia",
+      "Western Serviceberry",
+      "SC",
+      41,
+      41,
+      41,
+      92
+    ]
+  },
+  {
+    "row": 45,
+    "values": [
+      "Amelanchier laevis",
+      "Allegheny Serviceberry",
+      "SC",
+      17,
+      42,
+      20,
+      64
+    ]
+  },
+  {
+    "row": 46,
+    "values": [
+      "Arbutus menziesii",
+      "Pacific Madrone",
+      "SC",
+      280,
+      78,
+      55,
+      372
+    ]
+  },
+  {
+    "row": 47,
+    "values": [
+      "Asimina triloba",
+      "Common Pawpaw",
+      "SC",
+      34,
+      30,
+      12,
+      67
+    ]
+  },
+  {
+    "row": 48,
+    "values": [
+      "Betula alleghaniensis",
+      "Yellow Birch",
+      "SC",
+      138,
+      48,
+      74,
+      204
+    ]
+  },
+  {
+    "row": 49,
+    "values": [
+      "Betula lenta",
+      "Sweet Birch",
+      "SC",
+      81,
+      55,
+      64,
+      152
+    ]
+  },
+  {
+    "row": 50,
+    "values": [
+      "Betula neoalaskana",
+      "Alaska Paper Birch",
+      "NC",
+      172,
+      70,
+      77,
+      261
+    ]
+  },
+  {
+    "row": 51,
+    "values": [
+      "Betula nigra",
+      "River Birch",
+      "SC-C",
+      133,
+      68,
+      98,
+      225
+    ]
+  },
+  {
+    "row": 52,
+    "values": [
+      "Betula nigra",
+      "River Birch",
+      "SC-C",
+      133,
+      68,
+      86,
+      222
+    ]
+  },
+  {
+    "row": 53,
+    "values": [
+      "Betula occidentalis",
+      "Water Birch",
+      "SC-C",
+      58,
+      45,
+      45,
+      114
+    ]
+  },
+  {
+    "row": 54,
+    "values": [
+      "Betula occidentalis",
+      "Water Birch",
+      "SC-C",
+      46,
+      55,
+      39,
+      111
+    ]
+  },
+  {
+    "row": 55,
+    "values": [
+      "Betula papyrifera   ",
+      "Paper Birch",
+      "NC",
+      199,
+      113,
+      85,
+      333
+    ]
+  },
+  {
+    "row": 56,
+    "values": [
+      "Betula populifolia",
+      "Gray Birch",
+      "SC",
+      65,
+      56,
+      44,
+      132
+    ]
+  },
+  {
+    "row": 57,
+    "values": [
+      "Calocedrus decurrens",
+      "Incense-cedar",
+      "SC",
+      190,
+      104,
+      49,
+      306
+    ]
+  },
+  {
+    "row": 58,
+    "values": [
+      "Carpinus caroliniana",
+      "American Hornbeam",
+      "SC",
+      39,
+      23,
+      54,
+      76
+    ]
+  },
+  {
+    "row": 59,
+    "values": [
+      "Carya glabra",
+      "Pignut Hickory",
+      "SC",
+      81,
+      92,
+      61,
+      188
+    ]
+  },
+  {
+    "row": 60,
+    "values": [
+      "Carya illinoinensis",
+      "Pecan",
+      "SC",
+      131,
+      120,
+      76,
+      270
+    ]
+  },
+  {
+    "row": 61,
+    "values": [
+      "Carya laciniosa",
+      "Shellbark Hickory",
+      "SC",
+      72,
+      77,
+      52,
+      162
+    ]
+  },
+  {
+    "row": 62,
+    "values": [
+      "Carya ovalis",
+      "Red Hickory",
+      "SC",
+      124,
+      96,
+      66,
+      236
+    ]
+  },
+  {
+    "row": 63,
+    "values": [
+      "Carya ovata",
+      "Shagbark Hickory",
+      "SC-C",
+      100,
+      87,
+      51,
+      200
+    ]
+  },
+  {
+    "row": 64,
+    "values": [
+      "Carya ovata",
+      "Shagbark Hickory",
+      "SC-C",
+      91,
+      92,
+      55,
+      197
+    ]
+  },
+  {
+    "row": 65,
+    "values": [
+      "Carya tomentosa",
+      "Mockernut Hickory",
+      "SC",
+      89,
+      89,
+      72,
+      196
+    ]
+  },
+  {
+    "row": 66,
+    "values": [
+      "Castanea dentata",
+      "American Chestnut",
+      "NC-C",
+      288,
+      70,
+      70,
+      376
+    ]
+  },
+  {
+    "row": 67,
+    "values": [
+      "Castanea dentata",
+      "American Chestnut",
+      "NC-C",
+      288,
+      70,
+      70,
+      376
+    ]
+  },
+  {
+    "row": 68,
+    "values": [
+      "Catalpa bignonioides",
+      "Southern Catalpa",
+      "SC",
+      151,
+      37,
+      70,
+      205
+    ]
+  },
+  {
+    "row": 69,
+    "values": [
+      "Catalpa speciosa",
+      "Northern Catalpa",
+      "SC",
+      264,
+      86,
+      84,
+      371
+    ]
+  },
+  {
+    "row": 70,
+    "values": [
+      "Celtis occidentalis",
+      "Common Hackberry",
+      "SC",
+      72,
+      46,
+      55,
+      132
+    ]
+  },
+  {
+    "row": 71,
+    "values": [
+      "Celtis reticulata",
+      "Netleaf Hackberry",
+      "SC",
+      41,
+      25,
+      35,
+      75
+    ]
+  },
+  {
+    "row": 72,
+    "values": [
+      "Cercis canadensis",
+      "Eastern Redbud",
+      "SC",
+      63,
+      38,
+      36,
+      110
+    ]
+  },
+  {
+    "row": 73,
+    "values": [
+      "Chamaecyparis lawsoniana",
+      "Port-orford-cedar",
+      "SC",
+      204,
+      110,
+      43,
+      325
+    ]
+  },
+  {
+    "row": 74,
+    "values": [
+      "Chamaecyparis nootkatensis",
+      "Alaska-cedar",
+      "NC",
+      451,
+      126,
+      27,
+      584
+    ]
+  },
+  {
+    "row": 75,
+    "values": [
+      "Chamaecyparis nootkatensis",
+      "Alaska-cedar",
+      "SC-C",
+      425,
+      147,
+      47,
+      584
+    ]
+  },
+  {
+    "row": 76,
+    "values": [
+      "Chamaecyparis thyoides",
+      "Atlantic White-cedar",
+      "SC-C",
+      34,
+      36,
+      25,
+      76
+    ]
+  },
+  {
+    "row": 77,
+    "values": [
+      "Chamaecyparis thyoides",
+      "Atlantic White-cedar",
+      "SC-C",
+      42,
+      28,
+      19,
+      75
+    ]
+  },
+  {
+    "row": 78,
+    "values": [
+      "Chrysolepis chrysophylla",
+      "Giant Chinkapin",
+      "SC",
+      97,
+      66,
+      40,
+      173
+    ]
+  },
+  {
+    "row": 79,
+    "values": [
+      "Cladrastis kentukea",
+      "Yellowwood",
+      "SC",
+      92,
+      61,
+      60,
+      168
+    ]
+  },
+  {
+    "row": 80,
+    "values": [
+      "Cornus alternifolia",
+      "Alternate-leaf Dogwood",
+      "SC",
+      28,
+      24,
+      16,
+      56
+    ]
+  },
+  {
+    "row": 81,
+    "values": [
+      "Cornus florida",
+      "Flowering Dogwood",
+      "SC",
+      69,
+      36,
+      39,
+      115
+    ]
+  },
+  {
+    "row": 82,
+    "values": [
+      "Cornus nuttallii",
+      "Pacific Dogwood",
+      "SC",
+      129,
+      80,
+      55,
+      223
+    ]
+  },
+  {
+    "row": 83,
+    "values": [
+      "Cornus sericea ssp. occidentalis",
+      "Western Dogwood",
+      "PV",
+      37,
+      31,
+      24,
+      74
+    ]
+  },
+  {
+    "row": 84,
+    "values": [
+      "Cornus sericea ssp. occidentalis",
+      "Western Dogwood",
+      "PV",
+      23,
+      19,
+      19,
+      47
+    ]
+  },
+  {
+    "row": 85,
+    "values": [
+      "Corylus cornuta var. californica",
+      "California Hazel",
+      "SC-C",
+      30,
+      41,
+      51,
+      84
+    ]
+  },
+  {
+    "row": 86,
+    "values": [
+      "Corylus cornuta var. californica",
+      "California Hazel",
+      "SC-C",
+      22,
+      47,
+      42,
+      79
+    ]
+  },
+  {
+    "row": 87,
+    "values": [
+      "Cotinus obovatus",
+      "American Smoketree",
+      "SC",
+      49,
+      49,
+      31,
+      106
+    ]
+  },
+  {
+    "row": 88,
+    "values": [
+      "Crataegus columbiana",
+      "Columbia Hawthorn",
+      "SC",
+      27,
+      18,
+      19,
+      50
+    ]
+  },
+  {
+    "row": 89,
+    "values": [
+      "Crataegus crus-galli",
+      "Cockspur Hawthorn",
+      "SC",
+      49,
+      30,
+      47,
+      91
+    ]
+  },
+  {
+    "row": 90,
+    "values": [
+      "Crataegus douglasii",
+      "Black Hawthorn",
+      "NC",
+      84,
+      45,
+      42,
+      140
+    ]
+  },
+  {
+    "row": 91,
+    "values": [
+      "Crataegus douglasii",
+      "Black Hawthorn",
+      "SC",
+      100,
+      49,
+      50,
+      162
+    ]
+  },
+  {
+    "row": 92,
+    "values": [
+      "Crataegus monogyna",
+      "Oneseed Hawthorn",
+      "NC-C",
+      111,
+      41,
+      57,
+      166
+    ]
+  },
+  {
+    "row": 93,
+    "values": [
+      "Crataegus phaenopyrum",
+      "Washington Hawthorn",
+      "SC-C",
+      37,
+      34,
+      32,
+      79
+    ]
+  },
+  {
+    "row": 94,
+    "values": [
+      "Crataegus phaenopyrum",
+      "Washington Hawthorn",
+      "SC-C",
+      27,
+      45,
+      25,
+      78
+    ]
+  },
+  {
+    "row": 95,
+    "values": [
+      "Crataegus punctata",
+      "Dotted Hawthorn",
+      "SC",
+      45,
+      28,
+      33,
+      81
+    ]
+  },
+  {
+    "row": 96,
+    "values": [
+      "Crataegus viridis",
+      "Green Hawthorn",
+      "SC",
+      32,
+      29,
+      33,
+      69
+    ]
+  },
+  {
+    "row": 97,
+    "values": [
+      "Cupressus arizonica ssp. arizonica",
+      "Arizona Cypress",
+      "SC",
+      114,
+      68,
+      35,
+      191
+    ]
+  },
+  {
+    "row": 98,
+    "values": [
+      "Cupressus arizonica ssp. nevadensis",
+      "Piute Cypress",
+      "SC",
+      69,
+      56,
+      25,
+      131
+    ]
+  },
+  {
+    "row": 99,
+    "values": [
+      "Cupressus arizonica var. glabra",
+      "Arizona Smooth Cypress",
+      "SC",
+      72,
+      57,
+      23,
+      135
+    ]
+  },
+  {
+    "row": 100,
+    "values": [
+      "Cupressus macrocarpa",
+      "Monterey Cypress",
+      "SC",
+      283,
+      77,
+      64,
+      378
+    ]
+  },
+  {
+    "row": 101,
+    "values": [
+      "Curpressus goveniana ssp. pygmaea",
+      "Mendocino Cypress",
+      "SC",
+      70,
+      75,
+      32,
+      153
+    ]
+  },
+  {
+    "row": 102,
+    "values": [
+      "Diospyros virginiana",
+      "Common Persimmon",
+      "SC",
+      42,
+      40,
+      29,
+      89
+    ]
+  },
+  {
+    "row": 103,
+    "values": [
+      "Elaeagnus angustifolia",
+      "Russian-olive",
+      "SC-C",
+      99,
+      50,
+      51,
+      162
+    ]
+  },
+  {
+    "row": 104,
+    "values": [
+      "Elaeagnus angustifolia",
+      "Russian-olive",
+      "SC-C",
+      101,
+      47,
+      49,
+      160
+    ]
+  },
+  {
+    "row": 105,
+    "values": [
+      "Elaeagnus angustifolia",
+      "Russian-olive",
+      "SC-C",
+      97,
+      48,
+      54,
+      159
+    ]
+  },
+  {
+    "row": 106,
+    "values": [
+      "Fagus grandifolia",
+      "American Beech",
+      "SC",
+      128,
+      75,
+      80,
+      223
+    ]
+  },
+  {
+    "row": 107,
+    "values": [
+      "Fraxinus americana",
+      "White Ash",
+      "SC",
+      191,
+      90,
+      72,
+      299
+    ]
+  },
+  {
+    "row": 108,
+    "values": [
+      "Fraxinus latifolia",
+      "Oregon Ash",
+      "SC",
+      231,
+      68,
+      55,
+      313
+    ]
+  },
+  {
+    "row": 109,
+    "values": [
+      "Fraxinus pennsylvanica",
+      "Green Ash",
+      "SC",
+      151,
+      95,
+      79,
+      266
+    ]
+  },
+  {
+    "row": 110,
+    "values": [
+      "Gleditsia triacanthos",
+      "Honeylocust",
+      "SC",
+      90,
+      88,
+      57,
+      192
+    ]
+  },
+  {
+    "row": 111,
+    "values": [
+      "Gymnocladus dioicus",
+      "Kentucky Coffeetree",
+      "SC",
+      60,
+      62,
+      48,
+      134
+    ]
+  },
+  {
+    "row": 112,
+    "values": [
+      "Halesia carolina",
+      "Carolina Silverbell",
+      "SC",
+      78,
+      63,
+      47,
+      153
+    ]
+  },
+  {
+    "row": 113,
+    "values": [
+      "Ilex opaca",
+      "American Holly",
+      "SC-C",
+      42,
+      28,
+      27,
+      77
+    ]
+  },
+  {
+    "row": 114,
+    "values": [
+      "Ilex opaca",
+      "American Holly",
+      "SC-C",
+      29,
+      41,
+      20,
+      75
+    ]
+  },
+  {
+    "row": 115,
+    "values": [
+      "Juglans cinerea",
+      "Butternut",
+      "PV",
+      245,
+      96,
+      45,
+      352
+    ]
+  },
+  {
+    "row": 116,
+    "values": [
+      "Juglans hindsii",
+      "Northern California Walnut",
+      "SC",
+      184,
+      102,
+      105,
+      312
+    ]
+  },
+  {
+    "row": 117,
+    "values": [
+      "Juglans major",
+      "Arizona Walnut",
+      "SC",
+      57,
+      65,
+      51,
+      135
+    ]
+  },
+  {
+    "row": 118,
+    "values": [
+      "Juglans microcarpa",
+      "Little Walnut",
+      "SC",
+      81,
+      45,
+      64,
+      142
+    ]
+  },
+  {
+    "row": 119,
+    "values": [
+      "Juglans nigra",
+      "Black Walnut",
+      "SC",
+      244,
+      87,
+      123,
+      362
+    ]
+  },
+  {
+    "row": 120,
+    "values": [
+      "Juglans nigra",
+      "Black Walnut",
+      "PV",
+      300,
+      110,
+      120,
+      440
+    ]
+  },
+  {
+    "row": 121,
+    "values": [
+      "Juniperus communis",
+      "Common Juniper",
+      "SC",
+      26,
+      30,
+      12,
+      59
+    ]
+  },
+  {
+    "row": 122,
+    "values": [
+      "Juniperus occidentalis",
+      "Western Juniper",
+      "SC",
+      84,
+      37,
+      41,
+      137
+    ]
+  },
+  {
+    "row": 123,
+    "values": [
+      "Juniperus scopulorum",
+      "Rocky Mountain Juniper",
+      "SC",
+      145,
+      62,
+      30,
+      214
+    ]
+  },
+  {
+    "row": 124,
+    "values": [
+      "Juniperus virginiana",
+      "Eastern Redcedar",
+      "SC-C",
+      85,
+      68,
+      39,
+      163
+    ]
+  },
+  {
+    "row": 125,
+    "values": [
+      "Juniperus virginiana",
+      "Eastern Redcedar",
+      "SC-C",
+      87,
+      65,
+      33,
+      160
+    ]
+  },
+  {
+    "row": 126,
+    "values": [
+      "Larix decidua",
+      "European Larch",
+      "SC",
+      130,
+      95,
+      55,
+      239
+    ]
+  },
+  {
+    "row": 127,
+    "values": [
+      "Larix laricina",
+      "Tamarack",
+      "SC",
+      53,
+      56,
+      35,
+      118
+    ]
+  },
+  {
+    "row": 128,
+    "values": [
+      "Larix lyallii",
+      "Subalpine Larch",
+      "NC",
+      265,
+      103,
+      75,
+      387
+    ]
+  },
+  {
+    "row": 129,
+    "values": [
+      "Larix lyallii",
+      "Subalpine Larch",
+      "SC-C",
+      265,
+      101,
+      84,
+      387
+    ]
+  },
+  {
+    "row": 130,
+    "values": [
+      "Larix occidentalis",
+      "Western Larch",
+      "SC",
+      230,
+      189,
+      35,
+      428
+    ]
+  },
+  {
+    "row": 131,
+    "values": [
+      "Liquidambar styraciflua",
+      "American Sweetgum",
+      "SC",
+      106,
+      100,
+      65,
+      222
+    ]
+  },
+  {
+    "row": 132,
+    "values": [
+      "Liriodendron tulipifera",
+      "Tuliptree Yellow-poplar",
+      "SC",
+      235,
+      94,
+      79,
+      349
+    ]
+  },
+  {
+    "row": 133,
+    "values": [
+      "Lithocarpus densiflorus",
+      "Tanoak",
+      "SC-C",
+      47,
+      60,
+      50,
+      119
+    ]
+  },
+  {
+    "row": 134,
+    "values": [
+      "Lithocarpus densiflorus",
+      "Tanoak",
+      "SC-C",
+      57,
+      53,
+      33,
+      118
+    ]
+  },
+  {
+    "row": 135,
+    "values": [
+      "Maclura pomifera",
+      "Osage-orange",
+      "SC-C",
+      80,
+      56,
+      53,
+      149
+    ]
+  },
+  {
+    "row": 136,
+    "values": [
+      "Maclura pomifera",
+      "Osage-orange",
+      "SC-C",
+      78,
+      56,
+      43,
+      145
+    ]
+  },
+  {
+    "row": 137,
+    "values": [
+      "Magnolia acuminata",
+      "Cucumbertree Magnolia",
+      "SC",
+      94,
+      82,
+      71,
+      194
+    ]
+  },
+  {
+    "row": 138,
+    "values": [
+      "Magnolia acuminata ssp. subcordata",
+      "Yellow Cucumbertree Magnolia",
+      "SC",
+      37,
+      38,
+      25,
+      81
+    ]
+  },
+  {
+    "row": 139,
+    "values": [
+      "Magnolia fraseri",
+      "Fraser Magnolia",
+      "SC",
+      48,
+      78,
+      40,
+      136
+    ]
+  },
+  {
+    "row": 140,
+    "values": [
+      "Magnolia grandiflora",
+      "Southern Magnolia",
+      "SC-C",
+      80,
+      35,
+      32,
+      123
+    ]
+  },
+  {
+    "row": 141,
+    "values": [
+      "Magnolia grandiflora",
+      "Southern Magnolia",
+      "SC-C",
+      77,
+      38,
+      32,
+      123
+    ]
+  },
+  {
+    "row": 142,
+    "values": [
+      "Magnolia grandiflora",
+      "Southern Magnolia",
+      "SC-C",
+      70,
+      44,
+      32,
+      122
+    ]
+  },
+  {
+    "row": 143,
+    "values": [
+      "Magnolia macrophylla",
+      "Bigleaf Magnolia",
+      "SC",
+      63,
+      54,
+      40,
+      127
+    ]
+  },
+  {
+    "row": 144,
+    "values": [
+      "Magnolia tripetala",
+      "Umbrella Magnolia",
+      "SC",
+      43,
+      58,
+      45,
+      112
+    ]
+  },
+  {
+    "row": 145,
+    "values": [
+      "Magnolia virginiana",
+      "Sweetbay Magnolia",
+      "SC",
+      50,
+      60,
+      25,
+      118
+    ]
+  },
+  {
+    "row": 146,
+    "values": [
+      "Malus coronaria",
+      "Sweet Crab Apple",
+      "SC-C",
+      30,
+      57,
+      24,
+      93
+    ]
+  },
+  {
+    "row": 147,
+    "values": [
+      "Malus coronaria",
+      "Sweet Crab Apple",
+      "SC-C",
+      45,
+      37,
+      30,
+      89
+    ]
+  },
+  {
+    "row": 148,
+    "values": [
+      "Malus fusca",
+      "Oregon Crab Apple",
+      "NC-C",
+      102,
+      41,
+      45,
+      154
+    ]
+  },
+  {
+    "row": 149,
+    "values": [
+      "Malus fusca",
+      "Oregon Crab Apple",
+      "NC-C",
+      90,
+      48,
+      55,
+      152
+    ]
+  },
+  {
+    "row": 150,
+    "values": [
+      "Malus ioensis",
+      "Prairie Crab Apple",
+      "SC",
+      35,
+      29,
+      27,
+      71
+    ]
+  },
+  {
+    "row": 151,
+    "values": [
+      "Morella californica",
+      "Pacific Bayberry",
+      "SC",
+      37,
+      29,
+      25,
+      72
+    ]
+  },
+  {
+    "row": 152,
+    "values": [
+      "Morus alba",
+      "White Mulberry",
+      "SC",
+      130,
+      65,
+      51,
+      208
+    ]
+  },
+  {
+    "row": 153,
+    "values": [
+      "Morus nigra",
+      "Black Mulberry",
+      "SC",
+      51,
+      27,
+      29,
+      85
+    ]
+  },
+  {
+    "row": 154,
+    "values": [
+      "Nyssa sylvatica",
+      "Black Tupelo",
+      "SC-C",
+      61,
+      57,
+      45,
+      129
+    ]
+  },
+  {
+    "row": 155,
+    "values": [
+      "Nyssa sylvatica",
+      "Black Tupelo",
+      "SC-C",
+      64,
+      54,
+      39,
+      128
+    ]
+  },
+  {
+    "row": 156,
+    "values": [
+      "Ostrya virginiana",
+      "Eastern Hophornbeam",
+      "SC",
+      28,
+      62,
+      29,
+      97
+    ]
+  },
+  {
+    "row": 157,
+    "values": [
+      "Oxydendron arboreum",
+      "Sourwood",
+      "SC",
+      49,
+      38,
+      25,
+      93
+    ]
+  },
+  {
+    "row": 158,
+    "values": [
+      "Paulownia tomentosa",
+      "Royal Paulownia",
+      "SC",
+      167,
+      62,
+      68,
+      246
+    ]
+  },
+  {
+    "row": 159,
+    "values": [
+      "Picea abies",
+      "Norway Spruce",
+      "SC-C",
+      140,
+      91,
+      43,
+      242
+    ]
+  },
+  {
+    "row": 160,
+    "values": [
+      "Picea abies",
+      "Norway Spruce",
+      "SC-C",
+      122,
+      101,
+      59,
+      238
+    ]
+  },
+  {
+    "row": 161,
+    "values": [
+      "Picea abies",
+      "Norway Spruce",
+      "SC-C",
+      124,
+      103,
+      45,
+      238
+    ]
+  },
+  {
+    "row": 162,
+    "values": [
+      "Picea breweriana",
+      "Brewer Spruce",
+      "SC",
+      42,
+      52,
+      23,
+      100
+    ]
+  },
+  {
+    "row": 163,
+    "values": [
+      "Picea engelmannii",
+      "Englemann Spruce",
+      "SC",
+      229,
+      213,
+      25,
+      448
+    ]
+  },
+  {
+    "row": 164,
+    "values": [
+      "Picea engelmannii",
+      "Englemann Spruce",
+      "PV",
+      264,
+      179,
+      35,
+      452
+    ]
+  },
+  {
+    "row": 165,
+    "values": [
+      "Picea glauca",
+      "White Spruce",
+      "SC",
+      47,
+      63,
+      28,
+      117
+    ]
+  },
+  {
+    "row": 166,
+    "values": [
+      "Picea mariana",
+      "Black Spruce",
+      "SC",
+      63,
+      49,
+      25,
+      118
+    ]
+  },
+  {
+    "row": 167,
+    "values": [
+      "Picea pungens",
+      "Blue Spruce",
+      "SC",
+      90,
+      96,
+      31,
+      194
+    ]
+  },
+  {
+    "row": 168,
+    "values": [
+      "Picea rubens",
+      "Red Spruce",
+      "SC-C",
+      46,
+      51,
+      25,
+      103
+    ]
+  },
+  {
+    "row": 169,
+    "values": [
+      "Picea rubens",
+      "Red Spruce",
+      "SC-C",
+      40,
+      51,
+      29,
+      98
+    ]
+  },
+  {
+    "row": 170,
+    "values": [
+      "Picea sitchensis",
+      "Sitka Spruce",
+      "NC",
+      668,
+      191,
+      96,
+      883
+    ]
+  },
+  {
+    "row": 171,
+    "values": [
+      "Pinus albicaulis",
+      "Whitebark Pine",
+      "SC",
+      197,
+      67,
+      51,
+      280
+    ]
+  },
+  {
+    "row": 172,
+    "values": [
+      "Pinus albicaulis",
+      "Whitebark Pine",
+      "PV",
+      239,
+      42,
+      40,
+      291
+    ]
+  },
+  {
+    "row": 173,
+    "values": [
+      "Pinus aristata",
+      "Colorado Bristlecone Pine",
+      "SC",
+      39,
+      29,
+      30,
+      75
+    ]
+  },
+  {
+    "row": 174,
+    "values": [
+      "Pinus attenuata",
+      "Knobcone Pine",
+      "SC",
+      125,
+      48,
+      40,
+      183
+    ]
+  },
+  {
+    "row": 175,
+    "values": [
+      "Pinus banksiana",
+      "Jack Pine",
+      "SC",
+      45,
+      58,
+      19,
+      108
+    ]
+  },
+  {
+    "row": 176,
+    "values": [
+      "Pinus cembroides",
+      "Mexican Pinyon Pine",
+      "SC",
+      31,
+      25,
+      19,
+      61
+    ]
+  },
+  {
+    "row": 177,
+    "values": [
+      "Pinus contorta",
+      "Shore Pine",
+      "NC",
+      138,
+      101,
+      37,
+      248
+    ]
+  },
+  {
+    "row": 178,
+    "values": [
+      "Pinus contorta var. latifolia",
+      "Rocky Mountain Lodgepole Pine",
+      "SC",
+      157,
+      43,
+      44,
+      211
+    ]
+  },
+  {
+    "row": 179,
+    "values": [
+      "Pinus coulteri",
+      "Coulter Pine",
+      "SC",
+      118,
+      88,
+      48,
+      218
+    ]
+  },
+  {
+    "row": 180,
+    "values": [
+      "Pinus echinata",
+      "Shortleaf Pine",
+      "SC",
+      65,
+      80,
+      33,
+      153
+    ]
+  },
+  {
+    "row": 181,
+    "values": [
+      "Pinus flexilis",
+      "Limber Pine",
+      "SC",
+      56,
+      65,
+      29,
+      128
+    ]
+  },
+  {
+    "row": 182,
+    "values": [
+      "Pinus jeffreyi",
+      "Jeffrey Pine",
+      "SC",
+      172,
+      92,
+      49,
+      277
+    ]
+  },
+  {
+    "row": 183,
+    "values": [
+      "Pinus lambertiana",
+      "Sugar Pine",
+      "SC",
+      88,
+      96,
+      35,
+      193
+    ]
+  },
+  {
+    "row": 184,
+    "values": [
+      "Pinus monticola",
+      "Western White Pine",
+      "SC",
+      209,
+      207,
+      39,
+      426
+    ]
+  },
+  {
+    "row": 185,
+    "values": [
+      "Pinus muricata",
+      "Bishop Pine",
+      "SC",
+      130,
+      76,
+      47,
+      218
+    ]
+  },
+  {
+    "row": 186,
+    "values": [
+      "Pinus nigra",
+      "Austrian Pine",
+      "SC",
+      139,
+      95,
+      49,
+      246
+    ]
+  },
+  {
+    "row": 187,
+    "values": [
+      "Pinus ponderosa var. ponderosa",
+      "Ponderosa Pine",
+      "SC",
+      264,
+      213,
+      55,
+      491
+    ]
+  },
+  {
+    "row": 188,
+    "values": [
+      "Pinus pungens",
+      "Table Mountain Pine",
+      "SC",
+      51,
+      63,
+      28,
+      121
+    ]
+  },
+  {
+    "row": 189,
+    "values": [
+      "Pinus radiata",
+      "Monterey Pine",
+      "SC",
+      91,
+      98,
+      28,
+      195
+    ]
+  },
+  {
+    "row": 190,
+    "values": [
+      "Pinus resinosa",
+      "Red Pine",
+      "SC-C",
+      53,
+      79,
+      29,
+      139
+    ]
+  },
+  {
+    "row": 191,
+    "values": [
+      "Pinus resinosa",
+      "Red Pine",
+      "SC-C",
+      57,
+      71,
+      31,
+      135
+    ]
+  },
+  {
+    "row": 192,
+    "values": [
+      "Pinus sabiniana",
+      "Gray Pine",
+      "SC",
+      145,
+      79,
+      71,
+      242
+    ]
+  },
+  {
+    "row": 193,
+    "values": [
+      "Pinus strobiformis",
+      "Southwestern White Pine",
+      "SC",
+      63,
+      74,
+      37,
+      146
+    ]
+  },
+  {
+    "row": 194,
+    "values": [
+      "Pinus strobus",
+      "Eastern White Pine",
+      "SC",
+      180,
+      78,
+      60,
+      273
+    ]
+  },
+  {
+    "row": 195,
+    "values": [
+      "Pinus sylvestis",
+      "Scotch Pine",
+      "SC-C",
+      124,
+      60,
+      55,
+      198
+    ]
+  },
+  {
+    "row": 196,
+    "values": [
+      "Pinus sylvestis",
+      "Scotch Pine",
+      "SC-C",
+      114,
+      68,
+      49,
+      194
+    ]
+  },
+  {
+    "row": 197,
+    "values": [
+      "Pinus taeda",
+      "Loblolly Pine",
+      "SC",
+      97,
+      50,
+      43,
+      158
+    ]
+  },
+  {
+    "row": 198,
+    "values": [
+      "Pinus virginiana",
+      "Virginia Pine",
+      "SC",
+      44,
+      44,
+      32,
+      96
+    ]
+  },
+  {
+    "row": 199,
+    "values": [
+      "Platanus occidentalis",
+      "American Sycamore",
+      "SC",
+      161,
+      95,
+      99,
+      281
+    ]
+  },
+  {
+    "row": 200,
+    "values": [
+      "Populus alba",
+      "White Poplar",
+      "SC",
+      259,
+      110,
+      67,
+      386
+    ]
+  },
+  {
+    "row": 201,
+    "values": [
+      "Populus balsamifera   ",
+      "Balsam Poplar",
+      "NC",
+      252,
+      148,
+      82,
+      421
+    ]
+  },
+  {
+    "row": 202,
+    "values": [
+      "Populus balsamifera ssp. trichocarpa",
+      "Black Cottonwood",
+      "SC",
+      337,
+      158,
+      80,
+      515
+    ]
+  },
+  {
+    "row": 203,
+    "values": [
+      "Populus tremuloides",
+      "Quaking Aspen",
+      "SC",
+      65,
+      95,
+      22,
+      165
+    ]
+  },
+  {
+    "row": 204,
+    "values": [
+      "Populus tremuloides",
+      "Quaking Aspen",
+      "PV",
+      80,
+      99,
+      33,
+      187
+    ]
+  },
+  {
+    "row": 205,
+    "values": [
+      "Prunus avium",
+      "Sweet Cherry",
+      "SC",
+      164,
+      84,
+      65,
+      265
+    ]
+  },
+  {
+    "row": 206,
+    "values": [
+      "Prunus emarginata",
+      "Bitter Cherry",
+      "SC",
+      110,
+      104,
+      45,
+      225
+    ]
+  },
+  {
+    "row": 207,
+    "values": [
+      "Prunus laurocerasus",
+      "English Laurelcherry",
+      "NC",
+      109,
+      33,
+      52,
+      155
+    ]
+  },
+  {
+    "row": 208,
+    "values": [
+      "Prunus mahaleb",
+      "Mahaleb Cherry",
+      "NC",
+      79,
+      41,
+      48,
+      132
+    ]
+  },
+  {
+    "row": 209,
+    "values": [
+      "Prunus serotina",
+      "Black Cherry",
+      "SC",
+      88,
+      73,
+      70,
+      178
+    ]
+  },
+  {
+    "row": 210,
+    "values": [
+      "Prunus virginiana  ",
+      "Common Chokecherry Cherry",
+      "SC",
+      42,
+      48,
+      37,
+      99
+    ]
+  },
+  {
+    "row": 211,
+    "values": [
+      "Prunus virginiana var. melancarpa",
+      "Western Chokecherry",
+      "SC",
+      58,
+      51,
+      44,
+      120
+    ]
+  },
+  {
+    "row": 212,
+    "values": [
+      "Pseudotsuga macrocarpa",
+      "Bigcone Douglas-fir",
+      "SC",
+      67,
+      56,
+      33,
+      131
+    ]
+  },
+  {
+    "row": 213,
+    "values": [
+      "Pseudotsuga menziesii var. glauca",
+      "Rocky Mountain Douglas-fir",
+      "SC",
+      236,
+      173,
+      36,
+      418
+    ]
+  },
+  {
+    "row": 214,
+    "values": [
+      "Pseudotsuga menziesii var. menziesii",
+      "Coast Douglas-fir",
+      "NC",
+      505,
+      281,
+      71,
+      804
+    ]
+  },
+  {
+    "row": 215,
+    "values": [
+      "Pseudotsuga menziesii var. menziesii",
+      "Coast Douglas-fir",
+      "SC-C",
+      600,
+      200,
+      37,
+      809
+    ]
+  },
+  {
+    "row": 216,
+    "values": [
+      "Pseudotsuga menziesii var. menziesii",
+      "Coast Douglas-fir",
+      "SC-C",
+      490,
+      302,
+      59,
+      807
+    ]
+  },
+  {
+    "row": 217,
+    "values": [
+      "Pyrus communis",
+      "Common Pear",
+      "NC",
+      179,
+      59,
+      61,
+      253
+    ]
+  },
+  {
+    "row": 218,
+    "values": [
+      "Quercu macrocarpa",
+      "Bur Oak",
+      "SC-C",
+      163,
+      101,
+      103,
+      290
+    ]
+  },
+  {
+    "row": 219,
+    "values": [
+      "Quercu macrocarpa",
+      "Bur Oak",
+      "SC-C",
+      160,
+      100,
+      107,
+      287
+    ]
+  },
+  {
+    "row": 220,
+    "values": [
+      "Quercus agrifolia",
+      "Coast Live Oak",
+      "SC",
+      92,
+      45,
+      43,
+      148
+    ]
+  },
+  {
+    "row": 221,
+    "values": [
+      "Quercus alba",
+      "Eastern White Oak",
+      "SC",
+      170,
+      81,
+      102,
+      276
+    ]
+  },
+  {
+    "row": 222,
+    "values": [
+      "Quercus bicolor",
+      "Swamp White Oak",
+      "SC",
+      100,
+      79,
+      44,
+      190
+    ]
+  },
+  {
+    "row": 223,
+    "values": [
+      "Quercus chrysolepis",
+      "Canyon Live Oak",
+      "SC-C",
+      115,
+      47,
+      47,
+      174
+    ]
+  },
+  {
+    "row": 224,
+    "values": [
+      "Quercus chrysolepis",
+      "Canyon Live Oak",
+      "SC-C",
+      110,
+      46,
+      60,
+      171
+    ]
+  },
+  {
+    "row": 225,
+    "values": [
+      "Quercus coccinea",
+      "Scarlet Oak",
+      "SC",
+      141,
+      117,
+      87,
+      280
+    ]
+  },
+  {
+    "row": 226,
+    "values": [
+      "Quercus ellipsoidalis",
+      "Northern Pin Oak",
+      "SC",
+      124,
+      77,
+      77,
+      220
+    ]
+  },
+  {
+    "row": 227,
+    "values": [
+      "Quercus falcata",
+      "Southern Red Oak",
+      "SC",
+      77,
+      95,
+      48,
+      184
+    ]
+  },
+  {
+    "row": 228,
+    "values": [
+      "Quercus garryana",
+      "Oregon White Oak",
+      "SC",
+      251,
+      93,
+      106,
+      371
+    ]
+  },
+  {
+    "row": 229,
+    "values": [
+      "Quercus hypoleucoides",
+      "Silverleaf Oak",
+      "SC",
+      58,
+      42,
+      35,
+      109
+    ]
+  },
+  {
+    "row": 230,
+    "values": [
+      "Quercus imbricaria",
+      "Shingle Oak",
+      "SC",
+      114,
+      103,
+      64,
+      233
+    ]
+  },
+  {
+    "row": 231,
+    "values": [
+      "Quercus kelloggii",
+      "California Black Oak",
+      "SC",
+      92,
+      84,
+      75,
+      195
+    ]
+  },
+  {
+    "row": 232,
+    "values": [
+      "Quercus laurifolia",
+      "Laurel Oak",
+      "SC",
+      55,
+      68,
+      57,
+      137
+    ]
+  },
+  {
+    "row": 233,
+    "values": [
+      "Quercus lobata",
+      "Valley Oak",
+      "SC",
+      147,
+      78,
+      76,
+      244
+    ]
+  },
+  {
+    "row": 234,
+    "values": [
+      "Quercus michauxii",
+      "Swamp Chestnut Oak",
+      "SC-C",
+      68,
+      83,
+      59,
+      166
+    ]
+  },
+  {
+    "row": 235,
+    "values": [
+      "Quercus michauxii",
+      "Swamp Chestnut Oak",
+      "SC-C",
+      74,
+      74,
+      59,
+      163
+    ]
+  },
+  {
+    "row": 236,
+    "values": [
+      "Quercus muehlenbergii",
+      "Chinkapin Oak",
+      "SC",
+      103,
+      56,
+      49,
+      171
+    ]
+  },
+  {
+    "row": 237,
+    "values": [
+      "Quercus nigra",
+      "Water Oak",
+      "SC",
+      95,
+      76,
+      68,
+      188
+    ]
+  },
+  {
+    "row": 238,
+    "values": [
+      "Quercus palustris",
+      "Pin Oak",
+      "SC",
+      154,
+      114,
+      80,
+      288
+    ]
+  },
+  {
+    "row": 239,
+    "values": [
+      "Quercus phellos",
+      "Willow Oak",
+      "SC-C",
+      86,
+      73,
+      72,
+      177
+    ]
+  },
+  {
+    "row": 240,
+    "values": [
+      "Quercus phellos",
+      "Willow Oak",
+      "SC-C",
+      76,
+      84,
+      64,
+      176
+    ]
+  },
+  {
+    "row": 241,
+    "values": [
+      "Quercus robur",
+      "English Oak",
+      "NC",
+      209,
+      108,
+      103,
+      343
+    ]
+  },
+  {
+    "row": 242,
+    "values": [
+      "Quercus rubra",
+      "Red Oak",
+      "SC",
+      182,
+      132,
+      93,
+      337
+    ]
+  },
+  {
+    "row": 243,
+    "values": [
+      "Quercus shumardii",
+      "Shumard Oak",
+      "SC-C",
+      87,
+      65,
+      48,
+      164
+    ]
+  },
+  {
+    "row": 244,
+    "values": [
+      "Quercus shumardii",
+      "Shumard Oak",
+      "SC-C",
+      70,
+      77,
+      55,
+      161
+    ]
+  },
+  {
+    "row": 245,
+    "values": [
+      "Quercus velutina",
+      "Black Oak",
+      "SC",
+      141,
+      95,
+      86,
+      258
+    ]
+  },
+  {
+    "row": 246,
+    "values": [
+      "Quercus wislizenii",
+      "Interior Live Oak",
+      "SC",
+      88,
+      62,
+      69,
+      167
+    ]
+  },
+  {
+    "row": 247,
+    "values": [
+      "Rhamnus purshiana",
+      "Cascara Buckthorn",
+      "SC",
+      104,
+      51,
+      43,
+      166
+    ]
+  },
+  {
+    "row": 248,
+    "values": [
+      "Rhus glabra",
+      "Smooth Sumac",
+      "SC-C",
+      38,
+      26,
+      26,
+      71
+    ]
+  },
+  {
+    "row": 249,
+    "values": [
+      "Rhus glabra",
+      "Smooth Sumac",
+      "SC-C",
+      26,
+      38,
+      19,
+      69
+    ]
+  },
+  {
+    "row": 250,
+    "values": [
+      "Rhus typhina",
+      "Staghorn Sumac",
+      "SC-C",
+      38,
+      31,
+      25,
+      75
+    ]
+  },
+  {
+    "row": 251,
+    "values": [
+      "Rhus typhina",
+      "Staghorn Sumac",
+      "SC-C",
+      31,
+      41,
+      12,
+      75
+    ]
+  },
+  {
+    "row": 252,
+    "values": [
+      "Robina pseudoacacia",
+      "Black Locust",
+      "SC",
+      243,
+      95,
+      76,
+      357
+    ]
+  },
+  {
+    "row": 253,
+    "values": [
+      "Robina viscosa",
+      "Clammy Locust",
+      "SC",
+      52,
+      38,
+      29,
+      97
+    ]
+  },
+  {
+    "row": 254,
+    "values": [
+      "Salix alba",
+      "White Willow",
+      "PV",
+      240,
+      75,
+      64,
+      331
+    ]
+  },
+  {
+    "row": 255,
+    "values": [
+      "Salix alba",
+      "White Willow",
+      "SC",
+      231,
+      77,
+      84,
+      329
+    ]
+  },
+  {
+    "row": 256,
+    "values": [
+      "Salix amygdaloides",
+      "Peachleaf Willow",
+      "SC",
+      96,
+      56,
+      95,
+      176
+    ]
+  },
+  {
+    "row": 257,
+    "values": [
+      "Salix babylonica",
+      "Weeping Willow",
+      "SC",
+      94,
+      52,
+      61,
+      161
+    ]
+  },
+  {
+    "row": 258,
+    "values": [
+      "Salix exigua",
+      "Sandbar Willow",
+      "SC",
+      25,
+      30,
+      13,
+      58
+    ]
+  },
+  {
+    "row": 259,
+    "values": [
+      "Salix exigua",
+      "Sandbar Willow",
+      "PV",
+      27,
+      26,
+      17,
+      57
+    ]
+  },
+  {
+    "row": 260,
+    "values": [
+      "Salix hookeriana",
+      "Hooker Willow",
+      "SC",
+      38,
+      28,
+      43,
+      77
+    ]
+  },
+  {
+    "row": 261,
+    "values": [
+      "Salix lucida ssp. lasiandra",
+      "Pacific Willow",
+      "SC",
+      127,
+      40,
+      67,
+      184
+    ]
+  },
+  {
+    "row": 262,
+    "values": [
+      "Salix mackenzieana",
+      "Mackenzie Willow",
+      "SC",
+      17,
+      30,
+      27,
+      54
+    ]
+  },
+  {
+    "row": 263,
+    "values": [
+      "Salix scouleriana",
+      "Scouler Willow",
+      "SC",
+      175,
+      50,
+      43,
+      236
+    ]
+  },
+  {
+    "row": 264,
+    "values": [
+      "Salix scouleriana",
+      "Scouler Willow",
+      "NC",
+      149,
+      66,
+      54,
+      229
+    ]
+  },
+  {
+    "row": 265,
+    "values": [
+      "Salix sitchensis",
+      "Sitka Willow",
+      "SC",
+      32,
+      35,
+      37,
+      76
+    ]
+  },
+  {
+    "row": 266,
+    "values": [
+      "Sambucus cerulea",
+      "Blue Elder",
+      "SC",
+      103,
+      48,
+      31,
+      159
+    ]
+  },
+  {
+    "row": 267,
+    "values": [
+      "Sambucus pubens",
+      "Pacific Red Elder",
+      "SC",
+      48,
+      36,
+      29,
+      91
+    ]
+  },
+  {
+    "row": 268,
+    "values": [
+      "Sassafras albidum",
+      "Sassafras",
+      "SC",
+      104,
+      46,
+      47,
+      162
+    ]
+  },
+  {
+    "row": 269,
+    "values": [
+      "Sequoia sempervirens",
+      "Coast Redwood",
+      "SC",
+      232,
+      140,
+      61,
+      392
+    ]
+  },
+  {
+    "row": 270,
+    "values": [
+      "Sequoiadendron giganteum",
+      "Giant Sequoia",
+      "SC",
+      390,
+      125,
+      65,
+      531
+    ]
+  },
+  {
+    "row": 271,
+    "values": [
+      "Sorbus aucuparia",
+      "European Mountain-Ash",
+      "NC",
+      121,
+      46,
+      47,
+      179
+    ]
+  },
+  {
+    "row": 272,
+    "values": [
+      "Sorbus aucuparia",
+      "European Mountain-Ash",
+      "SC-C",
+      123,
+      43,
+      39,
+      176
+    ]
+  },
+  {
+    "row": 273,
+    "values": [
+      "Sorbus scopulina",
+      "Greene Mountain-Ash",
+      "NC",
+      24,
+      14,
+      20,
+      43
+    ]
+  },
+  {
+    "row": 274,
+    "values": [
+      "Sorbus scopulina",
+      "Greene Mountain-Ash",
+      "SC-C",
+      24,
+      13,
+      19,
+      42
+    ]
+  },
+  {
+    "row": 275,
+    "values": [
+      "Stewartia ovata",
+      "Mountain Stewartia",
+      "SC",
+      20,
+      26,
+      17,
+      50
+    ]
+  },
+  {
+    "row": 276,
+    "values": [
+      "Tamarix chinensis",
+      "Chinese Tamarisk",
+      "SC",
+      67,
+      26,
+      29,
+      100
+    ]
+  },
+  {
+    "row": 277,
+    "values": [
+      "Tamarix parviflora",
+      "Small-flower Tamarisk",
+      "SC",
+      55,
+      25,
+      21,
+      85
+    ]
+  },
+  {
+    "row": 278,
+    "values": [
+      "Taxodium ascendens",
+      "Pondcypress",
+      "SC",
+      46,
+      63,
+      19,
+      114
+    ]
+  },
+  {
+    "row": 279,
+    "values": [
+      "Taxodium distichum",
+      "Common Baldcypress",
+      "SC-C",
+      96,
+      96,
+      31,
+      200
+    ]
+  },
+  {
+    "row": 280,
+    "values": [
+      "Taxodium distichum",
+      "Common Baldcypress",
+      "SC-C",
+      102,
+      89,
+      37,
+      200
+    ]
+  },
+  {
+    "row": 281,
+    "values": [
+      "Taxus brevifolia",
+      "Pacific Yew",
+      "NC",
+      180,
+      54,
+      30,
+      242
+    ]
+  },
+  {
+    "row": 282,
+    "values": [
+      "Thuja occidentalis",
+      "Northern White-cedar",
+      "SC",
+      133,
+      38,
+      23,
+      177
+    ]
+  },
+  {
+    "row": 283,
+    "values": [
+      "Thuja plicata",
+      "Western Redcedar",
+      "NC",
+      761,
+      159,
+      45,
+      931
+    ]
+  },
+  {
+    "row": 284,
+    "values": [
+      "Tilia americana  ",
+      "American Basswood",
+      "SC",
+      118,
+      92,
+      61,
+      225
+    ]
+  },
+  {
+    "row": 285,
+    "values": [
+      "Tsuga canadensis",
+      "Eastern Hemlock",
+      "SC",
+      140,
+      73,
+      51,
+      226
+    ]
+  },
+  {
+    "row": 286,
+    "values": [
+      "Tsuga caroliniana",
+      "Carolina Hemlock",
+      "SC",
+      126,
+      74,
+      59,
+      215
+    ]
+  },
+  {
+    "row": 287,
+    "values": [
+      "Tsuga heterophylla",
+      "Western Hemlock",
+      "SC",
+      342,
+      195,
+      47,
+      549
+    ]
+  },
+  {
+    "row": 288,
+    "values": [
+      "Tsuga heterophylla",
+      "Western Hemlock",
+      "PV",
+      338,
+      194,
+      51,
+      545
+    ]
+  },
+  {
+    "row": 289,
+    "values": [
+      "Tsuga heterophylla",
+      "Western Hemlock",
+      "NC",
+      273,
+      237,
+      67,
+      527
+    ]
+  },
+  {
+    "row": 290,
+    "values": [
+      "Tsuga mertensiana",
+      "Mountain Hemlock",
+      "NC",
+      325,
+      89,
+      57,
+      428
+    ]
+  },
+  {
+    "row": 291,
+    "values": [
+      "Ulmus americana",
+      "American Elm",
+      "SC",
+      215,
+      105,
+      99,
+      345
+    ]
+  },
+  {
+    "row": 292,
+    "values": [
+      "Umbellularia californica",
+      "California-laurel",
+      "SC",
+      187,
+      53,
+      60,
+      255
+    ]
+  }
+]

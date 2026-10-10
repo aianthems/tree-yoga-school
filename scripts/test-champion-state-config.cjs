@@ -9,7 +9,7 @@ const { townKey } = require('../lib/champion-trees.ts');
 test('all state imports satisfy the common integrity and mapping checks', () => {
   const report = validateImports();
   assert.deepEqual(report.errors, []);
-  assert.equal(report.results.length, 38);
+  assert.equal(report.results.length, 39);
 });
 test('source refresh checks reject lost rows, duplicate IDs, invalid values and missing geography', () => {
   const { records, coordinates } = readState('MN');
