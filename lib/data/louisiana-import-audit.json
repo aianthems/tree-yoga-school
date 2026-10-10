@@ -1,0 +1,53 @@
+{
+  "registerUrl": "https://www.laforestry.com/champion-trees-in-louisiana",
+  "retrieved": "October 10, 2026",
+  "sourceLabel": "2021 listing; exact register edition unconfirmed",
+  "sourcePages": [
+    20,
+    20,
+    20,
+    20,
+    20,
+    16
+  ],
+  "publishedRows": 116,
+  "includedRecords": 115,
+  "mappedRecords": 115,
+  "parishCount": 34,
+  "excluded": [
+    {
+      "sourceRow": 33,
+      "values": [
+        "East Feliciana",
+        "Winged Elm",
+        "No",
+        "No",
+        "No",
+        "12'4\"",
+        "85'",
+        "87'",
+        "255"
+      ],
+      "reason": "Reported deceased on the official register page."
+    }
+  ],
+  "fixtureSha256": "fb292d434cb625ae56a0142ab2109fb198eb61ccf8bd65f0bbf5d9ea9a245245",
+  "browserTransportCheck": {
+    "fields": 864,
+    "characters": 6663,
+    "fnv1a": 713304292,
+    "coverage": "Pages 2–6; first 20 rows extracted from official SSR JSON"
+  },
+  "coChampions": 37,
+  "nationalFlags": 1,
+  "freshness": "2025 seven new champions and 2026 Hercules Club are missing from table; do not present as current 2026 register.",
+  "deceasedNotice": "Sassafras and Winged Elm in East Feliciana reported deceased. Winged Elm excluded; Sassafras already absent.",
+  "names": "Source common names retained verbatim, including Catapla. Scientific names not inferred.",
+  "units": "Feet/inches circumference converted to inches; height/spread to feet. Tallowtree 71-inch spread interpreted as 71 feet based on score; original wording retained. All other values and published points preserved without correction.",
+  "geographyUrl": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_counties_national.zip",
+  "privacy": "No owner/contact data or individual-tree coordinates imported. Access unclassified.",
+  "laterAnnouncements": [
+    "https://www.laforestry.com/single-post/new-red-maple-champion-in-caldwell",
+    "https://www.laforestry.com/single-post/toothache-tree-added-to-champion-tree-list"
+  ]
+}

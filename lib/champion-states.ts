@@ -7,6 +7,10 @@ export type ChampionStateConfig = {
   source: Readonly<Record<string, string | number>>;
 };
 export const championStates = {
+  LA: { name: "Louisiana", sourceDate: "LFA older register · page labeled 2021 · retrieved October 10, 2026", recordFiles: ["louisiana-champion-trees.json"], coordinateFile: "louisiana-parish-points.json", recordPrecision: "county", coordinatePrecision: "county", recordOrder: -8, expectedRecords: 115, expectedMapped: 115, unmappedIds: [], importer: "import-louisiana-champions.py", auditFile: "louisiana-import-audit.json", source: {
+    registerUrl: "https://www.laforestry.com/champion-trees-in-louisiana", retrieved: "October 10, 2026", count: 115,
+    geographyUrl: "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_counties_national.zip",
+  } },
   CO: { name: "Colorado", sourceDate: "CTC 2026 workbooks · retrieved October 10, 2026", recordFiles: ["colorado-champion-trees.json"], coordinateFile: "colorado-county-points.json", recordPrecision: "county", coordinatePrecision: "county", recordOrder: -7, expectedRecords: 846, expectedMapped: 846, unmappedIds: [], importer: "import-colorado-champions.py", auditFile: "colorado-import-audit.json", source: {
     registerUrl: "https://www.coloradotrees.org/colorado-champion-trees",
     countyUrl: "https://www.coloradotrees.org/s/2026-Website-County-champ-list.xlsx",
@@ -224,4 +228,4 @@ export const championStates = {
 export type ChampionState = keyof typeof championStates;
 export const stateNames = Object.fromEntries(Object.entries(championStates).map(([state, config]) => [state, config.name])) as Record<ChampionState, string>;
 export const sourceDates = Object.fromEntries(Object.entries(championStates).map(([state, config]) => [state, config.sourceDate])) as Record<ChampionState, string>;
-export const championRegions = { west: { name: "West", states: ["CO"] }, "south-central": { name: "South Central", states: ["TX"] }, midwest: { name: "Midwest", states: ["IN", "IL", "MI", "OH", "WI", "MN", "IA", "MO", "KS", "NE"] }, southeast: { name: "Southeast", states: ["NC", "SC", "TN", "GA", "KY", "AL", "FL", "AR"] }, "new-england": { name: "New England", states: ["MA", "NH", "VT", "ME", "RI", "CT"] }, northeast: { name: "Northeast", states: ["MA", "NH", "VT", "ME", "RI", "CT", "NY", "NJ", "PA"] }, "mid-atlantic": { name: "Mid-Atlantic", states: ["NY", "NJ", "PA", "DE", "MD", "VA", "WV"] } };
+export const championRegions = { west: { name: "West", states: ["CO"] }, "south-central": { name: "South Central", states: ["TX", "LA"] }, midwest: { name: "Midwest", states: ["IN", "IL", "MI", "OH", "WI", "MN", "IA", "MO", "KS", "NE"] }, southeast: { name: "Southeast", states: ["NC", "SC", "TN", "GA", "KY", "AL", "FL", "AR"] }, "new-england": { name: "New England", states: ["MA", "NH", "VT", "ME", "RI", "CT"] }, northeast: { name: "Northeast", states: ["MA", "NH", "VT", "ME", "RI", "CT", "NY", "NJ", "PA"] }, "mid-atlantic": { name: "Mid-Atlantic", states: ["NY", "NJ", "PA", "DE", "MD", "VA", "WV"] } };

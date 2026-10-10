@@ -12,7 +12,7 @@ export const discoveryPages = [
   { path: "/tree-hugging", title: "Tree Hugging: Practice & Benefits", description: "A gentle tree-hugging meditation, research on nature and wellbeing, and an invitation to care for trees." },
   { path: "/practice/tree-hugging", title: "Tree Hugging Outdoor Practice", description: "Five gentle steps for tree hugging, with seated and no-touch options, an optional timer, and printable guidance." },
   { path: "/trees", title: "Tree Library", description: "Meet trees through observation, contemplative themes, and outdoor practices." },
-  { path: "/champion-trees", title: "Champion Tree Map", description: "Explore champion tree registers across 33 states, with measurements, official sources, and linked practices." },
+  { path: "/champion-trees", title: "Champion Tree Map", description: "Explore champion tree registers across 34 states, with measurements, official sources, and linked practices." },
   { path: "/tree-visits", title: "Trees to Visit", description: "Plan a visit to a remarkable tree with arrival guidance, walking details, official sources, and a practice." },
   { path: "/begin-here", title: "Begin Here", description: "Begin Tree Yoga with a short lesson or a seven-day journey at your own pace." },
   { path: "/begin-here/seven-days", title: "Seven Days with a Tree", description: "Explore observation, meditation, gentle movement, and walking in seven short practices." },
