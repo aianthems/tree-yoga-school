@@ -7,6 +7,11 @@ export type ChampionStateConfig = {
   source: Readonly<Record<string, string | number>>;
 };
 export const championStates = {
+  OK: { name: "Oklahoma", sourceDate: "Oklahoma Forestry Services map · data updated June 10, 2026 · retrieved October 10, 2026", recordFiles: ["oklahoma-champion-trees.json"], coordinateFile: "oklahoma-county-points.json", recordPrecision: "county", coordinatePrecision: "county", recordOrder: -9, expectedRecords: 79, expectedMapped: 79, unmappedIds: [], importer: "import-oklahoma-champions.py", auditFile: "oklahoma-import-audit.json", source: {
+    registerUrl: "https://storymaps.arcgis.com/stories/05009ef918c34590b5ba5d9fb4ec6334", programUrl: "https://ag.ok.gov/championtrees/",
+    dataUrl: "https://services3.arcgis.com/yrIZ0Nv0mSGTWJsH/arcgis/rest/services/Champion_Tree_Map_View/FeatureServer/0", retrieved: "October 10, 2026", count: 79,
+    geographyUrl: "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_counties_national.zip",
+  } },
   LA: { name: "Louisiana", sourceDate: "LFA older register · page labeled 2021 · retrieved October 10, 2026", recordFiles: ["louisiana-champion-trees.json"], coordinateFile: "louisiana-parish-points.json", recordPrecision: "county", coordinatePrecision: "county", recordOrder: -8, expectedRecords: 115, expectedMapped: 115, unmappedIds: [], importer: "import-louisiana-champions.py", auditFile: "louisiana-import-audit.json", source: {
     registerUrl: "https://www.laforestry.com/champion-trees-in-louisiana", retrieved: "October 10, 2026", count: 115,
     geographyUrl: "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_counties_national.zip",
@@ -228,4 +233,4 @@ export const championStates = {
 export type ChampionState = keyof typeof championStates;
 export const stateNames = Object.fromEntries(Object.entries(championStates).map(([state, config]) => [state, config.name])) as Record<ChampionState, string>;
 export const sourceDates = Object.fromEntries(Object.entries(championStates).map(([state, config]) => [state, config.sourceDate])) as Record<ChampionState, string>;
-export const championRegions = { west: { name: "West", states: ["CO"] }, "south-central": { name: "South Central", states: ["TX", "LA"] }, midwest: { name: "Midwest", states: ["IN", "IL", "MI", "OH", "WI", "MN", "IA", "MO", "KS", "NE"] }, southeast: { name: "Southeast", states: ["NC", "SC", "TN", "GA", "KY", "AL", "FL", "AR"] }, "new-england": { name: "New England", states: ["MA", "NH", "VT", "ME", "RI", "CT"] }, northeast: { name: "Northeast", states: ["MA", "NH", "VT", "ME", "RI", "CT", "NY", "NJ", "PA"] }, "mid-atlantic": { name: "Mid-Atlantic", states: ["NY", "NJ", "PA", "DE", "MD", "VA", "WV"] } };
+export const championRegions = { west: { name: "West", states: ["CO"] }, "south-central": { name: "South Central", states: ["TX", "LA", "OK"] }, midwest: { name: "Midwest", states: ["IN", "IL", "MI", "OH", "WI", "MN", "IA", "MO", "KS", "NE"] }, southeast: { name: "Southeast", states: ["NC", "SC", "TN", "GA", "KY", "AL", "FL", "AR"] }, "new-england": { name: "New England", states: ["MA", "NH", "VT", "ME", "RI", "CT"] }, northeast: { name: "Northeast", states: ["MA", "NH", "VT", "ME", "RI", "CT", "NY", "NJ", "PA"] }, "mid-atlantic": { name: "Mid-Atlantic", states: ["NY", "NJ", "PA", "DE", "MD", "VA", "WV"] } };
