@@ -36,6 +36,11 @@ export const vtChampionSource = championStates.VT.source;
 export const nhChampionSource = championStates.NH.source;
 export const championSource = championStates.MA.source;
 export const librarySpecies: Record<string, { slug: string; name: string }> = {
+  "Magnolia grandiflora": { slug: "southern-magnolia", name: "Southern Magnolia" },
+  "Gleditsia triacanthos": { slug: "honeylocust", name: "Honeylocust" },
+  "Pinus taeda": { slug: "loblolly-pine", name: "Loblolly Pine" },
+  "Diospyros virginiana": { slug: "american-persimmon", name: "American Persimmon" },
+  "Pinus rigida": { slug: "pitch-pine", name: "Pitch Pine" },
   "Quercus coccinea": { slug: "scarlet-oak", name: "Scarlet Oak" },
   "Morus rubra": { slug: "red-mulberry", name: "Red Mulberry" },
   "Robinia pseudoacacia": { slug: "black-locust", name: "Black Locust" },

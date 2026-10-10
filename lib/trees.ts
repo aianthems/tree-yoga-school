@@ -1,3 +1,4 @@
+import { fiveLibraryTrees } from "./tree-library-five";
 import { nextLibraryTrees } from "./tree-library-next";
 import { plainsLibraryTrees } from "./tree-library-plains";
 import { sixLibraryTrees } from "./tree-library-six";
@@ -16,7 +17,7 @@ export type Tree = {
  slug: string; name: string; species: string; scientificName: string; image: string; imageAlt: string; imageWidth: number; imageHeight: number;
  themes: readonly string[]; invitation: string; introduction: string; identity: readonly { title: string; text: string }[]; seasons: string;
  energies: readonly { title: string; observation: string; meaning: string; question: string }[];
- practiceTitle: string; practiceIntroduction: string; practice: readonly { title: string; text: string }[]; reflection: string; sourceUrl: string; sourceLabel?: string;
+ practiceTitle: string; practiceIntroduction: string; practice: readonly { title: string; text: string }[]; reflection: string; sourceUrl: string; sourceLabel?: string; additionalSources?: readonly { label: string; url: string }[];
  credit: TreeImageCredit; detailImages: readonly TreeDetailImage[]; principles: string;
 };
 
@@ -855,6 +856,7 @@ export const trees: readonly Tree[] = [
   ...sixLibraryTrees,
   ...plainsLibraryTrees,
   ...nextLibraryTrees,
+  ...fiveLibraryTrees,
 ];
 
 export function getTree(slug: string) { return trees.find((tree) => tree.slug === slug); }

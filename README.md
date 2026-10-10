@@ -8,13 +8,13 @@ Tree Yoga School is a yoga school founded by **Alex Julian**, now being renewed 
 
 [Read the original book][book] · [Explore the curriculum](#the-original-curriculum) · [Build with us](#contributing)
 
-**Project status:** A content-led Next.js school with a four-practice introduction, seven book chapter companions, and a 58-species Tree Library. The school is still early: there is no account system, database, certification platform, or AI teaching assistant.
+**Project status:** A content-led Next.js school with a four-practice introduction, seven book chapter companions, and a 63-species Tree Library. The school is still early: there is no account system, database, certification platform, or AI teaching assistant.
 
 ## Current coverage
 
 <!-- coverage:start -->
 - Champion Map: **39 states**, **7,759 listed records**, and **7,320 records with approximate map points**.
-- Tree Library: **58 species profiles** and **3 photographic comparisons**.
+- Tree Library: **63 species profiles** and **3 photographic comparisons**.
 - Trees to Visit: **14 guides across 11 states**.
 
 Generated from the state registry and content collections. Run `npm run sync:coverage` after content changes; builds check for stale counts.
@@ -600,3 +600,7 @@ Montana: the complete DNRC 2024 printable register contributes 174 entries (81 n
 ## Six more Library trees
 
 Adds Scarlet Oak, Red Mulberry, Black Locust, Pawpaw, Ginkgo, and American Holly, bringing the Library to 58 species. Each has identification and seasonal notes, three original contemplative themes, a four-step observation practice, two locally hosted licensed photographs, and exact scientific-name links to matching Champion Tree records. Botanical references and photographic attribution link to NC State Extension’s Plant Toolbox; source URLs, credits, dimensions, and originals are recorded in `scripts/fixtures/tree-library-next-photo-sources.json`. Practices are original interpretations, not botanical or therapeutic claims.
+
+## Five Library trees and a pine barrens practice
+
+Adds Southern Magnolia, Honeylocust, Loblolly Pine, American Persimmon, and Pitch Pine, bringing the Library to 63 species. Each includes identification, seasonal observations, three original contemplative themes, a four-step outdoor practice, credited local photographs, search aliases, and reciprocal exact scientific-name Champion Map links. Pitch Pine’s practice explores resilience, renewal, and belonging, with Massachusetts pine barrens context and a prompt to return with care. Photographic originals and licenses are recorded in `scripts/fixtures/tree-library-five-photo-sources.json`; converted WebP versions retain the indicated licenses. Botanical references are NC State Extension Plant Toolbox profiles; the Pitch Pine page also links to MassWildlife’s barrens overview.

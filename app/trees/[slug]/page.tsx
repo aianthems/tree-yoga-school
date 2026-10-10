@@ -54,6 +54,7 @@ export default async function TreePage({ params }: { params: Promise<{ slug: str
           <TreeComparisonLinks treeSlug={tree.slug} />
           <h3>Return across the seasons.</h3><p className="section-lede">{tree.seasons}</p>
           <p className="lesson-note">Botanical reference: <a href={tree.sourceUrl} target="_blank" rel="noreferrer">{tree.sourceLabel ?? `NC State Extension’s ${tree.species.toLowerCase()} profile`}</a>. This is a starting point for observation, not a complete identification key.</p>
+          {tree.additionalSources?.map(source => <p className="lesson-note" key={source.url}>Explore the habitat: <a href={source.url} target="_blank" rel="noreferrer">{source.label}</a>.</p>)}
         </section>
         <section id="energy" className="tree-section energy-section">
           <p className="section-kicker">02 · Energy & character</p>
