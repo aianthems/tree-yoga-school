@@ -24,8 +24,8 @@ export const paChampionSource = championStates.PA.source;
 export function townKey(tree: Pick<ChampionTree, "state" | "town" | "mapTown" | "county" | "mapPrecision">) {
   return `${tree.state}:${tree.mapPrecision === "county" ? `county:${tree.county}` : tree.mapTown || tree.town}`;
 }
-export function placeName(tree: Pick<ChampionTree, "mapPrecision" | "county" | "mapTown" | "town">) {
-  return !tree.county && tree.mapPrecision === "county" ? "County not listed" : tree.mapPrecision === "county" ? (tree.county.endsWith(" City") ? tree.county : `${tree.county} County`) : tree.mapTown || tree.town;
+export function placeName(tree: Pick<ChampionTree, "mapPrecision" | "county" | "mapTown" | "town" | "state">) {
+  return !tree.county && tree.mapPrecision === "county" ? "County not listed" : tree.mapPrecision === "county" ? (tree.county.endsWith(" City") ? tree.county : `${tree.county} ${tree.state === "LA" ? "Parish" : "County"}`) : tree.mapTown || tree.town;
 }
 export const njChampionSource = championStates.NJ.source;
 export const nyChampionSource = championStates.NY.source;

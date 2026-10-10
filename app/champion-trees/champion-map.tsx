@@ -60,7 +60,7 @@ export default function ChampionMap({ groups, selectedTown, onTown, resetKey, co
         const count = towns.reduce((total, town) => total + town.count, 0);
         const combined = towns.length > 1;
         const name = combined
-          ? `Zoom to ${towns.length} places with ${count} tree records. Approximate town, Census place, or county points.`
+          ? `Zoom to ${towns.length} places with ${count} tree records. Approximate town, Census place, county, or parish points.`
           : `${first.town}, ${first.state}: show ${count} ${count === 1 ? "tree" : "trees"}. Approximate ${first.precision} point.`;
         const activate = () => {
           if (combined) map.fitBounds(L.latLngBounds(towns.map(t => t.point)), { padding: [50, 50], maxZoom: Math.min(map.getZoom() + 2, 14), animate: false });
@@ -99,7 +99,7 @@ export default function ChampionMap({ groups, selectedTown, onTown, resetKey, co
   }, [engine, selectedTown, townCoordinates]);
 
   return <div className="champion-map-wrap">
-    <div ref={container} className="champion-map" role="region" aria-label="Interactive map of champion tree places. Markers show approximate town, Census place, or county points, with precision stated in each label. Use the result list to browse every tree." />
+    <div ref={container} className="champion-map" role="region" aria-label="Interactive map of champion tree places. Markers show approximate town, Census place, county, or parish points, with precision stated in each label. Use the result list to browse every tree." />
     {!engine && <p className="champion-map-status" role="status">{failed ? "The map could not load. All tree records are available in the list." : "Opening the champion tree map…"}</p>}
     {tileError && <p className="champion-tile-error" role="status">Some map tiles could not load. Place markers and the complete list remain available.</p>}
   </div>;
