@@ -1481,3 +1481,20 @@ section[id] { scroll-margin-top: 90px; }
 @media (hover: hover) { #practice .practice-card:hover { --pathway-background: #173329; --pathway-ink: #fbf8eb; --pathway-copy: #dce4d7; --pathway-detail: #edc580; --pathway-accent: #edc580; --pathway-number-opacity: 1; } }
 #practice .practice-card .course-link:focus-visible { outline: 2px solid #edc580; outline-offset: 5px; }
 @media (prefers-reduced-motion: reduce) { #practice .practice-card, #practice .practice-card p { transition: none; } }
+
+/* A real embrace, with room for both the tree and the invitation. */
+.home-hug-photographic { grid-template-columns: .9fr 1.3fr; }
+.home-hug-photographic .home-hug-copy { padding: 80px 3vw 80px 6vw; position: relative; z-index: 1; }
+.home-hug-photographic h2 { font-size: clamp(3rem, 5vw, 5.8rem); }
+.home-hug-photographic .home-hug-copy > p:not(.section-kicker) { max-width: 36ch; }
+.home-hug-photo { position: relative; margin: 0; min-height: 720px; overflow: hidden; }
+.home-hug-photo img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 52% center; }
+.home-hug-photo::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, #142d23 0%, #142d2326 16%, transparent 35%), linear-gradient(0deg, #142d23bd, transparent 28%); pointer-events: none; }
+.home-hug-photo figcaption { position: absolute; z-index: 1; bottom: 36px; left: 6%; right: 6%; margin: 0; color: #fbf5e7; font: italic 1.65rem/1.2 Georgia, serif; text-align: right; }
+@media (max-width: 760px) {
+  .home-hug-photographic { grid-template-columns: 1fr; }
+  .home-hug-photographic .home-hug-copy { grid-row: 2; padding: 42px 6vw 52px; }
+  .home-hug-photo { grid-row: 1; min-height: 0; aspect-ratio: 2000 / 1175; }
+  .home-hug-photo::after { background: linear-gradient(0deg, #142d23b3, transparent 35%); }
+  .home-hug-photo figcaption { bottom: 24px; font-size: 1.25rem; }
+}
