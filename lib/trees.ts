@@ -1,3 +1,4 @@
+import { canopyLibraryTrees } from "./tree-library-canopy";
 import { fiveLibraryTrees } from "./tree-library-five";
 import { nextLibraryTrees } from "./tree-library-next";
 import { plainsLibraryTrees } from "./tree-library-plains";
@@ -857,6 +858,7 @@ export const trees: readonly Tree[] = [
   ...plainsLibraryTrees,
   ...nextLibraryTrees,
   ...fiveLibraryTrees,
+  ...canopyLibraryTrees,
 ];
 
 export function getTree(slug: string) { return trees.find((tree) => tree.slug === slug); }

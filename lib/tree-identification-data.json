@@ -907,5 +907,92 @@
       "furrowed"
     ],
     "sourceUrl": "https://plants.ces.ncsu.edu/plants/pinus-rigida/"
+  },
+  "ohio-buckeye": {
+    "foliage": [
+      "broad"
+    ],
+    "arrangement": [
+      "opposite"
+    ],
+    "lobes": [
+      "unlobed"
+    ],
+    "bark": [
+      "furrowed"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/aesculus-glabra/"
+  },
+  "willow-oak": {
+    "foliage": [
+      "broad"
+    ],
+    "arrangement": [
+      "alternate"
+    ],
+    "lobes": [
+      "unlobed"
+    ],
+    "bark": [
+      "furrowed"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/quercus-phellos/"
+  },
+  "overcup-oak": {
+    "foliage": [
+      "broad"
+    ],
+    "arrangement": [
+      "alternate"
+    ],
+    "lobes": [
+      "lobed"
+    ],
+    "bark": [
+      "furrowed"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/quercus-lyrata/"
+  },
+  "pignut-hickory": {
+    "foliage": [
+      "broad"
+    ],
+    "arrangement": [
+      "alternate"
+    ],
+    "lobes": [
+      "unlobed"
+    ],
+    "bark": [
+      "furrowed"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/carya-glabra/"
+  },
+  "shingle-oak": {
+    "foliage": [
+      "broad"
+    ],
+    "arrangement": [
+      "alternate"
+    ],
+    "lobes": [
+      "lobed",
+      "unlobed"
+    ],
+    "bark": [
+      "furrowed"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/quercus-imbricaria/"
+  },
+  "shortleaf-pine": {
+    "foliage": [
+      "needles"
+    ],
+    "arrangement": [],
+    "lobes": [],
+    "bark": [
+      "furrowed"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/pinus-echinata/"
   }
 }
