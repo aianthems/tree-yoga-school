@@ -1471,3 +1471,13 @@ section[id] { scroll-margin-top: 90px; }
   .site-header .site-nav-begin { margin-top: 20px; min-height: 52px; }
 }
 @media (max-width: 360px) { .school-brand-copy small { display: none; } .school-brand-copy > span { font-size: 1.05rem; } .site-header .school-brand { gap: 7px; } }
+
+/* Highlight each homepage pathway as visitors explore it. */
+#practice .practice-card { background: var(--pathway-background, transparent); color: var(--pathway-ink, var(--ink)); box-shadow: inset 0 3px var(--pathway-accent, transparent); transition: background-color 200ms ease, color 200ms ease, box-shadow 200ms ease; }
+#practice .practice-card p { color: var(--pathway-copy, var(--ink-soft)); transition: color 200ms ease; }
+#practice .practice-card > span { color: var(--pathway-detail, inherit); opacity: var(--pathway-number-opacity, .56); }
+#practice .practice-card .course-link { color: var(--pathway-detail, inherit); }
+#practice .practice-card:focus-within { --pathway-background: #173329; --pathway-ink: #fbf8eb; --pathway-copy: #dce4d7; --pathway-detail: #edc580; --pathway-accent: #edc580; --pathway-number-opacity: 1; }
+@media (hover: hover) { #practice .practice-card:hover { --pathway-background: #173329; --pathway-ink: #fbf8eb; --pathway-copy: #dce4d7; --pathway-detail: #edc580; --pathway-accent: #edc580; --pathway-number-opacity: 1; } }
+#practice .practice-card .course-link:focus-visible { outline: 2px solid #edc580; outline-offset: 5px; }
+@media (prefers-reduced-motion: reduce) { #practice .practice-card, #practice .practice-card p { transition: none; } }
