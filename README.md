@@ -19,7 +19,7 @@ Each supported state has a static `/champion-trees/<state-name>` destination wit
 ## Current coverage
 
 <!-- coverage:start -->
-- Champion Map: **46 states**, **8,654 listed records**, and **8,201 records with approximate map points**.
+- Champion Map: **47 states**, **8,902 listed records**, and **8,426 records with approximate map points**.
 - Tree Library: **69 species profiles** and **6 photographic comparisons**.
 - Trees to Visit: **14 guides across 11 states**.
 
@@ -656,3 +656,11 @@ All 87 first-place records in the North Dakota Forest Service official StoryMap 
 80 trees use 15 approximate Census county points. Named municipalities are matched to county subdivisions, while coordinate-only records receive historical town/county labels only from exact botanical-name and three-measurement matches. The matching evidence appears in record notes and the audit. Miyabe maple’s Fargo location is independently supported by the official announcement. Seven unsupported general locations remain searchable without markers; no tree coordinates, street addresses, owners, nominators, contacts, or photographs are imported. Access stays unclassified.
 
 The current StoryMap controls names, measurements, scores and dates. Norway spruce crown differs from the older table; river birch circumference differs from the announcement; Miyabe maple retains its June 2023 measurement date despite being announced among 2025 additions. Genus-only and misspelled scientific labels, missing dates and score discrepancies are preserved. Run `python scripts/import-north-dakota-champions.py STORY.json OLD.html META.json COUNTIES.zip COUSUBS.zip NEWS.html`. The importer checks the reviewed 87-record fixture, the published tour graph, explicit champion labels, excluded second-place records, all 13 announced scores, and source hashes. Personal/location details in raw inputs must not be committed.
+
+### Utah · Big Tree Directory
+
+All nine Utah Community Forest Council directory pages (250 distinct IDs, retrieved October 11, 2026) are reconciled to their detail pages. The map includes 248 entries with published State Champ Status 1; IDs 313 (code 0) and 95 (code 2) are excluded without inferred titles. Multiple designated trees, explicit co-champion special notes and ten source national flags are preserved. National flags do not independently verify current national standing. Measurement years and entry/update dates remain distinct; published names, scores and measurements are unchanged.
+
+225 records use approximate Census 2025 Utah place points. The remaining 23 stay searchable without markers: forests, county-only locations, ambiguous labels, a misspelling and the ambiguous Enterprise city/CDP are not resolved by guessing. Public access is explicitly marked for 159 included records; 89 are marked no public access. Personal fields, street addresses, images, individual tree coordinates and location directions are omitted. Markers are city/place points, not individual tree locations.
+
+Run `python scripts/import-utah-champions.py RAW.json PLACES.txt` with the ordered nine-page snapshot and Census Utah place gazetteer. The importer validates a reviewed nonpersonal 250-record fixture, unique tree IDs, page/detail reconciliation and source hashes; changed rows require review. Raw detail pages contain personal and precise location data and must not be committed.

@@ -1,0 +1,1575 @@
+{
+  "sourceUrl": "https://utahurbanforest.org/amazing-trees/big-tree-directory",
+  "retrieved": "2026-10-11",
+  "directoryRecords": 250,
+  "includedRecords": 248,
+  "excluded": [
+    {
+      "sourceTreeId": "313",
+      "status": "0"
+    },
+    {
+      "sourceTreeId": "95",
+      "status": "2"
+    }
+  ],
+  "mappedRecords": 225,
+  "unmappedIds": [
+    "ut-91",
+    "ut-67",
+    "ut-96",
+    "ut-115",
+    "ut-240",
+    "ut-73",
+    "ut-138",
+    "ut-131",
+    "ut-70",
+    "ut-71",
+    "ut-239",
+    "ut-206",
+    "ut-308",
+    "ut-89",
+    "ut-52",
+    "ut-134",
+    "ut-129",
+    "ut-2",
+    "ut-135",
+    "ut-309",
+    "ut-205",
+    "ut-94",
+    "ut-247"
+  ],
+  "publicAccessRecords": 159,
+  "noPublicAccessRecords": 89,
+  "nationalFlagRecords": 10,
+  "geographyUrl": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_49.txt",
+  "geographySha256": "8ccdc096a6b6bcbd878d5608ba1b16763a996431d1cfba2ce7f2a35bed6d6d75",
+  "directoryPages": [
+    {
+      "url": "https://utahurbanforest.org/amazing-trees/big-tree-directory",
+      "sha256": "9aa0ff3f57371c3da74c409792fc6f5f10e347f9e9344e09e3e13f4974cf3295"
+    },
+    {
+      "url": "https://utahurbanforest.org/amazing-trees/big-tree-directory?page=2",
+      "sha256": "075ce1fab9e01dbf78cabed2afe3d0814d1772f9a9c322d6c383998f95775e5e"
+    },
+    {
+      "url": "https://utahurbanforest.org/amazing-trees/big-tree-directory?page=3",
+      "sha256": "9e9002dea72074abbda9ad9bbad81fe68d8e48a686a07b390796392cab468b03"
+    },
+    {
+      "url": "https://utahurbanforest.org/amazing-trees/big-tree-directory?page=4",
+      "sha256": "32c0090c6a19c5581cb89e4df86afb8510e370de9f9736f1037611142b2df0d7"
+    },
+    {
+      "url": "https://utahurbanforest.org/amazing-trees/big-tree-directory?page=5",
+      "sha256": "5c4b7a1c4f8742fcb620cf5ce34b27f0a912aabf326427734d5b2c77ed91ff17"
+    },
+    {
+      "url": "https://utahurbanforest.org/amazing-trees/big-tree-directory?page=6",
+      "sha256": "9f69564a806e61ceeaea0955d3d5fa92de269cce7fcccf3fe1599f1610edb11d"
+    },
+    {
+      "url": "https://utahurbanforest.org/amazing-trees/big-tree-directory?page=7",
+      "sha256": "448599f3199e6607ff736e56d6e4111df2c8757af9111bddf1f615f0bf3184b9"
+    },
+    {
+      "url": "https://utahurbanforest.org/amazing-trees/big-tree-directory?page=8",
+      "sha256": "50f7efe33854d1f60ec9c12c66b13be501efaf49724829ce9d338c7986b53718"
+    },
+    {
+      "url": "https://utahurbanforest.org/amazing-trees/big-tree-directory?page=9",
+      "sha256": "1f643bf80f9516b898d28978d64425169b0c31c93198fe2c47904d65ed4d081f"
+    }
+  ],
+  "reconciliation": [
+    {
+      "id": "ut-285",
+      "sourceLocation": "St. George",
+      "mapPlace": "St. George",
+      "detailSha256": "3b16e9fdfbec75ee7d105974eef80775b69c85c2803c2009029d9787d2254629"
+    },
+    {
+      "id": "ut-31",
+      "sourceLocation": "Salt Lake City",
+      "mapPlace": "Salt Lake City",
+      "detailSha256": "423661397e136b910934aaa4d0f779c2f0779bbacb7c1adb5a0e271de8b25b9d"
+    },
+    {
+      "id": "ut-284",
+      "sourceLocation": "Washington",
+      "mapPlace": "Washington",
+      "detailSha256": "57d56782a13077a57e0e6b6e6761f820640b916818ca860bd2cba461eefeb7f8"
+    },
+    {
+      "id": "ut-147",
+      "sourceLocation": "Salt Lake City",
+      "mapPlace": "Salt Lake City",
+      "detailSha256": "7f1089ea9a1e5459dd528ac1900ea1141ed74f6192edeeba8078fc190af26a48"
+    },
+    {
+      "id": "ut-91",
+      "sourceLocation": "Salt Lake",
+      "mapPlace": null,
+      "detailSha256": "7f5ee5e98874b3f6cd26dc1534b62e2196bc7af616f3c9372c7d43aac8aaa20b"
+    },
+    {
+      "id": "ut-39",
+      "sourceLocation": "Salt Lake City",
+      "mapPlace": "Salt Lake City",
+      "detailSha256": "6755a7cd607ae26fbfd7fd15577d6af7c4772957b7909b7ec20797e22b431ec8"
+    },
+    {
+      "id": "ut-126",
+      "sourceLocation": "Salt Lake City",
+      "mapPlace": "Salt Lake City",
+      "detailSha256": "4c12194a73bf8271de758738bf979af7d5b150a4838e8933b897b7b540117d83"
+    },
+    {
+      "id": "ut-314",
+      "sourceLocation": "South Jordan",
+      "mapPlace": "South Jordan",
+      "detailSha256": "327a90445cd249f8ec262811d85c3acf4126d6b9e619bfe30bf2bb62d476ae25"
+    },
+    {
+      "id": "ut-19",
+      "sourceLocation": "Logan",
+      "mapPlace": "Logan",
+      "detailSha256": "2a75cb3bdb35cb90c729107a41cd3241d2c3a6d6cfd9504cf68d220a60d3b50e"
+    },
+    {
+      "id": "ut-273",
+      "sourceLocation": "Logan",
+      "mapPlace": "Logan",
+      "detailSha256": "43a662071050fc179e0c17c54970de8c4d9337cccd12dd7c01a898af6c9b9664"
+    },
+    {
+      "id": "ut-159",
+      "sourceLocation": "Logan",
+      "mapPlace": "Logan",
+      "detailSha256": "cc5b8099271b43dba7cb1966d05764e228b98812f67a4da8c167d0ab20a884e5"
+    },
+    {
+      "id": "ut-33",
+      "sourceLocation": "Salt Lake City",
+      "mapPlace": "Salt Lake City",
+      "detailSha256": "52026f0015bb583c05a3665ced502c7e241e2dc496947dc3b9de862f96d30454"
+    },
+    {
+      "id": "ut-56",
+      "sourceLocation": "Provo",
+      "mapPlace": "Provo",
+      "detailSha256": "8e359f5aefc37ef4422fe965d71246a8f07f3dd9a3c606541959a81dea93eca2"
+    },
+    {
+      "id": "ut-82",
+      "sourceLocation": "Provo",
+      "mapPlace": "Provo",
+      "detailSha256": "b66610f05eb6309810cb538ac40c333c0de296258743e6858e8a3d7df9600968"
+    },
+    {
+      "id": "ut-292",
+      "sourceLocation": "Provo",
+      "mapPlace": "Provo",
+      "detailSha256": "763119f957aa481e9e4476779f477099ed8e8e211babcbb25726f04e45de3e47"
+    },
+    {
+      "id": "ut-189",
+      "sourceLocation": "South Jordan",
+      "mapPlace": "South Jordan",
+      "detailSha256": "3f0216ecaeb9506487e3d09f293192c201a67ba53c2846133ef0aaaa17cb4b76"
+    },
+    {
+      "id": "ut-168",
+      "sourceLocation": "Logan",
+      "mapPlace": "Logan",
+      "detailSha256": "27f2e1307ed65990814d80651a2ef9f2a607e7f1adae74b7074d0080944ba9a9"
+    },
+    {
+      "id": "ut-195",
+      "sourceLocation": "West Jordan",
+      "mapPlace": "West Jordan",
+      "detailSha256": "692a67c9c2a8fa316d797300c8074f97ba3e0b0dd9bf84a90bb56af416bbd1fa"
+    },
+    {
+      "id": "ut-4",
+      "sourceLocation": "Sandy",
+      "mapPlace": "Sandy",
+      "detailSha256": "ea5917fe6c578a14974a171c968f1bc1c72180ccb12bca142f71e17a9869ebd5"
+    },
+    {
+      "id": "ut-238",
+      "sourceLocation": "Murray",
+      "mapPlace": "Murray",
+      "detailSha256": "4ffe204c8310b27fb9b99ca7abff3d38f98f7105f459e4a1f62212c257ef4ff0"
+    },
+    {
+      "id": "ut-322",
+      "sourceLocation": "Layton",
+      "mapPlace": "Layton",
+      "detailSha256": "2dc5bbb76afdac58255ad9436a828d6386ca2b7caa3857d2b55fd94704299a74"
+    },
+    {
+      "id": "ut-235",
+      "sourceLocation": "St. George",
+      "mapPlace": "St. George",
+      "detailSha256": "f5d2738d70c6471104d9ed2cb82be54e0b7d542c14ee03fa37c5b9563de46946"
+    },
+    {
+      "id": "ut-201",
+      "sourceLocation": "Leeds",
+      "mapPlace": "Leeds",
+      "detailSha256": "123247e1de9430edd2fce10851d1f43583665de723b9c3ee920a091a6723140a"
+    },
+    {
+      "id": "ut-270",
+      "sourceLocation": "Logan",
+      "mapPlace": "Logan",
+      "detailSha256": "4a33133ec2285b3fad2fa5b160ff5d84a6bdd50a953f8ed9773811e390d0f6bd"
+    },
+    {
+      "id": "ut-37",
+      "sourceLocation": "Logan",
+      "mapPlace": "Logan",
+      "detailSha256": "16f3635692bf9d909bff1312d2b6b634da5af3a38a01aba61bee434389e148cc"
+    },
+    {
+      "id": "ut-121",
+      "sourceLocation": "Murray",
+      "mapPlace": "Murray",
+      "detailSha256": "80becba0484110a95e1619b5b4dd6c408330681ae49e1fbda6b87a34f0237350"
+    },
+    {
+      "id": "ut-184",
+      "sourceLocation": "Logan",
+      "mapPlace": "Logan",
+      "detailSha256": "54838b133e7865207d38a41834acddee10bb316db8682285a7c7f1c01bb9cc23"
+    },
+    {
+      "id": "ut-192",
+      "sourceLocation": "West Jordan",
+      "mapPlace": "West Jordan",
+      "detailSha256": "f9601b49f03466f3b41860ab478060f2e01975726980ee1585e43fda379a76ea"
+    },
+    {
+      "id": "ut-158",
+      "sourceLocation": "Murray",
+      "mapPlace": "Murray",
+      "detailSha256": "01ba2ed9a34f2d3ecf871bf4474e5a94c0ad7e47abf759bee4c4a3806f759ad3"
+    },
+    {
+      "id": "ut-268",
+      "sourceLocation": "Wellsville",
+      "mapPlace": "Wellsville",
+      "detailSha256": "619e72a865f5eff13b5ca14906b670389683a528dedc73bbed6805f748acef8b"
+    },
+    {
+      "id": "ut-110",
+      "sourceLocation": "Salt Lake City",
+      "mapPlace": "Salt Lake City",
+      "detailSha256": "1ed20a5e3517bdaa3ce01d95e94c09dd1351da7cf646b4b9f4ee6444b6c6d377"
+    },
+    {
+      "id": "ut-50",
+      "sourceLocation": "Salt Lake City",
+      "mapPlace": "Salt Lake City",
+      "detailSha256": "d93a06aa404d07b30b04f22f3ba860d22fc39690ab6a47afb57a2f0e22bc5906"
+    },
+    {
+      "id": "ut-223",
+      "sourceLocation": "Salt Lake City",
+      "mapPlace": "Salt Lake City",
+      "detailSha256": "1918677ea2b22add2eb46faefbc7ce680f11981294cc04a7b2187a1158219bfd"
+    },
+    {
+      "id": "ut-44",
+      "sourceLocation": "Logan",
+      "mapPlace": "Logan",
+      "detailSha256": "a1fa4abd77e38671f89aab619d73aa28390bcbc4181a9ace600f75101a77e1bd"
+    },
+    {
+      "id": "ut-23",
+      "sourceLocation": "Salt Lake City",
+      "mapPlace": "Salt Lake City",
+      "detailSha256": "299a8d26272723df4c57aeb6f733d2c21b44b16363739b18d50071d0084fcb5e"
+    },
+    {
+      "id": "ut-242",
+      "sourceLocation": "Salt Lake City",
+      "mapPlace": "Salt Lake City",
+      "detailSha256": "480b3a4b4bb5b464ae504e7e59821dc2e7b14cf4c9413d243297a5c0fca6dfee"
+    },
+    {
+      "id": "ut-232",
+      "sourceLocation": "St. George",
+      "mapPlace": "St. George",
+      "detailSha256": "9f185c1b372dd0d03647def6ee7f0cb7dae6e734744f942e3a1b2c7f9e83510e"
+    },
+    {
+      "id": "ut-67",
+      "sourceLocation": "Ashley National Forest",
+      "mapPlace": null,
+      "detailSha256": "d6d86e152fcb324d10db864b2ed287087de5e5517db35f3a40fcc868fa9da8d7"
+    },
+    {
+      "id": "ut-243",
+      "sourceLocation": "Salt Lake City",
+      "mapPlace": "Salt Lake City",
+      "detailSha256": "89c817e1fddd7bb3fc6202a9c47936b17938bfaaa8903d586c938955ed4ffdd2"
+    },
+    {
+      "id": "ut-275",
+      "sourceLocation": "Logan",
+      "mapPlace": "Logan",
+      "detailSha256": "8b102c88b8db7902e6c483b12a5ba89ea0c6978cd667a954c788fe7815ac14de"
+    },
+    {
+      "id": "ut-136",
+      "sourceLocation": "Farr West",
+      "mapPlace": "Farr West",
+      "detailSha256": "0fc47d06953a828cc1e186b82a43129a00b72d9920328312cca79a46136eb2e7"
+    },
+    {
+      "id": "ut-68",
+      "sourceLocation": "Murray",
+      "mapPlace": "Murray",
+      "detailSha256": "1cf1b0cb4307e7067f1950bd567b7ee95173bdc29c0dcde8c6556e5f954ae22c"
+    },
+    {
+      "id": "ut-101",
+      "sourceLocation": "Provo",
+      "mapPlace": "Provo",
+      "detailSha256": "753d4e1679f30486e83b65994bcb89c9ec6fed204f91703b3e650551a8062503"
+    },
+    {
+      "id": "ut-321",
+      "sourceLocation": "Provo - Brigham Young University",
+      "mapPlace": "Provo",
+      "detailSha256": "399b8ca9eb2c4cbe6d531049923190812512211a824023f53c056967d7ee5ec5"
+    },
+    {
+      "id": "ut-48",
+      "sourceLocation": "Providence",
+      "mapPlace": "Providence",
+      "detailSha256": "535453c9423483e31bb6b6f6a87696ca4edcd06cf9f39f0d2f27964846632648"
+    },
+    {
+      "id": "ut-217",
+      "sourceLocation": "Salt Lake City",
+      "mapPlace": "Salt Lake City",
+      "detailSha256": "7928921a009844c286fa7bf14b67d7508137fe8fc349f79e8e9d4b1361ff9ef4"
+    },
+    {
+      "id": "ut-180",
+      "sourceLocation": "Logan",
+      "mapPlace": "Logan",
+      "detailSha256": "c7ffb3f7de48a3314fb7f375ad1e359ce554dc59eb312338f525efcdd07759b6"
+    },
+    {
+      "id": "ut-25",
+      "sourceLocation": "Salt Lake City",
+      "mapPlace": "Salt Lake City",
+      "detailSha256": "38ccab1a026337d24f965ad03031e05cc9ac741b1361a14dba0ba96d27ce5cab"
+    },
+    {
+      "id": "ut-234",
+      "sourceLocation": "St. George",
+      "mapPlace": "St. George",
+      "detailSha256": "d728d159a5dd1e020f9996e5140d05e312962e7245109548af8b642d522a3b16"
+    },
+    {
+      "id": "ut-183",
+      "sourceLocation": "Logan",
+      "mapPlace": "Logan",
+      "detailSha256": "594f691a97d78666eee2737bc75dc14375004bc11736809b1431df94435f7e36"
+    },
+    {
+      "id": "ut-305",
+      "sourceLocation": "La Verkin",
+      "mapPlace": "La Verkin",
+      "detailSha256": "398a6f3d36ca95858af7c4c0a370f4a7595e97537b73860984c0e9f3c827e42f"
+    },
+    {
+      "id": "ut-108",
+      "sourceLocation": "Salt Lake City",
+      "mapPlace": "Salt Lake City",
+      "detailSha256": "3435954de1ffc09dc9e95b948496b6b05de7be7af093b1f09285279b4ceee145"
+    },
+    {
+      "id": "ut-157",
+      "sourceLocation": "Murray",
+      "mapPlace": "Murray",
+      "detailSha256": "8e1181a3fc2fcba98a031b83f31ea29e576275a8e7f157e2353fbc23627666c7"
+    },
+    {
+      "id": "ut-51",
+      "sourceLocation": "Logan",
+      "mapPlace": "Logan",
+      "detailSha256": "9f7795b7f572ff01adee12d9130c80e0d028e6a9f9799b13a95477336f9104ae"
+    },
+    {
+      "id": "ut-79",
+      "sourceLocation": "St. George",
+      "mapPlace": "St. George",
+      "detailSha256": "22bfe9010fd04b4cbe5a269190ab83dfefc7658b039d346a92d61a0bf744582f"
+    },
+    {
+      "id": "ut-175",
+      "sourceLocation": "Logan",
+      "mapPlace": "Logan",
+      "detailSha256": "9b9fbb38b661603ab563e96d300b3e82edb4fcd77f25157f9630f0320520506b"
+    },
+    {
+      "id": "ut-222",
+      "sourceLocation": "Salt Lake City",
+      "mapPlace": "Salt Lake City",
+      "detailSha256": "c08763ffba6a4a3beac20bba26ab1dc323b6eca6a16f05dc9920480637d8af64"
+    },
+    {
+      "id": "ut-176",
+      "sourceLocation": "Logan",
+      "mapPlace": "Logan",
+      "detailSha256": "17201702a02af525cb715a2223d767e78e4f66acdfdbf43b70bec1d854ab9491"
+    },
+    {
+      "id": "ut-193",
+      "sourceLocation": "West Jordan",
+      "mapPlace": "West Jordan",
+      "detailSha256": "f3e29591edc3b025cb0783f4169300eeb60a654e6422f9fc35deb8f1dcb0013c"
+    },
+    {
+      "id": "ut-281",
+      "sourceLocation": "Logan",
+      "mapPlace": "Logan",
+      "detailSha256": "e1f375f1dbc2e772e073d86db87f00ef841c1855e59d8dafdb807478236f832b"
+    },
+    {
+      "id": "ut-150",
+      "sourceLocation": "Salt Lake City",
+      "mapPlace": "Salt Lake City",
+      "detailSha256": "4d14c424df1f0d620634de7d713f723d27dfbff6fa9f21e2a948c19c950701d6"
+    },
+    {
+      "id": "ut-185",
+      "sourceLocation": "Logan",
+      "mapPlace": "Logan",
+      "detailSha256": "767f975965f9c9e90ee2ffb6a0b7e12cbdedba958502df26077defcc13b27d6a"
+    },
+    {
+      "id": "ut-277",
+      "sourceLocation": "Logan",
+      "mapPlace": "Logan",
+      "detailSha256": "e8d2da4293d34b8cb6ca1d9d1ddb221012099ecbbf5f198452d78db9a45de244"
+    },
+    {
+      "id": "ut-98",
+      "sourceLocation": "Salt Lake City",
+      "mapPlace": "Salt Lake City",
+      "detailSha256": "d0b58a53f9a498bfd343e86e4a3b4b445f48b7923f91534b4167e5a8f43a0b2e"
+    },
+    {
+      "id": "ut-286",
+      "sourceLocation": "Taylorsville",
+      "mapPlace": "Taylorsville",
+      "detailSha256": "06a568bbafff9c927313119e4659e15356d316d701bc8259a3fa0a91b5759597"
+    },
+    {
+      "id": "ut-330",
+      "sourceLocation": "St. George",
+      "mapPlace": "St. George",
+      "detailSha256": "6a0fa72beab3f8283ee9750715bbbaf99ba95064bbc5fd47786c8336c0e5aefa"
+    },
+    {
+      "id": "ut-333",
+      "sourceLocation": "St. George",
+      "mapPlace": "St. George",
+      "detailSha256": "4e054e48347ca06951e038a5276877a1c875a2f6ef96dcd5a0ad7a197faee3e1"
+    },
+    {
+      "id": "ut-163",
+      "sourceLocation": "Logan",
+      "mapPlace": "Logan",
+      "detailSha256": "39513787cf3a1d101ed09b35eb813dc0b900b211fc211afcd77dc9693d42d9f7"
+    },
+    {
+      "id": "ut-316",
+      "sourceLocation": "Highland",
+      "mapPlace": "Highland",
+      "detailSha256": "c9f207ef0650aa7a5a1f434dc3b95c27cae85d3b670620a3505f20a8260fd2b9"
+    },
+    {
+      "id": "ut-271",
+      "sourceLocation": "Logan",
+      "mapPlace": "Logan",
+      "detailSha256": "36818068a235496c196cb49d20224fe2450a9b628ca5b798cd106545ce1c1548"
+    },
+    {
+      "id": "ut-124",
+      "sourceLocation": "Logan",
+      "mapPlace": "Logan",
+      "detailSha256": "4b739b2a5902c3de6d191663eb66255e3d3fb6ff3c1b7dd2426045671b3193e1"
+    },
+    {
+      "id": "ut-160",
+      "sourceLocation": "Logan",
+      "mapPlace": "Logan",
+      "detailSha256": "e95de702b1048d310efa982c331b9686828f67c027caa98037334795ccb1f2f6"
+    },
+    {
+      "id": "ut-29",
+      "sourceLocation": "Sandy",
+      "mapPlace": "Sandy",
+      "detailSha256": "a00f8cb59cc6ac4b413b17602b8c80ff0b3255085bee51572f2f05d86cf82fba"
+    },
+    {
+      "id": "ut-262",
+      "sourceLocation": "Ogden",
+      "mapPlace": "Ogden",
+      "detailSha256": "42c62eab3f9bfe1fb05e4748179cf3518b2a8faca2e843c96807e1d82f670ee3"
+    },
+    {
+      "id": "ut-24",
+      "sourceLocation": "Salt Lake City",
+      "mapPlace": "Salt Lake City",
+      "detailSha256": "767ad471c78816a65ce326469df227333a13f328be0550bc21ecfd64a111ebbf"
+    },
+    {
+      "id": "ut-303",
+      "sourceLocation": "Bountiful",
+      "mapPlace": "Bountiful",
+      "detailSha256": "ce10d1a67f5fbcc20eb7318475ea4bffb1952ded4aeb4fa66d1146cd93987707"
+    },
+    {
+      "id": "ut-34",
+      "sourceLocation": "South Jordan",
+      "mapPlace": "South Jordan",
+      "detailSha256": "089d8406abc660df8b7fda1db9aa86c7e09bf8eadf1cec85fcf355e99023c735"
+    },
+    {
+      "id": "ut-96",
+      "sourceLocation": "Kane County",
+      "mapPlace": null,
+      "detailSha256": "c68477be4090c15c48b2d02857a45935d934095b646e7599a6cdb2c4029c2648"
+    },
+    {
+      "id": "ut-36",
+      "sourceLocation": "Hyrum",
+      "mapPlace": "Hyrum",
+      "detailSha256": "1cec3fc5827a9cc5e3177b8c175a3ac5e31adfd6b155da1d5a9e8bcab7dea035"
+    },
+    {
+      "id": "ut-122",
+      "sourceLocation": "Smithfield",
+      "mapPlace": "Smithfield",
+      "detailSha256": "99b3eca8f3331b07b7c487cc675d0060173e3cf164d0d18eb5c571ffba762cd5"
+    },
+    {
+      "id": "ut-317",
+      "sourceLocation": "Logan",
+      "mapPlace": "Logan",
+      "detailSha256": "e93105211ef6723f4730dbfb42126bf6937f18291526475559e36479572bcdab"
+    },
+    {
+      "id": "ut-125",
+      "sourceLocation": "Providence",
+      "mapPlace": "Providence",
+      "detailSha256": "340a88b5399f0216224a3951d40cddae019195da6a0bf601f04c68edf5f062b5"
+    },
+    {
+      "id": "ut-53",
+      "sourceLocation": "Smithfield",
+      "mapPlace": "Smithfield",
+      "detailSha256": "52c4ce72ea324bb55d65fff8c7c9974a9ae9bc8b975f43d48ceabee98f9dcb55"
+    },
+    {
+      "id": "ut-260",
+      "sourceLocation": "Huntsville",
+      "mapPlace": "Huntsville",
+      "detailSha256": "55ca9fd309eb99b227e24fd272ef6ee75f9648c57fec718f8ee423efc25f0c17"
+    },
+    {
+      "id": "ut-127",
+      "sourceLocation": "Provo",
+      "mapPlace": "Provo",
+      "detailSha256": "91532943b158cabe69c66c97de2c5f94e69276856bccdbd74fdd6d2ed882f1d8"
+    },
+    {
+      "id": "ut-210",
+      "sourceLocation": "Holladay",
+      "mapPlace": "Holladay",
+      "detailSha256": "2f4bf780b8d39f79f9547afdb26872e498aeb745706dcd00e45e20d95a894e32"
+    },
+    {
+      "id": "ut-253",
+      "sourceLocation": "Taylorsville",
+      "mapPlace": "Taylorsville",
+      "detailSha256": "beb7b8551834c9b4ef3d9e4b3fa359e8befc76f8e617580828934433678fc378"
+    },
+    {
+      "id": "ut-140",
+      "sourceLocation": "Ogden",
+      "mapPlace": "Ogden",
+      "detailSha256": "3fe836a8a44b59787fc46e20f109d208ae97287c8f5171baddabf9924b9601d0"
+    },
+    {
+      "id": "ut-279",
+      "sourceLocation": "Cove",
+      "mapPlace": "Cove",
+      "detailSha256": "e6093c472f33d10d5f1e5c2a54ac8a282d305a2775a616eebf012c3b7db001b3"
+    },
+    {
+      "id": "ut-40",
+      "sourceLocation": "Providence",
+      "mapPlace": "Providence",
+      "detailSha256": "8ab63db6857a57b099c1aa066a9a7e81fc0160c4b5ce7d1d83ffeb952121a603"
+    },
+    {
+      "id": "ut-300",
+      "sourceLocation": "American Fork",
+      "mapPlace": "American Fork",
+      "detailSha256": "6c95f300a3b74164067119fd3167ba2c4f2b2cfbae91a21a672494fd5b06bba8"
+    },
+    {
+      "id": "ut-324",
+      "sourceLocation": "Salt Lake City",
+      "mapPlace": "Salt Lake City",
+      "detailSha256": "974a5a50696b0a419a465bae9d968338372c7817f8ee5044e911b1a87e03e05b"
+    },
+    {
+      "id": "ut-170",
+      "sourceLocation": "South Jordan",
+      "mapPlace": "South Jordan",
+      "detailSha256": "b07fcefb8df3774721eb2b5092ae1a50807d3bb080ab8f41f9da78525bd5ab7e"
+    },
+    {
+      "id": "ut-141",
+      "sourceLocation": "Provo",
+      "mapPlace": "Provo",
+      "detailSha256": "00883b5fbe2af6e9987835eb13fe58f30cc0042d829c7510897ffa32b576e2fb"
+    },
+    {
+      "id": "ut-278",
+      "sourceLocation": "Logan",
+      "mapPlace": "Logan",
+      "detailSha256": "73018a100313f75891482822226fa8b22064804293ffaf65416938e7565a05b3"
+    },
+    {
+      "id": "ut-179",
+      "sourceLocation": "Logan",
+      "mapPlace": "Logan",
+      "detailSha256": "f45cc35e77f4a3099f58a4f2d3c1064d27a639ef3173d83ab49f3eb33ee969ba"
+    },
+    {
+      "id": "ut-269",
+      "sourceLocation": "Logan",
+      "mapPlace": "Logan",
+      "detailSha256": "c13253a2003ded5b23d65cf24d884d600ea574551211c9aa98f75263f4c9d9ec"
+    },
+    {
+      "id": "ut-312",
+      "sourceLocation": "Farr West",
+      "mapPlace": "Farr West",
+      "detailSha256": "1b5378e74fdc0bd83ec1093cb4f14dc7fa99493a2261e0c6de7550a2af5ce6e1"
+    },
+    {
+      "id": "ut-208",
+      "sourceLocation": "Kaysville",
+      "mapPlace": "Kaysville",
+      "detailSha256": "a8cb5f23322ea8f5ab41bbfe0c18a9a943641a2123dd81637c85b253d012a7cd"
+    },
+    {
+      "id": "ut-97",
+      "sourceLocation": "Murray",
+      "mapPlace": "Murray",
+      "detailSha256": "766509a749a5a3c5ac7d644e2d572c38f2ed8f6628985abe1cfa4263a5ec8d2b"
+    },
+    {
+      "id": "ut-207",
+      "sourceLocation": "Kaysville",
+      "mapPlace": "Kaysville",
+      "detailSha256": "12614fec317d34c014f8846f542cb602df7ba21f81b1e6c24633f3dbc77f19a1"
+    },
+    {
+      "id": "ut-85",
+      "sourceLocation": "Castle Valley",
+      "mapPlace": "Castle Valley",
+      "detailSha256": "68ae71b33ccb314e384255637fef0dffdd30a1010610e6174dbebfab455a98b4"
+    },
+    {
+      "id": "ut-42",
+      "sourceLocation": "Salt Lake City",
+      "mapPlace": "Salt Lake City",
+      "detailSha256": "00f19ff2e576b01451e5aca267abdb32d11f643a18821d73b658f808fb2458a6"
+    },
+    {
+      "id": "ut-115",
+      "sourceLocation": "Dixie National Forest",
+      "mapPlace": null,
+      "detailSha256": "53dc49e48b51840362809337ddcd9695b3b5ab20b73d4886b7e3d5261d387114"
+    },
+    {
+      "id": "ut-240",
+      "sourceLocation": "Salt Lake",
+      "mapPlace": null,
+      "detailSha256": "0a48d67eaed93c4673c3a5688355c93cc1c3db655dd962f653ef8d3bcad89ef5"
+    },
+    {
+      "id": "ut-202",
+      "sourceLocation": "Leeds",
+      "mapPlace": "Leeds",
+      "detailSha256": "04651990f5282442d5f7f0de890de0ec17d63f2d96d5a943e660d06ec778ac9d"
+    },
+    {
+      "id": "ut-209",
+      "sourceLocation": "Alpine",
+      "mapPlace": "Alpine",
+      "detailSha256": "05b46b7a3b1cb38bfb799017f55169c473d744e935ef86fc707842a3ba801ed0"
+    },
+    {
+      "id": "ut-263",
+      "sourceLocation": "Centerville",
+      "mapPlace": "Centerville",
+      "detailSha256": "9dcb1423f58c22fc096b7b420c1c06a5b80f14604c5de72d764f8a58b60ebe60"
+    },
+    {
+      "id": "ut-73",
+      "sourceLocation": "Cedar Breaks National Monument",
+      "mapPlace": null,
+      "detailSha256": "3d185f9f63acf0120b91a0b9ae4cca042a9994a438cc1d7983e30ff6ef5e7bed"
+    },
+    {
+      "id": "ut-43",
+      "sourceLocation": "Richfield",
+      "mapPlace": "Richfield",
+      "detailSha256": "51d4e735917fd1b332ec50c0bd901589d40455685639a8b4fe52b018dae56130"
+    },
+    {
+      "id": "ut-289",
+      "sourceLocation": "Salt Lake City",
+      "mapPlace": "Salt Lake City",
+      "detailSha256": "ed1979f4474b102bee5bba33ea02110cb6e95f5e4f87abbc94b6f1fbe84e42ee"
+    },
+    {
+      "id": "ut-47",
+      "sourceLocation": "Murray",
+      "mapPlace": "Murray",
+      "detailSha256": "e4ac927ae42eb37c466d0a8c88fc40110512175525dd5ef92ba373ddebd30d54"
+    },
+    {
+      "id": "ut-148",
+      "sourceLocation": "Salt Lake City",
+      "mapPlace": "Salt Lake City",
+      "detailSha256": "1478b1de19841c94b4cc4bddfcf55dd3e94a3c3bb5f61e22f82cea94ec0bc7bb"
+    },
+    {
+      "id": "ut-280",
+      "sourceLocation": "Logan",
+      "mapPlace": "Logan",
+      "detailSha256": "c552ec84f4ffa6a119839a07425f03eb08cb5771c975c05fadc85ec1fd916f94"
+    },
+    {
+      "id": "ut-93",
+      "sourceLocation": "Murray",
+      "mapPlace": "Murray",
+      "detailSha256": "9081d525225c7c755b6686b6c4da6ce66af80ac9462fcb7013070af185b20af7"
+    },
+    {
+      "id": "ut-296",
+      "sourceLocation": "American Fork",
+      "mapPlace": "American Fork",
+      "detailSha256": "83047d2e18794e8e0b362f9ba0a0566bda06c2007d1aabde141d6847bcba6d08"
+    },
+    {
+      "id": "ut-283",
+      "sourceLocation": "Washington",
+      "mapPlace": "Washington",
+      "detailSha256": "249e23162fc5e5c044dfbe864bedd8c912faa631a9d83ca478f8a381dbe3f0a7"
+    },
+    {
+      "id": "ut-45",
+      "sourceLocation": "Cedar City",
+      "mapPlace": "Cedar City",
+      "detailSha256": "6fc1d399ef5dc1cdcd3d7cfd5913eb7751ca03bc03dbb531d3cc57bad3f53893"
+    },
+    {
+      "id": "ut-109",
+      "sourceLocation": "Sandy",
+      "mapPlace": "Sandy",
+      "detailSha256": "12b0b4d73e9591164e7fbc278221bbcba9bdd47d68ceb27daa7154b334c23762"
+    },
+    {
+      "id": "ut-18",
+      "sourceLocation": "Centerville",
+      "mapPlace": "Centerville",
+      "detailSha256": "cc4104953f0959746771760f5fcdc1481990b5c56a02edf62abbbb3964bf2f40"
+    },
+    {
+      "id": "ut-200",
+      "sourceLocation": "Leeds",
+      "mapPlace": "Leeds",
+      "detailSha256": "90973967ad2ab8356eb1132bc1bf309cbb99dc350f2e4cef86277fb768d2866a"
+    },
+    {
+      "id": "ut-299",
+      "sourceLocation": "American Fork",
+      "mapPlace": "American Fork",
+      "detailSha256": "0d9c238644412a1ec37c222156ca2f4125f64c467c37fe147557b750d7acc2d0"
+    },
+    {
+      "id": "ut-138",
+      "sourceLocation": "Milcreek",
+      "mapPlace": null,
+      "detailSha256": "e057b437cbccdbfd3d20ddf181b7c5a529a2949456faa32a6c4d0b5b04e74ba3"
+    },
+    {
+      "id": "ut-261",
+      "sourceLocation": "Ogden",
+      "mapPlace": "Ogden",
+      "detailSha256": "69ab0f30dd893f8329ee2cc169b8663154baeaed1ce6ed25c9cac6f7d5ad9032"
+    },
+    {
+      "id": "ut-249",
+      "sourceLocation": "St. George",
+      "mapPlace": "St. George",
+      "detailSha256": "74a36f1c3253979d9e2ef84f380608b11145ec96d61554074e26fcbc8151687d"
+    },
+    {
+      "id": "ut-191",
+      "sourceLocation": "West Jordan",
+      "mapPlace": "West Jordan",
+      "detailSha256": "ac38903726a42e3969234024df490b2738fedbd869420316504766620839a1a4"
+    },
+    {
+      "id": "ut-187",
+      "sourceLocation": "Logan",
+      "mapPlace": "Logan",
+      "detailSha256": "ba6758c4d063aa01d8402fc86f78df75f2dc156e2c64a820beef7b5965bfbd2b"
+    },
+    {
+      "id": "ut-119",
+      "sourceLocation": "Logan",
+      "mapPlace": "Logan",
+      "detailSha256": "0dd0db4c37ca899a8d492eda9e5870e7992af4748892428bdeb26cb908c6b427"
+    },
+    {
+      "id": "ut-177",
+      "sourceLocation": "Logan",
+      "mapPlace": "Logan",
+      "detailSha256": "1ccb4262ebca1a5b841adf205421b4ee6db28f4bf9bbbde540a4bd8f6ca3eca5"
+    },
+    {
+      "id": "ut-282",
+      "sourceLocation": "Logan",
+      "mapPlace": "Logan",
+      "detailSha256": "a551c5199ef1e081c3e89fc3bf9c299062740c91d90202d965a6b3744b149b7d"
+    },
+    {
+      "id": "ut-323",
+      "sourceLocation": "Salt Lake City",
+      "mapPlace": "Salt Lake City",
+      "detailSha256": "c6b005cb08595e3b01346479af6bb186897b9ccf7306dca1fd3d9466ee8ed7b4"
+    },
+    {
+      "id": "ut-259",
+      "sourceLocation": "North Ogden",
+      "mapPlace": "North Ogden",
+      "detailSha256": "8c8c6d50d7109ccd7367475c5313068ab160c8162d0e1efc032fb53f8aeac2b5"
+    },
+    {
+      "id": "ut-131",
+      "sourceLocation": "Washington County",
+      "mapPlace": null,
+      "detailSha256": "7e5f6a2f153efee4cc807697d07b06d0c83c22b08b437961ef4160820fd81cff"
+    },
+    {
+      "id": "ut-133",
+      "sourceLocation": "Salt Lake City",
+      "mapPlace": "Salt Lake City",
+      "detailSha256": "4fb9bb5d50061839806e6e96fe3f8f5007a274c9c68eb412a77b5a29e01ea55a"
+    },
+    {
+      "id": "ut-46",
+      "sourceLocation": "Logan",
+      "mapPlace": "Logan",
+      "detailSha256": "8c50d1457b41e91606f4331ac40e48af99cd1331f76cb25a401f324786687db7"
+    },
+    {
+      "id": "ut-215",
+      "sourceLocation": "Salt Lake City",
+      "mapPlace": "Salt Lake City",
+      "detailSha256": "b01fa7e107c87d2d0ec2f5f935daad164bfc8ba25581da06fc59396f9df23d93"
+    },
+    {
+      "id": "ut-325",
+      "sourceLocation": "Salt Lake City",
+      "mapPlace": "Salt Lake City",
+      "detailSha256": "9155997e63d706ed56e245a2b6f661c23ca5037acfb92c1274dd55cd86d64f7a"
+    },
+    {
+      "id": "ut-149",
+      "sourceLocation": "Salt Lake City",
+      "mapPlace": "Salt Lake City",
+      "detailSha256": "8a9eee04ddf4ddd8c2155c160c250f99b05b09d8398646e45f128c2ed2f573a8"
+    },
+    {
+      "id": "ut-35",
+      "sourceLocation": "Salt Lake City",
+      "mapPlace": "Salt Lake City",
+      "detailSha256": "787697240cd883de42e0e558babf09cfbba53c61d3895ee1ee9412cfd57b0ef4"
+    },
+    {
+      "id": "ut-246",
+      "sourceLocation": "St. George",
+      "mapPlace": "St. George",
+      "detailSha256": "3dcafad9453ca9201e8d8b61f7d33b7bfaf0c4c107771fb6000e38c8dc5c2ada"
+    },
+    {
+      "id": "ut-70",
+      "sourceLocation": "Cache National Forest",
+      "mapPlace": null,
+      "detailSha256": "01d20df9c0cf4c83f3d75d487cfcdcfb2164c6634aea8ef9c042a1140a755b8d"
+    },
+    {
+      "id": "ut-71",
+      "sourceLocation": "Uintah National Forest",
+      "mapPlace": null,
+      "detailSha256": "53da8a036ae3837950c6810851003cf08e48ed6c710e40117bd444f0fda20096"
+    },
+    {
+      "id": "ut-145",
+      "sourceLocation": "Salt Lake City",
+      "mapPlace": "Salt Lake City",
+      "detailSha256": "08d097484cbb3510b0b3a1b0a008ad90ceb0f674c5c9591ea8e66607072b1339"
+    },
+    {
+      "id": "ut-239",
+      "sourceLocation": "Uintah National Forest",
+      "mapPlace": null,
+      "detailSha256": "d0cfff03465563dad9220750f93745b1f01c16a2b358cff27e943133c42a560d"
+    },
+    {
+      "id": "ut-81",
+      "sourceLocation": "Kaysville",
+      "mapPlace": "Kaysville",
+      "detailSha256": "8dd8165877badda3521a3ee160e80ead1c7b6eb6ff2c936a04744c5fb76d92cb"
+    },
+    {
+      "id": "ut-80",
+      "sourceLocation": "Salt Lake City",
+      "mapPlace": "Salt Lake City",
+      "detailSha256": "90d84bddc5f2d005d6c0dd01041d41da588a91d365a7483468d841ca1563cbdd"
+    },
+    {
+      "id": "ut-212",
+      "sourceLocation": "Salt Lake City",
+      "mapPlace": "Salt Lake City",
+      "detailSha256": "ba1023b4bc42697775a1ba7a46a3f616ab9cf9c8ed303d5e330598c7255a923d"
+    },
+    {
+      "id": "ut-164",
+      "sourceLocation": "Logan",
+      "mapPlace": "Logan",
+      "detailSha256": "8f485c6384406fc3441e83277f9271a07f1e525c936388d211c35667ef40ffeb"
+    },
+    {
+      "id": "ut-173",
+      "sourceLocation": "Logan",
+      "mapPlace": "Logan",
+      "detailSha256": "1088892ae665042f5c775695ffa29372677225b8576db3ff5c4a1b348baa0782"
+    },
+    {
+      "id": "ut-12",
+      "sourceLocation": "Salt Lake City",
+      "mapPlace": "Salt Lake City",
+      "detailSha256": "b6e0fc738f26145e539aca5a3202e1c4876b2038ac1e7f37df3ee4092d64b9e5"
+    },
+    {
+      "id": "ut-102",
+      "sourceLocation": "Salt Lake City",
+      "mapPlace": "Salt Lake City",
+      "detailSha256": "4f9a98d225c810177b316f1171d1d3c81b62170bfcee2c6c0158d632f9a39a85"
+    },
+    {
+      "id": "ut-310",
+      "sourceLocation": "Ogden, Utah",
+      "mapPlace": "Ogden",
+      "detailSha256": "4e3f441fdf90f970a11bd45f58055f40da4e77b67da173c8cb683a2e9dfd7358"
+    },
+    {
+      "id": "ut-186",
+      "sourceLocation": "Logan",
+      "mapPlace": "Logan",
+      "detailSha256": "7631e4dc3d3d602e96cbe8104e68a3774bdae2708ba1418c64477fa4d442ecfa"
+    },
+    {
+      "id": "ut-26",
+      "sourceLocation": "Ivins",
+      "mapPlace": "Ivins",
+      "detailSha256": "9e89006eac392c746088d94669c459af3f064bf774f410091f2b10a8e7147f86"
+    },
+    {
+      "id": "ut-172",
+      "sourceLocation": "Logan",
+      "mapPlace": "Logan",
+      "detailSha256": "9407457980306f8e0ba39154457c05141066dc2836dfc52622f1d6f669dffa5d"
+    },
+    {
+      "id": "ut-213",
+      "sourceLocation": "Salt Lake City",
+      "mapPlace": "Salt Lake City",
+      "detailSha256": "6cb9395e8fe5c87ac20ea0b0a8b4df60a6cb2a1ac0bf8ca045177f525e8a0b8b"
+    },
+    {
+      "id": "ut-293",
+      "sourceLocation": "Provo",
+      "mapPlace": "Provo",
+      "detailSha256": "4736d7552e904e479dede38699e663a9fd74d377b276913754db2ebb3a372051"
+    },
+    {
+      "id": "ut-106",
+      "sourceLocation": "Salt Lake City",
+      "mapPlace": "Salt Lake City",
+      "detailSha256": "f1a4dc7ad0c2f5b5328a45e424aeb84fe56c75c93d1d14f6d7bc4212916150d8"
+    },
+    {
+      "id": "ut-6",
+      "sourceLocation": "Smithfield",
+      "mapPlace": "Smithfield",
+      "detailSha256": "26452e555cba19637ef65a2c0da99f992e7c4fcb5cc899a4639b18caf825280a"
+    },
+    {
+      "id": "ut-63",
+      "sourceLocation": "Smithfield",
+      "mapPlace": "Smithfield",
+      "detailSha256": "f10c6a333722ec2411980470d2c40ce0e26fbd42dba9a1891352375c33172587"
+    },
+    {
+      "id": "ut-228",
+      "sourceLocation": "Salt Lake City",
+      "mapPlace": "Salt Lake City",
+      "detailSha256": "8d41b65ac54d88f125baf1765496fc4431aa76e45a1ca5752eff4c7c4c58da15"
+    },
+    {
+      "id": "ut-146",
+      "sourceLocation": "Salt Lake City",
+      "mapPlace": "Salt Lake City",
+      "detailSha256": "7f78f970b7669e5588d79a318d254d1eb8d1f04fb4a9e1fee8f7a4db309bca49"
+    },
+    {
+      "id": "ut-332",
+      "sourceLocation": "St. George",
+      "mapPlace": "St. George",
+      "detailSha256": "a0478800e891212642cd7f524663dd579bdc82d414ef5a8ee469260d9791cadb"
+    },
+    {
+      "id": "ut-319",
+      "sourceLocation": "St. George",
+      "mapPlace": "St. George",
+      "detailSha256": "033d56e999e8a2bc2801e5777f27f774998618dcccdbb497f44daa984d7cc9a5"
+    },
+    {
+      "id": "ut-224",
+      "sourceLocation": "Salt Lake City",
+      "mapPlace": "Salt Lake City",
+      "detailSha256": "5ef8d759ce90785eca6e112a8589020f7b26f8e4a8e57b6bc047b1cb42b8b0cb"
+    },
+    {
+      "id": "ut-17",
+      "sourceLocation": "Logan",
+      "mapPlace": "Logan",
+      "detailSha256": "6e88dc41597ed5cf74c673682716414f812e9ecbc23e09e51220e3a676f4bffe"
+    },
+    {
+      "id": "ut-219",
+      "sourceLocation": "Salt Lake City",
+      "mapPlace": "Salt Lake City",
+      "detailSha256": "0e66304f1310cf1abc50bdf5a89c9da7d0ff13280f57af95bd78bee70c206ed9"
+    },
+    {
+      "id": "ut-241",
+      "sourceLocation": "South Jordan",
+      "mapPlace": "South Jordan",
+      "detailSha256": "8ed1fa421e172a1ae17148f6bc77a8f77d216ef4bfc8a6ebee24e94352617b6c"
+    },
+    {
+      "id": "ut-20",
+      "sourceLocation": "Virgin",
+      "mapPlace": "Virgin",
+      "detailSha256": "41bdac7403873a46f6ed4f53ddfb4ee210e1017d864f8f7335fed9b9c8e25c81"
+    },
+    {
+      "id": "ut-315",
+      "sourceLocation": "Holladay",
+      "mapPlace": "Holladay",
+      "detailSha256": "f0b9b4a2756dea70ad3c22423830649f98b98d1d4e8b867902c1426d12fe57f8"
+    },
+    {
+      "id": "ut-169",
+      "sourceLocation": "South Jordan",
+      "mapPlace": "South Jordan",
+      "detailSha256": "1f43797cf34fd85a8568268a748e6824e9bcfafd5f29d7a1f6e6dd9ed2ffe7c1"
+    },
+    {
+      "id": "ut-288",
+      "sourceLocation": "Sandy",
+      "mapPlace": "Sandy",
+      "detailSha256": "896a5713776fd750498045deea76d28888a069b9e58b31d4c3d2df5109c19d8a"
+    },
+    {
+      "id": "ut-162",
+      "sourceLocation": "Logan",
+      "mapPlace": "Logan",
+      "detailSha256": "d95f5741252a1335b5d06d1deaa6afe7dc10324dbf8bc2ec51e542765701b0e1"
+    },
+    {
+      "id": "ut-206",
+      "sourceLocation": "Washington County",
+      "mapPlace": null,
+      "detailSha256": "94565def948c7d598e7ad648af5db0ffce4a98d17a4a3ff92256d03774338562"
+    },
+    {
+      "id": "ut-308",
+      "sourceLocation": "Zion National Park, Utah",
+      "mapPlace": null,
+      "detailSha256": "78badb58ce3359de8a3742b14ab99e6e6efdac5fb8c278e587bae7927a8a5a37"
+    },
+    {
+      "id": "ut-151",
+      "sourceLocation": "Salt Lake City",
+      "mapPlace": "Salt Lake City",
+      "detailSha256": "25dec033654daeb7819e73a195ad3077fa7c6f58487ccd7845c8b73b151ff784"
+    },
+    {
+      "id": "ut-181",
+      "sourceLocation": "Logan",
+      "mapPlace": "Logan",
+      "detailSha256": "73359513c509a62595b63cdf9603b5ee32a16c62299e11abb332d5b7dfdb0bc9"
+    },
+    {
+      "id": "ut-89",
+      "sourceLocation": "Kolob",
+      "mapPlace": null,
+      "detailSha256": "709da4caf9de4daca50abd58ff545775a8fd925dc8627d7d6fd1dffa42123783"
+    },
+    {
+      "id": "ut-320",
+      "sourceLocation": "Riverton",
+      "mapPlace": "Riverton",
+      "detailSha256": "f0122a71b43de7dd0333663b9b47da0365310e349583e7051a4577b6e356eb09"
+    },
+    {
+      "id": "ut-8",
+      "sourceLocation": "Salt Lake City",
+      "mapPlace": "Salt Lake City",
+      "detailSha256": "ac37a42fc407230b9b010af60beaf8ed525af0e506c34b825e1d93d7eb8e9d8c"
+    },
+    {
+      "id": "ut-274",
+      "sourceLocation": "Logan",
+      "mapPlace": "Logan",
+      "detailSha256": "9b8221e1425e26130181d12835effc292b3855ae722945a3fb9a9f8921336e35"
+    },
+    {
+      "id": "ut-276",
+      "sourceLocation": "Logan",
+      "mapPlace": "Logan",
+      "detailSha256": "37c3615ad3590a715aaecc7d585b3e2666ac57c18ea0962e23c444c4c81c9e56"
+    },
+    {
+      "id": "ut-52",
+      "sourceLocation": "Cache National Forest",
+      "mapPlace": null,
+      "detailSha256": "25f612d5047ef000789d0c3865c9941307130c4aacc2039485b7478a945c9423"
+    },
+    {
+      "id": "ut-134",
+      "sourceLocation": "Little Cottonwood Canyon",
+      "mapPlace": null,
+      "detailSha256": "eb240c522040907235f171edd2b636d93a5dc22d1ac65dfc9ccf970c976a540d"
+    },
+    {
+      "id": "ut-156",
+      "sourceLocation": "Springville",
+      "mapPlace": "Springville",
+      "detailSha256": "1d824e02fa8a6b899e9b8a56dbe6caa0c9b6313ced532b5948927e3cf4193fb8"
+    },
+    {
+      "id": "ut-229",
+      "sourceLocation": "Salt Lake City",
+      "mapPlace": "Salt Lake City",
+      "detailSha256": "67ce9df83cfef41be13985db2640e652bbc5eb74bd752fe9bf45cb3882216292"
+    },
+    {
+      "id": "ut-220",
+      "sourceLocation": "Salt Lake City",
+      "mapPlace": "Salt Lake City",
+      "detailSha256": "ca5e1c168fd7a1a031b32826e59268f50cfea19b874a6354932346fb0ec928ad"
+    },
+    {
+      "id": "ut-214",
+      "sourceLocation": "Salt Lake City",
+      "mapPlace": "Salt Lake City",
+      "detailSha256": "a2b820f950bac9a618ed676ff5fbca4eee777685a9f00b1614e3abad22b8c676"
+    },
+    {
+      "id": "ut-77",
+      "sourceLocation": "American Fork",
+      "mapPlace": "American Fork",
+      "detailSha256": "8dcea57a6904a408694f6239e7a5ee9bc0fabf3fbc013639ef84879f0b227bb0"
+    },
+    {
+      "id": "ut-66",
+      "sourceLocation": "Provo",
+      "mapPlace": "Provo",
+      "detailSha256": "49922c89aad2228992c8c381706e4f98200c04e659e9d6260697e693a89c90d3"
+    },
+    {
+      "id": "ut-211",
+      "sourceLocation": "Salt Lake City",
+      "mapPlace": "Salt Lake City",
+      "detailSha256": "cbabf6c5d63fd26e67c8f873b44da6bf69b5374231b90db012f52149921cf88b"
+    },
+    {
+      "id": "ut-230",
+      "sourceLocation": "Salt Lake City",
+      "mapPlace": "Salt Lake City",
+      "detailSha256": "e361c61c34cc5b6d8e86210edf41a4fd3958f94f33f6dcb408cc2397fb4377cd"
+    },
+    {
+      "id": "ut-331",
+      "sourceLocation": "St. George",
+      "mapPlace": "St. George",
+      "detailSha256": "34effc701d33bfcc404c6272dd2bed49b32d9c7e048fc609a37944730b4f9fb1"
+    },
+    {
+      "id": "ut-226",
+      "sourceLocation": "Salt Lake City",
+      "mapPlace": "Salt Lake City",
+      "detailSha256": "a19398597a619abf117d8bc28053d1c512e21c0970728d894d9cc261e40ef613"
+    },
+    {
+      "id": "ut-129",
+      "sourceLocation": "West Valley",
+      "mapPlace": null,
+      "detailSha256": "da2509b4fcb6125765c9f09569d9aca2967d4e824337cff566fc13117ac43ee9"
+    },
+    {
+      "id": "ut-155",
+      "sourceLocation": "Springville",
+      "mapPlace": "Springville",
+      "detailSha256": "8d33134d9a5b7624e341786d102338a3785e04e70110aef765c9a7ace2be7d7a"
+    },
+    {
+      "id": "ut-154",
+      "sourceLocation": "Springville",
+      "mapPlace": "Springville",
+      "detailSha256": "460978f637470a269efa47162be04a5963b954f0e27d014c4481155f971f82a4"
+    },
+    {
+      "id": "ut-198",
+      "sourceLocation": "Hurricane",
+      "mapPlace": "Hurricane",
+      "detailSha256": "3b8ebea084c084da66f0e36146ab28830ea6004d2cda29ad37867eddcc9f888d"
+    },
+    {
+      "id": "ut-130",
+      "sourceLocation": "Salt Lake City",
+      "mapPlace": "Salt Lake City",
+      "detailSha256": "4b9cdf6f5521e7003d33a01ab5541711d01c3bb54b6f8e1dbe56d88d7092883a"
+    },
+    {
+      "id": "ut-328",
+      "sourceLocation": "St. George",
+      "mapPlace": "St. George",
+      "detailSha256": "d24493e1c6ea3e02965ed8bdf0d42391d8b2d26dc77c945f49b713db146640c4"
+    },
+    {
+      "id": "ut-301",
+      "sourceLocation": "American Fork",
+      "mapPlace": "American Fork",
+      "detailSha256": "1291595bc29b37735d3eeabea89eb9688c995fac85b9a33a865f3a5526a3f758"
+    },
+    {
+      "id": "ut-329",
+      "sourceLocation": "St. George",
+      "mapPlace": "St. George",
+      "detailSha256": "5f6112064ce65b4d56a7c1cd0cd04e21e22f1f88b77f527aadfdd2967703eefb"
+    },
+    {
+      "id": "ut-59",
+      "sourceLocation": "St. George",
+      "mapPlace": "St. George",
+      "detailSha256": "7d381ae623388b489e60b9eadfa64b2ba796fc6d5a8f3f6ea441b26a2cc91294"
+    },
+    {
+      "id": "ut-194",
+      "sourceLocation": "West Jordan",
+      "mapPlace": "West Jordan",
+      "detailSha256": "00a0261ea075c595f2c2194998b688a086c63ec154b026abfbfd8edf5f34d24f"
+    },
+    {
+      "id": "ut-221",
+      "sourceLocation": "Salt Lake City",
+      "mapPlace": "Salt Lake City",
+      "detailSha256": "b7e6baf0c3e3bbfbef3737b7cefd49a1a58b1da9fedffbe07ff8ef297c0b3794"
+    },
+    {
+      "id": "ut-2",
+      "sourceLocation": "Indianola",
+      "mapPlace": null,
+      "detailSha256": "fcc5a787e8c4f2b916145beacc7c716d880e32cc0046a0a3ad9bd7b39ef22876"
+    },
+    {
+      "id": "ut-7",
+      "sourceLocation": "Logan",
+      "mapPlace": "Logan",
+      "detailSha256": "1d7cc2fad44ddc44cc2979d2ab6a9d99f64d9df561c345ca5391cfa2510c83ba"
+    },
+    {
+      "id": "ut-258",
+      "sourceLocation": "Harrisville",
+      "mapPlace": "Harrisville",
+      "detailSha256": "4ba37752b8c8b63f1e32c17ced8527ffe4fd6ff1074ca69e2074ccde42e8df7d"
+    },
+    {
+      "id": "ut-257",
+      "sourceLocation": "Harrisville",
+      "mapPlace": "Harrisville",
+      "detailSha256": "24f80384e446c04d5ef59c087334740dacb3930cc2fb14edf2259f82b3126940"
+    },
+    {
+      "id": "ut-15",
+      "sourceLocation": "Logan",
+      "mapPlace": "Logan",
+      "detailSha256": "2fdb86b8e6ea5c3452ba71cd8a4b8048c0ed4bd0f2c612c141e2777cc7163685"
+    },
+    {
+      "id": "ut-307",
+      "sourceLocation": "Salt Lake City",
+      "mapPlace": "Salt Lake City",
+      "detailSha256": "492ca9704db73c4d6afde3092bf43a42bf4962bf50014c086ebef6f6f1d9bc6b"
+    },
+    {
+      "id": "ut-298",
+      "sourceLocation": "American Fork",
+      "mapPlace": "American Fork",
+      "detailSha256": "5a656da00de777f65841ffb54d88db6d156d89dac66e3250bb0e4c1c945a0cd1"
+    },
+    {
+      "id": "ut-311",
+      "sourceLocation": "American Fork",
+      "mapPlace": "American Fork",
+      "detailSha256": "d33dfea13b08481f8c45f33fcd61e3a1b72d5feb0705fbac1b818c0fcda2aaf1"
+    },
+    {
+      "id": "ut-190",
+      "sourceLocation": "West Jordan",
+      "mapPlace": "West Jordan",
+      "detailSha256": "d1d545756c2efa55f9bd0361e13661e0c3ec3c52c6b21dbd2cfed748c6a47849"
+    },
+    {
+      "id": "ut-225",
+      "sourceLocation": "Salt Lake City",
+      "mapPlace": "Salt Lake City",
+      "detailSha256": "a3e6ec495db1215b6440ae0d93b85f723c2c47b0baa47e074de6309106d4326d"
+    },
+    {
+      "id": "ut-135",
+      "sourceLocation": "Little Cottonwood Canyon",
+      "mapPlace": null,
+      "detailSha256": "93dac470563f6ee70dfbed49714034e60e3ff124b17a06610fa02fe405ea355d"
+    },
+    {
+      "id": "ut-167",
+      "sourceLocation": "Logan",
+      "mapPlace": "Logan",
+      "detailSha256": "cb571d77f6b66f44313d8df0ac19f34b80ba924f3bc57c60c8376e0c162ebeba"
+    },
+    {
+      "id": "ut-11",
+      "sourceLocation": "Salt Lake City",
+      "mapPlace": "Salt Lake City",
+      "detailSha256": "d72ab982dd4a8df2e2a956025ca3d80d771732ee833d7f3c6efbd3d79b59bd3a"
+    },
+    {
+      "id": "ut-57",
+      "sourceLocation": "Providence",
+      "mapPlace": "Providence",
+      "detailSha256": "11ddfe8f24d506e76da3d8c24afec09ae803959a5db978627b02954c6436ccd8"
+    },
+    {
+      "id": "ut-161",
+      "sourceLocation": "Logan",
+      "mapPlace": "Logan",
+      "detailSha256": "0583b31f415a30203c85e119deb2d133d282fa87f457435b689c5087d7084560"
+    },
+    {
+      "id": "ut-166",
+      "sourceLocation": "South Jordan",
+      "mapPlace": "South Jordan",
+      "detailSha256": "d4911e85b5364b4832afb45dbaef3ca7a5bd74a8017aedf41d1fab2e46224d9f"
+    },
+    {
+      "id": "ut-178",
+      "sourceLocation": "Logan",
+      "mapPlace": "Logan",
+      "detailSha256": "766bd98c1915950b3aaa11230928c993cedb832bf01e246492e62d447caf6514"
+    },
+    {
+      "id": "ut-309",
+      "sourceLocation": "Enterprise",
+      "mapPlace": null,
+      "detailSha256": "f9b05d8091c311ec67987403226593d37f4411b20389cfc7d3073215aba8cbc2"
+    },
+    {
+      "id": "ut-13",
+      "sourceLocation": "Hurricane",
+      "mapPlace": "Hurricane",
+      "detailSha256": "dc478cd0b8dda6de238c376d2bb798b3f86f485efa1c0461813f48ba60f8c6cf"
+    },
+    {
+      "id": "ut-205",
+      "sourceLocation": "Washington County",
+      "mapPlace": null,
+      "detailSha256": "8eb9c87f4e63cf367ea0cf1293a6675064b99bdbebb2e70b18c7c1a239131202"
+    },
+    {
+      "id": "ut-233",
+      "sourceLocation": "St. George",
+      "mapPlace": "St. George",
+      "detailSha256": "99f3cc996a05052284ab07b74df9723ad3052758cd055e7e0450364022958cc6"
+    },
+    {
+      "id": "ut-16",
+      "sourceLocation": "Draper",
+      "mapPlace": "Draper",
+      "detailSha256": "f71d6332b4c0e6d5afa55a96628696d3f8794f003061454a5d95e65476666aa7"
+    },
+    {
+      "id": "ut-144",
+      "sourceLocation": "Lehi",
+      "mapPlace": "Lehi",
+      "detailSha256": "f76f9e042ea87e4dab92324ba4ffdb747f046671998f43fef04b5411f1f84f16"
+    },
+    {
+      "id": "ut-94",
+      "sourceLocation": "West Valley",
+      "mapPlace": null,
+      "detailSha256": "fe363fd4a8ede5393629acc33d933b133aa5b6d5ba56cfbb9f0440e829385baa"
+    },
+    {
+      "id": "ut-199",
+      "sourceLocation": "Hurricane",
+      "mapPlace": "Hurricane",
+      "detailSha256": "0f5c016c1236b827abf21dfae568a9ad3f79aae1cd1333616a4d5663cdbc4727"
+    },
+    {
+      "id": "ut-182",
+      "sourceLocation": "Logan",
+      "mapPlace": "Logan",
+      "detailSha256": "97657ad83ab97631201269aeaaac59d9e40185ea0ea8454c0692247ae2a54849"
+    },
+    {
+      "id": "ut-113",
+      "sourceLocation": "St. George",
+      "mapPlace": "St. George",
+      "detailSha256": "2dad4df52f3a0efcfd979c68ec0f315e117275c084b2ccc170b75f9458fc7eb3"
+    },
+    {
+      "id": "ut-41",
+      "sourceLocation": "Salt Lake City",
+      "mapPlace": "Salt Lake City",
+      "detailSha256": "3c1a9432568ea5c1b0ed10177eb031845466deea64be9844595c5081c45d8a6b"
+    },
+    {
+      "id": "ut-247",
+      "sourceLocation": "Kane County",
+      "mapPlace": null,
+      "detailSha256": "3e5bc0fc8b48f36d8f969d45b22c55b7560f01f366ed5a25fadcd453d69f8bbc"
+    },
+    {
+      "id": "ut-32",
+      "sourceLocation": "Salt Lake City",
+      "mapPlace": "Salt Lake City",
+      "detailSha256": "ee62a1c1fa007bd9a68f2716685684f1736881af94b00175fd3830f2af42f6e5"
+    },
+    {
+      "id": "ut-266",
+      "sourceLocation": "Salt Lake City",
+      "mapPlace": "Salt Lake City",
+      "detailSha256": "7b17860e8adcf8fc3b08c758263211ec09010f3c427e637b309e0e923e556198"
+    },
+    {
+      "id": "ut-62",
+      "sourceLocation": "Washington",
+      "mapPlace": "Washington",
+      "detailSha256": "979b4ee54404ce41ff43494d37a60445e0a28150728e10170a8a4f111f56983d"
+    },
+    {
+      "id": "ut-100",
+      "sourceLocation": "Salt Lake City",
+      "mapPlace": "Salt Lake City",
+      "detailSha256": "25e523c2032f8783012af786ff11dbdb696ef3c9261873ef0bf0c94e25269a75"
+    },
+    {
+      "id": "ut-231",
+      "sourceLocation": "Mona",
+      "mapPlace": "Mona",
+      "detailSha256": "daf3ddd8d0a8d1d230d895ec72fba6c00c788d66a6156675c25eae42189dedb1"
+    },
+    {
+      "id": "ut-65",
+      "sourceLocation": "Logan",
+      "mapPlace": "Logan",
+      "detailSha256": "8f64f1e7ede5cd0cc8ccbdfce26f1bf7f87577a0bd5efc195009ec6f97a003df"
+    },
+    {
+      "id": "ut-267",
+      "sourceLocation": "Mantua",
+      "mapPlace": "Mantua",
+      "detailSha256": "65b3f959750b434b78c15881a8caed5f84738035ee6c55ee29a03e666820e2ff"
+    },
+    {
+      "id": "ut-290",
+      "sourceLocation": "Holladay",
+      "mapPlace": "Holladay",
+      "detailSha256": "177225be9d2d830836edf80b78c2b92b6023925afedc2ef4ffd8df8cb646bf96"
+    },
+    {
+      "id": "ut-244",
+      "sourceLocation": "Salt Lake City",
+      "mapPlace": "Salt Lake City",
+      "detailSha256": "3c8c177276adbaa0714eb7d26e0f782b34e757fe002d5471815e1ea4a2437b0b"
+    },
+    {
+      "id": "ut-9",
+      "sourceLocation": "Logan",
+      "mapPlace": "Logan",
+      "detailSha256": "bab3582b65e63d660592ed6c4fe2670e3859fe99f6e63ccbb0eedec11fbddac0"
+    },
+    {
+      "id": "ut-327",
+      "sourceLocation": "River Heights",
+      "mapPlace": "River Heights",
+      "detailSha256": "bc5e3b876ef3578b209348455574f6c850303794c20a4bf4303c8b3260b5a894"
+    },
+    {
+      "id": "ut-188",
+      "sourceLocation": "West Jordan",
+      "mapPlace": "West Jordan",
+      "detailSha256": "95263682f5f9e41cbb887dc109187a0d5d1ddd6a582767d9c34809fae7cf614b"
+    },
+    {
+      "id": "ut-227",
+      "sourceLocation": "Salt Lake City",
+      "mapPlace": "Salt Lake City",
+      "detailSha256": "e80bf91f9022f048451ee35699f8d6591d35dc2242acdf914844cea69ed9d69e"
+    },
+    {
+      "id": "ut-216",
+      "sourceLocation": "Salt Lake City",
+      "mapPlace": "Salt Lake City",
+      "detailSha256": "4334baed872f019b10e00cd4892c4981c4644835688191be8e1c2e486a312a73"
+    }
+  ]
+}
