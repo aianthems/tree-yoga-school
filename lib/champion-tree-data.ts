@@ -1,4 +1,6 @@
 import "server-only";
+import idRecords from "./data/idaho-champion-trees.json";
+import idCoordinates from "./data/idaho-county-points.json";
 import waRecords from "./data/washington-champion-trees.json";
 import waCoordinates from "./data/washington-county-points.json";
 import orRecords from "./data/oregon-champion-trees.json";
@@ -84,6 +86,7 @@ import { championStates, type ChampionState } from "./champion-states";
 import { buildChampionDataset } from "./champion-state-data";
 
 const datasets = {
+  ID: { records: idRecords, coordinates: idCoordinates },
   WA: { records: waRecords, coordinates: waCoordinates },
   OR: { records: orRecords, coordinates: orCoordinates },
   NM: { records: nmRecords, coordinates: nmCoordinates },

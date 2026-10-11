@@ -1,0 +1,2180 @@
+[
+  {
+    "page": 2,
+    "row": 1,
+    "scientificName": "Abies alba",
+    "commonName": "silver fir",
+    "status": "STATE",
+    "measurements": [
+      "24\"",
+      "74\"",
+      "106'",
+      "8'",
+      "188"
+    ],
+    "sourceCounty": "Latah",
+    "nominationYears": [
+      "2005"
+    ]
+  },
+  {
+    "page": 2,
+    "row": 2,
+    "scientificName": "Abies concolor",
+    "commonName": "concolor fir",
+    "status": "STATE",
+    "measurements": [
+      "35\"",
+      "108\"",
+      "66'",
+      "9'",
+      "183"
+    ],
+    "sourceCounty": "Latah",
+    "nominationYears": [
+      "2001"
+    ]
+  },
+  {
+    "page": 2,
+    "row": 3,
+    "scientificName": "Abies concolor var. concolor",
+    "commonName": "Rocky Mtn. white fir",
+    "status": "STATE",
+    "measurements": [
+      "35\"",
+      "108\"",
+      "107'",
+      "10'",
+      "225"
+    ],
+    "sourceCounty": "Latah",
+    "nominationYears": [
+      "2010"
+    ]
+  },
+  {
+    "page": 2,
+    "row": 4,
+    "scientificName": "Abies grandis",
+    "commonName": "grand fir",
+    "status": "STATE Co-Champ",
+    "measurements": [
+      "70\"",
+      "220\"",
+      "181'",
+      "11'",
+      "412"
+    ],
+    "sourceCounty": "Clearwater",
+    "nominationYears": [
+      "1990"
+    ]
+  },
+  {
+    "page": 2,
+    "row": 5,
+    "scientificName": "Abies grandis",
+    "commonName": "grand fir",
+    "status": "STATE Co-Champ",
+    "measurements": [
+      "74\"",
+      "231\"",
+      "165'",
+      "11'",
+      "407"
+    ],
+    "sourceCounty": "Clearwater",
+    "nominationYears": [
+      "1991"
+    ]
+  },
+  {
+    "page": 2,
+    "row": 6,
+    "scientificName": "Abies lasiocarpa",
+    "commonName": "subalpine fir",
+    "status": "STATE",
+    "measurements": [
+      "50\"",
+      "157\"",
+      "137'",
+      "5'",
+      "299"
+    ],
+    "sourceCounty": "Idaho",
+    "nominationYears": [
+      "1981"
+    ]
+  },
+  {
+    "page": 2,
+    "row": 7,
+    "scientificName": "Abies pinsapo",
+    "commonName": "Spanish pin fir",
+    "status": "STATE",
+    "measurements": [
+      "16\"",
+      "51\"",
+      "94'",
+      "5'",
+      "150"
+    ],
+    "sourceCounty": "Latah",
+    "nominationYears": [
+      "2005"
+    ]
+  },
+  {
+    "page": 3,
+    "row": 1,
+    "scientificName": "Acer glabrum var. douglasii",
+    "commonName": "Douglas’ maple",
+    "status": "STATE Co-Champ",
+    "measurements": [
+      "17\"",
+      "53\"",
+      "80'",
+      "8'",
+      "141"
+    ],
+    "sourceCounty": "Bonner",
+    "nominationYears": [
+      "1989"
+    ]
+  },
+  {
+    "page": 3,
+    "row": 2,
+    "scientificName": "Acer glabrum var. douglasii",
+    "commonName": "Douglas’ maple",
+    "status": "STATE Co-Champ",
+    "measurements": [
+      "20\"",
+      "62\"",
+      "65'",
+      "9'",
+      "136"
+    ],
+    "sourceCounty": "Clearwater",
+    "nominationYears": [
+      "1985"
+    ]
+  },
+  {
+    "page": 3,
+    "row": 3,
+    "scientificName": "Acer glabrum",
+    "commonName": "Rocky Mtn. maple",
+    "status": "STATE",
+    "measurements": [
+      "5\"",
+      "17\"",
+      "25'",
+      "8'",
+      "46"
+    ],
+    "sourceCounty": "Cassia",
+    "nominationYears": [
+      "1985"
+    ]
+  },
+  {
+    "page": 3,
+    "row": 4,
+    "scientificName": "Acer grandidentatum",
+    "commonName": "bigtooth maple",
+    "status": "STATE",
+    "measurements": [
+      "24\"",
+      "76\"",
+      "49'",
+      "9'",
+      "134"
+    ],
+    "sourceCounty": "Franklin",
+    "nominationYears": [
+      "1985"
+    ]
+  },
+  {
+    "page": 3,
+    "row": 5,
+    "scientificName": "Acer macrophyllum",
+    "commonName": "bigleaf maple",
+    "status": "STATE",
+    "measurements": [
+      "56\"",
+      "174\"",
+      "39'",
+      "14'",
+      "227"
+    ],
+    "sourceCounty": "Latah",
+    "nominationYears": [
+      "1989"
+    ]
+  },
+  {
+    "page": 3,
+    "row": 6,
+    "scientificName": "Acer negundo var. interius",
+    "commonName": "boxelder",
+    "status": "STATE",
+    "measurements": [
+      "52\"",
+      "164\"",
+      "46'",
+      "8'",
+      "218"
+    ],
+    "sourceCounty": "Oneida",
+    "nominationYears": [
+      "1984"
+    ]
+  },
+  {
+    "page": 3,
+    "row": 7,
+    "scientificName": "Acer negundo var. negundo",
+    "commonName": "ash-leaf maple",
+    "status": "STATE",
+    "measurements": [
+      "19\"",
+      "58\"",
+      "26'",
+      "24'",
+      "96"
+    ],
+    "sourceCounty": "Nez Perce",
+    "nominationYears": [
+      "1994"
+    ]
+  },
+  {
+    "page": 3,
+    "row": 8,
+    "scientificName": "Acer negundo var. violaceum",
+    "commonName": "boxelder",
+    "status": "STATE",
+    "measurements": [
+      "58\"",
+      "181\"",
+      "72'",
+      "10'",
+      "263"
+    ],
+    "sourceCounty": "Bonneville",
+    "nominationYears": [
+      "1992"
+    ]
+  },
+  {
+    "page": 3,
+    "row": 9,
+    "scientificName": "Acer platanoides",
+    "commonName": "Norway maple",
+    "status": "STATE",
+    "measurements": [
+      "37\"",
+      "116\"",
+      "60'",
+      "17'",
+      "193"
+    ],
+    "sourceCounty": "Idaho",
+    "nominationYears": [
+      "2004"
+    ]
+  },
+  {
+    "page": 4,
+    "row": 1,
+    "scientificName": "Acer rubrum",
+    "commonName": "red maple",
+    "status": "STATE",
+    "measurements": [
+      "50\"",
+      "157\"",
+      "86'",
+      "9'",
+      "252"
+    ],
+    "sourceCounty": "Nez Perce",
+    "nominationYears": [
+      "1995"
+    ]
+  },
+  {
+    "page": 4,
+    "row": 2,
+    "scientificName": "Acer saccharinum",
+    "commonName": "silver maple",
+    "status": "STATE",
+    "measurements": [
+      "70\"",
+      "219\"",
+      "82'",
+      "23'",
+      "324"
+    ],
+    "sourceCounty": "Adam",
+    "nominationYears": [
+      "2008"
+    ]
+  },
+  {
+    "page": 4,
+    "row": 3,
+    "scientificName": "Aesculus hippocastanum",
+    "commonName": "horse chestnut",
+    "status": "STATE",
+    "measurements": [
+      "57\"",
+      "178\"",
+      "55'",
+      "12'",
+      "245"
+    ],
+    "sourceCounty": "Washington",
+    "nominationYears": [
+      "2005"
+    ]
+  },
+  {
+    "page": 4,
+    "row": 4,
+    "scientificName": "Ailanthus altissima",
+    "commonName": "tree-of-heaven",
+    "status": "STATE",
+    "measurements": [
+      "47\"",
+      "148\"",
+      "53'",
+      "13'",
+      "214"
+    ],
+    "sourceCounty": "Nez Perce",
+    "nominationYears": [
+      "1992"
+    ]
+  },
+  {
+    "page": 4,
+    "row": 5,
+    "scientificName": "Albizia julibrissin",
+    "commonName": "mimosa, silktree",
+    "status": "STATE",
+    "measurements": [
+      "40\"",
+      "125\"",
+      "22'",
+      "20'",
+      "167"
+    ],
+    "sourceCounty": "Nez Perce",
+    "nominationYears": [
+      "1994"
+    ]
+  },
+  {
+    "page": 4,
+    "row": 6,
+    "scientificName": "Alnus incana spp. tenuifolia",
+    "commonName": "mountain alder",
+    "status": "STATE",
+    "measurements": [
+      "10\"",
+      "32\"",
+      "30'",
+      "5'",
+      "67"
+    ],
+    "sourceCounty": "Valley",
+    "nominationYears": [
+      "1969"
+    ]
+  },
+  {
+    "page": 4,
+    "row": 7,
+    "scientificName": "Alnus rhombifolia",
+    "commonName": "white alder",
+    "status": "STATE",
+    "measurements": [
+      "41\"",
+      "130\"",
+      "70'",
+      "12'",
+      "212"
+    ],
+    "sourceCounty": "Idaho",
+    "nominationYears": [
+      "1982"
+    ]
+  },
+  {
+    "page": 4,
+    "row": 8,
+    "scientificName": "Alnus rubra",
+    "commonName": "red alder",
+    "status": "STATE",
+    "measurements": [
+      "32\"",
+      "99\"",
+      "71'",
+      "14'",
+      "184"
+    ],
+    "sourceCounty": "Bonner",
+    "nominationYears": [
+      "2016"
+    ]
+  },
+  {
+    "page": 4,
+    "row": 9,
+    "scientificName": "Amelanchier alnifolia",
+    "commonName": "Saskatoon serviceberry",
+    "status": "STATE",
+    "measurements": [
+      "10\"",
+      "30\"",
+      "32'",
+      "6'",
+      "68"
+    ],
+    "sourceCounty": "Idaho",
+    "nominationYears": [
+      "1978"
+    ]
+  },
+  {
+    "page": 4,
+    "row": 10,
+    "scientificName": "Artemisia tridentata",
+    "commonName": "big sagebrush",
+    "status": "STATE",
+    "measurements": [
+      "5\"",
+      "18\"",
+      "13'",
+      "4'",
+      "32"
+    ],
+    "sourceCounty": "Payette",
+    "nominationYears": [
+      "2003"
+    ]
+  },
+  {
+    "page": 5,
+    "row": 1,
+    "scientificName": "Betula occidentalis",
+    "commonName": "water birch",
+    "status": "STATE",
+    "measurements": [
+      "29\"",
+      "91\"",
+      "50'",
+      "7'",
+      "148"
+    ],
+    "sourceCounty": "Cassia",
+    "nominationYears": [
+      "1973"
+    ]
+  },
+  {
+    "page": 5,
+    "row": 2,
+    "scientificName": "Betula papyrifera",
+    "commonName": "paper birch",
+    "status": "STATE",
+    "measurements": [
+      "52\"",
+      "163\"",
+      "75'",
+      "15'",
+      "253"
+    ],
+    "sourceCounty": "Bonner",
+    "nominationYears": [
+      "1991"
+    ]
+  },
+  {
+    "page": 5,
+    "row": 3,
+    "scientificName": "Betula papyifera var. subcordata",
+    "commonName": "northwestern paper birch",
+    "status": "STATE",
+    "measurements": [
+      "15\"",
+      "46\"",
+      "65'",
+      "8'",
+      "119"
+    ],
+    "sourceCounty": "Adams",
+    "nominationYears": [
+      "1967"
+    ]
+  },
+  {
+    "page": 5,
+    "row": 4,
+    "scientificName": "Betula pendula",
+    "commonName": "European white birch",
+    "status": "STATE & NATIONAL Co-Champ",
+    "measurements": [
+      "45\"",
+      "140\"",
+      "62'",
+      "16'",
+      "218"
+    ],
+    "sourceCounty": "Washington",
+    "nominationYears": [
+      "2008"
+    ]
+  },
+  {
+    "page": 5,
+    "row": 5,
+    "scientificName": "Calocedrus decurrens",
+    "commonName": "incense-cedar",
+    "status": "STATE",
+    "measurements": [
+      "25\"",
+      "79\"",
+      "95'",
+      "5'",
+      "179"
+    ],
+    "sourceCounty": "Latah",
+    "nominationYears": [
+      "2005"
+    ]
+  },
+  {
+    "page": 5,
+    "row": 6,
+    "scientificName": "Carya laciniosa",
+    "commonName": "shellbark hickory",
+    "status": "STATE",
+    "measurements": [
+      "25\"",
+      "85\"",
+      "63'",
+      "12'",
+      "160"
+    ],
+    "sourceCounty": "Ada",
+    "nominationYears": [
+      "1994"
+    ]
+  },
+  {
+    "page": 6,
+    "row": 1,
+    "scientificName": "Castanea dentata",
+    "commonName": "American chestnut",
+    "status": "STATE",
+    "measurements": [
+      "42\"",
+      "138\"",
+      "117'",
+      "12'",
+      "267"
+    ],
+    "sourceCounty": "Kootenai",
+    "nominationYears": [
+      "1991"
+    ]
+  },
+  {
+    "page": 6,
+    "row": 2,
+    "scientificName": "Catalpa speciosa",
+    "commonName": "northern catalpa",
+    "status": "STATE",
+    "measurements": [
+      "77\"",
+      "183\"",
+      "80'",
+      "13'",
+      "276"
+    ],
+    "sourceCounty": "Ada",
+    "nominationYears": [
+      "2019"
+    ]
+  },
+  {
+    "page": 6,
+    "row": 3,
+    "scientificName": "Celtis reticulata",
+    "commonName": "netleaf hackberry",
+    "status": "STATE",
+    "measurements": [
+      "45\"",
+      "143\"",
+      "38'",
+      "12'",
+      "193"
+    ],
+    "sourceCounty": "Nez Perce",
+    "nominationYears": [
+      "1990"
+    ]
+  },
+  {
+    "page": 6,
+    "row": 4,
+    "scientificName": "Cercocarpus ledifolius",
+    "commonName": "curl-leaf mountain mahogany",
+    "status": "STATE",
+    "measurements": [
+      "28\"",
+      "89\"",
+      "24'",
+      "14'",
+      "127"
+    ],
+    "sourceCounty": "Bear Lake",
+    "nominationYears": [
+      "2016"
+    ]
+  },
+  {
+    "page": 6,
+    "row": 5,
+    "scientificName": "Cornus florida",
+    "commonName": "flowering dogwood",
+    "status": "STATE",
+    "measurements": [
+      "21\"",
+      "67\"",
+      "32'",
+      "10'",
+      "109"
+    ],
+    "sourceCounty": "Nez Perce",
+    "nominationYears": [
+      "1995"
+    ]
+  },
+  {
+    "page": 6,
+    "row": 6,
+    "scientificName": "Cornus nuttallii",
+    "commonName": "Pacific dogwood",
+    "status": "STATE",
+    "measurements": [
+      "8”",
+      "24”",
+      "28’",
+      "5’",
+      "57"
+    ],
+    "sourceCounty": "Idaho",
+    "nominationYears": [
+      "1987"
+    ]
+  },
+  {
+    "page": 6,
+    "row": 7,
+    "scientificName": "Cornus sericea ssp. occidentalis",
+    "commonName": "western dogwood",
+    "status": "STATE",
+    "measurements": [
+      "4\"",
+      "11\"",
+      "16'",
+      "3'",
+      "30"
+    ],
+    "sourceCounty": "Idaho",
+    "nominationYears": [
+      "1983"
+    ]
+  },
+  {
+    "page": 7,
+    "row": 1,
+    "scientificName": "Cornus sericea ssp. sericea",
+    "commonName": "red-osier dogwood",
+    "status": "STATE",
+    "measurements": [
+      "4\"",
+      "13\"",
+      "26'",
+      "4'",
+      "43"
+    ],
+    "sourceCounty": "Idaho",
+    "nominationYears": [
+      "2000"
+    ]
+  },
+  {
+    "page": 7,
+    "row": 2,
+    "scientificName": "Corylus cornuta var. cornuta",
+    "commonName": "beaked hazelnut",
+    "status": "STATE",
+    "measurements": [
+      "3\"",
+      "10\"",
+      "24'",
+      "4'",
+      "38"
+    ],
+    "sourceCounty": "Latah",
+    "nominationYears": [
+      "2005"
+    ]
+  },
+  {
+    "page": 7,
+    "row": 3,
+    "scientificName": "Cotinus obovatus",
+    "commonName": "American smoketree",
+    "status": "STATE",
+    "measurements": [
+      "19\"",
+      "60\"",
+      "47'",
+      "8'",
+      "115"
+    ],
+    "sourceCounty": "Nez Perce",
+    "nominationYears": [
+      "1974"
+    ]
+  },
+  {
+    "page": 7,
+    "row": 4,
+    "scientificName": "Crataegus douglasii",
+    "commonName": "black hawthorn",
+    "status": "STATE",
+    "measurements": [
+      "32\"",
+      "101\"",
+      "39'",
+      "11'",
+      "151"
+    ],
+    "sourceCounty": "Nez Perce",
+    "nominationYears": [
+      "2008"
+    ]
+  },
+  {
+    "page": 7,
+    "row": 5,
+    "scientificName": "Crataegus rivularis",
+    "commonName": "river hawthorn",
+    "status": "STATE",
+    "measurements": [
+      "10\"",
+      "30\"",
+      "21'",
+      "5'",
+      "56"
+    ],
+    "sourceCounty": "Caribou",
+    "nominationYears": [
+      "1984"
+    ]
+  },
+  {
+    "page": 7,
+    "row": 6,
+    "scientificName": "Crataegus suksdorfii",
+    "commonName": "Suksdorf hawthorn",
+    "status": "STATE",
+    "measurements": [
+      "11\"",
+      "36\"",
+      "44'",
+      "8'",
+      "88"
+    ],
+    "sourceCounty": "Boundary",
+    "nominationYears": [
+      "1989"
+    ]
+  },
+  {
+    "page": 8,
+    "row": 1,
+    "scientificName": "Elaeagnus angustifolia",
+    "commonName": "Russian olive",
+    "status": "STATE",
+    "measurements": [
+      "40\"",
+      "126\"",
+      "58'",
+      "13'",
+      "197"
+    ],
+    "sourceCounty": "Bannock",
+    "nominationYears": [
+      "2008"
+    ]
+  },
+  {
+    "page": 8,
+    "row": 2,
+    "scientificName": "Fagus grandifolia",
+    "commonName": "American beech",
+    "status": "STATE",
+    "measurements": [
+      "23\"",
+      "73\"",
+      "98'",
+      "11'",
+      "182"
+    ],
+    "sourceCounty": "Latah",
+    "nominationYears": [
+      "2006"
+    ]
+  },
+  {
+    "page": 8,
+    "row": 3,
+    "scientificName": "Fagus sylvatica",
+    "commonName": "European beech",
+    "status": "STATE",
+    "measurements": [
+      "41\"",
+      "128\"",
+      "68'",
+      "16'",
+      "212"
+    ],
+    "sourceCounty": "Washington",
+    "nominationYears": [
+      "2006"
+    ]
+  },
+  {
+    "page": 8,
+    "row": 4,
+    "scientificName": "Frangula purshiana",
+    "commonName": "cascara buckthorn",
+    "status": "STATE",
+    "measurements": [
+      "27\"",
+      "84\"",
+      "33'",
+      "5'",
+      "122"
+    ],
+    "sourceCounty": "Idaho",
+    "nominationYears": [
+      "1975"
+    ]
+  },
+  {
+    "page": 8,
+    "row": 5,
+    "scientificName": "Fraxinus ornus",
+    "commonName": "flowering ash",
+    "status": "STATE",
+    "measurements": [
+      "7\"",
+      "20\"",
+      "15'",
+      "4'",
+      "39"
+    ],
+    "sourceCounty": "Nez Perce",
+    "nominationYears": [
+      "1994"
+    ]
+  },
+  {
+    "page": 8,
+    "row": 6,
+    "scientificName": "Fraxinus quadrangulata",
+    "commonName": "blue ash",
+    "status": "STATE",
+    "measurements": [
+      "27\"",
+      "85\"",
+      "45'",
+      "12'",
+      "142"
+    ],
+    "sourceCounty": "Nez Perce",
+    "nominationYears": [
+      "1994"
+    ]
+  },
+  {
+    "page": 8,
+    "row": 7,
+    "scientificName": "Ginkgo biloba",
+    "commonName": "ginkgo",
+    "status": "STATE",
+    "measurements": [
+      "30\"",
+      "93\"",
+      "55'",
+      "14'",
+      "162"
+    ],
+    "sourceCounty": "Nez Perce",
+    "nominationYears": [
+      "1994"
+    ]
+  },
+  {
+    "page": 8,
+    "row": 8,
+    "scientificName": "Gleditsia triacanthos",
+    "commonName": "honeylocust",
+    "status": "STATE",
+    "measurements": [
+      "35\"",
+      "111\"",
+      "100'",
+      "17'",
+      "228"
+    ],
+    "sourceCounty": "Latah",
+    "nominationYears": [
+      "1998"
+    ]
+  },
+  {
+    "page": 9,
+    "row": 1,
+    "scientificName": "Gymnocladus dioicus",
+    "commonName": "Kentucky coffeetree",
+    "status": "STATE",
+    "measurements": [
+      "41\"",
+      "129\"",
+      "74'",
+      "12'",
+      "215"
+    ],
+    "sourceCounty": "Ada",
+    "nominationYears": [
+      "1986"
+    ]
+  },
+  {
+    "page": 9,
+    "row": 2,
+    "scientificName": "Juglans cinerea",
+    "commonName": "butternut",
+    "status": "STATE",
+    "measurements": [
+      "33\"",
+      "104\"",
+      "91'",
+      "13'",
+      "208"
+    ],
+    "sourceCounty": "Bonner",
+    "nominationYears": [
+      "1985"
+    ]
+  },
+  {
+    "page": 9,
+    "row": 3,
+    "scientificName": "Juglans regia",
+    "commonName": "English walnut",
+    "status": "STATE",
+    "measurements": [
+      "73\"",
+      "156\"",
+      "82'",
+      "23'",
+      "261"
+    ],
+    "sourceCounty": "Nez Perce",
+    "nominationYears": [
+      "2000"
+    ]
+  },
+  {
+    "page": 9,
+    "row": 4,
+    "scientificName": "Juglans nigra",
+    "commonName": "black walnut",
+    "status": "STATE",
+    "measurements": [
+      "76\"",
+      "238\"",
+      "98'",
+      "28'",
+      "364"
+    ],
+    "sourceCounty": "Washington",
+    "nominationYears": [
+      "2004"
+    ]
+  },
+  {
+    "page": 9,
+    "row": 5,
+    "scientificName": "Juniperus occidentalis",
+    "commonName": "western juniper",
+    "status": "STATE",
+    "measurements": [
+      "65\"",
+      "205\"",
+      "57'",
+      "11'",
+      "273"
+    ],
+    "sourceCounty": "Owyhee",
+    "nominationYears": [
+      "1985"
+    ]
+  },
+  {
+    "page": 9,
+    "row": 6,
+    "scientificName": "Juniperus osteosperma",
+    "commonName": "Utah juniper",
+    "status": "STATE",
+    "measurements": [
+      "19\"",
+      "61\"",
+      "30'",
+      "6'",
+      "97"
+    ],
+    "sourceCounty": "Cassia",
+    "nominationYears": [
+      "1973"
+    ]
+  },
+  {
+    "page": 9,
+    "row": 7,
+    "scientificName": "Juniperus scopulorum",
+    "commonName": "Rocky Mtn. juniper",
+    "status": "STATE",
+    "measurements": [
+      "51\"",
+      "160\"",
+      "26'",
+      "6'",
+      "192"
+    ],
+    "sourceCounty": "Franklin",
+    "nominationYears": [
+      "1989"
+    ]
+  },
+  {
+    "page": 10,
+    "row": 1,
+    "scientificName": "Larix lyallii",
+    "commonName": "subalpine larch",
+    "status": "STATE",
+    "measurements": [
+      "50\"",
+      "157\"",
+      "95'",
+      "9'",
+      "261"
+    ],
+    "sourceCounty": "Bonner",
+    "nominationYears": [
+      "1970"
+    ]
+  },
+  {
+    "page": 10,
+    "row": 2,
+    "scientificName": "Larix occidentalis",
+    "commonName": "western larch",
+    "status": "STATE",
+    "measurements": [
+      "76\"",
+      "239\"",
+      "142'",
+      "6'",
+      "387"
+    ],
+    "sourceCounty": "Latah",
+    "nominationYears": [
+      "1977"
+    ]
+  },
+  {
+    "page": 10,
+    "row": 3,
+    "scientificName": "Liriodendron tulipifera",
+    "commonName": "yellow-poplar",
+    "status": "STATE",
+    "measurements": [
+      "42\"",
+      "133\"",
+      "77'",
+      "17'",
+      "227"
+    ],
+    "sourceCounty": "Nez Perce",
+    "nominationYears": [
+      "1994"
+    ]
+  },
+  {
+    "page": 10,
+    "row": 4,
+    "scientificName": "Maclura pomifera",
+    "commonName": "Osage-orange",
+    "status": "STATE",
+    "measurements": [
+      "29\"",
+      "90\"",
+      "48'",
+      "9'",
+      "147"
+    ],
+    "sourceCounty": "Nez Perce",
+    "nominationYears": [
+      "1996"
+    ]
+  },
+  {
+    "page": 10,
+    "row": 5,
+    "scientificName": "Morus nigra",
+    "commonName": "black mulberry",
+    "status": "STATE",
+    "measurements": [
+      "27\"",
+      "84\"",
+      "38'",
+      "10'",
+      "132"
+    ],
+    "sourceCounty": "Nez Perce",
+    "nominationYears": [
+      "1995"
+    ]
+  },
+  {
+    "page": 10,
+    "row": 6,
+    "scientificName": "Paulownia tomentosa",
+    "commonName": "Royal paulownia",
+    "status": "STATE",
+    "measurements": [
+      "34\"",
+      "105\"",
+      "69'",
+      "23'",
+      "197"
+    ],
+    "sourceCounty": "Nez Perce",
+    "nominationYears": [
+      "1994"
+    ]
+  },
+  {
+    "page": 10,
+    "row": 7,
+    "scientificName": "Picea engelmannii",
+    "commonName": "Engelmann spruce",
+    "status": "STATE",
+    "measurements": [
+      "93\"",
+      "292\"",
+      "181'",
+      "13'",
+      "486"
+    ],
+    "sourceCounty": "Boise",
+    "nominationYears": [
+      "2005"
+    ]
+  },
+  {
+    "page": 11,
+    "row": 1,
+    "scientificName": "Picea pungens",
+    "commonName": "blue spruce",
+    "status": "STATE",
+    "measurements": [
+      "43\"",
+      "134\"",
+      "123'",
+      "9'",
+      "266"
+    ],
+    "sourceCounty": "Bonneville",
+    "nominationYears": [
+      "1979"
+    ]
+  },
+  {
+    "page": 11,
+    "row": 2,
+    "scientificName": "Pinus albicaulis",
+    "commonName": "whitebark pine",
+    "status": "STATE",
+    "measurements": [
+      "85\"",
+      "268\"",
+      "65'",
+      "7'",
+      "340"
+    ],
+    "sourceCounty": "Custer",
+    "nominationYears": [
+      "2007"
+    ]
+  },
+  {
+    "page": 11,
+    "row": 3,
+    "scientificName": "Pinus densiflora",
+    "commonName": "Japanese red pine",
+    "status": "STATE",
+    "measurements": [
+      "45\"",
+      "138\"",
+      "42'",
+      "11'",
+      "191"
+    ],
+    "sourceCounty": "Nez Perce",
+    "nominationYears": [
+      "1995"
+    ]
+  },
+  {
+    "page": 11,
+    "row": 4,
+    "scientificName": "Pinus flexilis",
+    "commonName": "limber pine",
+    "status": "STATE",
+    "measurements": [
+      "70\"",
+      "220\"",
+      "88'",
+      "24'",
+      "332"
+    ],
+    "sourceCounty": "Bear Lake",
+    "nominationYears": [
+      "2016"
+    ]
+  },
+  {
+    "page": 11,
+    "row": 5,
+    "scientificName": "Pinus monophylla",
+    "commonName": "singleleaf pinyon pine",
+    "status": "STATE",
+    "measurements": [
+      "27\"",
+      "84\"",
+      "55'",
+      "5'",
+      "144"
+    ],
+    "sourceCounty": "Cassia",
+    "nominationYears": [
+      "1973"
+    ]
+  },
+  {
+    "page": 11,
+    "row": 6,
+    "scientificName": "Pinus monticola",
+    "commonName": "western white pine",
+    "status": "STATE",
+    "measurements": [
+      "79\"",
+      "247\"",
+      "229'",
+      "6'",
+      "482"
+    ],
+    "sourceCounty": "Clearwater",
+    "nominationYears": [
+      "1992"
+    ]
+  },
+  {
+    "page": 12,
+    "row": 1,
+    "scientificName": "Pinus nigra",
+    "commonName": "Austrian pine",
+    "status": "STATE",
+    "measurements": [
+      "46\"",
+      "145\"",
+      "63'",
+      "12'",
+      "220"
+    ],
+    "sourceCounty": "Latah",
+    "nominationYears": [
+      "1987"
+    ]
+  },
+  {
+    "page": 12,
+    "row": 2,
+    "scientificName": "Pinus ponderosa var. ponderosa",
+    "commonName": "ponderosa pine",
+    "status": "STATE Co-Champ",
+    "measurements": [
+      "72\"",
+      "225\"",
+      "182'",
+      "16'",
+      "423"
+    ],
+    "sourceCounty": "Valley",
+    "nominationYears": [
+      "2008"
+    ]
+  },
+  {
+    "page": 12,
+    "row": 3,
+    "scientificName": "Pinus ponderosa var. ponderosa",
+    "commonName": "ponderosa pine",
+    "status": "STATE Co-Champ",
+    "measurements": [
+      "74\"",
+      "233”",
+      "179’",
+      "13'",
+      "425"
+    ],
+    "sourceCounty": "Clearwater",
+    "nominationYears": [
+      "2010"
+    ]
+  },
+  {
+    "page": 12,
+    "row": 4,
+    "scientificName": "Pinus sylvestris",
+    "commonName": "Scots pine",
+    "status": "STATE",
+    "measurements": [
+      "42\"",
+      "132\"",
+      "75'",
+      "13'",
+      "219"
+    ],
+    "sourceCounty": "Ada",
+    "nominationYears": [
+      "2009"
+    ]
+  },
+  {
+    "page": 12,
+    "row": 5,
+    "scientificName": "Platanus acerifolia",
+    "commonName": "London planetree",
+    "status": "STATE",
+    "measurements": [
+      "59\"",
+      "184\"",
+      "101'",
+      "22'",
+      "307"
+    ],
+    "sourceCounty": "Ada",
+    "nominationYears": [
+      "1992"
+    ]
+  },
+  {
+    "page": 12,
+    "row": 6,
+    "scientificName": "Platanus occidentalis",
+    "commonName": "American sycamore",
+    "status": "STATE",
+    "measurements": [
+      "54\"",
+      "169\"",
+      "98'",
+      "27'",
+      "294"
+    ],
+    "sourceCounty": "Nez Perce",
+    "nominationYears": [
+      "2004"
+    ]
+  },
+  {
+    "page": 12,
+    "row": 7,
+    "scientificName": "Populus alba",
+    "commonName": "white poplar",
+    "status": "STATE",
+    "measurements": [
+      "45\"",
+      "142\"",
+      "106'",
+      "11'",
+      "259"
+    ],
+    "sourceCounty": "Latah",
+    "nominationYears": [
+      "2003"
+    ]
+  },
+  {
+    "page": 13,
+    "row": 1,
+    "scientificName": "Populus angustifolia",
+    "commonName": "narrowleaf cottonwood",
+    "status": "STATE",
+    "measurements": [
+      "39\"",
+      "123\"",
+      "74'",
+      "13'",
+      "210"
+    ],
+    "sourceCounty": "Jefferson",
+    "nominationYears": [
+      "1979"
+    ]
+  },
+  {
+    "page": 13,
+    "row": 2,
+    "scientificName": "Populus deltoides ssp. deltoides",
+    "commonName": "eastern cottonwood",
+    "status": "STATE",
+    "measurements": [
+      "113\"",
+      "361\"",
+      "95'",
+      "8'",
+      "464"
+    ],
+    "sourceCounty": "Ada",
+    "nominationYears": [
+      "2004"
+    ]
+  },
+  {
+    "page": 13,
+    "row": 3,
+    "scientificName": "Populus balsamifera ssp. trichocarpa",
+    "commonName": "black cottonwood",
+    "status": "STATE",
+    "measurements": [
+      "96\"",
+      "302\"",
+      "113'",
+      "20'",
+      "435"
+    ],
+    "sourceCounty": "Bonner",
+    "nominationYears": [
+      "1991"
+    ]
+  },
+  {
+    "page": 13,
+    "row": 4,
+    "scientificName": "Populus tremuloides",
+    "commonName": "quaking aspen",
+    "status": "STATE",
+    "measurements": [
+      "36\"",
+      "114\"",
+      "87'",
+      "13'",
+      "214"
+    ],
+    "sourceCounty": "Blaine",
+    "nominationYears": [
+      "2009"
+    ]
+  },
+  {
+    "page": 13,
+    "row": 5,
+    "scientificName": "Prunus armeniaca",
+    "commonName": "apricot",
+    "status": "STATE",
+    "measurements": [
+      "36\"",
+      "114\"",
+      "41'",
+      "12'",
+      "167"
+    ],
+    "sourceCounty": "Idaho",
+    "nominationYears": [
+      "2005"
+    ]
+  },
+  {
+    "page": 13,
+    "row": 6,
+    "scientificName": "Prunus emarginata",
+    "commonName": "bitter cherry",
+    "status": "STATE",
+    "measurements": [
+      "12\"",
+      "39\"",
+      "57'",
+      "5'",
+      "101"
+    ],
+    "sourceCounty": "Idaho",
+    "nominationYears": [
+      "1992"
+    ]
+  },
+  {
+    "page": 13,
+    "row": 7,
+    "scientificName": "Prunus subhirtella var. pendula",
+    "commonName": "weeping cherry",
+    "status": "STATE",
+    "measurements": [
+      "22\"",
+      "69.5\"",
+      "37'",
+      "4'",
+      "111"
+    ],
+    "sourceCounty": "Ada",
+    "nominationYears": [
+      "2004"
+    ]
+  },
+  {
+    "page": 14,
+    "row": 1,
+    "scientificName": "Prunus virginiana var. melanocarpa",
+    "commonName": "black chokecherry",
+    "status": "STATE",
+    "measurements": [
+      "17\"",
+      "54\"",
+      "73'",
+      "5'",
+      "132"
+    ],
+    "sourceCounty": "Kootenai",
+    "nominationYears": [
+      "1990"
+    ]
+  },
+  {
+    "page": 14,
+    "row": 2,
+    "scientificName": "Pseudotsuga menziesii var. glauca",
+    "commonName": "Rocky Mtn. Douglas-fir",
+    "status": "STATE",
+    "measurements": [
+      "73\"",
+      "230\"",
+      "224'",
+      "11'",
+      "465"
+    ],
+    "sourceCounty": "Clearwater",
+    "nominationYears": [
+      "2018"
+    ]
+  },
+  {
+    "page": 14,
+    "row": 3,
+    "scientificName": "Purshia tridentata",
+    "commonName": "antelope bitterbrush",
+    "status": "STATE",
+    "measurements": [
+      "8\"",
+      "24\"",
+      "14'",
+      "3'",
+      "41"
+    ],
+    "sourceCounty": "Owyhee",
+    "nominationYears": [
+      "1985"
+    ]
+  },
+  {
+    "page": 14,
+    "row": 4,
+    "scientificName": "Quercus macrocarpa",
+    "commonName": "bur oak",
+    "status": "STATE",
+    "measurements": [
+      "54\"",
+      "169\"",
+      "105'",
+      "27'",
+      "301"
+    ],
+    "sourceCounty": "Ada",
+    "nominationYears": [
+      "2008"
+    ]
+  },
+  {
+    "page": 14,
+    "row": 5,
+    "scientificName": "Quercus robur",
+    "commonName": "English oak",
+    "status": "STATE",
+    "measurements": [
+      "56\"",
+      "177\"",
+      "92'",
+      "22'",
+      "292"
+    ],
+    "sourceCounty": "Ada",
+    "nominationYears": [
+      "2008"
+    ]
+  },
+  {
+    "page": 14,
+    "row": 6,
+    "scientificName": "Quercus rubra",
+    "commonName": "northern red oak",
+    "status": "STATE",
+    "measurements": [
+      "47\"",
+      "148\"",
+      "96'",
+      "19'",
+      "263"
+    ],
+    "sourceCounty": "Nez Perce",
+    "nominationYears": [
+      "1989"
+    ]
+  },
+  {
+    "page": 14,
+    "row": 7,
+    "scientificName": "Rhus glabra",
+    "commonName": "smooth sumac",
+    "status": "STATE",
+    "measurements": [
+      "7\"",
+      "22\"",
+      "20'",
+      "2'",
+      "44"
+    ],
+    "sourceCounty": "Nez Perce",
+    "nominationYears": [
+      "2007"
+    ]
+  },
+  {
+    "page": 15,
+    "row": 1,
+    "scientificName": "Robinia pseudoacacia",
+    "commonName": "black locust",
+    "status": "STATE",
+    "measurements": [
+      "50\"",
+      "158\"",
+      "87'",
+      "16'",
+      "261"
+    ],
+    "sourceCounty": "Nez Perce",
+    "nominationYears": [
+      "1990"
+    ]
+  },
+  {
+    "page": 15,
+    "row": 2,
+    "scientificName": "Salix alba",
+    "commonName": "golden willow",
+    "status": "STATE",
+    "measurements": [
+      "81\"",
+      "253\"",
+      "81'",
+      "17'",
+      "351"
+    ],
+    "sourceCounty": "Latah",
+    "nominationYears": [
+      "2005"
+    ]
+  },
+  {
+    "page": 15,
+    "row": 3,
+    "scientificName": "Salix alba var. tristis",
+    "commonName": "golden weeping willow",
+    "status": "STATE",
+    "measurements": [
+      "107\"",
+      "336\"",
+      "65'",
+      "20'",
+      "421"
+    ],
+    "sourceCounty": "Idaho",
+    "nominationYears": [
+      "2004"
+    ]
+  },
+  {
+    "page": 15,
+    "row": 4,
+    "scientificName": "Salix amygdaloides",
+    "commonName": "peachleaf willow",
+    "status": "STATE",
+    "measurements": [
+      "23\"",
+      "71\"",
+      "42'",
+      "10'",
+      "123"
+    ],
+    "sourceCounty": "Owyhee",
+    "nominationYears": [
+      "1978"
+    ]
+  },
+  {
+    "page": 15,
+    "row": 5,
+    "scientificName": "Salix bebbiana",
+    "commonName": "Bebb willow",
+    "status": "STATE",
+    "measurements": [
+      "32\"",
+      "101\"",
+      "23'",
+      "7'",
+      "131"
+    ],
+    "sourceCounty": "Cassia",
+    "nominationYears": [
+      "1990"
+    ]
+  },
+  {
+    "page": 15,
+    "row": 6,
+    "scientificName": "Salix exigua var. exigua",
+    "commonName": "coyote willow",
+    "status": "STATE Co-Champ",
+    "measurements": [
+      "5\"",
+      "17\"",
+      "24'",
+      "2'",
+      "43"
+    ],
+    "sourceCounty": "Lemhi",
+    "nominationYears": [
+      "1983"
+    ]
+  },
+  {
+    "page": 15,
+    "row": 7,
+    "scientificName": "Salix exigua var. exigua",
+    "commonName": "coyote willow",
+    "status": "STATE Co-Champ",
+    "measurements": [
+      "6\"",
+      "18\"",
+      "23'",
+      "3'",
+      "44"
+    ],
+    "sourceCounty": "Jefferson",
+    "nominationYears": [
+      "1997"
+    ]
+  },
+  {
+    "page": 15,
+    "row": 8,
+    "scientificName": "Salix lasiandra var. caudata",
+    "commonName": "greenleaf willow",
+    "status": "STATE",
+    "measurements": [
+      "19\"",
+      "58\"",
+      "49'",
+      "5'",
+      "112"
+    ],
+    "sourceCounty": "Custer",
+    "nominationYears": [
+      "1983"
+    ]
+  },
+  {
+    "page": 16,
+    "row": 1,
+    "scientificName": "Salix lutea",
+    "commonName": "yellow willow",
+    "status": "STATE",
+    "measurements": [
+      "8\"",
+      "25\"",
+      "24'",
+      "4'",
+      "53"
+    ],
+    "sourceCounty": "Lemhi",
+    "nominationYears": [
+      "1983"
+    ]
+  },
+  {
+    "page": 16,
+    "row": 2,
+    "scientificName": "Salix nigra",
+    "commonName": "black willow",
+    "status": "STATE",
+    "measurements": [
+      "55\"",
+      "180\"",
+      "52'",
+      "36'",
+      "268"
+    ],
+    "sourceCounty": "Madison",
+    "nominationYears": [
+      "1991"
+    ]
+  },
+  {
+    "page": 16,
+    "row": 3,
+    "scientificName": "Salix rubens",
+    "commonName": "hybrid crack willow",
+    "status": "STATE",
+    "measurements": [
+      "59\"",
+      "183\"",
+      "75'",
+      "22'",
+      "280"
+    ],
+    "sourceCounty": "Latah",
+    "nominationYears": [
+      "1982"
+    ]
+  },
+  {
+    "page": 16,
+    "row": 4,
+    "scientificName": "Salix scouleriana",
+    "commonName": "Scouler willow",
+    "status": "STATE",
+    "measurements": [
+      "22\"",
+      "68\"",
+      "45'",
+      "5'",
+      "118"
+    ],
+    "sourceCounty": "Valley",
+    "nominationYears": [
+      "1969"
+    ]
+  },
+  {
+    "page": 16,
+    "row": 5,
+    "scientificName": "Sambucus nigra spp. cerulea",
+    "commonName": "blue elderberry",
+    "status": "STATE",
+    "measurements": [
+      "20\"",
+      "62\"",
+      "35'",
+      "9'",
+      "106"
+    ],
+    "sourceCounty": "Idaho",
+    "nominationYears": [
+      "1976"
+    ]
+  },
+  {
+    "page": 16,
+    "row": 6,
+    "scientificName": "Sassafras albidum",
+    "commonName": "sassafras",
+    "status": "STATE",
+    "measurements": [
+      "17\"",
+      "53\"",
+      "31'",
+      "6'",
+      "90"
+    ],
+    "sourceCounty": "Clearwater",
+    "nominationYears": [
+      "1991"
+    ]
+  },
+  {
+    "page": 16,
+    "row": 7,
+    "scientificName": "Sequoiadendron giganteum",
+    "commonName": "giant sequoia",
+    "status": "STATE",
+    "measurements": [
+      "79\"",
+      "247\"",
+      "90'",
+      "5'",
+      "342"
+    ],
+    "sourceCounty": "Ada",
+    "nominationYears": [
+      "2017"
+    ]
+  },
+  {
+    "page": 17,
+    "row": 1,
+    "scientificName": "Sorbus aucuparia",
+    "commonName": "European mountain ash",
+    "status": "STATE",
+    "measurements": [
+      "19\"",
+      "61\"",
+      "47'",
+      "7'",
+      "115"
+    ],
+    "sourceCounty": "Nez Perce",
+    "nominationYears": [
+      "1996"
+    ]
+  },
+  {
+    "page": 17,
+    "row": 2,
+    "scientificName": "Sorbus hybrida",
+    "commonName": "oakleaf mountain-ash",
+    "status": "STATE",
+    "measurements": [
+      "34\"",
+      "113\"",
+      "34'",
+      "11'",
+      "158"
+    ],
+    "sourceCounty": "Kootenai",
+    "nominationYears": [
+      "1991"
+    ]
+  },
+  {
+    "page": 17,
+    "row": 3,
+    "scientificName": "Syringa reticulata",
+    "commonName": "Japanese tree lilac",
+    "status": "STATE",
+    "measurements": [
+      "16\"",
+      "50\"",
+      "23'",
+      "4'",
+      "77"
+    ],
+    "sourceCounty": "Bonneville",
+    "nominationYears": [
+      "1993"
+    ]
+  },
+  {
+    "page": 17,
+    "row": 4,
+    "scientificName": "Taxus brevifolia",
+    "commonName": "Pacific yew",
+    "status": "STATE",
+    "measurements": [
+      "39\"",
+      "122\"",
+      "44'",
+      "6'",
+      "172"
+    ],
+    "sourceCounty": "Idaho",
+    "nominationYears": [
+      "1987"
+    ]
+  },
+  {
+    "page": 17,
+    "row": 5,
+    "scientificName": "Thuja occidentalis",
+    "commonName": "northern white cedar",
+    "status": "STATE",
+    "measurements": [
+      "17\"",
+      "52\"",
+      "44'",
+      "4'",
+      "100"
+    ],
+    "sourceCounty": "Lemhi",
+    "nominationYears": [
+      "2018"
+    ]
+  },
+  {
+    "page": 17,
+    "row": 6,
+    "scientificName": "Thuja plicata",
+    "commonName": "western redcedar",
+    "status": "STATE",
+    "measurements": [
+      "217\"",
+      "680\"",
+      "177'",
+      "10'",
+      "867"
+    ],
+    "sourceCounty": "Clearwater",
+    "nominationYears": [
+      "1979"
+    ]
+  },
+  {
+    "page": 17,
+    "row": 7,
+    "scientificName": "Tilia americana",
+    "commonName": "American basswood",
+    "status": "STATE",
+    "measurements": [
+      "30\"",
+      "94\"",
+      "79'",
+      "5'",
+      "178"
+    ],
+    "sourceCounty": "Ada",
+    "nominationYears": [
+      "2006"
+    ]
+  },
+  {
+    "page": 17,
+    "row": 8,
+    "scientificName": "Tsuga heterophylla",
+    "commonName": "western hemlock",
+    "status": "STATE",
+    "measurements": [
+      "58\"",
+      "182\"",
+      "165'",
+      "14'",
+      "361"
+    ],
+    "sourceCounty": "Boundary",
+    "nominationYears": [
+      "1984"
+    ]
+  },
+  {
+    "page": 18,
+    "row": 1,
+    "scientificName": "Tsuga mertensiana",
+    "commonName": "mountain hemlock",
+    "status": "STATE",
+    "measurements": [
+      "64\"",
+      "202\"",
+      "136'",
+      "9'",
+      "347"
+    ],
+    "sourceCounty": "Shoshone",
+    "nominationYears": [
+      "1984"
+    ]
+  },
+  {
+    "page": 18,
+    "row": 2,
+    "scientificName": "Ulmus americana",
+    "commonName": "American elm",
+    "status": "STATE",
+    "measurements": [
+      "57\"",
+      "180\"",
+      "98'",
+      "22'",
+      "300"
+    ],
+    "sourceCounty": "Gem",
+    "nominationYears": [
+      "1998"
+    ]
+  },
+  {
+    "page": 18,
+    "row": 3,
+    "scientificName": "Ulmus pumila",
+    "commonName": "Siberian elm",
+    "status": "STATE",
+    "measurements": [
+      "82\"",
+      "257\"",
+      "83'",
+      "21'",
+      "361"
+    ],
+    "sourceCounty": "Gooding",
+    "nominationYears": [
+      "2008"
+    ]
+  },
+  {
+    "page": 18,
+    "row": 4,
+    "scientificName": "Zelkova serrata",
+    "commonName": "Japanese zelkova",
+    "status": "STATE",
+    "measurements": [
+      "52\"",
+      "162\"",
+      "64'",
+      "20'",
+      "246"
+    ],
+    "sourceCounty": "Ada",
+    "nominationYears": [
+      "2018"
+    ]
+  }
+]

@@ -17,7 +17,7 @@ Trees to Visit and Return to Your Tree are primary navigation destinations. The 
 ## Current coverage
 
 <!-- coverage:start -->
-- Champion Map: **39 states**, **7,759 listed records**, and **7,320 records with approximate map points**.
+- Champion Map: **40 states**, **7,880 listed records**, and **7,441 records with approximate map points**.
 - Tree Library: **63 species profiles** and **6 photographic comparisons**.
 - Trees to Visit: **14 guides across 11 states**.
 
@@ -608,3 +608,15 @@ Adds Scarlet Oak, Red Mulberry, Black Locust, Pawpaw, Ginkgo, and American Holly
 ## Five Library trees and a pine barrens practice
 
 Adds Southern Magnolia, Honeylocust, Loblolly Pine, American Persimmon, and Pitch Pine, bringing the Library to 63 species. Each includes identification, seasonal observations, three original contemplative themes, a four-step outdoor practice, credited local photographs, search aliases, and reciprocal exact scientific-name Champion Map links. Pitch Pine’s practice explores resilience, renewal, and belonging, with Massachusetts pine barrens context and a prompt to return with care. Photographic originals and licenses are recorded in `scripts/fixtures/tree-library-five-photo-sources.json`; converted WebP versions retain the indicated licenses. Botanical references are NC State Extension Plant Toolbox profiles; the Pitch Pine page also links to MassWildlife’s barrens overview.
+
+## Idaho — June 13, 2019 register
+
+Idaho adds 121 state-champion records across 117 published species and varieties, retaining four pairs of state co-champions and the European white birch’s historical combined state/national co-champion label. All STATE rows from PDF pages 2–18 are included; national comparison rows from other states are excluded. The University of Idaho’s current program page links this dated register and warns that some trees may no longer be alive. Current titles, condition and visiting access are unverified.
+
+All records map to 29 approximate Census county points; no tree coordinates, detailed locations, owner/nominator names or addresses are published. The source county “Adam” maps to Adams. The Cambridge / Idaho County golden weeping willow entry retains its published county, with a visible conflict note. Source botanical spellings and varieties remain unchanged.
+
+The source’s quarter-average crown spread in feet is retained as `crownPoints` and multiplied by four for full average crown spread. DBH/circumference are in inches and height in feet. Published scores remain unchanged. Nomination years are shown as `nominated`; `measured` remains null. All 121 measurement rows reconcile independently with Poppler layout text.
+
+Source: https://sites.stat.washington.edu/jaw/CAW/june-2019-id-registry-big-trees.pdf
+Program: https://www.uidaho.edu/extension/natural-resources/forestry/big-tree
+Retrieved October 11, 2026. Reproduce using `python scripts/import-idaho-champions.py REGISTER.pdf COUNTIES.zip` and the 2025 Census national county Gazetteer. The importer checks the sanitized fixture before writing; audit hashes preserve source identity. Idaho is available through state and West filters, shared record URLs, and `/api/champion-trees/ID`.
