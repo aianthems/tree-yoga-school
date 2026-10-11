@@ -17,7 +17,7 @@ Trees to Visit and Return to Your Tree are primary navigation destinations. The 
 ## Current coverage
 
 <!-- coverage:start -->
-- Champion Map: **43 states**, **8,302 listed records**, and **7,862 records with approximate map points**.
+- Champion Map: **44 states**, **8,566 listed records**, and **8,120 records with approximate map points**.
 - Tree Library: **63 species profiles** and **6 photographic comparisons**.
 - Trees to Visit: **14 guides across 11 states**.
 

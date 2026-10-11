@@ -1,0 +1,37 @@
+{
+  "registerUrl": "https://californiabigtrees.calpoly.edu/",
+  "dataUrl": "https://www.selectree.calpoly.edu/api/bigtrees/getAllBt",
+  "geographyUrl": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_counties_national.zip",
+  "retrieved": "October 11, 2026",
+  "edition": null,
+  "expectedRecords": 264,
+  "mappedRecords": 258,
+  "countyCount": 46,
+  "unmappedIds": [
+    "ca-43",
+    "ca-44",
+    "ca-89",
+    "ca-137",
+    "ca-142",
+    "ca-148"
+  ],
+  "stateChampionFlags": 263,
+  "nationalChampionFlags": 178,
+  "coChampionFlags": 36,
+  "coChampionOnlyIds": [
+    229
+  ],
+  "countySpellingCorrections": [
+    527,
+    528
+  ],
+  "scoreDiscrepancyIds": [],
+  "sourceHashes": {
+    "california-all-trees.json": "72a36dad47f331f27335c730e18504a7216a64aa8d6f9333db692d5655362a2a",
+    "counties.zip": "4c90d0f805779923b5958ab13d0c1e9b99fe4932b786bfcf75dd739bb2dcb4ea"
+  },
+  "review": "All 264 distinct IDs returned by the public listing endpoint included: 263 state champion flags and one co-champion-only record. Includes 178 national and 36 co-champion flags as source labels, without deriving titles or re-ranking. Endpoint counter reports 247 listings and 181 national champions; actual listing data take precedence. All rows approved and not marked dead, which does not independently confirm current condition. No edition stated.",
+  "geography": "Six counties are the literal string None and remain undisclosed. Two Toulumne labels matched to Tuolumne. All other published counties matched exactly to Census 2025 points. Source hidden-location flags respected: no individual coordinates imported for any record.",
+  "units": "Circumference inches; height and average crown width feet. Published decimal measurements and scores preserved.",
+  "privacy": "No latitude/longitude, nominator/measurer names, contact IDs, addresses, photographs or public-access permissions imported. Reviewed fixture retains only public identity, measurement, status and county fields."
+}
