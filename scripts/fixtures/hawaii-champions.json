@@ -1,0 +1,244 @@
+[
+  {
+    "id": "5839",
+    "sourceFields": [
+      "Diospyros sandwicensis",
+      "Lama",
+      "Hawai?i",
+      "2016",
+      "2017"
+    ],
+    "measurements": [
+      15.5,
+      53.0,
+      30.0,
+      76.0
+    ],
+    "pdfMeasurements": [
+      15.5,
+      53,
+      30,
+      76
+    ]
+  },
+  {
+    "id": "5846",
+    "sourceFields": [
+      "Dodonaea viscosa",
+      "Florida Hopbush",
+      "Hawai?i",
+      "2017",
+      "2017"
+    ],
+    "measurements": [
+      32.0,
+      38.0,
+      28.0,
+      77.0
+    ],
+    "pdfMeasurements": [
+      32,
+      38,
+      28,
+      77
+    ]
+  },
+  {
+    "id": "5895",
+    "sourceFields": [
+      "Hibiscus brackenridgei",
+      "Brackenridge's Rosemallow",
+      "Honolulu",
+      "2017",
+      "2017"
+    ],
+    "measurements": [
+      29.0,
+      16.0,
+      15.5,
+      49.0
+    ],
+    "pdfMeasurements": [
+      29,
+      16,
+      15.5,
+      49
+    ]
+  },
+  {
+    "id": "5887",
+    "sourceFields": [
+      "Ilex anomala",
+      "Hawai'i Holly",
+      "Hawai?i",
+      "2017",
+      "2017"
+    ],
+    "measurements": [
+      96.0,
+      50.0,
+      21.0,
+      151.0
+    ],
+    "pdfMeasurements": [
+      96,
+      50,
+      21,
+      151
+    ]
+  },
+  {
+    "id": "6013",
+    "sourceFields": [
+      "Myrsine lessertiana",
+      "K?lea Lau Nui",
+      "Hawai?i",
+      "2017",
+      "2017"
+    ],
+    "measurements": [
+      66.0,
+      59.0,
+      22.0,
+      131.0
+    ],
+    "pdfMeasurements": [
+      66,
+      59,
+      22,
+      131
+    ]
+  },
+  {
+    "id": "6011",
+    "sourceFields": [
+      "Pisonia brunoniana",
+      "Australasian Catchbirdtree",
+      "Hawai?i",
+      "2017",
+      "2017"
+    ],
+    "measurements": [
+      130.0,
+      53.0,
+      32.0,
+      191.0
+    ],
+    "pdfMeasurements": [
+      130,
+      53,
+      32,
+      191
+    ]
+  },
+  {
+    "id": "5888",
+    "sourceFields": [
+      "Rhus sandwicensis",
+      "Neneleau",
+      "Hawai?i",
+      "2017",
+      "2017"
+    ],
+    "measurements": [
+      20.0,
+      19.0,
+      26.0,
+      46.0
+    ],
+    "pdfMeasurements": [
+      20,
+      19,
+      26,
+      46
+    ]
+  },
+  {
+    "id": "5866",
+    "sourceFields": [
+      "Sapindus oahuensis",
+      "Lonomea",
+      "O‘ahu",
+      "2017",
+      "2017"
+    ],
+    "measurements": [
+      56.4,
+      60.0,
+      27.0,
+      123.0
+    ],
+    "pdfMeasurements": [
+      56.4,
+      60,
+      27,
+      123
+    ]
+  },
+  {
+    "id": "6010",
+    "sourceFields": [
+      "Sapindus saponaria",
+      "Wingleaf Soapberry",
+      "Hawai?i",
+      "2017",
+      "2017"
+    ],
+    "measurements": [
+      160.5,
+      71.0,
+      68.0,
+      249.0
+    ],
+    "pdfMeasurements": [
+      160.5,
+      71,
+      68,
+      249
+    ]
+  },
+  {
+    "id": "5644",
+    "sourceFields": [
+      "Sophora chrysophylla",
+      "Mamani",
+      "Hawai'i",
+      "2016",
+      "2015"
+    ],
+    "measurements": [
+      295.16,
+      24.0,
+      45.0,
+      330.0
+    ],
+    "pdfMeasurements": [
+      295.16,
+      24,
+      45,
+      330
+    ]
+  },
+  {
+    "id": "5967",
+    "sourceFields": [
+      "Syzygium sandwicense",
+      "'Ohi'A Ha",
+      "Honolulu",
+      "2017",
+      "2017"
+    ],
+    "measurements": [
+      82.0,
+      27.0,
+      23.0,
+      115.0
+    ],
+    "pdfMeasurements": [
+      82,
+      27,
+      23,
+      115
+    ]
+  }
+]

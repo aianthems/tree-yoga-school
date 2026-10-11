@@ -1,0 +1,42 @@
+{
+  "sourceUrl": "https://nationalchampiontree.org/wp-content/uploads/sites/270/2025/02/NCTP-2024-Register-downloadable-measurement-data.csv",
+  "pdfUrl": "https://nationalchampiontree.org/wp-content/uploads/sites/270/2025/01/2024-Register-final-web-version-1-15-25-compressed.pdf",
+  "sourceEdition": 2024,
+  "retrieved": "2026-10-11",
+  "sourceSha256": "12eb58709e6a354d7861a088dcdb3cb038223b577f046cb7a686b82c6a77cd42",
+  "sourceRows": 547,
+  "stateFilter": "State == HI",
+  "includedRecords": 11,
+  "includedIds": [
+    "5839",
+    "5846",
+    "5895",
+    "5887",
+    "6013",
+    "6011",
+    "5888",
+    "5866",
+    "6010",
+    "5644",
+    "5967"
+  ],
+  "pdfMeasurementChecks": 11,
+  "countyGeoids": {
+    "Hawaii": "15001",
+    "Honolulu": "15003"
+  },
+  "countyCounts": {
+    "Hawaii": 8,
+    "Honolulu": 3
+  },
+  "geographySha256": "4c90d0f805779923b5958ab13d0c1e9b99fe4932b786bfcf75dd739bb2dcb4ea",
+  "coverage": "Limited national-register coverage; not a complete state register",
+  "locationNormalizations": {
+    "Hawai?i": "Hawaii",
+    "Hawai'i": "Hawaii",
+    "O‘ahu": "Honolulu"
+  },
+  "omittedFields": [
+    "Measurer(s)"
+  ]
+}

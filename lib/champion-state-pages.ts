@@ -4,7 +4,7 @@ import { sameChampionSpecies } from "./champion-species";
 import type { Tree } from "./trees";
 
 export const championStatePages = (Object.keys(championStates) as ChampionState[])
-  .map(state => ({ state, name: championStates[state].name, slug: championStates[state].name.toLowerCase().replace(/ /g, "-") }))
+  .map(state => ({ state, name: championStates[state].name, slug: state === "HI" ? "hawaii" : championStates[state].name.toLowerCase().replace(/ /g, "-") }))
   .sort((a, b) => a.name.localeCompare(b.name, "en"));
 export function championStateHref(state: string) {
   const page = championStatePages.find(page => page.state === state);

@@ -1,4 +1,6 @@
 import "server-only";
+import hiRecords from "./data/hawaii-champion-trees.json";
+import hiCoordinates from "./data/hawaii-county-points.json";
 import wyRecords from "./data/wyoming-champion-trees.json";
 import wyCoordinates from "./data/wyoming-county-points.json";
 import utRecords from "./data/utah-champion-trees.json";
@@ -102,6 +104,7 @@ import { championStates, type ChampionState } from "./champion-states";
 import { buildChampionDataset } from "./champion-state-data";
 
 const datasets = {
+  HI: { records: hiRecords, coordinates: hiCoordinates },
   WY: { records: wyRecords, coordinates: wyCoordinates },
   UT: { records: utRecords, coordinates: utCoordinates },
   ND: { records: ndRecords, coordinates: ndCoordinates },
