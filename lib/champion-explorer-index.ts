@@ -10,7 +10,7 @@ function indexed(tree: ChampionTree) {
   if (!value) {
     value = {
       text: `${stateNames[tree.state]} ${tree.state} ${tree.mapTown || ""} ${tree.commonName} ${tree.scientificName} ${tree.town} ${tree.county} ${tree.location || ""} ${tree.notes || ""} ${tree.sourceVariety || ""} ${tree.status || ""}`.toLowerCase(),
-      place: townKey(tree), genus: tree.scientificName.split(" ")[0],
+      place: townKey(tree), genus: tree.scientificNameIncomplete ? "" : tree.scientificName.split(" ")[0],
     };
     recordIndex.set(tree, value);
   }
@@ -21,7 +21,7 @@ export function filterChampionRecords(trees: ChampionTree[], selection: Champion
   const words = query.trim().toLowerCase().split(/\s+/).filter(Boolean);
   return trees.filter(tree => {
     if ((state && tree.state !== state) || (county && tree.county !== county) ||
-        (species && !sameChampionSpecies(tree.scientificName, species)) ||
+        (species && (tree.scientificNameIncomplete || !sameChampionSpecies(tree.scientificName, species))) ||
         (locationsOnly && !tree.location && !tree.publicCoordinates) ||
         (publicOnly && tree.publicAccess !== true)) return false;
     const entry = indexed(tree);

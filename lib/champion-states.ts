@@ -7,6 +7,13 @@ export type ChampionStateConfig = {
   source: Readonly<Record<string, string | number>>;
 };
 export const championStates = {
+  NV: { name: "Nevada", sourceDate: "Nevada Division of Forestry 2023 register · retrieved October 11, 2026 · program on hiatus", recordFiles: ["nevada-champion-trees.json"], coordinateFile: "nevada-county-points.json", recordPrecision: "county", coordinatePrecision: "county", recordOrder: -15, expectedRecords: 223, expectedMapped: 223, unmappedIds: [], importer: "import-nevada-champions.py", auditFile: "nevada-import-audit.json", source: {
+    registerUrl: "https://forestry.nv.gov/uploads/missions/2023_Big_Tree_Program_Register.pdf",
+    programUrl: "https://forestry.nv.gov/nevadas-big-tree-program",
+    hiatusUrl: "https://nationalchampiontree.org/state-programs/",
+    geographyUrl: "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_counties_national.zip",
+    retrieved: "October 11, 2026", count: 223,
+  } },
   ID: { name: "Idaho", sourceDate: "University of Idaho June 13, 2019 register · retrieved October 11, 2026", recordFiles: ["idaho-champion-trees.json"], coordinateFile: "idaho-county-points.json", recordPrecision: "county", coordinatePrecision: "county", recordOrder: -14, expectedRecords: 121, expectedMapped: 121, unmappedIds: [], importer: "import-idaho-champions.py", auditFile: "idaho-import-audit.json", source: {
     registerUrl: "https://sites.stat.washington.edu/jaw/CAW/june-2019-id-registry-big-trees.pdf",
     programUrl: "https://www.uidaho.edu/extension/natural-resources/forestry/big-tree",
@@ -264,7 +271,7 @@ export const championStates = {
 export type ChampionState = keyof typeof championStates;
 export const stateNames = Object.fromEntries(Object.entries(championStates).map(([state, config]) => [state, config.name])) as Record<ChampionState, string>;
 export const sourceDates = Object.fromEntries(Object.entries(championStates).map(([state, config]) => [state, config.sourceDate])) as Record<ChampionState, string>;
-export const championRegions = { west: { name: "West", states: ["ID", "CO", "MT", "NM", "OR", "WA"] }, "south-central": { name: "South Central", states: ["TX", "LA", "OK"] }, midwest: { name: "Midwest", states: ["IN", "IL", "MI", "OH", "WI", "MN", "IA", "MO", "KS", "NE"] }, southeast: { name: "Southeast", states: ["NC", "SC", "TN", "GA", "KY", "AL", "FL", "AR"] }, "new-england": { name: "New England", states: ["MA", "NH", "VT", "ME", "RI", "CT"] }, northeast: { name: "Northeast", states: ["MA", "NH", "VT", "ME", "RI", "CT", "NY", "NJ", "PA"] }, "mid-atlantic": { name: "Mid-Atlantic", states: ["NY", "NJ", "PA", "DE", "MD", "VA", "WV"] } };
+export const championRegions = { west: { name: "West", states: ["NV", "ID", "CO", "MT", "NM", "OR", "WA"] }, "south-central": { name: "South Central", states: ["TX", "LA", "OK"] }, midwest: { name: "Midwest", states: ["IN", "IL", "MI", "OH", "WI", "MN", "IA", "MO", "KS", "NE"] }, southeast: { name: "Southeast", states: ["NC", "SC", "TN", "GA", "KY", "AL", "FL", "AR"] }, "new-england": { name: "New England", states: ["MA", "NH", "VT", "ME", "RI", "CT"] }, northeast: { name: "Northeast", states: ["MA", "NH", "VT", "ME", "RI", "CT", "NY", "NJ", "PA"] }, "mid-atlantic": { name: "Mid-Atlantic", states: ["NY", "NJ", "PA", "DE", "MD", "VA", "WV"] } };
 
 // Coverage copy follows the same registry that drives imports and state filters.
 export const championCoverage = {

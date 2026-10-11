@@ -156,7 +156,7 @@ test('visit guides resolve to the intended existing trees and real practice rout
     assert.equal(selection.state, visit.state);
     for (const source of visit.sources) if (source.href.startsWith('/')) assert.ok(fs.existsSync(path.join(__dirname, '../public', source.href)));
   }
-  assert.equal(championSpeciesOptions(records).reduce((total, option) => total + option.count, 0), records.length);
+  assert.equal(championSpeciesOptions(records).reduce((total, option) => total + option.count, 0), records.filter(record => !record.scientificNameIncomplete).length);
 });
 
 

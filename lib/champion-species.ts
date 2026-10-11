@@ -32,9 +32,10 @@ export function familiarSpeciesName(scientificName: string, commonName = scienti
   return parts.length === 2 ? `${parts[1]} ${parts[0].toLowerCase()}` : parts.join(", ");
 }
 
-export function championSpeciesOptions(trees: Pick<ChampionTree, "scientificName" | "commonName">[]) {
+export function championSpeciesOptions(trees: Pick<ChampionTree, "scientificName" | "commonName" | "scientificNameIncomplete">[]) {
   const grouped = new Map<string, { scientificName: string; name: string; count: number }>();
   for (const tree of trees) {
+    if (tree.scientificNameIncomplete) continue;
     const name = familiarSpeciesName(tree.scientificName, tree.commonName || tree.scientificName);
     const existing = grouped.get(tree.scientificName.trim().toLowerCase());
     if (existing) {
@@ -53,8 +54,8 @@ export function sameChampionSpecies(a: string, b: string) {
 
 // State payloads are immutable and cached. Group each register once, then merge
 // its compact species summary when another state finishes downloading.
-const batchOptions = new WeakMap<Pick<ChampionTree, "scientificName" | "commonName">[], ReturnType<typeof championSpeciesOptions>>();
-export function championSpeciesOptionsForBatches(batches: Pick<ChampionTree, "scientificName" | "commonName">[][]) {
+const batchOptions = new WeakMap<Pick<ChampionTree, "scientificName" | "commonName" | "scientificNameIncomplete">[], ReturnType<typeof championSpeciesOptions>>();
+export function championSpeciesOptionsForBatches(batches: Pick<ChampionTree, "scientificName" | "commonName" | "scientificNameIncomplete">[][]) {
   const grouped = new Map<string, ReturnType<typeof championSpeciesOptions>[number]>();
   for (const batch of batches) {
     let options = batchOptions.get(batch);
