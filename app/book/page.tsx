@@ -1,7 +1,6 @@
 import { pageMetadata } from "../../lib/site-seo";
 import Link from "next/link";
 import SiteHeader from "../components/site-header";
-import SiteFooter from "../components/site-footer";
 import BookCover from "../components/book-cover";
 import { bookChapters, bookChapterVideos } from "../../lib/book-chapters";
 import { bookUrl } from "../../lib/intro-lessons";
@@ -38,5 +37,5 @@ export default function BookPage() {
       })}</div>
     </section>
     <section className="library-note"><p className="section-kicker">From reading to relationship</p><h2>Find a teaching.<br />Spend time with a tree.</h2><p>The Tree Library connects observation and the book’s principles with new species-specific practices. Begin with Pine, or choose a short introductory lesson.</p><div className="course-actions"><Link className="button primary" href="/trees/pine">Meet the pine</Link><Link className="button secondary" href="/begin-here">Begin Here</Link></div></section>
-  </main><SiteFooter /></>;
+  </main></>;
 }

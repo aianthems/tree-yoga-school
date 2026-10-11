@@ -6,7 +6,6 @@ import { Suspense } from "react";
 import type { Metadata } from "next";
 import Link from "next/link";
 import SiteHeader from "../components/site-header";
-import SiteFooter from "../components/site-footer";
 import ChampionExplorer from "./champion-explorer";
 import { caChampionSource, azChampionSource, sdChampionSource, nvChampionSource, idChampionSource, waChampionSource, orChampionSource, nmChampionSource, mtChampionSource, championSource, mnChampionSource, wiChampionSource, ohChampionSource, miChampionSource, ilChampionSource, flChampionSource, alChampionSource, inChampionSource, kyChampionSource, gaChampionSource, tnChampionSource, scChampionSource, ncChampionSource, wvChampionSource, vaChampionSource, nhChampionSource, vtChampionSource, meChampionSource, riChampionSource, ctChampionSource, nyChampionSource, njChampionSource, paChampionSource, deChampionSource, mdChampionSource, sourceDates } from "../../lib/champion-trees";
 import "leaflet/dist/leaflet.css";
@@ -155,6 +154,6 @@ export default function ChampionTreesPage() {
       <div className="course-actions"><a className="course-link" href={mdChampionSource.registerUrl} target="_blank" rel="noreferrer">Maryland State Champion Trees ↗</a><a className="course-link" href={mdChampionSource.programUrl} target="_blank" rel="noreferrer">Maryland DNR Big Tree Program ↗</a><a className="course-link" href={mdChampionSource.geographyUrl} target="_blank" rel="noreferrer">Census county geography ↗</a></div>
       <p>Map tiles: © OpenStreetMap contributors. Tree Yoga School created this independent exploration of the {championCoverage.states} registers.</p>
     </section>
-  </main><SiteFooter /></>;
+  </main></>;
 }
 

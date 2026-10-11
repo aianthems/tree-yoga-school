@@ -2,7 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import SiteHeader from "../../components/site-header";
-import SiteFooter from "../../components/site-footer";
 import { treeComparisons, comparisonImage, additionalComparisonReferences } from "../../../lib/tree-comparisons";
 import { getTree } from "../../../lib/trees";
 import { pageMetadata } from "../../../lib/site-seo";
@@ -36,5 +35,5 @@ export default async function CompareTrees({ params }: { params: Promise<{ slug:
       <div className="comparison-grid">{species.map(tree => <article key={tree.slug}><h3>{tree.species}</h3><div className="course-actions"><Link href={`/trees/${tree.slug}`} className="course-link">Meet the tree →</Link><Link href={`/practice/${tree.slug}`} className="course-link">Open outdoor practice →</Link></div></article>)}</div>
     </section>
     <nav className="comparison-other" aria-label="More tree comparisons">{treeComparisons.filter(other => other.slug !== pair.slug).map(other => <Link key={other.slug} href={`/compare-trees/${other.slug}`}>{other.title} →</Link>)}</nav>
-  </main><SiteFooter /></>;
+  </main></>;
 }

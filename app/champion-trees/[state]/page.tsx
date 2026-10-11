@@ -2,7 +2,6 @@ import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import SiteHeader from "../../components/site-header";
-import SiteFooter from "../../components/site-footer";
 import { StateRegisterNotes } from "../state-register-note";
 import { championStates, type ChampionStateConfig } from "../../../lib/champion-states";
 import { championTrees, championManifest } from "../../../lib/champion-tree-data";
@@ -84,5 +83,5 @@ export default async function ChampionStatePage({ params }: Props) {
       <div className="course-actions"><Link className="button primary" href={mapHref} prefetch={false}>Open the {config.name} map →</Link><Link className="course-link" href="/return-to-your-tree">Return to a familiar tree →</Link></div>
     </section>
     <nav className="champion-state-section champion-state-directory" aria-label="Explore another state"><p className="section-kicker">Keep exploring</p><h2>Another place. More wonder.</h2><div>{championStatePages.map(page => <Link href={championStateHref(page.state)} key={page.state} aria-current={page.state === code ? "page" : undefined} prefetch={false}>{page.name}</Link>)}</div></nav>
-  </main><SiteFooter /></>;
+  </main></>;
 }

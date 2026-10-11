@@ -1,5 +1,4 @@
 import BookConnections from "../../components/book-connections";
-import SiteFooter from "../../components/site-footer";
 import { pageMetadata } from "../../../lib/site-seo";
 import Link from "next/link";
 import { firstPractice } from "../../../lib/first-practice";
@@ -77,7 +76,7 @@ export default function FirstLesson() {
           <p className="book-source-note">Want to get to know a particular tree? <a href="/trees/pine">Meet Pine in the Tree Library.</a></p>
         </section>
       </main>
-      <SiteFooter />
+
     </>
   );
 }

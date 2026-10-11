@@ -1,4 +1,3 @@
-import SiteFooter from "../components/site-footer";
 import { pageMetadata } from "../../lib/site-seo";
 import type { Metadata } from "next";
 import SiteHeader from "../components/site-header";
@@ -20,7 +19,7 @@ export default function BeginHere() {
         <section className="lesson-section"><p className="section-kicker">A small beginning</p><h2>Return to the practice that serves you.</h2><p>There is no test at the end. Notice what you learn, adapt your next visit, and leave time to be outside. These lessons are new adaptations grounded in the original book, with source references on every lesson page.</p><a className="button secondary" href="/">Return to Tree Yoga School</a></section>
         <section className="lesson-section course-start"><h2>Come back to the same tree.</h2><p>Let your next visit become a relationship. Notice changes across the seasons and keep a simple observation journal.</p><a className="course-link" href="/return-to-your-tree">Return to your tree →</a></section><section className="lesson-section course-tree"><p className="section-kicker">Get to know your tree</p><h2>One pine. One clear point.</h2><p>The Tree Library connects individual trees to observation, contemplative energies, and the book’s teachings. Start with Pine: constancy, clarity, and perseverance.</p><div className="course-actions"><a className="button primary" href="/trees/pine#practice">Try the pine practice</a><a className="button secondary" href="/trees">Explore the Tree Library</a></div></section>
       </main>
-      <SiteFooter />
+
     </>
   );
 }

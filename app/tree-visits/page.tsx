@@ -2,7 +2,6 @@ import { pageMetadata } from "../../lib/site-seo";
 import type { Metadata } from "next";
 import Link from "next/link";
 import SiteHeader from "../components/site-header";
-import SiteFooter from "../components/site-footer";
 import { treeVisits, treeVisitStateCount, treeVisitSummary } from "../../lib/tree-visits";
 import TreeVisitExplorer from "../components/tree-visit-explorer";
 import { visitPreviews } from "../../lib/tree-visit-discovery";
@@ -27,5 +26,5 @@ export default function TreeVisitsPage() {
     <TreeVisitExplorer visits={visitPreviews(treeVisits)} states={states} />
     <section className="return-invitation"><h2>One visit can become a relationship.</h2><p>Return to a tree you can visit with permission. Keep a small journal, or help improve a guide with a dated correction.</p><div className="course-actions"><Link className="course-link" href="/return-to-your-tree">Try the return practice →</Link><Link className="course-link" href="/contact#contribute">Report a guide correction →</Link></div></section>
     <div className="course-actions"><Link className="button secondary" href="/champion-trees">Explore the full Champion Map</Link><Link className="course-link" href="/trees">Get to know a species in the Tree Library →</Link></div>
-  </main><SiteFooter /></>;
+  </main></>;
 }

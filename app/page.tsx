@@ -1,6 +1,5 @@
 import BookCover from "./components/book-cover";
 import VideoLesson from "./components/video-lesson";
-import SiteFooter from "./components/site-footer";
 import { pageMetadata, siteDescription } from "../lib/site-seo";
 export const metadata = pageMetadata("/", "Tree Yoga School", siteDescription);
 import TreeEmbrace from "./components/tree-embrace";
@@ -212,7 +211,7 @@ export default function Home() {
       <section className="home-video home-final-video section-shell" aria-labelledby="final-video-title"><div className="home-video-inner"><p className="section-kicker">The original school · With Alex Julian</p><h2 id="final-video-title">Before you go.</h2><p>One more video from the original Tree Yoga School.</p><VideoLesson youtubeId="bAi5qa-1H-0" title="Tree Yoga School — Closing video with Alex Julian" /></div></section>
 
       </main>
-      <SiteFooter />
+
     </>
   );
 }
