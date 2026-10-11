@@ -1,0 +1,2433 @@
+[
+  {
+    "sourceRow": 1,
+    "sourcePage": 34,
+    "scientificName": "Yucca elata",
+    "commonName": "Soaptree Yucca",
+    "sourceTreeId": "5776",
+    "measurements": [
+      "33",
+      "29",
+      "4",
+      "63"
+    ],
+    "nominated": "2016",
+    "measured": "2016",
+    "status": "National Champion",
+    "county": "Pima"
+  },
+  {
+    "sourceRow": 2,
+    "sourcePage": 34,
+    "scientificName": "Juniperus monosperma",
+    "commonName": "One Seed Juniper",
+    "sourceTreeId": "AZ0142",
+    "measurements": [
+      "140",
+      "32",
+      "41",
+      "182"
+    ],
+    "nominated": "N/A",
+    "measured": "N/A",
+    "status": "State Co-Champion",
+    "county": "N/A"
+  },
+  {
+    "sourceRow": 3,
+    "sourcePage": 34,
+    "scientificName": "Vauquelinia californica",
+    "commonName": "Arizona Rosewood",
+    "sourceTreeId": "3445",
+    "measurements": [
+      "78",
+      "47",
+      "40",
+      "135"
+    ],
+    "nominated": "1993",
+    "measured": "2014",
+    "status": "National Champion",
+    "county": "Pima"
+  },
+  {
+    "sourceRow": 4,
+    "sourcePage": 34,
+    "scientificName": "Quercus suber",
+    "commonName": "Cork Oak",
+    "sourceTreeId": "AZ0098",
+    "measurements": [
+      "57",
+      "32",
+      "30",
+      "97"
+    ],
+    "nominated": "2004",
+    "measured": "2004",
+    "status": "State Champion",
+    "county": "Pima"
+  },
+  {
+    "sourceRow": 5,
+    "sourcePage": 34,
+    "scientificName": "Rhus virens var. choriophylla",
+    "commonName": "Mearns Sumac",
+    "sourceTreeId": "4109",
+    "measurements": [
+      "21",
+      "23",
+      "16",
+      "48"
+    ],
+    "nominated": "2007",
+    "measured": "2019",
+    "status": "National Champion",
+    "county": "Santa Cruz"
+  },
+  {
+    "sourceRow": 6,
+    "sourcePage": 34,
+    "scientificName": "Pinus strobiformis",
+    "commonName": "Southwestern White Pine",
+    "sourceTreeId": "AZ0122",
+    "measurements": [
+      "156",
+      "150",
+      "46",
+      "318"
+    ],
+    "nominated": "2023",
+    "measured": "2023",
+    "status": "State Co-Champion",
+    "county": "Gila"
+  },
+  {
+    "sourceRow": 7,
+    "sourcePage": 34,
+    "scientificName": "Rhus ovata",
+    "commonName": "Sugar Sumac",
+    "sourceTreeId": "3411",
+    "measurements": [
+      "76",
+      "41",
+      "35",
+      "126"
+    ],
+    "nominated": "1995",
+    "measured": "2019",
+    "status": "National Champion",
+    "county": "Pinal"
+  },
+  {
+    "sourceRow": 8,
+    "sourcePage": 34,
+    "scientificName": "Vitex agnus castus",
+    "commonName": "Vitex, Monks Bane, Monks Pepper, Chaste Tree",
+    "sourceTreeId": "AZ0128",
+    "measurements": [
+      "65",
+      "20",
+      "37",
+      "94"
+    ],
+    "nominated": "2023",
+    "measured": "2023",
+    "status": "State Champion",
+    "county": "Pima"
+  },
+  {
+    "sourceRow": 9,
+    "sourcePage": 34,
+    "scientificName": "Rhamnus crocea",
+    "commonName": "Hollyleaf Buckthorn",
+    "sourceTreeId": "3860",
+    "measurements": [
+      "76",
+      "16",
+      "21",
+      "97"
+    ],
+    "nominated": "2007",
+    "measured": "2022",
+    "status": "National Champion",
+    "county": "Yavapai"
+  },
+  {
+    "sourceRow": 10,
+    "sourcePage": 34,
+    "scientificName": "Robinia pseudoacacia",
+    "commonName": "Black Locust",
+    "sourceTreeId": "AZ0150",
+    "measurements": [
+      "84",
+      "81",
+      "61",
+      "180"
+    ],
+    "nominated": "2023",
+    "measured": "2023",
+    "status": "State Champion",
+    "county": "Coconino"
+  },
+  {
+    "sourceRow": 11,
+    "sourcePage": 34,
+    "scientificName": "Rhamnus californica",
+    "commonName": "California Buckthorn",
+    "sourceTreeId": "5009",
+    "measurements": [
+      "42",
+      "18",
+      "34",
+      "69"
+    ],
+    "nominated": "2011",
+    "measured": "2018",
+    "status": "National Champion",
+    "county": "Yavapai"
+  },
+  {
+    "sourceRow": 12,
+    "sourcePage": 34,
+    "scientificName": "Morus alba",
+    "commonName": "White Mulberry",
+    "sourceTreeId": "AZ0149",
+    "measurements": [
+      "215",
+      "55",
+      "128",
+      "302"
+    ],
+    "nominated": "2023",
+    "measured": "2023",
+    "status": "State Champion",
+    "county": "Yavapai"
+  },
+  {
+    "sourceRow": 13,
+    "sourcePage": 34,
+    "scientificName": "Quercus rugosa",
+    "commonName": "Netleaf Oak",
+    "sourceTreeId": "5833",
+    "measurements": [
+      "92",
+      "54",
+      "53",
+      "159"
+    ],
+    "nominated": "2016",
+    "measured": "2016",
+    "status": "National Champion",
+    "county": "Pima"
+  },
+  {
+    "sourceRow": 14,
+    "sourcePage": 34,
+    "scientificName": "Melia azedarach",
+    "commonName": "Chinaberry",
+    "sourceTreeId": "AZ0148",
+    "measurements": [
+      "37",
+      "33",
+      "52",
+      "83"
+    ],
+    "nominated": "2023",
+    "measured": "2023",
+    "status": "State Champion",
+    "county": "Yavapai"
+  },
+  {
+    "sourceRow": 15,
+    "sourcePage": 34,
+    "scientificName": "Quercus palmeri",
+    "commonName": "Palmer Oak",
+    "sourceTreeId": "3145",
+    "measurements": [
+      "68",
+      "40",
+      "38",
+      "118"
+    ],
+    "nominated": "1995",
+    "measured": "2018",
+    "status": "National Champion",
+    "county": "Yavapai"
+  },
+  {
+    "sourceRow": 16,
+    "sourcePage": 34,
+    "scientificName": "Pinus strobiformis",
+    "commonName": "Southwestern White Pine",
+    "sourceTreeId": "AZ0123",
+    "measurements": [
+      "149",
+      "156",
+      "53",
+      "318"
+    ],
+    "nominated": "2022",
+    "measured": "2023",
+    "status": "State Co-Champion",
+    "county": "Pima"
+  },
+  {
+    "sourceRow": 17,
+    "sourcePage": 34,
+    "scientificName": "Quercus gambelii",
+    "commonName": "Gambel Oak",
+    "sourceTreeId": "3152",
+    "measurements": [
+      "147",
+      "114",
+      "43",
+      "272"
+    ],
+    "nominated": "2003",
+    "measured": "2019",
+    "status": "National Champion",
+    "county": "Coconino"
+  },
+  {
+    "sourceRow": 18,
+    "sourcePage": 34,
+    "scientificName": "Pinus ponderosa brachyptera",
+    "commonName": "Southwestern Ponderosa pine",
+    "sourceTreeId": "AZ0147",
+    "measurements": [
+      "175",
+      "147",
+      "55",
+      "336"
+    ],
+    "nominated": "2023",
+    "measured": "2023",
+    "status": "State Champion",
+    "county": "Coconino"
+  },
+  {
+    "sourceRow": 19,
+    "sourcePage": 34,
+    "scientificName": "Quercus arizonica",
+    "commonName": "Arizona White Oak",
+    "sourceTreeId": "3122",
+    "measurements": [
+      "240",
+      "50",
+      "53",
+      "303"
+    ],
+    "nominated": "2003",
+    "measured": "2019",
+    "status": "National Champion",
+    "county": "Santa Cruz"
+  },
+  {
+    "sourceRow": 20,
+    "sourcePage": 34,
+    "scientificName": "Ebenopsis ebano",
+    "commonName": "Texas Ebony Tree",
+    "sourceTreeId": "AZ0146",
+    "measurements": [
+      "70",
+      "40",
+      "45",
+      "121"
+    ],
+    "nominated": "2023",
+    "measured": "2023",
+    "status": "State Champion",
+    "county": "Pima"
+  },
+  {
+    "sourceRow": 21,
+    "sourcePage": 34,
+    "scientificName": "Prunus serotina var. rufula",
+    "commonName": "Southwestern Black Cherry",
+    "sourceTreeId": "2805",
+    "measurements": [
+      "136",
+      "66",
+      "50",
+      "215"
+    ],
+    "nominated": "2004",
+    "measured": "2014",
+    "status": "National Champion",
+    "county": "Yavapai"
+  },
+  {
+    "sourceRow": 22,
+    "sourcePage": 34,
+    "scientificName": "Pinus halepensis",
+    "commonName": "Aleppo Pine",
+    "sourceTreeId": "AZ0145",
+    "measurements": [
+      "183",
+      "82",
+      "79",
+      "285"
+    ],
+    "nominated": "2023",
+    "measured": "2023",
+    "status": "State Champion",
+    "county": "Pima"
+  },
+  {
+    "sourceRow": 23,
+    "sourcePage": 34,
+    "scientificName": "Populus fremontii ssp. fremontii",
+    "commonName": "Fremont Cottonwood",
+    "sourceTreeId": "5182",
+    "measurements": [
+      "560",
+      "102",
+      "160.5",
+      "702"
+    ],
+    "nominated": "2012",
+    "measured": "2018",
+    "status": "National Champion",
+    "county": "Yavapai"
+  },
+  {
+    "sourceRow": 24,
+    "sourcePage": 34,
+    "scientificName": "Populus tremuloides",
+    "commonName": "Quaking aspen",
+    "sourceTreeId": "AZ0144",
+    "measurements": [
+      "143",
+      "78",
+      "43",
+      "232"
+    ],
+    "nominated": "2023",
+    "measured": "2023",
+    "status": "State Champion",
+    "county": "Apache"
+  },
+  {
+    "sourceRow": 25,
+    "sourcePage": 34,
+    "scientificName": "Pinus monophylla var. fallax",
+    "commonName": "Singleleaf Pinyon",
+    "sourceTreeId": "3866",
+    "measurements": [
+      "101",
+      "84",
+      "45",
+      "196"
+    ],
+    "nominated": "2007",
+    "measured": "2013",
+    "status": "National Champion",
+    "county": "Yavapai"
+  },
+  {
+    "sourceRow": 26,
+    "sourcePage": 34,
+    "scientificName": "Juniperus monosperma",
+    "commonName": "One Seed Juniper",
+    "sourceTreeId": "AZ0143",
+    "measurements": [
+      "143",
+      "27",
+      "39",
+      "180"
+    ],
+    "nominated": "2023",
+    "measured": "2023",
+    "status": "State Co-Champion",
+    "county": "Coconino"
+  },
+  {
+    "sourceRow": 27,
+    "sourcePage": 34,
+    "scientificName": "Pinus engelmannii",
+    "commonName": "Apache Pine",
+    "sourceTreeId": "6311",
+    "measurements": [
+      "123",
+      "139",
+      "55",
+      "276"
+    ],
+    "nominated": "2018",
+    "measured": "2018",
+    "status": "National Champion",
+    "county": "Cochise"
+  },
+  {
+    "sourceRow": 28,
+    "sourcePage": 34,
+    "scientificName": "Eucalyptus polyanthemos",
+    "commonName": "Red Box Eucalyptus",
+    "sourceTreeId": "AZ0141",
+    "measurements": [
+      "132",
+      "60",
+      "42",
+      "203"
+    ],
+    "nominated": "2022",
+    "measured": "2023",
+    "status": "State Champion",
+    "county": "Pima"
+  },
+  {
+    "sourceRow": 29,
+    "sourcePage": 34,
+    "scientificName": "Parkinsonia microphylla",
+    "commonName": "Yellow Palo Verde",
+    "sourceTreeId": "3210",
+    "measurements": [
+      "66",
+      "29",
+      "44",
+      "106"
+    ],
+    "nominated": "2003",
+    "measured": "2013",
+    "status": "National Champion",
+    "county": "Maricopa"
+  },
+  {
+    "sourceRow": 30,
+    "sourcePage": 34,
+    "scientificName": "Prosopis glandulosa",
+    "commonName": "Honey Mesquite",
+    "sourceTreeId": "AZ0140",
+    "measurements": [
+      "120",
+      "49",
+      "64",
+      "185"
+    ],
+    "nominated": "2022",
+    "measured": "2023",
+    "status": "State Champion",
+    "county": "Pima"
+  },
+  {
+    "sourceRow": 31,
+    "sourcePage": 34,
+    "scientificName": "Parkinsonia florida",
+    "commonName": "Blue Palo Verde",
+    "sourceTreeId": "6363",
+    "measurements": [
+      "86",
+      "45",
+      "48",
+      "143"
+    ],
+    "nominated": "2018",
+    "measured": "2019",
+    "status": "National Champion",
+    "county": "Yuma"
+  },
+  {
+    "sourceRow": 32,
+    "sourcePage": 34,
+    "scientificName": "Pinus arizonica",
+    "commonName": "Arizona Pine",
+    "sourceTreeId": "AZ0139",
+    "measurements": [
+      "120",
+      "150",
+      "40",
+      "280"
+    ],
+    "nominated": "2022",
+    "measured": "2023",
+    "status": "State Champion",
+    "county": "Pima"
+  },
+  {
+    "sourceRow": 33,
+    "sourcePage": 34,
+    "scientificName": "Parkinsonia aculeata",
+    "commonName": "Jerusalem-thorn",
+    "sourceTreeId": "6360",
+    "measurements": [
+      "90",
+      "26",
+      "42",
+      "127"
+    ],
+    "nominated": "2018",
+    "measured": "2018",
+    "status": "National Champion, Witness, Heritage",
+    "county": "Maricopa"
+  },
+  {
+    "sourceRow": 34,
+    "sourcePage": 34,
+    "scientificName": "Olea europaea",
+    "commonName": "European Olive",
+    "sourceTreeId": "AZ0138",
+    "measurements": [
+      "143",
+      "32",
+      "41",
+      "185"
+    ],
+    "nominated": "2022",
+    "measured": "2023",
+    "status": "State Champion",
+    "county": "Pima"
+  },
+  {
+    "sourceRow": 35,
+    "sourcePage": 35,
+    "scientificName": "Opuntia ficus-indica",
+    "commonName": "Prickly Pear",
+    "sourceTreeId": "4636",
+    "measurements": [
+      "40",
+      "14",
+      "15",
+      "58"
+    ],
+    "nominated": "2009",
+    "measured": "2019",
+    "status": "National Champion",
+    "county": "Pinal"
+  },
+  {
+    "sourceRow": 36,
+    "sourcePage": 35,
+    "scientificName": "Pistacia chinensis",
+    "commonName": "Chinese Pistache",
+    "sourceTreeId": "AZ0137",
+    "measurements": [
+      "104",
+      "42",
+      "62",
+      "162"
+    ],
+    "nominated": "2022",
+    "measured": "2023",
+    "status": "State Champion",
+    "county": "Pima"
+  },
+  {
+    "sourceRow": 37,
+    "sourcePage": 35,
+    "scientificName": "Olneya tesota",
+    "commonName": "Desert Ironwood",
+    "sourceTreeId": "4852",
+    "measurements": [
+      "196",
+      "45",
+      "62",
+      "257"
+    ],
+    "nominated": "2011",
+    "measured": "2018",
+    "status": "National Champion",
+    "county": "Maricopa"
+  },
+  {
+    "sourceRow": 38,
+    "sourcePage": 35,
+    "scientificName": "Searsia lancea",
+    "commonName": "African Sumac",
+    "sourceTreeId": "AZ0126",
+    "measurements": [
+      "135",
+      "36",
+      "52",
+      "184"
+    ],
+    "nominated": "2022",
+    "measured": "2022",
+    "status": "State Co-Champion",
+    "county": "Pima"
+  },
+  {
+    "sourceRow": 39,
+    "sourcePage": 35,
+    "scientificName": "Nerium oleander",
+    "commonName": "Oleander",
+    "sourceTreeId": "3197",
+    "measurements": [
+      "65",
+      "30",
+      "27",
+      "102"
+    ],
+    "nominated": "2003",
+    "measured": "2013",
+    "status": "National Champion",
+    "county": "Maricopa"
+  },
+  {
+    "sourceRow": 40,
+    "sourcePage": 35,
+    "scientificName": "Pinus leiophylla var. chihuahuana",
+    "commonName": "Chihuahua pine",
+    "sourceTreeId": "AZ0136",
+    "measurements": [
+      "104",
+      "76",
+      "35",
+      "189"
+    ],
+    "nominated": "2022",
+    "measured": "2023",
+    "status": "State Champion",
+    "county": "Apache"
+  },
+  {
+    "sourceRow": 41,
+    "sourcePage": 35,
+    "scientificName": "Morus microphylla",
+    "commonName": "Texas Mulberry",
+    "sourceTreeId": "5870",
+    "measurements": [
+      "228",
+      "48",
+      "112",
+      "304"
+    ],
+    "nominated": "2017",
+    "measured": "2015",
+    "status": "National Champion",
+    "county": "Yavapai"
+  },
+  {
+    "sourceRow": 42,
+    "sourcePage": 35,
+    "scientificName": "Leucaena retusa",
+    "commonName": "Lead ball tree",
+    "sourceTreeId": "AZ0135",
+    "measurements": [
+      "34",
+      "30",
+      "28",
+      "71"
+    ],
+    "nominated": "2022",
+    "measured": "2023",
+    "status": "State Champion",
+    "county": "Pima"
+  },
+  {
+    "sourceRow": 43,
+    "sourcePage": 35,
+    "scientificName": "Lysiloma watsonii",
+    "commonName": "Desert Fern",
+    "sourceTreeId": "3061",
+    "measurements": [
+      "101",
+      "38",
+      "48",
+      "151"
+    ],
+    "nominated": "2005",
+    "measured": "2018",
+    "status": "National Champion",
+    "county": "Maricopa"
+  },
+  {
+    "sourceRow": 44,
+    "sourcePage": 35,
+    "scientificName": "Sambucus mexicana (a.k.a. Sambucus Nigra ssp)",
+    "commonName": "Mexican Elderberry",
+    "sourceTreeId": "AZ0134",
+    "measurements": [
+      "142",
+      "31",
+      "31",
+      "181"
+    ],
+    "nominated": "2022",
+    "measured": "2023",
+    "status": "State Champion",
+    "county": "Pima"
+  },
+  {
+    "sourceRow": 45,
+    "sourcePage": 35,
+    "scientificName": "Juniperus monosperma",
+    "commonName": "One Seed Juniper",
+    "sourceTreeId": "6827",
+    "measurements": [
+      "140",
+      "32",
+      "41",
+      "182"
+    ],
+    "nominated": "2021",
+    "measured": "2021",
+    "status": "National Champion",
+    "county": "Yavapai"
+  },
+  {
+    "sourceRow": 46,
+    "sourcePage": 35,
+    "scientificName": "Pinus strobiformus",
+    "commonName": "Southwestern White Pine",
+    "sourceTreeId": "AZ0121",
+    "measurements": [
+      "168",
+      "145",
+      "40",
+      "323"
+    ],
+    "nominated": "2022",
+    "measured": "2023",
+    "status": "State Champion",
+    "county": "Pima"
+  },
+  {
+    "sourceRow": 47,
+    "sourcePage": 35,
+    "scientificName": "Juniperus deppeana",
+    "commonName": "Alligator Juniper",
+    "sourceTreeId": "5696",
+    "measurements": [
+      "330",
+      "34",
+      "55",
+      "378"
+    ],
+    "nominated": "2015",
+    "measured": "2022",
+    "status": "National Champion",
+    "county": "Yavapai"
+  },
+  {
+    "sourceRow": 48,
+    "sourcePage": 35,
+    "scientificName": "Pinus strobiformus",
+    "commonName": "Southwestern White Pine",
+    "sourceTreeId": "AZ0123",
+    "measurements": [
+      "149",
+      "156",
+      "53",
+      "318"
+    ],
+    "nominated": "2022",
+    "measured": "2023",
+    "status": "State Co-Champion",
+    "county": "Pima"
+  },
+  {
+    "sourceRow": 49,
+    "sourcePage": 35,
+    "scientificName": "Juniperus californica",
+    "commonName": "California Juniper",
+    "sourceTreeId": "3846",
+    "measurements": [
+      "65",
+      "25",
+      "38",
+      "100"
+    ],
+    "nominated": "2007",
+    "measured": "2019",
+    "status": "National Champion",
+    "county": "Yavapai"
+  },
+  {
+    "sourceRow": 50,
+    "sourcePage": 35,
+    "scientificName": "Pseudotsuga menziesii var glauca",
+    "commonName": "Douglas Fir",
+    "sourceTreeId": "AZ0133",
+    "measurements": [
+      "240",
+      "158",
+      "45",
+      "409"
+    ],
+    "nominated": "2022",
+    "measured": "2022",
+    "status": "State Champion",
+    "county": "Pima"
+  },
+  {
+    "sourceRow": 51,
+    "sourcePage": 35,
+    "scientificName": "Juglans major",
+    "commonName": "Arizona Walnut",
+    "sourceTreeId": "5372",
+    "measurements": [
+      "296",
+      "58",
+      "103",
+      "380"
+    ],
+    "nominated": "2013",
+    "measured": "2013",
+    "status": "National Champion",
+    "county": "Pima"
+  },
+  {
+    "sourceRow": 52,
+    "sourcePage": 35,
+    "scientificName": "Abies lasiocarpa arizonica",
+    "commonName": "Corkbark fir",
+    "sourceTreeId": "AZ0132",
+    "measurements": [
+      "148",
+      "112",
+      "33",
+      "268"
+    ],
+    "nominated": "2022",
+    "measured": "2023",
+    "status": "State Champion",
+    "county": "Coconino"
+  },
+  {
+    "sourceRow": 53,
+    "sourcePage": 35,
+    "scientificName": "Fraxinus greggii",
+    "commonName": "Gregg Ash",
+    "sourceTreeId": "6413",
+    "measurements": [
+      "12",
+      "24",
+      "23",
+      "42"
+    ],
+    "nominated": "2019",
+    "measured": "2019",
+    "status": "National Champion",
+    "county": "Pima"
+  },
+  {
+    "sourceRow": 54,
+    "sourcePage": 35,
+    "scientificName": "Platanus wrightii",
+    "commonName": "Arizona Sycamore",
+    "sourceTreeId": "5007",
+    "measurements": [
+      "430",
+      "70",
+      "111",
+      "528"
+    ],
+    "nominated": "2022",
+    "measured": "2022",
+    "status": "State Co-Champion",
+    "county": "Pima"
+  },
+  {
+    "sourceRow": 55,
+    "sourcePage": 35,
+    "scientificName": "Fraxinus gooddingii",
+    "commonName": "Goodding's Ash",
+    "sourceTreeId": "2682",
+    "measurements": [
+      "25",
+      "22",
+      "16",
+      "51"
+    ],
+    "nominated": "1995",
+    "measured": "2020",
+    "status": "National Champion",
+    "county": "Santa Cruz"
+  },
+  {
+    "sourceRow": 56,
+    "sourcePage": 35,
+    "scientificName": "Condalia globosa",
+    "commonName": "Bitter Snakewood",
+    "sourceTreeId": "2819",
+    "measurements": [
+      "44",
+      "18",
+      "16",
+      "66"
+    ],
+    "nominated": "2003",
+    "measured": "2003",
+    "status": "State Champion",
+    "county": "Pima"
+  },
+  {
+    "sourceRow": 57,
+    "sourcePage": 35,
+    "scientificName": "Fraxinus cuspidata",
+    "commonName": "Fragrant Ash",
+    "sourceTreeId": "2681",
+    "measurements": [
+      "46",
+      "40",
+      "37",
+      "95"
+    ],
+    "nominated": "2004",
+    "measured": "2014",
+    "status": "National Champion",
+    "county": "Coconino"
+  },
+  {
+    "sourceRow": 58,
+    "sourcePage": 35,
+    "scientificName": "Vachellia constricta",
+    "commonName": "Whitethorn Acacia",
+    "sourceTreeId": "6695",
+    "measurements": [
+      "35.5",
+      "26",
+      "27.5",
+      "68"
+    ],
+    "nominated": "2020",
+    "measured": "2020",
+    "status": "State Champion",
+    "county": "Pima"
+  },
+  {
+    "sourceRow": 59,
+    "sourcePage": 35,
+    "scientificName": "Fraxinus anomala var. lowellii",
+    "commonName": "Lowell Ash",
+    "sourceTreeId": "2685",
+    "measurements": [
+      "42",
+      "36",
+      "27",
+      "85"
+    ],
+    "nominated": "2003",
+    "measured": "2020",
+    "status": "National Champion",
+    "county": "Yavapai"
+  },
+  {
+    "sourceRow": 60,
+    "sourcePage": 35,
+    "scientificName": "Tamarix aphylla",
+    "commonName": "Athel",
+    "sourceTreeId": "AZ0003",
+    "measurements": [
+      "177",
+      "78",
+      "57",
+      "269"
+    ],
+    "nominated": "2018",
+    "measured": "2018",
+    "status": "State Champion",
+    "county": "Maricopa"
+  },
+  {
+    "sourceRow": 61,
+    "sourcePage": 35,
+    "scientificName": "Eysenhardtia texana",
+    "commonName": "Texas Kidneywood",
+    "sourceTreeId": "3037",
+    "measurements": [
+      "17",
+      "27",
+      "14",
+      "48"
+    ],
+    "nominated": "2003",
+    "measured": "2013",
+    "status": "National Champion",
+    "county": "Pinal"
+  },
+  {
+    "sourceRow": 62,
+    "sourcePage": 35,
+    "scientificName": "Searsia lancea",
+    "commonName": "African Sumac",
+    "sourceTreeId": "AZ0008",
+    "measurements": [
+      "133",
+      "39",
+      "50",
+      "185"
+    ],
+    "nominated": "2001",
+    "measured": "2018",
+    "status": "State Champion",
+    "county": "Pima"
+  },
+  {
+    "sourceRow": 63,
+    "sourcePage": 35,
+    "scientificName": "Eucalyptus camaldulensis",
+    "commonName": "Longbeak Eucalyptus",
+    "sourceTreeId": "6247",
+    "measurements": [
+      "270",
+      "141",
+      "90",
+      "434"
+    ],
+    "nominated": "2018",
+    "measured": "2023",
+    "status": "National Champion",
+    "county": "Pinal"
+  },
+  {
+    "sourceRow": 64,
+    "sourcePage": 35,
+    "scientificName": "Salix taxifolia",
+    "commonName": "Yewleaf Willow",
+    "sourceTreeId": "3493",
+    "measurements": [
+      "78",
+      "23",
+      "32",
+      "109"
+    ],
+    "nominated": "1996",
+    "measured": "2022",
+    "status": "State Champion",
+    "county": "Santa Cruz"
+  },
+  {
+    "sourceRow": 65,
+    "sourcePage": 35,
+    "scientificName": "Cupressus arizonica var. glabra",
+    "commonName": "Arizona Smooth Bark Cypress",
+    "sourceTreeId": "2837",
+    "measurements": [
+      "240",
+      "78",
+      "56",
+      "332"
+    ],
+    "nominated": "2003",
+    "measured": "2018",
+    "status": "National Champion",
+    "county": "Yavapai"
+  },
+  {
+    "sourceRow": 66,
+    "sourcePage": 35,
+    "scientificName": "Salix gooddingii",
+    "commonName": "Goodding Willow",
+    "sourceTreeId": "5891",
+    "measurements": [
+      "129",
+      "42",
+      "70",
+      "189"
+    ],
+    "nominated": "2017",
+    "measured": "2017",
+    "status": "State Champion",
+    "county": "Yavapai"
+  },
+  {
+    "sourceRow": 67,
+    "sourcePage": 35,
+    "scientificName": "Cupressus arizonica ssp. arizonica",
+    "commonName": "Arizona Cypress",
+    "sourceTreeId": "2836",
+    "measurements": [
+      "244",
+      "106",
+      "48",
+      "362"
+    ],
+    "nominated": "1955",
+    "measured": "2014",
+    "status": "National Champion",
+    "county": "Pima"
+  },
+  {
+    "sourceRow": 68,
+    "sourcePage": 35,
+    "scientificName": "Salix geyeriana",
+    "commonName": "Geyer Willow",
+    "sourceTreeId": "3851",
+    "measurements": [
+      "10",
+      "13",
+      "14",
+      "27"
+    ],
+    "nominated": "2007",
+    "measured": "2015",
+    "status": "State Champion",
+    "county": "Apache"
+  },
+  {
+    "sourceRow": 69,
+    "sourcePage": 36,
+    "scientificName": "Citrus aurantium",
+    "commonName": "Bitter Orange",
+    "sourceTreeId": "3200",
+    "measurements": [
+      "44",
+      "28",
+      "24",
+      "78"
+    ],
+    "nominated": "2004",
+    "measured": "2014",
+    "status": "National Champion",
+    "county": "Pima"
+  },
+  {
+    "sourceRow": 70,
+    "sourcePage": 36,
+    "scientificName": "Salix bebbiana",
+    "commonName": "Bebb Willow",
+    "sourceTreeId": "3850",
+    "measurements": [
+      "111",
+      "21",
+      "28",
+      "139"
+    ],
+    "nominated": "2007",
+    "measured": "2019",
+    "status": "State Champion",
+    "county": "Apache"
+  },
+  {
+    "sourceRow": 71,
+    "sourcePage": 36,
+    "scientificName": "Chilopsis linearis",
+    "commonName": "Desert Willow",
+    "sourceTreeId": "2859",
+    "measurements": [
+      "174",
+      "45",
+      "49",
+      "231"
+    ],
+    "nominated": "1976",
+    "measured": "2018",
+    "status": "National Champion",
+    "county": "Gila"
+  },
+  {
+    "sourceRow": 72,
+    "sourcePage": 36,
+    "scientificName": "Quercus turbinella var. ajoensis",
+    "commonName": "Sonoran Scrub Oak",
+    "sourceTreeId": "3121",
+    "measurements": [
+      "66",
+      "30",
+      "35",
+      "105"
+    ],
+    "nominated": "1993",
+    "measured": "2019",
+    "status": "State Champion",
+    "county": "Pima"
+  },
+  {
+    "sourceRow": 73,
+    "sourcePage": 36,
+    "scientificName": "Cercocarpus breviflorus",
+    "commonName": "Hairy Cercocarpus",
+    "sourceTreeId": "2786",
+    "measurements": [
+      "37",
+      "25",
+      "20",
+      "67"
+    ],
+    "nominated": "1996",
+    "measured": "2015",
+    "status": "National Champion",
+    "county": "Santa Cruz"
+  },
+  {
+    "sourceRow": 74,
+    "sourcePage": 36,
+    "scientificName": "Quercus toumeyi",
+    "commonName": "Toumey Oak",
+    "sourceTreeId": "3188",
+    "measurements": [
+      "76",
+      "22",
+      "35",
+      "107"
+    ],
+    "nominated": "2005",
+    "measured": "2022",
+    "status": "State Champion",
+    "county": "Santa Cruz"
+  },
+  {
+    "sourceRow": 75,
+    "sourcePage": 36,
+    "scientificName": "Celtis reticulata",
+    "commonName": "Netleaf Hackberry",
+    "sourceTreeId": "6447",
+    "measurements": [
+      "92",
+      "52",
+      "45",
+      "155"
+    ],
+    "nominated": "2019",
+    "measured": "2019",
+    "status": "National Champion",
+    "county": "Santa Cruz"
+  },
+  {
+    "sourceRow": 76,
+    "sourcePage": 36,
+    "scientificName": "Quercus suber",
+    "commonName": "Cork Oak",
+    "sourceTreeId": "AZ0098",
+    "measurements": [
+      "58",
+      "39",
+      "28",
+      "104"
+    ],
+    "nominated": "2004",
+    "measured": "2022",
+    "status": "State Champion",
+    "county": "Pima"
+  },
+  {
+    "sourceRow": 77,
+    "sourcePage": 36,
+    "scientificName": "Carnegiea gigantea",
+    "commonName": "Saguaro",
+    "sourceTreeId": "5537",
+    "measurements": [
+      "119",
+      "30",
+      "9",
+      "151"
+    ],
+    "nominated": "2014",
+    "measured": "2018",
+    "status": "National Champion",
+    "county": "Maricopa"
+  },
+  {
+    "sourceRow": 78,
+    "sourcePage": 36,
+    "scientificName": "Quercus pungens",
+    "commonName": "Sandpaper Oak",
+    "sourceTreeId": "3178",
+    "measurements": [
+      "15",
+      "21",
+      "27",
+      "43"
+    ],
+    "nominated": "2003",
+    "measured": "2018",
+    "status": "State Champion",
+    "county": "Cochise"
+  },
+  {
+    "sourceRow": 79,
+    "sourcePage": 36,
+    "scientificName": "Canotia holacantha",
+    "commonName": "Canotia",
+    "sourceTreeId": "2773",
+    "measurements": [
+      "90",
+      "32",
+      "20",
+      "127"
+    ],
+    "nominated": "2005",
+    "measured": "2013",
+    "status": "National Champion",
+    "county": "Mohave"
+  },
+  {
+    "sourceRow": 80,
+    "sourcePage": 36,
+    "scientificName": "Quercus oblongifolia",
+    "commonName": "Mexican Blue Oak",
+    "sourceTreeId": "6280",
+    "measurements": [
+      "72",
+      "37",
+      "50",
+      "122"
+    ],
+    "nominated": "2018",
+    "measured": "2019",
+    "status": "State Champion",
+    "county": "Santa Cruz"
+  },
+  {
+    "sourceRow": 81,
+    "sourcePage": 36,
+    "scientificName": "Bursera microphylla",
+    "commonName": "Elephant Tree",
+    "sourceTreeId": "5053",
+    "measurements": [
+      "40",
+      "16",
+      "22",
+      "62"
+    ],
+    "nominated": "2012",
+    "measured": "2012",
+    "status": "National Champion",
+    "county": "Yuma"
+  },
+  {
+    "sourceRow": 82,
+    "sourcePage": 36,
+    "scientificName": "Purshia stansburyana",
+    "commonName": "Stansbury's Cliffrose",
+    "sourceTreeId": "AZ0002",
+    "measurements": [
+      "31",
+      "21",
+      "13",
+      "55"
+    ],
+    "nominated": "2019",
+    "measured": "2019",
+    "status": "State Champion",
+    "county": "Coconino"
+  },
+  {
+    "sourceRow": 83,
+    "sourcePage": 36,
+    "scientificName": "Arctostaphylos pringlei",
+    "commonName": "Pringle Manzanita",
+    "sourceTreeId": "5008",
+    "measurements": [
+      "66",
+      "22",
+      "27",
+      "95"
+    ],
+    "nominated": "2011",
+    "measured": "2022",
+    "status": "National Champion",
+    "county": "Yavapai"
+  },
+  {
+    "sourceRow": 84,
+    "sourcePage": 36,
+    "scientificName": "Purshia mexicana",
+    "commonName": "Mexican Cliffrose",
+    "sourceTreeId": "4118",
+    "measurements": [
+      "41",
+      "21",
+      "15",
+      "66"
+    ],
+    "nominated": "2007",
+    "measured": "2020",
+    "status": "State Champion",
+    "county": "Coconino"
+  },
+  {
+    "sourceRow": 85,
+    "sourcePage": 36,
+    "scientificName": "Arbutus arizonica",
+    "commonName": "Arizona Madrone",
+    "sourceTreeId": "4851",
+    "measurements": [
+      "134",
+      "32",
+      "37",
+      "175"
+    ],
+    "nominated": "2011",
+    "measured": "2020",
+    "status": "National Champion",
+    "county": "Santa Cruz"
+  },
+  {
+    "sourceRow": 86,
+    "sourcePage": 36,
+    "scientificName": "Prunus virginiana",
+    "commonName": "Common Chokecherry",
+    "sourceTreeId": "4521",
+    "measurements": [
+      "15",
+      "16",
+      "20",
+      "36"
+    ],
+    "nominated": "2009",
+    "measured": "2018",
+    "status": "State Champion",
+    "county": "Coconino"
+  },
+  {
+    "sourceRow": 87,
+    "sourcePage": 36,
+    "scientificName": "Amelanchier utahensis",
+    "commonName": "Utah Serviceberry",
+    "sourceTreeId": "3355",
+    "measurements": [
+      "14",
+      "20",
+      "29",
+      "41"
+    ],
+    "nominated": "2005",
+    "measured": "2019",
+    "status": "National Champion",
+    "county": "Coconino"
+  },
+  {
+    "sourceRow": 88,
+    "sourcePage": 36,
+    "scientificName": "Prunus emarginata",
+    "commonName": "Bitter Cherry",
+    "sourceTreeId": "4524",
+    "measurements": [
+      "19",
+      "22",
+      "15",
+      "45"
+    ],
+    "nominated": "2009",
+    "measured": "2018",
+    "status": "State Champion",
+    "county": "Coconino"
+  },
+  {
+    "sourceRow": 89,
+    "sourcePage": 36,
+    "scientificName": "Acacia greggii",
+    "commonName": "Gregg Catclaw",
+    "sourceTreeId": "6694",
+    "measurements": [
+      "111",
+      "25.5",
+      "44",
+      "148"
+    ],
+    "nominated": "2020",
+    "measured": "2020",
+    "status": "National Champion",
+    "county": "Pima"
+  },
+  {
+    "sourceRow": 90,
+    "sourcePage": 36,
+    "scientificName": "Prunus americana",
+    "commonName": "American plum",
+    "sourceTreeId": "4130",
+    "measurements": [
+      "52",
+      "17",
+      "17",
+      "73"
+    ],
+    "nominated": "2007",
+    "measured": "2007",
+    "status": "State Champion",
+    "county": "Yavapai"
+  },
+  {
+    "sourceRow": 91,
+    "sourcePage": 36,
+    "scientificName": "Prosopis velutina",
+    "commonName": "Velvet Mesquite",
+    "sourceTreeId": "3101",
+    "measurements": [
+      "196",
+      "46",
+      "60",
+      "257"
+    ],
+    "nominated": "1949",
+    "measured": "2014",
+    "status": "National Champion",
+    "county": "Santa Cruz"
+  },
+  {
+    "sourceRow": 92,
+    "sourcePage": 36,
+    "scientificName": "Prosopis pubescens",
+    "commonName": "Screwbean Mesquite",
+    "sourceTreeId": "4123",
+    "measurements": [
+      "43",
+      "24",
+      "31",
+      "75"
+    ],
+    "nominated": "2007",
+    "measured": "2013",
+    "status": "State Champion",
+    "county": "Maricopa"
+  },
+  {
+    "sourceRow": 93,
+    "sourcePage": 36,
+    "scientificName": "Juniperus deppeana",
+    "commonName": "Alligator Juniper",
+    "sourceTreeId": "4126",
+    "measurements": [
+      "324",
+      "52",
+      "70",
+      "394"
+    ],
+    "nominated": "1998",
+    "measured": "2015",
+    "status": "National Co-Champion",
+    "county": "Yavapai"
+  },
+  {
+    "sourceRow": 94,
+    "sourcePage": 36,
+    "scientificName": "Prosopis alba",
+    "commonName": "Argentine Mesquite",
+    "sourceTreeId": "AZ0004",
+    "measurements": [
+      "69",
+      "51",
+      "51",
+      "133"
+    ],
+    "nominated": "2018",
+    "measured": "2018",
+    "status": "State Champion",
+    "county": "Maricopa"
+  },
+  {
+    "sourceRow": 95,
+    "sourcePage": 36,
+    "scientificName": "Fraxinus velutina",
+    "commonName": "Velvet Ash",
+    "sourceTreeId": "5010",
+    "measurements": [
+      "261",
+      "69",
+      "83",
+      "351"
+    ],
+    "nominated": "2011",
+    "measured": "2011",
+    "status": "National Co-Champion",
+    "county": "Yavapai"
+  },
+  {
+    "sourceRow": 96,
+    "sourcePage": 36,
+    "scientificName": "Populus nigra",
+    "commonName": "Lombardy Poplar",
+    "sourceTreeId": "AZ0017",
+    "measurements": [
+      "157",
+      "112",
+      "29",
+      "276"
+    ],
+    "nominated": "2018",
+    "measured": "2018",
+    "status": "State Champion",
+    "county": "Cochise"
+  },
+  {
+    "sourceRow": 97,
+    "sourcePage": 36,
+    "scientificName": "Fraxinus velutina",
+    "commonName": "Velvet Ash",
+    "sourceTreeId": "3856",
+    "measurements": [
+      "256",
+      "78",
+      "76",
+      "353"
+    ],
+    "nominated": "2007",
+    "measured": "2013",
+    "status": "National Co-Champion",
+    "county": "Yavapai"
+  },
+  {
+    "sourceRow": 98,
+    "sourcePage": 36,
+    "scientificName": "Populus angustifolia",
+    "commonName": "Narrowleaf Cottonwood",
+    "sourceTreeId": "4395",
+    "measurements": [
+      "143",
+      "80",
+      "55",
+      "237"
+    ],
+    "nominated": "2009",
+    "measured": "2019",
+    "status": "State Champion",
+    "county": "Gila"
+  },
+  {
+    "sourceRow": 99,
+    "sourcePage": 36,
+    "scientificName": "Dalbergia sissoo",
+    "commonName": "Sissoo Tree",
+    "sourceTreeId": "AZ0127",
+    "measurements": [
+      "112",
+      "62",
+      "50",
+      "187"
+    ],
+    "nominated": "2023",
+    "measured": "2023",
+    "status": "State Champion, Heritage",
+    "county": "Maricopa"
+  },
+  {
+    "sourceRow": 100,
+    "sourcePage": 36,
+    "scientificName": "Populus alba",
+    "commonName": "White Poplar",
+    "sourceTreeId": "6309",
+    "measurements": [
+      "128",
+      "68",
+      "80",
+      "216"
+    ],
+    "nominated": "2016",
+    "measured": "2016",
+    "status": "State Champion",
+    "county": "Apache"
+  },
+  {
+    "sourceRow": 101,
+    "sourcePage": 36,
+    "scientificName": "Rosa banksiae",
+    "commonName": "Lady Banksia Rose",
+    "sourceTreeId": "AZ0125",
+    "measurements": [
+      "150",
+      "21",
+      "99",
+      "196"
+    ],
+    "nominated": "2023",
+    "measured": "2023",
+    "status": "State Champion, Heritage",
+    "county": "Cochise"
+  },
+  {
+    "sourceRow": 102,
+    "sourcePage": 36,
+    "scientificName": "Pistacia atlantica",
+    "commonName": "Mt. Atlas Pistache",
+    "sourceTreeId": "AZ0033",
+    "measurements": [
+      "130",
+      "85",
+      "53",
+      "191"
+    ],
+    "nominated": "2016",
+    "measured": "2021",
+    "status": "State Champion",
+    "county": "Maricopa"
+  },
+  {
+    "sourceRow": 103,
+    "sourcePage": 36,
+    "scientificName": "Larrea tridentata",
+    "commonName": "Creosote",
+    "sourceTreeId": "AZ0129",
+    "measurements": [
+      "79",
+      "14",
+      "19",
+      "98"
+    ],
+    "nominated": "2023",
+    "measured": "2023",
+    "status": "State Champion, Witness",
+    "county": "Yavapai"
+  },
+  {
+    "sourceRow": 104,
+    "sourcePage": 36,
+    "scientificName": "Pinus discolor",
+    "commonName": "Border Pinyon",
+    "sourceTreeId": "3235",
+    "measurements": [
+      "61",
+      "46",
+      "28",
+      "114"
+    ],
+    "nominated": "2005",
+    "measured": "2005",
+    "status": "State Champion",
+    "county": "Cochise"
+  },
+  {
+    "sourceRow": 105,
+    "sourcePage": 36,
+    "scientificName": "Ficus carica",
+    "commonName": "Common Fig (Presidio Fig)",
+    "sourceTreeId": "AZ0101",
+    "measurements": [
+      "41",
+      "24",
+      "29",
+      "72"
+    ],
+    "nominated": "2020",
+    "measured": "2020",
+    "status": "State Champion, Heritage",
+    "county": "Pima"
+  },
+  {
+    "sourceRow": 106,
+    "sourcePage": 36,
+    "scientificName": "Picea pungens",
+    "commonName": "Blue Spruce",
+    "sourceTreeId": "6256",
+    "measurements": [
+      "135",
+      "160",
+      "33",
+      "303"
+    ],
+    "nominated": "2018",
+    "measured": "2022",
+    "status": "State Champion",
+    "county": "Coconino"
+  },
+  {
+    "sourceRow": 107,
+    "sourcePage": 36,
+    "scientificName": "Pachycereus schottii",
+    "commonName": "Senita (Blackwell Senita)",
+    "sourceTreeId": "AZ0096",
+    "measurements": [
+      "17",
+      "14",
+      "11",
+      "34"
+    ],
+    "nominated": "2019",
+    "measured": "2019",
+    "status": "State Champion/Heritage",
+    "county": "Pima"
+  },
+  {
+    "sourceRow": 108,
+    "sourcePage": 36,
+    "scientificName": "Ostrya knowltonii",
+    "commonName": "Knowlton Hophornbeam",
+    "sourceTreeId": "3859",
+    "measurements": [
+      "132",
+      "40",
+      "47",
+      "184"
+    ],
+    "nominated": "2007",
+    "measured": "2016",
+    "status": "State Champion",
+    "county": "Coconino"
+  },
+  {
+    "sourceRow": 109,
+    "sourcePage": 36,
+    "scientificName": "Malus sylvestris",
+    "commonName": "Common Apple (Fuller Apple)",
+    "sourceTreeId": "4394",
+    "measurements": [
+      "164",
+      "42",
+      "49",
+      "218"
+    ],
+    "nominated": "2009",
+    "measured": "2008",
+    "status": "State Champion, Witness, Heritage",
+    "county": "Gila"
+  },
+  {
+    "sourceRow": 110,
+    "sourcePage": 36,
+    "scientificName": "Nolina bigelovii",
+    "commonName": "Bigelow nolina",
+    "sourceTreeId": "3120",
+    "measurements": [
+      "125",
+      "13",
+      "8",
+      "140"
+    ],
+    "nominated": "1997",
+    "measured": "1997",
+    "status": "State Champion",
+    "county": "Yuma"
+  },
+  {
+    "sourceRow": 111,
+    "sourcePage": 36,
+    "scientificName": "Nicotiana glauca",
+    "commonName": "Tree Tobacco",
+    "sourceTreeId": "3845",
+    "measurements": [
+      "18",
+      "20",
+      "16",
+      "42"
+    ],
+    "nominated": "2007",
+    "measured": "2010",
+    "status": "State Champion",
+    "county": "Gila"
+  },
+  {
+    "sourceRow": 112,
+    "sourcePage": 36,
+    "scientificName": "Maytenus phyllanthoides",
+    "commonName": "Florida Mayten",
+    "sourceTreeId": "3099",
+    "measurements": [
+      "22",
+      "19",
+      "26",
+      "48"
+    ],
+    "nominated": "2003",
+    "measured": "2003",
+    "status": "State Champion",
+    "county": "Pinal"
+  },
+  {
+    "sourceRow": 113,
+    "sourcePage": 36,
+    "scientificName": "Mariosousa williardiana",
+    "commonName": "Palo Blanco",
+    "sourceTreeId": "AZ0006",
+    "measurements": [
+      "28",
+      "36.5",
+      "36",
+      "74"
+    ],
+    "nominated": "2018",
+    "measured": "2018",
+    "status": "State Champion",
+    "county": "Pima"
+  },
+  {
+    "sourceRow": 114,
+    "sourcePage": 36,
+    "scientificName": "Mahonia fremontii",
+    "commonName": "Fremont Mahonia",
+    "sourceTreeId": "AZ0032",
+    "measurements": [
+      "31",
+      "19",
+      "25",
+      "56"
+    ],
+    "nominated": "2003",
+    "measured": "2004",
+    "status": "State Champion",
+    "county": "Yavapai"
+  },
+  {
+    "sourceRow": 115,
+    "sourcePage": 36,
+    "scientificName": "Juniperus deppeana",
+    "commonName": "Alligator Juniper",
+    "sourceTreeId": "5865",
+    "measurements": [
+      "348",
+      "45",
+      "71.5",
+      "411"
+    ],
+    "nominated": "2015",
+    "measured": "2022",
+    "status": "State Champion",
+    "county": "Yavapai"
+  },
+  {
+    "sourceRow": 116,
+    "sourcePage": 36,
+    "scientificName": "Gleditsia triacanthos",
+    "commonName": "Honeylocust",
+    "sourceTreeId": "5890",
+    "measurements": [
+      "48",
+      "45",
+      "57",
+      "107"
+    ],
+    "nominated": "2017",
+    "measured": "2016",
+    "status": "State Champion",
+    "county": "Yavapai"
+  },
+  {
+    "sourceRow": 117,
+    "sourcePage": 36,
+    "scientificName": "Garrya wrightii",
+    "commonName": "Wright's Silktassel",
+    "sourceTreeId": "4125",
+    "measurements": [
+      "38",
+      "17",
+      "19",
+      "60"
+    ],
+    "nominated": "2007",
+    "measured": "2010",
+    "status": "State Champion",
+    "county": "Yavapai"
+  },
+  {
+    "sourceRow": 118,
+    "sourcePage": 36,
+    "scientificName": "Fraxinus papillosa",
+    "commonName": "Chihuahua Ash",
+    "sourceTreeId": "2680",
+    "measurements": [
+      "33",
+      "49",
+      "17",
+      "86"
+    ],
+    "nominated": "2003",
+    "measured": "2003",
+    "status": "State Champion",
+    "county": "Santa Cruz"
+  },
+  {
+    "sourceRow": 119,
+    "sourcePage": 36,
+    "scientificName": "Eucalyptus polyanthemos",
+    "commonName": "Red Box Eucalyptus",
+    "sourceTreeId": "AZ0005",
+    "measurements": [
+      "59",
+      "35",
+      "37",
+      "103"
+    ],
+    "nominated": "2017",
+    "measured": "2017",
+    "status": "State Champion",
+    "county": "Mohave"
+  },
+  {
+    "sourceRow": 120,
+    "sourcePage": 36,
+    "scientificName": "Eucalyptus microtheca",
+    "commonName": "Coolibah",
+    "sourceTreeId": "AZ0010",
+    "measurements": [
+      "170",
+      "96",
+      "89",
+      "288"
+    ],
+    "nominated": "2018",
+    "measured": "2018",
+    "status": "State Champion",
+    "county": "Pinal"
+  },
+  {
+    "sourceRow": 121,
+    "sourcePage": 36,
+    "scientificName": "Cylindropuntia fulgida",
+    "commonName": "Jumping Cholla",
+    "sourceTreeId": "6369",
+    "measurements": [
+      "20",
+      "9",
+      "12",
+      "32"
+    ],
+    "nominated": "2019",
+    "measured": "2019",
+    "status": "State Champion",
+    "county": "Pinal"
+  },
+  {
+    "sourceRow": 122,
+    "sourcePage": 36,
+    "scientificName": "Cupressus sempervirens",
+    "commonName": "Italian Cypress",
+    "sourceTreeId": "AZ0011",
+    "measurements": [
+      "42",
+      "58",
+      "6",
+      "102"
+    ],
+    "nominated": "2018",
+    "measured": "2018",
+    "status": "State Champion",
+    "county": "Pinal"
+  },
+  {
+    "sourceRow": 123,
+    "sourcePage": 36,
+    "scientificName": "Cordia boissieri",
+    "commonName": "Anacahuita",
+    "sourceTreeId": "6308",
+    "measurements": [
+      "15",
+      "14",
+      "14",
+      "33"
+    ],
+    "nominated": "2015",
+    "measured": "2015",
+    "status": "State Champion",
+    "county": "Pima"
+  },
+  {
+    "sourceRow": 124,
+    "sourcePage": 36,
+    "scientificName": "Cercocarpus betuloides",
+    "commonName": "Birchleaf Cercocarpus",
+    "sourceTreeId": "4522",
+    "measurements": [
+      "12",
+      "14",
+      "15",
+      "30"
+    ],
+    "nominated": "2009",
+    "measured": "2009",
+    "status": "State Champion",
+    "county": "Coconino"
+  },
+  {
+    "sourceRow": 125,
+    "sourcePage": 37,
+    "scientificName": "Ceratonia siliqua",
+    "commonName": "Carob",
+    "sourceTreeId": "AZ0031",
+    "measurements": [
+      "189",
+      "45",
+      "65",
+      "250"
+    ],
+    "nominated": "2013",
+    "measured": "2013",
+    "status": "State Champion",
+    "county": "Maricopa"
+  },
+  {
+    "sourceRow": 126,
+    "sourcePage": 37,
+    "scientificName": "Celtis reticulata",
+    "commonName": "Netleaf Hackberry",
+    "sourceTreeId": "6525",
+    "measurements": [
+      "142",
+      "44",
+      "51",
+      "199"
+    ],
+    "nominated": "2019",
+    "measured": "2020",
+    "status": "State Champion",
+    "county": "Yavapai"
+  },
+  {
+    "sourceRow": 127,
+    "sourcePage": 37,
+    "scientificName": "Celtis occidentalis",
+    "commonName": "Common Hackberry",
+    "sourceTreeId": "6286",
+    "measurements": [
+      "21.6",
+      "22",
+      "21",
+      "49"
+    ],
+    "nominated": "2018",
+    "measured": "2018",
+    "status": "State Champion",
+    "county": "Cochise"
+  },
+  {
+    "sourceRow": 128,
+    "sourcePage": 37,
+    "scientificName": "Ceiba speciosa",
+    "commonName": "Silk Floss Tree",
+    "sourceTreeId": "AZ0100",
+    "measurements": [
+      "126",
+      "75",
+      "48",
+      "213"
+    ],
+    "nominated": "2020",
+    "measured": "2020",
+    "status": "State Champion",
+    "county": "Pima"
+  },
+  {
+    "sourceRow": 129,
+    "sourcePage": 37,
+    "scientificName": "Catalpa bignonioides",
+    "commonName": "Southern Catalpa",
+    "sourceTreeId": "5872",
+    "measurements": [
+      "51",
+      "54",
+      "53",
+      "118"
+    ],
+    "nominated": "2017",
+    "measured": "2016",
+    "status": "State Champion",
+    "county": "Yavapai"
+  },
+  {
+    "sourceRow": 130,
+    "sourcePage": 37,
+    "scientificName": "Carya illinoinensis",
+    "commonName": "Pecan",
+    "sourceTreeId": "5855",
+    "measurements": [
+      "80",
+      "57",
+      "52",
+      "150"
+    ],
+    "nominated": "2017",
+    "measured": "2015",
+    "status": "State Champion",
+    "county": "Pinal"
+  },
+  {
+    "sourceRow": 131,
+    "sourcePage": 37,
+    "scientificName": "Brachychiton ruprestris",
+    "commonName": "Queensland Bottletree",
+    "sourceTreeId": "AZ0016",
+    "measurements": [
+      "117",
+      "38",
+      "33",
+      "163"
+    ],
+    "nominated": "2017",
+    "measured": "2017",
+    "status": "State Champion",
+    "county": "Pima"
+  },
+  {
+    "sourceRow": 132,
+    "sourcePage": 37,
+    "scientificName": "Alnus oblongifolia",
+    "commonName": "Arizona Alder",
+    "sourceTreeId": "AZ0013",
+    "measurements": [
+      "179",
+      "89",
+      "53",
+      "281"
+    ],
+    "nominated": "2013",
+    "measured": "2013",
+    "status": "State Champion",
+    "county": "Yavapai"
+  },
+  {
+    "sourceRow": 133,
+    "sourcePage": 37,
+    "scientificName": "Acer grandidentatum",
+    "commonName": "Canyon Maple",
+    "sourceTreeId": "3847",
+    "measurements": [
+      "210",
+      "59",
+      "46",
+      "281"
+    ],
+    "nominated": "2007",
+    "measured": "2013",
+    "status": "State Champion",
+    "county": "Coconino"
+  },
+  {
+    "sourceRow": 134,
+    "sourcePage": 37,
+    "scientificName": "Acer glabrum",
+    "commonName": "Rocky Mountain Maple",
+    "sourceTreeId": "5873",
+    "measurements": [
+      "132",
+      "35",
+      "60",
+      "182"
+    ],
+    "nominated": "2017",
+    "measured": "2016",
+    "status": "State Champion",
+    "county": "Yavapai"
+  },
+  {
+    "sourceRow": 135,
+    "sourcePage": 37,
+    "scientificName": "Acacia berlandieri",
+    "commonName": "Guajillo",
+    "sourceTreeId": "4116",
+    "measurements": [
+      "18",
+      "23",
+      "29",
+      "48"
+    ],
+    "nominated": "2007",
+    "measured": "2019",
+    "status": "State Champion",
+    "county": "Pima"
+  },
+  {
+    "sourceRow": 136,
+    "sourcePage": 37,
+    "scientificName": "Juniperus coahuilensis",
+    "commonName": "Redberry Juniper",
+    "sourceTreeId": "3032",
+    "measurements": [
+      "119",
+      "28",
+      "33",
+      "155"
+    ],
+    "nominated": "2001",
+    "measured": "2001",
+    "status": "State Co-Champion",
+    "county": "Pima"
+  },
+  {
+    "sourceRow": 137,
+    "sourcePage": 37,
+    "scientificName": "Juniperus coahuilensis",
+    "commonName": "Redberry Juniper",
+    "sourceTreeId": "3033",
+    "measurements": [
+      "106",
+      "35",
+      "48",
+      "153"
+    ],
+    "nominated": "2005",
+    "measured": "2004",
+    "status": "State Co-Champion",
+    "county": "Yavapai"
+  },
+  {
+    "sourceRow": 138,
+    "sourcePage": 37,
+    "scientificName": "Parkinsonia florida",
+    "commonName": "Blue Palo Verde",
+    "sourceTreeId": "6389",
+    "measurements": [
+      "89",
+      "35",
+      "55",
+      "138"
+    ],
+    "nominated": "2019",
+    "measured": "2019",
+    "status": "State Champion",
+    "county": "Maricopa"
+  },
+  {
+    "sourceRow": 139,
+    "sourcePage": 37,
+    "scientificName": "Carnigea gigantea",
+    "commonName": "Saguaro cactus",
+    "sourceTreeId": "AZ0124",
+    "measurements": [
+      "90",
+      "47",
+      "14",
+      "141"
+    ],
+    "nominated": "2022",
+    "measured": "2023",
+    "status": "State Co-Champion",
+    "county": "Pinal"
+  },
+  {
+    "sourceRow": 140,
+    "sourcePage": 37,
+    "scientificName": "Abies concolor",
+    "commonName": "White fir",
+    "sourceTreeId": "AZ0131",
+    "measurements": [
+      "186",
+      "187",
+      "39",
+      "383"
+    ],
+    "nominated": "2023",
+    "measured": "2023",
+    "status": "State Champion",
+    "county": "Gila"
+  },
+  {
+    "sourceRow": 141,
+    "sourcePage": 37,
+    "scientificName": "Melia azedarach",
+    "commonName": "Chinaberry",
+    "sourceTreeId": "AZ0148",
+    "measurements": [
+      "37",
+      "33",
+      "52",
+      "83"
+    ],
+    "nominated": "2023",
+    "measured": "2023",
+    "status": "State Champion",
+    "county": "Yavapai"
+  },
+  {
+    "sourceRow": 142,
+    "sourcePage": 37,
+    "scientificName": "Eucalyptus polyanthemos",
+    "commonName": "Red Box Eucalyptus",
+    "sourceTreeId": "AZ0141",
+    "measurements": [
+      "132",
+      "60",
+      "42",
+      "203"
+    ],
+    "nominated": "2022",
+    "measured": "2023",
+    "status": "State Champion",
+    "county": "Pima"
+  },
+  {
+    "sourceRow": 143,
+    "sourcePage": 37,
+    "scientificName": "Quercus emoryi",
+    "commonName": "Emory Oak",
+    "sourceTreeId": "AZ0130",
+    "measurements": [
+      "219",
+      "51",
+      "87",
+      "292"
+    ],
+    "nominated": "2022",
+    "measured": "2023",
+    "status": "State Champion",
+    "county": "Pima"
+  }
+]
