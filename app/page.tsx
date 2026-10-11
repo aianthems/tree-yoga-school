@@ -179,16 +179,6 @@ export default function Home() {
         <Link className="course-link" href="/book/wisdom-and-wonder">Explore the principles in Wisdom and Wonder</Link>
       </section>
 
-      <section className="closing">
-        <div className="closing-inner">
-          <p className="section-kicker">Tree Yoga School</p>
-          <h2>Practice. Notice. Reflect. Return outside.</h2>
-          <a className="button light" href={bookUrl} target="_blank" rel="noreferrer">
-            Open the book ↗
-          </a>
-        </div>
-      </section>
-
       <section className="home-video home-final-video section-shell" aria-labelledby="final-video-title"><div className="home-video-inner"><p className="section-kicker">The original school · With Alex Julian</p><h2 id="final-video-title">Before you go.</h2><p>One more video from the original Tree Yoga School.</p><VideoLesson youtubeId="bAi5qa-1H-0" title="Tree Yoga School — Closing video with Alex Julian" /></div></section>
 
       </main>
