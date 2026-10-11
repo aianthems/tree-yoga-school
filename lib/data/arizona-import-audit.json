@@ -1,0 +1,59 @@
+{
+  "registerUrl": "https://dffm.az.gov/sites/default/files/media/2023%20Magnificent%20Tree%20Annual%20Report.pdf",
+  "programUrl": "https://dffm.az.gov/arizonas-magnificent-trees",
+  "geographyUrl": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_counties_national.zip",
+  "retrieved": "October 11, 2026",
+  "edition": 2023,
+  "publishedRows": 143,
+  "expectedRecords": 139,
+  "mappedRecords": 138,
+  "countyCount": 11,
+  "unmappedIds": [
+    "az-az0142"
+  ],
+  "duplicateGroups": [
+    {
+      "treeId": "AZ0098",
+      "rows": [
+        4,
+        76
+      ],
+      "selectedRow": 76
+    },
+    {
+      "treeId": "AZ0148",
+      "rows": [
+        14,
+        141
+      ],
+      "selectedRow": 14
+    },
+    {
+      "treeId": "AZ0123",
+      "rows": [
+        16,
+        48
+      ],
+      "selectedRow": 16
+    },
+    {
+      "treeId": "AZ0141",
+      "rows": [
+        28,
+        142
+      ],
+      "selectedRow": 28
+    }
+  ],
+  "scoreDiscrepancyIds": [
+    "az-az0033"
+  ],
+  "sourceHashes": {
+    "arizona-2023.pdf": "e963cf55b24ee96e4ddfe64ad15570498ad0c4704da71b9cba44857ee76a8ff3",
+    "counties.zip": "4c90d0f805779923b5958ab13d0c1e9b99fe4932b786bfcf75dd739bb2dcb4ea"
+  },
+  "review": "All 143 numbered champion rows on PDF pages 34–37 reviewed. Four repeated IDs consolidated; latest explicitly dated measurement chosen for cork oak AZ0098. Other duplicates identical in retained fields. Different IDs remain distinct, even with repeated species/measurements. Separate Heritage/Witness appendix excluded; dual designations already in champion appendix retained. 2024 additions and inaccessible 2025 report not merged; this is a 2023 snapshot, not a current register.",
+  "geography": "Published counties matched exactly to Census 2025 Arizona county points. N/A county retained as undisclosed, without an inferred map point.",
+  "units": "Circumference inches; height and full crown spread feet; source scores unchanged.",
+  "privacy": "Nominator names omitted. No exact positions, addresses or visiting permissions inferred."
+}
