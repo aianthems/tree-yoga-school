@@ -1,10 +1,55 @@
+"use client";
+
+import Image from "next/image";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { useEffect, useRef, useState } from "react";
+import { siteNavigation } from "../../lib/site-navigation";
+
 export default function SiteHeader() {
+  const pathname = usePathname();
+  const activeGroup = siteNavigation.flatMap(group => group.links.map(link => ({ group: group.id, href: link.href })))
+    .filter(link => pathname === link.href || pathname.startsWith(link.href + "/"))
+    .sort((a, b) => b.href.length - a.href.length)[0]?.group;
+  const [openGroup, setOpenGroup] = useState<string | null>(null);
+  const [mobileOpen, setMobileOpen] = useState(false);
+  const header = useRef<HTMLElement>(null);
+  const menuButton = useRef<HTMLButtonElement>(null);
+  const groupButtons = useRef<Record<string, HTMLButtonElement | null>>({});
+  const close = () => { setOpenGroup(null); setMobileOpen(false); };
+
+  useEffect(() => {
+    if (!openGroup && !mobileOpen) return;
+    const onPointer = (event: PointerEvent) => {
+      if (event.target instanceof Node && !header.current?.contains(event.target)) { setOpenGroup(null); setMobileOpen(false); }
+    };
+    const onKey = (event: KeyboardEvent) => {
+      if (event.key !== "Escape") return;
+      if (openGroup) { groupButtons.current[openGroup]?.focus(); setOpenGroup(null); }
+      else { menuButton.current?.focus(); setMobileOpen(false); }
+    };
+    document.addEventListener("pointerdown", onPointer);
+    document.addEventListener("keydown", onKey);
+    return () => { document.removeEventListener("pointerdown", onPointer); document.removeEventListener("keydown", onKey); };
+  }, [openGroup, mobileOpen]);
+
   return <><a className="skip-link" href="#content">Skip to content</a>
-    <header className="site-header">
-      <a className="brand" href="/" aria-label="Tree Yoga School home"><span className="brand-mark" aria-hidden="true">⌁</span><span>Tree Yoga School</span></a>
-      <nav aria-label="Primary navigation">
-        <a href="/begin-here">Begin Here</a><a href="/book">The Book</a><a href="/tree-hugging">Tree Hugging</a><a href="/trees">Tree Library</a><a href="/champion-trees">Champion Map</a><a href="/tree-visits">Trees to Visit</a><a href="/return-to-your-tree">Return to Your Tree</a>
-        <details className="school-menu"><summary>The School</summary><div className="school-menu-links"><a href="/about">About</a><a href="/contact">Contact</a><a href="/big-tree-volunteers">Big Tree Volunteers</a><a href="/#practice">Practice</a><a href="/#principles">Principles</a></div></details>
+    <header className="site-header" ref={header}>
+      <Link className="brand school-brand" href="/" aria-label="Tree Yoga School home" onClick={close}><Image src="https://media.treeyogaschool.com/images/logos/tree-yoga-school-logo-v1.webp" alt="" width={58} height={58} unoptimized /><span className="school-brand-copy"><span>Tree Yoga School</span><small>Practice with the living world</small></span></Link>
+      <button className="site-menu-toggle" ref={menuButton} type="button" aria-expanded={mobileOpen} aria-controls="school-primary-nav" onClick={() => { setMobileOpen(!mobileOpen); setOpenGroup(null); }}><span>{mobileOpen ? "Close" : "Menu"}</span><span className="site-menu-symbol" aria-hidden="true">{mobileOpen ? "×" : "☰"}</span></button>
+      <nav className="school-primary-nav" id="school-primary-nav" aria-label="Primary navigation" data-mobile-open={mobileOpen}>
+        {siteNavigation.map(group => {
+          const active = activeGroup === group.id;
+          const expanded = openGroup === group.id;
+          return <div className="site-nav-group" key={group.id} data-active={active}>
+            <button type="button" className="site-nav-trigger" ref={element => { groupButtons.current[group.id] = element; }} aria-expanded={expanded} aria-controls={`site-nav-${group.id}`} onClick={() => setOpenGroup(expanded ? null : group.id)}>{group.title}<span aria-hidden="true">{expanded ? "−" : "+"}</span></button>
+            <div className="site-nav-panel" id={`site-nav-${group.id}`} hidden={!expanded}>
+              <div className="site-nav-intro"><p className="section-kicker">{group.title}</p><p className="site-nav-invitation">{group.invitation}</p><p>{group.description}</p></div>
+              <ul className="site-nav-links">{group.links.map(link => <li key={link.href}><Link href={link.href} onClick={close} aria-current={pathname === link.href ? "page" : undefined}><span>{link.label}<i aria-hidden="true">↗</i></span><small>{link.description}</small></Link></li>)}</ul>
+            </div>
+          </div>;
+        })}
+        <Link className="site-nav-begin" href="/begin-here" onClick={close} aria-current={pathname === "/begin-here" ? "page" : undefined}>Begin Here <span aria-hidden="true">↗</span></Link>
       </nav>
     </header></>;
 }
