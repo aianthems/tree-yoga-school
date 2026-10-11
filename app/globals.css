@@ -1498,3 +1498,15 @@ section[id] { scroll-margin-top: 90px; }
   .home-hug-photo::after { background: linear-gradient(0deg, #142d23b3, transparent 35%); }
   .home-hug-photo figcaption { bottom: 24px; font-size: 1.25rem; }
 }
+
+/* The Tree Hugging page shares the homepage's photographic embrace. */
+.hug-hero-photographic { grid-template-columns: .95fr 1.25fr; min-height: 760px; }
+.hug-hero-photographic .hug-hero-copy { padding: 64px 3vw 64px 6vw; }
+.hug-hero-photographic h1 { font-size: clamp(3.8rem, 6.2vw, 6.8rem); }
+.hug-photo-kicker { position: absolute; z-index: 1; top: 32px; right: 6%; padding: 9px 14px; border: 1px solid #eec48066; border-radius: 999px; background: #142d23c7; color: #eec480; font-size: .65rem; letter-spacing: .14em; text-transform: uppercase; }
+@media (max-width: 760px) {
+  .hug-hero-photographic { grid-template-columns: 1fr; min-height: 0; }
+  .hug-hero-photographic .hug-hero-copy { grid-row: 2; padding: 44px 6vw 52px; }
+  .hug-hero-photographic h1 { font-size: clamp(3.5rem, 11vw, 6rem); }
+  .hug-photo-kicker { top: 20px; font-size: .55rem; }
+}
