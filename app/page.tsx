@@ -32,19 +32,6 @@ const pathways = [
   },
 ];
 
-const principles = [
-  "Acceptance",
-  "Adaptability",
-  "Balance & Optimization",
-  "One-Pointed Focus",
-  "Perseverance",
-  "Presence",
-  "Release",
-  "Strength",
-  "Unconditional Forgiveness",
-  "Unconditional Love",
-];
-
 export default function Home() {
   return (
     <>
@@ -134,27 +121,6 @@ export default function Home() {
       </section>
 
       <HomeChampions />
-
-      <section className="principles section-shell" id="principles">
-        <div className="principles-intro">
-          <p className="section-kicker">Wisdom and Wonder</p>
-          <h2>Ten principles for practice — and for building the school.</h2>
-          <p>
-            The book’s principles become a compass for both the yoga and the
-            technology around it: patient growth, attention, adaptability, and
-            care for the living world.
-          </p>
-        </div>
-        <ol className="principle-list">
-          {principles.map((principle, index) => (
-            <li key={principle}>
-              <span>{String(index + 1).padStart(2, "0")}</span>
-              {principle}
-            </li>
-          ))}
-        </ol>
-        <Link className="course-link" href="/book/wisdom-and-wonder">Explore the principles in Wisdom and Wonder</Link>
-      </section>
 
       <section className="home-video home-final-video section-shell" aria-labelledby="final-video-title"><div className="home-video-inner"><p className="section-kicker">The original school · With Alex Julian</p><h2 id="final-video-title">Before you go.</h2><p>One more video from the original Tree Yoga School.</p><VideoLesson youtubeId="bAi5qa-1H-0" title="Tree Yoga School — Closing video with Alex Julian" /></div></section>
 
