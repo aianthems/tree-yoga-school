@@ -537,5 +537,19 @@
     [
       "Names, decimal measurements, dates and scores are preserved. Circumference is converted from feet and inches to inches; height and full average crown spread are shown in feet. Norway spruce’s current 48-foot crown differs from 38.5 feet in the older table. River birch’s circumference is 60.6 inches in the StoryMap versus 60.7 inches in the announcement; the StoryMap value is used. The Miyabe maple’s June 2023 measurement date stays distinct from its 2025 addition announcement. Scientific spelling and score inconsistencies are retained and flagged. Current condition, access and national standing are unverified."
     ]
+  ],
+  "UT": [
+    [
+      "Utah Community Forest Council’s Big Tree Directory, linked by Utah’s Division of Forestry, Fire and State Lands, was retrieved October 11, 2026. All nine directory pages contain 250 distinct tree IDs. This selection includes 248 entries explicitly marked State Champ Status: 1. Russian olive ID 313 (status 0) and western chokecherry ID 95 (status 2) are excluded; no champion designation is inferred for those codes."
+    ],
+    [
+      "Multiple state-designated records of a species are retained rather than choosing the largest score. Three records explicitly described as co-champions in special notes retain that description. Ten national-champion flags are preserved as Utah directory labels, without independently claiming current national standing. Names, measurements, published scores and individual measurement years remain as published. Entry/update dates are separate from measurement years."
+    ],
+    [
+      "225 records use approximate points for 43 Census places; 23 records have no unambiguous place match and remain searchable without markers. Forests, counties, ambiguous Salt Lake labels and the misspelled Milcreek are not assigned inferred city locations. Census contains both Enterprise city and Enterprise CDP; the unspecified Enterprise record is not mapped. Provo - Brigham Young University and Ogden, Utah use their explicitly named cities."
+    ],
+    [
+      "The directory explicitly labels 159 included records as publicly accessible and 89 as having no public access, using Yes/Y and No/N. These labels are retained; current visiting arrangements should be confirmed with the program or site. Markers represent approximate Census places, not individual trees. Personal owner/nominator/measurer fields, street addresses, photographs, individual coordinates and location directions in special notes are omitted."
+    ]
   ]
 }

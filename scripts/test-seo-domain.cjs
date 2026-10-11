@@ -19,8 +19,8 @@ function inEnvironment(environment, callback) {
 }
 test('all sitemap and canonical/social URLs use the independently specified official origin', () => {
   assert.equal(siteOrigin, officialOrigin);
-  assert.equal(sitemap().length, 237);
-  assert.equal(new Set(sitemap().map(entry => entry.url)).size, 237);
+  assert.equal(sitemap().length, 238);
+  assert.equal(new Set(sitemap().map(entry => entry.url)).size, 238);
   for (const entry of sitemap()) {
     assert.equal(new URL(entry.url).origin, officialOrigin);
     assert.equal(entry.lastModified, undefined);
