@@ -179,25 +179,6 @@ export default function Home() {
         <Link className="course-link" href="/book/wisdom-and-wonder">Explore the principles in Wisdom and Wonder</Link>
       </section>
 
-      <section className="ai-native section-shell">
-        <p className="section-kicker">AI-native, human-centered</p>
-        <div className="ai-layout">
-          <h2>Use technology to help people return to practice.</h2>
-          <div>
-            <p>
-              AI can help organize teaching, improve explanations, build useful
-              tools, and make the school easier to explore. It should not become
-              the object of the practice.
-            </p>
-            <p>
-              The measure is simple: does the technology help someone practice
-              with greater attention, care, and independence — and then make it
-              easier to close the device and go outside?
-            </p>
-          </div>
-        </div>
-      </section>
-
       <section className="closing">
         <div className="closing-inner">
           <p className="section-kicker">Tree Yoga School</p>
