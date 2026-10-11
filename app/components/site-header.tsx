@@ -34,14 +34,18 @@ export default function SiteHeader() {
   }, [openGroup, mobileOpen]);
 
   return <><a className="skip-link" href="#content">Skip to content</a>
-    <header className="site-header" ref={header}>
+    <header className="site-header" ref={header} onPointerLeave={event => {
+      if (event.pointerType === "mouse" && window.matchMedia("(min-width: 901px) and (hover: hover)").matches) setOpenGroup(null);
+    }}>
       <Link className="brand school-brand" href="/" aria-label="Tree Yoga School home" onClick={close}><Image src="https://media.treeyogaschool.com/images/logos/tree-yoga-school-logo-v1.webp" alt="" width={58} height={58} unoptimized /><span className="school-brand-copy"><span>Tree Yoga School</span><small>Practice with the living world</small></span></Link>
       <button className="site-menu-toggle" ref={menuButton} type="button" aria-expanded={mobileOpen} aria-controls="school-primary-nav" onClick={() => { setMobileOpen(!mobileOpen); setOpenGroup(null); }}><span>{mobileOpen ? "Close" : "Menu"}</span><span className="site-menu-symbol" aria-hidden="true">{mobileOpen ? "×" : "☰"}</span></button>
       <nav className="school-primary-nav" id="school-primary-nav" aria-label="Primary navigation" data-mobile-open={mobileOpen}>
         {siteNavigation.map(group => {
           const active = activeGroup === group.id;
           const expanded = openGroup === group.id;
-          return <div className="site-nav-group" key={group.id} data-active={active}>
+          return <div className="site-nav-group" key={group.id} data-active={active} onPointerEnter={event => {
+            if (event.pointerType === "mouse" && window.matchMedia("(min-width: 901px) and (hover: hover)").matches) setOpenGroup(group.id);
+          }}>
             <button type="button" className="site-nav-trigger" ref={element => { groupButtons.current[group.id] = element; }} aria-expanded={expanded} aria-controls={`site-nav-${group.id}`} onClick={() => setOpenGroup(expanded ? null : group.id)}>{group.title}<span aria-hidden="true">{expanded ? "−" : "+"}</span></button>
             <div className="site-nav-panel" id={`site-nav-${group.id}`} hidden={!expanded}>
               <div className="site-nav-intro"><p className="section-kicker">{group.title}</p><p className="site-nav-invitation">{group.invitation}</p><p>{group.description}</p></div>
