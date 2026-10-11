@@ -551,5 +551,19 @@
     [
       "The directory explicitly labels 159 included records as publicly accessible and 89 as having no public access, using Yes/Y and No/N. These labels are retained; current visiting arrangements should be confirmed with the program or site. Markers represent approximate Census places, not individual trees. Personal owner/nominator/measurer fields, street addresses, photographs, individual coordinates and location directions in special notes are omitted."
     ]
+  ],
+  "WY": [
+    [
+      "All 57 entries in Wyoming State Forestry Division’s current State Champion Tree Register, retrieved October 11, 2026. The register listing is reconciled with each individual tree page across names, county and all four measurements/scores. Older Google Sites register pages are not combined with this current directory."
+    ],
+    [
+      "No edition or individual measurement dates are displayed. Inclusion follows the official champion register, without choosing additional champions or inferring co-champion or national titles from scores. Published species, cultivars, genus-only categories and names remain as supplied."
+    ],
+    [
+      "All 57 records use 15 approximate Census 2025 county points. The register provides counties, without towns, exact tree locations or public visiting classifications. Access remains unclassified; markers do not locate the trees or establish visiting permission. No addresses, photographs, personal fields or individual tree coordinates are imported."
+    ],
+    [
+      "Circumference is in inches; height and full average crown spread are in feet. Published scores remain unchanged, with discrepancies flagged in record details. Eastern Cottonwood’s listed circumference of 497 inches, height of 70 feet and spread of 100 feet calculate to 592 points, while both the listing and its individual page publish 388 points. Kentucky Coffeetree and Lombardy Poplar also have scores inconsistent with the listed measurements."
+    ]
   ]
 }

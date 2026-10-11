@@ -1,0 +1,357 @@
+{
+  "sourceUrl": "https://wsfd.wyo.gov/forestry/wyoming-state-champion-tree-register/",
+  "retrieved": "2026-10-11",
+  "sourceRecords": 57,
+  "includedRecords": 57,
+  "mappedRecords": 57,
+  "countyPoints": 15,
+  "registerSha256": "112e26c1f6dd4d66b539adb25fb626c72b2637d5709c1e38d100ee8d2e7947cd",
+  "geographyUrl": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_counties_national.zip",
+  "geographySha256": "4c90d0f805779923b5958ab13d0c1e9b99fe4932b786bfcf75dd739bb2dcb4ea",
+  "detailChecks": [
+    {
+      "id": "wy-american-basswood",
+      "sourceUrl": "https://wsfd.wyo.gov/champion-tree/american-basswood/",
+      "detailSha256": "e62504ed745a020d1cf1b0dc56f346d80c3480fb46b2ff6b33bdec41a9adc2a9",
+      "listingMatchesDetail": true
+    },
+    {
+      "id": "wy-american-elm",
+      "sourceUrl": "https://wsfd.wyo.gov/champion-tree/american-elm/",
+      "detailSha256": "2c2734f5af7e8f3eb99866e38f77258cf12c4513b296d5b1dece8d976b6be041",
+      "listingMatchesDetail": true
+    },
+    {
+      "id": "wy-american-sycamore",
+      "sourceUrl": "https://wsfd.wyo.gov/champion-tree/american-sycamore/",
+      "detailSha256": "f99d0aa425e56225e7a473de73f6f54c1d6445fd65a7e14787d26fe22faa0bb6",
+      "listingMatchesDetail": true
+    },
+    {
+      "id": "wy-amur-corktree",
+      "sourceUrl": "https://wsfd.wyo.gov/champion-tree/amur-corktree/",
+      "detailSha256": "32fe94fe7f6ac4125639f2f85f6fda04d77ba12973d19de707f4338964927f32",
+      "listingMatchesDetail": true
+    },
+    {
+      "id": "wy-austrian-pine",
+      "sourceUrl": "https://wsfd.wyo.gov/champion-tree/austrian-pine/",
+      "detailSha256": "9f042e7128fa5b7cfa8898a28b491a8a2b930721ec80d669f555df2822e7e42f",
+      "listingMatchesDetail": true
+    },
+    {
+      "id": "wy-black-hills-spruce",
+      "sourceUrl": "https://wsfd.wyo.gov/champion-tree/black-hills-spruce/",
+      "detailSha256": "d5ef5236cffd951a90e6fd524936c9d93d58db79775ed7031dda50b65716720b",
+      "listingMatchesDetail": true
+    },
+    {
+      "id": "wy-black-locust",
+      "sourceUrl": "https://wsfd.wyo.gov/champion-tree/black-locust/",
+      "detailSha256": "38d431c92257ef71fa8e67ae4a6e2b3610f5230af51b165938aabe34dc176012",
+      "listingMatchesDetail": true
+    },
+    {
+      "id": "wy-black-walnut",
+      "sourceUrl": "https://wsfd.wyo.gov/champion-tree/black-walnut/",
+      "detailSha256": "4a075002e741949917a7932c0625cbaa118e11d4827e967b54e92cba01a4d67b",
+      "listingMatchesDetail": true
+    },
+    {
+      "id": "wy-bolleana-poplar",
+      "sourceUrl": "https://wsfd.wyo.gov/champion-tree/bolleana-poplar/",
+      "detailSha256": "8472f463668f90bcbd2e5f697f161fff275fda75d07dfd8eda6ce24d569f1741",
+      "listingMatchesDetail": true
+    },
+    {
+      "id": "wy-boxelder",
+      "sourceUrl": "https://wsfd.wyo.gov/champion-tree/boxelder/",
+      "detailSha256": "fc56290a351b371d73c6dba12304aad7f872b3b153dd13e85188481d175bd0d5",
+      "listingMatchesDetail": true
+    },
+    {
+      "id": "wy-bristlecone-pine",
+      "sourceUrl": "https://wsfd.wyo.gov/champion-tree/bristlecone-pine/",
+      "detailSha256": "7c381f5b0a146dab258d4491bc93870bdf4b2437bb655115bf296d9ebcb49c98",
+      "listingMatchesDetail": true
+    },
+    {
+      "id": "wy-bur-oak",
+      "sourceUrl": "https://wsfd.wyo.gov/champion-tree/bur-oak/",
+      "detailSha256": "28bfc1d65b0032a5c307ad0898be60f3ef95b3c5d3091146e6ee79ce4a9c8959",
+      "listingMatchesDetail": true
+    },
+    {
+      "id": "wy-chokecherry-canada-red",
+      "sourceUrl": "https://wsfd.wyo.gov/champion-tree/chokecherry-canada-red/",
+      "detailSha256": "f811c707edff054e1298113e74222a8f346a3e2ca1f55feb7f4611216ee72544",
+      "listingMatchesDetail": true
+    },
+    {
+      "id": "wy-colorado-blue-spruce",
+      "sourceUrl": "https://wsfd.wyo.gov/champion-tree/colorado-blue-spruce/",
+      "detailSha256": "6a7016fdf4661dedba242d467f3e20caab6b58d9b3e2d06f3a4f50d9822f14e5",
+      "listingMatchesDetail": true
+    },
+    {
+      "id": "wy-common-hackberry",
+      "sourceUrl": "https://wsfd.wyo.gov/champion-tree/common-hackberry/",
+      "detailSha256": "895fa890daa9534969d7c86848c8f402ba46a371103eb33861bf783db96d8dc3",
+      "listingMatchesDetail": true
+    },
+    {
+      "id": "wy-crabapple",
+      "sourceUrl": "https://wsfd.wyo.gov/champion-tree/crabapple/",
+      "detailSha256": "4903ba094da89fb71cfd927b4c854bb6702d190d5fb23f5c9c066c9ddf1c3a88",
+      "listingMatchesDetail": true
+    },
+    {
+      "id": "wy-douglas-fir",
+      "sourceUrl": "https://wsfd.wyo.gov/champion-tree/douglas-fir/",
+      "detailSha256": "f404d287d572585e8b6d221df35a8e2892c016862ffc2a8b254f505f8669e120",
+      "listingMatchesDetail": true
+    },
+    {
+      "id": "wy-downy-hawthorn",
+      "sourceUrl": "https://wsfd.wyo.gov/champion-tree/downy-hawthorn/",
+      "detailSha256": "b3ee19f288d0cbef1ea80af1de043d747a2a24e3c4196bfdc995ad7fcc23f695",
+      "listingMatchesDetail": true
+    },
+    {
+      "id": "wy-eastern-cottonwood",
+      "sourceUrl": "https://wsfd.wyo.gov/champion-tree/eastern-cottonwood/",
+      "detailSha256": "21b2bde7640a61fa7d1d3d61ea20af88088f88bde594aeac5ea0934917b83abe",
+      "listingMatchesDetail": true
+    },
+    {
+      "id": "wy-eastern-white-pine",
+      "sourceUrl": "https://wsfd.wyo.gov/champion-tree/eastern-white-pine/",
+      "detailSha256": "11847abe3083e016ca2b479fc0ef33952b835acad357a808af97bb466fe4af3b",
+      "listingMatchesDetail": true
+    },
+    {
+      "id": "wy-engelmann-spruce",
+      "sourceUrl": "https://wsfd.wyo.gov/champion-tree/engelmann-spruce/",
+      "detailSha256": "4d3c282b61d6bf11dcc4ff3e0d66ec96781a068c2f5a625f8e9ec4c192480a62",
+      "listingMatchesDetail": true
+    },
+    {
+      "id": "wy-european-mountain-ash",
+      "sourceUrl": "https://wsfd.wyo.gov/champion-tree/european-mountain-ash/",
+      "detailSha256": "30cf274b9076e8776c56a10045b39054bd0d5cf160ac54d8b06bdb524a73a9e7",
+      "listingMatchesDetail": true
+    },
+    {
+      "id": "wy-european-white-birch",
+      "sourceUrl": "https://wsfd.wyo.gov/champion-tree/european-white-birch/",
+      "detailSha256": "add9cd3db509c5face0bb2ef9cc6473d157ea7658226f7700c9fd1b322150aaf",
+      "listingMatchesDetail": true
+    },
+    {
+      "id": "wy-european-white-elm",
+      "sourceUrl": "https://wsfd.wyo.gov/champion-tree/european-white-elm/",
+      "detailSha256": "5bebfe577fd5314fa42be602f3725a67ba7bd4ffce54e1047b79bdd626c32e4a",
+      "listingMatchesDetail": true
+    },
+    {
+      "id": "wy-golden-willow",
+      "sourceUrl": "https://wsfd.wyo.gov/champion-tree/golden-willow/",
+      "detailSha256": "819af1197bc07be47fc17f3dc0d3e2dfe8f1764bfb8d75e44fcfaf32daba45d9",
+      "listingMatchesDetail": true
+    },
+    {
+      "id": "wy-green-ash",
+      "sourceUrl": "https://wsfd.wyo.gov/champion-tree/green-ash/",
+      "detailSha256": "d2488f334297e2c48bdb2e0be238af2e33e8358cb415a5fa4ebb66d37e7ad076",
+      "listingMatchesDetail": true
+    },
+    {
+      "id": "wy-honeylocust",
+      "sourceUrl": "https://wsfd.wyo.gov/champion-tree/honeylocust/",
+      "detailSha256": "d4f92e3044febc02c71b1f5736dd3a9b60e27954ba6193fc8221f7bf09075cec",
+      "listingMatchesDetail": true
+    },
+    {
+      "id": "wy-kentucky-coffeetree",
+      "sourceUrl": "https://wsfd.wyo.gov/champion-tree/kentucky-coffeetree/",
+      "detailSha256": "3e08208a16845f59e9305c5f25d585bf364ef07250eff197ee7d24d339fae3f3",
+      "listingMatchesDetail": true
+    },
+    {
+      "id": "wy-lanceleaf-cottonwood",
+      "sourceUrl": "https://wsfd.wyo.gov/champion-tree/lanceleaf-cottonwood/",
+      "detailSha256": "03768342986b4d978df90a197d7255a694dd5f7ebbdde44f8db6187a420bad07",
+      "listingMatchesDetail": true
+    },
+    {
+      "id": "wy-limber-pine",
+      "sourceUrl": "https://wsfd.wyo.gov/champion-tree/limber-pine/",
+      "detailSha256": "1e9f44c7dc9caf590769e2a4de0ee30a33e0c00febd28c874bc18f90e011e8e5",
+      "listingMatchesDetail": true
+    },
+    {
+      "id": "wy-littleleaf-linden",
+      "sourceUrl": "https://wsfd.wyo.gov/champion-tree/littleleaf-linden/",
+      "detailSha256": "6a2f6a8b242eeb851e004ab45b86d08e8e7d2e994bffef9fa1d3388b56623fde",
+      "listingMatchesDetail": true
+    },
+    {
+      "id": "wy-lodgepole-pine",
+      "sourceUrl": "https://wsfd.wyo.gov/champion-tree/lodgepole-pine/",
+      "detailSha256": "3d27fd4487bdd38d24415a5ac6ecce57ac4ab1caa2c5a8ff7437a51b43a98914",
+      "listingMatchesDetail": true
+    },
+    {
+      "id": "wy-lombardy-poplar",
+      "sourceUrl": "https://wsfd.wyo.gov/champion-tree/lombardy-poplar/",
+      "detailSha256": "d2ccdaf52eb42daa7e4fb3df8a47851a02a12396772468ab15ed04680c5eb273",
+      "listingMatchesDetail": true
+    },
+    {
+      "id": "wy-mulberry",
+      "sourceUrl": "https://wsfd.wyo.gov/champion-tree/mulberry/",
+      "detailSha256": "090f1007c5ecebfdcc4c5026c3f0201ae639b4ba20dc47f58f82c6074bee1d86",
+      "listingMatchesDetail": true
+    },
+    {
+      "id": "wy-northern-catalpa",
+      "sourceUrl": "https://wsfd.wyo.gov/champion-tree/northern-catalpa/",
+      "detailSha256": "76bbe8d0fcc72003db3aff0d8aa5624cec48399097a1aa7976f4332535f52438",
+      "listingMatchesDetail": true
+    },
+    {
+      "id": "wy-northern-red-oak",
+      "sourceUrl": "https://wsfd.wyo.gov/champion-tree/northern-red-oak/",
+      "detailSha256": "c480f368eca8e1cd4dbd004ea9a29c691763f11131959601c54c195f647ac503",
+      "listingMatchesDetail": true
+    },
+    {
+      "id": "wy-norway-maple",
+      "sourceUrl": "https://wsfd.wyo.gov/champion-tree/norway-maple/",
+      "detailSha256": "b825568c6d51e78e19798be93e2c6a8252ebf469b3fdbe921dbe4bc090265d34",
+      "listingMatchesDetail": true
+    },
+    {
+      "id": "wy-norway-spruce",
+      "sourceUrl": "https://wsfd.wyo.gov/champion-tree/norway-spruce/",
+      "detailSha256": "5c01e58acde3eeda5420f30d93dbeba25895d9c557d2115162408e21351e0d39",
+      "listingMatchesDetail": true
+    },
+    {
+      "id": "wy-oakleaf-mountain-ash",
+      "sourceUrl": "https://wsfd.wyo.gov/champion-tree/oakleaf-mountain-ash/",
+      "detailSha256": "ff36680a7d4277f3c76c410fea49b9ad495a7a81f1760486c88b8268c9bbbf48",
+      "listingMatchesDetail": true
+    },
+    {
+      "id": "wy-ohio-buckeye",
+      "sourceUrl": "https://wsfd.wyo.gov/champion-tree/ohio-buckeye/",
+      "detailSha256": "e7d60c1abd596c45eb2725acfa968428f03169b3ea9bbb271b240fbc8946b53d",
+      "listingMatchesDetail": true
+    },
+    {
+      "id": "wy-paper-birch",
+      "sourceUrl": "https://wsfd.wyo.gov/champion-tree/paper-birch/",
+      "detailSha256": "3534c56135ac38df8cd4b5fc320100d3dafe5b027fb3b5a634987ad708d038ef",
+      "listingMatchesDetail": true
+    },
+    {
+      "id": "wy-plains-cottonwood",
+      "sourceUrl": "https://wsfd.wyo.gov/champion-tree/plains-cottonwood/",
+      "detailSha256": "1ab4347f924419dbb5af94302a404e89efcade6069fc721d55e714b565b797ab",
+      "listingMatchesDetail": true
+    },
+    {
+      "id": "wy-ponderosa-pine",
+      "sourceUrl": "https://wsfd.wyo.gov/champion-tree/ponderosa-pine/",
+      "detailSha256": "51715ce90cc0ce133a044bae42d5f556b4a706d7318eb9a0bc2ed7d43661f312",
+      "listingMatchesDetail": true
+    },
+    {
+      "id": "wy-quaking-aspen",
+      "sourceUrl": "https://wsfd.wyo.gov/champion-tree/quaking-aspen/",
+      "detailSha256": "d939d0f4f196c815fa8ca74693e677a4f40faddb0d0df4009be52bb2e0f01763",
+      "listingMatchesDetail": true
+    },
+    {
+      "id": "wy-rock-elm",
+      "sourceUrl": "https://wsfd.wyo.gov/champion-tree/rock-elm/",
+      "detailSha256": "be25eae2321c13bc2c01182ee7ed0428b93824fef7a72c0f8cf9b88b7bdf0b93",
+      "listingMatchesDetail": true
+    },
+    {
+      "id": "wy-rocky-mountain-juniper",
+      "sourceUrl": "https://wsfd.wyo.gov/champion-tree/rocky-mountain-juniper/",
+      "detailSha256": "d3ae3b927ca394cc443033128d2a596d4549bd7dfa561fd0561bf1093ff08b04",
+      "listingMatchesDetail": true
+    },
+    {
+      "id": "wy-rocky-mountain-maple",
+      "sourceUrl": "https://wsfd.wyo.gov/champion-tree/rocky-mountain-maple/",
+      "detailSha256": "388ec161f5b2210567f261d08d0c768eb0f3d28cd18d569b9bc3d4a5d632f648",
+      "listingMatchesDetail": true
+    },
+    {
+      "id": "wy-scotch-pine",
+      "sourceUrl": "https://wsfd.wyo.gov/champion-tree/scotch-pine/",
+      "detailSha256": "c7d2068551dfcdf8a5b58270a2247d4346754730c6a2d321c055b62af05a7589",
+      "listingMatchesDetail": true
+    },
+    {
+      "id": "wy-siberian-elm",
+      "sourceUrl": "https://wsfd.wyo.gov/champion-tree/siberian-elm/",
+      "detailSha256": "be3b6428a272176f11b7f35a443fd44123fd00f6c5c6db92452bfdb9fe0282ff",
+      "listingMatchesDetail": true
+    },
+    {
+      "id": "wy-silver-maple",
+      "sourceUrl": "https://wsfd.wyo.gov/champion-tree/silver-maple/",
+      "detailSha256": "1a1c1c29dc1055771c27d3545d42f82e56345653fff7c559a5f2b69a2098d936",
+      "listingMatchesDetail": true
+    },
+    {
+      "id": "wy-subalpine-fir",
+      "sourceUrl": "https://wsfd.wyo.gov/champion-tree/subalpine-fir/",
+      "detailSha256": "7decaf166844037baa4ddbaec3a3dcbfeaad01330a167710ae56568a6b9cc848",
+      "listingMatchesDetail": true
+    },
+    {
+      "id": "wy-tatarian-maple",
+      "sourceUrl": "https://wsfd.wyo.gov/champion-tree/tatarian-maple/",
+      "detailSha256": "c01caba1459fab6f9f21d7633969869338888569ecb9b6215938092376edb5bc",
+      "listingMatchesDetail": true
+    },
+    {
+      "id": "wy-texas-buckeye",
+      "sourceUrl": "https://wsfd.wyo.gov/champion-tree/texas-buckeye/",
+      "detailSha256": "6394833cee103d132b9b9c18b0585a1c233e0b125cfd24d94eb197539b75c01e",
+      "listingMatchesDetail": true
+    },
+    {
+      "id": "wy-western-larch",
+      "sourceUrl": "https://wsfd.wyo.gov/champion-tree/western-larch/",
+      "detailSha256": "ddc1b6f63fa5fd881229d7fa14bbf1a1e83677566e1acad54a050dbed1f2eade",
+      "listingMatchesDetail": true
+    },
+    {
+      "id": "wy-white-fir",
+      "sourceUrl": "https://wsfd.wyo.gov/champion-tree/white-fir/",
+      "detailSha256": "a3b13147b1bea3bbc7d6c8d1d247a6904cd72235f49a099e15deb07d19f536fa",
+      "listingMatchesDetail": true
+    },
+    {
+      "id": "wy-white-poplar",
+      "sourceUrl": "https://wsfd.wyo.gov/champion-tree/white-poplar/",
+      "detailSha256": "ffe3212e7163400c4f866f3d2fb550b6cb027b6d988cdc47be025ab1f0cae6b8",
+      "listingMatchesDetail": true
+    },
+    {
+      "id": "wy-whitebark-pine",
+      "sourceUrl": "https://wsfd.wyo.gov/champion-tree/whitebark-pine/",
+      "detailSha256": "5211e5c2e4aba4fdd2e76008f7f32c8921974557c2840d94a987354904afb87e",
+      "listingMatchesDetail": true
+    }
+  ],
+  "measurementDatesSupplied": false,
+  "publicAccessSupplied": false
+}

@@ -1,4 +1,6 @@
 import "server-only";
+import wyRecords from "./data/wyoming-champion-trees.json";
+import wyCoordinates from "./data/wyoming-county-points.json";
 import utRecords from "./data/utah-champion-trees.json";
 import utCoordinates from "./data/utah-place-points.json";
 import ndRecords from "./data/north-dakota-champion-trees.json";
@@ -100,6 +102,7 @@ import { championStates, type ChampionState } from "./champion-states";
 import { buildChampionDataset } from "./champion-state-data";
 
 const datasets = {
+  WY: { records: wyRecords, coordinates: wyCoordinates },
   UT: { records: utRecords, coordinates: utCoordinates },
   ND: { records: ndRecords, coordinates: ndCoordinates },
   MS: { records: msRecords, coordinates: msCoordinates },

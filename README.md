@@ -19,7 +19,7 @@ Each supported state has a static `/champion-trees/<state-name>` destination wit
 ## Current coverage
 
 <!-- coverage:start -->
-- Champion Map: **47 states**, **8,902 listed records**, and **8,426 records with approximate map points**.
+- Champion Map: **48 states**, **8,959 listed records**, and **8,483 records with approximate map points**.
 - Tree Library: **69 species profiles** and **6 photographic comparisons**.
 - Trees to Visit: **14 guides across 11 states**.
 
@@ -664,3 +664,11 @@ All nine Utah Community Forest Council directory pages (250 distinct IDs, retrie
 225 records use approximate Census 2025 Utah place points. The remaining 23 stay searchable without markers: forests, county-only locations, ambiguous labels, a misspelling and the ambiguous Enterprise city/CDP are not resolved by guessing. Public access is explicitly marked for 159 included records; 89 are marked no public access. Personal fields, street addresses, images, individual tree coordinates and location directions are omitted. Markers are city/place points, not individual tree locations.
 
 Run `python scripts/import-utah-champions.py RAW.json PLACES.txt` with the ordered nine-page snapshot and Census Utah place gazetteer. The importer validates a reviewed nonpersonal 250-record fixture, unique tree IDs, page/detail reconciliation and source hashes; changed rows require review. Raw detail pages contain personal and precise location data and must not be committed.
+
+### Wyoming · State Champion Tree Register
+
+All 57 current Wyoming State Forestry Division register entries are included, retrieved October 11, 2026, with every individual page reconciled against the listing. Older Google Sites pages are not unioned into this current directory. Names, cultivars, genus-only labels, counties and published measurements/scores are retained. No edition, measurement dates or public visiting classifications are displayed; none are inferred.
+
+All records map to 15 approximate Census 2025 county points. These points do not identify individual trees or grant visiting access. Personal fields, addresses, photographs and individual coordinates are omitted. Eastern Cottonwood’s published 497-inch circumference, 70-foot height and 100-foot spread calculate to 592 points, while the source publishes 388 points; the source score remains unchanged with a visible warning. Other score discrepancies are likewise retained and flagged.
+
+Run `python scripts/import-wyoming-champions.py REGISTER.html DETAILS_DIR COUNTIES.zip` with the current register, all 57 slug-named individual HTML pages and Census county Gazetteer. The importer checks the reviewed 57-record fixture, unique links, all listing/detail values, explicit units, county geography and source hashes.
