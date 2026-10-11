@@ -1,0 +1,37 @@
+{
+  "edition": "2023",
+  "retrieved": "October 11, 2026",
+  "registerUrl": "https://forestry.nv.gov/uploads/missions/2023_Big_Tree_Program_Register.pdf",
+  "programUrl": "https://forestry.nv.gov/nevadas-big-tree-program",
+  "geographyUrl": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_counties_national.zip",
+  "hiatusSourceUrl": "https://nationalchampiontree.org/state-programs/",
+  "sourceHashes": {
+    "nevada-register.pdf": "5c187a3a3d32d3d22918b50bb7b342f40b8f90557d467566fac828f27ff60c6a",
+    "counties.zip": "4c90d0f805779923b5958ab13d0c1e9b99fe4932b786bfcf75dd739bb2dcb4ea"
+  },
+  "expectedRecords": 223,
+  "champions": 211,
+  "coChampions": 12,
+  "mappedRecords": 223,
+  "countyCount": 7,
+  "tablePages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "recordsPerPage": {
+    "1": 41,
+    "2": 42,
+    "3": 42,
+    "4": 42,
+    "5": 42,
+    "6": 14
+  },
+  "incompleteBotanicalLabels": 128,
+  "units": "Circumference in inches; height and average crown spread in feet. Original rounded crown points and total points retained.",
+  "review": "All 223 printed tree rows retained, including all 12 co-champion labels and repeated names. The program page mentions 303 trees, which does not match its linked six-page 2023 PDF. No missing records invented. Printed botanical fragments, truncated common names and misspellings preserved; incomplete botanical labels are excluded from species/genus grouping but remain name-searchable. Pine interpreted as White Pine County with a note. No national titles inferred. Program on hiatus according to NCTP state directory.",
+  "privacy": "Ownership column, personal names, addresses and individual-tree positions omitted. County markers do not establish visiting permission."
+}

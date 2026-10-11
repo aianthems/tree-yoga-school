@@ -17,7 +17,7 @@ Trees to Visit and Return to Your Tree are primary navigation destinations. The 
 ## Current coverage
 
 <!-- coverage:start -->
-- Champion Map: **40 states**, **7,880 listed records**, and **7,441 records with approximate map points**.
+- Champion Map: **41 states**, **8,103 listed records**, and **7,664 records with approximate map points**.
 - Tree Library: **63 species profiles** and **6 photographic comparisons**.
 - Trees to Visit: **14 guides across 11 states**.
 
@@ -620,3 +620,9 @@ The source’s quarter-average crown spread in feet is retained as `crownPoints`
 Source: https://sites.stat.washington.edu/jaw/CAW/june-2019-id-registry-big-trees.pdf
 Program: https://www.uidaho.edu/extension/natural-resources/forestry/big-tree
 Retrieved October 11, 2026. Reproduce using `python scripts/import-idaho-champions.py REGISTER.pdf COUNTIES.zip` and the 2025 Census national county Gazetteer. The importer checks the sanitized fixture before writing; audit hashes preserve source identity. Idaho is available through state and West filters, shared record URLs, and `/api/champion-trees/ID`.
+
+### Nevada champion register
+
+Nevada adds all 223 records from the Division of Forestry’s six-page 2023 register: 211 champions and 12 co-champions at seven approximate Census county points. Source names, full average crown spread, rounded crown points, and scores remain as published. The program page’s 303-tree description differs from the linked PDF; the importer adds only printed records. NCTP lists the program on hiatus; current titles, conditions, and access are unverified.
+
+128 incomplete botanical labels are preserved and flagged. They remain searchable, but are excluded from species/genus grouping; no full identity is inferred from potentially inconsistent PDF hyperlinks. “Pine” is interpreted as White Pine County with a source note. Ownership/personal details and exact positions are omitted. Run `python scripts/import-nevada-champions.py REGISTER.pdf COUNTIES.zip` with the published PDF and Census 2025 national counties ZIP; it checks against the reviewed fixture and emits the records, geography, and import audit.

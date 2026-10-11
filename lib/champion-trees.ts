@@ -1,6 +1,7 @@
 import { championStates, type ChampionState } from "./champion-states";
 export { stateNames, sourceDates, championRegions, type ChampionState } from "./champion-states";
 export type ChampionTree = {
+  scientificNameIncomplete?: boolean;
   sourcePosition?: string | null; sourceVariety?: string | null; diameter?: number | null; sourceAlphabeticalRow?: number;
   certified?: string; stateChampionCode?: number; nationalChampionCode?: number; sourceCondition?: string;
   circumferenceFeet?: number | null; yearCrowned?: string; remeasureDue?: string; rankingDate?: string | null; sourcePage?: number; mapPrecision?: "county"; sourceCounty?: string; crownPoints?: number; crownUnitUncertain?: boolean; sourceReviewNotes?: string[];
@@ -9,6 +10,7 @@ export type ChampionTree = {
   circumference: number | null; height: number | null; crown: number | null;
   points: number | null; notes: string | null;
 };
+export const nvChampionSource = championStates.NV.source;
 export const idChampionSource = championStates.ID.source;
 export const flChampionSource = championStates.FL.source;
 export const alChampionSource = championStates.AL.source;

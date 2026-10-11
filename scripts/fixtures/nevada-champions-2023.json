@@ -1,0 +1,3347 @@
+[
+  {
+    "page": 1,
+    "row": 1,
+    "commonName": "African Sumac",
+    "scientificName": "Searsia lancea",
+    "status": "Champion",
+    "measurements": [
+      "50",
+      "114",
+      "39",
+      "10",
+      "174"
+    ],
+    "sourceCounty": "Clark"
+  },
+  {
+    "page": 1,
+    "row": 2,
+    "commonName": "Alaska cedar",
+    "scientificName": "nootkatensis",
+    "status": "Champion",
+    "measurements": [
+      "103",
+      "59",
+      "38",
+      "10",
+      "172"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 1,
+    "row": 3,
+    "commonName": "Arborvitae",
+    "scientificName": "occidentalis",
+    "status": "Champion",
+    "measurements": [
+      "108",
+      "53",
+      "12",
+      "3",
+      "164"
+    ],
+    "sourceCounty": "Douglas"
+  },
+  {
+    "page": 1,
+    "row": 4,
+    "commonName": "American Basswood",
+    "scientificName": "Tilia americana",
+    "status": "Champion",
+    "measurements": [
+      "150",
+      "122",
+      "72",
+      "18",
+      "290"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 1,
+    "row": 5,
+    "commonName": "American Chestnut",
+    "scientificName": "dentata",
+    "status": "Champion",
+    "measurements": [
+      "75",
+      "28",
+      "42",
+      "11",
+      "114"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 1,
+    "row": 6,
+    "commonName": "American Hazelnut",
+    "scientificName": "americana",
+    "status": "Champion",
+    "measurements": [
+      "31",
+      "19",
+      "17",
+      "4",
+      "54"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 1,
+    "row": 7,
+    "commonName": "American hornbeam",
+    "scientificName": "Caroliniana",
+    "status": "Champion",
+    "measurements": [
+      "23",
+      "23",
+      "24",
+      "6",
+      "52"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 1,
+    "row": 8,
+    "commonName": "American plum",
+    "scientificName": "americana",
+    "status": "Champion",
+    "measurements": [
+      "90",
+      "35",
+      "30",
+      "8",
+      "133"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 1,
+    "row": 9,
+    "commonName": "American sycamore",
+    "scientificName": "occidentalis",
+    "status": "Champion",
+    "measurements": [
+      "184",
+      "98",
+      "87",
+      "22",
+      "304"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 1,
+    "row": 10,
+    "commonName": "Yellowwood",
+    "scientificName": "kentukea",
+    "status": "Champion",
+    "measurements": [
+      "78",
+      "37",
+      "40",
+      "10",
+      "125"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 1,
+    "row": 11,
+    "commonName": "Amur Cork Tree",
+    "scientificName": "amurense",
+    "status": "Champion",
+    "measurements": [
+      "36",
+      "41",
+      "32",
+      "8",
+      "85"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 1,
+    "row": 12,
+    "commonName": "Amur maple",
+    "scientificName": "Acer ginnala",
+    "status": "Champion",
+    "measurements": [
+      "42",
+      "27",
+      "29",
+      "7",
+      "76"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 1,
+    "row": 13,
+    "commonName": "Apache Pine",
+    "scientificName": "engelmannii",
+    "status": "Champion",
+    "measurements": [
+      "47",
+      "36",
+      "24",
+      "6",
+      "89"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 1,
+    "row": 14,
+    "commonName": "Apple",
+    "scientificName": "Malus pumila",
+    "status": "Champion",
+    "measurements": [
+      "132",
+      "42",
+      "45",
+      "11",
+      "185"
+    ],
+    "sourceCounty": "Pine"
+  },
+  {
+    "page": 1,
+    "row": 15,
+    "commonName": "Apricot",
+    "scientificName": "armeniaca",
+    "status": "Champion",
+    "measurements": [
+      "120",
+      "37",
+      "42",
+      "11",
+      "168"
+    ],
+    "sourceCounty": "Pine"
+  },
+  {
+    "page": 1,
+    "row": 16,
+    "commonName": "Argentine Mesquite",
+    "scientificName": "Prosopsis alba",
+    "status": "Champion",
+    "measurements": [
+      "35",
+      "28",
+      "26",
+      "7",
+      "70"
+    ],
+    "sourceCounty": "Clark"
+  },
+  {
+    "page": 1,
+    "row": 17,
+    "commonName": "Arizona Ash",
+    "scientificName": "velutina",
+    "status": "Champion",
+    "measurements": [
+      "173",
+      "84",
+      "73",
+      "18",
+      "275"
+    ],
+    "sourceCounty": "Clark"
+  },
+  {
+    "page": 1,
+    "row": 18,
+    "commonName": "Arizona Cypress",
+    "scientificName": "arizonica",
+    "status": "Champion",
+    "measurements": [
+      "119",
+      "58",
+      "33",
+      "8",
+      "185"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 1,
+    "row": 19,
+    "commonName": "Atlas cedar",
+    "scientificName": "\u2018glauca\u2019",
+    "status": "Champion",
+    "measurements": [
+      "105",
+      "62",
+      "51",
+      "13",
+      "180"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 1,
+    "row": 20,
+    "commonName": "Austrian pine",
+    "scientificName": "Pinus nigra",
+    "status": "Champion",
+    "measurements": [
+      "242",
+      "79",
+      "74",
+      "19",
+      "340"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 1,
+    "row": 21,
+    "commonName": "Bald cypress",
+    "scientificName": "distichem",
+    "status": "Champion",
+    "measurements": [
+      "65",
+      "45",
+      "48",
+      "12",
+      "122"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 1,
+    "row": 22,
+    "commonName": "Bhutan pine",
+    "scientificName": "wallichiana",
+    "status": "Champion",
+    "measurements": [
+      "51",
+      "33",
+      "30",
+      "8",
+      "92"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 1,
+    "row": 23,
+    "commonName": "Black Cherry",
+    "scientificName": "Prunus serotina",
+    "status": "Champion",
+    "measurements": [
+      "23",
+      "43",
+      "31",
+      "8",
+      "74"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 1,
+    "row": 24,
+    "commonName": "Black Cottonwood",
+    "scientificName": "trichocarpa",
+    "status": "Champion",
+    "measurements": [
+      "207",
+      "84",
+      "68",
+      "17",
+      "308"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 1,
+    "row": 25,
+    "commonName": "Black Locust",
+    "scientificName": "pseudoacacia",
+    "status": "Champion",
+    "measurements": [
+      "218",
+      "74",
+      "54",
+      "14",
+      "306"
+    ],
+    "sourceCounty": "Douglas"
+  },
+  {
+    "page": 1,
+    "row": 26,
+    "commonName": "Black Maple",
+    "scientificName": "Acer nigrum",
+    "status": "Champion",
+    "measurements": [
+      "48",
+      "34",
+      "27",
+      "7",
+      "89"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 1,
+    "row": 27,
+    "commonName": "Alder",
+    "scientificName": "Alnus glutniosa",
+    "status": "Champion",
+    "measurements": [
+      "175",
+      "70",
+      "48",
+      "12",
+      "257"
+    ],
+    "sourceCounty": "Douglas"
+  },
+  {
+    "page": 1,
+    "row": 28,
+    "commonName": "gum)",
+    "scientificName": "Nyssa sylvatica",
+    "status": "Champion",
+    "measurements": [
+      "53",
+      "39",
+      "42",
+      "11",
+      "103"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 1,
+    "row": 29,
+    "commonName": "Black Willow",
+    "scientificName": "Salix nigra",
+    "status": "Champion",
+    "measurements": [
+      "261",
+      "67",
+      "56",
+      "14",
+      "342"
+    ],
+    "sourceCounty": "Elko"
+  },
+  {
+    "page": 1,
+    "row": 30,
+    "commonName": "Blue ash",
+    "scientificName": "quadrangulata",
+    "status": "Champion",
+    "measurements": [
+      "76",
+      "31",
+      "36",
+      "9",
+      "116"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 1,
+    "row": 31,
+    "commonName": "Blue Paloverde",
+    "scientificName": "florida",
+    "status": "Champion",
+    "measurements": [
+      "56",
+      "74",
+      "41",
+      "10",
+      "140"
+    ],
+    "sourceCounty": "Clark"
+  },
+  {
+    "page": 1,
+    "row": 32,
+    "commonName": "Bolleana Poplar",
+    "scientificName": "'Pyramidalis'",
+    "status": "Champion",
+    "measurements": [
+      "220",
+      "100",
+      "51",
+      "13",
+      "333"
+    ],
+    "sourceCounty": "Pine"
+  },
+  {
+    "page": 1,
+    "row": 33,
+    "commonName": "Bottle Tree",
+    "scientificName": "populneus",
+    "status": "Champion",
+    "measurements": [
+      "120",
+      "30",
+      "25",
+      "6",
+      "156"
+    ],
+    "sourceCounty": "Clark"
+  },
+  {
+    "page": 1,
+    "row": 34,
+    "commonName": "Box elder",
+    "scientificName": "Acer negundo",
+    "status": "Champion",
+    "measurements": [
+      "292",
+      "44",
+      "31",
+      "8",
+      "344"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 1,
+    "row": 35,
+    "commonName": "Bur Oak",
+    "scientificName": "macrocarpa",
+    "status": "Champion",
+    "measurements": [
+      "116",
+      "47",
+      "51",
+      "13",
+      "176"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 1,
+    "row": 36,
+    "commonName": "California Fan Palm",
+    "scientificName": "filifera",
+    "status": "Champion",
+    "measurements": [
+      "124",
+      "39",
+      "25",
+      "6",
+      "169"
+    ],
+    "sourceCounty": "Clark"
+  },
+  {
+    "page": 1,
+    "row": 37,
+    "commonName": "California Red Fir",
+    "scientificName": "Abies magnifica",
+    "status": "Champion",
+    "measurements": [
+      "234",
+      "140",
+      "47",
+      "12",
+      "386"
+    ],
+    "sourceCounty": "Douglas"
+  },
+  {
+    "page": 1,
+    "row": 38,
+    "commonName": "Camperdown Elm",
+    "scientificName": "'Camperdown'",
+    "status": "Champion",
+    "measurements": [
+      "41",
+      "15",
+      "23",
+      "6",
+      "62"
+    ],
+    "sourceCounty": "Clark"
+  },
+  {
+    "page": 1,
+    "row": 39,
+    "commonName": "Chokecherry",
+    "scientificName": "virginiana",
+    "status": "Champion",
+    "measurements": [
+      "38",
+      "34",
+      "28",
+      "7",
+      "79"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 1,
+    "row": 40,
+    "commonName": "Palm",
+    "scientificName": "canariensis",
+    "status": "Champion",
+    "measurements": [
+      "103",
+      "25",
+      "21",
+      "5",
+      "133"
+    ],
+    "sourceCounty": "Clark"
+  },
+  {
+    "page": 1,
+    "row": 41,
+    "commonName": "Canyon Live Oak",
+    "scientificName": "chrysolepis",
+    "status": "Co-champion",
+    "measurements": [
+      "293",
+      "40",
+      "31",
+      "8",
+      "341"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 2,
+    "row": 1,
+    "commonName": "Carob Tree",
+    "scientificName": "Ceratonia siliqua",
+    "status": "Champion",
+    "measurements": [
+      "78",
+      "39",
+      "40",
+      "10",
+      "127"
+    ],
+    "sourceCounty": "Clark"
+  },
+  {
+    "page": 2,
+    "row": 2,
+    "commonName": "Catclaw Acacia",
+    "scientificName": "Acacia greggii",
+    "status": "Champion",
+    "measurements": [
+      "79",
+      "40",
+      "37",
+      "9",
+      "128"
+    ],
+    "sourceCounty": "Clark"
+  },
+  {
+    "page": 2,
+    "row": 3,
+    "commonName": "Chalk bark maple",
+    "scientificName": "leucoderme",
+    "status": "Champion",
+    "measurements": [
+      "69",
+      "38",
+      "49",
+      "12",
+      "119"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 2,
+    "row": 4,
+    "commonName": "Chastetree",
+    "scientificName": "castus",
+    "status": "Champion",
+    "measurements": [
+      "153",
+      "35",
+      "53",
+      "13",
+      "201"
+    ],
+    "sourceCounty": "Clark"
+  },
+  {
+    "page": 2,
+    "row": 5,
+    "commonName": "Chilean Mesquite",
+    "scientificName": "chilensis",
+    "status": "Champion",
+    "measurements": [
+      "86",
+      "50",
+      "67",
+      "17",
+      "153"
+    ],
+    "sourceCounty": "Clark"
+  },
+  {
+    "page": 2,
+    "row": 6,
+    "commonName": "Chinese catalpa",
+    "scientificName": "Catalpa ovata",
+    "status": "Champion",
+    "measurements": [
+      "26",
+      "25",
+      "15",
+      "4",
+      "55"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 2,
+    "row": 7,
+    "commonName": "Chinese Flame Tree",
+    "scientificName": "bipinnata",
+    "status": "Champion",
+    "measurements": [
+      "23",
+      "39",
+      "19",
+      "5",
+      "67"
+    ],
+    "sourceCounty": "Clark"
+  },
+  {
+    "page": 2,
+    "row": 8,
+    "commonName": "Chinese Pistache",
+    "scientificName": "chinensis",
+    "status": "Champion",
+    "measurements": [
+      "245",
+      "66",
+      "61",
+      "15",
+      "326"
+    ],
+    "sourceCounty": "Clark"
+  },
+  {
+    "page": 2,
+    "row": 9,
+    "commonName": "Chinkapin oak",
+    "scientificName": "muehlenbergii",
+    "status": "Champion",
+    "measurements": [
+      "53",
+      "68",
+      "34",
+      "9",
+      "130"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 2,
+    "row": 10,
+    "commonName": "Chitalpa",
+    "scientificName": "tashkentensis",
+    "status": "Co-champion",
+    "measurements": [
+      "56",
+      "26",
+      "23",
+      "6",
+      "88"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 2,
+    "row": 11,
+    "commonName": "Chitalpa",
+    "scientificName": "tashkentensis",
+    "status": "Co-champion",
+    "measurements": [
+      "63",
+      "26",
+      "26",
+      "7",
+      "96"
+    ],
+    "sourceCounty": "Clark"
+  },
+  {
+    "page": 2,
+    "row": 12,
+    "commonName": "Cliffrose",
+    "scientificName": "stansburyana",
+    "status": "Champion",
+    "measurements": [
+      "34",
+      "17",
+      "10",
+      "3",
+      "54"
+    ],
+    "sourceCounty": "Pine"
+  },
+  {
+    "page": 2,
+    "row": 13,
+    "commonName": "Cedar",
+    "scientificName": "'Fastigiata'",
+    "status": "Champion",
+    "measurements": [
+      "62",
+      "53",
+      "20",
+      "5",
+      "120"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 2,
+    "row": 14,
+    "commonName": "Columnar English Oak",
+    "scientificName": "'Fastigiata'",
+    "status": "Champion",
+    "measurements": [
+      "123",
+      "75",
+      "25",
+      "6",
+      "204"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 2,
+    "row": 15,
+    "commonName": "Maple",
+    "scientificName": "Acer saccharum",
+    "status": "Champion",
+    "measurements": [
+      "43",
+      "57",
+      "8",
+      "2",
+      "102"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 2,
+    "row": 16,
+    "commonName": "Common hackberry",
+    "scientificName": "occidentalis",
+    "status": "Champion",
+    "measurements": [
+      "87",
+      "46",
+      "45",
+      "11",
+      "144"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 2,
+    "row": 17,
+    "commonName": "Common Olive",
+    "scientificName": "Olea europaea",
+    "status": "Champion",
+    "measurements": [
+      "132",
+      "47",
+      "43",
+      "11",
+      "190"
+    ],
+    "sourceCounty": "Clark"
+  },
+  {
+    "page": 2,
+    "row": 18,
+    "commonName": "Common Pear",
+    "scientificName": "Pyrus communis",
+    "status": "Co-champion",
+    "measurements": [
+      "115",
+      "47",
+      "31",
+      "8",
+      "170"
+    ],
+    "sourceCounty": "Pine"
+  },
+  {
+    "page": 2,
+    "row": 19,
+    "commonName": "Contorted Filbert",
+    "scientificName": "'contorta'",
+    "status": "Champion",
+    "measurements": [
+      "17",
+      "10",
+      "10",
+      "3",
+      "30"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 2,
+    "row": 20,
+    "commonName": "Coolibah Tree",
+    "scientificName": "microtheca",
+    "status": "Champion",
+    "measurements": [
+      "94",
+      "87",
+      "83",
+      "21",
+      "202"
+    ],
+    "sourceCounty": "Clark"
+  },
+  {
+    "page": 2,
+    "row": 21,
+    "commonName": "Cork Oak",
+    "scientificName": "Quercus suber",
+    "status": "Champion",
+    "measurements": [
+      "40",
+      "19",
+      "20",
+      "5",
+      "64"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 2,
+    "row": 22,
+    "commonName": "Cornelian cherry",
+    "scientificName": "Cornus mas",
+    "status": "Champion",
+    "measurements": [
+      "22",
+      "22",
+      "21",
+      "5",
+      "49"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 2,
+    "row": 23,
+    "commonName": "Crimean linden",
+    "scientificName": "Tilia euchlora",
+    "status": "Champion",
+    "measurements": [
+      "24",
+      "31",
+      "26",
+      "6",
+      "61"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 2,
+    "row": 24,
+    "commonName": "Birch",
+    "scientificName": "'Laciniata'",
+    "status": "Champion",
+    "measurements": [
+      "76",
+      "74",
+      "48",
+      "12",
+      "162"
+    ],
+    "sourceCounty": "Douglas"
+  },
+  {
+    "page": 2,
+    "row": 25,
+    "commonName": "Date Palm",
+    "scientificName": "dactylifera",
+    "status": "Champion",
+    "measurements": [
+      "74",
+      "22",
+      "18",
+      "5",
+      "101"
+    ],
+    "sourceCounty": "Clark"
+  },
+  {
+    "page": 2,
+    "row": 26,
+    "commonName": "Dawn Redwood",
+    "scientificName": "glyptostroboides",
+    "status": "Champion",
+    "measurements": [
+      "92",
+      "74",
+      "42",
+      "11",
+      "177"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 2,
+    "row": 27,
+    "commonName": "Deodar Cedar",
+    "scientificName": "Cedrus deodara",
+    "status": "Champion",
+    "measurements": [
+      "152",
+      "70",
+      "66",
+      "17",
+      "239"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 2,
+    "row": 28,
+    "commonName": "Digger Pine",
+    "scientificName": "Pinus sabiniana",
+    "status": "Champion",
+    "measurements": [
+      "164",
+      "100",
+      "54",
+      "14",
+      "278"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 2,
+    "row": 29,
+    "commonName": "Douglas Oak",
+    "scientificName": "douglasii",
+    "status": "Champion",
+    "measurements": [
+      "36",
+      "22",
+      "25",
+      "6",
+      "64"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 2,
+    "row": 30,
+    "commonName": "Downy Hawthorn",
+    "scientificName": "Crataegus mollis",
+    "status": "Champion",
+    "measurements": [
+      "39",
+      "27",
+      "31",
+      "8",
+      "74"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 2,
+    "row": 31,
+    "commonName": "Dutch Elm",
+    "scientificName": "hollandica",
+    "status": "Champion",
+    "measurements": [
+      "124",
+      "58",
+      "54",
+      "13",
+      "195"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 2,
+    "row": 32,
+    "commonName": "Eastern Cottonwood",
+    "scientificName": "deltoides",
+    "status": "Champion",
+    "measurements": [
+      "224",
+      "139",
+      "71",
+      "18",
+      "381"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 2,
+    "row": 33,
+    "commonName": "Eastern larch",
+    "scientificName": "Larix laricina",
+    "status": "Champion",
+    "measurements": [
+      "85",
+      "45",
+      "26",
+      "6",
+      "136"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 2,
+    "row": 34,
+    "commonName": "Eastern Redcedar",
+    "scientificName": "virginiana",
+    "status": "Champion",
+    "measurements": [
+      "116",
+      "72",
+      "31",
+      "8",
+      "196"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 2,
+    "row": 35,
+    "commonName": "Eastern white pine",
+    "scientificName": "Pinus strobus",
+    "status": "Champion",
+    "measurements": [
+      "94",
+      "70",
+      "63",
+      "16",
+      "180"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 2,
+    "row": 36,
+    "commonName": "English Hawthorn",
+    "scientificName": "laevigata 'Paul's",
+    "status": "Champion",
+    "measurements": [
+      "73",
+      "45",
+      "32",
+      "8",
+      "126"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 2,
+    "row": 37,
+    "commonName": "English Holly",
+    "scientificName": "Lexx aquifolium",
+    "status": "Champion",
+    "measurements": [
+      "31",
+      "23",
+      "15",
+      "4",
+      "58"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 2,
+    "row": 38,
+    "commonName": "English Oak",
+    "scientificName": "Quercus robur",
+    "status": "Champion",
+    "measurements": [
+      "123",
+      "56",
+      "63",
+      "16",
+      "195"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 2,
+    "row": 39,
+    "commonName": "European Ash",
+    "scientificName": "excelsior",
+    "status": "Champion",
+    "measurements": [
+      "84",
+      "37",
+      "43",
+      "11",
+      "132"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 2,
+    "row": 40,
+    "commonName": "European Aspen",
+    "scientificName": "Populus tremula",
+    "status": "Champion",
+    "measurements": [
+      "66",
+      "80",
+      "45",
+      "11",
+      "157"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 2,
+    "row": 41,
+    "commonName": "European Beech",
+    "scientificName": "Fagus sylvatica",
+    "status": "Co-champion",
+    "measurements": [
+      "105",
+      "64",
+      "63",
+      "16",
+      "185"
+    ],
+    "sourceCounty": "Douglas"
+  },
+  {
+    "page": 2,
+    "row": 42,
+    "commonName": "(Mayday Tree)",
+    "scientificName": "Prunus padus",
+    "status": "Champion",
+    "measurements": [
+      "23",
+      "34",
+      "18",
+      "5",
+      "62"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 3,
+    "row": 1,
+    "commonName": "European Larch",
+    "scientificName": "Larix decidua",
+    "status": "Champion",
+    "measurements": [
+      "92",
+      "69",
+      "30",
+      "8",
+      "169"
+    ],
+    "sourceCounty": "Douglas"
+  },
+  {
+    "page": 3,
+    "row": 2,
+    "commonName": "Ash",
+    "scientificName": "aucuparia",
+    "status": "Co-champion",
+    "measurements": [
+      "40",
+      "29",
+      "17",
+      "4",
+      "73"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 3,
+    "row": 3,
+    "commonName": "Ash",
+    "scientificName": "aucuparia",
+    "status": "Co-champion",
+    "measurements": [
+      "43",
+      "32",
+      "23",
+      "6",
+      "81"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 3,
+    "row": 4,
+    "commonName": "European spindletree",
+    "scientificName": "Europaeus",
+    "status": "Champion",
+    "measurements": [
+      "52",
+      "23",
+      "29",
+      "7",
+      "82"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 3,
+    "row": 5,
+    "commonName": "European White Birch",
+    "scientificName": "Betula pendula",
+    "status": "Champion",
+    "measurements": [
+      "80",
+      "46",
+      "44",
+      "11",
+      "137"
+    ],
+    "sourceCounty": "Douglas"
+  },
+  {
+    "page": 3,
+    "row": 6,
+    "commonName": "Fig",
+    "scientificName": "Ficus carica",
+    "status": "Champion",
+    "measurements": [
+      "101",
+      "28",
+      "35",
+      "9",
+      "138"
+    ],
+    "sourceCounty": "Clark"
+  },
+  {
+    "page": 3,
+    "row": 7,
+    "commonName": "Flowering ash",
+    "scientificName": "Fraxinus ornas",
+    "status": "Champion",
+    "measurements": [
+      "34",
+      "31",
+      "22",
+      "5",
+      "70"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 3,
+    "row": 8,
+    "commonName": "Flowering cherry",
+    "scientificName": "Prunus serrulata",
+    "status": "Champion",
+    "measurements": [
+      "46",
+      "34",
+      "19",
+      "5",
+      "85"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 3,
+    "row": 9,
+    "commonName": "Flowering Dogwood",
+    "scientificName": "Cornus florida",
+    "status": "Champion",
+    "measurements": [
+      "49",
+      "23",
+      "20",
+      "5",
+      "77"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 3,
+    "row": 10,
+    "commonName": "Flowering pear",
+    "scientificName": "Pyrus calleryana",
+    "status": "Champion",
+    "measurements": [
+      "78",
+      "41",
+      "42",
+      "10",
+      "129"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 3,
+    "row": 11,
+    "commonName": "Freeman Maple",
+    "scientificName": "Acer freemanii",
+    "status": "Champion",
+    "measurements": [
+      "105",
+      "63",
+      "32",
+      "8",
+      "176"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 3,
+    "row": 12,
+    "commonName": "Fremont cottonwood",
+    "scientificName": "fremontii",
+    "status": "Champion",
+    "measurements": [
+      "322",
+      "95",
+      "85",
+      "21",
+      "438"
+    ],
+    "sourceCounty": "Lyon"
+  },
+  {
+    "page": 3,
+    "row": 13,
+    "commonName": "Fruitless Mulberry",
+    "scientificName": "'Fruitless'",
+    "status": "Champion",
+    "measurements": [
+      "140",
+      "68",
+      "67",
+      "17",
+      "225"
+    ],
+    "sourceCounty": "Clark"
+  },
+  {
+    "page": 3,
+    "row": 14,
+    "commonName": "Giant Sequoia",
+    "scientificName": "giganteum",
+    "status": "Champion",
+    "measurements": [
+      "318",
+      "134",
+      "44",
+      "11",
+      "463"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 3,
+    "row": 15,
+    "commonName": "Globe Willow",
+    "scientificName": "'Navajo'",
+    "status": "Champion",
+    "measurements": [
+      "119",
+      "80",
+      "45",
+      "11",
+      "210"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 3,
+    "row": 16,
+    "commonName": "Golden Chain Tree",
+    "scientificName": "watereri",
+    "status": "Co-champion",
+    "measurements": [
+      "44",
+      "14",
+      "12",
+      "3",
+      "61"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 3,
+    "row": 17,
+    "commonName": "Golden chain tree",
+    "scientificName": "watereri",
+    "status": "Co-champion",
+    "measurements": [
+      "52",
+      "16",
+      "12",
+      "3",
+      "71"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 3,
+    "row": 18,
+    "commonName": "Goldenrain Tree",
+    "scientificName": "paniculata",
+    "status": "Champion",
+    "measurements": [
+      "76",
+      "70",
+      "54",
+      "13",
+      "159"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 3,
+    "row": 19,
+    "commonName": "Bristlecone Pine",
+    "scientificName": "Pinus longaeva",
+    "status": "Champion",
+    "measurements": [
+      "456",
+      "55",
+      "46",
+      "12",
+      "523"
+    ],
+    "sourceCounty": "Clark"
+  },
+  {
+    "page": 3,
+    "row": 20,
+    "commonName": "Green Ash",
+    "scientificName": "Pennsylvania",
+    "status": "Champion",
+    "measurements": [
+      "133",
+      "99",
+      "69",
+      "17",
+      "249"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 3,
+    "row": 21,
+    "commonName": "Cherry",
+    "scientificName": "'Pendula Plena",
+    "status": "Champion",
+    "measurements": [
+      "68",
+      "27",
+      "26",
+      "7",
+      "102"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 3,
+    "row": 22,
+    "commonName": "Hophornbeam",
+    "scientificName": "Ostrya virginiana",
+    "status": "Champion",
+    "measurements": [
+      "40",
+      "29",
+      "31",
+      "8",
+      "77"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 3,
+    "row": 23,
+    "commonName": "Hungarian Oak",
+    "scientificName": "frainetto",
+    "status": "Champion",
+    "measurements": [
+      "36",
+      "32",
+      "12",
+      "3",
+      "71"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 3,
+    "row": 24,
+    "commonName": "Incense cedar",
+    "scientificName": "decurrens",
+    "status": "Champion",
+    "measurements": [
+      "390",
+      "103",
+      "37",
+      "9",
+      "502"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 3,
+    "row": 25,
+    "commonName": "Japanese Maple",
+    "scientificName": "Acer palmatum",
+    "status": "Champion",
+    "measurements": [
+      "69",
+      "35",
+      "31",
+      "8",
+      "112"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 3,
+    "row": 26,
+    "commonName": "Japanese Pagoda",
+    "scientificName": "japonicum",
+    "status": "Co-champion",
+    "measurements": [
+      "59",
+      "62",
+      "46",
+      "11",
+      "132"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 3,
+    "row": 27,
+    "commonName": "Japanese Pagoda Tree",
+    "scientificName": "japonicum",
+    "status": "Co-champion",
+    "measurements": [
+      "75",
+      "39",
+      "46",
+      "11",
+      "125"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 3,
+    "row": 28,
+    "commonName": "Japanese Red Pine",
+    "scientificName": "Pinus densiflora",
+    "status": "Champion",
+    "measurements": [
+      "109",
+      "39",
+      "33",
+      "8",
+      "156"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 3,
+    "row": 29,
+    "commonName": "Japanese Tree Lilac",
+    "scientificName": "reticulata",
+    "status": "Champion",
+    "measurements": [
+      "70",
+      "14",
+      "22",
+      "6",
+      "90"
+    ],
+    "sourceCounty": "Douglas"
+  },
+  {
+    "page": 3,
+    "row": 30,
+    "commonName": "Joshua Tree",
+    "scientificName": "Yucca brevifolia",
+    "status": "Champion",
+    "measurements": [
+      "87",
+      "24",
+      "28",
+      "7",
+      "118"
+    ],
+    "sourceCounty": "Clark"
+  },
+  {
+    "page": 3,
+    "row": 31,
+    "commonName": "Katsura tree",
+    "scientificName": "japonicum",
+    "status": "Champion",
+    "measurements": [
+      "44",
+      "33",
+      "19",
+      "5",
+      "82"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 3,
+    "row": 32,
+    "commonName": "Kentucky Coffee Tree",
+    "scientificName": "dioicus",
+    "status": "Champion",
+    "measurements": [
+      "76",
+      "70",
+      "54",
+      "13",
+      "159"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 3,
+    "row": 33,
+    "commonName": "Kobus magnolia",
+    "scientificName": "Magnolia kobus",
+    "status": "Champion",
+    "measurements": [
+      "17",
+      "27",
+      "17",
+      "4",
+      "48"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 3,
+    "row": 34,
+    "commonName": "Lavalle Hawthorn",
+    "scientificName": "lavallei",
+    "status": "Champion",
+    "measurements": [
+      "64",
+      "30",
+      "28",
+      "7",
+      "101"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 3,
+    "row": 35,
+    "commonName": "Lebanon cedar",
+    "scientificName": "Cedrus libani",
+    "status": "Champion",
+    "measurements": [
+      "45",
+      "52",
+      "71",
+      "18",
+      "115"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 3,
+    "row": 36,
+    "commonName": "Lemon Eucalyptus",
+    "scientificName": "citriodora",
+    "status": "Champion",
+    "measurements": [
+      "110",
+      "101",
+      "64",
+      "16",
+      "227"
+    ],
+    "sourceCounty": "Clark"
+  },
+  {
+    "page": 3,
+    "row": 37,
+    "commonName": "Leyland Cypress",
+    "scientificName": "leylandii",
+    "status": "Champion",
+    "measurements": [
+      "98",
+      "63",
+      "30",
+      "8",
+      "169"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 3,
+    "row": 38,
+    "commonName": "Little-Leaf Linden",
+    "scientificName": "Tilia cordata",
+    "status": "Champion",
+    "measurements": [
+      "99",
+      "70",
+      "61",
+      "15",
+      "184"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 3,
+    "row": 39,
+    "commonName": "Lodgepole Pine",
+    "scientificName": "var. latifolia",
+    "status": "Champion",
+    "measurements": [
+      "100",
+      "65",
+      "44",
+      "11",
+      "176"
+    ],
+    "sourceCounty": "Elko"
+  },
+  {
+    "page": 3,
+    "row": 40,
+    "commonName": "Lombardy Poplar",
+    "scientificName": "Populus nigra",
+    "status": "Champion",
+    "measurements": [
+      "235",
+      "89",
+      "21",
+      "5",
+      "329"
+    ],
+    "sourceCounty": "Pine"
+  },
+  {
+    "page": 3,
+    "row": 41,
+    "commonName": "London Planetree",
+    "scientificName": "acerifolia",
+    "status": "Champion",
+    "measurements": [
+      "188",
+      "88",
+      "66",
+      "17",
+      "293"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 3,
+    "row": 42,
+    "commonName": "McNab's Cypress",
+    "scientificName": "macnabiana",
+    "status": "Champion",
+    "measurements": [
+      "103",
+      "50",
+      "29",
+      "7",
+      "160"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 4,
+    "row": 1,
+    "commonName": "Palm",
+    "scientificName": "Brahea armata",
+    "status": "Champion",
+    "measurements": [
+      "67",
+      "33",
+      "12",
+      "3",
+      "103"
+    ],
+    "sourceCounty": "Clark"
+  },
+  {
+    "page": 4,
+    "row": 2,
+    "commonName": "Mexican Paloverde",
+    "scientificName": "aculeata",
+    "status": "Champion",
+    "measurements": [
+      "80",
+      "30",
+      "43",
+      "11",
+      "121"
+    ],
+    "sourceCounty": "Clark"
+  },
+  {
+    "page": 4,
+    "row": 3,
+    "commonName": "Mimosa",
+    "scientificName": "Albizia julibrissin",
+    "status": "Champion",
+    "measurements": [
+      "86",
+      "25",
+      "21",
+      "5",
+      "116"
+    ],
+    "sourceCounty": "Clark"
+  },
+  {
+    "page": 4,
+    "row": 4,
+    "commonName": "Pine",
+    "scientificName": "Pinus eldarica",
+    "status": "Champion",
+    "measurements": [
+      "62",
+      "60",
+      "50",
+      "13",
+      "135"
+    ],
+    "sourceCounty": "Clark"
+  },
+  {
+    "page": 4,
+    "row": 5,
+    "commonName": "Mountain Alder",
+    "scientificName": "Alnus glutinosa",
+    "status": "Champion",
+    "measurements": [
+      "81",
+      "38",
+      "24",
+      "6",
+      "125"
+    ],
+    "sourceCounty": "Douglas"
+  },
+  {
+    "page": 4,
+    "row": 6,
+    "commonName": "Mountain Hemlock",
+    "scientificName": "mertensiana",
+    "status": "Champion",
+    "measurements": [
+      "218",
+      "110",
+      "45",
+      "11",
+      "339"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 4,
+    "row": 7,
+    "commonName": "Mugo Pine",
+    "scientificName": "Pinus mugo",
+    "status": "Champion",
+    "measurements": [
+      "16",
+      "30",
+      "25",
+      "6",
+      "52"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 4,
+    "row": 8,
+    "commonName": "Cottonwood",
+    "scientificName": "angustifolia",
+    "status": "Champion",
+    "measurements": [
+      "142",
+      "65",
+      "44",
+      "11",
+      "218"
+    ],
+    "sourceCounty": "Pine"
+  },
+  {
+    "page": 4,
+    "row": 9,
+    "commonName": "Catalpa",
+    "scientificName": "Catalpa speciosa",
+    "status": "Champion",
+    "measurements": [
+      "122",
+      "92",
+      "47",
+      "12",
+      "226"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 4,
+    "row": 10,
+    "commonName": "Northern red oak",
+    "scientificName": "Quercus rubra",
+    "status": "Champion",
+    "measurements": [
+      "142",
+      "69",
+      "97",
+      "24",
+      "235"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 4,
+    "row": 11,
+    "commonName": "Norway Maple",
+    "scientificName": "Acer platanoides",
+    "status": "Champion",
+    "measurements": [
+      "114",
+      "75",
+      "57",
+      "14",
+      "203"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 4,
+    "row": 12,
+    "commonName": "Norway Spruce",
+    "scientificName": "Picea abies",
+    "status": "Champion",
+    "measurements": [
+      "115",
+      "119",
+      "47",
+      "12",
+      "246"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 4,
+    "row": 13,
+    "commonName": "Ohio Buckeye",
+    "scientificName": "Aesculus glabra",
+    "status": "Champion",
+    "measurements": [
+      "62",
+      "55",
+      "31",
+      "8",
+      "125"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 4,
+    "row": 14,
+    "commonName": "Oregon Ash",
+    "scientificName": "Fraxinus latifolia",
+    "status": "Champion",
+    "measurements": [
+      "34",
+      "30",
+      "20",
+      "5",
+      "69"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 4,
+    "row": 15,
+    "commonName": "Oriental Arborvitae",
+    "scientificName": "Thuja orientalis",
+    "status": "Champion",
+    "measurements": [
+      "98",
+      "35",
+      "22",
+      "6",
+      "139"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 4,
+    "row": 16,
+    "commonName": "Osage orange",
+    "scientificName": "pomifera",
+    "status": "Champion",
+    "measurements": [
+      "128",
+      "37",
+      "43",
+      "11",
+      "176"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 4,
+    "row": 17,
+    "commonName": "Pecan",
+    "scientificName": "Carya illinoiensis",
+    "status": "Champion",
+    "measurements": [
+      "102",
+      "95",
+      "65",
+      "16",
+      "213"
+    ],
+    "sourceCounty": "Clark"
+  },
+  {
+    "page": 4,
+    "row": 18,
+    "commonName": "Persimmon",
+    "scientificName": "virginiana",
+    "status": "Champion",
+    "measurements": [
+      "36",
+      "35",
+      "32",
+      "8",
+      "79"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 4,
+    "row": 19,
+    "commonName": "Pin Oak",
+    "scientificName": "palustris",
+    "status": "Champion",
+    "measurements": [
+      "129",
+      "58",
+      "56",
+      "14",
+      "201"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 4,
+    "row": 20,
+    "commonName": "Pomegranate",
+    "scientificName": "Punica granatum",
+    "status": "Champion",
+    "measurements": [
+      "101",
+      "27",
+      "40",
+      "10",
+      "138"
+    ],
+    "sourceCounty": "Clark"
+  },
+  {
+    "page": 4,
+    "row": 21,
+    "commonName": "Port Orford Cedar",
+    "scientificName": "lawsoniana",
+    "status": "Champion",
+    "measurements": [
+      "223",
+      "58",
+      "24",
+      "6",
+      "287"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 4,
+    "row": 22,
+    "commonName": "Prairie Crabapple",
+    "scientificName": "Malus ioensis",
+    "status": "Champion",
+    "measurements": [
+      "33",
+      "25",
+      "17",
+      "4",
+      "62"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 4,
+    "row": 23,
+    "commonName": "Purple Leaf Plum",
+    "scientificName": "cerasifera",
+    "status": "Champion",
+    "measurements": [
+      "64",
+      "26",
+      "27",
+      "7",
+      "97"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 4,
+    "row": 24,
+    "commonName": "Purpleblow maple",
+    "scientificName": "Acer truncatum",
+    "status": "Champion",
+    "measurements": [
+      "108",
+      "42",
+      "35",
+      "9",
+      "159"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 4,
+    "row": 25,
+    "commonName": "Quaking Aspen",
+    "scientificName": "tremuloides",
+    "status": "Champion",
+    "measurements": [
+      "83",
+      "59",
+      "22",
+      "6",
+      "148"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 4,
+    "row": 26,
+    "commonName": "Raywood Ash",
+    "scientificName": "oxycarpa",
+    "status": "Champion",
+    "measurements": [
+      "143",
+      "54",
+      "45",
+      "11",
+      "208"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 4,
+    "row": 27,
+    "commonName": "Red Gum Eucalyptus",
+    "scientificName": "camaldulensis",
+    "status": "Champion",
+    "measurements": [
+      "32",
+      "69",
+      "66",
+      "17",
+      "118"
+    ],
+    "sourceCounty": "Clark"
+  },
+  {
+    "page": 4,
+    "row": 28,
+    "commonName": "Red horsechestnut",
+    "scientificName": "carnea \u2018briotti\u2019",
+    "status": "Champion",
+    "measurements": [
+      "53",
+      "23",
+      "35",
+      "9",
+      "85"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 4,
+    "row": 29,
+    "commonName": "Red Maple",
+    "scientificName": "Acer rubrum",
+    "status": "Champion",
+    "measurements": [
+      "76",
+      "59",
+      "48",
+      "12",
+      "147"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 4,
+    "row": 30,
+    "commonName": "Red Mulberry",
+    "scientificName": "Morus rubra",
+    "status": "Champion",
+    "measurements": [
+      "66",
+      "32",
+      "30",
+      "8",
+      "106"
+    ],
+    "sourceCounty": "Clark"
+  },
+  {
+    "page": 4,
+    "row": 31,
+    "commonName": "Redtip Photinia",
+    "scientificName": "Photinia fraseri",
+    "status": "Champion",
+    "measurements": [
+      "32",
+      "21",
+      "20",
+      "5",
+      "58"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 4,
+    "row": 32,
+    "commonName": "Reese Mesquite",
+    "scientificName": "chilensis 'Reese'",
+    "status": "Champion",
+    "measurements": [
+      "75",
+      "35",
+      "38",
+      "10",
+      "120"
+    ],
+    "sourceCounty": "Clark"
+  },
+  {
+    "page": 4,
+    "row": 33,
+    "commonName": "River Birch",
+    "scientificName": "Betula nigra",
+    "status": "Champion",
+    "measurements": [
+      "117",
+      "40",
+      "44",
+      "11",
+      "168"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 4,
+    "row": 34,
+    "commonName": "Juniper",
+    "scientificName": "scopulorum",
+    "status": "Champion",
+    "measurements": [
+      "148",
+      "61",
+      "33",
+      "8",
+      "217"
+    ],
+    "sourceCounty": "Elko"
+  },
+  {
+    "page": 4,
+    "row": 35,
+    "commonName": "Ponderosa Pine",
+    "scientificName": "var. scopulorum",
+    "status": "Champion",
+    "measurements": [
+      "211",
+      "165",
+      "37",
+      "9",
+      "385"
+    ],
+    "sourceCounty": "Clark"
+  },
+  {
+    "page": 4,
+    "row": 36,
+    "commonName": "Russian olive",
+    "scientificName": "angustifolia",
+    "status": "Champion",
+    "measurements": [
+      "444",
+      "29",
+      "40",
+      "10",
+      "483"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 4,
+    "row": 37,
+    "commonName": "Sassafras",
+    "scientificName": "albidum",
+    "status": "Champion",
+    "measurements": [
+      "34",
+      "29",
+      "17",
+      "4",
+      "67"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 4,
+    "row": 38,
+    "commonName": "Saucer Magnolia",
+    "scientificName": "soulangeana",
+    "status": "Champion",
+    "measurements": [
+      "82",
+      "30",
+      "26",
+      "7",
+      "119"
+    ],
+    "sourceCounty": "Douglas"
+  },
+  {
+    "page": 4,
+    "row": 39,
+    "commonName": "Scotch Elm",
+    "scientificName": "Ulmus glabra",
+    "status": "Champion",
+    "measurements": [
+      "177",
+      "109",
+      "76",
+      "19",
+      "305"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 4,
+    "row": 40,
+    "commonName": "Scoulers willow",
+    "scientificName": "Salix scouleriana",
+    "status": "Champion",
+    "measurements": [
+      "236",
+      "34",
+      "46",
+      "12",
+      "282"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 4,
+    "row": 41,
+    "commonName": "Seven sun flower",
+    "scientificName": "miconioides",
+    "status": "Champion",
+    "measurements": [
+      "26",
+      "15",
+      "15",
+      "4",
+      "45"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 4,
+    "row": 42,
+    "commonName": "Shellbark Hickory",
+    "scientificName": "Carya laciniosa",
+    "status": "Champion",
+    "measurements": [
+      "57",
+      "66",
+      "47",
+      "12",
+      "135"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 5,
+    "row": 1,
+    "commonName": "Shingle oak",
+    "scientificName": "imbricaria",
+    "status": "Champion",
+    "measurements": [
+      "58",
+      "68",
+      "52",
+      "13",
+      "139"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 5,
+    "row": 2,
+    "commonName": "Shoestring Acacia",
+    "scientificName": "stenophylla",
+    "status": "Champion",
+    "measurements": [
+      "78",
+      "71",
+      "34",
+      "9",
+      "158"
+    ],
+    "sourceCounty": "Clark"
+  },
+  {
+    "page": 5,
+    "row": 3,
+    "commonName": "Scrub pine",
+    "scientificName": "Pinus virginiana",
+    "status": "Champion",
+    "measurements": [
+      "39",
+      "36",
+      "24",
+      "6",
+      "81"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 5,
+    "row": 4,
+    "commonName": "Shumard Oak",
+    "scientificName": "shumardii",
+    "status": "Champion",
+    "measurements": [
+      "40",
+      "38",
+      "27",
+      "7",
+      "85"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 5,
+    "row": 5,
+    "commonName": "Siberian elm",
+    "scientificName": "Ulmus pumilla",
+    "status": "Champion",
+    "measurements": [
+      "167",
+      "95",
+      "71",
+      "18",
+      "280"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 5,
+    "row": 6,
+    "commonName": "Lodgepole Pine",
+    "scientificName": "var. murrayana",
+    "status": "Champion",
+    "measurements": [
+      "211",
+      "82",
+      "42",
+      "11",
+      "304"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 5,
+    "row": 7,
+    "commonName": "Tree",
+    "scientificName": "polyanthemos",
+    "status": "Champion",
+    "measurements": [
+      "81",
+      "82",
+      "59",
+      "15",
+      "178"
+    ],
+    "sourceCounty": "Clark"
+  },
+  {
+    "page": 5,
+    "row": 8,
+    "commonName": "Silver Maple",
+    "scientificName": "saccharinum",
+    "status": "Champion",
+    "measurements": [
+      "237",
+      "73",
+      "71",
+      "18",
+      "328"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 5,
+    "row": 9,
+    "commonName": "Sissoo Tree",
+    "scientificName": "Dalbergia sissoo",
+    "status": "Co-champion",
+    "measurements": [
+      "64",
+      "54",
+      "23",
+      "6",
+      "124"
+    ],
+    "sourceCounty": "Clark"
+  },
+  {
+    "page": 5,
+    "row": 10,
+    "commonName": "Slippery elm",
+    "scientificName": "Ulmus rubra",
+    "status": "Champion",
+    "measurements": [
+      "206",
+      "59",
+      "68",
+      "17",
+      "282"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 5,
+    "row": 11,
+    "commonName": "Southern Catalpa",
+    "scientificName": "bignonioides",
+    "status": "Champion",
+    "measurements": [
+      "56",
+      "28",
+      "28",
+      "7",
+      "91"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 5,
+    "row": 12,
+    "commonName": "Southern Magnolia",
+    "scientificName": "grandiflora",
+    "status": "Champion",
+    "measurements": [
+      "58",
+      "35",
+      "20",
+      "5",
+      "98"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 5,
+    "row": 13,
+    "commonName": "pine",
+    "scientificName": "strobiformis",
+    "status": "Champion",
+    "measurements": [
+      "84",
+      "75",
+      "50",
+      "12",
+      "171"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 5,
+    "row": 14,
+    "commonName": "Spaeth Maple",
+    "scientificName": "pseudoplantanu",
+    "status": "Champion",
+    "measurements": [
+      "28",
+      "30",
+      "19",
+      "5",
+      "63"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 5,
+    "row": 15,
+    "commonName": "Spanish Fir",
+    "scientificName": "Abies pinsapo",
+    "status": "Champion",
+    "measurements": [
+      "121",
+      "39",
+      "44",
+      "11",
+      "171"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 5,
+    "row": 16,
+    "commonName": "Staghorn Sumac",
+    "scientificName": "Rhus typhina",
+    "status": "Champion",
+    "measurements": [
+      "39",
+      "22",
+      "20",
+      "5",
+      "66"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 5,
+    "row": 17,
+    "commonName": "State street maple",
+    "scientificName": "Acer miyabei",
+    "status": "Champion",
+    "measurements": [
+      "23",
+      "29",
+      "18",
+      "5",
+      "57"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 5,
+    "row": 18,
+    "commonName": "Stone Pine",
+    "scientificName": "Pinus cembra",
+    "status": "Champion",
+    "measurements": [
+      "96",
+      "65",
+      "47",
+      "12",
+      "173"
+    ],
+    "sourceCounty": "Clark"
+  },
+  {
+    "page": 5,
+    "row": 19,
+    "commonName": "Sugar maple",
+    "scientificName": "Acer saccharum",
+    "status": "Champion",
+    "measurements": [
+      "79",
+      "56",
+      "45",
+      "11",
+      "146"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 5,
+    "row": 20,
+    "commonName": "Sweet Acacia",
+    "scientificName": "farnesiana",
+    "status": "Champion",
+    "measurements": [
+      "93",
+      "28",
+      "32",
+      "8",
+      "129"
+    ],
+    "sourceCounty": "Clark"
+  },
+  {
+    "page": 5,
+    "row": 21,
+    "commonName": "Sweet Almond",
+    "scientificName": "Aloysia virgata",
+    "status": "Champion",
+    "measurements": [
+      "78",
+      "27",
+      "31",
+      "8",
+      "113"
+    ],
+    "sourceCounty": "Douglas"
+  },
+  {
+    "page": 5,
+    "row": 22,
+    "commonName": "Sweet cherry",
+    "scientificName": "Prunus avium",
+    "status": "Champion",
+    "measurements": [
+      "138",
+      "37",
+      "44",
+      "11",
+      "186"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 5,
+    "row": 23,
+    "commonName": "Sweet gum",
+    "scientificName": "styraciflua",
+    "status": "Champion",
+    "measurements": [
+      "108",
+      "45",
+      "47",
+      "12",
+      "165"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 5,
+    "row": 24,
+    "commonName": "Sycamore Maple",
+    "scientificName": "pseudoplatanus",
+    "status": "Champion",
+    "measurements": [
+      "84",
+      "56",
+      "43",
+      "11",
+      "151"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 5,
+    "row": 25,
+    "commonName": "Hawthorn",
+    "scientificName": "crusgalli",
+    "status": "Champion",
+    "measurements": [
+      "26",
+      "29",
+      "18",
+      "5",
+      "60"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 5,
+    "row": 26,
+    "commonName": "Honeylocust",
+    "scientificName": "triacanthos var.",
+    "status": "Champion",
+    "measurements": [
+      "204",
+      "107",
+      "88",
+      "22",
+      "333"
+    ],
+    "sourceCounty": "Lincoln"
+  },
+  {
+    "page": 5,
+    "row": 27,
+    "commonName": "Trident Maple",
+    "scientificName": "buergerianum",
+    "status": "Champion",
+    "measurements": [
+      "67",
+      "47",
+      "37",
+      "9",
+      "123"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 5,
+    "row": 28,
+    "commonName": "Tuliptree",
+    "scientificName": "tulipifera",
+    "status": "Champion",
+    "measurements": [
+      "126",
+      "48",
+      "48",
+      "12",
+      "186"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 5,
+    "row": 29,
+    "commonName": "Turbinella Oak",
+    "scientificName": "turbinella",
+    "status": "Champion",
+    "measurements": [
+      "249",
+      "48",
+      "40",
+      "10",
+      "307"
+    ],
+    "sourceCounty": "Clark"
+  },
+  {
+    "page": 5,
+    "row": 30,
+    "commonName": "Twisted Acacia",
+    "scientificName": "Acacia schaffneri",
+    "status": "Champion",
+    "measurements": [
+      "64",
+      "29",
+      "27",
+      "7",
+      "100"
+    ],
+    "sourceCounty": "Clark"
+  },
+  {
+    "page": 5,
+    "row": 31,
+    "commonName": "Willow",
+    "scientificName": "'Tortuosa'",
+    "status": "Champion",
+    "measurements": [
+      "78",
+      "30",
+      "28",
+      "7",
+      "115"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 5,
+    "row": 32,
+    "commonName": "Umbrella Catalpa",
+    "scientificName": "bignonioides",
+    "status": "Champion",
+    "measurements": [
+      "118",
+      "19",
+      "26",
+      "7",
+      "144"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 5,
+    "row": 33,
+    "commonName": "Valley Oak",
+    "scientificName": "Quercus lobata",
+    "status": "Champion",
+    "measurements": [
+      "188",
+      "106",
+      "88",
+      "22",
+      "316"
+    ],
+    "sourceCounty": "Douglas"
+  },
+  {
+    "page": 5,
+    "row": 34,
+    "commonName": "Vanderwolf Pine",
+    "scientificName": "'Vanderwolf'",
+    "status": "Champion",
+    "measurements": [
+      "119",
+      "45",
+      "36",
+      "9",
+      "173"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 5,
+    "row": 35,
+    "commonName": "Hawthorn",
+    "scientificName": "phaenopyrum",
+    "status": "Champion",
+    "measurements": [
+      "31",
+      "32",
+      "23",
+      "6",
+      "69"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 5,
+    "row": 36,
+    "commonName": "Water Oak",
+    "scientificName": "Quercus nigra",
+    "status": "Champion",
+    "measurements": [
+      "78",
+      "74",
+      "50",
+      "13",
+      "165"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 5,
+    "row": 37,
+    "commonName": "Cedar",
+    "scientificName": "nootkaensis",
+    "status": "Champion",
+    "measurements": [
+      "54",
+      "44",
+      "19",
+      "5",
+      "103"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 5,
+    "row": 38,
+    "commonName": "Cedar",
+    "scientificName": "'Pendula'",
+    "status": "Champion",
+    "measurements": [
+      "102",
+      "13",
+      "25",
+      "6",
+      "121"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 5,
+    "row": 39,
+    "commonName": "Weeping crabapple",
+    "scientificName": "scheideckeri",
+    "status": "Champion",
+    "measurements": [
+      "42",
+      "11",
+      "25",
+      "6",
+      "59"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 5,
+    "row": 40,
+    "commonName": "white pine",
+    "scientificName": "\u2018Pendula\u2019",
+    "status": "Champion",
+    "measurements": [
+      "37",
+      "16",
+      "24",
+      "6",
+      "59"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 5,
+    "row": 41,
+    "commonName": "Birch",
+    "scientificName": "'Laciniata'",
+    "status": "Champion",
+    "measurements": [
+      "76",
+      "54",
+      "43",
+      "11",
+      "141"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 5,
+    "row": 42,
+    "commonName": "Weeping Mulberry",
+    "scientificName": "'Pendula'",
+    "status": "Champion",
+    "measurements": [
+      "76",
+      "17",
+      "30",
+      "8",
+      "101"
+    ],
+    "sourceCounty": "Clark"
+  },
+  {
+    "page": 6,
+    "row": 1,
+    "commonName": "Spruce",
+    "scientificName": "'Pendula'",
+    "status": "Champion",
+    "measurements": [
+      "36",
+      "47",
+      "8",
+      "2",
+      "85"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 6,
+    "row": 2,
+    "commonName": "Weeping willow",
+    "scientificName": "Salix babylonica",
+    "status": "Champion",
+    "measurements": [
+      "123",
+      "34",
+      "34",
+      "9",
+      "166"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 6,
+    "row": 3,
+    "commonName": "Western Hackberry",
+    "scientificName": "Celtis reticulata",
+    "status": "Champion",
+    "measurements": [
+      "53",
+      "40",
+      "40",
+      "10",
+      "103"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 6,
+    "row": 4,
+    "commonName": "Western White Pine",
+    "scientificName": "Pinus monticola",
+    "status": "Champion",
+    "measurements": [
+      "336",
+      "154",
+      "73",
+      "18",
+      "508"
+    ],
+    "sourceCounty": "Douglas"
+  },
+  {
+    "page": 6,
+    "row": 5,
+    "commonName": "White alder",
+    "scientificName": "rhombifolia",
+    "status": "Champion",
+    "measurements": [
+      "74",
+      "32",
+      "39",
+      "10",
+      "116"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 6,
+    "row": 6,
+    "commonName": "White ash",
+    "scientificName": "americana",
+    "status": "Champion",
+    "measurements": [
+      "68",
+      "49",
+      "58",
+      "15",
+      "132"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 6,
+    "row": 7,
+    "commonName": "White elm",
+    "scientificName": "Ulmus laevis",
+    "status": "Champion",
+    "measurements": [
+      "121",
+      "50",
+      "37",
+      "9",
+      "180"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 6,
+    "row": 8,
+    "commonName": "White Oak",
+    "scientificName": "Quercus alba",
+    "status": "Champion",
+    "measurements": [
+      "84",
+      "72",
+      "60",
+      "15",
+      "171"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 6,
+    "row": 9,
+    "commonName": "White Poplar",
+    "scientificName": "Populus alba",
+    "status": "Champion",
+    "measurements": [
+      "185",
+      "68",
+      "55",
+      "14",
+      "267"
+    ],
+    "sourceCounty": "Pine"
+  },
+  {
+    "page": 6,
+    "row": 10,
+    "commonName": "White Spruce",
+    "scientificName": "Picea glauca",
+    "status": "Champion",
+    "measurements": [
+      "72",
+      "49",
+      "32",
+      "8",
+      "129"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 6,
+    "row": 11,
+    "commonName": "Willow Acacia",
+    "scientificName": "Acacia salicina",
+    "status": "Champion",
+    "measurements": [
+      "62",
+      "54",
+      "31",
+      "8",
+      "124"
+    ],
+    "sourceCounty": "Clark"
+  },
+  {
+    "page": 6,
+    "row": 12,
+    "commonName": "Yew-pine",
+    "scientificName": "macrophyllus",
+    "status": "Champion",
+    "measurements": [
+      "22",
+      "39",
+      "15",
+      "4",
+      "65"
+    ],
+    "sourceCounty": "Clark"
+  },
+  {
+    "page": 6,
+    "row": 13,
+    "commonName": "birch",
+    "scientificName": "'youngii'",
+    "status": "Champion",
+    "measurements": [
+      "31",
+      "11",
+      "21",
+      "5",
+      "47"
+    ],
+    "sourceCounty": "Washoe"
+  },
+  {
+    "page": 6,
+    "row": 14,
+    "commonName": "Zelkolva",
+    "scientificName": "Zelkova serrata",
+    "status": "Champion",
+    "measurements": [
+      "100",
+      "34",
+      "50",
+      "13",
+      "147"
+    ],
+    "sourceCounty": "Washoe"
+  }
+]
