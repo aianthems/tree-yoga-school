@@ -320,6 +320,8 @@ URL parameters: `region`, `state`, `q`, `county`, `place`, `genus`, `species`, `
 
 ### Trees to visit and familiar species names
 
+The visit directory uses compact cards and combined state, species, and visit-type filters. Selections persist in shareable query URLs and browser history; individual guide pages retain the full visitor guidance. When adding a state, aim to pair its register with one researched public visit, using official access and arrival sources before publishing. A state register alone does not establish permission to visit.
+
 The initial `/tree-visits` release offered three source-checked starting points: the Pinchot Sycamore (CT), University Green dawn redwood (VT), and Smith College castor aralia (MA). `lib/tree-visits.ts` contains stable champion record IDs, arrival/access guidance, official sources, check dates, and related practices. Check dates describe online research, not field inspections. These guides do not alter source-register access flags or map coordinates. Links from the Library, Champion Map, and matching record details make the collection discoverable.
 
 The Champion Map’s Tree species selector displays familiar names, scientific names, and counts within the loaded state/region. It filters exact published botanical categories; cultivars and hybrids remain distinct. `lib/champion-species.ts` normalizes inverted common names and prefers common names over botanical fallbacks. Choosing species clears genus, and choosing genus clears species. Existing `species` URLs, sharing, and browser history continue to work. Regression coverage is in `node --test scripts/test-champion-links.cjs`.
