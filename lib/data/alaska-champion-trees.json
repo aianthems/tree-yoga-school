@@ -1,0 +1,24 @@
+[
+  {
+    "id": "ak-uaf-black-spruce",
+    "state": "AK",
+    "sourceRow": 1,
+    "sourceUrl": "https://www.uaf.edu/news/archives/news-archives-2010-2021/the-largest-black-spruce-in-alaska.php",
+    "scientificName": "Picea mariana",
+    "commonName": "Black Spruce",
+    "town": "Fairbanks",
+    "county": "",
+    "location": "University of Alaska Fairbanks campus (historical source)",
+    "measured": null,
+    "circumference": 45,
+    "height": 71,
+    "crown": null,
+    "points": null,
+    "status": "Historical Alaska state champion · UAF account first published 2003",
+    "notes": "Limited historical coverage, not a complete Alaska register. UAF republished this account August 19, 2010 and says it first appeared in 2003. Measurement and nomination dates are not specified. Current condition, champion standing and visiting permission are unverified. The marker represents Fairbanks city, not the tree.",
+    "sourceReviewNotes": [
+      "The record ID and source row 1 are internal identifiers for this curated narrative selection, not an official register ID or table row.",
+      "Crown spread and points are not published in the account and remain unknown; no score is calculated."
+    ]
+  }
+]

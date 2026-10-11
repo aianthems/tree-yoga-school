@@ -4,7 +4,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import type * as Leaflet from "leaflet";
 import { clusterChampionPlaces } from "../../lib/champion-marker-clusters";
 import { type ChampionState } from "../../lib/champion-trees";
-import { championMapViewport, type ChampionMapView } from "../../lib/champion-map-view";
+import { championMapViewport, championMapViewForState, championMapViewNames, type ChampionMapView } from "../../lib/champion-map-view";
 
 export type TownGroup = { key: string; town: string; state: ChampionState; count: number; precision: string };
 type Engine = { L: typeof Leaflet; map: Leaflet.Map; markers: Leaflet.LayerGroup };
@@ -21,7 +21,7 @@ export default function ChampionMap({ groups, selectedTown, onTown, resetKey, co
   const [tileError, setTileError] = useState(false);
   const [requestedView, setRequestedView] = useState<ChampionMapView>("mainland");
   const viewport = useMemo(() => championMapViewport(groups, requestedView), [groups, requestedView]);
-  useEffect(() => { if (selectedTown) setRequestedView(selectedTown.startsWith("HI:") ? "hawaii" : "mainland"); }, [selectedTown]);
+  useEffect(() => { if (selectedTown) setRequestedView(championMapViewForState(selectedTown.split(":")[0])); }, [selectedTown]);
   useEffect(() => { setRequestedView("mainland"); }, [resetKey]);
   useEffect(() => {
     let disposed = false;
@@ -121,11 +121,11 @@ export default function ChampionMap({ groups, selectedTown, onTown, resetKey, co
   useEffect(() => {
     if (!engine || !selectedTown) return;
     const point = townCoordinates[selectedTown];
-    if (point && (selectedTown.startsWith("HI:") ? "hawaii" : "mainland") === viewport.view) engine.map.setView([point.lat, point.lng], selectedTown.includes(":county:") ? 7 : Math.max(engine.map.getZoom(), 10), { animate: false });
+    if (point && (championMapViewForState(selectedTown.split(":")[0])) === viewport.view) engine.map.setView([point.lat, point.lng], selectedTown.includes(":county:") ? 7 : Math.max(engine.map.getZoom(), 10), { animate: false });
   }, [engine, selectedTown, townCoordinates, viewport.view]);
 
   return <div className="champion-map-wrap">
-    {viewport.canSwitch && <><div className="champion-region-bar" aria-label="Map view"><span>Map view</span><button type="button" className="button secondary" aria-pressed={viewport.view === "mainland"} onClick={() => setRequestedView("mainland")}>Contiguous US</button><button type="button" className="button secondary" aria-pressed={viewport.view === "hawaii"} onClick={() => setRequestedView("hawaii")}>Hawaiʻi</button></div><p className="champion-map-note">Showing {viewport.view === "hawaii" ? "Hawaiʻi" : "the contiguous US"} on the map. The result list includes matching records from both views.</p></>}
+    {viewport.canSwitch && <><div className="champion-region-bar" aria-label="Map view"><span>Map view</span>{viewport.availableViews.map(view => <button key={view} type="button" className="button secondary" aria-pressed={viewport.view === view} onClick={() => setRequestedView(view)}>{championMapViewNames[view]}</button>)}</div><p className="champion-map-note">Showing {championMapViewNames[viewport.view]} on the map. The result list includes matching records from all available views.</p></>}
     <div ref={container} className="champion-map" role="region" aria-label="Interactive map of champion tree places. Markers show approximate town, Census place, county, or parish points, with precision stated in each label. Use the result list to browse every tree." />
     {!engine && <p className="champion-map-status" role="status">{failed ? "The map could not load. All tree records are available in the list." : "Opening the champion tree map…"}</p>}
     {tileError && <p className="champion-tile-error" role="status">Some map tiles could not load. Place markers and the complete list remain available.</p>}

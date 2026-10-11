@@ -579,5 +579,19 @@
     [
       "Eight records use the approximate Census Hawaii County point, and three use Honolulu County. Lonomea’s published O‘ahu county label is normalized to Honolulu County with an explicit record note. County markers do not locate individual trees or establish permission to visit. Personal measurer information, exact tree coordinates and street addresses are omitted."
     ]
+  ],
+  "AK": [
+    [
+      "One historical Black Spruce on the University of Alaska Fairbanks campus, explicitly described by UAF as an Alaska state champion. This is limited historical coverage, not a complete Alaska register."
+    ],
+    [
+      "The account first appeared in 2003 and was republished August 19, 2010. Neither date is treated as a measurement date. Its 71-foot height and 45-inch circumference are preserved; crown spread and points are unknown."
+    ],
+    [
+      "The National Champion Tree Program lists Alaska’s state program as on hiatus. Present condition, current champion standing and visiting permission are unverified. No public visit guide is implied by the campus location."
+    ],
+    [
+      "The map uses the Census 2025 representative point for Fairbanks city (GEOID 0224230). It represents an approximate city location, not the individual tree. The record ID is an internal project identifier."
+    ]
   ]
 }

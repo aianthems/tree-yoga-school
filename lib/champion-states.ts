@@ -7,6 +7,12 @@ export type ChampionStateConfig = {
   source: Readonly<Record<string, string | number>>;
 };
 export const championStates = {
+  AK: { name: "Alaska", sourceDate: "UAF historical account · first published 2003 · republished 2010 · limited coverage", recordFiles: ["alaska-champion-trees.json"], coordinateFile: "alaska-place-points.json", recordPrecision: "preserve", coordinatePrecision: "place", recordOrder: -24, expectedRecords: 1, expectedMapped: 1, unmappedIds: [], importer: null, auditFile: "alaska-source-audit.json", source: {
+    registerUrl: "https://www.uaf.edu/news/archives/news-archives-2010-2021/the-largest-black-spruce-in-alaska.php",
+    programUrl: "https://nationalchampiontree.org/state-programs/",
+    geographyUrl: "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_02.txt",
+    retrieved: "October 11, 2026", count: 1,
+  } },
   HI: { name: "Hawaiʻi", sourceDate: "2024 national register · measured 2016–2017 · limited coverage", recordFiles: ["hawaii-champion-trees.json"], coordinateFile: "hawaii-county-points.json", recordPrecision: "county", coordinatePrecision: "county", recordOrder: -23, expectedRecords: 11, expectedMapped: 11, unmappedIds: [], importer: "import-hawaii-champions.py", auditFile: "hawaii-import-audit.json", source: {
     registerUrl: "https://nationalchampiontree.org/champion-tree-registry/",
     csvUrl: "https://nationalchampiontree.org/wp-content/uploads/sites/270/2025/02/NCTP-2024-Register-downloadable-measurement-data.csv",
@@ -324,7 +330,7 @@ export const championStates = {
 export type ChampionState = keyof typeof championStates;
 export const stateNames = Object.fromEntries(Object.entries(championStates).map(([state, config]) => [state, config.name])) as Record<ChampionState, string>;
 export const sourceDates = Object.fromEntries(Object.entries(championStates).map(([state, config]) => [state, config.sourceDate])) as Record<ChampionState, string>;
-export const championRegions = { pacific: { name: "Pacific", states: ["HI"] }, west: { name: "West", states: ["WY", "UT", "CA", "AZ", "NV", "ID", "CO", "MT", "NM", "OR", "WA"] }, "south-central": { name: "South Central", states: ["TX", "LA", "OK"] }, midwest: { name: "Midwest", states: ["ND", "SD", "IN", "IL", "MI", "OH", "WI", "MN", "IA", "MO", "KS", "NE"] }, southeast: { name: "Southeast", states: ["MS", "NC", "SC", "TN", "GA", "KY", "AL", "FL", "AR"] }, "new-england": { name: "New England", states: ["MA", "NH", "VT", "ME", "RI", "CT"] }, northeast: { name: "Northeast", states: ["MA", "NH", "VT", "ME", "RI", "CT", "NY", "NJ", "PA"] }, "mid-atlantic": { name: "Mid-Atlantic", states: ["NY", "NJ", "PA", "DE", "MD", "VA", "WV"] } };
+export const championRegions = { alaska: { name: "Alaska", states: ["AK"] }, pacific: { name: "Pacific", states: ["HI"] }, west: { name: "West", states: ["WY", "UT", "CA", "AZ", "NV", "ID", "CO", "MT", "NM", "OR", "WA"] }, "south-central": { name: "South Central", states: ["TX", "LA", "OK"] }, midwest: { name: "Midwest", states: ["ND", "SD", "IN", "IL", "MI", "OH", "WI", "MN", "IA", "MO", "KS", "NE"] }, southeast: { name: "Southeast", states: ["MS", "NC", "SC", "TN", "GA", "KY", "AL", "FL", "AR"] }, "new-england": { name: "New England", states: ["MA", "NH", "VT", "ME", "RI", "CT"] }, northeast: { name: "Northeast", states: ["MA", "NH", "VT", "ME", "RI", "CT", "NY", "NJ", "PA"] }, "mid-atlantic": { name: "Mid-Atlantic", states: ["NY", "NJ", "PA", "DE", "MD", "VA", "WV"] } };
 
 // Coverage copy follows the same registry that drives imports and state filters.
 export const championCoverage = {

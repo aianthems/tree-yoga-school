@@ -1,9 +1,11 @@
-export type ChampionMapView = "mainland" | "hawaii";
-
-// Keep disconnected geographies legible without dropping any search results.
+export type ChampionMapView = "mainland" | "hawaii" | "alaska";
+export const championMapViewNames: Record<ChampionMapView, string> = { mainland: "Contiguous US", hawaii: "Hawaiʻi", alaska: "Alaska" };
+export function championMapViewForState(state: string): ChampionMapView {
+  return state === "HI" ? "hawaii" : state === "AK" ? "alaska" : "mainland";
+}
+// Separate disconnected geographies while preserving every matching search result.
 export function championMapViewport<T extends { state: string }>(groups: readonly T[], requested: ChampionMapView) {
-  const hasHawaii = groups.some(group => group.state === "HI");
-  const hasMainland = groups.some(group => group.state !== "HI");
-  const view = hasHawaii && !hasMainland ? "hawaii" : hasMainland && !hasHawaii ? "mainland" : requested;
-  return { view, canSwitch: hasHawaii && hasMainland, groups: groups.filter(group => view === "hawaii" ? group.state === "HI" : group.state !== "HI") };
+  const availableViews = (["mainland", "alaska", "hawaii"] as const).filter(view => groups.some(group => championMapViewForState(group.state) === view));
+  const view = availableViews.includes(requested) || !availableViews.length ? requested : availableViews[0];
+  return { view, availableViews, canSwitch: availableViews.length > 1, groups: groups.filter(group => championMapViewForState(group.state) === view) };
 }

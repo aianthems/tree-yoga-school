@@ -19,7 +19,7 @@ Each supported state has a static `/champion-trees/<state-name>` destination wit
 ## Current coverage
 
 <!-- coverage:start -->
-- Champion Map: **49 states**, **8,970 listed records**, and **8,494 records with approximate map points**.
+- Champion Map: **50 states**, **8,971 listed records**, and **8,495 records with approximate map points**.
 - Tree Library: **69 species profiles** and **6 photographic comparisons**.
 - Trees to Visit: **14 guides across 11 states**.
 
@@ -681,3 +681,7 @@ Adds the eleven HI rows explicitly designated Champion in the official 2024 Nati
 Eight records map to Census 2025 Hawaii County and three to Honolulu County. Lonomea’s source O‘ahu county label is explicitly normalized to Honolulu; the original wording is retained. The CSV’s K?lea Lau Nui spelling follows the PDF’s Kōlea Lau Nui with a visible note. Other published common names are retained. Exact tree coordinates and personal measurer names are omitted. Run `python scripts/import-hawaii-champions.py REGISTER.csv COUNTIES.zip` to reproduce the checked import. The fixture contains the eleven independent PDF measurement checks and the audit records source hashes.
 
 Hawaiʻi-only searches automatically show Hawaiʻi. For searches spanning both geographies, the map opens on the contiguous US with a Hawaiʻi switch; the result list retains all matching records. Selecting a Hawaiian record reveals its map view. The Pacific region shortcut filters to Hawaiʻi.
+
+### Alaska historical coverage
+
+One UAF campus black spruce is included from an account first published in 2003 and republished in 2010. It is explicitly labeled a historical state champion, with height 71 feet and circumference 45 inches. Measurement date, crown spread, points, current condition, current title and visiting permission remain unknown. The marker uses the Census 2025 Fairbanks city representative point (GEOID 0224230), not tree coordinates. This curated selection has an internal record ID and source audit; it does not constitute a complete Alaska register. Alaska has its own map view and region shortcut.
