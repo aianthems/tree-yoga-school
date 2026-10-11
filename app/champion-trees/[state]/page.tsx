@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: Props) {
   return pageMetadata(championStateHref(code), `${championStates[code].name} Champion Trees`, statePageDescription(code));
 }
 const sourceLabels: Record<string, string> = {
-  registerUrl: "Published register", programUrl: "Tree program", workbookUrl: "Register workbook",
+  registerUrl: "Published register", pdfUrl: "Register PDF", programUrl: "Tree program", workbookUrl: "Register workbook",
   nativeUrl: "Native tree register", nonNativeUrl: "Non-native tree register", floweringUrl: "Flowering tree register", conifersUrl: "Conifer register",
   scientificUrl: "Register by scientific name", commonUrl: "Register by common name", alphabeticalUrl: "Alphabetical register", countyUrl: "County register",
 };
@@ -44,7 +44,7 @@ export default async function ChampionStatePage({ params }: Props) {
       <Link className="lesson-back" href="/champion-trees#registers">← All state registers</Link>
       <p className="section-kicker">Out in the world · {config.name}</p>
       <h1>{config.name}<br /><em>champion trees.</em></h1>
-      <p className="lesson-lede">Remarkable trees, a place to begin. Explore the register, get to know the species, and bring a little attention outdoors.</p>
+      <p className="lesson-lede">{code === "MS" ? "One documented tree from the 2024 national register. This is limited coverage, not a complete Mississippi state champion list." : "Remarkable trees, a place to begin. Explore the register, get to know the species, and bring a little attention outdoors."}</p>
       <div className="champion-stats"><span><strong>{coverage.listed.toLocaleString("en-US")}</strong> listed records</span><span><strong>{coverage.mapped.toLocaleString("en-US")}</strong> records with map points</span><span><strong>{library.length}</strong> Library species represented</span></div>
       <div className="course-actions"><Link className="button primary" href={mapHref} prefetch={false}>Explore the {config.name} map →</Link><a className="course-link" href="#register">Register & coverage ↓</a></div>
       <nav className="champion-state-jumps" aria-label="On this state page"><a href="#notable">Notable records</a><a href="#species">Library & practices</a><a href="#visits">Places to visit</a></nav>

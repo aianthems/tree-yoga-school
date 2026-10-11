@@ -1,4 +1,18 @@
 {
+  "MS": [
+    [
+      "Limited Mississippi coverage: one Roughleaf Dogwood (Cornus drummondii), Tree ID 5821, in Tunica County, explicitly listed as Champion in the user-supplied 2024 National Register of Champion Trees CSV. The CSV was supplied October 11, 2026. This is not a complete Mississippi state register."
+    ],
+    [
+      "The tree was nominated and last measured in 2016. Current condition, champion status, and visiting access are unverified. The NCTME verification field is blank; verification is not inferred."
+    ],
+    [
+      "The CSV lists circumference 39 inches, height 30 feet, crown spread 34 feet, and 78 points. The accompanying national-register PDF gives height as 28 feet. This selection follows the supplied CSV and preserves the discrepancy rather than silently reconciling it."
+    ],
+    [
+      "The marker uses the Census 2025 representative point for Tunica County. It does not locate the individual tree or establish visiting permission. No street address, personal measurer information, or tree coordinates are imported."
+    ]
+  ],
   "CA": [
     [
       "All 264 distinct tree IDs returned by California Big Trees’ public listing endpoint, maintained by Cal Poly’s Urban Forest Ecosystems Institute and retrieved October 11, 2026. The data flags 263 state champions, 178 national champions, and 36 co-champions; these overlap. One Fremont cottonwood is marked only as co-champion, with no state or national flag, and retains that qualified label. No titles are derived from scores."

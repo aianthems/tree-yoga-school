@@ -1,0 +1,27 @@
+[
+  {
+    "id": "ms-5821",
+    "state": "MS",
+    "sourceTreeId": "5821",
+    "sourceRow": 112,
+    "sourceUrl": "https://nationalchampiontree.org/champion-tree-registry/",
+    "scientificName": "Cornus drummondii",
+    "commonName": "Roughleaf Dogwood",
+    "town": "",
+    "county": "Tunica",
+    "location": null,
+    "measured": "2016",
+    "nominated": "2016",
+    "diameter": 12.41,
+    "circumference": 39.0,
+    "height": 30.0,
+    "crown": 34.0,
+    "points": 78.0,
+    "status": "National champion \u00b7 2024 register",
+    "nationalFlag": "Champion in the 2024 National Register",
+    "sourceReviewNotes": [
+      "The downloadable CSV lists height as 30 feet; the accompanying 2024 PDF lists 28 feet. This record follows the supplied CSV and preserves the published 78 points."
+    ],
+    "notes": "One Mississippi record in the user-supplied 2024 National Register CSV, supplied October 11, 2026. This is limited national-register coverage, not a complete Mississippi state register. Current condition and champion status are unverified. Nominated and last measured in 2016. NCTME verification is blank in the CSV and is not inferred. County marker is approximate, not the tree location; visiting access is unclassified. Personal measurer information is omitted."
+  }
+]

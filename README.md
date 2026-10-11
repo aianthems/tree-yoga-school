@@ -19,7 +19,7 @@ Each supported state has a static `/champion-trees/<state-name>` destination wit
 ## Current coverage
 
 <!-- coverage:start -->
-- Champion Map: **44 states**, **8,566 listed records**, and **8,120 records with approximate map points**.
+- Champion Map: **45 states**, **8,567 listed records**, and **8,121 records with approximate map points**.
 - Tree Library: **69 species profiles** and **6 photographic comparisons**.
 - Trees to Visit: **14 guides across 11 states**.
 
@@ -642,3 +642,9 @@ Original names, decimal measurements and scores are preserved. Explicit feet/inc
 Contact and Big Tree Volunteers use `alexjulianyoga@gmail.com`, defined once in `lib/school-contact.ts`. Map records offer an email correction link with the record ID and state in the draft. Visitors review and send messages or photographs through their own email application; the website does not collect submissions. Contributions are reviewed privately before site updates, and publication permission and credit must be stated in the email.
 
 The direct submission form and its API have been removed. Email-provider configuration is not required. A future form can be introduced when the school is ready.
+
+### Mississippi limited national-register coverage
+
+One Mississippi tree is included from the user-supplied `NCTP-2024-Register-downloadable-measurement-data.csv` (547 national records): Roughleaf Dogwood, Cornus drummondii, Tree ID 5821 in Tunica County. Selection uses the State column, not counties named Mississippi in other states. This is limited national-register coverage, not a complete Mississippi state register. The 2024 designation and 2016 nomination/measurement years are retained without asserting current condition or status. The blank NCTME verification field is not treated as verified.
+
+The CSV gives 39-inch circumference, 30-foot height, 34-foot crown spread, and 78 points. The companion PDF gives 28-foot height; the map follows the supplied CSV and discloses the difference. One Census 2025 Tunica County representative point is used, with no tree location or visiting permission inferred. Measurer names are omitted. Run `python scripts/import-mississippi-champions.py REGISTER.csv COUNTIES.zip` to reproduce the import and its source-hash audit.
