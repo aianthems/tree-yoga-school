@@ -1,0 +1,722 @@
+[
+  {
+    "commonName": "Apricot, Manchurian",
+    "scientificName": "Prunus armeniaca",
+    "measurements": [
+      "8' 4\"",
+      "25'",
+      "42'",
+      "135.5"
+    ],
+    "town": "Aberdeen",
+    "county": "Brown"
+  },
+  {
+    "commonName": "Ash, Green",
+    "scientificName": "Fraxius pennsylvanica",
+    "measurements": [
+      "14' 1\"",
+      "84'",
+      "81'",
+      "273"
+    ],
+    "town": "Brandon",
+    "county": "Minnehaha"
+  },
+  {
+    "commonName": "Aspen, Big Tooth",
+    "scientificName": "Populus grandidentata",
+    "measurements": [
+      "9' 3\"",
+      "64'",
+      "61.5'",
+      "190"
+    ],
+    "town": "Huron",
+    "county": "Beadle"
+  },
+  {
+    "commonName": "Aspen, Quaking",
+    "scientificName": "Populus tremuloides",
+    "measurements": [
+      "6' 3\"",
+      "50'",
+      "26.25'",
+      "131.563"
+    ],
+    "town": "Rochford",
+    "county": "Pennington"
+  },
+  {
+    "commonName": "Birch, Paper",
+    "scientificName": "Betula papyrifera",
+    "measurements": [
+      "7' 9\"",
+      "55'",
+      "60'",
+      "163"
+    ],
+    "town": "Aberdeen",
+    "county": "Brown"
+  },
+  {
+    "commonName": "Boxelder",
+    "scientificName": "Acer negundo",
+    "measurements": [
+      "14'",
+      "35'",
+      "62'",
+      "224.5"
+    ],
+    "town": "Houghton",
+    "county": "Brown"
+  },
+  {
+    "commonName": "Buckeye, Ohio",
+    "scientificName": "Aesculus glabra",
+    "measurements": [
+      "8' 6\"",
+      "48'",
+      "54'",
+      "164"
+    ],
+    "town": "Colton",
+    "county": "Minnehaha"
+  },
+  {
+    "commonName": "Catalpa, Northern",
+    "scientificName": "Catalpa speciosa",
+    "measurements": [
+      "14' 6\"",
+      "92'",
+      "52'",
+      "279"
+    ],
+    "town": "Springfield",
+    "county": "Bon Homme"
+  },
+  {
+    "commonName": "Cherry, Black",
+    "scientificName": "Prunus serotina",
+    "measurements": [
+      "8' 8\"",
+      "61'",
+      "43'",
+      "176"
+    ],
+    "town": "Mitchell",
+    "county": "Davison"
+  },
+  {
+    "commonName": "Chokecherry",
+    "scientificName": "Prunus virginiana",
+    "measurements": [
+      "1'8\"",
+      "25.3'",
+      "6.9'",
+      "47"
+    ],
+    "town": "Belle Fourche",
+    "county": "Butte"
+  },
+  {
+    "commonName": "Coffeetree, Kentucky",
+    "scientificName": "Gymnocladus dioicus",
+    "measurements": [
+      "10' 6\"",
+      "70'",
+      "53'",
+      "209.3"
+    ],
+    "town": "Jefferson",
+    "county": "Union"
+  },
+  {
+    "commonName": "Cottonwood",
+    "scientificName": "Populus deltoides",
+    "measurements": [
+      "33' 6\"",
+      "120'",
+      "100'",
+      "547"
+    ],
+    "town": "Columbia",
+    "county": "Brown"
+  },
+  {
+    "commonName": "Crabapple",
+    "scientificName": "Malus sp.",
+    "measurements": [
+      "7' 9\"",
+      "37'",
+      "31'",
+      "138"
+    ],
+    "town": "Glencross",
+    "county": "Dewey"
+  },
+  {
+    "commonName": "Elm, American",
+    "scientificName": "Ulmus americana",
+    "measurements": [
+      "16' 9\"",
+      "53'",
+      "92'",
+      "277"
+    ],
+    "town": "Chamberlain",
+    "county": "Brule"
+  },
+  {
+    "commonName": "Elm, Siberian",
+    "scientificName": "Ulmus pumila",
+    "measurements": [
+      "18' 5\"",
+      "69'",
+      "89'",
+      "312"
+    ],
+    "town": "Wagner",
+    "county": "Charles Mix"
+  },
+  {
+    "commonName": "Fir, Balsam",
+    "scientificName": "Abies balsamea",
+    "measurements": [
+      "3' 2\"",
+      "60'",
+      "14'",
+      "102"
+    ],
+    "town": "Clark",
+    "county": "Clark"
+  },
+  {
+    "commonName": "Fir, Douglas",
+    "scientificName": "Pseudotsuga menziesii",
+    "measurements": [
+      "7' 6\"",
+      "50'",
+      "5'",
+      "147"
+    ],
+    "town": "Custer",
+    "county": "Custer"
+  },
+  {
+    "commonName": "Fir, White (concolor)",
+    "scientificName": "Abies concolor",
+    "measurements": [
+      "4' 6\"",
+      "47'",
+      "22'",
+      "107"
+    ],
+    "town": "Clear Lake",
+    "county": "Deuel"
+  },
+  {
+    "commonName": "Ginkgo",
+    "scientificName": "Ginkgo biloba",
+    "measurements": [
+      "5'",
+      "55'",
+      "40'",
+      "125"
+    ],
+    "town": "Sioux Falls",
+    "county": "Minnehaha"
+  },
+  {
+    "commonName": "Hackberry",
+    "scientificName": "Celtis occidentalis",
+    "measurements": [
+      "13'",
+      "99'",
+      "73'",
+      "273"
+    ],
+    "town": "Sioux Falls",
+    "county": "Minnehaha"
+  },
+  {
+    "commonName": "Hemlock, Eastern",
+    "scientificName": "Tsuga canadensis",
+    "measurements": [
+      "2' 6\"",
+      "34'",
+      "27'",
+      "71"
+    ],
+    "town": "Sioux Falls",
+    "county": "Minnehaha"
+  },
+  {
+    "commonName": "Honeylocust",
+    "scientificName": "Gleditsia triancanthos",
+    "measurements": [
+      "12' 3\"",
+      "110'",
+      "67'",
+      "274"
+    ],
+    "town": "Elk Point",
+    "county": "Union"
+  },
+  {
+    "commonName": "Horsechestnut",
+    "scientificName": "Aesculus hippocastanum",
+    "measurements": [
+      "10' 8\"",
+      "37.5'",
+      "21.5'",
+      "172.48"
+    ],
+    "town": "Spearfish",
+    "county": "Lawrence"
+  },
+  {
+    "commonName": "Juniper, Rocky Mountain",
+    "scientificName": "Juniperus scopulorum",
+    "measurements": [
+      "8' 6\"",
+      "60'",
+      "41'",
+      "172"
+    ],
+    "town": "Chamberlain",
+    "county": "Brule"
+  },
+  {
+    "commonName": "Larch, European",
+    "scientificName": "Larix decidua",
+    "measurements": [
+      "8' 4\"",
+      "75'",
+      "64'",
+      "191"
+    ],
+    "town": "Sioux Falls",
+    "county": "Minnehaha"
+  },
+  {
+    "commonName": "Linden, American",
+    "scientificName": "Tilia americana",
+    "measurements": [
+      "16'",
+      "69'",
+      "68'",
+      "278"
+    ],
+    "town": "Vermillion",
+    "county": "Clay"
+  },
+  {
+    "commonName": "Linden, Littleleaf",
+    "scientificName": "Tilia cordata",
+    "measurements": [
+      "4' 1\"",
+      "44'",
+      "31'",
+      "101"
+    ],
+    "town": "Sioux Falls",
+    "county": "Minnehaha"
+  },
+  {
+    "commonName": "Locust, Black",
+    "scientificName": "Robinia pseudoacacia",
+    "measurements": [
+      "8' 4\"",
+      "72'",
+      "51'",
+      "185"
+    ],
+    "town": "Mitchell",
+    "county": "Davison"
+  },
+  {
+    "commonName": "Maple, Norway",
+    "scientificName": "Acer platanoides",
+    "measurements": [
+      "7' 6\"",
+      "56'",
+      "52'",
+      "159"
+    ],
+    "town": "Hudson",
+    "county": "Lincoln"
+  },
+  {
+    "commonName": "Maple, Red",
+    "scientificName": "Acer rubrum",
+    "measurements": [
+      "4' 11\"",
+      "42'",
+      "43'",
+      "112"
+    ],
+    "town": "Sioux Falls",
+    "county": "Minnehaha"
+  },
+  {
+    "commonName": "Maple, Silver",
+    "scientificName": "Acer saccharinum",
+    "measurements": [
+      "18' 1\"",
+      "116'",
+      "94.5'",
+      "357"
+    ],
+    "town": "Flandreau",
+    "county": "Moody"
+  },
+  {
+    "commonName": "Maple, Sugar",
+    "scientificName": "Acer saccharum",
+    "measurements": [
+      "10' 1\"",
+      "85'",
+      "58'",
+      "221"
+    ],
+    "town": "Sioux Falls",
+    "county": "Minnehaha"
+  },
+  {
+    "commonName": "Mulberry",
+    "scientificName": "Morus sp",
+    "measurements": [
+      "10' 6\"",
+      "58'",
+      "53'",
+      "197"
+    ],
+    "town": "Springfield",
+    "county": "Bon Homme"
+  },
+  {
+    "commonName": "Oak, Bur",
+    "scientificName": "Quercus macrocarpa",
+    "measurements": [
+      "12' 2\"",
+      "73'",
+      "102'",
+      "244.5"
+    ],
+    "town": "Sioux Falls",
+    "county": "Minnehaha"
+  },
+  {
+    "commonName": "Oak, Northern Red",
+    "scientificName": "Quercus rubra",
+    "measurements": [
+      "11' 4\"",
+      "75'",
+      "75'",
+      "230"
+    ],
+    "town": "Sioux Falls",
+    "county": "Minnehaha"
+  },
+  {
+    "commonName": "Oak, Pin",
+    "scientificName": "Quercus palustris",
+    "measurements": [
+      "9' 10\"",
+      "73'",
+      "72'",
+      "209"
+    ],
+    "town": "Sioux Falls",
+    "county": "Minnehaha"
+  },
+  {
+    "commonName": "Oak, Swamp White",
+    "scientificName": "Quercus bicolor",
+    "measurements": [
+      "3' 10\"",
+      "35'",
+      "32'",
+      "89"
+    ],
+    "town": "Watertown",
+    "county": "Codington"
+  },
+  {
+    "commonName": "Pine, Austrian",
+    "scientificName": "Pinus nigra",
+    "measurements": [
+      "7' 10\"",
+      "48'",
+      "52'",
+      "155"
+    ],
+    "town": "Brookings",
+    "county": "Brookings"
+  },
+  {
+    "commonName": "Pine, Eastern White",
+    "scientificName": "Pinus strobus",
+    "measurements": [
+      "7' 6\"",
+      "92'",
+      "42'",
+      "193"
+    ],
+    "town": "Hudson",
+    "county": "Lincoln"
+  },
+  {
+    "commonName": "Pine, Jack",
+    "scientificName": "Pinus banksiana",
+    "measurements": [
+      "4' 8\"",
+      "62'",
+      "24'",
+      "124"
+    ],
+    "town": "Davis",
+    "county": "Turner"
+  },
+  {
+    "commonName": "Pine, Limber",
+    "scientificName": "Pinus flexilis",
+    "measurements": [
+      "3' 5\"",
+      "37'",
+      "24'",
+      "84"
+    ],
+    "town": "Custer",
+    "county": "Custer"
+  },
+  {
+    "commonName": "Pine, Lodgepole",
+    "scientificName": "Pinus contorta var. latifolia",
+    "measurements": [
+      "3' 7\"",
+      "50'",
+      "20'",
+      "99"
+    ],
+    "town": "Lead",
+    "county": "Lawrence"
+  },
+  {
+    "commonName": "Pine, Ponderosa",
+    "scientificName": "Pinus ponderosa",
+    "measurements": [
+      "11'",
+      "93'",
+      "29'",
+      "232"
+    ],
+    "town": "Hill City",
+    "county": "Pennington"
+  },
+  {
+    "commonName": "Pine, Red",
+    "scientificName": "Pinus resinosa",
+    "measurements": [
+      "5' 2\"",
+      "60'",
+      "38'",
+      "132"
+    ],
+    "town": "Rosholt",
+    "county": "Roberts"
+  },
+  {
+    "commonName": "Pine, Scotch",
+    "scientificName": "Pinus sylvestris",
+    "measurements": [
+      "15'",
+      "55'",
+      "51'",
+      "248"
+    ],
+    "town": "Hudson",
+    "county": "Lincoln"
+  },
+  {
+    "commonName": "Poplar, White",
+    "scientificName": "Populus alba",
+    "measurements": [
+      "17' 7\"",
+      "78'",
+      "89'",
+      "311.3"
+    ],
+    "town": "Sioux Falls",
+    "county": "Minnehaha"
+  },
+  {
+    "commonName": "Redbud, Eastern",
+    "scientificName": "Cercis canadensis",
+    "measurements": [
+      "4' 6\"",
+      "28'",
+      "33.5'",
+      "90"
+    ],
+    "town": "Sioux Falls",
+    "county": "Minnehaha"
+  },
+  {
+    "commonName": "Redcedar, Eastern",
+    "scientificName": "Juniperus virginiana",
+    "measurements": [
+      "6' 8\"",
+      "69'",
+      "30'",
+      "157"
+    ],
+    "town": "Springfield",
+    "county": "Bon Homme"
+  },
+  {
+    "commonName": "Russian Olive",
+    "scientificName": "Elaeagnus angustifolia",
+    "measurements": [
+      "13' 4\"",
+      "47'",
+      "61'",
+      "222.3"
+    ],
+    "town": "Rapid City",
+    "county": "Pennington"
+  },
+  {
+    "commonName": "Spruce, Black Hills",
+    "scientificName": "Picea glauca var. densata",
+    "measurements": [
+      "9' 9\"",
+      "103'",
+      "30'",
+      "228"
+    ],
+    "town": "Custer",
+    "county": "Custer"
+  },
+  {
+    "commonName": "Spruce, Colorado Blue",
+    "scientificName": "Picea pungens",
+    "measurements": [
+      "9' 7\"",
+      "72'",
+      "34'",
+      "196"
+    ],
+    "town": "Yankton",
+    "county": "Yankton"
+  },
+  {
+    "commonName": "Spruce, Norway",
+    "scientificName": "Picea abies",
+    "measurements": [
+      "9' 9\"",
+      "84'",
+      "61'",
+      "216"
+    ],
+    "town": "Valley Springs",
+    "county": "Minnehaha"
+  },
+  {
+    "commonName": "Sycamore, American",
+    "scientificName": "Platanus occidentalis, Linn.",
+    "measurements": [
+      "11\"",
+      "102'",
+      "77'",
+      "253"
+    ],
+    "town": "Sioux Falls",
+    "county": "Minnehaha"
+  },
+  {
+    "commonName": "Tree of Heaven",
+    "scientificName": "Ailanthus altissima",
+    "measurements": [
+      "4' 2\"",
+      "37'",
+      "36'",
+      "96"
+    ],
+    "town": "Vermillion",
+    "county": "Clay"
+  },
+  {
+    "commonName": "Tuliptree",
+    "scientificName": "Liriodendron tulipifera",
+    "measurements": [
+      "4' 6\"",
+      "40'",
+      "36'",
+      "103"
+    ],
+    "town": "Mitchell",
+    "county": "Davison"
+  },
+  {
+    "commonName": "Walnut, Black",
+    "scientificName": "Juglans nigra",
+    "measurements": [
+      "8' 4\"",
+      "95'",
+      "59'",
+      "209.8"
+    ],
+    "town": "Sioux Falls",
+    "county": "Minnehaha"
+  },
+  {
+    "commonName": "Willow, Crack",
+    "scientificName": "Salix fragilis",
+    "measurements": [
+      "15' 8\"",
+      "75'",
+      "81'",
+      "283"
+    ],
+    "town": "Spearfish",
+    "county": "Lawrence"
+  },
+  {
+    "commonName": "Willow, Peachleaf",
+    "scientificName": "Salix amygdaloides",
+    "measurements": [
+      "14'",
+      "64'",
+      "50'",
+      "244.5"
+    ],
+    "town": "Keystone",
+    "county": "Pennington"
+  },
+  {
+    "commonName": "Willow, Weeping",
+    "scientificName": "Salix alba var. tristis",
+    "measurements": [
+      "17' 6\"",
+      "66'",
+      "74'",
+      "295"
+    ],
+    "town": "Sioux Falls",
+    "county": "Minnehaha"
+  },
+  {
+    "commonName": "Willow, White",
+    "scientificName": "Salix alba",
+    "measurements": [
+      "18'",
+      "35'",
+      "32.5'",
+      "259.13"
+    ],
+    "town": "Whitewood",
+    "county": "Lawrence"
+  }
+]

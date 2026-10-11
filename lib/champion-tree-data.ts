@@ -1,4 +1,6 @@
 import "server-only";
+import sdRecords from "./data/south-dakota-champion-trees.json";
+import sdCoordinates from "./data/south-dakota-county-points.json";
 import nvRecords from "./data/nevada-champion-trees.json";
 import nvCoordinates from "./data/nevada-county-points.json";
 import idRecords from "./data/idaho-champion-trees.json";
@@ -88,6 +90,7 @@ import { championStates, type ChampionState } from "./champion-states";
 import { buildChampionDataset } from "./champion-state-data";
 
 const datasets = {
+  SD: { records: sdRecords, coordinates: sdCoordinates },
   NV: { records: nvRecords, coordinates: nvCoordinates },
   ID: { records: idRecords, coordinates: idCoordinates },
   WA: { records: waRecords, coordinates: waCoordinates },

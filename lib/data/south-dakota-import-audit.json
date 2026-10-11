@@ -1,0 +1,24 @@
+{
+  "registerUrl": "https://danr.sd.gov/Conservation/Forestry/ForestWoodlandTrees/BigTreeRegister/CurrentList.aspx",
+  "programUrl": "https://danr.sd.gov/Conservation/Forestry/ForestWoodlandTrees/BigTreeRegister/default.aspx",
+  "geographyUrl": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_counties_national.zip",
+  "retrieved": "October 11, 2026",
+  "edition": null,
+  "expectedRecords": 60,
+  "mappedRecords": 60,
+  "countyCount": 23,
+  "sourceHashes": {
+    "sd-current.html": "e15e5d6245e3356212bf615735773303b547370da286c952630084b7ff8a7fd4",
+    "counties.zip": "4c90d0f805779923b5958ab13d0c1e9b99fe4932b786bfcf75dd739bb2dcb4ea"
+  },
+  "scoreDiscrepancyRows": [
+    6,
+    17,
+    23,
+    53
+  ],
+  "review": "All 60 published table rows retained. Program overview says 57 champion species and 234 champions/challengers; neither count matches this table. No absent rows, co-champion or national designations inferred. Row-level champion/challenger status is not supplied. Scientific labels including Fraxius, triancanthos, genus-only sp. labels and botanical authority retained without identity corrections. Sycamore circumference remains the printed 11 inches. Program overview cottonwood differs from the table; table values used.",
+  "geography": "All counties matched exactly to Census 2025 SD county points. Nearest community retained, but marker represents the county, not the community or individual tree.",
+  "units": "Circumference converted from explicit feet and inches to inches. Height and crown spread in feet; original decimal scores retained.",
+  "privacy": "No exact tree coordinates, addresses, owners, contact details or visiting permissions inferred."
+}

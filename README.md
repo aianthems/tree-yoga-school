@@ -17,7 +17,7 @@ Trees to Visit and Return to Your Tree are primary navigation destinations. The 
 ## Current coverage
 
 <!-- coverage:start -->
-- Champion Map: **41 states**, **8,103 listed records**, and **7,664 records with approximate map points**.
+- Champion Map: **42 states**, **8,163 listed records**, and **7,724 records with approximate map points**.
 - Tree Library: **63 species profiles** and **6 photographic comparisons**.
 - Trees to Visit: **14 guides across 11 states**.
 
@@ -626,3 +626,9 @@ Retrieved October 11, 2026. Reproduce using `python scripts/import-idaho-champio
 Nevada adds all 223 records from the Division of Forestry’s six-page 2023 register: 211 champions and 12 co-champions at seven approximate Census county points. Source names, full average crown spread, rounded crown points, and scores remain as published. The program page’s 303-tree description differs from the linked PDF; the importer adds only printed records. NCTP lists the program on hiatus; current titles, conditions, and access are unverified.
 
 128 incomplete botanical labels are preserved and flagged. They remain searchable, but are excluded from species/genus grouping; no full identity is inferred from potentially inconsistent PDF hyperlinks. “Pine” is interpreted as White Pine County with a source note. Ownership/personal details and exact positions are omitted. Run `python scripts/import-nevada-champions.py REGISTER.pdf COUNTIES.zip` with the published PDF and Census 2025 national counties ZIP; it checks against the reviewed fixture and emits the records, geography, and import audit.
+
+### South Dakota published Big Tree Register
+
+All 60 rows from DANR’s undated online “Current Register of Big Trees” table are included at 23 approximate Census county points. Published nearest communities remain searchable. The overview’s 57-species/234-tree counts and cottonwood example differ from the linked table; table values take precedence. No missing rows, measurement dates, row-level champion/challenger labels or national titles are inferred.
+
+Original names, decimal measurements and scores are preserved. Explicit feet/inches circumference values are converted to inches. Four measurement/score discrepancies are flagged; American sycamore retains its printed 11-inch circumference rather than guessing a missing feet mark. Current condition, titles and visiting access are unverified. Run `python scripts/import-south-dakota-champions.py CURRENT.html COUNTIES.zip` with the official table and Census 2025 county Gazetteer; it checks all rows against the reviewed fixture and writes records, county points and an audit with source hashes. Retrieved October 11, 2026.
