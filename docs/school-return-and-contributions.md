@@ -12,13 +12,12 @@ not a claim that an organized network already operates. Reports include a page
 or record ID, observation date, and supporting source. Location privacy, access,
 photo permission/credit, and review before publication are explained.
 
-Contact drafts are made in memory with controlled inputs, then encoded in a
-`mailto:` URL for the visitor to review and send in their own email application.
+Contact and Big Tree Volunteers display `alexjulianyoga@gmail.com` and native
+email links. Map correction drafts include the record ID and state. Visitors
+review and send messages and attachments in their own email application.
 There is no website submission, storage, subscription, or automatic map update.
-The plain address is also available for messages and photo attachments. The
-recipient is the single exported value in `lib/school-contact.ts`; the founder confirmed
-`alexanderjulian33@gmail.com` as the temporary public address. The unavailable historical
-school inbox is not used.
+The recipient is defined once in `lib/school-contact.ts`. The direct submission
+form and its delivery API are removed until the school is ready to introduce them.
 
 The return practice is a new adaptation inspired by the book's When and Where
 chapter. Seasonal prompts are flexible, with stable-ground, seated, window,
