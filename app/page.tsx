@@ -2,7 +2,6 @@ import BookCover from "./components/book-cover";
 import VideoLesson from "./components/video-lesson";
 import { pageMetadata, siteDescription } from "../lib/site-seo";
 export const metadata = pageMetadata("/", "Tree Yoga School", siteDescription);
-import TreeEmbrace from "./components/tree-embrace";
 import HomeChampions from "./components/home-champions";
 import SiteHeader from "./components/site-header";
 import Image from "next/image";
@@ -70,8 +69,8 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="home-hug" aria-labelledby="home-hug-title">
-        <div className="home-hug-copy"><p className="section-kicker">Tree Hugging · A central practice</p><h2 id="home-hug-title">An embrace.<br /><em>A living connection.</em></h2><p>Slow down beside a tree. Rest your hands or arms gently against its trunk, or simply stay nearby. Explore a practice of presence, gratitude, and care.</p><Link className="button hug-button" href="/tree-hugging">Discover Tree Hugging →</Link><p className="home-hug-note">The practice · The benefits · The research</p></div><div className="home-hug-art"><TreeEmbrace compact /></div>
+      <section className="home-hug home-hug-photographic" aria-labelledby="home-hug-title">
+        <div className="home-hug-copy"><p className="section-kicker">Tree Hugging · A central practice</p><h2 id="home-hug-title">An embrace.<br /><em>A living connection.</em></h2><p>Slow down beside a tree. Rest your hands or arms gently against its trunk, or simply stay nearby. Explore a practice of presence, gratitude, and care.</p><Link className="button hug-button" href="/tree-hugging">Discover Tree Hugging →</Link><p className="home-hug-note">The practice · The benefits · The research</p></div><figure className="home-hug-photo"><Image src="https://media.treeyogaschool.com/images/tree-yoga-poses/tree-hug-farandnear.webp" alt="Alex Julian embracing the broad trunk of a towering tree in a green landscape" width={2000} height={1175} sizes="(max-width: 760px) 100vw, 60vw" unoptimized /><figcaption>Presence starts here.</figcaption></figure>
       </section>
 
       <section className="pathways section-shell" id="practice">
