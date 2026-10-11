@@ -4,7 +4,6 @@ import Link from "next/link";
 import TreeComparisonLinks from "../components/tree-comparison-links";
 import TreeLibraryExplorer from "../components/tree-library-explorer";
 import SiteHeader from "../components/site-header";
-import SiteFooter from "../components/site-footer";
 import { championCoverage } from "../../lib/champion-states";
 import { trees } from "../../lib/trees";
 import { treeVisitSummary } from "../../lib/tree-visits";
@@ -36,7 +35,7 @@ export default function TreeLibrary() {
           <div className="course-actions"><Link className="button secondary" href="/book/wisdom-and-wonder">Explore Wisdom and Wonder</Link><Link className="course-link" href="/begin-here">Begin with a five-minute practice</Link></div>
         </section>
       </main>
-      <SiteFooter />
+
     </>
   );
 }

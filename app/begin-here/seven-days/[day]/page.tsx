@@ -3,7 +3,6 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import SiteHeader from "../../../components/site-header";
-import SiteFooter from "../../../components/site-footer";
 import { beginnerJourney } from "../../../../lib/beginner-journey";
 export const dynamicParams = false;
 export function generateStaticParams() { return beginnerJourney.map(item => ({ day: String(item.day) })); }
@@ -24,5 +23,5 @@ export default async function JourneyDayPage({ params }: { params: Promise<{ day
     <section className="lesson-section" aria-labelledby="reflection"><p className="section-kicker">After your visit</p><h2 id="reflection">{day.reflection}</h2><p>Reflect quietly or write a sentence in your own notebook. Nothing needs to be submitted.</p></section>
     {day.day === 7 && <section className="lesson-section"><p className="section-kicker">A beginning you can return to</p><h2>Choose your next encounter.</h2><p>Repeat a favorite day, explore another Library practice, or plan a visit to a remarkable tree. You can keep this as simple as your first five minutes.</p><div className="course-actions"><Link className="button primary" href="/trees">Explore the Tree Library</Link><Link className="button secondary" href="/tree-visits">Find a tree to visit</Link></div></section>}
     <nav className="course-actions journey-next" aria-label="Continue the journey">{previous && <Link className="button secondary" href={`/begin-here/seven-days/${previous.day}`}>← Day {previous.day}: {previous.title}</Link>}{next ? <Link className="button primary" href={`/begin-here/seven-days/${next.day}`}>When ready: Day {next.day} →</Link> : <Link className="button secondary" href="/begin-here/seven-days">Return to all seven days</Link>}</nav>
-  </main><SiteFooter /></>;
+  </main></>;
 }

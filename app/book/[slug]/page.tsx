@@ -4,7 +4,6 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import SiteHeader from "../../components/site-header";
-import SiteFooter from "../../components/site-footer";
 import { bookChapters, bookPrinciples, bookChapterVideos } from "../../../lib/book-chapters";
 import { bookUrl } from "../../../lib/intro-lessons";
 
@@ -48,5 +47,5 @@ export default async function ChapterPage({ params }: { params: Promise<{ slug: 
       {next ? <><p className="chapter-next-title">Chapter {Number(next.number)} · {next.title}</p><p>{next.description}</p><Link className="button primary" href={`/book/${next.slug}`}>Next chapter: {next.title} →</Link></> : <><p>Keep learning through repeat visits, a small observation journal, and the trees around you.</p><Link className="button primary" href="/return-to-your-tree">Return to your tree →</Link></>}
       <nav className="chapter-navigation" aria-label="Chapter navigation">{previous && <Link href={`/book/${previous.slug}`}>← Previous: {previous.title}</Link>}<Link href="/book">All seven chapters →</Link></nav>
     </section>
-  </main><SiteFooter /></>;
+  </main></>;
 }

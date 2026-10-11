@@ -6,7 +6,6 @@ import { notFound } from "next/navigation";
 import BookConnections from "../../components/book-connections";
 import TreeComparisonLinks from "../../components/tree-comparison-links";
 import SiteHeader from "../../components/site-header";
-import SiteFooter from "../../components/site-footer";
 import { getTree, trees } from "../../../lib/trees";
 import { championHref } from "../../../lib/champion-links";
 import { relatedLibraryTrees } from "../../../lib/tree-library-related";
@@ -93,7 +92,7 @@ export default async function TreePage({ params }: { params: Promise<{ slug: str
           <div className="course-actions"><Link className="button primary" href="/trees">Return to the Tree Library</Link><Link className="button secondary" href="/book">Explore the book</Link></div>
         </section>
       </main>
-      <SiteFooter />
+
     </>
   );
 }

@@ -1,5 +1,4 @@
 import BookConnections from "../../components/book-connections";
-import SiteFooter from "../../components/site-footer";
 import { pageMetadata } from "../../../lib/site-seo";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
@@ -53,7 +52,7 @@ export default async function LessonPage({ params }: { params: Promise<{ slug: s
           <p className="book-source-note">Explore a particular tree: <a href="/trees/pine">Pine in the Tree Library</a>, or <a href="/book">follow the teachings through the book</a>.</p>
         </section>
       </main>
-      <SiteFooter />
+
     </>
   );
 }
