@@ -53,32 +53,20 @@ export default function Home() {
       <SiteHeader />
 
       <main id="content">
-      <section className="hero" id="top">
-        <div className="hero-copy">
-          <p className="eyebrow">A living school rooted in nature</p>
-          <h1>Practice beneath<br />something older<br />than your plans.</h1>
-          <p className="hero-lede">
-            Tree Yoga School brings together tree hugging, yoga, meditation, hiking, and
-            sustained attention to the living world.
-          </p>
-          <div className="hero-actions">
-            <a className="button primary" href="/begin-here">Begin with a tree</a>
-            <a className="button secondary" href={bookUrl} target="_blank" rel="noreferrer">
-              Read the original book ↗
-            </a>
+      <section className="home-hero" id="top" aria-labelledby="home-hero-title">
+        <Image className="home-hero-photo" src="https://media.treeyogaschool.com/images/tree-yoga-poses/dancer-pose-farandnear.webp" alt="Dancer pose beside a towering tree, with one hand resting against its deeply textured trunk" width={2000} height={1180} sizes="100vw" priority unoptimized />
+        <div className="home-hero-shade" aria-hidden="true" />
+        <div className="home-hero-copy">
+          <p className="eyebrow">Tree Yoga School · A living practice</p>
+          <h1 id="home-hero-title"><span>Rooted.</span><span>Present.</span><em>Alive.</em></h1>
+          <p className="home-hero-lede">Let the living world bring you back.</p>
+          <p className="home-hero-description">Yoga, tree hugging, meditation, and wonder. Begin beside a tree. Discover a practice you can return to.</p>
+          <div className="home-hero-actions">
+            <Link className="button" href="/begin-here">Begin with a tree <span aria-hidden="true">→</span></Link>
+            <a className="home-hero-book" href={bookUrl} target="_blank" rel="noreferrer">Read the original book ↗</a>
           </div>
         </div>
-        <div className="hero-visual" aria-hidden="true">
-          <div className="sun" />
-          <div className="tree">
-            <div className="crown crown-one" />
-            <div className="crown crown-two" />
-            <div className="crown crown-three" />
-            <div className="trunk" />
-          </div>
-          <div className="ground" />
-          <p className="hero-mantra">Nature is the teacher.</p>
-        </div>
+        <div className="home-hero-footer"><p>Nature is the teacher.</p><a href="#welcome-video-title">Step into the school <span aria-hidden="true">↓</span></a></div>
       </section>
 
       <section className="home-video section-shell" aria-labelledby="welcome-video-title"><div className="home-video-inner"><p className="section-kicker">A welcome from Alex Julian</p><h2 id="welcome-video-title">Welcome to Tree Yoga School.</h2><p>Meet Alex in the trees, and begin with the original school.</p><VideoLesson youtubeId="e7HtBaV_n5s" title="Welcome to Tree Yoga School — Alex Julian" /></div></section>
