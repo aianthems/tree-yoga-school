@@ -7,7 +7,6 @@ import HomeChampions from "./components/home-champions";
 import SiteHeader from "./components/site-header";
 import Image from "next/image";
 import Link from "next/link";
-import { bookChapters } from "../lib/book-chapters";
 
 const bookUrl =
   "https://media.aianthems.com/books/tree-yoga-school/tree-yoga-school-ebook.pdf";
@@ -135,28 +134,6 @@ export default function Home() {
       </section>
 
       <HomeChampions />
-
-      <section className="curriculum section-shell" id="curriculum">
-        <div className="section-heading">
-          <p className="section-kicker">Explore the book</p>
-          <h2>Seven chapters. One practice: pay attention.</h2>
-          <p className="curriculum-intro">New reading companions connect the original book to trees and practices. Each chapter also links to its full original text.</p>
-        </div>
-        <div className="chapter-list">
-          {bookChapters.map(({ number, slug, title, description }) => (
-            <Link
-              key={number}
-              href={`/book/${slug}`}
-              className="chapter-row"
-            >
-              <span className="chapter-number">{number.padStart(2, "0")}</span>
-              <span className="chapter-title">{title}</span>
-              <span className="chapter-description">{description}</span>
-              <span className="chapter-arrow" aria-hidden="true">→</span>
-            </Link>
-          ))}
-        </div>
-      </section>
 
       <section className="principles section-shell" id="principles">
         <div className="principles-intro">
