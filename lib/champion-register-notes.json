@@ -523,5 +523,19 @@
     [
       "All 274 records are searchable and mapped at 24 approximate Census county or independent-city points. Baltimore City is kept distinct from Baltimore County. Published towns and addresses remain on the cards, but these markers do not locate individual trees. Tree GPS coordinates and personal owner or nominator details are not imported. Measurement years are separate from this snapshot’s retrieval date."
     ]
+  ],
+  "ND": [
+    [
+      "All 87 first-place champion records in North Dakota Forest Service’s published official StoryMap, retrieved October 11, 2026. The published story metadata dates this version May 27, 2026; its item was later modified and flags unpublished changes, which are not imported. The separate 50-tree second-place section is excluded. Titles follow the source designation; no champions are inferred from points."
+    ],
+    [
+      "The older 2024 table, updated April 30, 2025, contains 82 champions and 47 runners-up. It is used for comparison and exact historical geography matches, not combined with the newer register. All 13 champions named in the May 1, 2026 announcement are present in the StoryMap, with the same published scores. Former champions shown as second place remain excluded."
+    ],
+    [
+      "80 records use 15 approximate Census county points. General town names are matched to counties using Census 2025 county subdivision geography. Where the StoryMap provides only tree coordinates, an older location is used only after matching botanical name and all three measurements; those historical matches are disclosed. Seven records remain searchable without markers. Exact tree coordinates, addresses, owner/nominator details, photographs and contact fields are omitted. Public ownership does not establish visiting permission."
+    ],
+    [
+      "Names, decimal measurements, dates and scores are preserved. Circumference is converted from feet and inches to inches; height and full average crown spread are shown in feet. Norway spruce’s current 48-foot crown differs from 38.5 feet in the older table. River birch’s circumference is 60.6 inches in the StoryMap versus 60.7 inches in the announcement; the StoryMap value is used. The Miyabe maple’s June 2023 measurement date stays distinct from its 2025 addition announcement. Scientific spelling and score inconsistencies are retained and flagged. Current condition, access and national standing are unverified."
+    ]
   ]
 }

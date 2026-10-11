@@ -1,0 +1,1220 @@
+[
+  {
+    "sourceNode": "n-ABV19u",
+    "commonName": "Apricot",
+    "scientificName": "Prunus armeniaca",
+    "designation": "Champion",
+    "nativeLabel": "Non-Native",
+    "rawMeasurements": {
+      "Circumference": "8'",
+      "Height": "33' 6\"",
+      "Average Crown Spread": "29' 1.5\""
+    },
+    "measured": "2022-09",
+    "points": 136.8
+  },
+  {
+    "sourceNode": "n-pQvrLB",
+    "commonName": "Arborvitae, American",
+    "scientificName": "Thuja occidentalis",
+    "designation": "Champion",
+    "nativeLabel": "Non-Native",
+    "rawMeasurements": {
+      "Circumference": "7' 1\"",
+      "Height": "61'",
+      "Average Crown Spread": "36'"
+    },
+    "measured": "2018-04",
+    "points": 155.0
+  },
+  {
+    "sourceNode": "n-GXrQGU",
+    "commonName": "Ash, Green",
+    "scientificName": "Fraxinus pennsylvanica",
+    "designation": "Champion",
+    "nativeLabel": "Native",
+    "rawMeasurements": {
+      "Circumference": "11' 9\"",
+      "Height": "65'",
+      "Average Crown Spread": "71'"
+    },
+    "measured": "2021-10",
+    "points": 224.0
+  },
+  {
+    "sourceNode": "n-AlsycL",
+    "commonName": "Ash, White",
+    "scientificName": "Fraxinus americana",
+    "designation": "Champion",
+    "nativeLabel": "Non-Native",
+    "rawMeasurements": {
+      "Circumference": "3' 6\"",
+      "Height": "52'",
+      "Average Crown Spread": "38'"
+    },
+    "measured": "2002-09",
+    "points": 103.0
+  },
+  {
+    "sourceNode": "n-exXNYQ",
+    "commonName": "Aspen, Quaking",
+    "scientificName": "Populus tremuloides",
+    "designation": "Champion",
+    "nativeLabel": "Native",
+    "rawMeasurements": {
+      "Circumference": "7' 1\"",
+      "Height": "66'",
+      "Average Crown Spread": "32' 6\""
+    },
+    "measured": "2017-11",
+    "points": 159.0
+  },
+  {
+    "sourceNode": "n-rSi5uk",
+    "commonName": "Aspen, Swedish",
+    "scientificName": "Populus tremula",
+    "designation": "Champion",
+    "nativeLabel": "Non-Native",
+    "rawMeasurements": {
+      "Circumference": "2' 2\"",
+      "Height": "74'",
+      "Average Crown Spread": "6'"
+    },
+    "measured": null,
+    "points": 102.0
+  },
+  {
+    "sourceNode": "n-Dtso5h",
+    "commonName": "Birch, Cutleaf Weeping",
+    "scientificName": "Betula pendula",
+    "designation": "Champion",
+    "nativeLabel": "Non-Native",
+    "rawMeasurements": {
+      "Circumference": "9' 11\"",
+      "Height": "61'",
+      "Average Crown Spread": "64'"
+    },
+    "measured": "2016-04",
+    "points": 196.0
+  },
+  {
+    "sourceNode": "n-jXVYRA",
+    "commonName": "Birch, Paper",
+    "scientificName": "Betula papyrifera",
+    "designation": "Champion",
+    "nativeLabel": "Native",
+    "rawMeasurements": {
+      "Circumference": "6' 7\"",
+      "Height": "62'",
+      "Average Crown Spread": "52'"
+    },
+    "measured": "2017-09",
+    "points": 154.0
+  },
+  {
+    "sourceNode": "n-85pCGg",
+    "commonName": "Birch, River",
+    "scientificName": "Betula nigra",
+    "designation": "Champion",
+    "nativeLabel": "Non-Native",
+    "rawMeasurements": {
+      "Circumference": "5' 0.6\"",
+      "Height": "58'",
+      "Average Crown Spread": "59' 6\""
+    },
+    "measured": "2025-09",
+    "points": 133.6
+  },
+  {
+    "sourceNode": "n-HPS2fw",
+    "commonName": "Birch, Water",
+    "scientificName": "Betula occidentalis",
+    "designation": "Champion",
+    "nativeLabel": "Native",
+    "rawMeasurements": {
+      "Circumference": "2'",
+      "Height": "31'",
+      "Average Crown Spread": "58'"
+    },
+    "measured": null,
+    "points": 70.0
+  },
+  {
+    "sourceNode": "n-NHEJ8q",
+    "commonName": "Birch, Yellow",
+    "scientificName": "Betula alleganiensis",
+    "designation": "Champion",
+    "nativeLabel": "Non-Native",
+    "rawMeasurements": {
+      "Circumference": "2' 5\"",
+      "Height": "46'",
+      "Average Crown Spread": "26' 7\""
+    },
+    "measured": "2021-11",
+    "points": 81.6
+  },
+  {
+    "sourceNode": "n-eHGHOk",
+    "commonName": "Boxelder",
+    "scientificName": "Acer negundo",
+    "designation": "Champion",
+    "nativeLabel": "Native",
+    "rawMeasurements": {
+      "Circumference": "11' 7\"",
+      "Height": "71'",
+      "Average Crown Spread": "58' 6\""
+    },
+    "measured": "2025-09",
+    "points": 224.6
+  },
+  {
+    "sourceNode": "n-e6I0UL",
+    "commonName": "Buckeye, Ohio",
+    "scientificName": "Aesculus glabra",
+    "designation": "Champion",
+    "nativeLabel": "Non-Native",
+    "rawMeasurements": {
+      "Circumference": "7' 2\"",
+      "Height": "68'",
+      "Average Crown Spread": "64'"
+    },
+    "measured": "2019-12",
+    "points": 170.0
+  },
+  {
+    "sourceNode": "n-d1c7QM",
+    "commonName": "Butternut",
+    "scientificName": "Juglans cinerea",
+    "designation": "Champion",
+    "nativeLabel": "Non-Native",
+    "rawMeasurements": {
+      "Circumference": "10' 3\"",
+      "Height": "51'",
+      "Average Crown Spread": "58'"
+    },
+    "measured": "2018-04",
+    "points": 189.0
+  },
+  {
+    "sourceNode": "n-jteRNi",
+    "commonName": "Catalpa, Northern",
+    "scientificName": "Catalpa speciosa",
+    "designation": "Champion",
+    "nativeLabel": "Non-Native",
+    "rawMeasurements": {
+      "Circumference": "6'",
+      "Height": "45'",
+      "Average Crown Spread": "39'"
+    },
+    "measured": "2018-04",
+    "points": 127.0
+  },
+  {
+    "sourceNode": "n-MU560p",
+    "commonName": "Cedar, Eastern Red",
+    "scientificName": "Juniperus virginiana",
+    "designation": "Champion",
+    "nativeLabel": "Non-Native",
+    "rawMeasurements": {
+      "Circumference": "3' 2\"",
+      "Height": "45'",
+      "Average Crown Spread": "22'"
+    },
+    "measured": "2025-09",
+    "points": 88.5
+  },
+  {
+    "sourceNode": "n-OTYmIt",
+    "commonName": "Chokecherry",
+    "scientificName": "Prunus virginiana",
+    "designation": "Champion",
+    "nativeLabel": "Native",
+    "rawMeasurements": {
+      "Circumference": "4' 4\"",
+      "Height": "44'",
+      "Average Crown Spread": "28.75'"
+    },
+    "measured": "2023-09",
+    "points": 103.2
+  },
+  {
+    "sourceNode": "n-k4rEbO",
+    "commonName": "Chokecherry, Amur",
+    "scientificName": "Prunus maackii",
+    "designation": "Champion",
+    "nativeLabel": "Non-Native",
+    "rawMeasurements": {
+      "Circumference": "2' 4.5\"",
+      "Height": "27'",
+      "Average Crown Spread": "27' 6\""
+    },
+    "measured": "2025-09",
+    "points": 62.4
+  },
+  {
+    "sourceNode": "n-T03zP8",
+    "commonName": "Coffeetree, Kentucky",
+    "scientificName": "Gymnocladus dioicus",
+    "designation": "Champion",
+    "nativeLabel": "Non-Native",
+    "rawMeasurements": {
+      "Circumference": "6' 10\"",
+      "Height": "67'",
+      "Average Crown Spread": "41'"
+    },
+    "measured": "2024-11",
+    "points": 159.3
+  },
+  {
+    "sourceNode": "n-EwJaMS",
+    "commonName": "Corktree, Amur",
+    "scientificName": "Phellodendron amurense",
+    "designation": "Champion",
+    "nativeLabel": "Non-Native",
+    "rawMeasurements": {
+      "Circumference": "3' 3\"",
+      "Height": "45'",
+      "Average Crown Spread": "38'"
+    },
+    "measured": "2006-09",
+    "points": 94.0
+  },
+  {
+    "sourceNode": "n-CEpokc",
+    "commonName": "Cottonwood, Eastern",
+    "scientificName": "Populus deltoides",
+    "designation": "Champion",
+    "nativeLabel": "Native",
+    "rawMeasurements": {
+      "Circumference": "29' 3\"",
+      "Height": "123'",
+      "Average Crown Spread": "77' 2\""
+    },
+    "measured": "2022-06",
+    "points": 493.3
+  },
+  {
+    "sourceNode": "n-UfLQMY",
+    "commonName": "Cottonwood, Smooth-Bark",
+    "scientificName": "Populus acuminata",
+    "designation": "Champion",
+    "nativeLabel": "Native",
+    "rawMeasurements": {
+      "Circumference": "12' 3\"",
+      "Height": "100'",
+      "Average Crown Spread": "59'"
+    },
+    "measured": "2025-09",
+    "points": 261.8
+  },
+  {
+    "sourceNode": "n-fq43yF",
+    "commonName": "Crabapple",
+    "scientificName": "Malus spp.",
+    "designation": "Champion",
+    "nativeLabel": "Non-Native",
+    "rawMeasurements": {
+      "Circumference": "6' 6\"",
+      "Height": "32'",
+      "Average Crown Spread": "36' 6\""
+    },
+    "measured": "2025-06",
+    "points": 119.1
+  },
+  {
+    "sourceNode": "n-KYe5jG",
+    "commonName": "Elm, American",
+    "scientificName": "Ulmus americana",
+    "designation": "Champion",
+    "nativeLabel": "Native",
+    "rawMeasurements": {
+      "Circumference": "16' 4\"",
+      "Height": "87'",
+      "Average Crown Spread": "98' 6\""
+    },
+    "measured": "2016-08",
+    "points": 308.0
+  },
+  {
+    "sourceNode": "n-mcnU8V",
+    "commonName": "Elm, Siberian",
+    "scientificName": "Ulmus pumila",
+    "designation": "Champion",
+    "nativeLabel": "Non-Native",
+    "rawMeasurements": {
+      "Circumference": "14' 6\"",
+      "Height": "74'",
+      "Average Crown Spread": "88'"
+    },
+    "measured": "2001-06",
+    "points": 270.0
+  },
+  {
+    "sourceNode": "n-7Q4S9n",
+    "commonName": "Elm, Slippery",
+    "scientificName": "Ulmus rubra",
+    "designation": "Champion",
+    "nativeLabel": "Native",
+    "rawMeasurements": {
+      "Circumference": "11'",
+      "Height": "66'",
+      "Average Crown Spread": "79'"
+    },
+    "measured": "2022-08",
+    "points": 217.8
+  },
+  {
+    "sourceNode": "n-kWUOCH",
+    "commonName": "Fir, Balsam",
+    "scientificName": "Abies balsamea",
+    "designation": "Champion",
+    "nativeLabel": "Non-Native",
+    "rawMeasurements": {
+      "Circumference": "4' 4\"",
+      "Height": "60'",
+      "Average Crown Spread": "23'"
+    },
+    "measured": "2015-12",
+    "points": 119.0
+  },
+  {
+    "sourceNode": "n-ns8R4H",
+    "commonName": "Fir, Douglas",
+    "scientificName": "Pseudotsuga menziesii",
+    "designation": "Champion",
+    "nativeLabel": "Non-Native",
+    "rawMeasurements": {
+      "Circumference": "6' 5\"",
+      "Height": "81'",
+      "Average Crown Spread": "32'"
+    },
+    "measured": "2018-04",
+    "points": 166.0
+  },
+  {
+    "sourceNode": "n-dJPLku",
+    "commonName": "Fir, Frasier",
+    "scientificName": "Abies fraseri",
+    "designation": "Champion",
+    "nativeLabel": "Non-Native",
+    "rawMeasurements": {
+      "Circumference": "1' 7\"",
+      "Height": "17'",
+      "Average Crown Spread": "13'"
+    },
+    "measured": "2011-12",
+    "points": 90.0
+  },
+  {
+    "sourceNode": "n-XqRWLw",
+    "commonName": "Fir, Rocky Mountain/Subalpine",
+    "scientificName": "Abies lasiocarpa",
+    "designation": "Champion",
+    "nativeLabel": "Non-Native",
+    "rawMeasurements": {
+      "Circumference": "2' 5\"",
+      "Height": "28'",
+      "Average Crown Spread": "24'"
+    },
+    "measured": "2009-12",
+    "points": 60.0
+  },
+  {
+    "sourceNode": "n-USllzV",
+    "commonName": "Fir, White",
+    "scientificName": "Abies concolor",
+    "designation": "Champion",
+    "nativeLabel": "Non-Native",
+    "rawMeasurements": {
+      "Circumference": "4' 4\"",
+      "Height": "54'",
+      "Average Crown Spread": "31'"
+    },
+    "measured": "2018-06",
+    "points": 114.0
+  },
+  {
+    "sourceNode": "n-qErV1c",
+    "commonName": "Ginkgo",
+    "scientificName": "Ginkgo biloba",
+    "designation": "Champion",
+    "nativeLabel": "Non-Native",
+    "rawMeasurements": {
+      "Circumference": "3' 9\"",
+      "Height": "40'",
+      "Average Crown Spread": "34'"
+    },
+    "measured": "2018-04",
+    "points": 94.0
+  },
+  {
+    "sourceNode": "n-ghLGWS",
+    "commonName": "Hackberry, Common",
+    "scientificName": "Celtis occidentalis",
+    "designation": "Champion",
+    "nativeLabel": "Native",
+    "rawMeasurements": {
+      "Circumference": "10' 8\"",
+      "Height": "52'",
+      "Average Crown Spread": "52'"
+    },
+    "measured": "2014-10",
+    "points": 194.0
+  },
+  {
+    "sourceNode": "n-EIehQQ",
+    "commonName": "Hickory, Bitternut",
+    "scientificName": "Carya cordiformis",
+    "designation": "Champion",
+    "nativeLabel": "Non-Native",
+    "rawMeasurements": {
+      "Circumference": "1' 6.5\"",
+      "Height": "36'",
+      "Average Crown Spread": "24'"
+    },
+    "measured": "2021-11",
+    "points": 60.5
+  },
+  {
+    "sourceNode": "n-jFXEuO",
+    "commonName": "Hickory, Shagbark",
+    "scientificName": "Carya ovata",
+    "designation": "Champion",
+    "nativeLabel": "Non-Native",
+    "rawMeasurements": {
+      "Circumference": "3' 7\"",
+      "Height": "50'",
+      "Average Crown Spread": "37'"
+    },
+    "measured": "2005-08",
+    "points": 102.0
+  },
+  {
+    "sourceNode": "n-v20rtZ",
+    "commonName": "Honeylocust, Common",
+    "scientificName": "Gleditsia triacanthos",
+    "designation": "Champion",
+    "nativeLabel": "Non-Native",
+    "rawMeasurements": {
+      "Circumference": "7' 9\"",
+      "Height": "64'",
+      "Average Crown Spread": "50' 6\""
+    },
+    "measured": "2022-08",
+    "points": 169.6
+  },
+  {
+    "sourceNode": "n-Dpb9bd",
+    "commonName": "Hoptree",
+    "scientificName": "Ptelea trifoliata",
+    "designation": "Champion",
+    "nativeLabel": "Non-Native",
+    "rawMeasurements": {
+      "Circumference": "4' 6\"",
+      "Height": "25'",
+      "Average Crown Spread": "36'"
+    },
+    "measured": "2018-04",
+    "points": 88.0
+  },
+  {
+    "sourceNode": "n-nkAO0u",
+    "commonName": "Horsechestnut, European",
+    "scientificName": "Aesculus hippocastanum",
+    "designation": "Champion",
+    "nativeLabel": "Non-Native",
+    "rawMeasurements": {
+      "Circumference": "5' 2\"",
+      "Height": "35'",
+      "Average Crown Spread": "26'"
+    },
+    "measured": "2010-04",
+    "points": 104.0
+  },
+  {
+    "sourceNode": "n-LI0qM2",
+    "commonName": "Ironwood",
+    "scientificName": "Ostrya virginiana",
+    "designation": "Champion",
+    "nativeLabel": "Native",
+    "rawMeasurements": {
+      "Circumference": "4'",
+      "Height": "42'",
+      "Average Crown Spread": "52'"
+    },
+    "measured": "2018-07",
+    "points": 103.0
+  },
+  {
+    "sourceNode": "n-yttPd7",
+    "commonName": "Juneberry",
+    "scientificName": "Ameliancher alnifolia",
+    "designation": "Champion",
+    "nativeLabel": "Native",
+    "rawMeasurements": {
+      "Circumference": "7' 5\"",
+      "Height": "27' 6\"",
+      "Average Crown Spread": "3' 6\""
+    },
+    "measured": "2005-09",
+    "points": 36.0
+  },
+  {
+    "sourceNode": "n-aTx4s3",
+    "commonName": "Juniper, Rocky Mountain",
+    "scientificName": "Juniperus scopulorum",
+    "designation": "Champion",
+    "nativeLabel": "Native",
+    "rawMeasurements": {
+      "Circumference": "8' 1\"",
+      "Height": "34'",
+      "Average Crown Spread": "32'"
+    },
+    "measured": "2008-12",
+    "points": 139.0
+  },
+  {
+    "sourceNode": "n-vxtrOV",
+    "commonName": "Larch, Eastern",
+    "scientificName": "Larix laricina",
+    "designation": "Champion",
+    "nativeLabel": "Non-Native",
+    "rawMeasurements": {
+      "Circumference": "6' 5\"",
+      "Height": "74'",
+      "Average Crown Spread": "41"
+    },
+    "measured": "2005-08",
+    "points": 127.0
+  },
+  {
+    "sourceNode": "n-kqxOca",
+    "commonName": "Larch, European",
+    "scientificName": "Larix decidua",
+    "designation": "Champion",
+    "nativeLabel": "Non-Native",
+    "rawMeasurements": {
+      "Circumference": "6' 10\"",
+      "Height": "83'",
+      "Average Crown Spread": "41'"
+    },
+    "measured": "2005-08",
+    "points": 175.0
+  },
+  {
+    "sourceNode": "n-I29jIc",
+    "commonName": "Larch, Siberian",
+    "scientificName": "Larix sibirica",
+    "designation": "Champion",
+    "nativeLabel": "Non-Native",
+    "rawMeasurements": {
+      "Circumference": "4'",
+      "Height": "55'",
+      "Average Crown Spread": "18'"
+    },
+    "measured": null,
+    "points": 108.0
+  },
+  {
+    "sourceNode": "n-VdFsEH",
+    "commonName": "Lilac, Japanese Tree",
+    "scientificName": "Syringa reticulata",
+    "designation": "Champion",
+    "nativeLabel": "Non-Native",
+    "rawMeasurements": {
+      "Circumference": "5' 1\"",
+      "Height": "33'",
+      "Average Crown Spread": "26'"
+    },
+    "measured": "2024-11",
+    "points": 100.5
+  },
+  {
+    "sourceNode": "n-Og24Xv",
+    "commonName": "Linden, American",
+    "scientificName": "Tilia americana",
+    "designation": "Champion",
+    "nativeLabel": "Native",
+    "rawMeasurements": {
+      "Circumference": "13' 1\"",
+      "Height": "75'",
+      "Average Crown Spread": "64'"
+    },
+    "measured": "1996-09",
+    "points": 248.0
+  },
+  {
+    "sourceNode": "n-2Btcva",
+    "commonName": "Linden, Littleleaf",
+    "scientificName": "Tilia cordata",
+    "designation": "Champion",
+    "nativeLabel": "Non-Native",
+    "rawMeasurements": {
+      "Circumference": "8' 3.25\"",
+      "Height": "47'",
+      "Average Crown Spread": "45'"
+    },
+    "measured": "2022-08",
+    "points": 157.5
+  },
+  {
+    "sourceNode": "n-5ESHfc",
+    "commonName": "Locust, Black",
+    "scientificName": "Robinia pseudoacacia",
+    "designation": "Champion",
+    "nativeLabel": "Non-Native",
+    "rawMeasurements": {
+      "Circumference": "6' 3.4\"",
+      "Height": "55.5'",
+      "Average Crown Spread": "36'"
+    },
+    "measured": "2025-10",
+    "points": 139.9
+  },
+  {
+    "sourceNode": "n-w5Oz3q",
+    "commonName": "Maple, Amur",
+    "scientificName": "Acer ginnala",
+    "designation": "Champion",
+    "nativeLabel": "Non-Native",
+    "rawMeasurements": {
+      "Circumference": "4' 5\"",
+      "Height": "29'",
+      "Average Crown Spread": "49'"
+    },
+    "measured": "2018-06",
+    "points": 94.3
+  },
+  {
+    "sourceNode": "n-hVucqv",
+    "commonName": "Maple, Korean",
+    "scientificName": "Acer pseudosieboldianum",
+    "designation": "Champion",
+    "nativeLabel": "Non-Native",
+    "rawMeasurements": {
+      "Circumference": "1' 3.3\"",
+      "Height": "24'",
+      "Average Crown Spread": "18' 10.5\""
+    },
+    "measured": "2023-06",
+    "points": 44.0
+  },
+  {
+    "sourceNode": "n-ADUFiE",
+    "commonName": "Maple, Manchurian",
+    "scientificName": "Acer mandshuricum",
+    "designation": "Champion",
+    "nativeLabel": "Non-Native",
+    "rawMeasurements": {
+      "Circumference": "2' 9.1\"",
+      "Height": "35'",
+      "Average Crown Spread": "22'"
+    },
+    "measured": "2023-06",
+    "points": 73.6
+  },
+  {
+    "sourceNode": "n-hgKK5Q",
+    "commonName": "Maple, Manchurian Striped",
+    "scientificName": "Acer tegmentosum",
+    "designation": "Champion",
+    "nativeLabel": "Non-Native",
+    "rawMeasurements": {
+      "Circumference": "2' 9.2\"",
+      "Height": "29' 7\"",
+      "Average Crown Spread": "23' 4.5\""
+    },
+    "measured": "2023-06",
+    "points": 68.6
+  },
+  {
+    "sourceNode": "n-ajmwga",
+    "commonName": "Maple, Miyabe",
+    "scientificName": "Acer miyabei",
+    "designation": "Champion",
+    "nativeLabel": "Non-Native",
+    "rawMeasurements": {
+      "Circumference": "2' 1\"",
+      "Height": "26'",
+      "Average Crown Spread": "20' 3\""
+    },
+    "measured": "2023-06",
+    "points": 56.1
+  },
+  {
+    "sourceNode": "n-45UDyl",
+    "commonName": "Maple, Norway",
+    "scientificName": "Acer platanoides",
+    "designation": "Champion",
+    "nativeLabel": "Non-Native",
+    "rawMeasurements": {
+      "Circumference": "10' 7\"",
+      "Height": "38'",
+      "Average Crown Spread": "53'"
+    },
+    "measured": "2024-11",
+    "points": 178.3
+  },
+  {
+    "sourceNode": "n-Na6ycT",
+    "commonName": "Maple, Red",
+    "scientificName": "Acer rubra",
+    "designation": "Champion",
+    "nativeLabel": "Non-Native",
+    "rawMeasurements": {
+      "Circumference": "4' 4\"",
+      "Height": "20'",
+      "Average Crown Spread": "35'"
+    },
+    "measured": "2025-05",
+    "points": 107.0
+  },
+  {
+    "sourceNode": "n-DKL98y",
+    "commonName": "Maple, Silver",
+    "scientificName": "Acer saccharinum",
+    "designation": "Champion",
+    "nativeLabel": "Non-Native",
+    "rawMeasurements": {
+      "Circumference": "16' 9\"",
+      "Height": "89'",
+      "Average Crown Spread": "90'"
+    },
+    "measured": "2011-05",
+    "points": 312.0
+  },
+  {
+    "sourceNode": "n-SKm2hv",
+    "commonName": "Maple, Sugar",
+    "scientificName": "Acer saccharum",
+    "designation": "Champion",
+    "nativeLabel": "Non-Native",
+    "rawMeasurements": {
+      "Circumference": "7' 7\"",
+      "Height": "67'",
+      "Average Crown Spread": "52'"
+    },
+    "measured": "2005-08",
+    "points": 157.0
+  },
+  {
+    "sourceNode": "n-jOoACy",
+    "commonName": "Maple, Three-Flowered",
+    "scientificName": "Acer triflorum",
+    "designation": "Champion",
+    "nativeLabel": "Non-Native",
+    "rawMeasurements": {
+      "Circumference": "2' 11\"",
+      "Height": "29'",
+      "Average Crown Spread": "24' 7\""
+    },
+    "measured": "2023-06",
+    "points": 70.6
+  },
+  {
+    "sourceNode": "n-Y1eAJ8",
+    "commonName": "Mayday Tree",
+    "scientificName": "Prunus padus",
+    "designation": "Champion",
+    "nativeLabel": "Non-Native",
+    "rawMeasurements": {
+      "Circumference": "2' 7\"",
+      "Height": "15'",
+      "Average Crown Spread": "19' 6\""
+    },
+    "measured": "2025-09",
+    "points": 50.9
+  },
+  {
+    "sourceNode": "n-vqHlWq",
+    "commonName": "Mountain Ash",
+    "scientificName": "Sorbus aucuparia",
+    "designation": "Champion",
+    "nativeLabel": "Non-Native",
+    "rawMeasurements": {
+      "Circumference": "4' 10\"",
+      "Height": "36'",
+      "Average Crown Spread": "32'"
+    },
+    "measured": "2000-09",
+    "points": 102.0
+  },
+  {
+    "sourceNode": "n-Rv72bb",
+    "commonName": "Mulberry, White",
+    "scientificName": "Morus alba",
+    "designation": "Champion",
+    "nativeLabel": "Non-Native",
+    "rawMeasurements": {
+      "Circumference": "3' 11\"",
+      "Height": "50'",
+      "Average Crown Spread": "47'"
+    },
+    "measured": "2005-08",
+    "points": 109.0
+  },
+  {
+    "sourceNode": "n-RO022V",
+    "commonName": "Oak, Bur",
+    "scientificName": "Quercus macrocarpa",
+    "designation": "Champion",
+    "nativeLabel": "Native",
+    "rawMeasurements": {
+      "Circumference": "12' 4\"",
+      "Height": "83'",
+      "Average Crown Spread": "65'"
+    },
+    "measured": "2002-10",
+    "points": 248.0
+  },
+  {
+    "sourceNode": "n-OUoyEl",
+    "commonName": "Oak, Mongolian",
+    "scientificName": "Quercus mongolica",
+    "designation": "Champion",
+    "nativeLabel": "Non-Native",
+    "rawMeasurements": {
+      "Circumference": "5' 7\"",
+      "Height": "30'",
+      "Average Crown Spread": "48'"
+    },
+    "measured": "2018-09",
+    "points": 109.0
+  },
+  {
+    "sourceNode": "n-LwhsNi",
+    "commonName": "Oak, Northern Pin",
+    "scientificName": "Quercus ellipsoidalis",
+    "designation": "Champion",
+    "nativeLabel": "Non-Native",
+    "rawMeasurements": {
+      "Circumference": "2' 4.3\"",
+      "Height": "31'",
+      "Average Crown Spread": "30'"
+    },
+    "measured": "2021-11",
+    "points": 66.8
+  },
+  {
+    "sourceNode": "n-N6jQHJ",
+    "commonName": "Oak, Red",
+    "scientificName": "Quercus rubra",
+    "designation": "Champion",
+    "nativeLabel": "Non-Native",
+    "rawMeasurements": {
+      "Circumference": "5' 2\"",
+      "Height": "70'",
+      "Average Crown Spread": "68'"
+    },
+    "measured": "2017-12",
+    "points": 166.0
+  },
+  {
+    "sourceNode": "n-hq8zZA",
+    "commonName": "Oak, Swamp White",
+    "scientificName": "Quercus bicolor",
+    "designation": "Champion",
+    "nativeLabel": "Non-Native",
+    "rawMeasurements": {
+      "Circumference": "5' 7.5\"",
+      "Height": "56'",
+      "Average Crown Spread": "52'"
+    },
+    "measured": "2025-09",
+    "points": 136.5
+  },
+  {
+    "sourceNode": "n-vEovSD",
+    "commonName": "Pecan",
+    "scientificName": "Carya illinoensis",
+    "designation": "Champion",
+    "nativeLabel": "Non-Native",
+    "rawMeasurements": {
+      "Circumference": "1' 3\"",
+      "Height": "22'",
+      "Average Crown Spread": "20'"
+    },
+    "measured": "2005-08",
+    "points": 34.0
+  },
+  {
+    "sourceNode": "n-ReGEBH",
+    "commonName": "Pine, Austrian",
+    "scientificName": "Pinus nigra",
+    "designation": "Champion",
+    "nativeLabel": "Non-Native",
+    "rawMeasurements": {
+      "Circumference": "4' 9\"",
+      "Height": "55'",
+      "Average Crown Spread": "32'"
+    },
+    "measured": null,
+    "points": 120.0
+  },
+  {
+    "sourceNode": "n-YCXs9v",
+    "commonName": "Pine, Jack",
+    "scientificName": "Pinus banksiana",
+    "designation": "Champion",
+    "nativeLabel": "Non-Native",
+    "rawMeasurements": {
+      "Circumference": "5' 1\"",
+      "Height": "48'",
+      "Average Crown Spread": "40'"
+    },
+    "measured": null,
+    "points": 119.0
+  },
+  {
+    "sourceNode": "n-jCk0Tp",
+    "commonName": "Pine, Limber",
+    "scientificName": "Pinus flexilis",
+    "designation": "Champion",
+    "nativeLabel": "Native",
+    "rawMeasurements": {
+      "Circumference": "5' 5\"",
+      "Height": "39'",
+      "Average Crown Spread": "30'"
+    },
+    "measured": null,
+    "points": 111.0
+  },
+  {
+    "sourceNode": "n-U9WuJ7",
+    "commonName": "Pine, Mugo",
+    "scientificName": "Pinus mugo",
+    "designation": "Champion",
+    "nativeLabel": "Non-Native",
+    "rawMeasurements": {
+      "Circumference": "2' 4\"",
+      "Height": "22'",
+      "Average Crown Spread": "27' 8\""
+    },
+    "measured": "2024-12",
+    "points": 56.9
+  },
+  {
+    "sourceNode": "n-0PtaMu",
+    "commonName": "Pine, Ponderosa",
+    "scientificName": "Pinus ponderosa",
+    "designation": "Champion",
+    "nativeLabel": "Native",
+    "rawMeasurements": {
+      "Circumference": "7' 1\"",
+      "Height": "73'",
+      "Average Crown Spread": "26'"
+    },
+    "measured": null,
+    "points": 165.0
+  },
+  {
+    "sourceNode": "n-hXSqlb",
+    "commonName": "Pine, Red",
+    "scientificName": "Pinus resinosa",
+    "designation": "Champion",
+    "nativeLabel": "Non-Native",
+    "rawMeasurements": {
+      "Circumference": "5' 7\"",
+      "Height": "72'",
+      "Average Crown Spread": "20'"
+    },
+    "measured": "2018-04",
+    "points": 144.0
+  },
+  {
+    "sourceNode": "n-HgZuSz",
+    "commonName": "Pine, Scotch",
+    "scientificName": "Pinus sylvestris",
+    "designation": "Champion",
+    "nativeLabel": "Non-Native",
+    "rawMeasurements": {
+      "Circumference": "13' 2\"",
+      "Height": "54'",
+      "Average Crown Spread": "43'"
+    },
+    "measured": "2015-12",
+    "points": 223.0
+  },
+  {
+    "sourceNode": "n-udqGmy",
+    "commonName": "Pine, White",
+    "scientificName": "Pinus strobus",
+    "designation": "Champion",
+    "nativeLabel": "Non-Native",
+    "rawMeasurements": {
+      "Circumference": "6' 7\"",
+      "Height": "68'",
+      "Average Crown Spread": "44'"
+    },
+    "measured": "2018-04",
+    "points": 158.0
+  },
+  {
+    "sourceNode": "n-tcN2ox",
+    "commonName": "Poplar, Balsam",
+    "scientificName": "Populus balsamifera",
+    "designation": "Champion",
+    "nativeLabel": "Native",
+    "rawMeasurements": {
+      "Circumference": "10' 1\"",
+      "Height": "102'",
+      "Average Crown Spread": "42' 6\""
+    },
+    "measured": "2025-09",
+    "points": 233.6
+  },
+  {
+    "sourceNode": "n-yWnQMP",
+    "commonName": "Poplar, Lombardy",
+    "scientificName": "Populus nigra",
+    "designation": "Champion",
+    "nativeLabel": "Non-Native",
+    "rawMeasurements": {
+      "Circumference": "8' 9\"",
+      "Height": "88'",
+      "Average Crown Spread": "14'"
+    },
+    "measured": null,
+    "points": 197.0
+  },
+  {
+    "sourceNode": "n-d6WU5z",
+    "commonName": "Poplar, White",
+    "scientificName": "Populus alba",
+    "designation": "Champion",
+    "nativeLabel": "Non-Native",
+    "rawMeasurements": {
+      "Circumference": "19' 5.5\"",
+      "Height": "60'",
+      "Average Crown Spread": "67' 9\""
+    },
+    "measured": "2023-11",
+    "points": 310.4
+  },
+  {
+    "sourceNode": "n-L4bAeT",
+    "commonName": "Russian Olive",
+    "scientificName": "Elaeagnus angustifolia",
+    "designation": "Champion",
+    "nativeLabel": "Non-Native",
+    "rawMeasurements": {
+      "Circumference": "4' 8\"",
+      "Height": "36'",
+      "Average Crown Spread": "48'"
+    },
+    "measured": "2019-12",
+    "points": 104.0
+  },
+  {
+    "sourceNode": "n-uW0HbA",
+    "commonName": "Spruce, Colorado Blue",
+    "scientificName": "Picea pungens",
+    "designation": "Champion",
+    "nativeLabel": "Non-Native",
+    "rawMeasurements": {
+      "Circumference": "6' 8\"",
+      "Height": "90'",
+      "Average Crown Spread": "33'"
+    },
+    "measured": "2018-04",
+    "points": 178.0
+  },
+  {
+    "sourceNode": "n-qEJB4Z",
+    "commonName": "Spruce, Engelmann",
+    "scientificName": "Picea engelmannii",
+    "designation": "Champion",
+    "nativeLabel": "Non-Native",
+    "rawMeasurements": {
+      "Circumference": "3' 5\"",
+      "Height": "53'",
+      "Average Crown Spread": "17'"
+    },
+    "measured": "2000-09",
+    "points": 111.0
+  },
+  {
+    "sourceNode": "n-JIx7LJ",
+    "commonName": "Spruce, Norway",
+    "scientificName": "Picea abies",
+    "designation": "Champion",
+    "nativeLabel": "Non-Native",
+    "rawMeasurements": {
+      "Circumference": "8' 8\"",
+      "Height": "100'",
+      "Average Crown Spread": "48'"
+    },
+    "measured": "2016-03",
+    "points": 214.0
+  },
+  {
+    "sourceNode": "n-qPjq4d",
+    "commonName": "Spruce, White",
+    "scientificName": "Picea glauca",
+    "designation": "Champion",
+    "nativeLabel": "Non-Native",
+    "rawMeasurements": {
+      "Circumference": "9' 5\"",
+      "Height": "98'",
+      "Average Crown Spread": "43'"
+    },
+    "measured": "2005-08",
+    "points": 222.0
+  },
+  {
+    "sourceNode": "n-QpBuYb",
+    "commonName": "Sycamore",
+    "scientificName": "Platanus occidentalis",
+    "designation": "Champion",
+    "nativeLabel": "Non-Native",
+    "rawMeasurements": {
+      "Circumference": "6' 5\"",
+      "Height": "51'",
+      "Average Crown Spread": "45'"
+    },
+    "measured": "2005-08",
+    "points": 139.0
+  },
+  {
+    "sourceNode": "n-XhYnT6",
+    "commonName": "Walnut, Black",
+    "scientificName": "Juglans nigra",
+    "designation": "Champion",
+    "nativeLabel": "Non-Native",
+    "rawMeasurements": {
+      "Circumference": "8' 5\"",
+      "Height": "59'",
+      "Average Crown Spread": "65.5'"
+    },
+    "measured": "2025-10",
+    "points": 176.4
+  },
+  {
+    "sourceNode": "n-FHb3LK",
+    "commonName": "Willow, Golden",
+    "scientificName": "Salix alba",
+    "designation": "Champion",
+    "nativeLabel": "Non-Native",
+    "rawMeasurements": {
+      "Circumference": "24' 10\"",
+      "Height": "71'",
+      "Average Crown Spread": "65'"
+    },
+    "measured": "2002-08",
+    "points": 372.0
+  },
+  {
+    "sourceNode": "n-rmFDDd",
+    "commonName": "Willow, Missouri River",
+    "scientificName": "Salix eriocephala",
+    "designation": "Champion",
+    "nativeLabel": "Native",
+    "rawMeasurements": {
+      "Circumference": "21' 7\"",
+      "Height": "40'",
+      "Average Crown Spread": "64'"
+    },
+    "measured": "2005-09",
+    "points": 315.0
+  }
+]

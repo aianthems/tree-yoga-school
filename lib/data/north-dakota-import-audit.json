@@ -1,0 +1,2073 @@
+{
+  "registerUrl": "https://storymaps.arcgis.com/stories/a6b45a88a67347a3b77cd60cc02432bf",
+  "olderRegisterUrl": "https://www.ag.ndsu.edu/smallgrains/ndfs/about-north-dakota-forestry/champion-trees-of-north-dakota",
+  "retrieved": "October 11, 2026",
+  "lastPublished": "2026-05-27T17:20:02.069000+00:00",
+  "announcementUrl": "https://www.ndsu.edu/ndfs/news/2026-04-30-new-champion-trees-crowned-2025",
+  "announcementDate": "May 1, 2026",
+  "announcementChampionsReconciled": [
+    "Chokecherry, Amur",
+    "Poplar, Balsam",
+    "Cottonwood, Smooth-Bark",
+    "Locust, Black",
+    "Walnut, Black",
+    "Boxelder",
+    "Cedar, Eastern Red",
+    "Mayday Tree",
+    "Maple, Miyabe",
+    "Maple, Red",
+    "Birch, River",
+    "Crabapple",
+    "Oak, Swamp White"
+  ],
+  "sourceRecords": 137,
+  "includedChampions": 87,
+  "excludedSecondPlace": 50,
+  "olderChampions": 82,
+  "mappedRecords": 80,
+  "sourceHashes": {
+    "nd-story.json": "3d71b8bc6ba74ba60970adadc9da5146d076716d5e6ad70531e7a50c39acb5b1",
+    "nd-old.html": "1b44d3d5592af906e93a162c4658d8728a4db794caba95621e0b3eb089083e77",
+    "nd-meta.json": "e11a11259f807a5dc85ce0c5c9e8703a8bd5eb294fb01dc24d5857a91c977038",
+    "counties.zip": "4c90d0f805779923b5958ab13d0c1e9b99fe4932b786bfcf75dd739bb2dcb4ea",
+    "nd-cousubs.zip": "5e498edbf27e2426ec6661415851ea42c6a635f3cc3a2b79eccc2c3c19b2892e",
+    "nd-news.html": "e7dcc63706ece92e958487c90abcf37053b9cb848ea7864c0f9ac7cca24858b5"
+  },
+  "reconciliation": [
+    {
+      "sourceNode": "n-ABV19u",
+      "commonName": "Apricot",
+      "scientificName": "Prunus armeniaca",
+      "previousChampionMeasurements": [
+        [
+          96.0,
+          33.5,
+          29.125
+        ]
+      ],
+      "currentMeasurements": [
+        96.0,
+        33.5,
+        29.125
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "Bismarck",
+      "county": "Burleigh",
+      "geographyEvidence": "Published StoryMap general place; Census 2025 county subdivision identifies municipality county"
+    },
+    {
+      "sourceNode": "n-pQvrLB",
+      "commonName": "Arborvitae, American",
+      "scientificName": "Thuja occidentalis",
+      "previousChampionMeasurements": [
+        [
+          85.0,
+          61.0,
+          36.0
+        ]
+      ],
+      "currentMeasurements": [
+        85.0,
+        61.0,
+        36.0
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "",
+      "county": "Walsh",
+      "geographyEvidence": "2024 table exact scientific-name and three-measurement match"
+    },
+    {
+      "sourceNode": "n-GXrQGU",
+      "commonName": "Ash, Green",
+      "scientificName": "Fraxinus pennsylvanica",
+      "previousChampionMeasurements": [
+        [
+          141.0,
+          65.0,
+          71.0
+        ]
+      ],
+      "currentMeasurements": [
+        141.0,
+        65.0,
+        71.0
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "Bismarck",
+      "county": "Burleigh",
+      "geographyEvidence": "Published StoryMap general place; Census 2025 county subdivision identifies municipality county"
+    },
+    {
+      "sourceNode": "n-AlsycL",
+      "commonName": "Ash, White",
+      "scientificName": "Fraxinus americana",
+      "previousChampionMeasurements": [
+        [
+          42.0,
+          52.0,
+          38.0
+        ]
+      ],
+      "currentMeasurements": [
+        42.0,
+        52.0,
+        38.0
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "LaMoure",
+      "county": "LaMoure",
+      "geographyEvidence": "2024 table exact scientific-name and three-measurement match; Census 2025 county subdivision identifies municipality county"
+    },
+    {
+      "sourceNode": "n-exXNYQ",
+      "commonName": "Aspen, Quaking",
+      "scientificName": "Populus tremuloides",
+      "previousChampionMeasurements": [
+        [
+          85.0,
+          66.0,
+          32.5
+        ]
+      ],
+      "currentMeasurements": [
+        85.0,
+        66.0,
+        32.5
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "",
+      "county": "Bottineau",
+      "geographyEvidence": "2024 table exact scientific-name and three-measurement match"
+    },
+    {
+      "sourceNode": "n-rSi5uk",
+      "commonName": "Aspen, Swedish",
+      "scientificName": "Populus tremula",
+      "previousChampionMeasurements": [
+        [
+          26.0,
+          74.0,
+          6.0
+        ]
+      ],
+      "currentMeasurements": [
+        26.0,
+        74.0,
+        6.0
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "Harwood",
+      "county": "Cass",
+      "geographyEvidence": "2024 table exact scientific-name and three-measurement match; Census 2025 county subdivision identifies municipality county"
+    },
+    {
+      "sourceNode": "n-Dtso5h",
+      "commonName": "Birch, Cutleaf Weeping",
+      "scientificName": "Betula pendula",
+      "previousChampionMeasurements": [
+        [
+          119.0,
+          61.0,
+          64.0
+        ]
+      ],
+      "currentMeasurements": [
+        119.0,
+        61.0,
+        64.0
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "Larimore",
+      "county": "Grand Forks",
+      "geographyEvidence": "Published StoryMap general place; Census 2025 county subdivision identifies municipality county"
+    },
+    {
+      "sourceNode": "n-jXVYRA",
+      "commonName": "Birch, Paper",
+      "scientificName": "Betula papyrifera",
+      "previousChampionMeasurements": [
+        [
+          79.0,
+          62.0,
+          52.0
+        ]
+      ],
+      "currentMeasurements": [
+        79.0,
+        62.0,
+        52.0
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "Larimore",
+      "county": "Grand Forks",
+      "geographyEvidence": "Published StoryMap general place; Census 2025 county subdivision identifies municipality county"
+    },
+    {
+      "sourceNode": "n-85pCGg",
+      "commonName": "Birch, River",
+      "scientificName": "Betula nigra",
+      "previousChampionMeasurements": [
+        [
+          56.0,
+          50.0,
+          54.5
+        ]
+      ],
+      "currentMeasurements": [
+        60.6,
+        58.0,
+        59.5
+      ],
+      "noExactLegacyMeasurementMatch": true,
+      "town": "Fargo",
+      "county": "Cass",
+      "geographyEvidence": "Published StoryMap general place; Census 2025 county subdivision identifies municipality county"
+    },
+    {
+      "sourceNode": "n-HPS2fw",
+      "commonName": "Birch, Water",
+      "scientificName": "Betula occidentalis",
+      "previousChampionMeasurements": [
+        [
+          24.0,
+          31.0,
+          58.0
+        ]
+      ],
+      "currentMeasurements": [
+        24.0,
+        31.0,
+        58.0
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "",
+      "county": "Slope",
+      "geographyEvidence": "2024 table exact scientific-name and three-measurement match"
+    },
+    {
+      "sourceNode": "n-NHEJ8q",
+      "commonName": "Birch, Yellow",
+      "scientificName": "Betula alleganiensis",
+      "previousChampionMeasurements": [
+        [
+          29.0,
+          46.0,
+          26.583333333333332
+        ]
+      ],
+      "currentMeasurements": [
+        29.0,
+        46.0,
+        26.583333333333332
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "",
+      "county": "Pembina",
+      "geographyEvidence": "2024 table exact scientific-name and three-measurement match"
+    },
+    {
+      "sourceNode": "n-eHGHOk",
+      "commonName": "Boxelder",
+      "scientificName": "Acer negundo",
+      "previousChampionMeasurements": [
+        [
+          145.0,
+          61.0,
+          63.0
+        ]
+      ],
+      "currentMeasurements": [
+        139.0,
+        71.0,
+        58.5
+      ],
+      "noExactLegacyMeasurementMatch": true,
+      "town": "Fargo",
+      "county": "Cass",
+      "geographyEvidence": "Published StoryMap general place; Census 2025 county subdivision identifies municipality county"
+    },
+    {
+      "sourceNode": "n-e6I0UL",
+      "commonName": "Buckeye, Ohio",
+      "scientificName": "Aesculus glabra",
+      "previousChampionMeasurements": [
+        [
+          86.0,
+          68.0,
+          64.0
+        ]
+      ],
+      "currentMeasurements": [
+        86.0,
+        68.0,
+        64.0
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "Valley City",
+      "county": "Barnes",
+      "geographyEvidence": "Published StoryMap general place; Census 2025 county subdivision identifies municipality county"
+    },
+    {
+      "sourceNode": "n-d1c7QM",
+      "commonName": "Butternut",
+      "scientificName": "Juglans cinerea",
+      "previousChampionMeasurements": [
+        [
+          123.0,
+          51.0,
+          58.0
+        ]
+      ],
+      "currentMeasurements": [
+        123.0,
+        51.0,
+        58.0
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "Cavalier",
+      "county": "Pembina",
+      "geographyEvidence": "Published StoryMap general place; Census 2025 county subdivision identifies municipality county"
+    },
+    {
+      "sourceNode": "n-jteRNi",
+      "commonName": "Catalpa, Northern",
+      "scientificName": "Catalpa speciosa",
+      "previousChampionMeasurements": [
+        [
+          72.0,
+          45.0,
+          39.0
+        ]
+      ],
+      "currentMeasurements": [
+        72.0,
+        45.0,
+        39.0
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "Fargo",
+      "county": "Cass",
+      "geographyEvidence": "Published StoryMap general place; Census 2025 county subdivision identifies municipality county"
+    },
+    {
+      "sourceNode": "n-MU560p",
+      "commonName": "Cedar, Eastern Red",
+      "scientificName": "Juniperus virginiana",
+      "previousChampionMeasurements": [],
+      "currentMeasurements": [
+        38.0,
+        45.0,
+        22.0
+      ],
+      "noExactLegacyMeasurementMatch": true,
+      "town": "Fargo",
+      "county": "Cass",
+      "geographyEvidence": "Published StoryMap general place; Census 2025 county subdivision identifies municipality county"
+    },
+    {
+      "sourceNode": "n-OTYmIt",
+      "commonName": "Chokecherry",
+      "scientificName": "Prunus virginiana",
+      "previousChampionMeasurements": [
+        [
+          52.0,
+          44.0,
+          28.75
+        ]
+      ],
+      "currentMeasurements": [
+        52.0,
+        44.0,
+        28.75
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "Bismarck",
+      "county": "Burleigh",
+      "geographyEvidence": "Published StoryMap general place; Census 2025 county subdivision identifies municipality county"
+    },
+    {
+      "sourceNode": "n-k4rEbO",
+      "commonName": "Chokecherry, Amur",
+      "scientificName": "Prunus maackii",
+      "previousChampionMeasurements": [],
+      "currentMeasurements": [
+        28.5,
+        27.0,
+        27.5
+      ],
+      "noExactLegacyMeasurementMatch": true,
+      "town": "Fargo",
+      "county": "Cass",
+      "geographyEvidence": "Published StoryMap general place; Census 2025 county subdivision identifies municipality county"
+    },
+    {
+      "sourceNode": "n-T03zP8",
+      "commonName": "Coffeetree, Kentucky",
+      "scientificName": "Gymnocladus dioicus",
+      "previousChampionMeasurements": [
+        [
+          82.0,
+          67.0,
+          41.0
+        ]
+      ],
+      "currentMeasurements": [
+        82.0,
+        67.0,
+        41.0
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "Fargo",
+      "county": "Cass",
+      "geographyEvidence": "Published StoryMap general place; Census 2025 county subdivision identifies municipality county"
+    },
+    {
+      "sourceNode": "n-EwJaMS",
+      "commonName": "Corktree, Amur",
+      "scientificName": "Phellodendron amurense",
+      "previousChampionMeasurements": [
+        [
+          39.0,
+          45.0,
+          38.0
+        ]
+      ],
+      "currentMeasurements": [
+        39.0,
+        45.0,
+        38.0
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "Harwood",
+      "county": "Cass",
+      "geographyEvidence": "Published StoryMap general place; Census 2025 county subdivision identifies municipality county"
+    },
+    {
+      "sourceNode": "n-CEpokc",
+      "commonName": "Cottonwood, Eastern",
+      "scientificName": "Populus deltoides",
+      "previousChampionMeasurements": [
+        [
+          351.0,
+          123.0,
+          77.16666666666667
+        ]
+      ],
+      "currentMeasurements": [
+        351.0,
+        123.0,
+        77.16666666666667
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "",
+      "county": "Cass",
+      "geographyEvidence": "2024 table exact scientific-name and three-measurement match"
+    },
+    {
+      "sourceNode": "n-UfLQMY",
+      "commonName": "Cottonwood, Smooth-Bark",
+      "scientificName": "Populus acuminata",
+      "previousChampionMeasurements": [
+        [
+          120.0,
+          84.0,
+          59.0
+        ]
+      ],
+      "currentMeasurements": [
+        147.0,
+        100.0,
+        59.0
+      ],
+      "noExactLegacyMeasurementMatch": true,
+      "town": "",
+      "county": "",
+      "geographyEvidence": "No supported general place match; left unmapped"
+    },
+    {
+      "sourceNode": "n-fq43yF",
+      "commonName": "Crabapple",
+      "scientificName": "Malus spp.",
+      "previousChampionMeasurements": [],
+      "currentMeasurements": [
+        78.0,
+        32.0,
+        36.5
+      ],
+      "noExactLegacyMeasurementMatch": true,
+      "town": "Anamoose",
+      "county": "McHenry",
+      "geographyEvidence": "Published StoryMap general place; Census 2025 county subdivision identifies municipality county"
+    },
+    {
+      "sourceNode": "n-KYe5jG",
+      "commonName": "Elm, American",
+      "scientificName": "Ulmus americana",
+      "previousChampionMeasurements": [
+        [
+          196.0,
+          87.0,
+          98.5
+        ]
+      ],
+      "currentMeasurements": [
+        196.0,
+        87.0,
+        98.5
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "Fargo",
+      "county": "Cass",
+      "geographyEvidence": "Published StoryMap general place; Census 2025 county subdivision identifies municipality county"
+    },
+    {
+      "sourceNode": "n-mcnU8V",
+      "commonName": "Elm, Siberian",
+      "scientificName": "Ulmus pumila",
+      "previousChampionMeasurements": [
+        [
+          174.0,
+          74.0,
+          88.0
+        ]
+      ],
+      "currentMeasurements": [
+        174.0,
+        74.0,
+        88.0
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "Fargo",
+      "county": "Cass",
+      "geographyEvidence": "Published StoryMap general place; Census 2025 county subdivision identifies municipality county"
+    },
+    {
+      "sourceNode": "n-7Q4S9n",
+      "commonName": "Elm, Slippery",
+      "scientificName": "Ulmus rubra",
+      "previousChampionMeasurements": [
+        [
+          132.0,
+          66.0,
+          79.0
+        ]
+      ],
+      "currentMeasurements": [
+        132.0,
+        66.0,
+        79.0
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "Valley City",
+      "county": "Barnes",
+      "geographyEvidence": "Published StoryMap general place; Census 2025 county subdivision identifies municipality county"
+    },
+    {
+      "sourceNode": "n-kWUOCH",
+      "commonName": "Fir, Balsam",
+      "scientificName": "Abies balsamea",
+      "previousChampionMeasurements": [
+        [
+          52.0,
+          60.0,
+          23.0
+        ]
+      ],
+      "currentMeasurements": [
+        52.0,
+        60.0,
+        23.0
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "Larimore",
+      "county": "Grand Forks",
+      "geographyEvidence": "Published StoryMap general place; Census 2025 county subdivision identifies municipality county"
+    },
+    {
+      "sourceNode": "n-ns8R4H",
+      "commonName": "Fir, Douglas",
+      "scientificName": "Pseudotsuga menziesii",
+      "previousChampionMeasurements": [
+        [
+          77.0,
+          81.0,
+          32.0
+        ]
+      ],
+      "currentMeasurements": [
+        77.0,
+        81.0,
+        32.0
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "",
+      "county": "Walsh",
+      "geographyEvidence": "2024 table exact scientific-name and three-measurement match"
+    },
+    {
+      "sourceNode": "n-dJPLku",
+      "commonName": "Fir, Frasier",
+      "scientificName": "Abies fraseri",
+      "previousChampionMeasurements": [
+        [
+          19.0,
+          17.0,
+          13.0
+        ]
+      ],
+      "currentMeasurements": [
+        19.0,
+        17.0,
+        13.0
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "",
+      "county": "Barnes",
+      "geographyEvidence": "2024 table exact scientific-name and three-measurement match"
+    },
+    {
+      "sourceNode": "n-XqRWLw",
+      "commonName": "Fir, Rocky Mountain/Subalpine",
+      "scientificName": "Abies lasiocarpa",
+      "previousChampionMeasurements": [
+        [
+          29.0,
+          28.0,
+          24.0
+        ]
+      ],
+      "currentMeasurements": [
+        29.0,
+        28.0,
+        24.0
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "Jamestown",
+      "county": "Stutsman",
+      "geographyEvidence": "Published StoryMap general place; Census 2025 county subdivision identifies municipality county"
+    },
+    {
+      "sourceNode": "n-USllzV",
+      "commonName": "Fir, White",
+      "scientificName": "Abies concolor",
+      "previousChampionMeasurements": [
+        [
+          52.0,
+          54.0,
+          31.0
+        ]
+      ],
+      "currentMeasurements": [
+        52.0,
+        54.0,
+        31.0
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "Fargo",
+      "county": "Cass",
+      "geographyEvidence": "Published StoryMap general place; Census 2025 county subdivision identifies municipality county"
+    },
+    {
+      "sourceNode": "n-qErV1c",
+      "commonName": "Ginkgo",
+      "scientificName": "Ginkgo biloba",
+      "previousChampionMeasurements": [
+        [
+          45.0,
+          40.0,
+          34.0
+        ]
+      ],
+      "currentMeasurements": [
+        45.0,
+        40.0,
+        34.0
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "Fargo",
+      "county": "Cass",
+      "geographyEvidence": "Published StoryMap general place; Census 2025 county subdivision identifies municipality county"
+    },
+    {
+      "sourceNode": "n-ghLGWS",
+      "commonName": "Hackberry, Common",
+      "scientificName": "Celtis occidentalis",
+      "previousChampionMeasurements": [
+        [
+          128.0,
+          52.0,
+          52.0
+        ]
+      ],
+      "currentMeasurements": [
+        128.0,
+        52.0,
+        52.0
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "Hankinson",
+      "county": "Richland",
+      "geographyEvidence": "Published StoryMap general place; Census 2025 county subdivision identifies municipality county"
+    },
+    {
+      "sourceNode": "n-EIehQQ",
+      "commonName": "Hickory, Bitternut",
+      "scientificName": "Carya cordiformis",
+      "previousChampionMeasurements": [
+        [
+          18.5,
+          36.0,
+          24.0
+        ]
+      ],
+      "currentMeasurements": [
+        18.5,
+        36.0,
+        24.0
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "Cavalier",
+      "county": "Pembina",
+      "geographyEvidence": "Published StoryMap general place; Census 2025 county subdivision identifies municipality county"
+    },
+    {
+      "sourceNode": "n-jFXEuO",
+      "commonName": "Hickory, Shagbark",
+      "scientificName": "Carya ovata",
+      "previousChampionMeasurements": [
+        [
+          43.0,
+          50.0,
+          37.0
+        ]
+      ],
+      "currentMeasurements": [
+        43.0,
+        50.0,
+        37.0
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "Larimore",
+      "county": "Grand Forks",
+      "geographyEvidence": "Published StoryMap general place; Census 2025 county subdivision identifies municipality county"
+    },
+    {
+      "sourceNode": "n-v20rtZ",
+      "commonName": "Honeylocust, Common",
+      "scientificName": "Gleditsia triacanthos",
+      "previousChampionMeasurements": [
+        [
+          93.0,
+          64.0,
+          50.5
+        ]
+      ],
+      "currentMeasurements": [
+        93.0,
+        64.0,
+        50.5
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "Bismarck",
+      "county": "Burleigh",
+      "geographyEvidence": "Published StoryMap general place; Census 2025 county subdivision identifies municipality county"
+    },
+    {
+      "sourceNode": "n-Dpb9bd",
+      "commonName": "Hoptree",
+      "scientificName": "Ptelea trifoliata",
+      "previousChampionMeasurements": [
+        [
+          54.0,
+          25.0,
+          36.0
+        ]
+      ],
+      "currentMeasurements": [
+        54.0,
+        25.0,
+        36.0
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "Fargo",
+      "county": "Cass",
+      "geographyEvidence": "Published StoryMap general place; Census 2025 county subdivision identifies municipality county"
+    },
+    {
+      "sourceNode": "n-nkAO0u",
+      "commonName": "Horsechestnut, European",
+      "scientificName": "Aesculus hippocastanum",
+      "previousChampionMeasurements": [
+        [
+          62.0,
+          35.0,
+          26.0
+        ]
+      ],
+      "currentMeasurements": [
+        62.0,
+        35.0,
+        26.0
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "Bismarck",
+      "county": "Burleigh",
+      "geographyEvidence": "Published StoryMap general place; Census 2025 county subdivision identifies municipality county"
+    },
+    {
+      "sourceNode": "n-LI0qM2",
+      "commonName": "Ironwood",
+      "scientificName": "Ostrya virginiana",
+      "previousChampionMeasurements": [
+        [
+          48.0,
+          42.0,
+          52.0
+        ]
+      ],
+      "currentMeasurements": [
+        48.0,
+        42.0,
+        52.0
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "Fargo",
+      "county": "Cass",
+      "geographyEvidence": "Published StoryMap general place; Census 2025 county subdivision identifies municipality county"
+    },
+    {
+      "sourceNode": "n-yttPd7",
+      "commonName": "Juneberry",
+      "scientificName": "Ameliancher alnifolia",
+      "previousChampionMeasurements": [
+        [
+          89.0,
+          27.5,
+          3.5
+        ]
+      ],
+      "currentMeasurements": [
+        89.0,
+        27.5,
+        3.5
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "Dazey",
+      "county": "Barnes",
+      "geographyEvidence": "2024 table exact scientific-name and three-measurement match; Census 2025 county subdivision identifies municipality county"
+    },
+    {
+      "sourceNode": "n-aTx4s3",
+      "commonName": "Juniper, Rocky Mountain",
+      "scientificName": "Juniperus scopulorum",
+      "previousChampionMeasurements": [
+        [
+          97.0,
+          34.0,
+          32.0
+        ]
+      ],
+      "currentMeasurements": [
+        97.0,
+        34.0,
+        32.0
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "",
+      "county": "McKenzie",
+      "geographyEvidence": "2024 table exact scientific-name and three-measurement match"
+    },
+    {
+      "sourceNode": "n-vxtrOV",
+      "commonName": "Larch, Eastern",
+      "scientificName": "Larix laricina",
+      "previousChampionMeasurements": [
+        [
+          77.0,
+          74.0,
+          41.0
+        ]
+      ],
+      "currentMeasurements": [
+        77.0,
+        74.0,
+        41.0
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "Fargo",
+      "county": "Cass",
+      "geographyEvidence": "Published StoryMap general place; Census 2025 county subdivision identifies municipality county"
+    },
+    {
+      "sourceNode": "n-kqxOca",
+      "commonName": "Larch, European",
+      "scientificName": "Larix decidua",
+      "previousChampionMeasurements": [
+        [
+          82.0,
+          83.0,
+          41.0
+        ]
+      ],
+      "currentMeasurements": [
+        82.0,
+        83.0,
+        41.0
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "Fargo",
+      "county": "Cass",
+      "geographyEvidence": "Published StoryMap general place; Census 2025 county subdivision identifies municipality county"
+    },
+    {
+      "sourceNode": "n-I29jIc",
+      "commonName": "Larch, Siberian",
+      "scientificName": "Larix sibirica",
+      "previousChampionMeasurements": [
+        [
+          48.0,
+          55.0,
+          18.0
+        ]
+      ],
+      "currentMeasurements": [
+        48.0,
+        55.0,
+        18.0
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "",
+      "county": "",
+      "geographyEvidence": "No supported general place match; left unmapped"
+    },
+    {
+      "sourceNode": "n-VdFsEH",
+      "commonName": "Lilac, Japanese Tree",
+      "scientificName": "Syringa reticulata",
+      "previousChampionMeasurements": [
+        [
+          61.0,
+          33.0,
+          26.0
+        ]
+      ],
+      "currentMeasurements": [
+        61.0,
+        33.0,
+        26.0
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "Bismarck",
+      "county": "Burleigh",
+      "geographyEvidence": "Published StoryMap general place; Census 2025 county subdivision identifies municipality county"
+    },
+    {
+      "sourceNode": "n-Og24Xv",
+      "commonName": "Linden, American",
+      "scientificName": "Tilia americana",
+      "previousChampionMeasurements": [
+        [
+          157.0,
+          75.0,
+          64.0
+        ]
+      ],
+      "currentMeasurements": [
+        157.0,
+        75.0,
+        64.0
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "",
+      "county": "Cass",
+      "geographyEvidence": "2024 table exact scientific-name and three-measurement match"
+    },
+    {
+      "sourceNode": "n-2Btcva",
+      "commonName": "Linden, Littleleaf",
+      "scientificName": "Tilia cordata",
+      "previousChampionMeasurements": [
+        null
+      ],
+      "currentMeasurements": [
+        99.25,
+        47.0,
+        45.0
+      ],
+      "noExactLegacyMeasurementMatch": true,
+      "town": "Bismarck",
+      "county": "Burleigh",
+      "geographyEvidence": "Published StoryMap general place; Census 2025 county subdivision identifies municipality county"
+    },
+    {
+      "sourceNode": "n-5ESHfc",
+      "commonName": "Locust, Black",
+      "scientificName": "Robinia pseudoacacia",
+      "previousChampionMeasurements": [
+        [
+          64.0,
+          45.0,
+          38.0
+        ]
+      ],
+      "currentMeasurements": [
+        75.4,
+        55.5,
+        36.0
+      ],
+      "noExactLegacyMeasurementMatch": true,
+      "town": "Bismarck",
+      "county": "Burleigh",
+      "geographyEvidence": "Published StoryMap general place; Census 2025 county subdivision identifies municipality county"
+    },
+    {
+      "sourceNode": "n-w5Oz3q",
+      "commonName": "Maple, Amur",
+      "scientificName": "Acer ginnala",
+      "previousChampionMeasurements": [
+        [
+          53.0,
+          29.0,
+          49.0
+        ]
+      ],
+      "currentMeasurements": [
+        53.0,
+        29.0,
+        49.0
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "Bismarck",
+      "county": "Burleigh",
+      "geographyEvidence": "Published StoryMap general place; Census 2025 county subdivision identifies municipality county"
+    },
+    {
+      "sourceNode": "n-hVucqv",
+      "commonName": "Maple, Korean",
+      "scientificName": "Acer pseudosieboldianum",
+      "previousChampionMeasurements": [
+        [
+          15.3,
+          24.0,
+          18.875
+        ]
+      ],
+      "currentMeasurements": [
+        15.3,
+        24.0,
+        18.875
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "Bismarck",
+      "county": "Burleigh",
+      "geographyEvidence": "Published StoryMap general place; Census 2025 county subdivision identifies municipality county"
+    },
+    {
+      "sourceNode": "n-ADUFiE",
+      "commonName": "Maple, Manchurian",
+      "scientificName": "Acer mandshuricum",
+      "previousChampionMeasurements": [
+        [
+          33.1,
+          35.0,
+          22.0
+        ]
+      ],
+      "currentMeasurements": [
+        33.1,
+        35.0,
+        22.0
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "Bismarck",
+      "county": "Burleigh",
+      "geographyEvidence": "Published StoryMap general place; Census 2025 county subdivision identifies municipality county"
+    },
+    {
+      "sourceNode": "n-hgKK5Q",
+      "commonName": "Maple, Manchurian Striped",
+      "scientificName": "Acer tegmentosum",
+      "previousChampionMeasurements": [
+        [
+          33.2,
+          29.583333333333332,
+          23.375
+        ]
+      ],
+      "currentMeasurements": [
+        33.2,
+        29.583333333333332,
+        23.375
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "Bismarck",
+      "county": "Burleigh",
+      "geographyEvidence": "Published StoryMap general place; Census 2025 county subdivision identifies municipality county"
+    },
+    {
+      "sourceNode": "n-ajmwga",
+      "commonName": "Maple, Miyabe",
+      "scientificName": "Acer miyabei",
+      "previousChampionMeasurements": [],
+      "currentMeasurements": [
+        25.0,
+        26.0,
+        20.25
+      ],
+      "noExactLegacyMeasurementMatch": true,
+      "town": "Fargo",
+      "county": "Cass",
+      "geographyEvidence": "May 2026 announcement identifies the matching Miyabe maple on the NDSU campus in Fargo; Census 2025 county subdivision identifies municipality county"
+    },
+    {
+      "sourceNode": "n-45UDyl",
+      "commonName": "Maple, Norway",
+      "scientificName": "Acer platanoides",
+      "previousChampionMeasurements": [
+        [
+          127.0,
+          38.0,
+          53.0
+        ]
+      ],
+      "currentMeasurements": [
+        127.0,
+        38.0,
+        53.0
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "Bismarck",
+      "county": "Burleigh",
+      "geographyEvidence": "Published StoryMap general place; Census 2025 county subdivision identifies municipality county"
+    },
+    {
+      "sourceNode": "n-Na6ycT",
+      "commonName": "Maple, Red",
+      "scientificName": "Acer rubra",
+      "previousChampionMeasurements": [],
+      "currentMeasurements": [
+        52.0,
+        20.0,
+        35.0
+      ],
+      "noExactLegacyMeasurementMatch": true,
+      "town": "Hatton",
+      "county": "Traill",
+      "geographyEvidence": "Published StoryMap general place; Census 2025 county subdivision identifies municipality county"
+    },
+    {
+      "sourceNode": "n-DKL98y",
+      "commonName": "Maple, Silver",
+      "scientificName": "Acer saccharinum",
+      "previousChampionMeasurements": [
+        [
+          201.0,
+          89.0,
+          90.0
+        ]
+      ],
+      "currentMeasurements": [
+        201.0,
+        89.0,
+        90.0
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "Fargo",
+      "county": "Cass",
+      "geographyEvidence": "Published StoryMap general place; Census 2025 county subdivision identifies municipality county"
+    },
+    {
+      "sourceNode": "n-SKm2hv",
+      "commonName": "Maple, Sugar",
+      "scientificName": "Acer saccharum",
+      "previousChampionMeasurements": [
+        [
+          91.0,
+          67.0,
+          52.0
+        ]
+      ],
+      "currentMeasurements": [
+        91.0,
+        67.0,
+        52.0
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "Fargo",
+      "county": "Cass",
+      "geographyEvidence": "Published StoryMap general place; Census 2025 county subdivision identifies municipality county"
+    },
+    {
+      "sourceNode": "n-jOoACy",
+      "commonName": "Maple, Three-Flowered",
+      "scientificName": "Acer triflorum",
+      "previousChampionMeasurements": [
+        [
+          35.0,
+          29.0,
+          24.583333333333332
+        ]
+      ],
+      "currentMeasurements": [
+        35.0,
+        29.0,
+        24.583333333333332
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "Bismarck",
+      "county": "Burleigh",
+      "geographyEvidence": "Published StoryMap general place; Census 2025 county subdivision identifies municipality county"
+    },
+    {
+      "sourceNode": "n-Y1eAJ8",
+      "commonName": "Mayday Tree",
+      "scientificName": "Prunus padus",
+      "previousChampionMeasurements": [],
+      "currentMeasurements": [
+        31.0,
+        15.0,
+        19.5
+      ],
+      "noExactLegacyMeasurementMatch": true,
+      "town": "Fargo",
+      "county": "Cass",
+      "geographyEvidence": "Published StoryMap general place; Census 2025 county subdivision identifies municipality county"
+    },
+    {
+      "sourceNode": "n-vqHlWq",
+      "commonName": "Mountain Ash",
+      "scientificName": "Sorbus aucuparia",
+      "previousChampionMeasurements": [
+        [
+          58.0,
+          36.0,
+          32.0
+        ]
+      ],
+      "currentMeasurements": [
+        58.0,
+        36.0,
+        32.0
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "Fargo",
+      "county": "Cass",
+      "geographyEvidence": "Published StoryMap general place; Census 2025 county subdivision identifies municipality county"
+    },
+    {
+      "sourceNode": "n-Rv72bb",
+      "commonName": "Mulberry, White",
+      "scientificName": "Morus alba",
+      "previousChampionMeasurements": [
+        [
+          47.0,
+          50.0,
+          47.0
+        ]
+      ],
+      "currentMeasurements": [
+        47.0,
+        50.0,
+        47.0
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "Fargo",
+      "county": "Cass",
+      "geographyEvidence": "Published StoryMap general place; Census 2025 county subdivision identifies municipality county"
+    },
+    {
+      "sourceNode": "n-RO022V",
+      "commonName": "Oak, Bur",
+      "scientificName": "Quercus macrocarpa",
+      "previousChampionMeasurements": [
+        [
+          148.0,
+          83.0,
+          65.0
+        ]
+      ],
+      "currentMeasurements": [
+        148.0,
+        83.0,
+        65.0
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "",
+      "county": "Traill",
+      "geographyEvidence": "2024 table exact scientific-name and three-measurement match"
+    },
+    {
+      "sourceNode": "n-OUoyEl",
+      "commonName": "Oak, Mongolian",
+      "scientificName": "Quercus mongolica",
+      "previousChampionMeasurements": [
+        [
+          67.0,
+          30.0,
+          48.0
+        ]
+      ],
+      "currentMeasurements": [
+        67.0,
+        30.0,
+        48.0
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "Fargo",
+      "county": "Cass",
+      "geographyEvidence": "Published StoryMap general place; Census 2025 county subdivision identifies municipality county"
+    },
+    {
+      "sourceNode": "n-LwhsNi",
+      "commonName": "Oak, Northern Pin",
+      "scientificName": "Quercus ellipsoidalis",
+      "previousChampionMeasurements": [
+        [
+          28.3,
+          31.0,
+          30.0
+        ]
+      ],
+      "currentMeasurements": [
+        28.3,
+        31.0,
+        30.0
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "Cavalier",
+      "county": "Pembina",
+      "geographyEvidence": "Published StoryMap general place; Census 2025 county subdivision identifies municipality county"
+    },
+    {
+      "sourceNode": "n-N6jQHJ",
+      "commonName": "Oak, Red",
+      "scientificName": "Quercus rubra",
+      "previousChampionMeasurements": [
+        [
+          62.0,
+          70.0,
+          68.0
+        ]
+      ],
+      "currentMeasurements": [
+        62.0,
+        70.0,
+        68.0
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "Bismarck",
+      "county": "Burleigh",
+      "geographyEvidence": "Published StoryMap general place; Census 2025 county subdivision identifies municipality county"
+    },
+    {
+      "sourceNode": "n-hq8zZA",
+      "commonName": "Oak, Swamp White",
+      "scientificName": "Quercus bicolor",
+      "previousChampionMeasurements": [],
+      "currentMeasurements": [
+        67.5,
+        56.0,
+        52.0
+      ],
+      "noExactLegacyMeasurementMatch": true,
+      "town": "Fargo",
+      "county": "Cass",
+      "geographyEvidence": "Published StoryMap general place; Census 2025 county subdivision identifies municipality county"
+    },
+    {
+      "sourceNode": "n-vEovSD",
+      "commonName": "Pecan",
+      "scientificName": "Carya illinoensis",
+      "previousChampionMeasurements": [
+        [
+          15.0,
+          22.0,
+          20.0
+        ]
+      ],
+      "currentMeasurements": [
+        15.0,
+        22.0,
+        20.0
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "Fargo",
+      "county": "Cass",
+      "geographyEvidence": "Published StoryMap general place; Census 2025 county subdivision identifies municipality county"
+    },
+    {
+      "sourceNode": "n-ReGEBH",
+      "commonName": "Pine, Austrian",
+      "scientificName": "Pinus nigra",
+      "previousChampionMeasurements": [
+        [
+          57.0,
+          55.0,
+          32.0
+        ]
+      ],
+      "currentMeasurements": [
+        57.0,
+        55.0,
+        32.0
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "",
+      "county": "",
+      "geographyEvidence": "No supported general place match; left unmapped"
+    },
+    {
+      "sourceNode": "n-YCXs9v",
+      "commonName": "Pine, Jack",
+      "scientificName": "Pinus banksiana",
+      "previousChampionMeasurements": [
+        [
+          61.0,
+          48.0,
+          40.0
+        ]
+      ],
+      "currentMeasurements": [
+        61.0,
+        48.0,
+        40.0
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "Towner",
+      "county": "McHenry",
+      "geographyEvidence": "Published StoryMap general place; Census 2025 county subdivision identifies municipality county"
+    },
+    {
+      "sourceNode": "n-jCk0Tp",
+      "commonName": "Pine, Limber",
+      "scientificName": "Pinus flexilis",
+      "previousChampionMeasurements": [
+        [
+          65.0,
+          39.0,
+          30.0
+        ]
+      ],
+      "currentMeasurements": [
+        65.0,
+        39.0,
+        30.0
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "",
+      "county": "Slope",
+      "geographyEvidence": "2024 table exact scientific-name and three-measurement match"
+    },
+    {
+      "sourceNode": "n-U9WuJ7",
+      "commonName": "Pine, Mugo",
+      "scientificName": "Pinus mugo",
+      "previousChampionMeasurements": [
+        [
+          28.0,
+          22.0,
+          27.666666666666668
+        ]
+      ],
+      "currentMeasurements": [
+        28.0,
+        22.0,
+        27.666666666666668
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "",
+      "county": "",
+      "geographyEvidence": "No supported general place match; left unmapped"
+    },
+    {
+      "sourceNode": "n-0PtaMu",
+      "commonName": "Pine, Ponderosa",
+      "scientificName": "Pinus ponderosa",
+      "previousChampionMeasurements": [
+        [
+          85.0,
+          73.0,
+          26.0
+        ]
+      ],
+      "currentMeasurements": [
+        85.0,
+        73.0,
+        26.0
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "",
+      "county": "Slope",
+      "geographyEvidence": "2024 table exact scientific-name and three-measurement match"
+    },
+    {
+      "sourceNode": "n-hXSqlb",
+      "commonName": "Pine, Red",
+      "scientificName": "Pinus resinosa",
+      "previousChampionMeasurements": [
+        [
+          67.0,
+          72.0,
+          20.0
+        ]
+      ],
+      "currentMeasurements": [
+        67.0,
+        72.0,
+        20.0
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "",
+      "county": "Walsh",
+      "geographyEvidence": "2024 table exact scientific-name and three-measurement match"
+    },
+    {
+      "sourceNode": "n-HgZuSz",
+      "commonName": "Pine, Scotch",
+      "scientificName": "Pinus sylvestris",
+      "previousChampionMeasurements": [
+        [
+          158.0,
+          54.0,
+          43.0
+        ]
+      ],
+      "currentMeasurements": [
+        158.0,
+        54.0,
+        43.0
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "Larimore",
+      "county": "Grand Forks",
+      "geographyEvidence": "2024 table exact scientific-name and three-measurement match; Census 2025 county subdivision identifies municipality county"
+    },
+    {
+      "sourceNode": "n-udqGmy",
+      "commonName": "Pine, White",
+      "scientificName": "Pinus strobus",
+      "previousChampionMeasurements": [
+        [
+          79.0,
+          68.0,
+          44.0
+        ]
+      ],
+      "currentMeasurements": [
+        79.0,
+        68.0,
+        44.0
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "",
+      "county": "Pembina",
+      "geographyEvidence": "2024 table exact scientific-name and three-measurement match"
+    },
+    {
+      "sourceNode": "n-tcN2ox",
+      "commonName": "Poplar, Balsam",
+      "scientificName": "Populus balsamifera",
+      "previousChampionMeasurements": [
+        [
+          65.0,
+          62.0,
+          23.583333333333332
+        ]
+      ],
+      "currentMeasurements": [
+        121.0,
+        102.0,
+        42.5
+      ],
+      "noExactLegacyMeasurementMatch": true,
+      "town": "",
+      "county": "",
+      "geographyEvidence": "No supported general place match; left unmapped"
+    },
+    {
+      "sourceNode": "n-yWnQMP",
+      "commonName": "Poplar, Lombardy",
+      "scientificName": "Populus nigra",
+      "previousChampionMeasurements": [
+        [
+          105.0,
+          88.0,
+          14.0
+        ]
+      ],
+      "currentMeasurements": [
+        105.0,
+        88.0,
+        14.0
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "Larimore",
+      "county": "Grand Forks",
+      "geographyEvidence": "2024 table exact scientific-name and three-measurement match; Census 2025 county subdivision identifies municipality county"
+    },
+    {
+      "sourceNode": "n-d6WU5z",
+      "commonName": "Poplar, White",
+      "scientificName": "Populus alba",
+      "previousChampionMeasurements": [
+        [
+          233.5,
+          60.0,
+          67.75
+        ]
+      ],
+      "currentMeasurements": [
+        233.5,
+        60.0,
+        67.75
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "Bismarck",
+      "county": "Burleigh",
+      "geographyEvidence": "2024 table exact scientific-name and three-measurement match; Census 2025 county subdivision identifies municipality county"
+    },
+    {
+      "sourceNode": "n-L4bAeT",
+      "commonName": "Russian Olive",
+      "scientificName": "Elaeagnus angustifolia",
+      "previousChampionMeasurements": [
+        [
+          56.0,
+          36.0,
+          48.0
+        ]
+      ],
+      "currentMeasurements": [
+        56.0,
+        36.0,
+        48.0
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "Fargo",
+      "county": "Cass",
+      "geographyEvidence": "Published StoryMap general place; Census 2025 county subdivision identifies municipality county"
+    },
+    {
+      "sourceNode": "n-uW0HbA",
+      "commonName": "Spruce, Colorado Blue",
+      "scientificName": "Picea pungens",
+      "previousChampionMeasurements": [
+        [
+          80.0,
+          90.0,
+          33.0
+        ]
+      ],
+      "currentMeasurements": [
+        80.0,
+        90.0,
+        33.0
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "Fargo",
+      "county": "Cass",
+      "geographyEvidence": "2024 table exact scientific-name and three-measurement match; Census 2025 county subdivision identifies municipality county"
+    },
+    {
+      "sourceNode": "n-qEJB4Z",
+      "commonName": "Spruce, Engelmann",
+      "scientificName": "Picea engelmannii",
+      "previousChampionMeasurements": [
+        [
+          41.0,
+          53.0,
+          17.0
+        ]
+      ],
+      "currentMeasurements": [
+        41.0,
+        53.0,
+        17.0
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "",
+      "county": "Rolette",
+      "geographyEvidence": "2024 table exact scientific-name and three-measurement match"
+    },
+    {
+      "sourceNode": "n-JIx7LJ",
+      "commonName": "Spruce, Norway",
+      "scientificName": "Picea abies",
+      "previousChampionMeasurements": [
+        [
+          104.0,
+          100.0,
+          38.5
+        ]
+      ],
+      "currentMeasurements": [
+        104.0,
+        100.0,
+        48.0
+      ],
+      "noExactLegacyMeasurementMatch": true,
+      "town": "",
+      "county": "",
+      "geographyEvidence": "No supported general place match; left unmapped"
+    },
+    {
+      "sourceNode": "n-qPjq4d",
+      "commonName": "Spruce, White",
+      "scientificName": "Picea glauca",
+      "previousChampionMeasurements": [
+        [
+          113.0,
+          98.0,
+          43.0
+        ]
+      ],
+      "currentMeasurements": [
+        113.0,
+        98.0,
+        43.0
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "",
+      "county": "Pembina",
+      "geographyEvidence": "2024 table exact scientific-name and three-measurement match"
+    },
+    {
+      "sourceNode": "n-QpBuYb",
+      "commonName": "Sycamore",
+      "scientificName": "Platanus occidentalis",
+      "previousChampionMeasurements": [
+        [
+          77.0,
+          51.0,
+          45.0
+        ]
+      ],
+      "currentMeasurements": [
+        77.0,
+        51.0,
+        45.0
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "Bismarck",
+      "county": "Burleigh",
+      "geographyEvidence": "Published StoryMap general place; Census 2025 county subdivision identifies municipality county"
+    },
+    {
+      "sourceNode": "n-XhYnT6",
+      "commonName": "Walnut, Black",
+      "scientificName": "Juglans nigra",
+      "previousChampionMeasurements": [
+        [
+          93.0,
+          68.0,
+          50.0
+        ]
+      ],
+      "currentMeasurements": [
+        101.0,
+        59.0,
+        65.5
+      ],
+      "noExactLegacyMeasurementMatch": true,
+      "town": "Bismarck",
+      "county": "Burleigh",
+      "geographyEvidence": "Published StoryMap general place; Census 2025 county subdivision identifies municipality county"
+    },
+    {
+      "sourceNode": "n-FHb3LK",
+      "commonName": "Willow, Golden",
+      "scientificName": "Salix alba",
+      "previousChampionMeasurements": [
+        [
+          298.0,
+          71.0,
+          65.0
+        ]
+      ],
+      "currentMeasurements": [
+        298.0,
+        71.0,
+        65.0
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "Fargo",
+      "county": "Cass",
+      "geographyEvidence": "Published StoryMap general place; Census 2025 county subdivision identifies municipality county"
+    },
+    {
+      "sourceNode": "n-rmFDDd",
+      "commonName": "Willow, Missouri River",
+      "scientificName": "Salix eriocephala",
+      "previousChampionMeasurements": [
+        [
+          259.0,
+          40.0,
+          64.0
+        ]
+      ],
+      "currentMeasurements": [
+        259.0,
+        40.0,
+        64.0
+      ],
+      "noExactLegacyMeasurementMatch": false,
+      "town": "",
+      "county": "",
+      "geographyEvidence": "No supported general place match; left unmapped"
+    }
+  ],
+  "excluded": [
+    {
+      "sourceNode": "n-XRWdKu",
+      "commonName": "Apricot",
+      "reason": "Separate second-place section; not a first-place champion"
+    },
+    {
+      "sourceNode": "n-bcUk9u",
+      "commonName": "Arborvitae, American",
+      "reason": "Separate second-place section; not a first-place champion"
+    },
+    {
+      "sourceNode": "n-NFxoXB",
+      "commonName": "Ash, Green",
+      "reason": "Separate second-place section; not a first-place champion"
+    },
+    {
+      "sourceNode": "n-lJHNnv",
+      "commonName": "Ash, White",
+      "reason": "Separate second-place section; not a first-place champion"
+    },
+    {
+      "sourceNode": "n-HChRKT",
+      "commonName": "Aspen, Quaking",
+      "reason": "Separate second-place section; not a first-place champion"
+    },
+    {
+      "sourceNode": "n-bJdoGp",
+      "commonName": "Birch, Cutleaf Weeping",
+      "reason": "Separate second-place section; not a first-place champion"
+    },
+    {
+      "sourceNode": "n-u6JRtT",
+      "commonName": "Birch, Paper",
+      "reason": "Separate second-place section; not a first-place champion"
+    },
+    {
+      "sourceNode": "n-gCAvWu",
+      "commonName": "Birch, River",
+      "reason": "Separate second-place section; not a first-place champion"
+    },
+    {
+      "sourceNode": "n-wf7bpI",
+      "commonName": "Boxelder",
+      "reason": "Separate second-place section; not a first-place champion"
+    },
+    {
+      "sourceNode": "n-qf2UZD",
+      "commonName": "Buckeye, Ohio",
+      "reason": "Separate second-place section; not a first-place champion"
+    },
+    {
+      "sourceNode": "n-kHtfif",
+      "commonName": "Butternut",
+      "reason": "Separate second-place section; not a first-place champion"
+    },
+    {
+      "sourceNode": "n-pvLb06",
+      "commonName": "Catalpa, Northern",
+      "reason": "Separate second-place section; not a first-place champion"
+    },
+    {
+      "sourceNode": "n-NHnLAE",
+      "commonName": "Cedar, Eastern Red",
+      "reason": "Separate second-place section; not a first-place champion"
+    },
+    {
+      "sourceNode": "n-6gVfNK",
+      "commonName": "Coffeetree, Kentucky",
+      "reason": "Separate second-place section; not a first-place champion"
+    },
+    {
+      "sourceNode": "n-mq0UWG",
+      "commonName": "Cottonwood, Eastern",
+      "reason": "Separate second-place section; not a first-place champion"
+    },
+    {
+      "sourceNode": "n-6y29HF",
+      "commonName": "Cottonwood, Smooth-Bark",
+      "reason": "Separate second-place section; not a first-place champion"
+    },
+    {
+      "sourceNode": "n-MYE3BB",
+      "commonName": "Elm, American",
+      "reason": "Separate second-place section; not a first-place champion"
+    },
+    {
+      "sourceNode": "n-RzOTMn",
+      "commonName": "Elm, Siberian",
+      "reason": "Separate second-place section; not a first-place champion"
+    },
+    {
+      "sourceNode": "n-LX901P",
+      "commonName": "Elm, Slippery",
+      "reason": "Separate second-place section; not a first-place champion"
+    },
+    {
+      "sourceNode": "n-svUdxi",
+      "commonName": "Fir, Douglas",
+      "reason": "Separate second-place section; not a first-place champion"
+    },
+    {
+      "sourceNode": "n-bMgOKw",
+      "commonName": "Fir, White",
+      "reason": "Separate second-place section; not a first-place champion"
+    },
+    {
+      "sourceNode": "n-gJdXoZ",
+      "commonName": "Ginkgo",
+      "reason": "Separate second-place section; not a first-place champion"
+    },
+    {
+      "sourceNode": "n-KPMdg5",
+      "commonName": "Hackberry, Common",
+      "reason": "Separate second-place section; not a first-place champion"
+    },
+    {
+      "sourceNode": "n-JJ1CNy",
+      "commonName": "Honeylocust, Common",
+      "reason": "Separate second-place section; not a first-place champion"
+    },
+    {
+      "sourceNode": "n-vDOyoR",
+      "commonName": "Hoptree",
+      "reason": "Separate second-place section; not a first-place champion"
+    },
+    {
+      "sourceNode": "n-4g8GrJ",
+      "commonName": "Ironwood",
+      "reason": "Separate second-place section; not a first-place champion"
+    },
+    {
+      "sourceNode": "n-q08GFu",
+      "commonName": "Juneberry",
+      "reason": "Separate second-place section; not a first-place champion"
+    },
+    {
+      "sourceNode": "n-F77OW0",
+      "commonName": "Juniper, Rocky Mountain",
+      "reason": "Separate second-place section; not a first-place champion"
+    },
+    {
+      "sourceNode": "n-lC0Yw2",
+      "commonName": "Lilac, Japanese Tree",
+      "reason": "Separate second-place section; not a first-place champion"
+    },
+    {
+      "sourceNode": "n-2TEoRB",
+      "commonName": "Linden, American",
+      "reason": "Separate second-place section; not a first-place champion"
+    },
+    {
+      "sourceNode": "n-Nqt4tH",
+      "commonName": "Linden, Littleleaf",
+      "reason": "Separate second-place section; not a first-place champion"
+    },
+    {
+      "sourceNode": "n-iCcr1D",
+      "commonName": "Locust, Black",
+      "reason": "Separate second-place section; not a first-place champion"
+    },
+    {
+      "sourceNode": "n-4x4FkE",
+      "commonName": "Maple, Amur",
+      "reason": "Separate second-place section; not a first-place champion"
+    },
+    {
+      "sourceNode": "n-S2VqtU",
+      "commonName": "Maple, Norway",
+      "reason": "Separate second-place section; not a first-place champion"
+    },
+    {
+      "sourceNode": "n-k6ELHj",
+      "commonName": "Maple, Red",
+      "reason": "Separate second-place section; not a first-place champion"
+    },
+    {
+      "sourceNode": "n-oF1wIV",
+      "commonName": "Maple, Silver",
+      "reason": "Separate second-place section; not a first-place champion"
+    },
+    {
+      "sourceNode": "n-dwHDvk",
+      "commonName": "Oak, Bur",
+      "reason": "Separate second-place section; not a first-place champion"
+    },
+    {
+      "sourceNode": "n-FcqNhq",
+      "commonName": "Oak, Mongolian",
+      "reason": "Separate second-place section; not a first-place champion"
+    },
+    {
+      "sourceNode": "n-cBhV08",
+      "commonName": "Pine, Austrian",
+      "reason": "Separate second-place section; not a first-place champion"
+    },
+    {
+      "sourceNode": "n-vTlb4S",
+      "commonName": "Pine, Jack",
+      "reason": "Separate second-place section; not a first-place champion"
+    },
+    {
+      "sourceNode": "n-wl528C",
+      "commonName": "Pine, Red",
+      "reason": "Separate second-place section; not a first-place champion"
+    },
+    {
+      "sourceNode": "n-dvRQJ4",
+      "commonName": "Pine, Scotch",
+      "reason": "Separate second-place section; not a first-place champion"
+    },
+    {
+      "sourceNode": "n-FWog1o",
+      "commonName": "Pine, White",
+      "reason": "Separate second-place section; not a first-place champion"
+    },
+    {
+      "sourceNode": "n-wT7qkj",
+      "commonName": "Poplar, Balsam",
+      "reason": "Separate second-place section; not a first-place champion"
+    },
+    {
+      "sourceNode": "n-4o5Mh3",
+      "commonName": "Poplar, Lombardy",
+      "reason": "Separate second-place section; not a first-place champion"
+    },
+    {
+      "sourceNode": "n-c1Np1U",
+      "commonName": "Poplar, White",
+      "reason": "Separate second-place section; not a first-place champion"
+    },
+    {
+      "sourceNode": "n-bdAKm7",
+      "commonName": "Spruce, Colorado Blue",
+      "reason": "Separate second-place section; not a first-place champion"
+    },
+    {
+      "sourceNode": "n-9mhUoe",
+      "commonName": "Spruce, Norway",
+      "reason": "Separate second-place section; not a first-place champion"
+    },
+    {
+      "sourceNode": "n-IPCyHl",
+      "commonName": "Walnut, Black",
+      "reason": "Separate second-place section; not a first-place champion"
+    },
+    {
+      "sourceNode": "n-ODphar",
+      "commonName": "Willow, Missouri River",
+      "reason": "Separate second-place section; not a first-place champion"
+    }
+  ],
+  "sourcePriority": "Published StoryMap is the official current register. Older table and 2026 announcement are cross-checks, not additional champions to union. Draft resources and geometry are not used.",
+  "privacy": "Raw owner, nominator, contact, address, photograph and individual tree geometry fields are omitted. Public ownership does not establish permission to visit."
+}

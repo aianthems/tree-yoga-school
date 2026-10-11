@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: Props) {
   return pageMetadata(championStateHref(code), `${championStates[code].name} Champion Trees`, statePageDescription(code));
 }
 const sourceLabels: Record<string, string> = {
-  registerUrl: "Published register", pdfUrl: "Register PDF", programUrl: "Tree program", workbookUrl: "Register workbook",
+  registerUrl: "Published register", olderRegisterUrl: "Older register", announcementUrl: "Latest additions announcement", pdfUrl: "Register PDF", programUrl: "Tree program", workbookUrl: "Register workbook",
   nativeUrl: "Native tree register", nonNativeUrl: "Non-native tree register", floweringUrl: "Flowering tree register", conifersUrl: "Conifer register",
   scientificUrl: "Register by scientific name", commonUrl: "Register by common name", alphabeticalUrl: "Alphabetical register", countyUrl: "County register",
 };
@@ -59,7 +59,7 @@ export default async function ChampionStatePage({ params }: Props) {
     </section>
     <section className="champion-state-section" id="notable" aria-labelledby="notable-title">
       <p className="section-kicker">A glimpse of the register</p><h2 id="notable-title">Look up. Look closer.</h2>
-      <p>These are four of the highest published heights in this imported selection, when available. Measurements come from different dates; this preview creates no new champion or national titles. Open a record for its status, measurement context, and source notes.</p>
+      <p>These are up to four of the highest published heights in this imported selection, when available. Measurements come from different dates; this preview creates no new champion or national titles. Open a record for its status, measurement context, and source notes.</p>
       <div className="champion-state-records">{notable.map(record => <article key={record.id} className="champion-state-record">
         <p className="section-kicker">{placeName(record)}</p><h3>{record.commonName}</h3><p><i>{record.scientificName}</i></p>
         <dl><div><dt>Published height</dt><dd>{number(record.height, " ft")}</dd></div><div><dt>Published points</dt><dd>{number(record.points, "")}</dd></div></dl>

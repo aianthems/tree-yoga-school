@@ -7,6 +7,15 @@ export type ChampionStateConfig = {
   source: Readonly<Record<string, string | number>>;
 };
 export const championStates = {
+  ND: { name: "North Dakota", sourceDate: "Official StoryMap · published May 27, 2026 · retrieved October 11, 2026", recordFiles: ["north-dakota-champion-trees.json"], coordinateFile: "north-dakota-county-points.json", recordPrecision: "county", coordinatePrecision: "county", recordOrder: -20, expectedRecords: 87, expectedMapped: 80, unmappedIds: ["nd-n-uflqmy", "nd-n-i29jic", "nd-n-regebh", "nd-n-u9wuj7", "nd-n-tcn2ox", "nd-n-jix7lj", "nd-n-rmfddd"], importer: "import-north-dakota-champions.py", auditFile: "north-dakota-import-audit.json", source: {
+    registerUrl: "https://storymaps.arcgis.com/stories/a6b45a88a67347a3b77cd60cc02432bf",
+    programUrl: "https://www.ndsu.edu/ndfs/championtrees",
+    olderRegisterUrl: "https://www.ag.ndsu.edu/smallgrains/ndfs/about-north-dakota-forestry/champion-trees-of-north-dakota",
+    announcementUrl: "https://www.ndsu.edu/ndfs/news/2026-04-30-new-champion-trees-crowned-2025",
+    geographyUrl: "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_counties_national.zip",
+    municipalityGeographyUrl: "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_cousubs_national.zip",
+    retrieved: "October 11, 2026", count: 87,
+  } },
   MS: { name: "Mississippi", sourceDate: "2024 national register · CSV supplied October 11, 2026 · limited coverage", recordFiles: ["mississippi-champion-trees.json"], coordinateFile: "mississippi-county-points.json", recordPrecision: "county", coordinatePrecision: "county", recordOrder: -19, expectedRecords: 1, expectedMapped: 1, unmappedIds: [], importer: "import-mississippi-champions.py", auditFile: "mississippi-import-audit.json", source: {
     registerUrl: "https://nationalchampiontree.org/champion-tree-registry/",
     pdfUrl: "https://nationalchampiontree.org/wp-content/uploads/sites/270/2025/01/2024-Register-final-web-version-1-15-25-compressed.pdf",
@@ -295,7 +304,7 @@ export const championStates = {
 export type ChampionState = keyof typeof championStates;
 export const stateNames = Object.fromEntries(Object.entries(championStates).map(([state, config]) => [state, config.name])) as Record<ChampionState, string>;
 export const sourceDates = Object.fromEntries(Object.entries(championStates).map(([state, config]) => [state, config.sourceDate])) as Record<ChampionState, string>;
-export const championRegions = { west: { name: "West", states: ["CA", "AZ", "NV", "ID", "CO", "MT", "NM", "OR", "WA"] }, "south-central": { name: "South Central", states: ["TX", "LA", "OK"] }, midwest: { name: "Midwest", states: ["SD", "IN", "IL", "MI", "OH", "WI", "MN", "IA", "MO", "KS", "NE"] }, southeast: { name: "Southeast", states: ["MS", "NC", "SC", "TN", "GA", "KY", "AL", "FL", "AR"] }, "new-england": { name: "New England", states: ["MA", "NH", "VT", "ME", "RI", "CT"] }, northeast: { name: "Northeast", states: ["MA", "NH", "VT", "ME", "RI", "CT", "NY", "NJ", "PA"] }, "mid-atlantic": { name: "Mid-Atlantic", states: ["NY", "NJ", "PA", "DE", "MD", "VA", "WV"] } };
+export const championRegions = { west: { name: "West", states: ["CA", "AZ", "NV", "ID", "CO", "MT", "NM", "OR", "WA"] }, "south-central": { name: "South Central", states: ["TX", "LA", "OK"] }, midwest: { name: "Midwest", states: ["ND", "SD", "IN", "IL", "MI", "OH", "WI", "MN", "IA", "MO", "KS", "NE"] }, southeast: { name: "Southeast", states: ["MS", "NC", "SC", "TN", "GA", "KY", "AL", "FL", "AR"] }, "new-england": { name: "New England", states: ["MA", "NH", "VT", "ME", "RI", "CT"] }, northeast: { name: "Northeast", states: ["MA", "NH", "VT", "ME", "RI", "CT", "NY", "NJ", "PA"] }, "mid-atlantic": { name: "Mid-Atlantic", states: ["NY", "NJ", "PA", "DE", "MD", "VA", "WV"] } };
 
 // Coverage copy follows the same registry that drives imports and state filters.
 export const championCoverage = {

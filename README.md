@@ -19,7 +19,7 @@ Each supported state has a static `/champion-trees/<state-name>` destination wit
 ## Current coverage
 
 <!-- coverage:start -->
-- Champion Map: **45 states**, **8,567 listed records**, and **8,121 records with approximate map points**.
+- Champion Map: **46 states**, **8,654 listed records**, and **8,201 records with approximate map points**.
 - Tree Library: **69 species profiles** and **6 photographic comparisons**.
 - Trees to Visit: **14 guides across 11 states**.
 
@@ -648,3 +648,11 @@ The direct submission form and its API have been removed. Email-provider configu
 One Mississippi tree is included from the user-supplied `NCTP-2024-Register-downloadable-measurement-data.csv` (547 national records): Roughleaf Dogwood, Cornus drummondii, Tree ID 5821 in Tunica County. Selection uses the State column, not counties named Mississippi in other states. This is limited national-register coverage, not a complete Mississippi state register. The 2024 designation and 2016 nomination/measurement years are retained without asserting current condition or status. The blank NCTME verification field is not treated as verified.
 
 The CSV gives 39-inch circumference, 30-foot height, 34-foot crown spread, and 78 points. The companion PDF gives 28-foot height; the map follows the supplied CSV and discloses the difference. One Census 2025 Tunica County representative point is used, with no tree location or visiting permission inferred. Measurer names are omitted. Run `python scripts/import-mississippi-champions.py REGISTER.csv COUNTIES.zip` to reproduce the import and its source-hash audit.
+
+### North Dakota · published official StoryMap
+
+All 87 first-place records in the North Dakota Forest Service official StoryMap are included; its separate 50 second-place trees are excluded. The public story was last published May 27, 2026 and retrieved October 11, 2026. Later item modifications flag unpublished changes; draft resources are not used. The older 2024 table (updated April 30, 2025) has 82 champions and 47 runners-up. It is a reconciliation source, not a list to union with current champions. All 13 champions announced May 1, 2026 are present with matching scores; replaced champions stay excluded.
+
+80 trees use 15 approximate Census county points. Named municipalities are matched to county subdivisions, while coordinate-only records receive historical town/county labels only from exact botanical-name and three-measurement matches. The matching evidence appears in record notes and the audit. Miyabe maple’s Fargo location is independently supported by the official announcement. Seven unsupported general locations remain searchable without markers; no tree coordinates, street addresses, owners, nominators, contacts, or photographs are imported. Access stays unclassified.
+
+The current StoryMap controls names, measurements, scores and dates. Norway spruce crown differs from the older table; river birch circumference differs from the announcement; Miyabe maple retains its June 2023 measurement date despite being announced among 2025 additions. Genus-only and misspelled scientific labels, missing dates and score discrepancies are preserved. Run `python scripts/import-north-dakota-champions.py STORY.json OLD.html META.json COUNTIES.zip COUSUBS.zip NEWS.html`. The importer checks the reviewed 87-record fixture, the published tour graph, explicit champion labels, excluded second-place records, all 13 announced scores, and source hashes. Personal/location details in raw inputs must not be committed.

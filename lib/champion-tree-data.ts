@@ -1,4 +1,6 @@
 import "server-only";
+import ndRecords from "./data/north-dakota-champion-trees.json";
+import ndCoordinates from "./data/north-dakota-county-points.json";
 import msRecords from "./data/mississippi-champion-trees.json";
 import msCoordinates from "./data/mississippi-county-points.json";
 import caRecords from "./data/california-champion-trees.json";
@@ -96,6 +98,7 @@ import { championStates, type ChampionState } from "./champion-states";
 import { buildChampionDataset } from "./champion-state-data";
 
 const datasets = {
+  ND: { records: ndRecords, coordinates: ndCoordinates },
   MS: { records: msRecords, coordinates: msCoordinates },
   CA: { records: caRecords, coordinates: caCoordinates },
   AZ: { records: azRecords, coordinates: azCoordinates },
