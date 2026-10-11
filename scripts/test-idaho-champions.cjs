@@ -54,7 +54,7 @@ test('Idaho supports state, West, and record links using county geography withou
   for (const r of records) {assert.equal(r.mapPrecision,'county');assert.equal(r.publicAccess,undefined);assert.equal(r.publicCoordinates,undefined);assert.equal(r.location,null);assert.equal(r.town,'');}
   for (const p of Object.values(points)) {assert.ok(p.lat>42&&p.lat<49);assert.ok(p.lng>-117.3&&p.lng<-111);}
   assert.ok(championRegions.west.states.includes('ID'));
-  assert.equal(championCoverage.states,45);
+  assert.equal(championCoverage.states,46);
   const href=championHref({state:'ID',region:'west',selectedId:rows[0].id});
   const selected=readChampionSelection(new URL(href,'https://treeyogaschool.com').searchParams);
   assert.equal(selected.state,'ID');assert.equal(selected.selectedId,rows[0].id);
