@@ -8,7 +8,7 @@ const {championHref,readChampionSelection}=require('../lib/champion-links.ts');
 const {trees}=require('../lib/trees.ts');const {treeVisits}=require('../lib/tree-visits.ts');const {discoveryPages}=require('../lib/site-seo.ts');
 const notes=require('../lib/champion-register-notes.json');
 test('every supported state has a unique readable destination, metadata, and sitemap entry',()=>{
- assert.equal(championStatePages.length,44);assert.equal(new Set(championStatePages.map(p=>p.slug)).size,44);
+ assert.equal(championStatePages.length,Object.keys(championStates).length);assert.equal(new Set(championStatePages.map(p=>p.slug)).size,Object.keys(championStates).length);
  for(const page of championStatePages){assert.equal(championStateFromSlug(page.slug),page.state);assert.match(page.slug,/^[a-z]+(?:-[a-z]+)*$/);const entry=discoveryPages.find(p=>p.path===championStateHref(page.state));assert.ok(entry);assert.ok(entry.title.includes(page.name));assert.ok(entry.description.includes(String(championStates[page.state].expectedRecords)));}
  assert.equal(championStateFromSlug('alaska'),undefined);assert.equal(championStateFromSlug('CA'),undefined);assert.equal(championStateHref('INVALID'),'/champion-trees');
 });

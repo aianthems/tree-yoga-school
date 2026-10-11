@@ -1,0 +1,24 @@
+{
+  "sourceFile": "NCTP-2024-Register-downloadable-measurement-data.csv",
+  "sourceEdition": 2024,
+  "supplied": "2026-10-11",
+  "sourceSha256": "12eb58709e6a354d7861a088dcdb3cb038223b577f046cb7a686b82c6a77cd42",
+  "sourceRows": 547,
+  "stateFilter": "State == MS",
+  "includedRecords": 1,
+  "includedIds": [
+    "5821"
+  ],
+  "countyGeoid": "28143",
+  "countySource": "Census 2025 national county Gazetteer",
+  "geographySha256": "4c90d0f805779923b5958ab13d0c1e9b99fe4932b786bfcf75dd739bb2dcb4ea",
+  "coverage": "Limited national-register coverage; not a complete state register",
+  "heightDiscrepancy": {
+    "csvFeet": 30,
+    "pdfFeet": 28,
+    "displayFollows": "CSV"
+  },
+  "omittedFields": [
+    "Measurer(s)"
+  ]
+}

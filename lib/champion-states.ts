@@ -7,6 +7,12 @@ export type ChampionStateConfig = {
   source: Readonly<Record<string, string | number>>;
 };
 export const championStates = {
+  MS: { name: "Mississippi", sourceDate: "2024 national register · CSV supplied October 11, 2026 · limited coverage", recordFiles: ["mississippi-champion-trees.json"], coordinateFile: "mississippi-county-points.json", recordPrecision: "county", coordinatePrecision: "county", recordOrder: -19, expectedRecords: 1, expectedMapped: 1, unmappedIds: [], importer: "import-mississippi-champions.py", auditFile: "mississippi-import-audit.json", source: {
+    registerUrl: "https://nationalchampiontree.org/champion-tree-registry/",
+    pdfUrl: "https://nationalchampiontree.org/wp-content/uploads/sites/270/2025/01/2024-Register-final-web-version-1-15-25-compressed.pdf",
+    geographyUrl: "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_counties_national.zip",
+    supplied: "October 11, 2026", count: 1,
+  } },
   CA: { name: "California", sourceDate: "Cal Poly live database · retrieved October 11, 2026 · edition not stated", recordFiles: ["california-champion-trees.json"], coordinateFile: "california-county-points.json", recordPrecision: "county", coordinatePrecision: "county", recordOrder: -18, expectedRecords: 264, expectedMapped: 258, unmappedIds: ["ca-43", "ca-44", "ca-89", "ca-137", "ca-142", "ca-148"], importer: "import-california-champions.py", auditFile: "california-import-audit.json", source: {
     registerUrl: "https://californiabigtrees.calpoly.edu/",
     dataUrl: "https://www.selectree.calpoly.edu/api/bigtrees/getAllBt",
@@ -289,7 +295,7 @@ export const championStates = {
 export type ChampionState = keyof typeof championStates;
 export const stateNames = Object.fromEntries(Object.entries(championStates).map(([state, config]) => [state, config.name])) as Record<ChampionState, string>;
 export const sourceDates = Object.fromEntries(Object.entries(championStates).map(([state, config]) => [state, config.sourceDate])) as Record<ChampionState, string>;
-export const championRegions = { west: { name: "West", states: ["CA", "AZ", "NV", "ID", "CO", "MT", "NM", "OR", "WA"] }, "south-central": { name: "South Central", states: ["TX", "LA", "OK"] }, midwest: { name: "Midwest", states: ["SD", "IN", "IL", "MI", "OH", "WI", "MN", "IA", "MO", "KS", "NE"] }, southeast: { name: "Southeast", states: ["NC", "SC", "TN", "GA", "KY", "AL", "FL", "AR"] }, "new-england": { name: "New England", states: ["MA", "NH", "VT", "ME", "RI", "CT"] }, northeast: { name: "Northeast", states: ["MA", "NH", "VT", "ME", "RI", "CT", "NY", "NJ", "PA"] }, "mid-atlantic": { name: "Mid-Atlantic", states: ["NY", "NJ", "PA", "DE", "MD", "VA", "WV"] } };
+export const championRegions = { west: { name: "West", states: ["CA", "AZ", "NV", "ID", "CO", "MT", "NM", "OR", "WA"] }, "south-central": { name: "South Central", states: ["TX", "LA", "OK"] }, midwest: { name: "Midwest", states: ["SD", "IN", "IL", "MI", "OH", "WI", "MN", "IA", "MO", "KS", "NE"] }, southeast: { name: "Southeast", states: ["MS", "NC", "SC", "TN", "GA", "KY", "AL", "FL", "AR"] }, "new-england": { name: "New England", states: ["MA", "NH", "VT", "ME", "RI", "CT"] }, northeast: { name: "Northeast", states: ["MA", "NH", "VT", "ME", "RI", "CT", "NY", "NJ", "PA"] }, "mid-atlantic": { name: "Mid-Atlantic", states: ["NY", "NJ", "PA", "DE", "MD", "VA", "WV"] } };
 
 // Coverage copy follows the same registry that drives imports and state filters.
 export const championCoverage = {
