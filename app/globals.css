@@ -1313,3 +1313,24 @@ section[id] { scroll-margin-top: 90px; }
 .champion-state-directory a:hover, .champion-state-directory a[aria-current="page"] { background: var(--ink); color: var(--paper); }
 @media (max-width: 1100px) { .champion-state-records, .champion-state-species { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 600px) { .champion-state-records, .champion-state-species, .champion-state-visits { grid-template-columns: minmax(0, 1fr); } .champion-state-hero .champion-stats { gap: 1rem; flex-direction: column; } .champion-state-species img { height: 260px; } }
+
+/* Compact visit discovery; full visitor guidance stays on each guide page. */
+.visit-filters { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)) auto; gap: 1rem; align-items: end; padding: 1.5rem; border: 1px solid var(--line); background: var(--paper); }
+.visit-filters label { display: grid; gap: .5rem; font-size: .9rem; }
+.visit-filters select { width: 100%; min-height: 44px; padding: .65rem; border: 1px solid var(--line); border-radius: 0; background: var(--paper); color: inherit; font: inherit; }
+.visit-filters button { min-height: 44px; }
+.visit-filters button:disabled { opacity: .5; cursor: default; }
+.visit-result-count { font-size: .9rem; margin: 1.25rem 0; }
+.visit-preview-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem; margin-bottom: 3rem; }
+.visit-preview { display: flex; flex-direction: column; padding: clamp(1.25rem, 3vw, 2rem); border: 1px solid var(--line); }
+.visit-preview h3 { font: 400 clamp(1.5rem, 2.5vw, 2rem)/1.2 Georgia, serif; margin: .5rem 0 .75rem; }
+.visit-preview h3 a { text-decoration: none; }
+.visit-preview h3 a:hover { text-decoration: underline; text-underline-offset: 4px; }
+.visit-preview .section-kicker { font-size: .7rem; line-height: 1.6; }
+.visit-preview-species, .visit-preview-place { font-size: .9rem; margin: .25rem 0 .75rem; }
+.visit-preview-practice { margin-top: auto; padding-top: 1rem; border-top: 1px solid var(--line); }
+.visit-preview-date { font-size: .75rem; }
+.visit-preview > .course-link { margin-top: .65rem; }
+.visit-empty { padding: 2rem; border: 1px solid var(--line); margin-bottom: 3rem; }
+@media (max-width: 900px) { .visit-filters { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 600px) { .visit-filters, .visit-preview-grid { grid-template-columns: 1fr; } }
