@@ -90,6 +90,16 @@ export default function Home() {
         </div>
       </section>
 
+      <HomeChampions />
+
+      <section className="home-tree-section section-shell" aria-labelledby="tree-library-heading">
+        <div className="section-heading"><p className="section-kicker">The Tree Library</p><h2 id="tree-library-heading">Every tree is a new doorway.</h2></div>
+        <div className="home-tree-feature">
+          <Link href="/trees/pine" aria-label="Meet Pine in the Tree Library"><Image src="/images/trees/pine.webp" alt="Eastern white pine with a broad crown of green needles" width={600} height={450} sizes="(max-width: 760px) 90vw, 45vw" /></Link>
+          <div><p className="section-kicker">Begin with Eastern white pine</p><h3>Pine.</h3><p className="home-tree-themes">Constancy · Clarity · Perseverance</p><p>Meet the tree, explore its contemplative energy, and try a five-minute practice of returning to one clear point.</p><div className="course-actions"><Link className="button primary" href="/trees/pine">Meet the pine</Link><Link className="course-link" href="/trees">Explore the Tree Library</Link></div></div>
+        </div>
+      </section>
+
       <section className="begin section-shell" id="begin">
         <div className="begin-panel">
           <div>
@@ -110,16 +120,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      <section className="home-tree-section section-shell" aria-labelledby="tree-library-heading">
-        <div className="section-heading"><p className="section-kicker">The Tree Library</p><h2 id="tree-library-heading">Every tree is a new doorway.</h2></div>
-        <div className="home-tree-feature">
-          <Link href="/trees/pine" aria-label="Meet Pine in the Tree Library"><Image src="/images/trees/pine.webp" alt="Eastern white pine with a broad crown of green needles" width={600} height={450} sizes="(max-width: 760px) 90vw, 45vw" /></Link>
-          <div><p className="section-kicker">Begin with Eastern white pine</p><h3>Pine.</h3><p className="home-tree-themes">Constancy · Clarity · Perseverance</p><p>Meet the tree, explore its contemplative energy, and try a five-minute practice of returning to one clear point.</p><div className="course-actions"><Link className="button primary" href="/trees/pine">Meet the pine</Link><Link className="course-link" href="/trees">Explore the Tree Library</Link></div></div>
-        </div>
-      </section>
-
-      <HomeChampions />
 
       <section className="home-video home-final-video section-shell" aria-labelledby="final-video-title"><div className="home-video-inner"><p className="section-kicker">The original school · With Alex Julian</p><h2 id="final-video-title">Before you go.</h2><p>One more video from the original Tree Yoga School.</p><VideoLesson youtubeId="bAi5qa-1H-0" title="Tree Yoga School — Closing video with Alex Julian" /></div></section>
 
