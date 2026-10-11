@@ -565,5 +565,19 @@
     [
       "Circumference is in inches; height and full average crown spread are in feet. Published scores remain unchanged, with discrepancies flagged in record details. Eastern Cottonwood’s listed circumference of 497 inches, height of 70 feet and spread of 100 feet calculate to 592 points, while both the listing and its individual page publish 388 points. Kentucky Coffeetree and Lombardy Poplar also have scores inconsistent with the listed measurements."
     ]
+  ],
+  "HI": [
+    [
+      "Eleven records explicitly listed as Champion with state HI in the official 2024 National Register of Champion Trees CSV, retrieved October 11, 2026. This is a limited national-register selection, not a complete Hawaiʻi state register. The national program currently lists Hawaiʻi’s state program as on hiatus."
+    ],
+    [
+      "The last-measured years are 2016 and 2017; nomination years are 2015 and 2017. These are distinct from the 2024 register edition. Current tree condition, champion standing, and visiting access are unverified. Blank NCTME verification fields are preserved without inferred verification."
+    ],
+    [
+      "All eleven sets of circumference, height, crown spread and published points were compared with the accompanying PDF and agree. Names and scores remain as published. Kōlea Lau Nui follows the PDF spelling because the CSV renders it K?lea Lau Nui; that original spelling is documented on the record."
+    ],
+    [
+      "Eight records use the approximate Census Hawaii County point, and three use Honolulu County. Lonomea’s published O‘ahu county label is normalized to Honolulu County with an explicit record note. County markers do not locate individual trees or establish permission to visit. Personal measurer information, exact tree coordinates and street addresses are omitted."
+    ]
   ]
 }

@@ -19,7 +19,7 @@ Each supported state has a static `/champion-trees/<state-name>` destination wit
 ## Current coverage
 
 <!-- coverage:start -->
-- Champion Map: **48 states**, **8,959 listed records**, and **8,483 records with approximate map points**.
+- Champion Map: **49 states**, **8,970 listed records**, and **8,494 records with approximate map points**.
 - Tree Library: **69 species profiles** and **6 photographic comparisons**.
 - Trees to Visit: **14 guides across 11 states**.
 
@@ -672,3 +672,12 @@ All 57 current Wyoming State Forestry Division register entries are included, re
 All records map to 15 approximate Census 2025 county points. These points do not identify individual trees or grant visiting access. Personal fields, addresses, photographs and individual coordinates are omitted. Eastern Cottonwood’s published 497-inch circumference, 70-foot height and 100-foot spread calculate to 592 points, while the source publishes 388 points; the source score remains unchanged with a visible warning. Other score discrepancies are likewise retained and flagged.
 
 Run `python scripts/import-wyoming-champions.py REGISTER.html DETAILS_DIR COUNTIES.zip` with the current register, all 57 slug-named individual HTML pages and Census county Gazetteer. The importer checks the reviewed 57-record fixture, unique links, all listing/detail values, explicit units, county geography and source hashes.
+
+
+### Hawaiʻi national champions — October 11, 2026
+
+Adds the eleven HI rows explicitly designated Champion in the official 2024 National Register CSV. All circumference, height, crown spread and score values were compared with the accompanying PDF and agree. Last-measured years (2016–2017) and nomination years remain distinct from the register edition; current condition and visiting access are unverified. This is limited national coverage, not a complete state register. No older DLNR records are merged into this selection.
+
+Eight records map to Census 2025 Hawaii County and three to Honolulu County. Lonomea’s source O‘ahu county label is explicitly normalized to Honolulu; the original wording is retained. The CSV’s K?lea Lau Nui spelling follows the PDF’s Kōlea Lau Nui with a visible note. Other published common names are retained. Exact tree coordinates and personal measurer names are omitted. Run `python scripts/import-hawaii-champions.py REGISTER.csv COUNTIES.zip` to reproduce the checked import. The fixture contains the eleven independent PDF measurement checks and the audit records source hashes.
+
+Hawaiʻi-only searches automatically show Hawaiʻi. For searches spanning both geographies, the map opens on the contiguous US with a Hawaiʻi switch; the result list retains all matching records. Selecting a Hawaiian record reveals its map view. The Pacific region shortcut filters to Hawaiʻi.

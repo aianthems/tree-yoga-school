@@ -17,7 +17,7 @@ test('indexed filters and reusable sorted registers preserve all result IDs and 
    assert.deepEqual(ordered.filter(t=>included.has(t)).map(t=>t.id),legacyResults(trees,selection).map(t=>t.id),JSON.stringify(selection));
   }
  }
- assert.equal(filterChampionRecords(trees,emptySelection).length,8959);
+ assert.equal(filterChampionRecords(trees,emptySelection).length,8970);
 });
 test('cached state species summaries equal full regrouping after every register arrival',()=>{
  for(let i=1;i<=batches.length;i++) {
@@ -45,7 +45,7 @@ test('map place groups account for every mapped record and leave undisclosed loc
  const mapped=trees.filter(t=>coordinates[townKey(t)]);
  const eligible=trees.filter(t=>t.town||t.mapPrecision==='county');
  const keys=new Set(eligible.map(townKey));
- assert.equal(mapped.length,8483);
+ assert.equal(mapped.length,8494);
  assert.ok(mapped.every(t=>keys.has(townKey(t))));
  assert.equal(trees.length-mapped.length,476);
 });
