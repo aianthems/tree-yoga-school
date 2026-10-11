@@ -8,7 +8,7 @@ const {emptySelection}=require('../lib/champion-links.ts');
 const {townKey}=require('../lib/champion-trees.ts');
 
 test('indexed filters and reusable sorted registers preserve all result IDs and order',()=>{
- const cases=[{}, {query:'oak'},{query:'  WHITE   OAK '},{query:'not-a-tree-zzzz'}, {query:'private'}, {query:'dead'}, {query:'oregon'}, {state:'WA'}, {state:'OR',query:'douglas'}, {genus:'Pinus'}, {species:'  QUERCUS ALBA '}, {publicOnly:true}, {locationsOnly:true}, {publicOnly:true,locationsOnly:true}, ...trees.filter((_,i)=>i%467===0).flatMap(t=>[{town:townKey(t)},{county:t.county,state:t.state},{species:t.scientificName,query:t.state}])];
+ const cases=[{}, {query:'oak'},{query:'  WHITE   OAK '},{query:'not-a-tree-zzzz'}, {query:'private'}, {query:'dead'}, {query:'oregon'}, {state:'NV',species:'dentata'}, {state:'NV',genus:'dentata'}, {state:'WA'}, {state:'OR',query:'douglas'}, {genus:'Pinus'}, {species:'  QUERCUS ALBA '}, {publicOnly:true}, {locationsOnly:true}, {publicOnly:true,locationsOnly:true}, ...trees.filter((_,i)=>i%467===0).flatMap(t=>[{town:townKey(t)},{county:t.county,state:t.state},{species:t.scientificName,query:t.state}])];
  for(const sort of ['name','town','height','points']) {
   const ordered=sortChampionRecords(trees,sort);
   for(const patch of cases) {
@@ -17,7 +17,7 @@ test('indexed filters and reusable sorted registers preserve all result IDs and 
    assert.deepEqual(ordered.filter(t=>included.has(t)).map(t=>t.id),legacyResults(trees,selection).map(t=>t.id),JSON.stringify(selection));
   }
  }
- assert.equal(filterChampionRecords(trees,emptySelection).length,8302);
+ assert.equal(filterChampionRecords(trees,emptySelection).length,8566);
 });
 test('cached state species summaries equal full regrouping after every register arrival',()=>{
  for(let i=1;i<=batches.length;i++) {
@@ -45,7 +45,7 @@ test('map place groups account for every mapped record and leave undisclosed loc
  const mapped=trees.filter(t=>coordinates[townKey(t)]);
  const eligible=trees.filter(t=>t.town||t.mapPrecision==='county');
  const keys=new Set(eligible.map(townKey));
- assert.equal(mapped.length,7862);
+ assert.equal(mapped.length,8120);
  assert.ok(mapped.every(t=>keys.has(townKey(t))));
- assert.equal(trees.length-mapped.length,440);
+ assert.equal(trees.length-mapped.length,446);
 });
