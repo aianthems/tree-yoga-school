@@ -1,0 +1,686 @@
+[
+  {
+    "sourceUrl": "https://wsfd.wyo.gov/champion-tree/american-basswood/",
+    "commonName": "American Basswood",
+    "scientificName": "Tilia americana",
+    "sourceCounty": "Sheridan County",
+    "values": [
+      "152\"",
+      "88.2'",
+      "40'",
+      "250"
+    ]
+  },
+  {
+    "sourceUrl": "https://wsfd.wyo.gov/champion-tree/american-elm/",
+    "commonName": "American Elm",
+    "scientificName": "Ulmus americana",
+    "sourceCounty": "Park County",
+    "values": [
+      "149\"",
+      "95'",
+      "80.5'",
+      "264"
+    ]
+  },
+  {
+    "sourceUrl": "https://wsfd.wyo.gov/champion-tree/american-sycamore/",
+    "commonName": "American Sycamore",
+    "scientificName": "Platanus occidentalis",
+    "sourceCounty": "Goshen County",
+    "values": [
+      "56\"",
+      "55'",
+      "25'",
+      "119"
+    ]
+  },
+  {
+    "sourceUrl": "https://wsfd.wyo.gov/champion-tree/amur-corktree/",
+    "commonName": "Amur Corktree",
+    "scientificName": "Phellodendron amurense",
+    "sourceCounty": "Laramie County",
+    "values": [
+      "43\"",
+      "41.1'",
+      "35'",
+      "92.85"
+    ]
+  },
+  {
+    "sourceUrl": "https://wsfd.wyo.gov/champion-tree/austrian-pine/",
+    "commonName": "Austrian Pine",
+    "scientificName": "Pinus nigra",
+    "sourceCounty": "Laramie County",
+    "values": [
+      "114\"",
+      "42'",
+      "35.75'",
+      "165"
+    ]
+  },
+  {
+    "sourceUrl": "https://wsfd.wyo.gov/champion-tree/black-hills-spruce/",
+    "commonName": "Black Hills Spruce",
+    "scientificName": "Picea glauca 'densata'",
+    "sourceCounty": "Weston County",
+    "values": [
+      "100.5\"",
+      "125.7'",
+      "28.9'",
+      "233.4"
+    ]
+  },
+  {
+    "sourceUrl": "https://wsfd.wyo.gov/champion-tree/black-locust/",
+    "commonName": "Black Locust",
+    "scientificName": "Robinia pseudoacacia",
+    "sourceCounty": "Sheridan County",
+    "values": [
+      "147\"",
+      "55.5'",
+      "45.5'",
+      "213.8"
+    ]
+  },
+  {
+    "sourceUrl": "https://wsfd.wyo.gov/champion-tree/black-walnut/",
+    "commonName": "Black Walnut",
+    "scientificName": "Juglans nigra",
+    "sourceCounty": "Laramie County",
+    "values": [
+      "119.5\"",
+      "58.3'",
+      "60'",
+      "192.8"
+    ]
+  },
+  {
+    "sourceUrl": "https://wsfd.wyo.gov/champion-tree/bolleana-poplar/",
+    "commonName": "Bolleana Poplar",
+    "scientificName": "Populus alba 'Pyramidalis'",
+    "sourceCounty": "Campbell County",
+    "values": [
+      "161\"",
+      "77'",
+      "46'",
+      "249.5"
+    ]
+  },
+  {
+    "sourceUrl": "https://wsfd.wyo.gov/champion-tree/boxelder/",
+    "commonName": "Boxelder",
+    "scientificName": "Acer negundo",
+    "sourceCounty": "Laramie County",
+    "values": [
+      "114\"",
+      "38.5'",
+      "40'",
+      "162.5"
+    ]
+  },
+  {
+    "sourceUrl": "https://wsfd.wyo.gov/champion-tree/bristlecone-pine/",
+    "commonName": "Bristlecone Pine",
+    "scientificName": "Pinus aristata",
+    "sourceCounty": "Laramie County",
+    "values": [
+      "43.8\"",
+      "30'",
+      "25'",
+      "80"
+    ]
+  },
+  {
+    "sourceUrl": "https://wsfd.wyo.gov/champion-tree/bur-oak/",
+    "commonName": "Bur Oak",
+    "scientificName": "Quercus macrocarpa",
+    "sourceCounty": "Crook County",
+    "values": [
+      "144\"",
+      "71.5'",
+      "51.9'",
+      "228.5"
+    ]
+  },
+  {
+    "sourceUrl": "https://wsfd.wyo.gov/champion-tree/chokecherry-canada-red/",
+    "commonName": "Chokecherry ‘Canada Red’",
+    "scientificName": "Prunus virginiana 'Canada Red'",
+    "sourceCounty": "Laramie County",
+    "values": [
+      "50.3\"",
+      "40'",
+      "27'",
+      "97"
+    ]
+  },
+  {
+    "sourceUrl": "https://wsfd.wyo.gov/champion-tree/colorado-blue-spruce/",
+    "commonName": "Colorado Blue Spruce",
+    "scientificName": "Picea pungens",
+    "sourceCounty": "Fremont County",
+    "values": [
+      "144.5\"",
+      "93.2'",
+      "56.4'",
+      "252"
+    ]
+  },
+  {
+    "sourceUrl": "https://wsfd.wyo.gov/champion-tree/common-hackberry/",
+    "commonName": "Common Hackberry",
+    "scientificName": "Celtis occidentalis",
+    "sourceCounty": "Laramie County",
+    "values": [
+      "91.4\"",
+      "57.5'",
+      "67.5'",
+      "165.8"
+    ]
+  },
+  {
+    "sourceUrl": "https://wsfd.wyo.gov/champion-tree/crabapple/",
+    "commonName": "Crabapple",
+    "scientificName": "Malus spp.",
+    "sourceCounty": "Sheridan County",
+    "values": [
+      "78\"",
+      "50'",
+      "41.3'",
+      "138.3"
+    ]
+  },
+  {
+    "sourceUrl": "https://wsfd.wyo.gov/champion-tree/douglas-fir/",
+    "commonName": "Douglas Fir",
+    "scientificName": "Pseudotsuga menziesii",
+    "sourceCounty": "Carbon County",
+    "values": [
+      "179.6\"",
+      "96'",
+      "61'",
+      "290.85"
+    ]
+  },
+  {
+    "sourceUrl": "https://wsfd.wyo.gov/champion-tree/downy-hawthorn/",
+    "commonName": "Downy Hawthorn",
+    "scientificName": "Crataegus mollis",
+    "sourceCounty": "Laramie County",
+    "values": [
+      "88\"",
+      "27.7'",
+      "40.83'",
+      "125.9"
+    ]
+  },
+  {
+    "sourceUrl": "https://wsfd.wyo.gov/champion-tree/eastern-cottonwood/",
+    "commonName": "Eastern Cottonwood",
+    "scientificName": "Populus deltoides",
+    "sourceCounty": "Sheridan County",
+    "values": [
+      "497\"",
+      "70'",
+      "100'",
+      "388"
+    ]
+  },
+  {
+    "sourceUrl": "https://wsfd.wyo.gov/champion-tree/eastern-white-pine/",
+    "commonName": "Eastern White Pine",
+    "scientificName": "Pinus strobus",
+    "sourceCounty": "Sheridan County",
+    "values": [
+      "92.6\"",
+      "70.4'",
+      "51.75'",
+      "179.5"
+    ]
+  },
+  {
+    "sourceUrl": "https://wsfd.wyo.gov/champion-tree/engelmann-spruce/",
+    "commonName": "Engelmann Spruce",
+    "scientificName": "Picea engelmannii",
+    "sourceCounty": "Lincoln County",
+    "values": [
+      "188\"",
+      "137'",
+      "38.6'",
+      "334.65"
+    ]
+  },
+  {
+    "sourceUrl": "https://wsfd.wyo.gov/champion-tree/european-mountain-ash/",
+    "commonName": "European Mountain Ash",
+    "scientificName": "Sorbus aucuparia",
+    "sourceCounty": "Laramie County",
+    "values": [
+      "50\"",
+      "33.25'",
+      "27.5'",
+      "90.125"
+    ]
+  },
+  {
+    "sourceUrl": "https://wsfd.wyo.gov/champion-tree/european-white-birch/",
+    "commonName": "European White Birch",
+    "scientificName": "Betula pendula",
+    "sourceCounty": "Big Horn County",
+    "values": [
+      "116\"",
+      "58'",
+      "63'",
+      "191.75"
+    ]
+  },
+  {
+    "sourceUrl": "https://wsfd.wyo.gov/champion-tree/european-white-elm/",
+    "commonName": "European White Elm",
+    "scientificName": "Ulmus laevis",
+    "sourceCounty": "Laramie County",
+    "values": [
+      "67\"",
+      "40'",
+      "37'",
+      "117.25"
+    ]
+  },
+  {
+    "sourceUrl": "https://wsfd.wyo.gov/champion-tree/golden-willow/",
+    "commonName": "Golden Willow",
+    "scientificName": "Salix alba var. vitellina",
+    "sourceCounty": "Platte County",
+    "values": [
+      "314\"",
+      "42'",
+      "70.5'",
+      "373.62"
+    ]
+  },
+  {
+    "sourceUrl": "https://wsfd.wyo.gov/champion-tree/green-ash/",
+    "commonName": "Green Ash",
+    "scientificName": "Fraxinus pennsylvanica",
+    "sourceCounty": "Johnson County",
+    "values": [
+      "115\"",
+      "66'",
+      "63'",
+      "196.75"
+    ]
+  },
+  {
+    "sourceUrl": "https://wsfd.wyo.gov/champion-tree/honeylocust/",
+    "commonName": "Honeylocust",
+    "scientificName": "Gleditsia triacanthos",
+    "sourceCounty": "Sheridan County",
+    "values": [
+      "124\"",
+      "75'",
+      "61'",
+      "214.25"
+    ]
+  },
+  {
+    "sourceUrl": "https://wsfd.wyo.gov/champion-tree/kentucky-coffeetree/",
+    "commonName": "Kentucky Coffeetree",
+    "scientificName": "Gymnocladus dioica",
+    "sourceCounty": "Natrona County",
+    "values": [
+      "68.4\"",
+      "40.4'",
+      "45'",
+      "158.8"
+    ]
+  },
+  {
+    "sourceUrl": "https://wsfd.wyo.gov/champion-tree/lanceleaf-cottonwood/",
+    "commonName": "Lanceleaf Cottonwood",
+    "scientificName": "Populus acuminata",
+    "sourceCounty": "Fremont County",
+    "values": [
+      "149\"",
+      "105'",
+      "65'",
+      "271.25"
+    ]
+  },
+  {
+    "sourceUrl": "https://wsfd.wyo.gov/champion-tree/limber-pine/",
+    "commonName": "Limber Pine",
+    "scientificName": "Pinus flexilis",
+    "sourceCounty": "Big Horn County",
+    "values": [
+      "170\"",
+      "92'",
+      "67'",
+      "278.75"
+    ]
+  },
+  {
+    "sourceUrl": "https://wsfd.wyo.gov/champion-tree/littleleaf-linden/",
+    "commonName": "Littleleaf Linden",
+    "scientificName": "Tilia cordata",
+    "sourceCounty": "Laramie County",
+    "values": [
+      "98\"",
+      "66'",
+      "40.25'",
+      "174.1"
+    ]
+  },
+  {
+    "sourceUrl": "https://wsfd.wyo.gov/champion-tree/lodgepole-pine/",
+    "commonName": "Lodgepole Pine",
+    "scientificName": "Pinus contorta",
+    "sourceCounty": "Carbon County",
+    "values": [
+      "111\"",
+      "77'",
+      "29'",
+      "195.25"
+    ]
+  },
+  {
+    "sourceUrl": "https://wsfd.wyo.gov/champion-tree/lombardy-poplar/",
+    "commonName": "Lombardy Poplar",
+    "scientificName": "Populus nigra 'Italica'",
+    "sourceCounty": "Campbell County",
+    "values": [
+      "120\"",
+      "50'",
+      "13'",
+      "123.8"
+    ]
+  },
+  {
+    "sourceUrl": "https://wsfd.wyo.gov/champion-tree/mulberry/",
+    "commonName": "Mulberry",
+    "scientificName": "Morus spp.",
+    "sourceCounty": "Natrona County",
+    "values": [
+      "38\"",
+      "40'",
+      "24'",
+      "84"
+    ]
+  },
+  {
+    "sourceUrl": "https://wsfd.wyo.gov/champion-tree/northern-catalpa/",
+    "commonName": "Northern Catalpa",
+    "scientificName": "Catalpa speciosa",
+    "sourceCounty": "Goshen County",
+    "values": [
+      "208\"",
+      "54'",
+      "45'",
+      "274.25"
+    ]
+  },
+  {
+    "sourceUrl": "https://wsfd.wyo.gov/champion-tree/northern-red-oak/",
+    "commonName": "Northern Red Oak",
+    "scientificName": "Quercus rubra",
+    "sourceCounty": "Laramie County",
+    "values": [
+      "80.4\"",
+      "52.6'",
+      "57'",
+      "147.25"
+    ]
+  },
+  {
+    "sourceUrl": "https://wsfd.wyo.gov/champion-tree/norway-maple/",
+    "commonName": "Norway Maple",
+    "scientificName": "Acer platanoides",
+    "sourceCounty": "Sheridan County",
+    "values": [
+      "124\"",
+      "54'",
+      "55'",
+      "191.75"
+    ]
+  },
+  {
+    "sourceUrl": "https://wsfd.wyo.gov/champion-tree/norway-spruce/",
+    "commonName": "Norway Spruce",
+    "scientificName": "Picea abies",
+    "sourceCounty": "Campbell County",
+    "values": [
+      "43\"",
+      "32'",
+      "22'",
+      "80.5"
+    ]
+  },
+  {
+    "sourceUrl": "https://wsfd.wyo.gov/champion-tree/oakleaf-mountain-ash/",
+    "commonName": "Oakleaf Mountain Ash",
+    "scientificName": "Sorbus x hybrida",
+    "sourceCounty": "Laramie County",
+    "values": [
+      "34.2\"",
+      "22.1'",
+      "18'",
+      "60.8"
+    ]
+  },
+  {
+    "sourceUrl": "https://wsfd.wyo.gov/champion-tree/ohio-buckeye/",
+    "commonName": "Ohio Buckeye",
+    "scientificName": "Aesculus glabra",
+    "sourceCounty": "Sheridan County",
+    "values": [
+      "91\"",
+      "49'",
+      "42'",
+      "150.5"
+    ]
+  },
+  {
+    "sourceUrl": "https://wsfd.wyo.gov/champion-tree/paper-birch/",
+    "commonName": "Paper Birch",
+    "scientificName": "Betula papyrifera",
+    "sourceCounty": "Crook County",
+    "values": [
+      "71.3\"",
+      "55'",
+      "34.2'",
+      "134.5"
+    ]
+  },
+  {
+    "sourceUrl": "https://wsfd.wyo.gov/champion-tree/plains-cottonwood/",
+    "commonName": "Plains Cottonwood",
+    "scientificName": "Populus sargentii 'Dode'",
+    "sourceCounty": "Albany County",
+    "values": [
+      "397\"",
+      "80'",
+      "111.5'",
+      "504.9"
+    ]
+  },
+  {
+    "sourceUrl": "https://wsfd.wyo.gov/champion-tree/ponderosa-pine/",
+    "commonName": "Ponderosa Pine",
+    "scientificName": "Pinus ponderosa",
+    "sourceCounty": "Natrona County",
+    "values": [
+      "156\"",
+      "85'",
+      "61'",
+      "256.25"
+    ]
+  },
+  {
+    "sourceUrl": "https://wsfd.wyo.gov/champion-tree/quaking-aspen/",
+    "commonName": "Quaking Aspen",
+    "scientificName": "Populus tremuloides",
+    "sourceCounty": "Crook County",
+    "values": [
+      "107\"",
+      "66'",
+      "32.7'",
+      "181"
+    ]
+  },
+  {
+    "sourceUrl": "https://wsfd.wyo.gov/champion-tree/rock-elm/",
+    "commonName": "Rock Elm",
+    "scientificName": "Ulmus thomasii",
+    "sourceCounty": "Laramie County",
+    "values": [
+      "80.4\"",
+      "65'",
+      "27'",
+      "151.15"
+    ]
+  },
+  {
+    "sourceUrl": "https://wsfd.wyo.gov/champion-tree/rocky-mountain-juniper/",
+    "commonName": "Rocky Mountain Juniper",
+    "scientificName": "Juniperus scopulorum",
+    "sourceCounty": "Platte County",
+    "values": [
+      "192\"",
+      "33'",
+      "30'",
+      "232.5"
+    ]
+  },
+  {
+    "sourceUrl": "https://wsfd.wyo.gov/champion-tree/rocky-mountain-maple/",
+    "commonName": "Rocky Mountain Maple",
+    "scientificName": "Acer glabrum",
+    "sourceCounty": "Sheridan County",
+    "values": [
+      "36\"",
+      "41'",
+      "45'",
+      "88.25"
+    ]
+  },
+  {
+    "sourceUrl": "https://wsfd.wyo.gov/champion-tree/scotch-pine/",
+    "commonName": "Scotch Pine",
+    "scientificName": "Pinus sylvestris",
+    "sourceCounty": "Sheridan County",
+    "values": [
+      "123.5\"",
+      "67.7'",
+      "51.4'",
+      "204.1"
+    ]
+  },
+  {
+    "sourceUrl": "https://wsfd.wyo.gov/champion-tree/siberian-elm/",
+    "commonName": "Siberian Elm",
+    "scientificName": "Ulmus pumila",
+    "sourceCounty": "Johnson County",
+    "values": [
+      "212\"",
+      "68'",
+      "104'",
+      "306"
+    ]
+  },
+  {
+    "sourceUrl": "https://wsfd.wyo.gov/champion-tree/silver-maple/",
+    "commonName": "Silver Maple",
+    "scientificName": "Acer saccharinum",
+    "sourceCounty": "Fremont County",
+    "values": [
+      "198.5\"",
+      "53'",
+      "63'",
+      "274.6"
+    ]
+  },
+  {
+    "sourceUrl": "https://wsfd.wyo.gov/champion-tree/subalpine-fir/",
+    "commonName": "Subalpine Fir",
+    "scientificName": "Abies lasiocarpa",
+    "sourceCounty": "Lincoln County",
+    "values": [
+      "121\"",
+      "87'",
+      "22'",
+      "213.5"
+    ]
+  },
+  {
+    "sourceUrl": "https://wsfd.wyo.gov/champion-tree/tatarian-maple/",
+    "commonName": "Tatarian Maple",
+    "scientificName": "Acer tataricum",
+    "sourceCounty": "Laramie County",
+    "values": [
+      "30\"",
+      "30'",
+      "37'",
+      "70.25"
+    ]
+  },
+  {
+    "sourceUrl": "https://wsfd.wyo.gov/champion-tree/texas-buckeye/",
+    "commonName": "Texas Buckeye",
+    "scientificName": "Aesculus arguta",
+    "sourceCounty": "Laramie County",
+    "values": [
+      "61\"",
+      "16.3'",
+      "30'",
+      "84.8"
+    ]
+  },
+  {
+    "sourceUrl": "https://wsfd.wyo.gov/champion-tree/western-larch/",
+    "commonName": "Western Larch",
+    "scientificName": "Larix occidentalis",
+    "sourceCounty": "Johnson County",
+    "values": [
+      "49\"",
+      "47.5'",
+      "29.5'",
+      "103.9"
+    ]
+  },
+  {
+    "sourceUrl": "https://wsfd.wyo.gov/champion-tree/white-fir/",
+    "commonName": "White Fir",
+    "scientificName": "Abies concolor",
+    "sourceCounty": "Laramie County",
+    "values": [
+      "116.5\"",
+      "63'",
+      "33'",
+      "187.65"
+    ]
+  },
+  {
+    "sourceUrl": "https://wsfd.wyo.gov/champion-tree/white-poplar/",
+    "commonName": "White Poplar",
+    "scientificName": "Populus alba",
+    "sourceCounty": "Platte County",
+    "values": [
+      "226\"",
+      "86.4'",
+      "73'",
+      "330.55"
+    ]
+  },
+  {
+    "sourceUrl": "https://wsfd.wyo.gov/champion-tree/whitebark-pine/",
+    "commonName": "Whitebark Pine",
+    "scientificName": "Pinus albicaulis",
+    "sourceCounty": "Fremont County",
+    "values": [
+      "235\"",
+      "62'",
+      "55.5'",
+      "352.5"
+    ]
+  }
+]

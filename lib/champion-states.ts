@@ -7,6 +7,12 @@ export type ChampionStateConfig = {
   source: Readonly<Record<string, string | number>>;
 };
 export const championStates = {
+  WY: { name: "Wyoming", sourceDate: "Wyoming State Forestry register · retrieved October 11, 2026 · edition not stated", recordFiles: ["wyoming-champion-trees.json"], coordinateFile: "wyoming-county-points.json", recordPrecision: "county", coordinatePrecision: "county", recordOrder: -22, expectedRecords: 57, expectedMapped: 57, unmappedIds: [], importer: "import-wyoming-champions.py", auditFile: "wyoming-import-audit.json", source: {
+    registerUrl: "https://wsfd.wyo.gov/forestry/wyoming-state-champion-tree-register/",
+    programUrl: "https://wsfd.wyo.gov/program-grant/wyoming-state-champion-tree-program/",
+    geographyUrl: "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_counties_national.zip",
+    retrieved: "October 11, 2026", count: 57,
+  } },
   UT: { name: "Utah", sourceDate: "UCFC Big Tree Directory · retrieved October 11, 2026 · individual measurement years", recordFiles: ["utah-champion-trees.json"], coordinateFile: "utah-place-points.json", recordPrecision: "preserve", coordinatePrecision: "place", recordOrder: -21, expectedRecords: 248, expectedMapped: 225, unmappedIds: ["ut-91", "ut-67", "ut-96", "ut-115", "ut-240", "ut-73", "ut-138", "ut-131", "ut-70", "ut-71", "ut-239", "ut-206", "ut-308", "ut-89", "ut-52", "ut-134", "ut-129", "ut-2", "ut-135", "ut-309", "ut-205", "ut-94", "ut-247"], importer: "import-utah-champions.py", auditFile: "utah-import-audit.json", source: {
     registerUrl: "https://utahurbanforest.org/amazing-trees/big-tree-directory",
     programUrl: "https://ffsl.utah.gov/forestry/urban-community-forestry/",
@@ -310,7 +316,7 @@ export const championStates = {
 export type ChampionState = keyof typeof championStates;
 export const stateNames = Object.fromEntries(Object.entries(championStates).map(([state, config]) => [state, config.name])) as Record<ChampionState, string>;
 export const sourceDates = Object.fromEntries(Object.entries(championStates).map(([state, config]) => [state, config.sourceDate])) as Record<ChampionState, string>;
-export const championRegions = { west: { name: "West", states: ["UT", "CA", "AZ", "NV", "ID", "CO", "MT", "NM", "OR", "WA"] }, "south-central": { name: "South Central", states: ["TX", "LA", "OK"] }, midwest: { name: "Midwest", states: ["ND", "SD", "IN", "IL", "MI", "OH", "WI", "MN", "IA", "MO", "KS", "NE"] }, southeast: { name: "Southeast", states: ["MS", "NC", "SC", "TN", "GA", "KY", "AL", "FL", "AR"] }, "new-england": { name: "New England", states: ["MA", "NH", "VT", "ME", "RI", "CT"] }, northeast: { name: "Northeast", states: ["MA", "NH", "VT", "ME", "RI", "CT", "NY", "NJ", "PA"] }, "mid-atlantic": { name: "Mid-Atlantic", states: ["NY", "NJ", "PA", "DE", "MD", "VA", "WV"] } };
+export const championRegions = { west: { name: "West", states: ["WY", "UT", "CA", "AZ", "NV", "ID", "CO", "MT", "NM", "OR", "WA"] }, "south-central": { name: "South Central", states: ["TX", "LA", "OK"] }, midwest: { name: "Midwest", states: ["ND", "SD", "IN", "IL", "MI", "OH", "WI", "MN", "IA", "MO", "KS", "NE"] }, southeast: { name: "Southeast", states: ["MS", "NC", "SC", "TN", "GA", "KY", "AL", "FL", "AR"] }, "new-england": { name: "New England", states: ["MA", "NH", "VT", "ME", "RI", "CT"] }, northeast: { name: "Northeast", states: ["MA", "NH", "VT", "ME", "RI", "CT", "NY", "NJ", "PA"] }, "mid-atlantic": { name: "Mid-Atlantic", states: ["NY", "NJ", "PA", "DE", "MD", "VA", "WV"] } };
 
 // Coverage copy follows the same registry that drives imports and state filters.
 export const championCoverage = {
