@@ -14,6 +14,8 @@ Tree Yoga School is a yoga school founded by **Alex Julian**, now being renewed 
 
 Trees to Visit and Return to Your Tree are primary navigation destinations. The School menu connects About, Contact, Big Tree Volunteers, and the original book. The return practice includes a four-visit handwritten journal and a downloadable one-page PDF. Contact drafts open a visitor’s own email application; the site does not store messages or observations.
 
+Each supported state has a static `/champion-trees/<state-name>` destination with register dates and coverage, a published-height preview, matching Library species and practices, and available visit guides. State shortcuts open these pages; map filters retain their existing query URLs. Detailed selection and mapping notes are shared between the state pages and the map in `lib/champion-register-notes.json`.
+
 ## Current coverage
 
 <!-- coverage:start -->

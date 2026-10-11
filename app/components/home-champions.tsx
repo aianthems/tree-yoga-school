@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { championCoverage, championStates, type ChampionState } from "../../lib/champion-states";
-import { championHref } from "../../lib/champion-links";
+import { championStateHref } from "../../lib/champion-state-pages";
 
 const featuredStates: ChampionState[] = ["MA", "NH", "CO", "LA", "OK", "TX"];
 const availableStates = Object.entries(championStates).sort((a, b) => a[1].name.localeCompare(b[1].name));
@@ -55,18 +55,18 @@ export default function HomeChampions() {
       </div>
       <div className="home-champions-states">
         <p className="section-kicker">Choose a place to begin</p>
-        <nav className="home-champions-shortcuts" aria-label="Featured states on the Champion Map">
+        <nav className="home-champions-shortcuts" aria-label="Featured champion tree state pages">
           {featuredStates.map(state => (
-            <Link key={state} href={`${championHref({ state })}#explorer`} prefetch={false}>
+            <Link key={state} href={championStateHref(state)} prefetch={false}>
               <span>{championStates[state].name}</span><span aria-hidden="true">↗</span>
             </Link>
           ))}
         </nav>
         <details className="home-champions-directory">
           <summary>Find your state · All {championCoverage.states} available states</summary>
-          <nav aria-label="All states on the Champion Map">
+          <nav aria-label="All champion tree state pages">
             {availableStates.map(([state, config]) => (
-              <Link key={state} href={`${championHref({ state })}#explorer`} prefetch={false}>{config.name}<span>{config.expectedRecords.toLocaleString("en-US")} records</span></Link>
+              <Link key={state} href={championStateHref(state)} prefetch={false}>{config.name}<span>{config.expectedRecords.toLocaleString("en-US")} records</span></Link>
             ))}
           </nav>
         </details>
