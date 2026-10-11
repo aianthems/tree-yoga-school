@@ -1334,3 +1334,22 @@ section[id] { scroll-margin-top: 90px; }
 .visit-empty { padding: 2rem; border: 1px solid var(--line); margin-bottom: 3rem; }
 @media (max-width: 900px) { .visit-filters { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 600px) { .visit-filters, .visit-preview-grid { grid-template-columns: 1fr; } }
+
+.contribution-form > h2 { margin-top: 0; }
+.contribution-form fieldset { border: 0; padding: 0; margin: 0; min-width: 0; }
+.contribution-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem; margin: 1.5rem 0; }
+.contribution-form label:not(.contribution-check) { display: grid; gap: .5rem; font-size: .9rem; }
+.contribution-form input:not([type=checkbox]), .contribution-form select, .contribution-form textarea { width: 100%; min-width: 0; min-height: 44px; box-sizing: border-box; border: 1px solid var(--line); padding: .75rem; background: var(--paper); color: inherit; font: inherit; }
+.contribution-form textarea { resize: vertical; }
+.contribution-form label > span, .contribution-photos p { font-size: .8rem; line-height: 1.6; }
+.contribution-photos { padding: 1.25rem 0; margin: 1.5rem 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.contribution-form .contribution-permission { border: 1px solid var(--line); padding: 1.25rem; margin-bottom: 1.5rem; }
+.contribution-permission legend { font-weight: 600; padding: 0 .4rem; }
+.contribution-check { display: flex; align-items: flex-start; flex-wrap: wrap; gap: .6rem; margin: 1rem 0; font-size: .9rem; line-height: 1.6; }
+.contribution-check input { flex: 0 0 auto; width: 20px; height: 20px; margin: .15rem 0 0; accent-color: var(--ink); }
+.contribution-notice, .contribution-context, .contribution-success { padding: 1rem 1.25rem; border: 1px solid var(--line); background: var(--paper); }
+.contribution-notice p { margin: 0 0 .5rem; }
+.contribution-honeypot { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+.contribution-form button:disabled { opacity: .55; cursor: default; }
+#contribute, #privacy { scroll-margin-top: 6rem; }
+@media (max-width: 600px) { .contribution-grid { grid-template-columns: 1fr; } }
