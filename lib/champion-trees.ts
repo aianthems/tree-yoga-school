@@ -9,6 +9,7 @@ export type ChampionTree = {
   circumference: number | null; height: number | null; crown: number | null;
   points: number | null; notes: string | null;
 };
+export const idChampionSource = championStates.ID.source;
 export const flChampionSource = championStates.FL.source;
 export const alChampionSource = championStates.AL.source;
 export const inChampionSource = championStates.IN.source;
