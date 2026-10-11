@@ -1,0 +1,18 @@
+{
+  "retrieved": "October 11, 2026",
+  "sourceUrl": "https://www.uaf.edu/news/archives/news-archives-2010-2021/the-largest-black-spruce-in-alaska.php",
+  "originalPublicationYear": 2003,
+  "republicationDate": "2010-08-19",
+  "selection": "One explicitly identified historical state champion; not a complete state register.",
+  "geographyUrl": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_02.txt",
+  "geographySha256": "d69dcbd871995d1b820d73e210d1c01f834f2cb59a1bda4f1250e369859b9ad5",
+  "placeGeoid": "0224230",
+  "mapping": "Fairbanks campus → approximate Fairbanks city representative point",
+  "unpublishedFields": [
+    "measurementDate",
+    "crown",
+    "points",
+    "visitingPermission",
+    "exactTreeCoordinates"
+  ]
+}
