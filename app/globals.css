@@ -1273,3 +1273,43 @@ section[id] { scroll-margin-top: 90px; }
 .hug-book h2 { font-family: Georgia, "Times New Roman", serif; font-weight: 400; font-size: clamp(2.2rem, 4vw, 3.5rem); line-height: 1.15; }
 @media (max-width: 700px) { .book-connections ul { grid-template-columns: minmax(0, 1fr); } .chapter-steps { gap: .4rem; font-size: .9rem; } .chapter-steps a { padding: .75rem .5rem; gap: .4rem; } }
 @media print { .outdoor-practice .book-connections { display: none; } .chapter-steps { display: none; } }
+
+/* State destinations: register context, species discovery, and practical visits. */
+.champion-state-page { max-width: 1500px; margin: auto; }
+.champion-state-hero { padding: clamp(3rem, 7vw, 6rem) clamp(1.25rem, 5vw, 5rem) 2.5rem; background: var(--cream); }
+.champion-state-hero .lesson-back { display: inline-block; margin-bottom: 2.5rem; }
+.champion-state-hero h1 { font-size: clamp(3.2rem, 7vw, 7rem); line-height: 1.03; letter-spacing: -0.055em; }
+.champion-state-hero h1 em { font-weight: 400; color: var(--moss); }
+.champion-state-hero .lesson-lede { max-width: 55ch; }
+.champion-state-jumps { display: flex; flex-wrap: wrap; gap: .75rem 2rem; margin-top: 2.5rem; font-size: .9rem; }
+.champion-state-section { padding: clamp(2.5rem, 5vw, 4.5rem) clamp(1.25rem, 5vw, 5rem); border-top: 1px solid var(--line); scroll-margin-top: 5rem; }
+.champion-state-section h2 { font-family: Georgia, serif; font-size: clamp(2.2rem, 4vw, 3.8rem); font-weight: 400; line-height: 1.1; letter-spacing: -.035em; margin-bottom: 1.5rem; }
+.champion-state-section > p { max-width: 78ch; line-height: 1.75; }
+.champion-state-date { color: var(--ink-soft); font-weight: 700; }
+.champion-state-source-notes { max-width: 85ch; margin-top: 1.5rem; padding: 1.25rem; border: 1px solid var(--line); }
+.champion-state-source-notes summary { cursor: pointer; font-weight: 700; min-height: 28px; }
+.champion-state-source-notes p { line-height: 1.75; margin-top: 1rem; }
+.champion-state-records, .champion-state-species { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1.25rem; margin-top: 2rem; }
+.champion-state-record { padding: 1.5rem; border: 1px solid var(--line); background: var(--cream); }
+.champion-state-record h3, .champion-state-species h3, .champion-state-visits h3 { font: 400 1.8rem/1.15 Georgia, serif; margin: .5rem 0; overflow-wrap: anywhere; }
+.champion-state-record p { line-height: 1.5; }
+.champion-state-record dl { margin: 1.5rem 0; }
+.champion-state-record dl div { border-top: 1px solid var(--line); padding: .75rem 0; }
+.champion-state-record dt { font-size: .8rem; color: var(--ink-soft); }
+.champion-state-record dd { font: 400 1.8rem Georgia, serif; margin: .35rem 0 0; }
+.champion-state-record-date { font-size: .8rem; }
+.champion-state-species article { border: 1px solid var(--line); min-width: 0; }
+.champion-state-species img { width: 100%; height: 220px; object-fit: cover; }
+.champion-state-species article > div { padding: 1.25rem; }
+.champion-state-species article > div p { line-height: 1.6; }
+.champion-state-species .course-link { display: block; margin-top: 1rem; }
+.champion-state-photo-credit { font-size: .7rem; line-height: 1.6; padding: 0 1.25rem 1.25rem; color: var(--ink-soft); }
+.champion-state-visits { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem; margin: 2rem 0; }
+.champion-state-visits article { padding: 1.5rem; background: var(--cream); }
+.champion-state-visits p { line-height: 1.7; }
+.champion-state-directory { background: var(--cream); }
+.champion-state-directory > div { display: flex; flex-wrap: wrap; gap: .6rem; }
+.champion-state-directory a { border: 1px solid var(--line); padding: .75rem 1rem; text-decoration: none; }
+.champion-state-directory a:hover, .champion-state-directory a[aria-current="page"] { background: var(--ink); color: var(--paper); }
+@media (max-width: 1100px) { .champion-state-records, .champion-state-species { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 600px) { .champion-state-records, .champion-state-species, .champion-state-visits { grid-template-columns: minmax(0, 1fr); } .champion-state-hero .champion-stats { gap: 1rem; flex-direction: column; } .champion-state-species img { height: 260px; } }

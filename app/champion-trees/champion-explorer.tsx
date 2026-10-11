@@ -2,6 +2,7 @@
 
 import { startTransition, useCallback, useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
+import { championStateHref } from "../../lib/champion-state-pages";
 import { useSearchParams } from "next/navigation";
 import { championRegionCoverage } from "../../lib/champion-states";
 import { championHref, emptySelection, readChampionSelection, type ChampionSelection } from "../../lib/champion-links";
@@ -223,7 +224,7 @@ export default function ChampionExplorer({ manifest }: { manifest: ChampionManif
     {state === "MT" && <p className="champion-location-note"><strong>Montana:</strong> All 174 entries from the 2024 register at 15 approximate county points. Visiting access and current conditions are unverified. <a href="#source-MT">Read Montana source notes.</a></p>}
     {state === "CO" && <p className="champion-location-note">Colorado includes all 846 published entries: first-place listings, other positions through 7, and one unranked tree. Position labels, including T suffixes, remain as published. The “Nat'l Pts.” column is a score, not a national champion designation. <a href="#source-CO">Read the Colorado source notes.</a></p>}
     {selectedId && !selected && !loading && !loadError && <p role="status">This tree is unavailable in the current selection. <button type="button" className="champion-text-button" onClick={() => updateSelection({ ...emptySelection, selectedId })}>Look across all states</button> or <button type="button" className="champion-text-button" onClick={() => updateSelection({ selectedId: null })}>clear the selected tree</button>.</p>}
-    {state && <p className="champion-location-note"><strong>{stateNames[state as ChampionState]} source:</strong> {sourceDates[state as ChampionState]}</p>}
+    {state && <p className="champion-location-note"><strong>{stateNames[state as ChampionState]} source:</strong> {sourceDates[state as ChampionState]} · <Link href={championStateHref(state)} prefetch={false}>Explore this state’s register, species & visits →</Link></p>}
     {state === "MN" && <p className="champion-location-note"><strong>Minnesota:</strong> All 62 current champion and co-champion records across 51 native species at 28 approximate county points. <a href="#source-MN">Read Minnesota source notes.</a></p>}
     {state === "WI" && <p className="champion-location-note"><strong>Wisconsin:</strong> All 57 records from both official champion map layers at 21 approximate county points. DNR reports a staffing-related program pause. <a href="#source-WI">Read Wisconsin source notes.</a></p>}
     {state === "OH" && <p className="champion-location-note"><strong>Ohio:</strong> All {ohChampionSource.nativeCount} native and all {ohChampionSource.nonNativeCount} non-native champion entries. {ohChampionSource.mappedCount} records at {ohChampionSource.countyCount} approximate county points; Gray Birch has no published county and remains in the results without a marker. <a href="#source-OH">Read Ohio source notes.</a></p>}

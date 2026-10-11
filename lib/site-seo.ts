@@ -1,3 +1,4 @@
+import { championStatePages, championStateHref, statePageDescription } from "./champion-state-pages";
 import { championMapDescription } from "./champion-states";
 import type { Metadata } from "next";
 import { treeComparisons } from "./tree-comparisons";
@@ -26,6 +27,7 @@ export const discoveryPages = [
   { path: "/book", title: "Explore the Book", description: "Explore the seven chapters of Alex Julian’s Tree Yoga School." },
   { path: "/lessons/first-five-minutes", title: "Your First Five Minutes with a Tree", description: "Begin with observation, natural breathing, and a few minutes beside a tree." },
   { path: "/practice/first-five-minutes", title: "Any Tree Outdoor Practice", description: "Readable observation steps, an optional timer, and a printable practice sheet." },
+  ...championStatePages.map(page => ({ path: championStateHref(page.state), title: `${page.name} Champion Trees`, description: statePageDescription(page.state) })),
   ...treeComparisons.map(pair => ({ path: `/compare-trees/${pair.slug}`, title: `${pair.title}: Compare Similar Trees`, description: pair.lead })),
   ...trees.flatMap(tree => [
     { path: `/trees/${tree.slug}`, title: `${tree.name}: Energy & Practice`, description: `Meet ${tree.species} and explore ${tree.themes.join(", ").toLowerCase()} through observation and a five-minute practice.` },
