@@ -1,0 +1,170 @@
+[
+  {
+    "originalUrl": "https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/Aesculus-glabra_leaves_James_St_John_ccby20.jpeg",
+    "image": "/images/trees/ohio-buckeye.webp",
+    "imageAlt": "Palmately compound leaves. — ohio buckeye",
+    "imageWidth": 1000,
+    "imageHeight": 750,
+    "credit": {
+      "photographer": "James St. John, Flickr",
+      "license": "CC BY 2.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by/2.0/legalcode",
+      "sourceUrl": "https://plants.ces.ncsu.edu/plants/aesculus-glabra/",
+      "label": "Palmately compound leaves."
+    }
+  },
+  {
+    "originalUrl": "https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/Aesculus_Glabra_Dan_Keck_cc0.jpeg",
+    "image": "/images/trees/ohio-buckeye-detail.webp",
+    "imageAlt": "Fruit, capsule. — ohio buckeye",
+    "imageWidth": 1000,
+    "imageHeight": 563,
+    "credit": {
+      "photographer": "Dan Keck, Ohio Arboretum North, The Ohio State University",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/about/cc0/",
+      "sourceUrl": "https://plants.ces.ncsu.edu/plants/aesculus-glabra/",
+      "label": "Fruit, capsule."
+    }
+  },
+  {
+    "originalUrl": "https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/Quercus-phellos-Will_PoWHBj7Ccp9M.jpeg",
+    "image": "/images/trees/willow-oak.webp",
+    "imageAlt": "Quercus phellos - Fall - Wake Co., NC — willow oak",
+    "imageWidth": 840,
+    "imageHeight": 1000,
+    "credit": {
+      "photographer": "Cathy DeWitt",
+      "license": "CC BY 4.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by/4.0/legalcode",
+      "sourceUrl": "https://plants.ces.ncsu.edu/plants/quercus-phellos/",
+      "label": "Quercus phellos - Fall - Wake Co., NC"
+    }
+  },
+  {
+    "originalUrl": "https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/Quercus_phellos_acor_nccJtC2qXSj7.jpg",
+    "image": "/images/trees/willow-oak-detail.webp",
+    "imageAlt": "Quercus phellos. Acorns — willow oak",
+    "imageWidth": 900,
+    "imageHeight": 600,
+    "credit": {
+      "photographer": "US Government employee",
+      "license": "Public domain Mark 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://plants.ces.ncsu.edu/plants/quercus-phellos/",
+      "label": "Quercus phellos. Acorns"
+    }
+  },
+  {
+    "originalUrl": "https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/Quercus_lyrata_leave_bnA4EnbbHWAp.jpeg",
+    "image": "/images/trees/overcup-oak.webp",
+    "imageAlt": "Leaves and acorns (Morris Arboretum, Philadelphia, PA) — overcup oak",
+    "imageWidth": 750,
+    "imageHeight": 1000,
+    "credit": {
+      "photographer": "Katherline Wagner-Reiss",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/4.0/legalcode",
+      "sourceUrl": "https://plants.ces.ncsu.edu/plants/quercus-lyrata/",
+      "label": "Leaves and acorns (Morris Arboretum, Philadelphia, PA)"
+    }
+  },
+  {
+    "originalUrl": "https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/QuercusLyrataBark_Ch_CzoKmVICc3Vg.jpeg",
+    "image": "/images/trees/overcup-oak-detail.webp",
+    "imageAlt": "Bark — overcup oak",
+    "imageWidth": 750,
+    "imageHeight": 1000,
+    "credit": {
+      "photographer": "Chhe",
+      "license": "Public domain Mark 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://plants.ces.ncsu.edu/plants/quercus-lyrata/",
+      "label": "Bark"
+    }
+  },
+  {
+    "originalUrl": "https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/Carya-glabra--Jamie-Richmond-CC-BY.jpg",
+    "image": "/images/trees/pignut-hickory.webp",
+    "imageAlt": "Leaves — pignut hickory",
+    "imageWidth": 600,
+    "imageHeight": 450,
+    "credit": {
+      "photographer": "Jamie Richmond",
+      "license": "CC BY 2.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by/2.0/legalcode",
+      "sourceUrl": "https://plants.ces.ncsu.edu/plants/carya-glabra/",
+      "label": "Leaves"
+    }
+  },
+  {
+    "originalUrl": "https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/Carya-glabra--H-C-Williams--CC-BY.jpg",
+    "image": "/images/trees/pignut-hickory-detail.webp",
+    "imageAlt": "Fruit — pignut hickory",
+    "imageWidth": 600,
+    "imageHeight": 450,
+    "credit": {
+      "photographer": "H. C. Williams",
+      "license": "CC BY 2.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by/2.0/legalcode",
+      "sourceUrl": "https://plants.ces.ncsu.edu/plants/carya-glabra/",
+      "label": "Fruit"
+    }
+  },
+  {
+    "originalUrl": "https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/quercus_imbricaria_leaves_kathleen_moore_ccby20.jfif",
+    "image": "/images/trees/shingle-oak.webp",
+    "imageAlt": "Quercus imbricaria - Leaves — shingle oak",
+    "imageWidth": 1000,
+    "imageHeight": 750,
+    "credit": {
+      "photographer": "Kathleen Moore",
+      "license": "CC BY 2.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by/2.0/legalcode",
+      "sourceUrl": "https://plants.ces.ncsu.edu/plants/quercus-imbricaria/",
+      "label": "Quercus imbricaria - Leaves"
+    }
+  },
+  {
+    "originalUrl": "https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/Quercus_imbricaria_-_ufu7UmBQlW5Q.jpg",
+    "image": "/images/trees/shingle-oak-detail.webp",
+    "imageAlt": "Quercus imbricaria - Form — shingle oak",
+    "imageWidth": 750,
+    "imageHeight": 1000,
+    "credit": {
+      "photographer": "Daderot",
+      "license": "Public domain Mark 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://plants.ces.ncsu.edu/plants/quercus-imbricaria/",
+      "label": "Quercus imbricaria - Form"
+    }
+  },
+  {
+    "originalUrl": "https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/Pinus_echinata_form__u5WoMkboWiYk.jfif",
+    "image": "/images/trees/shortleaf-pine.webp",
+    "imageAlt": "Form — shortleaf pine",
+    "imageWidth": 750,
+    "imageHeight": 1000,
+    "credit": {
+      "photographer": "David J. Stang",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/4.0/legalcode",
+      "sourceUrl": "https://plants.ces.ncsu.edu/plants/pinus-echinata/",
+      "label": "Form"
+    }
+  },
+  {
+    "originalUrl": "https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/Pinus_echinata_branc_XM7CGK8yo4cw.jfif",
+    "image": "/images/trees/shortleaf-pine-detail.webp",
+    "imageAlt": "Branch — shortleaf pine",
+    "imageWidth": 1000,
+    "imageHeight": 750,
+    "credit": {
+      "photographer": "David J. Stang",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/4.0/legalcode",
+      "sourceUrl": "https://plants.ces.ncsu.edu/plants/pinus-echinata/",
+      "label": "Branch"
+    }
+  }
+]

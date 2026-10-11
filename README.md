@@ -8,7 +8,7 @@ Tree Yoga School is a yoga school founded by **Alex Julian**, now being renewed 
 
 [Read the original book][book] · [Explore the curriculum](#the-original-curriculum) · [Build with us](#contributing)
 
-**Project status:** A content-led Next.js school with a four-practice introduction, seven book chapter companions, and a 63-species Tree Library. The school is still early: there is no account system, database, certification platform, or AI teaching assistant.
+**Project status:** A content-led Next.js school with a four-practice introduction, seven book chapter companions, and a 69-species Tree Library. The school is still early: there is no account system, database, certification platform, or AI teaching assistant.
 
 ## Return and contribute
 
@@ -18,7 +18,7 @@ Trees to Visit and Return to Your Tree are primary navigation destinations. The 
 
 <!-- coverage:start -->
 - Champion Map: **44 states**, **8,566 listed records**, and **8,120 records with approximate map points**.
-- Tree Library: **63 species profiles** and **6 photographic comparisons**.
+- Tree Library: **69 species profiles** and **6 photographic comparisons**.
 - Trees to Visit: **14 guides across 11 states**.
 
 Generated from the state registry and content collections. Run `npm run sync:coverage` after content changes; builds check for stale counts.

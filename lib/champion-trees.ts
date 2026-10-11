@@ -42,6 +42,12 @@ export const vtChampionSource = championStates.VT.source;
 export const nhChampionSource = championStates.NH.source;
 export const championSource = championStates.MA.source;
 export const librarySpecies: Record<string, { slug: string; name: string }> = {
+  "Aesculus glabra": { slug: "ohio-buckeye", name: "Ohio Buckeye" },
+  "Quercus phellos": { slug: "willow-oak", name: "Willow Oak" },
+  "Quercus lyrata": { slug: "overcup-oak", name: "Overcup Oak" },
+  "Carya glabra": { slug: "pignut-hickory", name: "Pignut Hickory" },
+  "Quercus imbricaria": { slug: "shingle-oak", name: "Shingle Oak" },
+  "Pinus echinata": { slug: "shortleaf-pine", name: "Shortleaf Pine" },
   "Magnolia grandiflora": { slug: "southern-magnolia", name: "Southern Magnolia" },
   "Gleditsia triacanthos": { slug: "honeylocust", name: "Honeylocust" },
   "Pinus taeda": { slug: "loblolly-pine", name: "Loblolly Pine" },

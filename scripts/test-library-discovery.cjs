@@ -7,7 +7,7 @@ const result=(patch={})=>discoverLibraryTrees(trees,{...emptyLibrarySelection,..
 const slugs=patch=>result(patch).map(t=>t.slug);
 test('discovery sorts the full Library alphabetically without mutating source order',()=>{
  const before=trees.map(t=>t.slug), az=result();
- assert.equal(az.length,63);assert.deepEqual(az.map(t=>t.name),[...trees].map(t=>t.name).sort((a,b)=>a.localeCompare(b,'en')));
+ assert.equal(az.length,69);assert.deepEqual(az.map(t=>t.name),[...trees].map(t=>t.name).sort((a,b)=>a.localeCompare(b,'en')));
  assert.deepEqual(result({sort:'za'}).map(t=>t.slug),az.map(t=>t.slug).reverse());
  assert.deepEqual(result({sort:'scientific'}).map(t=>t.scientificName),trees.map(t=>t.scientificName).sort((a,b)=>a.localeCompare(b,'en')));
  assert.deepEqual(trees.map(t=>t.slug),before);
@@ -40,5 +40,14 @@ test('observable filters intersect, preserve variable shapes, and avoid confusin
  assert.ok(slugs({foliage:'needles'}).includes('dawn-redwood'));assert.ok(slugs({foliage:'needles'}).includes('pitch-pine'));
  assert.ok(slugs({foliage:'scales'}).includes('eastern-redcedar'));assert.ok(slugs({foliage:'needles'}).includes('eastern-redcedar'));
  assert.ok(slugs({arrangement:'opposite',query:'ash'}).includes('white-ash'));assert.equal(slugs({arrangement:'whorled',query:'butternut'}).length,0);
- assert.deepEqual(slugs({foliage:'needles',bark:'patchwork'}),[]);assert.equal(result().length,63);
+ assert.deepEqual(slugs({foliage:'needles',bark:'patchwork'}),[]);assert.equal(result().length,69);
+});
+
+test('new profiles distinguish buckeye, hickory, unlobed oaks and needle bundles',()=>{
+ assert.ok(slugs({query:'Ohio Buckeye',arrangement:'opposite',lobes:'unlobed'}).includes('ohio-buckeye'));
+ assert.deepEqual(slugs({query:'Pignut Hickory',arrangement:'opposite'}),[]);
+ assert.deepEqual(slugs({query:'Pignut Hickory',arrangement:'alternate'}),['pignut-hickory']);
+ for(const slug of ['willow-oak','shingle-oak'])assert.ok(slugs({foliage:'broad',lobes:'unlobed'}).includes(slug));
+ assert.ok(slugs({lobes:'lobed'}).includes('overcup-oak'));
+ assert.ok(slugs({foliage:'needles'}).includes('shortleaf-pine'));
 });
