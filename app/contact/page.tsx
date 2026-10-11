@@ -1,10 +1,28 @@
 import { pageMetadata } from "../../lib/site-seo";
+import { schoolContactEmail } from "../../lib/school-contact";
 import SiteHeader from "../components/site-header";
 import SiteFooter from "../components/site-footer";
-import ContributionForm from "../components/contribution-form";
-import { contributionPrefill } from "../../lib/contributions";
-import { contributionDeliveryConfig } from "../../lib/contribution-delivery";
-export const dynamic = "force-dynamic";
-import { schoolContactEmail } from "../../lib/school-contact";
-export const metadata = pageMetadata("/contact", "Contact | Tree Yoga School", "Contact Alex Julian, report a correction, contribute a tree observation, or express Big Tree Volunteers interest.");
-export default async function ContactPage({ searchParams }: { searchParams: Promise<Record<string, string | string[] | undefined>> }) { const initial = contributionPrefill(await searchParams); return <><SiteHeader /><main id="content" className="lesson community-page"><section className="lesson-intro"><p className="section-kicker">Contact the school · Alex Julian</p><h1>A conversation begins here.</h1><p className="lesson-lede">A question, a correction, a tree you returned to, or an idea for the school. A few thoughtful details are enough.</p>{schoolContactEmail && <a className="course-link" href={`mailto:${schoolContactEmail}`}>{schoolContactEmail}</a>}</section><section id="contribute" className="lesson-section"><ContributionForm initial={initial} configured={!!contributionDeliveryConfig()} /></section><section className="lesson-section"><h2>Make a contribution useful.</h2><p>For corrections, include the page link or Champion Map record ID, what appears incorrect, and the source that supports the change. For a visit observation, include the date and distinguish what you saw from what you inferred.</p><p>Messages are reviewed before they become site updates. Sending a message does not make it public. If you offer words or photographs for publication, state your permission and preferred credit. Avoid sensitive personal information and undisclosed private locations.</p><a className="course-link" href="/big-tree-volunteers">Learn about Big Tree Volunteers →</a></section><section id="privacy" className="lesson-section"><h2>How we handle contributions.</h2><p>When online sending is available, your name, email, message, observation details, permissions, and prepared photographs are sent to Alex Julian’s school inbox through Resend. Vercel hosts the form and processes the request. We use your email for replies about your contribution, not mailing-list enrollment.</p><p>Photographs are resized and re-encoded to remove embedded metadata before delivery. Your originals stay on your device. Submissions and attachments are not stored in a public gallery or a website database; copies are retained in the school inbox and by the email delivery provider. They are reviewed before any site update.</p><p>Publication permission for your words and photographs is optional and recorded separately. Without permission, contributions are for private review only. To request deletion or withdraw permission for future use, contact the school using the email above. Hosting and delivery providers may retain operational logs under their own policies.</p><p>If you choose an email draft instead, you review and send it through your own email provider. The website does not receive that draft.</p></section></main><SiteFooter /></>; }
+
+export const metadata = pageMetadata("/contact", "Contact | Tree Yoga School", "Email Alex Julian with a question, correction, or tree observation.");
+
+export default function ContactPage() {
+  return <><SiteHeader /><main id="content" className="lesson community-page">
+    <section id="contribute" className="lesson-intro">
+      <p className="section-kicker">Contact the school · Alex Julian</p>
+      <h1>A conversation begins here.</h1>
+      <p className="lesson-lede">For questions, corrections, tree observations, or ideas for the school, please email:</p>
+      <a className="course-link" href={`mailto:${schoolContactEmail}`}>{schoolContactEmail}</a>
+    </section>
+    <section className="lesson-section">
+      <h2>Make a contribution useful.</h2>
+      <p>For corrections, include the page link or Champion Map record ID, what appears incorrect, and the source that supports the change. For a visit observation, include the date and distinguish what you saw from what you inferred.</p>
+      <p>If you offer words or photographs for publication, state your permission and preferred credit. Avoid sensitive personal information and undisclosed private locations.</p>
+      <a className="course-link" href="/big-tree-volunteers">Learn about Big Tree Volunteers →</a>
+    </section>
+    <section id="privacy" className="lesson-section">
+      <h2>Contact by email.</h2>
+      <p>Email links open your own email application, where you can review your message and add attachments before sending. The website does not collect messages or photographs.</p>
+      <p>Messages are reviewed privately. Sending an email does not publish it, update the map, or subscribe you to a mailing list. To request deletion of a contribution or withdraw permission for future use, email the address above.</p>
+    </section>
+  </main><SiteFooter /></>;
+}

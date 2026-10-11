@@ -11,7 +11,7 @@ import { treeVisits } from "../../lib/tree-visits";
 import { loadChampionStates } from "../../lib/champion-loader";
 import { filterChampionRecords, sortChampionRecords } from "../../lib/champion-explorer-index";
 import ShareLink from "./share-link";
-import { contributionHref } from "../../lib/contributions";
+import { correctionEmailHref } from "../../lib/school-contact";
 import ChampionMap from "./champion-map";
 import { championRegions, mnChampionSource, wiChampionSource, ohChampionSource, miChampionSource, ilChampionSource, flChampionSource, alChampionSource, inChampionSource, kyChampionSource, gaChampionSource, tnChampionSource, scChampionSource, ncChampionSource, wvChampionSource, vaChampionSource, sourceDates, placeName, nyChampionSource, njChampionSource, paChampionSource, deChampionSource, mdChampionSource, type ChampionManifest, type ChampionPayload, formatMeasurement, formatChampionDate, libraryTreeForSpecies, sourceWarnings, townKey, stateNames, nhChampionSource, vtChampionSource, meChampionSource, riChampionSource, ctChampionSource, type ChampionState, type ChampionTree } from "../../lib/champion-trees";
 
@@ -93,7 +93,7 @@ function RecordDetails({ tree, mapped }: { tree: ChampionTree; mapped: boolean }
     {tree.state === "NC" && <p className="champion-record-source"><a href={ncChampionSource.registerUrl} target="_blank" rel="noreferrer">NC Forest Service champion list · September 2026 ↗</a> · row {tree.sourceRow} · Tree ID {tree.sourceTreeId || "not listed"}. Retrieved {ncChampionSource.retrieved}. Measurement dates are not supplied. Co-champion and access labels are retained as published; national labels are not independently confirmed.</p>}
     <ShareLink href={championHref({ state: tree.state, selectedId: tree.id })} label="Copy tree link" />
     <div className="course-actions">
-      <Link className="course-link" href={contributionHref(tree)} prefetch={false}>Report a correction →</Link>
+      <a className="course-link" href={correctionEmailHref(tree)}>Email a correction →</a>
       {(tree.state === "MA" || tree.state === "RI" || tree.state === "CT") && tree.location && <a className="button secondary" href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${tree.location}, ${tree.mapTown ? `${tree.town}, ${tree.mapTown}` : tree.town}, ${stateNames[tree.state]}`)}`} target="_blank" rel="noreferrer">Search the published location ↗</a>}
       {tree.state === "VT" && tree.publicAccess && tree.publicCoordinates && <a className="button secondary" href={`https://www.google.com/maps/search/?api=1&query=${tree.publicCoordinates.lat},${tree.publicCoordinates.lng}`} target="_blank" rel="noreferrer">Open Vermont’s published tree location ↗</a>}
       {visit && <Link className="button secondary" href={`/tree-visits/${visit.slug}`}>Plan a visit & practice →</Link>}
