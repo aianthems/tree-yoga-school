@@ -1,4 +1,5 @@
 import VideoLesson from "../../components/video-lesson";
+import PoseDirectory from "../../components/pose-directory";
 import { pageMetadata } from "../../../lib/site-seo";
 import type { Metadata } from "next";
 import Link from "next/link";
@@ -27,6 +28,7 @@ export default async function ChapterPage({ params }: { params: Promise<{ slug: 
     <section className="lesson-intro"><Link className="lesson-back" href="/book">← Explore the book</Link><p className="section-kicker">Chapter {chapter.number} · Read · Watch · Practice</p><h1>{chapter.title}</h1><p className="lesson-lede">{chapter.introduction}</p><p className="lesson-note">A new companion to the original chapter, developed with AI assistance. Summaries and practice connections are adaptations, rather than a transcription.</p>
       <nav className="chapter-steps" aria-label="This chapter: read, watch, practice"><a href="#chapter-read-title"><span>01</span> Read</a><a href="#chapter-video-title"><span>02</span> Watch{videos.length === 0 && <small>Not available</small>}</a><a href="#chapter-practice-title"><span>03</span> Practice</a></nav>
     </section>
+    {chapter.slug === "poses-flows-and-meditations" && <PoseDirectory />}
     <section className="lesson-section chapter-reading" aria-labelledby="chapter-read-title">
       <p className="section-kicker">01 · Read</p><h2 id="chapter-read-title">Read the chapter.</h2><p>Open the original book, or begin with the reading companion below.</p><a className="button secondary" href={`${bookUrl}#page=${chapter.pdfPage}`} target="_blank" rel="noreferrer">Read the original · printed p. {chapter.printedPage} ↗</a>
       <div className="chapter-reading-notes">{chapter.sections.map(section => <div key={section.title}><h3>{section.title}</h3><p>{section.text}</p></div>)}</div>

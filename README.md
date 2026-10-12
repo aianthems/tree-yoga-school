@@ -691,3 +691,18 @@ Hawaiʻi-only searches automatically show Hawaiʻi. For searches spanning both g
 ### Alaska historical coverage
 
 One UAF campus black spruce is included from an account first published in 2003 and republished in 2010. It is explicitly labeled a historical state champion, with height 71 feet and circumference 45 inches. Measurement date, crown spread, points, current condition, current title and visiting permission remain unknown. The marker uses the Census 2025 Fairbanks city representative point (GEOID 0224230), not tree coordinates. This curated selection has an internal record ID and source audit; it does not constitute a complete Alaska register. Alaska has its own map view and region shortcut.
+
+## Complete original pose reference
+
+Chapter 5 now links to all 87 entries in the book’s pose section, including Yoga
+Nidra. Each statically rendered page uses its own root URL, retains the original
+instructions, names its printed pages, links to the exact PDF page, and connects
+back to the complete directory and adjacent entries. `/reclined-wrist-circles`
+is restored as a page. All pose pages have canonical/social metadata and sitemap
+entries. The directory is alphabetically grouped and needs no client JavaScript.
+
+`lib/book-pose-records.json` contains the source text; `scripts/fixtures/book-poses-source.json`
+records the PDF hash, page range and all headings. Regenerate with
+`python scripts/import-book-poses.py BOOK.pdf` (PyMuPDF). Book text remains the
+original author’s copyrighted material, rather than code relicensed under MIT.
+This is the pose reference; flows and meditations retain their chapter reading.

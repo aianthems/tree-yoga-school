@@ -1528,3 +1528,23 @@ section[id] { scroll-margin-top: 90px; }
 @media (max-width: 760px) { .falling-leaf:nth-child(n + 3) { display: none; } .falling-leaf { width: 13px; } }
 @media (prefers-reduced-motion: reduce) { .falling-leaves { display: none; } .falling-leaf { animation: none; } }
 @media print { .falling-leaves { display: none; } }
+
+/* The original pose reference: direct, readable links with no client bundle. */
+.pose-directory { border-top: 1px solid #d4dcd0; }
+.pose-alphabet { display: flex; flex-wrap: wrap; gap: 8px; margin: 24px 0 36px; }
+.pose-alphabet a { display: inline-flex; justify-content: center; align-items: center; min-width: 44px; min-height: 44px; border: 1px solid #cbd5c9; border-radius: 50%; text-decoration: none; }
+.pose-alphabet a:hover { background: #142d23; color: #fbf8eb; }
+.pose-letter-group { margin: 30px 0; }
+.pose-letter-group h3 { scroll-margin-top: 7rem; font: 400 2rem/1 Georgia, serif; color: #46624e; }
+.pose-directory-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; list-style: none; padding: 0; }
+.pose-directory-grid li { margin: 0; min-width: 0; }
+.pose-directory-grid a { display: flex; flex-direction: column; justify-content: space-between; gap: 12px; height: 100%; padding: 20px; border: 1px solid #cbd5c9; border-radius: 8px; text-decoration: none; }
+.pose-directory-grid a:hover { background: #142d23; color: #fbf8eb; border-color: #142d23; }
+.pose-directory-grid small { font-size: .75rem; opacity: .8; display: flex; justify-content: space-between; gap: 15px; }
+.pose-directory a:focus-visible { outline: 3px solid #ab8141; outline-offset: 4px; }
+.pose-source-byline { color: #50665a; font-size: .95rem; }
+.pose-original-text p { line-height: 1.85; }
+.pose-page .chapter-navigation { gap: 20px; flex-wrap: wrap; }
+#poses { scroll-margin-top: 7rem; }
+@media (max-width: 600px) { .pose-directory-grid { grid-template-columns: 1fr; } }
+.pose-page .lesson-intro h1 { overflow-wrap: anywhere; }
