@@ -1,6 +1,26 @@
 type PoseImage = { src: string; alt: string; width: number; height: number };
 
 export const bookPoseImages: Record<string, PoseImage> = {
+  "standing-side-bend": {
+    src: "https://media.treeyogaschool.com/images/tree-yoga-poses/standing-side-bend.webp",
+    alt: "Standing beside a tree and bending sideways with one arm overhead and the other hand against the trunk",
+    width: 2048, height: 1171,
+  },
+  "standing-wrist-circles": {
+    src: "https://media.treeyogaschool.com/images/tree-yoga-poses/standing-wrist-circles.webp",
+    alt: "Standing beside a tree with arms extended to practice wrist circles",
+    width: 2048, height: 1159,
+  },
+  "single-leg-ankle-circles": {
+    src: "https://media.treeyogaschool.com/images/tree-yoga-poses/single-leg-ankle-circles.webp",
+    alt: "Standing on one leg beside a tree with the other foot lifted to practice ankle circles",
+    width: 2048, height: 1174,
+  },
+  "tabletop-same-side-balance-pose": {
+    src: "https://media.treeyogaschool.com/images/tree-yoga-poses/tabletop-same-side-balance-pose.webp",
+    alt: "Balancing from tabletop on a mat beside a tree with one leg extended behind and one hand against the trunk",
+    width: 2048, height: 1158,
+  },
   "tabletop-alternate-balance-pose": {
     src: "https://media.treeyogaschool.com/images/tree-yoga-poses/tabletop-alternate-balance-pose.webp",
     alt: "Balancing from tabletop on a mat with one leg extended behind and the opposite hand against a tree",
