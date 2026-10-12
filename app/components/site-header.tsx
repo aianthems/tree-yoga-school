@@ -1,6 +1,7 @@
 "use client";
 
-import Image from "next/image";
+import ResponsiveImage from "./responsive-image";
+
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
@@ -37,7 +38,7 @@ export default function SiteHeader() {
     <header className="site-header" ref={header} onPointerLeave={event => {
       if (event.pointerType === "mouse" && window.matchMedia("(min-width: 901px) and (hover: hover)").matches) setOpenGroup(null);
     }}>
-      <Link className="brand school-brand" href="/" aria-label="Tree Yoga School home" onClick={close}><Image src="https://media.treeyogaschool.com/images/logos/tree-yoga-school-logo-v1.webp" alt="" width={58} height={58} unoptimized /><span className="school-brand-copy"><span>Tree Yoga School</span><small>Practice with the living world</small></span></Link>
+      <Link className="brand school-brand" href="/" aria-label="Tree Yoga School home" onClick={close}><ResponsiveImage image="logo" alt="" width={58} height={58} sizes="(max-width: 900px) 48px, 58px" priority /><span className="school-brand-copy"><span>Tree Yoga School</span><small>Practice with the living world</small></span></Link>
       <button className="site-menu-toggle" ref={menuButton} type="button" aria-expanded={mobileOpen} aria-controls="school-primary-nav" onClick={() => { setMobileOpen(!mobileOpen); setOpenGroup(null); }}><span>{mobileOpen ? "Close" : "Menu"}</span><span className="site-menu-symbol" aria-hidden="true">{mobileOpen ? "×" : "☰"}</span></button>
       <nav className="school-primary-nav" id="school-primary-nav" aria-label="Primary navigation" data-mobile-open={mobileOpen}>
         {siteNavigation.map(group => {

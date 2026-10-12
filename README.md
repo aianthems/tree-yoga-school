@@ -18,6 +18,12 @@ Each supported state has a static `/champion-trees/<state-name>` destination wit
 
 ## Current coverage
 
+The shared logo and photographic heroes now use responsive, content-hashed WebP
+variants with one-year immutable caching. Mobile image selection, repeat-visit
+cache reuse, and six 50-state map benchmarks are documented in
+[Mobile images and map measurements](docs/mobile-images-and-map-2026-10-12.md).
+The map benchmark is browser emulation; physical-phone validation remains open.
+
 <!-- coverage:start -->
 - Champion Map: **50 states**, **8,971 listed records**, and **8,495 records with approximate map points**.
 - Tree Library: **69 species profiles** and **6 photographic comparisons**.

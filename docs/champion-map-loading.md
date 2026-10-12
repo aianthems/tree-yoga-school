@@ -1,5 +1,12 @@
 # Champion map initial loading
 
+## October 12, 2026: 50-state measurements
+
+Six fresh throttled-browser runs now cover all 50 states and 8,971 records.
+See [mobile images and map measurements](mobile-images-and-map-2026-10-12.md)
+for current timings, image delivery changes, and verification limits. Earlier
+measurements below retain their original datasets and are historical evidence.
+
 ## October 10, 2026: measured mobile browser runs
 
 Current coverage is 35 states, 7,137 listed records and 7,107 records with approximate map points. The following are browser measurements, distinct from the older network models below.

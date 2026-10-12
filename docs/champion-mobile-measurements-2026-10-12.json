@@ -1,0 +1,1791 @@
+{
+  "measuredAt": "2026-10-12T13:08:52.382Z",
+  "results": [
+    {
+      "profile": "mobile-1.6Mbps",
+      "run": 1,
+      "url": "http://127.0.0.1:3073/champion-trees",
+      "browser": "153.0.8010.0",
+      "device": "Pixel 5 emulation, 393 × 851, DPR 2.75",
+      "cpuSlowdown": 4,
+      "downloadMbps": 1.6,
+      "latencyMs": 150,
+      "coldBrowserCache": true,
+      "fullDataReadyMs": 7879.799999998882,
+      "filterReadyMs": 565.5999999996275,
+      "maxStateRequests": 4,
+      "stateResponses": 50,
+      "encodedStateBytes": 570000,
+      "encodedTotalBytes": 898028,
+      "wallMs": 8496,
+      "failures": [
+        {
+          "url": "https://tile.openstreetmap.org/5/9/11.png",
+          "start": 14793.032525,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/5/10/11.png",
+          "start": 14793.032645,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/5/9/10.png",
+          "start": 14793.032801,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/5/10/10.png",
+          "start": 14793.03283,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/5/9/12.png",
+          "start": 14793.032858,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/5/10/12.png",
+          "start": 14793.032884,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/3/1/2.png",
+          "start": 14793.233914,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/3/1/3.png",
+          "start": 14793.234005,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/3/0/2.png",
+          "start": 14793.234958,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/3/2/2.png",
+          "start": 14793.235058,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/3/0/3.png",
+          "start": 14793.23608,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/3/2/3.png",
+          "start": 14793.236159,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/5/6/11.png",
+          "start": 14798.767069,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/5/6/12.png",
+          "start": 14798.767598,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/5/5/11.png",
+          "start": 14798.767643,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/5/7/11.png",
+          "start": 14798.768362,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/5/5/12.png",
+          "start": 14798.76839,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/5/7/12.png",
+          "start": 14798.768432,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        }
+      ],
+      "longTasks": [
+        {
+          "start": 705.5,
+          "duration": 157
+        },
+        {
+          "start": 1408.0999999996275,
+          "duration": 121
+        },
+        {
+          "start": 1543.8999999985099,
+          "duration": 66
+        },
+        {
+          "start": 2630.5999999996275,
+          "duration": 55
+        },
+        {
+          "start": 2932.0999999996275,
+          "duration": 55
+        },
+        {
+          "start": 3109.7999999988824,
+          "duration": 79
+        },
+        {
+          "start": 3243.89999999851,
+          "duration": 52
+        },
+        {
+          "start": 3349.5,
+          "duration": 66
+        },
+        {
+          "start": 3589.199999999255,
+          "duration": 58
+        },
+        {
+          "start": 3740.89999999851,
+          "duration": 88
+        },
+        {
+          "start": 3857,
+          "duration": 95
+        },
+        {
+          "start": 4042.89999999851,
+          "duration": 84
+        },
+        {
+          "start": 4144.299999998882,
+          "duration": 74
+        },
+        {
+          "start": 4318.699999999255,
+          "duration": 80
+        },
+        {
+          "start": 4458.39999999851,
+          "duration": 87
+        },
+        {
+          "start": 4573,
+          "duration": 95
+        },
+        {
+          "start": 4803.299999998882,
+          "duration": 89
+        },
+        {
+          "start": 4906.299999998882,
+          "duration": 102
+        },
+        {
+          "start": 5152.0999999996275,
+          "duration": 116
+        },
+        {
+          "start": 5329.5999999996275,
+          "duration": 124
+        },
+        {
+          "start": 5580.39999999851,
+          "duration": 131
+        },
+        {
+          "start": 5755.299999998882,
+          "duration": 111
+        },
+        {
+          "start": 5913.799999998882,
+          "duration": 145
+        },
+        {
+          "start": 6144,
+          "duration": 151
+        },
+        {
+          "start": 6329,
+          "duration": 136
+        },
+        {
+          "start": 6615.39999999851,
+          "duration": 172
+        },
+        {
+          "start": 6804.89999999851,
+          "duration": 165
+        },
+        {
+          "start": 7123.5999999996275,
+          "duration": 210
+        },
+        {
+          "start": 7390.5999999996275,
+          "duration": 181
+        },
+        {
+          "start": 7717.699999999255,
+          "duration": 130
+        }
+      ],
+      "firstRecords": 1970.8999999985099,
+      "firstMarkerDOM": 2909.5,
+      "firstVisibleMarker": 2915.199999999255,
+      "paint": [
+        {
+          "name": "first-paint",
+          "ms": 884
+        },
+        {
+          "name": "first-contentful-paint",
+          "ms": 884
+        }
+      ],
+      "renderedRecords": 50,
+      "markers": 17,
+      "loadedTiles": 0,
+      "resultSummary": "8,971 listed · 8,495 mapped · 2005 mapped places",
+      "bodyWidth": 393,
+      "viewport": 393
+    },
+    {
+      "profile": "mobile-1.6Mbps",
+      "run": 2,
+      "url": "http://127.0.0.1:3073/champion-trees",
+      "browser": "153.0.8010.0",
+      "device": "Pixel 5 emulation, 393 × 851, DPR 2.75",
+      "cpuSlowdown": 4,
+      "downloadMbps": 1.6,
+      "latencyMs": 150,
+      "coldBrowserCache": true,
+      "fullDataReadyMs": 7981.200000001118,
+      "filterReadyMs": 514.3000000007451,
+      "maxStateRequests": 4,
+      "stateResponses": 50,
+      "encodedStateBytes": 570000,
+      "encodedTotalBytes": 898028,
+      "wallMs": 8553,
+      "failures": [
+        {
+          "url": "https://tile.openstreetmap.org/5/9/11.png",
+          "start": 14801.474909,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/5/10/11.png",
+          "start": 14801.475666,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/5/9/10.png",
+          "start": 14801.475753,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/5/10/10.png",
+          "start": 14801.476535,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/5/9/12.png",
+          "start": 14801.476606,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/5/10/12.png",
+          "start": 14801.477112,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/4/3/5.png",
+          "start": 14801.558412,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/4/3/6.png",
+          "start": 14801.55897,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/4/2/5.png",
+          "start": 14801.559019,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/4/4/5.png",
+          "start": 14801.559912,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/4/2/6.png",
+          "start": 14801.559983,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/4/4/6.png",
+          "start": 14801.560075,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/3/1/2.png",
+          "start": 14801.842935,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/3/1/3.png",
+          "start": 14801.843604,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/3/0/2.png",
+          "start": 14801.843637,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/3/2/2.png",
+          "start": 14801.843662,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/3/0/3.png",
+          "start": 14801.843706,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/3/2/3.png",
+          "start": 14801.843736,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/5/6/11.png",
+          "start": 14807.365844,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/5/6/12.png",
+          "start": 14807.366511,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/5/5/11.png",
+          "start": 14807.366585,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/5/7/11.png",
+          "start": 14807.366627,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/5/5/12.png",
+          "start": 14807.366668,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/5/7/12.png",
+          "start": 14807.366745,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        }
+      ],
+      "longTasks": [
+        {
+          "start": 709,
+          "duration": 146
+        },
+        {
+          "start": 1394.4000000003725,
+          "duration": 112
+        },
+        {
+          "start": 1516.5,
+          "duration": 61
+        },
+        {
+          "start": 2101,
+          "duration": 53
+        },
+        {
+          "start": 2540.9000000003725,
+          "duration": 62
+        },
+        {
+          "start": 2874.4000000003725,
+          "duration": 55
+        },
+        {
+          "start": 3160.2000000011176,
+          "duration": 64
+        },
+        {
+          "start": 3387.2000000011176,
+          "duration": 81
+        },
+        {
+          "start": 3492.300000000745,
+          "duration": 56
+        },
+        {
+          "start": 3786.7000000011176,
+          "duration": 127
+        },
+        {
+          "start": 4039.0999999996275,
+          "duration": 145
+        },
+        {
+          "start": 4218.200000001118,
+          "duration": 117
+        },
+        {
+          "start": 4405,
+          "duration": 101
+        },
+        {
+          "start": 4589,
+          "duration": 125
+        },
+        {
+          "start": 4810.5999999996275,
+          "duration": 116
+        },
+        {
+          "start": 5012.9000000003725,
+          "duration": 107
+        },
+        {
+          "start": 5219.700000001118,
+          "duration": 121
+        },
+        {
+          "start": 5433.5,
+          "duration": 85
+        },
+        {
+          "start": 5541,
+          "duration": 120
+        },
+        {
+          "start": 5815.5,
+          "duration": 140
+        },
+        {
+          "start": 6084.700000001118,
+          "duration": 159
+        },
+        {
+          "start": 6326.9000000003725,
+          "duration": 135
+        },
+        {
+          "start": 6560.800000000745,
+          "duration": 157
+        },
+        {
+          "start": 6775.700000001118,
+          "duration": 275
+        },
+        {
+          "start": 7249.0999999996275,
+          "duration": 170
+        },
+        {
+          "start": 7448.300000000745,
+          "duration": 50
+        },
+        {
+          "start": 7498.5999999996275,
+          "duration": 184
+        },
+        {
+          "start": 7814.200000001118,
+          "duration": 129
+        }
+      ],
+      "firstRecords": 1960.4000000003725,
+      "firstMarkerDOM": 2723.4000000003725,
+      "firstVisibleMarker": 2727.2000000011176,
+      "paint": [
+        {
+          "name": "first-paint",
+          "ms": 872
+        },
+        {
+          "name": "first-contentful-paint",
+          "ms": 872
+        }
+      ],
+      "renderedRecords": 50,
+      "markers": 17,
+      "loadedTiles": 0,
+      "resultSummary": "8,971 listed · 8,495 mapped · 2005 mapped places",
+      "bodyWidth": 393,
+      "viewport": 393
+    },
+    {
+      "profile": "mobile-1.6Mbps",
+      "run": 3,
+      "url": "http://127.0.0.1:3073/champion-trees",
+      "browser": "153.0.8010.0",
+      "device": "Pixel 5 emulation, 393 × 851, DPR 2.75",
+      "cpuSlowdown": 4,
+      "downloadMbps": 1.6,
+      "latencyMs": 150,
+      "coldBrowserCache": true,
+      "fullDataReadyMs": 8172.199999999255,
+      "filterReadyMs": 606.8000000007451,
+      "maxStateRequests": 4,
+      "stateResponses": 50,
+      "encodedStateBytes": 570000,
+      "encodedTotalBytes": 898028,
+      "wallMs": 8844,
+      "failures": [
+        {
+          "url": "https://tile.openstreetmap.org/5/9/11.png",
+          "start": 14810.114423,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/5/10/11.png",
+          "start": 14810.114972,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/5/9/10.png",
+          "start": 14810.115006,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/5/10/10.png",
+          "start": 14810.115416,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/5/9/12.png",
+          "start": 14810.115538,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/5/10/12.png",
+          "start": 14810.115612,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/4/3/5.png",
+          "start": 14810.328045,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/4/3/6.png",
+          "start": 14810.32815,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/4/2/5.png",
+          "start": 14810.329207,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/4/4/5.png",
+          "start": 14810.32952,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/4/2/6.png",
+          "start": 14810.330181,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/4/4/6.png",
+          "start": 14810.330225,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/3/1/2.png",
+          "start": 14810.631892,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/3/1/3.png",
+          "start": 14810.632574,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/3/0/2.png",
+          "start": 14810.632604,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/3/2/2.png",
+          "start": 14810.63263,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/3/0/3.png",
+          "start": 14810.632661,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/3/2/3.png",
+          "start": 14810.633572,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/5/6/11.png",
+          "start": 14816.221205,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/5/6/12.png",
+          "start": 14816.22132,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/5/5/11.png",
+          "start": 14816.221352,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/5/7/11.png",
+          "start": 14816.221378,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/5/5/12.png",
+          "start": 14816.221424,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/5/7/12.png",
+          "start": 14816.222639,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        }
+      ],
+      "longTasks": [
+        {
+          "start": 708,
+          "duration": 168
+        },
+        {
+          "start": 1402.5,
+          "duration": 127
+        },
+        {
+          "start": 1544.5,
+          "duration": 79
+        },
+        {
+          "start": 2056.4000000003725,
+          "duration": 51
+        },
+        {
+          "start": 2175.0999999996275,
+          "duration": 65
+        },
+        {
+          "start": 2582.699999999255,
+          "duration": 66
+        },
+        {
+          "start": 2908.4000000003725,
+          "duration": 59
+        },
+        {
+          "start": 3080.9000000003725,
+          "duration": 54
+        },
+        {
+          "start": 3363.5,
+          "duration": 65
+        },
+        {
+          "start": 3494.5999999996275,
+          "duration": 51
+        },
+        {
+          "start": 3587.5999999996275,
+          "duration": 75
+        },
+        {
+          "start": 3770.5999999996275,
+          "duration": 68
+        },
+        {
+          "start": 3891.699999999255,
+          "duration": 69
+        },
+        {
+          "start": 3979.4000000003725,
+          "duration": 79
+        },
+        {
+          "start": 4166.799999998882,
+          "duration": 109
+        },
+        {
+          "start": 4328.5999999996275,
+          "duration": 82
+        },
+        {
+          "start": 4441.699999999255,
+          "duration": 78
+        },
+        {
+          "start": 4587.5,
+          "duration": 95
+        },
+        {
+          "start": 4701.4000000003725,
+          "duration": 107
+        },
+        {
+          "start": 4918.5999999996275,
+          "duration": 91
+        },
+        {
+          "start": 5024.4000000003725,
+          "duration": 107
+        },
+        {
+          "start": 5272.799999998882,
+          "duration": 129
+        },
+        {
+          "start": 5471.5,
+          "duration": 129
+        },
+        {
+          "start": 5727,
+          "duration": 132
+        },
+        {
+          "start": 5893.0999999996275,
+          "duration": 124
+        },
+        {
+          "start": 6061.299999998882,
+          "duration": 145
+        },
+        {
+          "start": 6345.5999999996275,
+          "duration": 146
+        },
+        {
+          "start": 6513.9000000003725,
+          "duration": 157
+        },
+        {
+          "start": 6825.4000000003725,
+          "duration": 179
+        },
+        {
+          "start": 7023.5,
+          "duration": 174
+        },
+        {
+          "start": 7198.199999999255,
+          "duration": 62
+        },
+        {
+          "start": 7420.699999999255,
+          "duration": 150
+        },
+        {
+          "start": 7631.299999998882,
+          "duration": 206
+        },
+        {
+          "start": 7941.5,
+          "duration": 190
+        }
+      ],
+      "firstRecords": 2056.0999999996275,
+      "firstMarkerDOM": 2886.4000000003725,
+      "firstVisibleMarker": 2891.9000000003725,
+      "paint": [
+        {
+          "name": "first-paint",
+          "ms": 892
+        },
+        {
+          "name": "first-contentful-paint",
+          "ms": 892
+        }
+      ],
+      "renderedRecords": 50,
+      "markers": 17,
+      "loadedTiles": 0,
+      "resultSummary": "8,971 listed · 8,495 mapped · 2005 mapped places",
+      "bodyWidth": 393,
+      "viewport": 393
+    },
+    {
+      "profile": "mobile-0.4Mbps",
+      "run": 1,
+      "url": "http://127.0.0.1:3073/champion-trees",
+      "browser": "153.0.8010.0",
+      "device": "Pixel 5 emulation, 393 × 851, DPR 2.75",
+      "cpuSlowdown": 4,
+      "downloadMbps": 0.4,
+      "latencyMs": 300,
+      "coldBrowserCache": true,
+      "fullDataReadyMs": 20394.599999999627,
+      "filterReadyMs": 635.4000000003725,
+      "maxStateRequests": 4,
+      "stateResponses": 50,
+      "encodedStateBytes": 570000,
+      "encodedTotalBytes": 898028,
+      "wallMs": 21115,
+      "failures": [
+        {
+          "url": "https://tile.openstreetmap.org/5/9/11.png",
+          "start": 14826.199933,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/5/10/11.png",
+          "start": 14826.200064,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/5/9/10.png",
+          "start": 14826.200111,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/5/10/10.png",
+          "start": 14826.201267,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/5/9/12.png",
+          "start": 14826.202115,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/5/10/12.png",
+          "start": 14826.202207,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/3/1/2.png",
+          "start": 14826.253515,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/3/1/3.png",
+          "start": 14826.253585,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/3/0/2.png",
+          "start": 14826.253615,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/3/2/2.png",
+          "start": 14826.253642,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/3/0/3.png",
+          "start": 14826.25377,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/3/2/3.png",
+          "start": 14826.2561,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/5/6/11.png",
+          "start": 14837.409647,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/5/6/12.png",
+          "start": 14837.410381,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/5/5/11.png",
+          "start": 14837.410413,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/5/7/11.png",
+          "start": 14837.410439,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/5/5/12.png",
+          "start": 14837.410466,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/5/7/12.png",
+          "start": 14837.410493,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        }
+      ],
+      "longTasks": [
+        {
+          "start": 2286.9000000003725,
+          "duration": 302
+        },
+        {
+          "start": 5310.0999999996275,
+          "duration": 138
+        },
+        {
+          "start": 5499.0999999996275,
+          "duration": 56
+        },
+        {
+          "start": 9671.5,
+          "duration": 57
+        },
+        {
+          "start": 9748.5,
+          "duration": 69
+        },
+        {
+          "start": 10047.099999999627,
+          "duration": 63
+        },
+        {
+          "start": 10364.5,
+          "duration": 50
+        },
+        {
+          "start": 11133.200000001118,
+          "duration": 56
+        },
+        {
+          "start": 11614.300000000745,
+          "duration": 61
+        },
+        {
+          "start": 11734.700000001118,
+          "duration": 77
+        },
+        {
+          "start": 11966.300000000745,
+          "duration": 82
+        },
+        {
+          "start": 12102.700000001118,
+          "duration": 57
+        },
+        {
+          "start": 12577.200000001118,
+          "duration": 87
+        },
+        {
+          "start": 12751.300000000745,
+          "duration": 63
+        },
+        {
+          "start": 12843.599999999627,
+          "duration": 62
+        },
+        {
+          "start": 13033,
+          "duration": 103
+        },
+        {
+          "start": 13167.400000000373,
+          "duration": 74
+        },
+        {
+          "start": 13286.700000001118,
+          "duration": 103
+        },
+        {
+          "start": 13446.300000000745,
+          "duration": 74
+        },
+        {
+          "start": 13677.400000000373,
+          "duration": 100
+        },
+        {
+          "start": 13868.099999999627,
+          "duration": 88
+        },
+        {
+          "start": 14044.900000000373,
+          "duration": 99
+        },
+        {
+          "start": 14232.5,
+          "duration": 103
+        },
+        {
+          "start": 14355.700000001118,
+          "duration": 89
+        },
+        {
+          "start": 14536.700000001118,
+          "duration": 158
+        },
+        {
+          "start": 14719.200000001118,
+          "duration": 109
+        },
+        {
+          "start": 14915.400000000373,
+          "duration": 77
+        },
+        {
+          "start": 15008.099999999627,
+          "duration": 95
+        },
+        {
+          "start": 15200.599999999627,
+          "duration": 99
+        },
+        {
+          "start": 15319.099999999627,
+          "duration": 97
+        },
+        {
+          "start": 15492.700000001118,
+          "duration": 104
+        },
+        {
+          "start": 15657.700000001118,
+          "duration": 99
+        },
+        {
+          "start": 15813.300000000745,
+          "duration": 99
+        },
+        {
+          "start": 15975.5,
+          "duration": 90
+        },
+        {
+          "start": 16270.400000000373,
+          "duration": 120
+        },
+        {
+          "start": 16502,
+          "duration": 157
+        },
+        {
+          "start": 17402.900000000373,
+          "duration": 125
+        },
+        {
+          "start": 17551.300000000745,
+          "duration": 122
+        },
+        {
+          "start": 17776.200000001118,
+          "duration": 147
+        },
+        {
+          "start": 17982.599999999627,
+          "duration": 155
+        },
+        {
+          "start": 18277.5,
+          "duration": 172
+        },
+        {
+          "start": 18519.200000001118,
+          "duration": 141
+        },
+        {
+          "start": 18754.5,
+          "duration": 106
+        },
+        {
+          "start": 18882.800000000745,
+          "duration": 148
+        },
+        {
+          "start": 19168.400000000373,
+          "duration": 129
+        },
+        {
+          "start": 19365.599999999627,
+          "duration": 172
+        },
+        {
+          "start": 19707,
+          "duration": 143
+        },
+        {
+          "start": 19907.099999999627,
+          "duration": 157
+        },
+        {
+          "start": 20178,
+          "duration": 168
+        }
+      ],
+      "firstRecords": 6141.300000000745,
+      "firstMarkerDOM": 9893,
+      "firstVisibleMarker": 9896.599999999627,
+      "paint": [
+        {
+          "name": "first-paint",
+          "ms": 2596
+        },
+        {
+          "name": "first-contentful-paint",
+          "ms": 2596
+        }
+      ],
+      "renderedRecords": 50,
+      "markers": 17,
+      "loadedTiles": 0,
+      "resultSummary": "8,971 listed · 8,495 mapped · 2005 mapped places",
+      "bodyWidth": 393,
+      "viewport": 393
+    },
+    {
+      "profile": "mobile-0.4Mbps",
+      "run": 2,
+      "url": "http://127.0.0.1:3073/champion-trees",
+      "browser": "153.0.8010.0",
+      "device": "Pixel 5 emulation, 393 × 851, DPR 2.75",
+      "cpuSlowdown": 4,
+      "downloadMbps": 0.4,
+      "latencyMs": 300,
+      "coldBrowserCache": true,
+      "fullDataReadyMs": 20762.599999999627,
+      "filterReadyMs": 582.2000000011176,
+      "maxStateRequests": 4,
+      "stateResponses": 50,
+      "encodedStateBytes": 570000,
+      "encodedTotalBytes": 898028,
+      "wallMs": 21402,
+      "failures": [
+        {
+          "url": "https://tile.openstreetmap.org/5/9/11.png",
+          "start": 14847.397015,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/5/10/11.png",
+          "start": 14847.398531,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/5/9/10.png",
+          "start": 14847.39861,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/5/10/10.png",
+          "start": 14847.398654,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/5/9/12.png",
+          "start": 14847.39943,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/5/10/12.png",
+          "start": 14847.399513,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/3/1/2.png",
+          "start": 14847.583235,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/3/1/3.png",
+          "start": 14847.583305,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/3/0/2.png",
+          "start": 14847.583349,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/3/2/2.png",
+          "start": 14847.584436,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/3/0/3.png",
+          "start": 14847.585162,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/3/2/3.png",
+          "start": 14847.585231,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/5/6/11.png",
+          "start": 14858.866909,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/5/6/12.png",
+          "start": 14858.867005,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/5/5/11.png",
+          "start": 14858.867593,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/5/7/11.png",
+          "start": 14858.867655,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/5/5/12.png",
+          "start": 14858.867745,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/5/7/12.png",
+          "start": 14858.86778,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        }
+      ],
+      "longTasks": [
+        {
+          "start": 2282.2000000011176,
+          "duration": 219
+        },
+        {
+          "start": 5315.200000001118,
+          "duration": 150
+        },
+        {
+          "start": 5497.9000000003725,
+          "duration": 59
+        },
+        {
+          "start": 9633,
+          "duration": 67
+        },
+        {
+          "start": 9791.900000000373,
+          "duration": 63
+        },
+        {
+          "start": 10249.400000000373,
+          "duration": 60
+        },
+        {
+          "start": 10403,
+          "duration": 56
+        },
+        {
+          "start": 11556,
+          "duration": 121
+        },
+        {
+          "start": 11781.200000001118,
+          "duration": 85
+        },
+        {
+          "start": 11951.099999999627,
+          "duration": 133
+        },
+        {
+          "start": 12135.200000001118,
+          "duration": 130
+        },
+        {
+          "start": 12342.800000000745,
+          "duration": 63
+        },
+        {
+          "start": 12516.200000001118,
+          "duration": 56
+        },
+        {
+          "start": 12655.200000001118,
+          "duration": 71
+        },
+        {
+          "start": 12791.900000000373,
+          "duration": 52
+        },
+        {
+          "start": 13392.099999999627,
+          "duration": 156
+        },
+        {
+          "start": 13588.300000000745,
+          "duration": 170
+        },
+        {
+          "start": 13811.200000001118,
+          "duration": 96
+        },
+        {
+          "start": 14085.900000000373,
+          "duration": 98
+        },
+        {
+          "start": 14304.099999999627,
+          "duration": 116
+        },
+        {
+          "start": 14586.700000001118,
+          "duration": 95
+        },
+        {
+          "start": 14776.700000001118,
+          "duration": 96
+        },
+        {
+          "start": 14899.700000001118,
+          "duration": 120
+        },
+        {
+          "start": 15101.900000000373,
+          "duration": 83
+        },
+        {
+          "start": 15243.300000000745,
+          "duration": 97
+        },
+        {
+          "start": 15360.300000000745,
+          "duration": 59
+        },
+        {
+          "start": 15536.900000000373,
+          "duration": 130
+        },
+        {
+          "start": 15760.599999999627,
+          "duration": 124
+        },
+        {
+          "start": 15958.800000000745,
+          "duration": 104
+        },
+        {
+          "start": 16173.300000000745,
+          "duration": 113
+        },
+        {
+          "start": 16391.800000000745,
+          "duration": 165
+        },
+        {
+          "start": 16633.599999999627,
+          "duration": 134
+        },
+        {
+          "start": 17471.800000000745,
+          "duration": 129
+        },
+        {
+          "start": 17700.599999999627,
+          "duration": 120
+        },
+        {
+          "start": 17890.800000000745,
+          "duration": 130
+        },
+        {
+          "start": 18119.900000000373,
+          "duration": 170
+        },
+        {
+          "start": 18362,
+          "duration": 154
+        },
+        {
+          "start": 18628.5,
+          "duration": 100
+        },
+        {
+          "start": 18803.700000001118,
+          "duration": 137
+        },
+        {
+          "start": 19021.800000000745,
+          "duration": 103
+        },
+        {
+          "start": 19188.300000000745,
+          "duration": 140
+        },
+        {
+          "start": 19420,
+          "duration": 87
+        },
+        {
+          "start": 19531.5,
+          "duration": 136
+        },
+        {
+          "start": 19801.200000001118,
+          "duration": 78
+        },
+        {
+          "start": 19899.300000000745,
+          "duration": 137
+        },
+        {
+          "start": 20152.800000000745,
+          "duration": 130
+        },
+        {
+          "start": 20337.300000000745,
+          "duration": 164
+        },
+        {
+          "start": 20586.200000001118,
+          "duration": 141
+        }
+      ],
+      "firstRecords": 6172.800000000745,
+      "firstMarkerDOM": 10066.099999999627,
+      "firstVisibleMarker": 10070.5,
+      "paint": [
+        {
+          "name": "first-paint",
+          "ms": 2516
+        },
+        {
+          "name": "first-contentful-paint",
+          "ms": 2516
+        }
+      ],
+      "renderedRecords": 50,
+      "markers": 17,
+      "loadedTiles": 0,
+      "resultSummary": "8,971 listed · 8,495 mapped · 2005 mapped places",
+      "bodyWidth": 393,
+      "viewport": 393
+    },
+    {
+      "profile": "mobile-0.4Mbps",
+      "run": 3,
+      "url": "http://127.0.0.1:3073/champion-trees",
+      "browser": "153.0.8010.0",
+      "device": "Pixel 5 emulation, 393 × 851, DPR 2.75",
+      "cpuSlowdown": 4,
+      "downloadMbps": 0.4,
+      "latencyMs": 300,
+      "coldBrowserCache": true,
+      "fullDataReadyMs": 20452.199999999255,
+      "filterReadyMs": 562.9000000003725,
+      "maxStateRequests": 4,
+      "stateResponses": 50,
+      "encodedStateBytes": 570000,
+      "encodedTotalBytes": 898028,
+      "wallMs": 21072,
+      "failures": [
+        {
+          "url": "https://tile.openstreetmap.org/5/9/11.png",
+          "start": 14868.76203,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/5/10/11.png",
+          "start": 14868.76245,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/5/9/10.png",
+          "start": 14868.762502,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/5/10/10.png",
+          "start": 14868.762531,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/5/9/12.png",
+          "start": 14868.762559,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/5/10/12.png",
+          "start": 14868.762587,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/3/1/2.png",
+          "start": 14868.958725,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/3/1/3.png",
+          "start": 14868.9588,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/3/0/2.png",
+          "start": 14868.958847,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/3/2/2.png",
+          "start": 14868.95961,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/3/0/3.png",
+          "start": 14868.959712,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/3/2/3.png",
+          "start": 14868.960502,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/5/6/11.png",
+          "start": 14879.975772,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/5/6/12.png",
+          "start": 14879.976603,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/5/5/11.png",
+          "start": 14879.976638,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/5/7/11.png",
+          "start": 14879.97696,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/5/5/12.png",
+          "start": 14879.976992,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/5/7/12.png",
+          "start": 14879.97703,
+          "error": "net::ERR_EMPTY_RESPONSE"
+        }
+      ],
+      "longTasks": [
+        {
+          "start": 2282.5999999996275,
+          "duration": 167
+        },
+        {
+          "start": 5310.199999999255,
+          "duration": 104
+        },
+        {
+          "start": 5490.0999999996275,
+          "duration": 61
+        },
+        {
+          "start": 9730.199999999255,
+          "duration": 52
+        },
+        {
+          "start": 10371.89999999851,
+          "duration": 61
+        },
+        {
+          "start": 11613.099999999627,
+          "duration": 68
+        },
+        {
+          "start": 11820.89999999851,
+          "duration": 76
+        },
+        {
+          "start": 11989.299999998882,
+          "duration": 58
+        },
+        {
+          "start": 12452.599999999627,
+          "duration": 56
+        },
+        {
+          "start": 12551.599999999627,
+          "duration": 67
+        },
+        {
+          "start": 12689.799999998882,
+          "duration": 57
+        },
+        {
+          "start": 12867.799999998882,
+          "duration": 86
+        },
+        {
+          "start": 13022.799999998882,
+          "duration": 76
+        },
+        {
+          "start": 13111.5,
+          "duration": 77
+        },
+        {
+          "start": 13596.199999999255,
+          "duration": 67
+        },
+        {
+          "start": 13765.39999999851,
+          "duration": 58
+        },
+        {
+          "start": 13914.199999999255,
+          "duration": 73
+        },
+        {
+          "start": 14064.199999999255,
+          "duration": 97
+        },
+        {
+          "start": 14177.199999999255,
+          "duration": 83
+        },
+        {
+          "start": 14409.599999999627,
+          "duration": 89
+        },
+        {
+          "start": 14562,
+          "duration": 74
+        },
+        {
+          "start": 14688.5,
+          "duration": 79
+        },
+        {
+          "start": 14817.699999999255,
+          "duration": 76
+        },
+        {
+          "start": 14906.799999998882,
+          "duration": 94
+        },
+        {
+          "start": 15066.099999999627,
+          "duration": 84
+        },
+        {
+          "start": 15247,
+          "duration": 77
+        },
+        {
+          "start": 15377.299999998882,
+          "duration": 94
+        },
+        {
+          "start": 15872.799999998882,
+          "duration": 102
+        },
+        {
+          "start": 16045.299999998882,
+          "duration": 90
+        },
+        {
+          "start": 16197.5,
+          "duration": 94
+        },
+        {
+          "start": 16406.199999999255,
+          "duration": 128
+        },
+        {
+          "start": 16662.599999999627,
+          "duration": 140
+        },
+        {
+          "start": 17436.5,
+          "duration": 115
+        },
+        {
+          "start": 17646.89999999851,
+          "duration": 126
+        },
+        {
+          "start": 17856.699999999255,
+          "duration": 157
+        },
+        {
+          "start": 18131.39999999851,
+          "duration": 145
+        },
+        {
+          "start": 18345.199999999255,
+          "duration": 126
+        },
+        {
+          "start": 18569.799999998882,
+          "duration": 95
+        },
+        {
+          "start": 18685.39999999851,
+          "duration": 130
+        },
+        {
+          "start": 18954.699999999255,
+          "duration": 90
+        },
+        {
+          "start": 19111.89999999851,
+          "duration": 152
+        },
+        {
+          "start": 19387.699999999255,
+          "duration": 111
+        },
+        {
+          "start": 19555.699999999255,
+          "duration": 156
+        },
+        {
+          "start": 19819.39999999851,
+          "duration": 144
+        },
+        {
+          "start": 20024.5,
+          "duration": 149
+        },
+        {
+          "start": 20271.599999999627,
+          "duration": 139
+        }
+      ],
+      "firstRecords": 6116.699999999255,
+      "firstMarkerDOM": 10002.299999998882,
+      "firstVisibleMarker": 10006.39999999851,
+      "paint": [
+        {
+          "name": "first-paint",
+          "ms": 2464
+        },
+        {
+          "name": "first-contentful-paint",
+          "ms": 2464
+        }
+      ],
+      "renderedRecords": 50,
+      "markers": 17,
+      "loadedTiles": 0,
+      "resultSummary": "8,971 listed · 8,495 mapped · 2005 mapped places",
+      "bodyWidth": 393,
+      "viewport": 393
+    }
+  ]
+}
