@@ -1,6 +1,31 @@
 type PoseImage = { src: string; alt: string; width: number; height: number };
 
 export const bookPoseImages: Record<string, PoseImage> = {
+  "tabletop-alternate-balance-pose": {
+    src: "https://media.treeyogaschool.com/images/tree-yoga-poses/tabletop-alternate-balance-pose.webp",
+    alt: "Balancing from tabletop on a mat with one leg extended behind and the opposite hand against a tree",
+    width: 2048, height: 1158,
+  },
+  "standing-splits": {
+    src: "https://media.treeyogaschool.com/images/tree-yoga-poses/standing-splits.webp",
+    alt: "Standing beside a tree with one leg raised along the trunk and both hands resting against it",
+    width: 2048, height: 1165,
+  },
+  "tabletop-side-body-stretch": {
+    src: "https://media.treeyogaschool.com/images/tree-yoga-poses/tabletop-side-body-stretch.webp",
+    alt: "Stretching sideways from a kneeling position with one hand on the mat and the other reaching up a tree",
+    width: 2048, height: 1155,
+  },
+  "standing-single-leg-knee-circles": {
+    src: "https://media.treeyogaschool.com/images/tree-yoga-poses/standing-single-leg-knee-circles.webp",
+    alt: "Standing on one leg beside a tree with the other knee lifted and one hand against the trunk",
+    width: 2048, height: 1167,
+  },
+  "single-leg-hip-circles": {
+    src: "https://media.treeyogaschool.com/images/tree-yoga-poses/standing-single-leg-hip-circles.webp",
+    alt: "Standing beside a tree with one bent leg lifted to the side and one hand against the trunk",
+    width: 2048, height: 1161,
+  },
   "warrior-i": {
     src: "https://media.treeyogaschool.com/images/tree-yoga-poses/warrior-i.webp",
     alt: "Practicing Warrior I beside a tree with the front knee bent and hands against the trunk",
