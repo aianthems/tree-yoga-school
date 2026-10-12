@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import SiteHeader from "../components/site-header";
 import { bookPoses, poseDescription, poseHref } from "../../lib/book-poses";
+import { bookPoseImages } from "../../lib/book-pose-images";
 import { bookUrl } from "../../lib/intro-lessons";
 import { pageMetadata } from "../../lib/site-seo";
 
@@ -21,6 +23,7 @@ export default async function PosePage({ params }: { params: Promise<{ pose: str
   const pose = bookPoses[index];
   if (!pose) notFound();
   const previous = bookPoses[index - 1];
+  const image = bookPoseImages[pose.slug];
   const next = bookPoses[index + 1];
   const pages = pose.endPdfPage === pose.pdfPage ? `${pose.printedPage}` : `${pose.printedPage}–${pose.endPdfPage - 5}`;
   return <><SiteHeader /><main id="content" className="lesson pose-page">
@@ -28,6 +31,7 @@ export default async function PosePage({ params }: { params: Promise<{ pose: str
       <Link className="lesson-back" href="/book/poses-flows-and-meditations#poses">← All {bookPoses.length} poses</Link>
       <p className="section-kicker">Tree Yoga · The original pose reference</p>
       <h1>{pose.title}</h1>
+      {image && <figure className="pose-photograph"><Image src={image.src} alt={image.alt} width={image.width} height={image.height} unoptimized /></figure>}
       <p className="pose-source-byline">Alex Julian · <cite>Tree Yoga School</cite> · Printed {pose.endPdfPage === pose.pdfPage ? "page" : "pages"} {pages}</p>
       <a className="button secondary" href={`${bookUrl}#page=${pose.pdfPage}`} target="_blank" rel="noreferrer">See this pose in the original book ↗</a>
     </section>

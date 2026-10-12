@@ -1543,6 +1543,8 @@ section[id] { scroll-margin-top: 90px; }
 .pose-directory-grid small { font-size: .75rem; opacity: .8; display: flex; justify-content: space-between; gap: 15px; }
 .pose-directory a:focus-visible { outline: 3px solid #ab8141; outline-offset: 4px; }
 .pose-source-byline { color: #50665a; font-size: .95rem; }
+.pose-photograph { margin: 2rem 0; }
+.pose-photograph img { display: block; width: 100%; height: auto; border-radius: 8px; }
 .pose-original-text p { line-height: 1.85; }
 .pose-page .chapter-navigation { gap: 20px; flex-wrap: wrap; }
 #poses { scroll-margin-top: 7rem; }
