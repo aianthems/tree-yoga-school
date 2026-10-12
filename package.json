@@ -11,7 +11,8 @@
     "test": "node --test scripts/test-*.cjs",
     "prebuild": "npm run check:coverage && npm run validate:champions",
     "sync:coverage": "node scripts/sync-coverage-readme.cjs",
-    "check:coverage": "node scripts/sync-coverage-readme.cjs --check"
+    "check:coverage": "node scripts/sync-coverage-readme.cjs --check",
+    "review:sources": "node scripts/review-champion-sources.cjs"
   },
   "dependencies": {
     "leaflet": "1.9.4",

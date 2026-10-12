@@ -28,6 +28,7 @@ export const discoveryPages = [
   { path: "/begin-here/seven-days", title: "Seven Days with a Tree", description: "Explore observation, meditation, gentle movement, and walking in seven short practices." },
   { path: "/book", title: "Explore the Book", description: "Explore the seven chapters of Alex Julian’s Tree Yoga School." },
   { path: "/lessons/first-five-minutes", title: "Your First Five Minutes with a Tree", description: "Begin with observation, natural breathing, and a few minutes beside a tree." },
+  { path: "/champion-trees/source-review", title: "Champion Tree Source Reviews", description: "Source snapshots and planned reviews for all 50 state registers." },
   { path: "/practice/first-five-minutes", title: "Any Tree Outdoor Practice", description: "Readable observation steps, an optional timer, and a printable practice sheet." },
   ...championStatePages.map(page => ({ path: championStateHref(page.state), title: `${page.name} Champion Trees`, description: statePageDescription(page.state) })),
   ...treeComparisons.map(pair => ({ path: `/compare-trees/${pair.slug}`, title: `${pair.title}: Compare Similar Trees`, description: pair.lead })),

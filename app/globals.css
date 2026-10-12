@@ -1566,3 +1566,11 @@ section[id] { scroll-margin-top: 90px; }
 .home-outings-links > a:hover strong { text-decoration: underline; text-underline-offset: 4px; }
 .home-outings-links > a:focus-visible { outline: 2px solid currentColor; outline-offset: 4px; }
 @media (max-width: 760px) { .home-outings-grid { grid-template-columns: 1fr; gap: 1.5rem; } .visit-quick-facts { grid-template-columns: 1fr; } }
+
+.source-review-table-wrap { overflow-x: auto; margin: 2rem 0 4rem; }
+.source-review-table { width: 100%; border-collapse: collapse; line-height: 1.6; }
+.source-review-table caption { text-align: left; margin-bottom: 1rem; color: var(--ink-soft); }
+.source-review-table th, .source-review-table td { text-align: left; vertical-align: top; padding: 1rem; border-bottom: 1px solid var(--sage); min-width: 160px; }
+.source-review-table thead { background: var(--cream); }
+.source-review-table p { margin: .5rem 0; }
+.source-review-table a { text-decoration: underline; text-underline-offset: 3px; }
