@@ -1548,3 +1548,21 @@ section[id] { scroll-margin-top: 90px; }
 #poses { scroll-margin-top: 7rem; }
 @media (max-width: 600px) { .pose-directory-grid { grid-template-columns: 1fr; } }
 .pose-page .lesson-intro h1 { overflow-wrap: anywhere; }
+
+.visit-quick-facts { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; margin: 2rem 0; padding: 1.5rem; background: var(--cream); }
+.visit-quick-facts dt { font-weight: 700; margin-bottom: .5rem; }
+.visit-quick-facts dd { margin: 0; line-height: 1.6; }
+.visit-destination-photos .visit-photo-grid img { height: auto; object-fit: contain; }
+.home-outings-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2.5rem; align-items: start; margin: 2rem 0; }
+.home-outings figure { margin: 0; min-width: 0; }
+.home-outings img { display: block; width: 100%; height: auto; }
+.home-outings figcaption { font-size: .75rem; line-height: 1.6; margin-top: .6rem; color: var(--ink-soft); }
+.home-outings figcaption a { text-decoration: underline; }
+.home-outings-links { display: grid; }
+.home-outings-links > a { display: grid; gap: .3rem; padding: 1rem 0; border-bottom: 1px solid var(--sage); }
+.home-outings-links > a:first-child { padding-top: 0; }
+.home-outings-links strong { font-size: 1.15rem; }
+.home-outings-links span, .home-outings-links small { line-height: 1.6; }
+.home-outings-links > a:hover strong { text-decoration: underline; text-underline-offset: 4px; }
+.home-outings-links > a:focus-visible { outline: 2px solid currentColor; outline-offset: 4px; }
+@media (max-width: 760px) { .home-outings-grid { grid-template-columns: 1fr; gap: 1.5rem; } .visit-quick-facts { grid-template-columns: 1fr; } }

@@ -1,0 +1,258 @@
+{
+  "visits": [
+    {
+      "slug": "bretzfelder-white-pine",
+      "state": "NH",
+      "name": "The memorial white pine at Bretzfelder Park",
+      "scientificName": "Pinus strobus",
+      "librarySlug": "pine",
+      "place": "Bretzfelder Memorial Park · Bethlehem, New Hampshire",
+      "kind": "Forest walk",
+      "arrival": "From I-93 Exit 40, follow Route 302 east for three miles, turn left onto Prospect Street, and continue about one mile to the park on the left. Use the designated parking, which the Forest Society says is plowed in winter. Its linked park map marks the Memorial Tree, Tree ID Trail, Pond Loop, and other paths.",
+      "walking": "Choose a short return walk to the Memorial Tree or one of the mapped woodland loops. The manager does not publish a measured parking-to-pine distance or individual loop lengths; the map has a feet scale but is not a step-free access assessment. Paths wind through woods and around the pond. Check roots, wet ground and seasonal conditions on arrival, and turn back whenever the route no longer suits you. The manager describes the memorial tree as a giant white pine, estimated to be over 200 years old; no current champion designation is asserted here.",
+      "access": "Forest Society properties are generally open dawn to dusk. The park page states that a portable restroom is available in summer. No general admission price is published in the reviewed park information; confirm current arrangements with the manager. Keep paths and gates clear, carry out belongings and trash, and leave plants and memorial features undisturbed.",
+      "pause": "Pause at a permitted viewpoint of the memorial pine without stepping onto exposed roots or blocking the path. Notice the trunk, then the younger trees around it. A quiet view is enough; touching the tree is optional.",
+      "checked": "2026-10-12",
+      "outing": {
+        "distance": "Short return walk; distance not published",
+        "terrain": "Woodland paths; conditions vary",
+        "fee": "No admission price published"
+      },
+      "photoLink": {
+        "label": "View the manager’s photographs of Bretzfelder Park",
+        "href": "https://www.forestsociety.org/property/bretzfelder-park"
+      },
+      "sources": [
+        {
+          "label": "Forest Society · memorial pine, directions, parking and facilities",
+          "href": "https://www.forestsociety.org/property/bretzfelder-park"
+        },
+        {
+          "label": "Forest Society · park and Memorial Tree map (2020 PDF)",
+          "href": "https://www.forestsociety.org/document/bretzfelderwebmap2020pdf.pdf"
+        },
+        {
+          "label": "Forest Society · current visitor use guidelines",
+          "href": "https://www.forestsociety.org/visitor-use-guidelines"
+        }
+      ],
+      "practice": {
+        "title": "One pine. One clear point.",
+        "text": "Choose one visible detail on the trunk. Let your attention return to that detail between sounds and movements in the surrounding woods. Keep your breathing comfortable, and let a short pause be a complete visit.",
+        "href": "/trees/pine#practice",
+        "label": "Explore Pine and its practice"
+      }
+    },
+    {
+      "slug": "the-rocks-woodland",
+      "state": "NH",
+      "name": "Maples and woodland at The Rocks",
+      "scientificName": "Acer spp.",
+      "place": "The Rocks · Bethlehem, New Hampshire",
+      "kind": "Forest walk",
+      "arrival": "Arrive at 113 Glessner Road, off Route 302 in Bethlehem, using the visitor parking by the Carriage Barn. The visitor center is listed as open Tuesday–Saturday, 10 a.m.–4 p.m.; accessible vestibule restrooms are available daily from dawn to dusk. Use the current campus and trail maps to choose your walk.",
+      "walking": "The Gozzo Rocks Loop is a published 1.8-mile moderate loop that begins and ends at The Rocks and includes the Beaver Pond Loop. The complete Michael A. Gozzo Trail is 4.6 miles with varied terrain; the 0.67-mile one-way South Road spur is difficult and steep. The 0.8-mile Christmas Tree Trail is rated easy, but is closed on weekdays April 1–November 20 for farm work. Choose the woodland loop or a shorter return walk on an open marked route. The property has an active maple-sugaring program; this guide does not identify one particular maple or assign it champion status.",
+      "access": "Trails are open dawn to dusk, subject to posted closures and working-farm restrictions. The reviewed trail information does not state a general hiking admission price. Maple tours, events and Christmas tree purchases are separate activities; check their booking and prices directly. Stay on open routes and do not enter closed growing fields.",
+      "pause": "Choose a dry viewpoint beside an open woodland path. Look at one tree’s branching shape, then the spaces between neighboring trunks. If you want to identify a maple, use several features and staff guidance rather than treating every tree along the walk as the same species.",
+      "checked": "2026-10-12",
+      "outing": {
+        "distance": "Gozzo Rocks Loop: 1.8 miles",
+        "terrain": "Moderate woodland loop; steeper spurs",
+        "fee": "Trail price not stated; programs separate"
+      },
+      "photoLink": {
+        "label": "View official photographs and the campus map at The Rocks",
+        "href": "https://www.forestsociety.org/the-rocks/things-do-rocks"
+      },
+      "sources": [
+        {
+          "label": "Forest Society · visitor address, parking and opening hours",
+          "href": "https://www.forestsociety.org/the-rocks/contact"
+        },
+        {
+          "label": "Forest Society · trail lengths, difficulty and weekday field closure",
+          "href": "https://www.forestsociety.org/the-rocks/trails"
+        },
+        {
+          "label": "Forest Society · maple-sugaring program",
+          "href": "https://www.forestsociety.org/the-rocks/nh-maple-experience"
+        },
+        {
+          "label": "Forest Society · visitor use guidelines",
+          "href": "https://www.forestsociety.org/visitor-use-guidelines"
+        }
+      ],
+      "practice": {
+        "title": "Let change become something to notice.",
+        "text": "Look at one leaf, bud or branching detail without needing to name it immediately. Notice a second detail that differs. The Sugar Maple practice offers a reflection on change; it is a practice connection, not identification of every maple at this destination.",
+        "href": "/trees/maple#practice",
+        "label": "Explore Sugar Maple and its practice"
+      }
+    },
+    {
+      "slug": "gifford-old-growth",
+      "state": "VT",
+      "name": "Old-growth trees at Gifford Woods",
+      "scientificName": "Acer saccharum",
+      "librarySlug": "maple",
+      "place": "Gifford Woods State Park · Killington, Vermont",
+      "kind": "Forest walk",
+      "arrival": "Use the Gifford Woods park entrance on VT-100, about half a mile north of the US-4 junction in Killington. Check in at the park office for parking, fees and the current walking map. The old-growth natural area is east of Route 100; ask staff for the appropriate approach and road-crossing guidance. The manager-supported Trail Finder listing identifies off-season walk-in parking at 515 VT-100.",
+      "walking": "The current Vermont State Parks hiking table lists the Old Growth Interpretive Trail as a 0.10-mile easy loop, taking about 10–15 minutes. An older regional hiking PDF lists 0.3 mile, so confirm the route and approach with the park office; neither figure establishes the distance from your parking space. Woodland paths have a natural surface and may be muddy or root-covered. The state identifies sugar maple, beech and yellow birch in the old-growth area. This is a forest encounter, not one certified champion tree.",
+      "access": "The park lists staffed day use from 10 a.m. to official sunset during its operating season. Verify this year’s opening and closing dates and alerts before travelling; off-season facilities and services may be closed. Current general state-park day-use admission is $5 for ages 14 and older; check the official fee table for younger visitors and passes. Follow marked routes and park rules.",
+      "pause": "Use a stable place along the interpretive route, leaving room for others to pass. Notice a large trunk, the younger growth and the forest floor together. Remain on the path rather than walking around the roots to find a closer angle.",
+      "checked": "2026-10-12",
+      "outing": {
+        "distance": "Interpretive loop: 0.10 mile in current table",
+        "terrain": "Easy-rated natural-surface woodland trail",
+        "fee": "$5 day use, ages 14+; check passes"
+      },
+      "sources": [
+        {
+          "label": "Vermont State Parks · current park and season information",
+          "href": "https://www.vtstateparks.com/parks/gifford-woods"
+        },
+        {
+          "label": "Vermont State Parks · current trail distance table",
+          "href": "https://www.vtstateparks.com/hiking"
+        },
+        {
+          "label": "Vermont State Parks · older regional hiking guide (distance differs)",
+          "href": "https://www.vtstateparks.com/assets/pdf/coolidge_hiking.pdf"
+        },
+        {
+          "label": "Vermont FPR · old-growth area and species",
+          "href": "https://fpr.vermont.gov/gifford-woods-state-park"
+        },
+        {
+          "label": "Vermont State Parks · fees and passes",
+          "href": "https://www.vtstateparks.com/fees"
+        },
+        {
+          "label": "Trail Finder · manager-supported parking and route information",
+          "href": "https://www.trailfinder.info/trails/trail/gifford-woods-state-park"
+        },
+        {
+          "label": "Vermont State Parks · current alerts",
+          "href": "https://www.vtstateparks.com/park-alerts"
+        }
+      ],
+      "practice": {
+        "title": "Notice a season without rushing it.",
+        "text": "Choose one leaf, a branching line or a patch of light. Notice its color, shape and movement before giving it a meaning. Let the changing forest offer a place to practice patience with your own pace.",
+        "href": "/trees/maple#practice",
+        "label": "Explore Sugar Maple and its practice"
+      },
+      "destinationPhotos": [
+        {
+          "image": "/images/responsive/gifford-woods-forest-1000-c564389eab1e.webp",
+          "width": 1000,
+          "height": 750,
+          "alt": "Autumn woodland trail among tall trees and fallen leaves at Gifford Woods",
+          "caption": "Gifford Woods woodland trail · photographed October 5, 2024",
+          "photographer": "Victoria Stauffenberg / National Park Service",
+          "license": "Public domain (US federal work)",
+          "licenseUrl": "https://www.nps.gov/aboutus/disclaimer.htm",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gifford_Woods_(National_Natural_Landmark)_(17915f52-4997-4290-aac3-f0e4d1ce236f).jpg"
+        },
+        {
+          "image": "/images/responsive/gifford-woods-pond-1000-6a3826578ddf.webp",
+          "width": 1000,
+          "height": 635,
+          "alt": "Pond-side autumn landscape photographed at Gifford Woods",
+          "caption": "Gifford Woods pond-side landscape · photographed October 5, 2024",
+          "photographer": "Victoria Stauffenberg / National Park Service",
+          "license": "Public domain (US federal work)",
+          "licenseUrl": "https://www.nps.gov/aboutus/disclaimer.htm",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gifford_Woods_(National_Natural_Landmark)_(05c057e3-8925-4549-bcd1-7fec9c4b1df5).jpg"
+        }
+      ]
+    },
+    {
+      "slug": "arnold-hemlock-hill",
+      "state": "MA",
+      "name": "Hemlock Hill at the Arnold Arboretum",
+      "scientificName": "Tsuga canadensis",
+      "librarySlug": "hemlock",
+      "place": "Arnold Arboretum of Harvard University · Boston, Massachusetts",
+      "kind": "Forest walk",
+      "arrival": "For the northern side of Hemlock Hill, enter through the South Street Gate and approach along Hemlock Hill Road. The western side is less than five minutes from the Bussey Street or Walter Street gates. The Arboretum suggests parking along Bussey Street or in front of the South Street Gate; obey current signs and neighborhood parking restrictions. Use the gate map tables for wayfinding.",
+      "walking": "The Arboretum recommends about 15 minutes for the dirt path around the base from the wooden bridge, about 20 minutes for the wide gravel route toward the hilltop, or up to an hour exploring smaller paths. Route mileage is not published in the reviewed guide. Hemlock Hill is explicitly not wheelchair accessible: terrain is rugged, can be muddy, and includes unmaintained dirt paths. For a gentler encounter, ask staff about a suitable roadside viewpoint along Hemlock Hill Road rather than assuming the hill paths are step-free.",
+      "access": "The Arboretum landscape is free and open every day from sunrise to sunset. The hill is a living collection and woodland, with native eastern hemlock alongside other species; use plant labels and the collection guide to identify individuals. Respect planting beds and protective barriers, and check visitor notices before travelling. No champion title is assigned by this guide.",
+      "pause": "Choose a stable, permitted viewpoint where you can look into the canopy while keeping the route clear. Notice layers of shade and the space between trunks. Keep the practice beside the path; a closer approach is not necessary.",
+      "checked": "2026-10-12",
+      "outing": {
+        "distance": "15–20 minute walks; mileage not published",
+        "terrain": "Rugged, muddy paths; not wheelchair accessible",
+        "fee": "Free landscape admission"
+      },
+      "photoLink": {
+        "label": "View the Arboretum’s photographs of Hemlock Hill",
+        "href": "https://arboretum.harvard.edu/collections/hemlock-hill/"
+      },
+      "sources": [
+        {
+          "label": "Arnold Arboretum · directions, parking, walking times and accessibility",
+          "href": "https://arboretum.harvard.edu/plants/hemlock-hill-directions-and-accessibility-information/"
+        },
+        {
+          "label": "Arnold Arboretum · Hemlock Hill collection and species",
+          "href": "https://arboretum.harvard.edu/collections/hemlock-hill/"
+        },
+        {
+          "label": "Arnold Arboretum · free admission, hours and visitor information",
+          "href": "https://arboretum.harvard.edu/visit/"
+        }
+      ],
+      "practice": {
+        "title": "Let the whole woodland hold your attention.",
+        "text": "Notice one evergreen branch, then soften your focus to include the surrounding woods. Listen without choosing which sound should come next. Return to a comfortable breath and a view that fits your position.",
+        "href": "/trees/hemlock#practice",
+        "label": "Explore Hemlock and its practice"
+      }
+    },
+    {
+      "slug": "vaughan-hemlock-woods",
+      "state": "ME",
+      "name": "Pine and hemlock at Vaughan Woods",
+      "scientificName": "Tsuga canadensis",
+      "librarySlug": "hemlock",
+      "place": "Vaughan Woods Memorial State Park · South Berwick, Maine",
+      "kind": "Forest walk",
+      "arrival": "Arrive at 28 Oldfields Road, South Berwick. From ME-236 south of town, turn onto Vine Street and follow it to Oldfields Road, then follow the park signs. Use the designated park parking when the gate is open. Off season, the Bureau permits parking outside the gate without blocking it or the road, then walking in. This is the South Berwick state park, not the similarly named Vaughan Woods in Hallowell.",
+      "walking": "The Bureau lists more than three miles of connected trails, including the 0.7-mile Bridle Path, 0.3-mile Bridle Path Loop and 0.8-mile Scenic River Run. These are named trail lengths, not a complete parking-to-parking itinerary. Choose a shorter return walk if needed. Natural surfaces include roots, slopes and stream valleys; the manager-supported Trail Finder warns that trail access descends a steep slope. Do not treat the short loop as an accessible route. Pine and hemlock stands are described by the Bureau; this guide does not identify one champion.",
+      "access": "The Bureau lists 9 a.m. to sunset from Memorial Day through Labor Day, unless the gate says otherwise. Off-season walk-in visits use the same hours; facilities are closed and visitors should pay using the self-service canister. Bring cash or a check; the park does not accept credit cards. The current fee table lists $3 for adult Maine residents, $4 for adult nonresidents, and $1 for nonresident seniors. Maine residents age 65+ and children under five are free; ages 5–11 are $1. Confirm rates and notices before travelling. Pets must be on four-foot leashes.",
+      "pause": "Choose a stable viewpoint on the established route. Notice a pine or hemlock silhouette and listen to the woodland around it. Keep away from steep riverbanks and leave roots, bark and fallen material undisturbed.",
+      "checked": "2026-10-12",
+      "outing": {
+        "distance": "Bridle Path Loop: 0.3 mile, plus approach",
+        "terrain": "Natural surfaces, roots and steep access",
+        "fee": "Adults: ME $3 / nonresident $4"
+      },
+      "photoLink": {
+        "label": "View the park’s photographs and trail map",
+        "href": "https://apps.web.maine.gov/cgi-bin/online/doc/parksearch/details.pl?park_id=29"
+      },
+      "sources": [
+        {
+          "label": "Maine Bureau of Parks and Lands · official park, trail lengths, hours and directions",
+          "href": "https://apps.web.maine.gov/cgi-bin/online/doc/parksearch/details.pl?park_id=29"
+        },
+        {
+          "label": "Maine Bureau of Parks and Lands · current day-use fee table",
+          "href": "https://www.maine.gov/dacf/parks/park_passes_fees_rules/park_day_use_fees.shtml"
+        },
+        {
+          "label": "Maine Trail Finder · manager-supported terrain and approach notes",
+          "href": "https://www.mainetrailfinder.com/trails/trail/vaughan-woods-state-park"
+        }
+      ],
+      "practice": {
+        "title": "A little stillness among evergreen trees.",
+        "text": "Pause at a comfortable point on your route. Notice a branch outline against the light, then listen to a nearby and a more distant sound. Let a few natural breaths be enough before continuing or returning.",
+        "href": "/trees/hemlock#practice",
+        "label": "Explore Hemlock and its practice"
+      }
+    }
+  ]
+}

@@ -9,6 +9,9 @@ export default function TreeVisitCard({ visit, index, standalone = false }: { vi
   const photographs = species ? [species, ...(species.detailImages || []).slice(0, 1)] : [];
   return <article className="tree-visit-card" id={visit.slug} >
       <div className="tree-visit-heading"><p className="section-kicker">Visit {String(index + 1).padStart(2, "0")} · {visit.kind} · {visit.place}</p>{standalone ? <h1>{visit.name}</h1> : <h2><Link href={`/tree-visits/${visit.slug}`}>{visit.name}</Link></h2>}<p><i>{visit.scientificName}</i></p></div>
+      {visit.outing && <dl className="visit-quick-facts"><div><dt>Walking</dt><dd>{visit.outing.distance}</dd></div><div><dt>Terrain</dt><dd>{visit.outing.terrain}</dd></div><div><dt>Fees</dt><dd>{visit.outing.fee}</dd></div></dl>}
+      {visit.destinationPhotos && <section className="visit-destination-photos" aria-label="Photographs of this destination"><h3>At this destination.</h3><div className="visit-photo-grid">{visit.destinationPhotos.map(photo => <figure key={photo.image}><Image src={photo.image} alt={photo.alt} width={photo.width} height={photo.height} sizes="(max-width: 700px) 85vw, 40vw" unoptimized /><figcaption>{photo.caption} · {photo.photographer} · <a href={photo.licenseUrl}>{photo.license}</a> · <a href={photo.sourceUrl}>Photo source ↗</a> · Resized and converted to WebP</figcaption></figure>)}</div></section>}
+      {visit.photoLink && <p><a className="course-link" href={visit.photoLink.href} target="_blank" rel="noreferrer">{visit.photoLink.label} ↗</a></p>}
       {species && <section className="visit-species" aria-label={`${species.name} identification photographs`}>
         <h3>Get to know {species.name}.</h3>
         <p>Species reference photographs from the Tree Library, photographed elsewhere. Use several features and local guidance to identify a tree at this destination.</p>

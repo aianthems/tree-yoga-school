@@ -27,7 +27,7 @@ The map benchmark is browser emulation; physical-phone validation remains open.
 <!-- coverage:start -->
 - Champion Map: **50 states**, **8,971 listed records**, and **8,495 records with approximate map points**.
 - Tree Library: **69 species profiles** and **6 photographic comparisons**.
-- Trees to Visit: **14 guides across 11 states**.
+- Trees to Visit: **19 guides across 12 states**.
 
 Generated from the state registry and content collections. Run `npm run sync:coverage` after content changes; builds check for stale counts.
 <!-- coverage:end -->
@@ -706,3 +706,9 @@ records the PDF hash, page range and all headings. Regenerate with
 `python scripts/import-book-poses.py BOOK.pdf` (PyMuPDF). Book text remains the
 original author’s copyrighted material, rather than code relicensed under MIT.
 This is the pose reference; flows and meditations retain their chapter reading.
+
+### New England visiting guides (October 12, 2026)
+
+Five source-checked guides cover Bretzfelder Park and The Rocks (NH), Gifford Woods (VT), Hemlock Hill (MA), and Vaughan Woods Memorial State Park in South Berwick (ME). Each has walking/terrain/fee summaries, arrival and seasonal access details, official sources, and an outdoor practice. The homepage links all five. These are online source checks, not field inspections; unpublished distances and fees remain explicitly unknown. Gifford's current hiking table lists a 0.10-mile loop while an older regional map lists 0.3 miles; the guide explains the difference and recommends checking locally.
+
+Two actual Gifford Woods photographs by Victoria Stauffenberg / National Park Service (October 5, 2024) are US public-domain federal works. The guide retains source and license links, full-frame dimensions, and attribution. The 1000-pixel WebP files are 297,598 and 85,132 bytes and use the existing immutable hashed-image cache. Other new destinations link their managers' photographs; species reference photographs are labeled as photographed elsewhere. Source and photo metadata live in `lib/new-england-visit-records.json`.

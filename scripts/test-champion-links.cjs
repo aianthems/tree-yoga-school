@@ -118,10 +118,10 @@ test('familiar species names group exact botanical categories without merging cu
 test('visit guides resolve to the intended existing trees and real practice routes', () => {
   const dataDir = path.join(__dirname, '../lib/data');
   const records = fs.readdirSync(dataDir).filter(name => name.endsWith('champion-trees.json')).flatMap(name => JSON.parse(fs.readFileSync(path.join(dataDir, name), 'utf8')));
-  assert.equal(treeVisits.length, 14);
-  assert.equal(new Set(treeVisits.map(v => v.slug)).size, 14);
+  assert.equal(treeVisits.length, 19);
+  assert.equal(new Set(treeVisits.map(v => v.slug)).size, 19);
   assert.equal(treeVisits.filter(v => v.championId).length, 8);
-  assert.deepEqual(treeVisits.filter(v => !v.championId).map(v => v.state), ["CO", "LA", "OK", "SC", "FL", "IL"]);
+  assert.deepEqual(treeVisits.filter(v => !v.championId).map(v => v.state), ["NH", "NH", "VT", "MA", "ME", "CO", "LA", "OK", "SC", "FL", "IL"]);
   for (const visit of treeVisits) {
     for (const field of ['arrival', 'walking', 'access', 'pause', 'kind', 'checked']) assert.ok(visit[field], `${visit.slug}: ${field}`);
     const record = records.find(tree => tree.id === visit.championId);
@@ -131,7 +131,7 @@ test('visit guides resolve to the intended existing trees and real practice rout
       assert.equal(record.state || "MA", visit.state);
     } else {
       assert.ok(Object.hasOwn(require("../lib/champion-trees.ts").stateNames, visit.state));
-      assert.equal(visit.checked, visit.librarySlug ? "2026-10-10" : "2026-10-09");
+      assert.equal(visit.checked, visit.outing ? "2026-10-12" : visit.librarySlug ? "2026-10-10" : "2026-10-09");
     }
     assert.ok(visit.sources.length >= 2);
     if (visit.librarySlug) {

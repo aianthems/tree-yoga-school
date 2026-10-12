@@ -1,13 +1,20 @@
 import type { ChampionState } from "./champion-trees";
+import { visits as newEnglandRecords } from "./new-england-visit-records.json";
+
+export type DestinationPhoto = { image: string; width: number; height: number; alt: string; caption: string; photographer: string; license: string; licenseUrl: string; sourceUrl: string };
 
 export type TreeVisit = {
   slug: string; championId?: string; librarySlug?: string; state: ChampionState; name: string; scientificName: string;
   place: string; kind: string; arrival: string; walking: string; access: string; pause: string; checked: string;
   sources: { label: string; href: string }[];
   practice: { title: string; text: string; href: string; label: string };
+  outing?: { distance: string; terrain: string; fee: string };
+  destinationPhotos?: DestinationPhoto[];
+  photoLink?: { label: string; href: string };
 };
 
 export const treeVisits: TreeVisit[] = [
+  ...(newEnglandRecords as TreeVisit[]),
   {
     slug: "chatfield-cottonwood", state: "CO", name: "Cottonwood at Chatfield Farms", scientificName: "Populus deltoides", librarySlug: "eastern-cottonwood",
     place: "Denver Botanic Gardens Chatfield Farms · Littleton, Colorado", kind: "Public garden visit",

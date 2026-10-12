@@ -4,6 +4,7 @@ import VideoLesson from "./components/video-lesson";
 import { pageMetadata, siteDescription } from "../lib/site-seo";
 export const metadata = pageMetadata("/", "Tree Yoga School", siteDescription);
 import HomeChampions from "./components/home-champions";
+import HomeTreeVisits from "./components/home-tree-visits";
 import SiteHeader from "./components/site-header";
 import Image from "next/image";
 import Link from "next/link";
@@ -92,6 +93,7 @@ export default function Home() {
       </section>
 
       <HomeChampions />
+      <HomeTreeVisits />
 
       <section className="home-tree-section section-shell" aria-labelledby="tree-library-heading">
         <div className="section-heading"><p className="section-kicker">The Tree Library</p><h2 id="tree-library-heading">Every tree is a new doorway.</h2></div>

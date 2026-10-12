@@ -14,6 +14,7 @@ const kindTypes: Record<string, string> = {
   "Campus visit": "campus", "Campus arboretum": "campus", "Sidewalk viewing": "sidewalk",
 };
 const speciesNames: Record<string, string> = {
+  "Tsuga canadensis": "Eastern hemlock", "Acer saccharum": "Sugar maple", "Acer spp.": "Maples (identify locally)",
   "Populus deltoides": "Eastern cottonwood", "Taxodium distichum": "Bald cypress",
   "Quercus stellata": "Post oak", "Quercus virginiana": "Southern live oak",
   "Quercus macrocarpa": "Bur oak", "Platanus occidentalis": "American sycamore",
