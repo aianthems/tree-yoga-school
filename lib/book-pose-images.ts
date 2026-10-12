@@ -22,9 +22,9 @@ export const bookPoseImages: Record<string, PoseImage> = {
     width: 2048, height: 1158,
   },
   "tabletop-alternate-balance-pose": {
-    src: "https://media.treeyogaschool.com/images/tree-yoga-poses/tabletop-alternate-balance-pose.webp",
+    src: "https://media.treeyogaschool.com/images/tree-yoga-poses/tabletop-alternate-balance-pose.webp?v=471eddea0b33",
     alt: "Balancing from tabletop on a mat with one leg extended behind and the opposite hand against a tree",
-    width: 2048, height: 1158,
+    width: 2048, height: 1155,
   },
   "standing-splits": {
     src: "https://media.treeyogaschool.com/images/tree-yoga-poses/standing-splits.webp",
