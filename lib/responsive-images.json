@@ -1,0 +1,119 @@
+{
+  "logo": {
+    "source": "https://media.treeyogaschool.com/images/logos/tree-yoga-school-logo-v1.webp",
+    "sourceSha256": "39d9fa243b8ebd0b9aceb970d8f481162c80b551050ee93faa875407a7b17c4d",
+    "sourceBytes": 318250,
+    "width": 1254,
+    "height": 1254,
+    "variants": [
+      {
+        "src": "/images/responsive/tree-yoga-school-logo-96-5862aaeefead.webp",
+        "width": 96,
+        "height": 96,
+        "bytes": 3284
+      },
+      {
+        "src": "/images/responsive/tree-yoga-school-logo-192-37da0dd97e66.webp",
+        "width": 192,
+        "height": 192,
+        "bytes": 9092
+      },
+      {
+        "src": "/images/responsive/tree-yoga-school-logo-320-2bfa67549b47.webp",
+        "width": 320,
+        "height": 320,
+        "bytes": 19314
+      },
+      {
+        "src": "/images/responsive/tree-yoga-school-logo-480-d92d94abaab3.webp",
+        "width": 480,
+        "height": 480,
+        "bytes": 34114
+      },
+      {
+        "src": "/images/responsive/tree-yoga-school-logo-640-b0d786d618ee.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 52186
+      }
+    ]
+  },
+  "dancer": {
+    "source": "https://media.treeyogaschool.com/images/tree-yoga-poses/dancer-pose-farandnear.webp",
+    "sourceSha256": "7aca7d4655c0709b3dc2455398111f1717e2970eedc4e2bfe9831895dc138604",
+    "sourceBytes": 656708,
+    "width": 2000,
+    "height": 1180,
+    "variants": [
+      {
+        "src": "/images/responsive/dancer-pose-farandnear-480-1fabdc43552c.webp",
+        "width": 480,
+        "height": 283,
+        "bytes": 50240
+      },
+      {
+        "src": "/images/responsive/dancer-pose-farandnear-800-7a6e38c8fd8a.webp",
+        "width": 800,
+        "height": 472,
+        "bytes": 132910
+      },
+      {
+        "src": "/images/responsive/dancer-pose-farandnear-1200-ffee210e15d7.webp",
+        "width": 1200,
+        "height": 708,
+        "bytes": 266082
+      },
+      {
+        "src": "/images/responsive/dancer-pose-farandnear-1600-33d0b7a65f98.webp",
+        "width": 1600,
+        "height": 944,
+        "bytes": 399478
+      },
+      {
+        "src": "/images/responsive/dancer-pose-farandnear-2000-b7ef042d0bfa.webp",
+        "width": 2000,
+        "height": 1180,
+        "bytes": 645868
+      }
+    ]
+  },
+  "hug": {
+    "source": "https://media.treeyogaschool.com/images/tree-yoga-poses/tree-hug-farandnear.webp",
+    "sourceSha256": "b73a9245d5da1ebc5e143ed90215d683a03fcd9ac4348b53dfdd77ab415412d3",
+    "sourceBytes": 452980,
+    "width": 2000,
+    "height": 1175,
+    "variants": [
+      {
+        "src": "/images/responsive/tree-hug-farandnear-480-8d7d6651241a.webp",
+        "width": 480,
+        "height": 282,
+        "bytes": 51076
+      },
+      {
+        "src": "/images/responsive/tree-hug-farandnear-800-c4f1a5ef9789.webp",
+        "width": 800,
+        "height": 470,
+        "bytes": 125410
+      },
+      {
+        "src": "/images/responsive/tree-hug-farandnear-1200-242d9b54dc7f.webp",
+        "width": 1200,
+        "height": 705,
+        "bytes": 223194
+      },
+      {
+        "src": "/images/responsive/tree-hug-farandnear-1600-991a56178379.webp",
+        "width": 1600,
+        "height": 940,
+        "bytes": 306358
+      },
+      {
+        "src": "/images/responsive/tree-hug-farandnear-2000-79cb5a2714c7.webp",
+        "width": 2000,
+        "height": 1175,
+        "bytes": 443760
+      }
+    ]
+  }
+}

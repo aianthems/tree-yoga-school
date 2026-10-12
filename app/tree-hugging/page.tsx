@@ -1,7 +1,7 @@
+import ResponsiveImage from "../components/responsive-image";
 import BookConnections from "../components/book-connections";
 import Link from "next/link";
 import SiteHeader from "../components/site-header";
-import Image from "next/image";
 import { pageMetadata } from "../../lib/site-seo";
 import { treeHuggingPractice, treeHuggingResearch } from "../../lib/tree-hugging";
 
@@ -17,7 +17,7 @@ export default function TreeHugging() {
     <main id="content" className="hug-page">
       <section className="hug-hero hug-hero-photographic" aria-labelledby="hug-title">
         <div className="hug-hero-copy"><p className="section-kicker">Tree Hugging · A central practice of Tree Yoga School</p><h1 id="hug-title">Hug a tree.<br /><em>Come back<br />to yourself.</em></h1><p className="hug-lede">Bring your attention close to something alive. A gentle embrace, a quiet breath, a moment of belonging.</p><div className="hero-actions"><a className="button hug-button" href="#practice">Try the practice ↓</a><a className="hug-text-link" href="#benefits">Explore the benefits ↗</a></div><p className="hug-hero-foot">One tree. Your own pace. An open invitation.</p></div>
-        <figure className="home-hug-photo hug-hero-photo"><Image src="https://media.treeyogaschool.com/images/tree-yoga-poses/tree-hug-farandnear.webp" alt="Alex Julian embracing the broad trunk of a towering tree in a green landscape" width={2000} height={1175} sizes="(max-width: 760px) 100vw, 60vw" priority unoptimized /><span className="hug-photo-kicker">Rooted in relationship</span><figcaption>Notice the life you are touching.</figcaption></figure>
+        <figure className="home-hug-photo hug-hero-photo"><ResponsiveImage image="hug" alt="Alex Julian embracing the broad trunk of a towering tree in a green landscape" width={2000} height={1175} sizes="(max-width: 760px) 100vw, 60vw" priority /><span className="hug-photo-kicker">Rooted in relationship</span><figcaption>Notice the life you are touching.</figcaption></figure>
       </section>
       <nav className="hug-page-nav" aria-label="Tree Hugging sections"><a href="#practice">The practice</a><a href="#benefits">The benefits</a><a href="#connections">The connections</a><a href="#hug-book-title">Roots in the book</a><a href="#research">The research</a></nav>
 

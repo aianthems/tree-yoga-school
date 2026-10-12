@@ -1,3 +1,4 @@
+import ResponsiveImage from "./components/responsive-image";
 import BookCover from "./components/book-cover";
 import VideoLesson from "./components/video-lesson";
 import { pageMetadata, siteDescription } from "../lib/site-seo";
@@ -38,7 +39,7 @@ export default function Home() {
 
       <main id="content">
       <section className="home-hero" id="top" aria-labelledby="home-hero-title">
-        <Image className="home-hero-photo" src="https://media.treeyogaschool.com/images/tree-yoga-poses/dancer-pose-farandnear.webp" alt="Dancer pose beside a towering tree, with one hand resting against its deeply textured trunk" width={2000} height={1180} sizes="100vw" priority unoptimized />
+        <ResponsiveImage className="home-hero-photo" image="dancer" alt="Dancer pose beside a towering tree, with one hand resting against its deeply textured trunk" width={2000} height={1180} sizes="100vw" priority />
         <div className="home-hero-shade" aria-hidden="true" />
         <div className="home-hero-copy">
           <p className="eyebrow">Tree Yoga School · A living practice</p>
@@ -70,7 +71,7 @@ export default function Home() {
       </section>
 
       <section className="home-hug home-hug-photographic" aria-labelledby="home-hug-title">
-        <div className="home-hug-copy"><p className="section-kicker">Tree Hugging · A central practice</p><h2 id="home-hug-title">An embrace.<br /><em>A living connection.</em></h2><p>Slow down beside a tree. Rest your hands or arms gently against its trunk, or simply stay nearby. Explore a practice of presence, gratitude, and care.</p><Link className="button hug-button" href="/tree-hugging">Discover Tree Hugging →</Link><p className="home-hug-note">The practice · The benefits · The research</p></div><figure className="home-hug-photo"><Image src="https://media.treeyogaschool.com/images/tree-yoga-poses/tree-hug-farandnear.webp" alt="Alex Julian embracing the broad trunk of a towering tree in a green landscape" width={2000} height={1175} sizes="(max-width: 760px) 100vw, 60vw" unoptimized /><figcaption>Presence starts here.</figcaption></figure>
+        <div className="home-hug-copy"><p className="section-kicker">Tree Hugging · A central practice</p><h2 id="home-hug-title">An embrace.<br /><em>A living connection.</em></h2><p>Slow down beside a tree. Rest your hands or arms gently against its trunk, or simply stay nearby. Explore a practice of presence, gratitude, and care.</p><Link className="button hug-button" href="/tree-hugging">Discover Tree Hugging →</Link><p className="home-hug-note">The practice · The benefits · The research</p></div><figure className="home-hug-photo"><ResponsiveImage image="hug" alt="Alex Julian embracing the broad trunk of a towering tree in a green landscape" width={2000} height={1175} sizes="(max-width: 760px) 100vw, 60vw" /><figcaption>Presence starts here.</figcaption></figure>
       </section>
 
       <section className="pathways section-shell" id="practice">

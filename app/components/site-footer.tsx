@@ -1,4 +1,4 @@
-import Image from "next/image";
+import ResponsiveImage from "./responsive-image";
 import Link from "next/link";
 
 import { siteNavigation } from "../../lib/site-navigation";
@@ -11,7 +11,7 @@ export default function SiteFooter() {
         <div className="school-footer-start"><p>One tree. A little attention.<br />A place to begin again.</p><Link className="button" href="/begin-here">Begin with a tree <span aria-hidden="true">↗</span></Link></div>
       </div>
       <div className="school-footer-directory">
-        <div className="school-footer-identity"><Link className="school-footer-logo" href="/" aria-label="Tree Yoga School home"><Image src="https://media.treeyogaschool.com/images/logos/tree-yoga-school-logo-v1.webp" alt="Tree Yoga School · pine tree logo" width={1254} height={1254} sizes="240px" unoptimized /></Link><p>Nature is the teacher.</p></div>
+        <div className="school-footer-identity"><Link className="school-footer-logo" href="/" aria-label="Tree Yoga School home"><ResponsiveImage image="logo" alt="Tree Yoga School · pine tree logo" sizes="(max-width: 760px) 172px, (max-width: 1000px) 162px, 202px" /></Link><p>Nature is the teacher.</p></div>
         <nav className="school-footer-nav" aria-label="Footer navigation">{siteNavigation.map(group => <div key={group.title}><h3>{group.title}</h3><ul>{group.links.map(link => <li key={link.href}><Link href={link.href}>{link.label}</Link></li>)}</ul></div>)}</nav>
       </div>
       <div className="school-footer-bottom"><p>© 2026 Tree Yoga School</p><p>Founded by Alex Julian · Rooted in the original school.</p><a href="#content">Return to top <span aria-hidden="true">↑</span></a></div>
