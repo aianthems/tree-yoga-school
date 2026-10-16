@@ -38,7 +38,7 @@ export default function Home() {
     <>
       <SiteHeader />
 
-      <main id="content">
+      <main id="content" className="bark-preview-home">
       <section className="home-hero" id="top" aria-labelledby="home-hero-title">
         <ResponsiveImage className="home-hero-photo" image="dancer" alt="Dancer pose beside a towering tree, with one hand resting against its deeply textured trunk" width={2000} height={1180} sizes="100vw" priority />
         <div className="home-hero-shade" aria-hidden="true" />

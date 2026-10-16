@@ -1576,3 +1576,29 @@ section[id] { scroll-margin-top: 90px; }
 .source-review-table thead { background: var(--cream); }
 .source-review-table p { margin: .5rem 0; }
 .source-review-table a { text-decoration: underline; text-underline-offset: 3px; }
+
+/* Bark background trial: homepage and Meditation with a Tree only.
+   Opaque gradients preserve each section's palette; photography and dark
+   feature sections retain their existing backgrounds. */
+.bark-preview-home,
+.bark-preview-home > .home-video,
+.bark-preview-home > .home-book,
+.bark-preview-home > .home-tree-section,
+.bark-preview-home > .home-final-video,
+.bark-preview-lesson {
+  --bark-base: 251, 250, 245;
+  --bark-wash: .95;
+  background-color: rgb(var(--bark-base));
+  background-image: linear-gradient(rgba(var(--bark-base), var(--bark-wash)), rgba(var(--bark-base), var(--bark-wash))), url("https://media.treeyogaschool.com/images/backgrounds/bark/vertical-tree-bark-background-2.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bark-preview-home > .home-book { --bark-base: 238, 232, 219; }
+.bark-preview-home > .home-tree-section,
+.bark-preview-home > .home-final-video { --bark-base: 242, 239, 228; }
+.bark-preview-lesson { --bark-wash: .97; }
+@media print {
+  .bark-preview-home, .bark-preview-home > section,
+  .bark-preview-lesson { background-image: none; }
+}

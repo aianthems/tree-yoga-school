@@ -26,7 +26,7 @@ export default async function LessonPage({ params }: { params: Promise<{ slug: s
   return (
     <>
       <SiteHeader />
-      <main id="content" className="lesson">
+      <main id="content" className={`lesson${slug === "meditation-with-a-tree" ? " bark-preview-lesson" : ""}`}>
         <section className="lesson-intro">
           <a className="lesson-back" href="/begin-here">← Begin Here course</a>
           <p className="section-kicker">Lesson {lesson.number} · {lesson.duration}</p>
