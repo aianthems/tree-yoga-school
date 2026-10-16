@@ -1576,3 +1576,41 @@ section[id] { scroll-margin-top: 90px; }
 .source-review-table thead { background: var(--cream); }
 .source-review-table p { margin: .5rem 0; }
 .source-review-table a { text-decoration: underline; text-underline-offset: 3px; }
+
+/* Full-width bark surface: kept outside constrained reading containers. */
+body {
+  --bark-image: url("https://media.treeyogaschool.com/images/backgrounds/bark/vertical-tree-bark-background-2.webp");
+  --bark-wash: .95;
+  isolation: isolate;
+}
+body:has(main.lesson), body:has(.book-chapter) { --bark-wash: .97; }
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background: linear-gradient(rgba(251,250,245,var(--bark-wash)), rgba(251,250,245,var(--bark-wash))), var(--bark-image) center / cover no-repeat;
+}
+/* Light section surfaces retain their original colors. Dark sections,
+   photographs, navigation, controls and maps keep their existing treatments. */
+.home-book {
+  background-image: linear-gradient(rgba(238,232,219,.95), rgba(238,232,219,.95)), var(--bark-image);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+:is(.home-tree-section, .home-final-video, .course-start, .course-tree,
+    .tree-roots, .champion-intro, .champion-state-hero,
+    .champion-state-directory, .champion-sources) {
+  background-image: linear-gradient(rgba(242,239,228,.95), rgba(242,239,228,.95)), var(--bark-image);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+@media print {
+  body::before { display: none; }
+  .home-book, .home-tree-section, .home-final-video, .course-start,
+  .course-tree, .tree-roots, .champion-intro, .champion-state-hero,
+  .champion-state-directory, .champion-sources { background-image: none; }
+}
