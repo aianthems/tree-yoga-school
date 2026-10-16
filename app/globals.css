@@ -1,3 +1,7 @@
+h2 {
+  font-size: 1.05em;
+}
+
 :root {
   --ink: #173329;
   --ink-soft: #355248;
@@ -111,7 +115,7 @@ h1 {
   max-width: 820px;
   margin-bottom: 2rem;
   font-family: Georgia, "Times New Roman", serif;
-  font-size: clamp(4.2rem, 7.4vw, 8.6rem);
+  font-size: clamp(2.94rem, 5.18vw, 6.02rem);
   font-weight: 400;
   line-height: 0.86;
   letter-spacing: -0.065em;
@@ -283,7 +287,7 @@ h1 {
 .closing h2 {
   margin-bottom: 0;
   font-family: Georgia, "Times New Roman", serif;
-  font-size: clamp(2.8rem, 5vw, 5.6rem);
+  font-size: clamp(1.96rem, 3.5vw, 3.92rem);
   font-weight: 400;
   line-height: 0.98;
   letter-spacing: -0.05em;
@@ -448,7 +452,7 @@ h1 {
 
 .closing h2 {
   margin-bottom: 2rem;
-  font-size: clamp(3.6rem, 7vw, 7.6rem);
+  font-size: clamp(2.52rem, 4.9vw, 5.32rem);
 }
 
 .button.light {
@@ -548,7 +552,7 @@ footer p {
   }
 
   h1 {
-    font-size: clamp(3.7rem, 17vw, 5.8rem);
+    font-size: clamp(2.59rem, 11.9vw, 4.06rem);
   }
 
   .hero-copy,
@@ -594,7 +598,7 @@ footer p {
 section[id] { scroll-margin-top: 90px; }
 .lesson { max-width: 1100px; margin: auto; }
 .lesson-intro, .lesson-section { padding: clamp(2.5rem, 7vw, 6rem) clamp(1.25rem, 6vw, 5rem); }
-.lesson-intro h1 { font-size: clamp(3.2rem, 7vw, 6.8rem); line-height: 1; max-width: 13ch; margin-top: 2rem; }
+.lesson-intro h1 { font-size: clamp(2.24rem, 4.9vw, 4.76rem); line-height: 1; max-width: 13ch; margin-top: 2rem; }
 .lesson-back { display: inline-block; margin-bottom: 3rem; text-decoration: underline; text-underline-offset: 4px; }
 .lesson p, .lesson li { line-height: 1.75; }
 .lesson-lede { font-size: 1.3rem; max-width: 55ch; color: var(--ink-soft); }
@@ -602,7 +606,7 @@ section[id] { scroll-margin-top: 90px; }
 .lesson-welcome p:last-child { margin-bottom: 0; }
 .lesson-note { font-size: 0.9rem; color: var(--ink-soft); }
 .lesson-section { border-top: 1px solid var(--line); }
-.lesson h2 { font-family: Georgia, "Times New Roman", serif; font-size: clamp(2rem, 4vw, 3.4rem); line-height: 1.15; font-weight: 400; letter-spacing: -0.035em; }
+.lesson h2 { font-family: Georgia, "Times New Roman", serif; font-size: clamp(1.4rem, 2.8vw, 2.38rem); line-height: 1.15; font-weight: 400; letter-spacing: -0.035em; }
 .lesson h3 { font-family: Georgia, "Times New Roman", serif; font-size: 1.6rem; font-weight: 400; margin-bottom: 0.75rem; }
 .lesson-options { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem; margin-top: 2rem; }
 .lesson-options article { padding: 1.5rem; background: var(--cream); }
@@ -626,24 +630,27 @@ section[id] { scroll-margin-top: 90px; }
 /* The book grows into a field guide. */
 .explore-shell { max-width: 1440px; margin: auto; padding: 0 clamp(1.25rem, 6vw, 6rem); }
 .library-intro { max-width: 900px; padding: clamp(3rem, 7vw, 6rem) 0 3rem; }
-.library-intro h1 { font-size: clamp(3.3rem, 7vw, 6.5rem); line-height: 1.02; }
+.library-intro h1 { font-size: clamp(2.31rem, 4.9vw, 4.55rem); line-height: 1.02; }
 .library-intro > p:not(.section-kicker) { max-width: 65ch; line-height: 1.75; }
 .library-meta { display: flex; flex-wrap: wrap; gap: 0.75rem 2rem; padding-top: 1.75rem; margin-top: 2rem; border-top: 1px solid var(--line); font-size: 0.9rem; color: var(--ink-soft); }
 .tree-feature { display: grid; grid-template-columns: 1.15fr 1fr; border: 1px solid var(--line); background: var(--cream); }
 .tree-feature-image { display: block; min-width: 0; }
 .tree-feature-image img { display: block; width: 100%; height: 100%; min-height: 390px; object-fit: cover; }
 .tree-feature-copy { padding: clamp(2rem, 4vw, 4rem); align-self: center; }
-.tree-feature-copy h2 { font-family: Georgia, "Times New Roman", serif; font-size: clamp(3.5rem, 6vw, 6rem); font-weight: 400; line-height: 1; letter-spacing: -0.04em; }
+.tree-feature-copy h2 { font-family: Georgia, "Times New Roman", serif; font-size: clamp(2.45rem, 4.2vw, 4.2rem); font-weight: 400; line-height: 1; letter-spacing: -0.04em; }
 .tree-feature-copy p { line-height: 1.75; }
 .theme-list { display: flex; flex-wrap: wrap; gap: 0.6rem; list-style: none; margin: 0 0 1.5rem; padding: 0; }
 .theme-list li { padding: 0.45rem 0.7rem; border: 1px solid var(--line); font-size: 0.9rem; }
 .library-note { max-width: 900px; padding: 5rem 0; }
 .library-note h2, .tree-section h2, .home-tree-feature h3 { font-family: Georgia, "Times New Roman", serif; font-size: clamp(2.4rem, 4.2vw, 4.2rem); font-weight: 400; line-height: 1.1; letter-spacing: -0.04em; }
+.library-note h2, .tree-section h2 {
+  font-size: clamp(1.68rem, 2.94vw, 2.94rem);
+}
 .library-note p { max-width: 70ch; line-height: 1.75; }
 .tree-page { max-width: 1600px; margin: auto; }
 .tree-hero { display: grid; grid-template-columns: 1fr 1fr; }
 .tree-hero-copy { align-self: center; padding: clamp(2rem, 5vw, 5rem); min-width: 0; }
-.tree-hero-copy h1 { font-size: clamp(5rem, 10vw, 10rem); line-height: 1; margin-top: 0.5rem; }
+.tree-hero-copy h1 { font-size: clamp(3.5rem, 7vw, 7rem); line-height: 1; margin-top: 0.5rem; }
 .tree-hero-copy .lesson-back { margin-bottom: 2rem; }
 .tree-hero-image { margin: 0; background: var(--cream); display: flex; flex-direction: column; justify-content: center; }
 .tree-hero-image img { width: 100%; height: auto; display: block; }
@@ -688,7 +695,7 @@ section[id] { scroll-margin-top: 90px; }
 .course-tree { background: var(--cream); }
 .book-index { border-top: 1px solid var(--line); }
 .book-chapter-link { display: grid; grid-template-columns: 50px minmax(0, 1fr) auto; gap: 1.5rem; align-items: center; padding: 2rem 0; border-bottom: 1px solid var(--line); }
-.book-chapter-link h2 { font-family: Georgia, "Times New Roman", serif; font-size: clamp(1.6rem, 3vw, 2.4rem); font-weight: 400; margin: 0 0 0.5rem; }
+.book-chapter-link h2 { font-family: Georgia, "Times New Roman", serif; font-size: clamp(1.12rem, 2.1vw, 1.68rem); font-weight: 400; margin: 0 0 0.5rem; }
 .book-chapter-link p { margin-bottom: 0; color: var(--ink-soft); line-height: 1.65; }
 .book-chapter-link:hover h2 { text-decoration: underline; text-underline-offset: 5px; }
 .book-page-number { font-size: 0.9rem; color: var(--ink-soft); }
@@ -718,7 +725,7 @@ section[id] { scroll-margin-top: 90px; }
   .tree-detail-grid img { height: auto; max-height: 420px; object-fit: contain; }
   .chapter-navigation a:last-child { text-align: left; }
   .tree-section-nav { gap: 0.5rem 1.25rem; }
-  .tree-hero-copy h1 { font-size: clamp(4rem, 22vw, 6rem); }
+  .tree-hero-copy h1 { font-size: clamp(2.8rem, 15.4vw, 4.2rem); }
   .tree-feature-copy { padding: 1.5rem; }
   .tree-section .course-actions, .tree-hero-copy .course-actions { align-items: stretch; }
 }
@@ -734,7 +741,7 @@ section[id] { scroll-margin-top: 90px; }
 .champion-page { max-width: 1600px; margin: auto; }
 .champion-intro { padding: clamp(2rem,5vw,5rem) clamp(1.25rem,5vw,5rem) 2rem; background: var(--cream); }
 .champion-intro .lesson-back { display: inline-block; margin-bottom: 2rem; }
-.champion-intro h1 { font-size: clamp(3.1rem,6.8vw,6.6rem); line-height: 1.02; max-width: 14ch; }
+.champion-intro h1 { font-size: clamp(2.17rem,4.76vw,4.62rem); line-height: 1.02; max-width: 14ch; }
 .champion-intro .lesson-lede { max-width: 68ch; }
 .champion-stats { display: flex; flex-wrap: wrap; gap: 1.5rem 3rem; margin-top: 2.5rem; border-top: 1px solid var(--line); padding-top: 1.5rem; }
 .champion-stats span { display: flex; gap: 0.65rem; align-items: baseline; font-size: 0.9rem; }
@@ -762,7 +769,7 @@ section[id] { scroll-margin-top: 90px; }
 .champion-map .leaflet-control-attribution a { color: #174b37; }
 .champion-results { border: 1px solid var(--line); min-width: 0; scroll-margin-top: 7rem; }
 .champion-results-header { padding: 1.5rem; background: var(--cream); }
-.champion-results-header h2 { font: 400 2rem/1.1 Georgia,serif; margin: 0 0 0.6rem; }
+.champion-results-header h2 { font: 400 1.4rem/1.1 Georgia,serif; margin: 0 0 0.6rem; }
 .champion-results-header p { margin: 0 0 1rem; font-size: 0.9rem; }
 .champion-result-list { list-style: none; margin: 0; padding: 0; max-height: 700px; overflow-y: auto; overscroll-behavior-y: contain; }
 .champion-result-list li + li { border-top: 1px solid var(--line); }
@@ -777,7 +784,7 @@ section[id] { scroll-margin-top: 90px; }
 .champion-result-open { text-decoration: underline; text-underline-offset: 3px; }
 .champion-detail-region { scroll-margin-top: 7rem; }
 .champion-detail, .champion-detail-empty { margin-top: 1.5rem; padding: clamp(1.25rem,3vw,2.5rem); background: var(--cream); border: 1px solid var(--line); }
-.champion-detail h2, .champion-detail-empty h2, .champion-about h2 { font: 400 clamp(2rem,3.4vw,3.2rem)/1.1 Georgia,serif; letter-spacing: -0.025em; margin: 0 0 1rem; }
+.champion-detail h2, .champion-detail-empty h2, .champion-about h2 { font: 400 clamp(1.4rem,2.38vw,2.24rem)/1.1 Georgia,serif; letter-spacing: -0.025em; margin: 0 0 1rem; }
 .champion-detail h3 { font: 400 1.4rem/1.2 Georgia,serif; margin: 1.5rem 0 0.6rem; }
 .champion-detail p, .champion-detail-empty p, .champion-about p, .champion-sources p { line-height: 1.75; }
 .champion-measurements { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 1.5rem 0; }
@@ -792,10 +799,10 @@ section[id] { scroll-margin-top: 90px; }
 .champion-about { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; padding: 4rem clamp(1.25rem,5vw,5rem); border-top: 1px solid var(--line); }
 .champion-formula { padding: 1.25rem; border: 1px solid var(--line); background: var(--cream); font-family: Georgia,serif; }
 .champion-sources { padding: 2rem clamp(1.25rem,5vw,5rem) 4rem; background: var(--cream); }
-.champion-sources h2 { font: 400 1.7rem Georgia,serif; }
+.champion-sources h2 { font: 400 1.19rem Georgia,serif; }
 .champion-sources p { max-width: 100ch; font-size: 0.9rem; }
 .champion-library-link { padding: 2rem; background: var(--ink); color: var(--paper); margin: 0 0 2rem; }
-.champion-library-link h2 { font: 400 2.3rem/1.15 Georgia,serif; margin: 0 0 1rem; }
+.champion-library-link h2 { font: 400 1.61rem/1.15 Georgia,serif; margin: 0 0 1rem; }
 .champion-library-link p { max-width: 65ch; line-height: 1.7; }
 .champion-library-link a { text-decoration: underline; text-underline-offset: 4px; display: inline-flex; align-items: center; min-height: 44px; }
 @media (max-width: 1000px) { .champion-toolbar { grid-template-columns: 1fr 1fr; } .champion-workspace { grid-template-columns: minmax(0,1.2fr) minmax(280px,1fr); } }
@@ -816,7 +823,7 @@ section[id] { scroll-margin-top: 90px; }
 /* Champion register coverage and regional navigation. */
 .champion-source-dates { max-width: 1200px; margin: 0 auto 2rem; padding: 0 1.5rem; }
 .champion-source-dates > .course-link { display: inline-flex; min-height: 44px; align-items: center; margin-bottom: 1.25rem; }
-.champion-source-dates h2 { font: 400 clamp(2rem, 3.5vw, 3rem)/1.15 Georgia, serif; letter-spacing: -.035em; }
+.champion-source-dates h2 { font: 400 clamp(1.4rem, 2.45vw, 2.1rem)/1.15 Georgia, serif; letter-spacing: -.035em; }
 .champion-page-links { display: flex; flex-wrap: wrap; align-items: center; gap: .75rem 2rem; margin-top: 1.5rem; }
 .champion-page-links .course-link { display: inline-flex; min-height: 44px; align-items: center; }
 .champion-page [id^="source-"] { scroll-margin-top: 100px; }
@@ -838,7 +845,7 @@ section[id] { scroll-margin-top: 90px; }
 .tree-visit-teaser h2 { margin: 0 0 .5rem; }
 .tree-visit-list { display: grid; gap: 2rem; margin: 2rem 0 3rem; }
 .tree-visit-card { border: 1px solid var(--line); padding: clamp(1.25rem, 4vw, 3rem); scroll-margin-top: 6rem; }
-.tree-visit-heading h2 { font-size: clamp(1.8rem, 3vw, 2.8rem); margin: .7rem 0; }
+.tree-visit-heading h2 { font-size: clamp(1.26rem, 2.1vw, 1.96rem); margin: .7rem 0; }
 .tree-visit-columns { display: grid; grid-template-columns: 1.3fr 1fr; gap: 2.5rem; margin: 1.5rem 0 2rem; }
 .tree-visit-columns p { line-height: 1.75; }
 .tree-visit-practice { border-left: 2px solid var(--line); padding-left: 2rem; }
@@ -859,7 +866,7 @@ section[id] { scroll-margin-top: 90px; }
 
 /* Tree Library discovery */
 .library-discovery { padding: clamp(1.25rem, 3vw, 2rem); margin-bottom: 1.5rem; border: 1px solid var(--line); background: var(--cream); }
-.library-discovery h2, .library-empty h2 { font-family: Georgia, "Times New Roman", serif; font-size: clamp(1.8rem, 3vw, 2.6rem); font-weight: 400; line-height: 1.15; }
+.library-discovery h2, .library-empty h2 { font-family: Georgia, "Times New Roman", serif; font-size: clamp(1.26rem, 2.1vw, 1.82rem); font-weight: 400; line-height: 1.15; }
 .library-discovery > p { line-height: 1.6; }
 .library-filter-fields { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr) auto; gap: 1rem; align-items: end; margin-top: 1.5rem; }
 .library-filter-field { min-width: 0; }
@@ -881,8 +888,8 @@ section[id] { scroll-margin-top: 90px; }
 .outdoor-practice { max-width: 760px; margin: 0 auto; padding: 28px 24px 60px; color: #173329; font-size: 20px; line-height: 1.7; }
 .outdoor-navigation { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px; font-size: 16px; margin-bottom: 48px; }
 .outdoor-practice a { text-decoration: underline; text-underline-offset: 4px; }
-.outdoor-practice h1 { font-family: Georgia, serif; font-size: clamp(36px, 7vw, 58px); line-height: 1.12; letter-spacing: -0.035em; margin: 14px 0 24px; }
-.outdoor-practice h2 { font-size: 25px; line-height: 1.35; margin: 0 0 10px; }
+.outdoor-practice h1 { font-family: Georgia, serif; font-size: clamp(25.2px, 4.9vw, 40.6px); line-height: 1.12; letter-spacing: -0.035em; margin: 14px 0 24px; }
+.outdoor-practice h2 { font-size: 17.5px; line-height: 1.35; margin: 0 0 10px; }
 .outdoor-practice p { margin: 0 0 18px; }
 .outdoor-eyebrow { font-size: 14px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; }
 .outdoor-settle, .outdoor-reflection { border-top: 1px solid #9ba99f; margin-top: 36px; padding-top: 28px; }
@@ -905,8 +912,8 @@ section[id] { scroll-margin-top: 90px; }
 @media print {
   .outdoor-practice { max-width: none; padding: 0; color: #000; font-size: 11pt; line-height: 1.4; }
   .outdoor-practice .outdoor-navigation, .outdoor-practice .practice-controls, .outdoor-practice footer a { display: none; }
-  .outdoor-practice h1 { font-size: 24pt; margin: 8px 0 14px; }
-  .outdoor-practice h2 { font-size: 14pt; }
+  .outdoor-practice h1 { font-size: 16.8pt; margin: 8px 0 14px; }
+  .outdoor-practice h2 { font-size: 9.8pt; }
   .outdoor-practice p { margin-bottom: 10px; }
   .outdoor-practice .outdoor-eyebrow { font-size: 9pt; }
   .outdoor-settle, .outdoor-reflection { margin-top: 16px; padding-top: 14px; }
@@ -935,7 +942,7 @@ section[id] { scroll-margin-top: 90px; }
 .library-view-switch button:focus-visible, .library-compact-card a:focus-visible, .tree-related a:focus-visible { outline: 3px solid var(--ink); outline-offset: 3px; }
 .library-compact-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
 .library-compact-card { min-width: 0; padding: 1.25rem; border: 1px solid var(--line); background: var(--cream); scroll-margin-top: 2rem; }
-.library-compact-card h2 { font: 400 1.8rem/1.15 Georgia, serif; margin: 0 0 0.75rem; }
+.library-compact-card h2 { font: 400 1.26rem/1.15 Georgia, serif; margin: 0 0 0.75rem; }
 .library-compact-card h2 a { text-decoration: underline; text-underline-offset: 4px; }
 .library-compact-card p { font-size: 0.9rem; line-height: 1.6; margin-bottom: 1rem; }
 .library-compact-card .theme-list { margin-bottom: 1rem; }
@@ -946,20 +953,20 @@ section[id] { scroll-margin-top: 90px; }
 @media (max-width: 1000px) { .library-compact-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 600px) { .library-compact-grid { grid-template-columns: 1fr; } .tree-related a { width: 100%; } }
 
-.tree-visit-heading h1 { font: 400 clamp(2.4rem, 5vw, 4.2rem)/1.1 Georgia, serif; letter-spacing: -0.04em; }
+.tree-visit-heading h1 { font: 400 clamp(1.68rem, 3.5vw, 2.94rem)/1.1 Georgia, serif; letter-spacing: -0.04em; }
 .tree-visit-heading h2 a { text-decoration: underline; text-underline-offset: 5px; }
 
 /* Tree Hugging: warm woodcut illustration, forest ink, and generous editorial type. */
 .hug-page { --hug-forest: #142d23; --hug-gold: #eec480; --hug-muted: #c7d6c2; }
 .hug-shell { width: min(1220px, 88%); margin: 0 auto; padding: 100px 0; }
-.hug-page h2, .home-hug h2 { font-family: Georgia, "Times New Roman", serif; font-weight: 400; font-size: clamp(2.7rem, 4.8vw, 5.1rem); letter-spacing: -.055em; line-height: 1.04; }
+.hug-page h2, .home-hug h2 { font-family: Georgia, "Times New Roman", serif; font-weight: 400; font-size: clamp(1.89rem, 3.36vw, 3.57rem); letter-spacing: -.055em; line-height: 1.04; }
 .hug-page h2 em, .home-hug h2 em { font-weight: 400; }
 .hug-page h3 { font-family: Georgia, "Times New Roman", serif; font-weight: 400; font-size: clamp(1.55rem, 2.3vw, 2.2rem); letter-spacing: -.025em; line-height: 1.12; }
 .hug-page p { line-height: 1.7; }
 .hug-hero { display: grid; grid-template-columns: 1.1fr 1fr; min-height: min(850px, calc(100svh - 76px)); overflow: hidden; background: var(--hug-forest); color: #fbf5e7; }
 .hug-hero-copy { padding: clamp(55px, 7vw, 105px) 0 50px 6vw; position: relative; z-index: 1; align-self: center; }
 .hug-hero .section-kicker { color: var(--hug-gold); max-width: 420px; line-height: 1.7; }
-.hug-hero h1 { font-size: clamp(4rem, 7vw, 7.5rem); line-height: .98; letter-spacing: -.055em; margin: 0 0 28px; max-width: 780px; }
+.hug-hero h1 { font-size: clamp(2.8rem, 4.9vw, 5.25rem); line-height: .98; letter-spacing: -.055em; margin: 0 0 28px; max-width: 780px; }
 .hug-hero h1 em { color: var(--hug-gold); font-weight: 400; }
 .hug-lede { color: #e5eadf; max-width: 450px; font-size: 1.17rem; margin-bottom: 30px; }
 .hug-button { background: #eec480; color: #142d23; border-color: #eec480; }
@@ -1031,7 +1038,7 @@ section[id] { scroll-margin-top: 90px; }
 .hug-question-grid h3 { font-size: 1.65rem; }
 .hug-question-grid p { color: var(--ink-soft); }
 .hug-closing { background: #233e32; color: #fbf5e7; position: relative; overflow: hidden; }
-.hug-closing h2 { font-size: clamp(3.3rem, 7vw, 7.2rem); }
+.hug-closing h2 { font-size: clamp(2.31rem, 4.9vw, 5.04rem); }
 .hug-closing h2 em { color: var(--hug-gold); }
 .hug-closing p { color: #d5dfd1; }
 .hug-closing .section-kicker { color: var(--hug-gold); }
@@ -1054,7 +1061,7 @@ section[id] { scroll-margin-top: 90px; }
   .hug-shell { width: 88%; padding: 64px 0; }
   .hug-hero { grid-template-columns: 1fr; min-height: auto; }
   .hug-hero-copy { padding: 60px 6vw 10px; }
-  .hug-hero h1 { font-size: clamp(3.8rem, 12vw, 6rem); }
+  .hug-hero h1 { font-size: clamp(2.66rem, 8.4vw, 4.2rem); }
   .hug-hero-art { padding: 0 8vw 20px; }
   .hug-art { max-width: 450px; }
   .hug-orbit-label { top: 8%; right: 8%; }
@@ -1079,7 +1086,7 @@ section[id] { scroll-margin-top: 90px; }
 .home-champions { background: #173329; color: #fbfaf5; overflow: hidden; }
 .home-champions-main { display: grid; grid-template-columns: 1.15fr 1fr; max-width: 1500px; margin: auto; padding: clamp(3rem, 7vw, 6rem) clamp(1.25rem, 6vw, 6rem) 2rem; gap: 3vw; align-items: center; }
 .home-champions .section-kicker { color: #edc580; line-height: 1.6; }
-.home-champions h2 { font: 400 clamp(4.5rem, 9vw, 9rem)/.92 Georgia, serif; letter-spacing: -.055em; margin: 1.5rem 0 2rem; }
+.home-champions h2 { font: 400 clamp(3.15rem, 6.3vw, 6.3rem)/.92 Georgia, serif; letter-spacing: -.055em; margin: 1.5rem 0 2rem; }
 .home-champions h2 em { color: #edc580; font-weight: 400; }
 .home-champions-copy > p:not(.section-kicker) { max-width: 49ch; color: #dae3d5; line-height: 1.75; }
 .home-champions-copy .home-champions-lede { font: 400 clamp(1.35rem, 2vw, 1.8rem)/1.4 Georgia, serif; color: #fbfaf5; }
@@ -1106,7 +1113,7 @@ section[id] { scroll-margin-top: 90px; }
 .home-champions :focus-visible { outline: 3px solid #edc580; outline-offset: 4px; }
 @media (max-width: 760px) {
   .home-champions-main { grid-template-columns: 1fr; gap: 0; padding-bottom: 0; }
-  .home-champions h2 { font-size: clamp(4.5rem, 15vw, 7rem); }
+  .home-champions h2 { font-size: clamp(3.15rem, 10.5vw, 4.9rem); }
   .home-champions-art { max-width: 460px; justify-self: center; width: 100%; margin-top: 1.5rem; }
   .home-champions-art svg { max-height: 400px; }
   .home-champions-art p { bottom: 1rem; right: .5rem; }
@@ -1121,7 +1128,7 @@ section[id] { scroll-margin-top: 90px; }
 .tree-comparison-links > div { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); gap: 1rem; }
 .tree-comparison-links > div > a { display: flex; flex-direction: column; gap: .5rem; padding: 1.2rem; background: var(--paper); border: 1px solid var(--line); text-decoration: none; font-weight: 600; }
 .tree-comparison-links span { font-size: .85rem; font-weight: 400; }
-.comparison-page h1 { font-size: clamp(2.5rem, 5vw, 5rem); }
+.comparison-page h1 { font-size: clamp(1.75rem, 3.5vw, 3.5rem); }
 .comparison-feature { padding: 3rem 0; border-bottom: 1px solid var(--line); scroll-margin-top: 100px; }
 .comparison-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; }
 .comparison-grid article { min-width: 0; }
@@ -1168,19 +1175,19 @@ section[id] { scroll-margin-top: 90px; }
 .contact-draft textarea, .contact-draft input, .contact-draft select { width: 100%; min-height: 48px; font: inherit; padding: .8rem; border: 1px solid var(--moss); background: var(--paper); color: var(--ink); border-radius: 0; }
 .contact-draft textarea { resize: vertical; line-height: 1.5; }
 .return-invitation { padding: 2rem; border: 1px solid var(--line); background: var(--cream); margin: 0 0 3rem; }
-.return-invitation h2 { font-family: Georgia,serif; font-weight: 400; font-size: 2rem; margin-top: 0; }
+.return-invitation h2 { font-family: Georgia,serif; font-weight: 400; font-size: 1.4rem; margin-top: 0; }
 .return-invitation p { line-height: 1.7; }
 .journal-page { padding: 2rem 5vw 4rem; }
 .journal-controls { display: flex; gap: 1rem; flex-wrap: wrap; align-items: center; max-width: 850px; margin: 0 auto 2rem; }
 .journal-controls p { flex-basis: 100%; line-height: 1.6; }
 .observation-sheet { max-width: 850px; margin: auto; padding: clamp(1rem,4vw,3rem); border: 1px solid var(--line); background: white; color: #173329; }
-.observation-sheet h1 { font-size: 2.8rem; margin: .5rem 0; }
+.observation-sheet h1 { font-size: 1.96rem; margin: .5rem 0; }
 .observation-sheet p { font-size: 14px; line-height: 1.5; }
 .journal-identity span, .journal-date span { display: inline-block; min-width: 45%; border-bottom: 1px solid #85978d; }
 .journal-date { display: flex; gap: 2rem; }
 .journal-date p { width: 50%; }
 .journal-visit { border-top: 1px solid #85978d; margin-top: 1rem; padding-top: .7rem; break-inside: avoid; }
-.journal-visit h2 { font-family: Georgia,serif; font-size: 1.4rem; margin: 0; }
+.journal-visit h2 { font-family: Georgia,serif; font-size: 0.98rem; margin: 0; }
 .journal-visit p { margin: .5rem 0; }
 .writing-line { border-bottom: 1px solid #c6cfc9; min-height: 1.7rem; }
 .journal-sketch { min-height: 100px; border: 1px solid #c6cfc9; margin-top: 1.5rem; padding: .5rem; }
@@ -1192,14 +1199,14 @@ section[id] { scroll-margin-top: 90px; }
   body:has(.journal-page) .site-header, body:has(.journal-page) .skip-link, body:has(.journal-page) .school-footer, .journal-controls { display: none !important; }
   .journal-page { padding: 0; }
   .observation-sheet { max-width: none; padding: 0; border: none; }
-  .observation-sheet h1 { font-size: 22pt; }
+  .observation-sheet h1 { font-size: 15.4pt; }
   .observation-sheet .section-kicker { font-size: 8pt; margin: 0; }
   .observation-sheet p { font-size: 9pt; margin: 4pt 0; }
   .journal-identity span, .journal-date span { min-width: 40%; }
   .journal-date { display: flex; gap: 10pt; }
   .journal-date p { width: 50%; }
   .journal-visit { margin-top: 8pt; padding-top: 5pt; }
-  .journal-visit h2 { font-size: 12pt; }
+  .journal-visit h2 { font-size: 8.4pt; }
   .writing-line { min-height: 10pt; }
   .journal-sketch { min-height: 55pt; margin-top: 9pt; }
   .journal-source { font-size: 7pt !important; }
@@ -1211,7 +1218,7 @@ section[id] { scroll-margin-top: 90px; }
 @media print { .chapter-video-frame { display: none; } }
 
 .home-video-inner { max-width: 1000px; margin: auto; }
-.home-video h2 { font-family: Georgia, serif; font-size: clamp(2.5rem, 5vw, 4.5rem); font-weight: 400; line-height: 1.1; letter-spacing: -.035em; }
+.home-video h2 { font-family: Georgia, serif; font-size: clamp(1.75rem, 3.5vw, 3.15rem); font-weight: 400; line-height: 1.1; letter-spacing: -.035em; }
 .home-video p { line-height: 1.75; }
 .home-final-video { background: var(--cream); }
 .chapter-video .video-lesson + h3, .chapter-video > div + div { margin-top: 3rem; }
@@ -1220,12 +1227,12 @@ section[id] { scroll-margin-top: 90px; }
 .home-book { background: #eee8db; }
 .book-feature { display: grid; grid-template-columns: minmax(220px, 340px) minmax(0, 1fr); align-items: center; gap: clamp(2rem, 6vw, 6rem); max-width: 1120px; margin: 0 auto; }
 .book-cover { display: block; width: 100%; height: auto; border-radius: 3px; box-shadow: 0 18px 40px #25382b26; }
-.book-feature-copy h2, .book-hub-chapters > h2 { font-family: Georgia, "Times New Roman", serif; font-size: clamp(2.4rem, 4.6vw, 4rem); font-weight: 400; line-height: 1.12; margin: 0 0 1.5rem; }
+.book-feature-copy h2, .book-hub-chapters > h2 { font-family: Georgia, "Times New Roman", serif; font-size: clamp(1.68rem, 3.22vw, 2.8rem); font-weight: 400; line-height: 1.12; margin: 0 0 1.5rem; }
 .book-feature-copy p { line-height: 1.75; color: var(--ink-soft); }
 .book-author-note { font-size: 1.15rem; }
 .book-feature-copy .book-byline { color: var(--ink); margin-top: -.5rem; }
 .book-hub-intro { padding: 2rem 0 5rem; }
-.book-hub-intro h1 { font-family: Georgia, "Times New Roman", serif; font-weight: 400; font-size: clamp(3rem, 6vw, 5rem); line-height: 1.05; margin: 0 0 1.5rem; }
+.book-hub-intro h1 { font-family: Georgia, "Times New Roman", serif; font-weight: 400; font-size: clamp(2.1rem, 4.2vw, 3.5rem); line-height: 1.05; margin: 0 0 1.5rem; }
 .book-availability, .book-chapter-availability { font-size: .9rem; }
 .book-jump { display: inline-block; margin-top: 1.5rem; padding: .5rem 0; text-decoration: underline; text-underline-offset: 4px; }
 .book-hub-chapters { scroll-margin-top: 110px; }
@@ -1269,7 +1276,7 @@ section[id] { scroll-margin-top: 90px; }
 .tree-season-book { font-size: .95rem; max-width: 70ch; line-height: 1.75; }
 .tree-season-book a { display: inline-block; padding: .4rem 0; margin-right: 1rem; text-decoration: underline; text-underline-offset: 4px; }
 .hug-book { padding-top: 4rem; padding-bottom: 4rem; }
-.hug-book h2 { font-family: Georgia, "Times New Roman", serif; font-weight: 400; font-size: clamp(2.2rem, 4vw, 3.5rem); line-height: 1.15; }
+.hug-book h2 { font-family: Georgia, "Times New Roman", serif; font-weight: 400; font-size: clamp(1.54rem, 2.8vw, 2.45rem); line-height: 1.15; }
 @media (max-width: 700px) { .book-connections ul { grid-template-columns: minmax(0, 1fr); } .chapter-steps { gap: .4rem; font-size: .9rem; } .chapter-steps a { padding: .75rem .5rem; gap: .4rem; } }
 @media print { .outdoor-practice .book-connections { display: none; } .chapter-steps { display: none; } }
 
@@ -1277,12 +1284,12 @@ section[id] { scroll-margin-top: 90px; }
 .champion-state-page { max-width: 1500px; margin: auto; }
 .champion-state-hero { padding: clamp(3rem, 7vw, 6rem) clamp(1.25rem, 5vw, 5rem) 2.5rem; background: var(--cream); }
 .champion-state-hero .lesson-back { display: inline-block; margin-bottom: 2.5rem; }
-.champion-state-hero h1 { font-size: clamp(3.2rem, 7vw, 7rem); line-height: 1.03; letter-spacing: -0.055em; }
+.champion-state-hero h1 { font-size: clamp(2.24rem, 4.9vw, 4.9rem); line-height: 1.03; letter-spacing: -0.055em; }
 .champion-state-hero h1 em { font-weight: 400; color: var(--moss); }
 .champion-state-hero .lesson-lede { max-width: 55ch; }
 .champion-state-jumps { display: flex; flex-wrap: wrap; gap: .75rem 2rem; margin-top: 2.5rem; font-size: .9rem; }
 .champion-state-section { padding: clamp(2.5rem, 5vw, 4.5rem) clamp(1.25rem, 5vw, 5rem); border-top: 1px solid var(--line); scroll-margin-top: 5rem; }
-.champion-state-section h2 { font-family: Georgia, serif; font-size: clamp(2.2rem, 4vw, 3.8rem); font-weight: 400; line-height: 1.1; letter-spacing: -.035em; margin-bottom: 1.5rem; }
+.champion-state-section h2 { font-family: Georgia, serif; font-size: clamp(1.54rem, 2.8vw, 2.66rem); font-weight: 400; line-height: 1.1; letter-spacing: -.035em; margin-bottom: 1.5rem; }
 .champion-state-section > p { max-width: 78ch; line-height: 1.75; }
 .champion-state-date { color: var(--ink-soft); font-weight: 700; }
 .champion-state-source-notes { max-width: 85ch; margin-top: 1.5rem; padding: 1.25rem; border: 1px solid var(--line); }
@@ -1342,7 +1349,7 @@ section[id] { scroll-margin-top: 90px; }
 .home-hero-shade { position: absolute; z-index: -1; inset: 0; background: linear-gradient(0deg, rgba(9, 25, 17, .88), transparent 26%), linear-gradient(90deg, rgba(9, 25, 17, .06) 25%, rgba(9, 25, 17, .25) 48%, rgba(9, 25, 17, .84) 70%, rgba(9, 25, 17, .94)); }
 .home-hero-copy { grid-column: 2; align-self: center; padding: 60px clamp(28px, 4vw, 76px) 118px 0; min-width: 0; }
 .home-hero .eyebrow { color: #e9cc91; font-size: .68rem; letter-spacing: .19em; line-height: 1.8; margin-bottom: 26px; }
-.home-hero h1 { margin: 0 0 26px; max-width: none; font-size: clamp(5rem, 8.3vw, 9rem); line-height: .91; letter-spacing: -.055em; }
+.home-hero h1 { margin: 0 0 26px; max-width: none; font-size: clamp(3.5rem, 5.81vw, 6.3rem); line-height: .91; letter-spacing: -.055em; }
 .home-hero h1 span, .home-hero h1 em { display: block; }
 .home-hero h1 em { color: #edc580; font-weight: 400; }
 .home-hero-lede { margin: 0 0 12px; font: 400 clamp(1.3rem, 1.8vw, 1.8rem)/1.3 Georgia, serif; }
@@ -1357,7 +1364,7 @@ section[id] { scroll-margin-top: 90px; }
 .home-hero a:focus-visible { outline: 3px solid #edc580; outline-offset: 6px; }
 @media (max-width: 1000px) and (min-width: 761px) {
   .home-hero { grid-template-columns: 55% 45%; min-height: 760px; }
-  .home-hero h1 { font-size: clamp(4.5rem, 9vw, 6rem); }
+  .home-hero h1 { font-size: clamp(3.15rem, 6.3vw, 4.2rem); }
   .home-hero-copy { padding-right: 4vw; }
 }
 @media (max-width: 760px) {
@@ -1366,7 +1373,7 @@ section[id] { scroll-margin-top: 90px; }
   .home-hero-shade { z-index: 1; bottom: auto; aspect-ratio: 2000 / 1180; pointer-events: none; background: linear-gradient(0deg, #11261d, transparent 18%); }
   .home-hero-copy { align-self: stretch; padding: 30px 6vw 34px; }
   .home-hero .eyebrow { margin-bottom: 22px; font-size: .62rem; }
-  .home-hero h1 { font-size: clamp(4.4rem, 15vw, 7rem); margin-bottom: 26px; }
+  .home-hero h1 { font-size: clamp(3.08rem, 10.5vw, 4.9rem); margin-bottom: 26px; }
   .home-hero-lede { font-size: 1.5rem; }
   .home-hero-description { max-width: 42ch; }
   .home-hero-actions { gap: 15px; }
@@ -1380,7 +1387,7 @@ section[id] { scroll-margin-top: 90px; }
 .school-footer-inner { max-width: 1500px; margin: auto; padding: clamp(48px, 6vw, 92px) clamp(24px, 5vw, 80px) 0; }
 .school-footer-invitation { display: flex; align-items: center; justify-content: space-between; gap: 40px; padding-bottom: clamp(40px, 5vw, 72px); border-bottom: 1px solid #ffffff26; }
 .school-footer .section-kicker { color: #edc580; font-size: .66rem; letter-spacing: .17em; margin-bottom: 24px; line-height: 1.8; }
-.school-footer-invitation h2 { margin: 0; font: 400 clamp(1.9rem, 3.5vw, 3.7rem)/.98 Georgia, serif; letter-spacing: -.055em; }
+.school-footer-invitation h2 { margin: 0; font: 400 clamp(1.33rem, 2.45vw, 2.59rem)/.98 Georgia, serif; letter-spacing: -.055em; }
 .school-footer-invitation h2 em { color: #edc580; font-weight: 400; }
 .school-footer-start { max-width: 300px; }
 .school-footer-start p { color: #d8e0d3; font: 400 1.3rem/1.5 Georgia, serif; margin: 0 0 25px; }
@@ -1407,7 +1414,7 @@ section[id] { scroll-margin-top: 90px; }
 }
 @media (max-width: 760px) {
   .school-footer-invitation { flex-direction: column; align-items: flex-start; gap: 28px; }
-  .school-footer-invitation h2 { font-size: clamp(1.8rem, 6vw, 2.9rem); }
+  .school-footer-invitation h2 { font-size: clamp(1.26rem, 4.2vw, 2.03rem); }
   .school-footer-start { max-width: none; }
   .school-footer-start p { font-size: 1.15rem; }
   .school-footer-start .button { width: auto; }
@@ -1483,7 +1490,7 @@ section[id] { scroll-margin-top: 90px; }
 /* A real embrace, with room for both the tree and the invitation. */
 .home-hug-photographic { grid-template-columns: .9fr 1.3fr; }
 .home-hug-photographic .home-hug-copy { padding: 80px 3vw 80px 6vw; position: relative; z-index: 1; }
-.home-hug-photographic h2 { font-size: clamp(3rem, 5vw, 5.8rem); }
+.home-hug-photographic h2 { font-size: clamp(2.1rem, 3.5vw, 4.06rem); }
 .home-hug-photographic .home-hug-copy > p:not(.section-kicker) { max-width: 36ch; }
 .home-hug-photo { position: relative; margin: 0; min-height: 720px; overflow: hidden; }
 .home-hug-photo img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 52% center; }
@@ -1500,12 +1507,12 @@ section[id] { scroll-margin-top: 90px; }
 /* The Tree Hugging page shares the homepage's photographic embrace. */
 .hug-hero-photographic { grid-template-columns: .95fr 1.25fr; min-height: 760px; }
 .hug-hero-photographic .hug-hero-copy { padding: 64px 3vw 64px 6vw; }
-.hug-hero-photographic h1 { font-size: clamp(3.8rem, 6.2vw, 6.8rem); }
+.hug-hero-photographic h1 { font-size: clamp(2.66rem, 4.34vw, 4.76rem); }
 .hug-photo-kicker { position: absolute; z-index: 1; top: 32px; right: 6%; padding: 9px 14px; border: 1px solid #eec48066; border-radius: 999px; background: #142d23c7; color: #eec480; font-size: .65rem; letter-spacing: .14em; text-transform: uppercase; }
 @media (max-width: 760px) {
   .hug-hero-photographic { grid-template-columns: 1fr; min-height: 0; }
   .hug-hero-photographic .hug-hero-copy { grid-row: 2; padding: 44px 6vw 52px; }
-  .hug-hero-photographic h1 { font-size: clamp(3.5rem, 11vw, 6rem); }
+  .hug-hero-photographic h1 { font-size: clamp(2.45rem, 7.7vw, 4.2rem); }
   .hug-photo-kicker { top: 20px; font-size: .55rem; }
 }
 
@@ -1621,7 +1628,7 @@ body::before {
 @media print { .lesson-outdoor-invitation { display: none; } }
 
 .journey-progress-panel { margin-top: 2rem; padding: clamp(1.25rem,3vw,2rem); background: var(--cream); border: 1px solid var(--line); border-left: 3px solid var(--moss); }
-.journey-progress-panel h2 { font-size: clamp(1.65rem,3vw,2.3rem); margin-top: .75rem; }
+.journey-progress-panel h2 { font-size: clamp(1.155rem,2.1vw,1.61rem); margin-top: .75rem; }
 .journey-progress-panel progress { display: block; width: 100%; height: .75rem; accent-color: var(--ink); margin: 1.25rem 0; }
 .journey-progress-days { padding: 0; list-style: none; display: grid; gap: .5rem; }
 .journey-progress-days a { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .35rem 1rem; padding: .75rem; border: 1px solid var(--line); }
