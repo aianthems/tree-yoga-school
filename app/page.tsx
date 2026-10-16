@@ -57,15 +57,11 @@ export default function Home() {
 
       <section className="home-video section-shell" aria-labelledby="welcome-video-title"><div className="home-video-inner"><p className="section-kicker">A welcome from Alex Julian</p><h2 id="welcome-video-title">Welcome to <span className="welcome-school-name">Tree Yoga School.</span></h2><VideoLesson youtubeId="e7HtBaV_n5s" title="Welcome to Tree Yoga School — Alex Julian" /></div></section>
 
-      <section className="home-book section-shell" aria-labelledby="home-book-title">
+      <section className="home-book section-shell" aria-label="The original book">
         <div className="book-feature">
           <Link href="/book" aria-label="Explore Tree Yoga School, the book"><BookCover /></Link>
           <div className="book-feature-copy">
             <p className="section-kicker">The original book · Alex Julian</p>
-            <h2 id="home-book-title">The book at the heart of the school.</h2>
-            <p className="book-author-note">I created Tree Yoga School to bring yoga, meditation, and time among trees into one practice. This book is where the school begins. Read a chapter, watch its lesson, then take one idea outside.</p>
-            <p className="book-byline">— Alex Julian</p>
-            <p>Seven chapters, from your first encounter with Tree Yoga to a practice you can return to.</p>
             <div className="course-actions"><Link className="button primary" href="/book">Explore the chapters</Link><a className="button secondary" href={bookUrl} target="_blank" rel="noreferrer">Read the book</a></div>
           </div>
         </div>
