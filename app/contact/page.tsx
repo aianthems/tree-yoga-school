@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { pageMetadata } from "../../lib/site-seo";
 import { schoolContactEmail } from "../../lib/school-contact";
 import SiteHeader from "../components/site-header";
@@ -22,6 +23,7 @@ export default function ContactPage() {
       <h2>Contact by email.</h2>
       <p>Email links open your own email application, where you can review your message and add attachments before sending. The website does not collect messages or photographs.</p>
       <p>Messages are reviewed privately. Sending an email does not publish it, update the map, or subscribe you to a mailing list. To request deletion of a contribution or withdraw permission for future use, email the address above.</p>
+      <Link className="course-link" href="/privacy">Read the Privacy page</Link>
     </section>
   </main></>;
 }

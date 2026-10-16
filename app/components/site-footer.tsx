@@ -14,7 +14,7 @@ export default function SiteFooter() {
         <div className="school-footer-identity"><Link className="school-footer-logo" href="/" aria-label="Tree Yoga School home"><ResponsiveImage image="logo" alt="Tree Yoga School · pine tree logo" sizes="(max-width: 760px) 172px, (max-width: 1000px) 162px, 202px" /></Link><p>Nature is the teacher.</p></div>
         <nav className="school-footer-nav" aria-label="Footer navigation">{siteNavigation.map(group => <div key={group.title}><h3>{group.title}</h3><ul>{group.links.map(link => <li key={link.href}><Link href={link.href}>{link.label}</Link></li>)}</ul></div>)}</nav>
       </div>
-      <div className="school-footer-bottom"><p>© 2026 Tree Yoga School</p><p>Founded by Alex Julian · Rooted in the original school.</p><a href="#content">Return to top <span aria-hidden="true">↑</span></a></div>
+      <div className="school-footer-bottom"><p>© 2026 Tree Yoga School</p><p>Founded by Alex Julian · Rooted in the original school.</p><p><Link href="/privacy">Privacy</Link></p><a href="#content">Return to top <span aria-hidden="true">↑</span></a></div>
     </div>
   </footer>;
 }

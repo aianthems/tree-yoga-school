@@ -55,6 +55,7 @@ export default function JourneyProgressPanel({ day, compact = false }: { day?: n
       <p className="lesson-note">Saved only in this browser. Clearing browser data removes it; it does not sync to other devices.</p>
     </>}
     {unavailable && !message && <p role="status">Progress saving is unavailable in this browser. You can still follow every day without it.</p>}
+    <p className="lesson-note"><Link className="course-link" href="/privacy#journey-privacy">Privacy and saved progress</Link></p>
     <p role="status">{message}</p>
   </aside>;
 }
