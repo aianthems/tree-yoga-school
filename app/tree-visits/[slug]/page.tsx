@@ -15,8 +15,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 export default async function VisitGuide({ params }: { params: Promise<{ slug: string }> }) {
   const visit = getVisit((await params).slug);
   return <><SiteHeader /><main id="content" className="explore-shell tree-visits-page">
-    <section className="library-intro"><Link className="lesson-back" href="/tree-visits">← All Trees to Visit</Link><p>Visitor sources were checked online, not through a field inspection. Check the linked site guidance before travelling.</p></section>
+    <section className="library-intro"><Link className="lesson-back" href="/tree-visits"> All Trees to Visit</Link><p>Visitor sources were checked online, not through a field inspection. Check the linked site guidance before travelling.</p></section>
     <TreeVisitCard visit={visit} index={treeVisits.indexOf(visit)} standalone />
-    <div className="course-actions"><Link className="button secondary" href="/tree-visits">Explore more visits</Link><Link className="course-link" href="/trees">Explore the Tree Library →</Link></div>
+    <div className="course-actions"><Link className="button secondary" href="/tree-visits">Explore more visits</Link><Link className="course-link" href="/trees">Explore the Tree Library</Link></div>
   </main></>;
 }

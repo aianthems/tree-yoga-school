@@ -17,7 +17,7 @@ export default function ContactPage() {
       <h2>Make a contribution useful.</h2>
       <p>For corrections, include the page link or Champion Map record ID, what appears incorrect, and the source that supports the change. For a visit observation, include the date and distinguish what you saw from what you inferred.</p>
       <p>If you offer words or photographs for publication, state your permission and preferred credit. Avoid sensitive personal information and undisclosed private locations.</p>
-      <a className="course-link" href="/big-tree-volunteers">Learn about Big Tree Volunteers →</a>
+      <a className="course-link" href="/big-tree-volunteers">Learn about Big Tree Volunteers</a>
     </section>
     <section id="privacy" className="lesson-section">
       <h2>Contact by email.</h2>

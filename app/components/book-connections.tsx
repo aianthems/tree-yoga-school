@@ -15,7 +15,7 @@ export default function BookConnections({ chapters, description, compact = false
       const chapter = bookChapters.find(item => item.slug === slug);
       if (!chapter) return null;
       const videos = bookChapterVideos[slug] ?? [];
-      return <li key={slug}><Link href={`/book/${slug}`}>Chapter {Number(chapter.number)} · {chapter.title} →</Link>{!compact && videos.length > 0 && <Link className="book-connection-watch" href={`/book/${slug}#chapter-video-title`}>Watch {videos.length > 1 ? "the lessons" : "the lesson"} →<span className="sr-only"> {chapter.title}</span></Link>}</li>;
+      return <li key={slug}><Link href={`/book/${slug}`}>Chapter {Number(chapter.number)} · {chapter.title}</Link>{!compact && videos.length > 0 && <Link className="book-connection-watch" href={`/book/${slug}#chapter-video-title`}>Watch {videos.length > 1 ? "the lessons" : "the lesson"}<span className="sr-only"> {chapter.title}</span></Link>}</li>;
     })}</ul>
   </aside>;
 }

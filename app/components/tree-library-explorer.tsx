@@ -107,7 +107,7 @@ export default function TreeLibraryExplorer({ trees, comparisons }: { trees: rea
             <h2><Link href={`/trees/${tree.slug}`}>{tree.name}</Link></h2>
             <p>{tree.species} · <i>{tree.scientificName}</i></p>
             <ul className="theme-list" aria-label="Contemplative themes">{tree.themes.map(value => <li key={value}>{value}</li>)}</ul>
-            <Link className="course-link" href={`/practice/${tree.slug}`}>Open outdoor practice →</Link>
+            <Link className="course-link" href={`/practice/${tree.slug}`}>Open outdoor practice</Link>
           </article>
         )) : results.map(tree => (
           <article className="tree-feature" id={tree.slug} key={tree.slug}>
@@ -121,7 +121,7 @@ export default function TreeLibraryExplorer({ trees, comparisons }: { trees: rea
               <p>{tree.invitation}</p>
               <div className="course-actions">
                 <Link className="button primary" href={`/trees/${tree.slug}`}>Meet {tree.name}</Link>
-                <Link className="course-link" href={`/practice/${tree.slug}`}>Practice with {tree.name} →</Link>
+                <Link className="course-link" href={`/practice/${tree.slug}`}>Practice with {tree.name}</Link>
               </div>
             </div>
           </article>

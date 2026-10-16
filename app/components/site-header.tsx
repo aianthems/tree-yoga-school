@@ -50,11 +50,11 @@ export default function SiteHeader() {
             <button type="button" className="site-nav-trigger" ref={element => { groupButtons.current[group.id] = element; }} aria-expanded={expanded} aria-controls={`site-nav-${group.id}`} onClick={() => setOpenGroup(expanded ? null : group.id)}>{group.title}<span aria-hidden="true">{expanded ? "−" : "+"}</span></button>
             <div className="site-nav-panel" id={`site-nav-${group.id}`} hidden={!expanded}>
               <div className="site-nav-intro"><p className="section-kicker">{group.title}</p><p className="site-nav-invitation">{group.invitation}</p><p>{group.description}</p></div>
-              <ul className="site-nav-links">{group.links.map(link => <li key={link.href}><Link href={link.href} onClick={close} aria-current={pathname === link.href ? "page" : undefined}><span>{link.label}<i aria-hidden="true">↗</i></span><small>{link.description}</small></Link></li>)}</ul>
+              <ul className="site-nav-links">{group.links.map(link => <li key={link.href}><Link href={link.href} onClick={close} aria-current={pathname === link.href ? "page" : undefined}><span>{link.label}</span><small>{link.description}</small></Link></li>)}</ul>
             </div>
           </div>;
         })}
-        <Link className="site-nav-begin" href="/begin-here" onClick={close} aria-current={pathname === "/begin-here" ? "page" : undefined}>Begin Here <span aria-hidden="true">↗</span></Link>
+        <Link className="site-nav-begin" href="/begin-here" onClick={close} aria-current={pathname === "/begin-here" ? "page" : undefined}>Begin Here</Link>
       </nav>
     </header></>;
 }

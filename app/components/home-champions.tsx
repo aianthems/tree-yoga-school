@@ -19,7 +19,7 @@ export default function HomeChampions() {
             <span><strong>{championCoverage.listed.toLocaleString("en-US")}</strong> listed tree records</span>
             <span><strong>{championCoverage.states}</strong> states to explore</span>
           </div>
-          <Link className="button home-champions-button" href="/champion-trees#explorer" prefetch={false}>Explore the Champion Map →</Link>
+          <Link className="button home-champions-button" href="/champion-trees#explorer" prefetch={false}>Explore the Champion Map</Link>
           <p className="home-champions-note">Markers show approximate areas. Check the original record and visiting guidance before heading out.</p>
         </div>
         <div className="home-champions-art" aria-hidden="true">
@@ -58,7 +58,7 @@ export default function HomeChampions() {
         <nav className="home-champions-shortcuts" aria-label="Featured champion tree state pages">
           {featuredStates.map(state => (
             <Link key={state} href={championStateHref(state)} prefetch={false}>
-              <span>{championStates[state].name}</span><span aria-hidden="true">↗</span>
+              <span>{championStates[state].name}</span>
             </Link>
           ))}
         </nav>

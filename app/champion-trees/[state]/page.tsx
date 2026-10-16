@@ -40,21 +40,21 @@ export default async function ChampionStatePage({ params }: Props) {
   const mapHref = `${championHref({ state: code })}#explorer`;
   return <><SiteHeader /><main id="content" className="champion-state-page">
     <section className="champion-state-hero">
-      <Link className="lesson-back" href="/champion-trees#registers">← All state registers</Link>
+      <Link className="lesson-back" href="/champion-trees#registers"> All state registers</Link>
       <p className="section-kicker">Out in the world · {config.name}</p>
       <h1>{config.name}<br /><em>champion trees.</em></h1>
       <p className="lesson-lede">{code === "MS" ? "One documented tree from the 2024 national register. This is limited coverage, not a complete Mississippi state champion list." : "Remarkable trees, a place to begin. Explore the register, get to know the species, and bring a little attention outdoors."}</p>
       <div className="champion-stats"><span><strong>{coverage.listed.toLocaleString("en-US")}</strong> listed records</span><span><strong>{coverage.mapped.toLocaleString("en-US")}</strong> records with map points</span><span><strong>{library.length}</strong> Library species represented</span></div>
-      <div className="course-actions"><Link className="button primary" href={mapHref} prefetch={false}>Explore the {config.name} map →</Link><a className="course-link" href="#register">Register & coverage ↓</a></div>
+      <div className="course-actions"><Link className="button primary" href={mapHref} prefetch={false}>Explore the {config.name} map</Link><a className="course-link" href="#register">Register & coverage</a></div>
       <nav className="champion-state-jumps" aria-label="On this state page"><a href="#notable">Notable records</a><a href="#species">Library & practices</a><a href="#visits">Places to visit</a></nav>
     </section>
     <section className="champion-state-section" id="register" aria-labelledby="register-title">
       <p className="section-kicker">The register behind the map</p><h2 id="register-title">Dates, sources & coverage.</h2>
       <p className="champion-state-date">{config.sourceDate}</p>
-      <div className="course-actions">{sources.map(([key, url]) => <a className="course-link" href={String(url)} key={key} target={String(url).startsWith("https:") ? "_blank" : undefined} rel="noreferrer">{sourceLabels[key]} ↗</a>)}</div>
+      <div className="course-actions">{sources.map(([key, url]) => <a className="course-link" href={String(url)} key={key} target={String(url).startsWith("https:") ? "_blank" : undefined} rel="noreferrer">{sourceLabels[key]}</a>)}</div>
       <p>{coverage.listed.toLocaleString("en-US")} records are included in this imported selection. {coverage.mapped.toLocaleString("en-US")} have approximate map points; {(coverage.listed - coverage.mapped).toLocaleString("en-US")} remain searchable without a marker. Multiple trees can share one town or county point.</p>
       <p>Register editions, retrieval dates, and individual measurement dates describe different things. This snapshot does not confirm current tree condition. Approximate map points do not locate individual trees or establish permission to visit.</p>
-      <details className="champion-state-source-notes"><summary>How this register was selected and mapped</summary><StateRegisterNotes state={code} /><Link className="course-link" href={`/champion-trees#source-${code}`}>Full source links on the shared map →</Link></details>
+      <details className="champion-state-source-notes"><summary>How this register was selected and mapped</summary><StateRegisterNotes state={code} /><Link className="course-link" href={`/champion-trees#source-${code}`}>Full source links on the shared map</Link></details>
     </section>
     <section className="champion-state-section" id="notable" aria-labelledby="notable-title">
       <p className="section-kicker">A glimpse of the register</p><h2 id="notable-title">Look up. Look closer.</h2>
@@ -63,7 +63,7 @@ export default async function ChampionStatePage({ params }: Props) {
         <p className="section-kicker">{placeName(record)}</p><h3>{record.commonName}</h3><p><i>{record.scientificName}</i></p>
         <dl><div><dt>Published height</dt><dd>{number(record.height, " ft")}</dd></div><div><dt>Published points</dt><dd>{number(record.points, "")}</dd></div></dl>
         <p className="champion-state-record-date">Date in record: {formatChampionDate(record.measured)}</p>
-        <Link className="course-link" href={championHref({ state: code, selectedId: record.id })} prefetch={false}>Explore this record →</Link>
+        <Link className="course-link" href={championHref({ state: code, selectedId: record.id })} prefetch={false}>Explore this record</Link>
       </article>)}</div>
       {notable.length === 0 ? <p>No positive published heights are available for a height preview. The complete selection remains available in the map.</p> : null}
     </section>
@@ -72,15 +72,15 @@ export default async function ChampionStatePage({ params }: Props) {
       <p>These Library species appear in {config.name}’s imported register. Explore identification, seasonal observations, and a practice beside a tree. Photographs are species references taken elsewhere. Matches use scientific names without regard to capitalization; botanical synonyms remain separate.</p>
       <div className="champion-state-species">{library.map(({ tree, count }) => <article key={tree.slug}>
         <Link href={`/trees/${tree.slug}`}><Image src={tree.image} alt={tree.imageAlt} width={tree.imageWidth} height={tree.imageHeight} sizes="(max-width: 600px) 85vw, (max-width: 1000px) 40vw, 22vw" /></Link>
-        <div><p className="section-kicker">{count} {count === 1 ? "register record" : "register records"}</p><h3><Link href={`/trees/${tree.slug}`}>{tree.name}</Link></h3><p>{tree.invitation}</p><Link className="course-link" href={`/practice/${tree.slug}`}>Practice with {tree.name} →</Link><Link className="course-link" href={championHref({ state: code, species: tree.scientificName })} prefetch={false}>Find this species in {config.name} →</Link></div>
-        <p className="champion-state-photo-credit">{tree.credit.photographer} · <a href={tree.credit.licenseUrl}>{tree.credit.license}</a> · <a href={tree.credit.sourceUrl}>Photo source ↗</a> · Converted to WebP</p>
+        <div><p className="section-kicker">{count} {count === 1 ? "register record" : "register records"}</p><h3><Link href={`/trees/${tree.slug}`}>{tree.name}</Link></h3><p>{tree.invitation}</p><Link className="course-link" href={`/practice/${tree.slug}`}>Practice with {tree.name}</Link><Link className="course-link" href={championHref({ state: code, species: tree.scientificName })} prefetch={false}>Find this species in {config.name}</Link></div>
+        <p className="champion-state-photo-credit">{tree.credit.photographer} · <a href={tree.credit.licenseUrl}>{tree.credit.license}</a> · <a href={tree.credit.sourceUrl}>Photo source</a> · Converted to WebP</p>
       </article>)}</div>
       {library.length === 0 ? <p>No matching Library profiles are available yet. You can still <Link href="/practice/first-five-minutes">practice beside an ordinary tree nearby</Link>.</p> : null}
     </section>
     <section className="champion-state-section" id="visits" aria-labelledby="visits-title">
       <p className="section-kicker">A place to begin outdoors</p><h2 id="visits-title">Plan a thoughtful visit.</h2>
-      {visits.length ? <><p>Our available {config.name} guides pair arrival and access information with a practice. A guide may feature an ordinary tree, a forest, or a champion; its inclusion here does not give it a champion title. Check current site guidance before travelling.</p><div className="champion-state-visits">{visits.map(visit => <article key={visit.slug}><p className="section-kicker">{visit.kind} · {visit.place}</p><h3><Link href={`/tree-visits/${visit.slug}`}>{visit.name}</Link></h3><p>{visit.pause}</p><Link className="course-link" href={`/tree-visits/${visit.slug}`}>Arrival, access & practice →</Link></article>)}</div></> : <><p>We have not published a {config.name} visit guide yet. Start with a tree you can visit with permission nearby, or explore our guides in other states.</p><div className="course-actions"><Link className="course-link" href="/practice/first-five-minutes">A five-minute practice with any tree →</Link><Link className="course-link" href="/tree-visits">Explore available visit guides →</Link></div></>}
-      <div className="course-actions"><Link className="button primary" href={mapHref} prefetch={false}>Open the {config.name} map →</Link><Link className="course-link" href="/return-to-your-tree">Return to a familiar tree →</Link></div>
+      {visits.length ? <><p>Our available {config.name} guides pair arrival and access information with a practice. A guide may feature an ordinary tree, a forest, or a champion; its inclusion here does not give it a champion title. Check current site guidance before travelling.</p><div className="champion-state-visits">{visits.map(visit => <article key={visit.slug}><p className="section-kicker">{visit.kind} · {visit.place}</p><h3><Link href={`/tree-visits/${visit.slug}`}>{visit.name}</Link></h3><p>{visit.pause}</p><Link className="course-link" href={`/tree-visits/${visit.slug}`}>Arrival, access & practice</Link></article>)}</div></> : <><p>We have not published a {config.name} visit guide yet. Start with a tree you can visit with permission nearby, or explore our guides in other states.</p><div className="course-actions"><Link className="course-link" href="/practice/first-five-minutes">A five-minute practice with any tree</Link><Link className="course-link" href="/tree-visits">Explore available visit guides</Link></div></>}
+      <div className="course-actions"><Link className="button primary" href={mapHref} prefetch={false}>Open the {config.name} map</Link><Link className="course-link" href="/return-to-your-tree">Return to a familiar tree</Link></div>
     </section>
     <nav className="champion-state-section champion-state-directory" aria-label="Explore another state"><p className="section-kicker">Keep exploring</p><h2>Another place. More wonder.</h2><div>{championStatePages.map(page => <Link href={championStateHref(page.state)} key={page.state} aria-current={page.state === code ? "page" : undefined} prefetch={false}>{page.name}</Link>)}</div></nav>
   </main></>;

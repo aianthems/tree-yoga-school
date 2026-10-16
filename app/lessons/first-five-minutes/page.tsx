@@ -19,7 +19,7 @@ export default function FirstLesson() {
       <SiteHeader />
       <main id="content" className="lesson">
         <section className="lesson-intro">
-          <a className="lesson-back" href="/">← Tree Yoga School</a>
+          <a className="lesson-back" href="/"> Tree Yoga School</a>
           <p className="section-kicker">First lesson · Observation · About 5 minutes</p>
           <h1>Your first five minutes with a tree.</h1>
           <p className="lesson-lede">Begin by becoming acquainted with one living tree. There is nothing particular you need to feel or achieve.</p>
@@ -66,13 +66,13 @@ export default function FirstLesson() {
           <h2 id="sources">From the original book to a first practice.</h2>
           <p>This is a new introductory adaptation for the digital school, developed with AI assistance. It combines observation, accessible position choices, and a short practice period; the sequence and reflection question are new.</p>
           <ul>
-            <li><a href={`${book}#page=18`} target="_blank" rel="noreferrer">Chapter 3, “Who and How,” printed pp. 13–17 ↗</a>: practice pathways and choosing a tree.</li>
-            <li><a href={`${book}#page=33`} target="_blank" rel="noreferrer">Chapter 4, printed p. 28 ↗</a>: beginning with 5 or 10 minutes.</li>
-            <li><a href={`${book}#page=97`} target="_blank" rel="noreferrer">Chapter 5, “Chair Meditation,” printed p. 92 ↗</a>: seated practice, adapted here for comfortable natural breathing and usual supports.</li>
+            <li><a href={`${book}#page=18`} target="_blank" rel="noreferrer">Chapter 3, “Who and How,” printed pp. 13–17</a>: practice pathways and choosing a tree.</li>
+            <li><a href={`${book}#page=33`} target="_blank" rel="noreferrer">Chapter 4, printed p. 28</a>: beginning with 5 or 10 minutes.</li>
+            <li><a href={`${book}#page=97`} target="_blank" rel="noreferrer">Chapter 5, “Chair Meditation,” printed p. 92</a>: seated practice, adapted here for comfortable natural breathing and usual supports.</li>
           </ul>
           <p className="lesson-note">This observation lesson makes no medical or healing claims. Leave bark, roots, wildlife, and habitat undisturbed.</p>
           <BookConnections chapters={["who-and-how", "when-and-where"]} description="Read about choosing a tree and beginning with five or ten minutes, or watch Alex’s original lessons before your next visit." />
-          <div className="course-actions"><a className="button secondary" href="/begin-here">Explore the Begin Here course →</a><a className="button primary" href="/lessons/meditation-with-a-tree">Next: Meditation with a Tree →</a></div>
+          <div className="course-actions"><a className="button secondary" href="/begin-here">Explore the Begin Here course</a><a className="button primary" href="/lessons/meditation-with-a-tree">Next: Meditation with a Tree</a></div>
           <p className="book-source-note">Want to get to know a particular tree? <a href="/trees/pine">Meet Pine in the Tree Library.</a></p>
         </section>
       </main>

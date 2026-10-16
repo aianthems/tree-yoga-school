@@ -48,11 +48,11 @@ export default function Home() {
           <p className="home-hero-lede">Let the living world bring you back.</p>
           <p className="home-hero-description">Yoga, tree hugging, meditation, and wonder. Begin beside a tree. Discover a practice you can return to.</p>
           <div className="home-hero-actions">
-            <Link className="button" href="/begin-here">Begin with a tree <span aria-hidden="true">→</span></Link>
-            <a className="home-hero-book" href={bookUrl} target="_blank" rel="noreferrer">Read the original book ↗</a>
+            <Link className="button" href="/begin-here">Begin with a tree</Link>
+            <a className="home-hero-book" href={bookUrl} target="_blank" rel="noreferrer">Read the original book</a>
           </div>
         </div>
-        <div className="home-hero-footer"><p>Nature is the teacher.</p><a href="#welcome-video-title">Step into the school <span aria-hidden="true">↓</span></a></div>
+        <div className="home-hero-footer"><p>Nature is the teacher.</p><a href="#welcome-video-title">Step into the school</a></div>
       </section>
 
       <section className="home-video section-shell" aria-labelledby="welcome-video-title"><div className="home-video-inner"><p className="section-kicker">A welcome from Alex Julian</p><h2 id="welcome-video-title">Welcome to Tree Yoga School.</h2><p>Meet Alex in the trees, and begin with the original school.</p><VideoLesson youtubeId="e7HtBaV_n5s" title="Welcome to Tree Yoga School — Alex Julian" /></div></section>
@@ -66,13 +66,13 @@ export default function Home() {
             <p className="book-author-note">I created Tree Yoga School to bring yoga, meditation, and time among trees into one practice. This book is where the school begins. Read a chapter, watch its lesson, then take one idea outside.</p>
             <p className="book-byline">— Alex Julian</p>
             <p>Seven chapters, from your first encounter with Tree Yoga to a practice you can return to.</p>
-            <div className="course-actions"><Link className="button primary" href="/book">Explore the chapters</Link><a className="button secondary" href={bookUrl} target="_blank" rel="noreferrer">Read the book ↗</a></div>
+            <div className="course-actions"><Link className="button primary" href="/book">Explore the chapters</Link><a className="button secondary" href={bookUrl} target="_blank" rel="noreferrer">Read the book</a></div>
           </div>
         </div>
       </section>
 
       <section className="home-hug home-hug-photographic" aria-labelledby="home-hug-title">
-        <div className="home-hug-copy"><p className="section-kicker">Tree Hugging · A central practice</p><h2 id="home-hug-title">An embrace.<br /><em>A living connection.</em></h2><p>Slow down beside a tree. Rest your hands or arms gently against its trunk, or simply stay nearby. Explore a practice of presence, gratitude, and care.</p><Link className="button hug-button" href="/tree-hugging">Discover Tree Hugging →</Link><p className="home-hug-note">The practice · The benefits · The research</p></div><figure className="home-hug-photo"><ResponsiveImage image="hug" alt="Alex Julian embracing the broad trunk of a towering tree in a green landscape" width={2000} height={1175} sizes="(max-width: 760px) 100vw, 60vw" /><figcaption>Presence starts here.</figcaption></figure>
+        <div className="home-hug-copy"><p className="section-kicker">Tree Hugging · A central practice</p><h2 id="home-hug-title">An embrace.<br /><em>A living connection.</em></h2><p>Slow down beside a tree. Rest your hands or arms gently against its trunk, or simply stay nearby. Explore a practice of presence, gratitude, and care.</p><Link className="button hug-button" href="/tree-hugging">Discover Tree Hugging</Link><p className="home-hug-note">The practice · The benefits · The research</p></div><figure className="home-hug-photo"><ResponsiveImage image="hug" alt="Alex Julian embracing the broad trunk of a towering tree in a green landscape" width={2000} height={1175} sizes="(max-width: 760px) 100vw, 60vw" /><figcaption>Presence starts here.</figcaption></figure>
       </section>
 
       <section className="pathways section-shell" id="practice">
@@ -86,7 +86,7 @@ export default function Home() {
               <span>{pathway.number}</span>
               <h3>{pathway.title}</h3>
               <p>{pathway.text}</p>
-              <a className="course-link" href={pathway.href}>Explore this practice →<span className="sr-only"> {pathway.title}</span></a>
+              <a className="course-link" href={pathway.href}>Explore this practice<span className="sr-only"> {pathway.title}</span></a>
             </article>
           ))}
         </div>
@@ -119,7 +119,7 @@ export default function Home() {
               Five quiet minutes count. You do not need special equipment,
               advanced poses, or a particular feeling to begin.
             </p>
-            <a className="button light" href="/lessons/first-five-minutes">Your first five minutes →</a>
+            <a className="button light" href="/lessons/first-five-minutes">Your first five minutes</a>
           </div>
         </div>
       </section>

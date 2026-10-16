@@ -50,10 +50,10 @@ export default async function TreePage({ params }: { params: Promise<{ slug: str
           {tree.detailImages.length > 0 && <><h3>Look closer.</h3><p>Compare several features, and notice how age and season change their appearance. These photographs are starting points for observation; leave living leaves, needles, cones, and bark attached.</p><div className="tree-detail-grid">
             {tree.detailImages.map((detail) => <figure key={detail.image}><Image src={detail.image} alt={detail.imageAlt} width={detail.imageWidth} height={detail.imageHeight} sizes="(max-width: 760px) 100vw, 50vw" /><figcaption>{detail.credit.label} · {detail.credit.photographer} · <a href={detail.credit.licenseUrl} target="_blank" rel="noreferrer">{detail.credit.license}</a> · <a href={detail.credit.sourceUrl} target="_blank" rel="noreferrer">Source</a> · Converted to WebP</figcaption></figure>)}
           </div></>}
-          <div className="course-actions"><Link className="button secondary" href={championHref({ species: tree.scientificName })}>Explore champion {tree.species.toLowerCase()} trees →</Link></div>
+          <div className="course-actions"><Link className="button secondary" href={championHref({ species: tree.scientificName })}>Explore champion {tree.species.toLowerCase()} trees</Link></div>
           <TreeComparisonLinks treeSlug={tree.slug} />
           <h3>Return across the seasons.</h3><p className="section-lede">{tree.seasons}</p>
-          <p className="tree-season-book">Chapter 4 invites a practice of returning across seasons. <Link href="/book/when-and-where">Read When and Where →</Link> <Link href="/return-to-your-tree">Try the seasonal observation practice →</Link></p>
+          <p className="tree-season-book">Chapter 4 invites a practice of returning across seasons. <Link href="/book/when-and-where">Read When and Where</Link> <Link href="/return-to-your-tree">Try the seasonal observation practice</Link></p>
           <p className="lesson-note">Botanical reference: <a href={tree.sourceUrl} target="_blank" rel="noreferrer">{tree.sourceLabel ?? `NC State Extension’s ${tree.species.toLowerCase()} profile`}</a>. This is a starting point for observation, not a complete identification key.</p>
           {tree.additionalSources?.map(source => <p className="lesson-note" key={source.url}>Explore the habitat: <a href={source.url} target="_blank" rel="noreferrer">{source.label}</a>.</p>)}
         </section>
@@ -68,7 +68,7 @@ export default async function TreePage({ params }: { params: Promise<{ slug: str
           <p className="section-kicker">03 · Practice with this tree · About 5 minutes</p>
           <h2>{tree.practiceTitle}</h2>
           <p className="section-lede">{tree.practiceIntroduction}</p>
-          <Link className="button primary" href={`/practice/${tree.slug}`}>Open outdoor practice →</Link>
+          <Link className="button primary" href={`/practice/${tree.slug}`}>Open outdoor practice</Link>
           <ol className="lesson-steps">{tree.practice.map((step) => <li key={step.title}><h3>{step.title}</h3><p>{step.text}</p></li>)}</ol>
           <div className="tree-pause"><h3>Let the visit be enough.</h3><p>Spend about five minutes, or less if that suits you. Keep your device available when needed. No touching, collecting, controlled breathing, or tree-supported movement is required; leave the tree and its surroundings undisturbed.</p></div>
           <Link className="course-link" href="/lessons/meditation-with-a-tree">Continue with Meditation with a Tree</Link>

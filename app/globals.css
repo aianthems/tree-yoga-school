@@ -1097,7 +1097,6 @@ section[id] { scroll-margin-top: 90px; }
 .home-champions-shortcuts { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .75rem; font-size: 1rem; }
 .home-champions-shortcuts a { display: flex; justify-content: space-between; align-items: center; gap: .75rem; min-height: 64px; padding: 1rem 1.25rem; border: 1px solid #748a75; opacity: 1; transition: background 160ms ease, border-color 160ms ease; }
 .home-champions-shortcuts a:hover { background: #29493a; border-color: #edc580; }
-.home-champions-shortcuts a > span:last-child { color: #edc580; }
 .home-champions-directory { margin-top: 1.5rem; border-top: 1px solid #748a75; }
 .home-champions-directory summary { padding: 1.25rem 0; cursor: pointer; font-size: .95rem; min-height: 48px; }
 .home-champions-directory nav { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: .5rem 1.5rem; }
@@ -1443,7 +1442,6 @@ section[id] { scroll-margin-top: 90px; }
 .site-nav-links { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); align-content: start; gap: 8px 12px; list-style: none; margin: 0; padding: 0; }
 .site-header .site-nav-links a { display: flex; flex-direction: column; justify-content: center; gap: 8px; min-height: 88px; padding: 14px; opacity: 1; border-radius: 5px; }
 .site-nav-links a > span { display: flex; align-items: center; justify-content: space-between; gap: 12px; font-weight: 700; font-size: .88rem; }
-.site-nav-links i { font-style: normal; color: #7b8d71; }
 .site-nav-links small { font-size: .72rem; line-height: 1.5; color: #50665a; }
 .site-nav-links a:hover, .site-nav-links a[aria-current="page"] { background: #e8edde; }
 .site-menu-toggle { display: none; }

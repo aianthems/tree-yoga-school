@@ -43,8 +43,8 @@ export default function TreeVisitExplorer({ visits, states }: { visits: VisitPre
       <p className="visit-preview-place">{visit.place}</p>
       <p className="visit-preview-practice">A practice to bring: {visit.practiceTitle}</p>
       <p className="visit-preview-date">Visitor sources checked <time dateTime={visit.checked}>{visit.checked}</time></p>
-      <Link className="course-link" href={`/tree-visits/${visit.slug}`}>Plan this visit →<span className="sr-only"> {visit.name}</span></Link>
-      <Link className="course-link" href={visit.practiceHref}>Open the outdoor practice →<span className="sr-only"> for {visit.name}</span></Link>
+      <Link className="course-link" href={`/tree-visits/${visit.slug}`}>Plan this visit<span className="sr-only"> {visit.name}</span></Link>
+      <Link className="course-link" href={visit.practiceHref}>Open the outdoor practice<span className="sr-only"> for {visit.name}</span></Link>
     </article>)}</div> : <div className="visit-empty"><h3>No visits match this combination yet.</h3><p>Try another state, species, or visit type to find a starting point.</p><button className="button secondary" type="button" onClick={() => update(emptyVisitSelection)}>Show all visits</button></div>}
   </section>;
 }

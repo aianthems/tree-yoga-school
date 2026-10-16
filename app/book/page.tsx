@@ -18,8 +18,8 @@ export default function BookPage() {
         <p className="lesson-lede">The book at the roots of the school. Explore seven chapters that bring yoga, meditation, hiking, and the wisdom of trees into everyday life.</p>
         <p>Start with Chapter 1, or choose a topic below. Read the chapter companion, watch Alex’s available lessons beside remarkable trees, and take a practice outside.</p>
         <p className="book-availability">{bookChapters.length} chapters · {videoCount} original video lessons · Free book PDF</p>
-        <div className="course-actions"><Link className="button primary" href={`/book/${bookChapters[0].slug}`}>Start Chapter 1</Link><a className="button secondary" href={bookUrl} target="_blank" rel="noreferrer">Read the book ↗</a></div>
-        <a className="book-jump" href="#chapters">Explore all seven chapters ↓</a>
+        <div className="course-actions"><Link className="button primary" href={`/book/${bookChapters[0].slug}`}>Start Chapter 1</Link><a className="button secondary" href={bookUrl} target="_blank" rel="noreferrer">Read the book</a></div>
+        <a className="book-jump" href="#chapters">Explore all seven chapters</a>
       </div>
     </section>
     <section id="chapters" className="book-hub-chapters" aria-labelledby="chapters-title">
@@ -31,7 +31,7 @@ export default function BookPage() {
           <span className="chapter-number" aria-label={`Chapter ${Number(chapter.number)}`}>{chapter.number}</span>
           <div><h3><Link href={`/book/${chapter.slug}`}>{chapter.title}</Link></h3><p>{chapter.description}</p>
             <p className="book-chapter-availability">Printed p. {chapter.printedPage} · {videos.length ? `${videos.length} video lesson${videos.length > 1 ? "s" : ""}` : "Reading & practice"}</p>
-            <div className="book-chapter-actions"><Link href={`/book/${chapter.slug}`}>Explore chapter →</Link>{videos.length > 0 && <Link href={`/book/${chapter.slug}#chapter-video-title`}>Watch {videos.length > 1 ? "lessons" : "lesson"} →</Link>}<a href={`${bookUrl}#page=${chapter.pdfPage}`} target="_blank" rel="noreferrer">Read original chapter ↗</a></div>
+            <div className="book-chapter-actions"><Link href={`/book/${chapter.slug}`}>Explore chapter</Link>{videos.length > 0 && <Link href={`/book/${chapter.slug}#chapter-video-title`}>Watch {videos.length > 1 ? "lessons" : "lesson"}</Link>}<a href={`${bookUrl}#page=${chapter.pdfPage}`} target="_blank" rel="noreferrer">Read original chapter</a></div>
           </div>
         </article>;
       })}</div>
