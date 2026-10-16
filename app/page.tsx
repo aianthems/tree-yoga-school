@@ -55,7 +55,7 @@ export default function Home() {
         <div className="home-hero-footer"><p>Nature is the teacher.</p><a href="#welcome-video-title">Step into the school</a></div>
       </section>
 
-      <section className="home-video section-shell" aria-labelledby="welcome-video-title"><div className="home-video-inner"><p className="section-kicker">A welcome from Alex Julian</p><h2 id="welcome-video-title">Welcome to <span className="welcome-school-name">Tree Yoga School.</span></h2><p>Meet Alex in the trees, and begin with the original school.</p><VideoLesson youtubeId="e7HtBaV_n5s" title="Welcome to Tree Yoga School — Alex Julian" /></div></section>
+      <section className="home-video section-shell" aria-labelledby="welcome-video-title"><div className="home-video-inner"><p className="section-kicker">A welcome from Alex Julian</p><h2 id="welcome-video-title">Welcome to <span className="welcome-school-name">Tree Yoga School.</span></h2><VideoLesson youtubeId="e7HtBaV_n5s" title="Welcome to Tree Yoga School — Alex Julian" /></div></section>
 
       <section className="home-book section-shell" aria-labelledby="home-book-title">
         <div className="book-feature">
