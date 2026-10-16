@@ -12,6 +12,7 @@ import { bookPoses, poseDescription, poseHref } from "./book-poses";
 export const siteOrigin = "https://treeyogaschool.com";
 export const siteDescription = "Rooted in nature. Practiced in the real world. A living school for tree hugging, yoga, meditation, and learning with trees.";
 export const discoveryPages = [
+  ...introLessons.map(lesson => ({ path: `/practice/${lesson.slug}`, title: `${lesson.title}: Outdoor Practice`, description: `Take ${lesson.title.toLowerCase()} outside with the lesson’s steps, preparation, and a return to your reflection.` })),
   ...bookPoses.map(pose => ({ path: poseHref(pose), title: pose.title, description: poseDescription(pose) })),
   { path: "/", title: "Tree Yoga School", description: siteDescription },
   { path: "/tree-hugging", title: "Tree Hugging: Practice & Benefits", description: "A gentle tree-hugging meditation, research on nature and wellbeing, and an invitation to care for trees." },

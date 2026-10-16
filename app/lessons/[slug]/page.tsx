@@ -1,3 +1,4 @@
+import OutdoorPracticeLink from "../../components/outdoor-practice-link";
 import BookConnections from "../../components/book-connections";
 import { pageMetadata } from "../../../lib/site-seo";
 import type { Metadata } from "next";
@@ -33,6 +34,7 @@ export default async function LessonPage({ params }: { params: Promise<{ slug: s
           <h1>{lesson.title}</h1>
           <p className="lesson-lede">{lesson.purpose}</p>
           <p className="lesson-note">An introductory adaptation from the original Tree Yoga School book.</p>
+          <OutdoorPracticeLink slug={slug} />
         </section>
         <section className="lesson-section" aria-labelledby="prepare">
           <p className="section-kicker">Preparation</p><h2 id="prepare">Choose your way to practice.</h2>

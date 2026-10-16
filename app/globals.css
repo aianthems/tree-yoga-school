@@ -1614,3 +1614,10 @@ body::before {
   .course-tree, .tree-roots, .champion-intro, .champion-state-hero,
   .champion-state-directory, .champion-sources { background-image: none; }
 }
+
+.lesson-outdoor-invitation { margin-top: 2rem; padding: clamp(1.25rem, 3vw, 2rem); border: 1px solid var(--line); border-left: 3px solid var(--moss); background: var(--cream); }
+.lesson-outdoor-invitation > p:not(.section-kicker) { max-width: 58ch; margin: .75rem 0 1.25rem; }
+.lesson-outdoor-invitation .button { white-space: normal; text-align: center; }
+.outdoor-options { margin-top: 1.5rem; display: grid; gap: 1.25rem; }
+.outdoor-options h3 { margin-bottom: .5rem; }
+@media print { .lesson-outdoor-invitation { display: none; } }

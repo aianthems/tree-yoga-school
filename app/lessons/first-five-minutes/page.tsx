@@ -1,6 +1,6 @@
+import OutdoorPracticeLink from "../../components/outdoor-practice-link";
 import BookConnections from "../../components/book-connections";
 import { pageMetadata } from "../../../lib/site-seo";
-import Link from "next/link";
 import { firstPractice } from "../../../lib/first-practice";
 import type { Metadata } from "next";
 import SiteHeader from "../../components/site-header";
@@ -28,6 +28,7 @@ export default function FirstLesson() {
             <p>Welcome to Tree Yoga School. Start small. Give one tree a little of your attention, and let this first visit be enough. You can begin exactly where you are.</p>
           </div>
           <p className="lesson-note">This welcome and lesson were prepared for the renewed digital school. They adapt themes from Alex’s original book; they are not quotations.</p>
+          <OutdoorPracticeLink slug="first-five-minutes" />
         </section>
 
         <section className="lesson-section" aria-labelledby="choose">
@@ -44,7 +45,6 @@ export default function FirstLesson() {
         <section className="lesson-section" aria-labelledby="notice">
           <p className="section-kicker">02 · Read once, then practice</p>
           <h2 id="notice">Let your attention arrive.</h2>
-          <Link className="button primary" href="/practice/first-five-minutes">Open outdoor practice →</Link>
           <ol className="lesson-steps">{firstPractice.steps.map(step => <li key={step.title}><h3>{step.title}</h3><p>{step.text}</p></li>)}</ol>
           <p>Let the visit last about 5 minutes, or less if that suits you today. Precise timing is unnecessary. Change position or finish whenever you need to.</p>
         </section>
