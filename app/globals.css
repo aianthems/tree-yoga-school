@@ -1633,3 +1633,7 @@ body::before {
 .journey-progress-panel button:disabled { opacity: .55; cursor: default; }
 .journey-progress-panel :focus-visible { outline: 3px solid var(--moss); outline-offset: 4px; }
 @media print { .journey-progress-panel { display: none; } }
+
+@media (max-width: 760px) {
+  #welcome-video-title .welcome-school-name { display: block; }
+}
