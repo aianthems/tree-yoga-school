@@ -1516,24 +1516,6 @@ section[id] { scroll-margin-top: 90px; }
   .hug-photo-kicker { top: 20px; font-size: .55rem; }
 }
 
-/* Four quiet arrivals, then stillness. Decorative and never interactive. */
-.falling-leaves { position: fixed; inset: 0; z-index: 20; pointer-events: none; overflow: hidden; }
-.falling-leaf { position: absolute; top: -48px; width: var(--leaf-size); color: var(--leaf-color); opacity: 0; animation: leaf-drift var(--leaf-duration) linear var(--leaf-delay) 1 both; }
-.falling-leaf-left { left: 1.8%; }
-.falling-leaf-right { right: 1.8%; }
-.falling-leaf svg { display: block; width: 100%; height: auto; }
-@keyframes leaf-drift {
-  0% { transform: translate3d(0, 0, 0) rotate(-25deg); opacity: 0; }
-  8% { opacity: .48; }
-  28% { transform: translate3d(12px, 28svh, 0) rotate(40deg); }
-  52% { transform: translate3d(-10px, 52svh, 0) rotate(-15deg); opacity: .4; }
-  76% { transform: translate3d(9px, 76svh, 0) rotate(95deg); opacity: .35; }
-  100% { transform: translate3d(-4px, calc(100svh + 64px), 0) rotate(155deg); opacity: 0; }
-}
-@media (max-width: 760px) { .falling-leaf:nth-child(n + 3) { display: none; } .falling-leaf { width: 13px; } }
-@media (prefers-reduced-motion: reduce) { .falling-leaves { display: none; } .falling-leaf { animation: none; } }
-@media print { .falling-leaves { display: none; } }
-
 /* The original pose reference: direct, readable links with no client bundle. */
 .pose-directory { border-top: 1px solid #d4dcd0; }
 .pose-alphabet { display: flex; flex-wrap: wrap; gap: 8px; margin: 24px 0 36px; }
