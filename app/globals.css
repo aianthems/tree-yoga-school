@@ -1620,14 +1620,15 @@ body::before {
   .champion-state-directory, .champion-sources { background-image: none; }
 }
 
-.lesson-outdoor-invitation { margin-top: 2rem; padding: clamp(1.25rem, 3vw, 2rem); border: 1px solid var(--line); border-left: 3px solid var(--moss); background: var(--cream); }
+/* Shared cream callouts keep the same padding, border, and reading width. */
+.lesson-outdoor-invitation, .journey-progress-panel { margin-top: 2rem; padding: clamp(1.25rem, 3vw, 2rem); border: 1px solid var(--line); border-left: 3px solid var(--moss); background: var(--cream); }
 .lesson-outdoor-invitation > p:not(.section-kicker) { max-width: 58ch; margin: .75rem 0 1.25rem; }
 .lesson-outdoor-invitation .button { white-space: normal; text-align: center; }
 .outdoor-options { margin-top: 1.5rem; display: grid; gap: 1.25rem; }
 .outdoor-options h3 { margin-bottom: .5rem; }
 @media print { .lesson-outdoor-invitation { display: none; } }
 
-.journey-progress-panel { margin-top: 2rem; padding: clamp(1.25rem,3vw,2rem); background: var(--cream); border: 1px solid var(--line); border-left: 3px solid var(--moss); }
+
 .journey-progress-panel h2 { font-size: clamp(1.155rem,2.1vw,1.61rem); margin-top: .75rem; }
 .journey-progress-panel progress { display: block; width: 100%; height: .75rem; accent-color: var(--ink); margin: 1.25rem 0; }
 .journey-progress-days { padding: 0; list-style: none; display: grid; gap: .5rem; }
@@ -1658,10 +1659,11 @@ body::before {
 .lesson-photo-credit { display: block; margin-top: .5rem; font-size: .8rem; color: var(--ink-soft); }
 .lesson-photo-credit a { text-decoration: underline; text-underline-offset: 3px; }
 .lesson-position-illustration { display: block; width: 100%; height: auto; padding: 1rem; color: var(--ink); background: var(--cream); }
-.original-video-choice { display: flex; flex-wrap: wrap; align-items: center; gap: 1rem; padding: 1.5rem; border: 1px solid var(--line); background: var(--cream); margin: 1.5rem 0; }
+.original-video-choice, .lesson-provenance { padding: 1.5rem; border: 1px solid var(--line); background: var(--cream); margin: 1.5rem 0; }
+.original-video-choice { display: flex; flex-wrap: wrap; align-items: center; gap: 1rem; }
 .original-video-choice p { flex-basis: 100%; margin: 0; }
 .original-video-choice button { font: inherit; white-space: normal; cursor: pointer; }
-.lesson-provenance { display: grid; gap: 1rem; padding: 1.5rem; margin: 1.5rem 0; border: 1px solid var(--line); background: var(--cream); }
+.lesson-provenance { display: grid; gap: 1rem; }
 .lesson-provenance dt { font-weight: 700; margin-bottom: .5rem; }
 .lesson-provenance dd { margin: 0; line-height: 1.75; }
 .flagship-navigation a:focus-visible, .original-video-choice button:focus-visible { outline: 3px solid var(--moss); outline-offset: 4px; }

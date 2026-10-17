@@ -1,0 +1,202 @@
+{
+  "AK": {
+    "records": 1,
+    "sha256": "7fba3e721cc80d83d2c0f1e4390e47bb2fd147777343c3420623d1da97033447"
+  },
+  "HI": {
+    "records": 11,
+    "sha256": "b7747b0d3a306c8d63fac1c840cfff79f7cb9e17818e035c402aa045424365fd"
+  },
+  "WY": {
+    "records": 57,
+    "sha256": "ae4fdc9aa7d51f1db46db9c60788e62cb1735488f6a4bbbf4364834485decc18"
+  },
+  "UT": {
+    "records": 248,
+    "sha256": "9b21ab6113544ecc33eac0b6511db664426fd279236e5e5ea65097ef98e5b371"
+  },
+  "ND": {
+    "records": 87,
+    "sha256": "fe64b2ee4ce2a3e9f52be41ab94f77e4317cc883ecb3d748cc5572337f0a997a"
+  },
+  "MS": {
+    "records": 1,
+    "sha256": "3482a10817628b204fd20c7551fa6c43a040e978cfb9f9f1853077568871b76d"
+  },
+  "CA": {
+    "records": 264,
+    "sha256": "275acb4df643dba4ae65465b185aa62798277dc1bd005882faa6098a59e40fea"
+  },
+  "AZ": {
+    "records": 139,
+    "sha256": "fe9e62e73892cafb223e98c55c885a49d53455abb2133de7b8136fb1a92023c5"
+  },
+  "SD": {
+    "records": 60,
+    "sha256": "a56a6cf4e9b0cc57676e9f00ee3ce727d04abb95f02905392490bb861f847543"
+  },
+  "NV": {
+    "records": 223,
+    "sha256": "8735c66520ff4e44bb5e14b32bbd1795b119a63ebde4396e81cbf6080c9e19b9"
+  },
+  "ID": {
+    "records": 121,
+    "sha256": "0e6a794800047ee334c69ffe1098ce81671f449cde892fe87800344458ec545c"
+  },
+  "WA": {
+    "records": 279,
+    "sha256": "80cd839806772293200a8ef5cfa1ec639edb6d55aea4ac9ddbb6c36fa53fc57c"
+  },
+  "OR": {
+    "records": 132,
+    "sha256": "bbb17fec41aedf890cf050b3d23b3394f2ddf24bcec3fe13873731277291794e"
+  },
+  "NM": {
+    "records": 37,
+    "sha256": "a5af552ac7077883d800f42501637a1235a56eace5370c864335ecf2c17c4c67"
+  },
+  "MT": {
+    "records": 174,
+    "sha256": "14226a9adb6389d56c9c0453d2c9246cb926b2a346a467fac850cc98f46c5ef0"
+  },
+  "OK": {
+    "records": 79,
+    "sha256": "ce87c9ce804e02d378b3d81ec3b2ec62a93672fd309a57544fc01ec095200c0b"
+  },
+  "LA": {
+    "records": 115,
+    "sha256": "edd3d33416b6bdd95815e1474dacb10369c80e63d2abd1e2b2db55eeafca8911"
+  },
+  "CO": {
+    "records": 846,
+    "sha256": "1f51d955b2fc6141a91521288a5a8fdb0e8fee20530e2c6f9782779aba0e6b42"
+  },
+  "TX": {
+    "records": 232,
+    "sha256": "cc93dc64f6b73b86a01ef424b35078fb1c66880be5a758ca52259bd1e630dfdb"
+  },
+  "NE": {
+    "records": 90,
+    "sha256": "7df511ba882e8d52295800c2e76e185605720fbcefb9f5bb0d0eb81a16aac34d"
+  },
+  "KS": {
+    "records": 148,
+    "sha256": "9b8f4b11e464b0526f4ba40f00ef6438d488592943ae35f07dd8e1e23b77ae2c"
+  },
+  "AR": {
+    "records": 125,
+    "sha256": "f7396774bd37d7e0653c714c9734f924aab89e0cf6caf7093993f87abcae0101"
+  },
+  "MO": {
+    "records": 151,
+    "sha256": "52e16541d59b1d537d803539bd9b6b6e9465a0429b6195e794d6c7070e0d6372"
+  },
+  "IA": {
+    "records": 67,
+    "sha256": "651e5c651c749011c63586c5a53e3f7f84440297edcfb2017a824c81bb905b01"
+  },
+  "MN": {
+    "records": 62,
+    "sha256": "8a4b073390a20b1dc8fd1257650c0ca1abb87cd1424f5b3f1c74ebfa644293e6"
+  },
+  "WI": {
+    "records": 57,
+    "sha256": "2532096f5c57c4206d33358aa2a9c3e38586fedbf7cae674a855e015d8861b60"
+  },
+  "OH": {
+    "records": 253,
+    "sha256": "0d2929b7360439e1b0523a6ffed2861f2cd990501313ee44d83cb7d7987e3337"
+  },
+  "MI": {
+    "records": 122,
+    "sha256": "4a76457d012d518135478601641ba31bf4b99107f0583db7373cdc909394f631"
+  },
+  "IL": {
+    "records": 124,
+    "sha256": "e3dfa4ae2f7c679f5bb40b5379d040a037122726157558aa7ba24bead24b3505"
+  },
+  "MA": {
+    "records": 139,
+    "sha256": "28361f9e4afb5c08597d2e8a6665e69c24b6cc5cce1aa3de3fa05a41a37080ca"
+  },
+  "NH": {
+    "records": 93,
+    "sha256": "ff166f00c1450877aca0633d9e874ba5d7a8f94fe5564bd879b743d1f2a0c46f"
+  },
+  "VT": {
+    "records": 91,
+    "sha256": "a7553ca1133cd4dae28b1e342ba11f6a46025467e3aa3480d9d776c10be61d83"
+  },
+  "ME": {
+    "records": 146,
+    "sha256": "e52239cb3b60d6913c512192034bc0c085ea5bd84b3a2ae4206b31771a15c66a"
+  },
+  "RI": {
+    "records": 155,
+    "sha256": "ed93607e0ce553123bd6df600852c577d49fac924ca7a13415faf15014601e0c"
+  },
+  "CT": {
+    "records": 504,
+    "sha256": "3b2aa46d6a7b15474fe7cdf4ecd0188bc8d74819caaf73ed546b9d0398e18a37"
+  },
+  "NY": {
+    "records": 210,
+    "sha256": "8a6ccf5715547cfd0e9623180299ae3ae25fd87e8839a1c6b186eacc74d55bdc"
+  },
+  "NJ": {
+    "records": 206,
+    "sha256": "08bb971f16d19aedea49e5225398271c763130ec5d9705281109163a29af7c75"
+  },
+  "PA": {
+    "records": 445,
+    "sha256": "5d2a3a0ccf196f866fffa8d555b868c9ed89b3524204ccd7723dc13823692cc2"
+  },
+  "DE": {
+    "records": 91,
+    "sha256": "afd84aa2d9ffa0512a97309c372470a72a36248d9b69ce8d56b1dce94654b186"
+  },
+  "MD": {
+    "records": 274,
+    "sha256": "9c5a746304cf9300cbc2217f64f4e369aa0660bf1c3839a3b0e6ed17cd5bf603"
+  },
+  "VA": {
+    "records": 369,
+    "sha256": "5650cd5f8d7cc17d6fef09ebe0eb3451640b771f0179a7d2023587c68accdacc"
+  },
+  "WV": {
+    "records": 159,
+    "sha256": "eba3f97d9bc98ba65ed88a9c19a264f2075fb50b4076862549bd47d0d873b4fe"
+  },
+  "NC": {
+    "records": 346,
+    "sha256": "98d8e0fa4e64d1819c76ffb14ef1d5ab89d0f2b3f9bd7436bb9170fb3b591540"
+  },
+  "SC": {
+    "records": 196,
+    "sha256": "205ba6a7b8197096b501af83c246773adf03acf26cbe64b94129bcda6a81199c"
+  },
+  "TN": {
+    "records": 183,
+    "sha256": "ba8b361605f4d7650ccc16ddb78432827d0e6dcc81291043375c2db7d06aee55"
+  },
+  "GA": {
+    "records": 403,
+    "sha256": "c4ae05c94c50fa2faf9b77ab5699f7fed560aa699f9b841bcbf23f3d4e2a2dbd"
+  },
+  "KY": {
+    "records": 107,
+    "sha256": "f110e08cde5cea2ed29bf1e326b880bb50f1c1e4716d95e221742947bab77df8"
+  },
+  "IN": {
+    "records": 93,
+    "sha256": "f08de69b228daddebcff2f38f6385ddf3e33939a8142ff3539231d58ca03b5a9"
+  },
+  "AL": {
+    "records": 145,
+    "sha256": "a6b076eb2dadb714bf81e553a0a70f11f77c6fe4c99add6f8fdc4aab735be3cd"
+  },
+  "FL": {
+    "records": 311,
+    "sha256": "3034bff9879f3a86af718bee612460be46ac6e33af544d73b640afb9d436ef5d"
+  }
+}

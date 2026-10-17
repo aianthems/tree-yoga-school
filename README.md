@@ -716,3 +716,12 @@ Two actual Gifford Woods photographs by Victoria Stauffenberg / National Park Se
 ### Source review maintenance
 
 The [source review process](docs/champion-source-review.md) covers all 50 state registers with an editable review tracker, older/limited coverage priorities, actual completed-review outcomes and explicit next targets. Run `npm run review:sources` for an offline batch of up to five due states. The public tracker at `/champion-trees/source-review` distinguishes snapshot evidence from source editions, tree measurement dates and planned maintenance. Existing email corrections remain the contribution channel. No scheduled scraping or GitHub Actions workflow is added.
+
+## Shared presentation and automated checks
+
+Use Node.js 24 (`nvm use` reads `.nvmrc`), then `npm ci`, `npm test`, and `npm run build`.
+The **Quality / Tests and production build** GitHub Actions job runs these commands on pull requests and pushes to `main`; it can also be started manually. The build already includes coverage freshness and champion-import validation. Actions are pinned to commit SHAs, use read-only repository permissions, and do not need deployment secrets. Vercel's existing Git integration continues to handle deployments.
+
+Champion card labels, common measurement/date semantics, location headings, location guidance and result summaries live in `lib/champion-presentation.ts`. Register/import metadata remains in `lib/champion-states.ts`. State-specific source citations and specialized detail markup remain in the explorer. Presentation regression fixtures were captured from the previous renderer at `c5623fa` and protect all 8,971 records across 50 states; review wording/source changes before updating those fixtures. Common cream callout styling is grouped in `app/globals.css`.
+
+The workflow reports checks; requiring them before merge is a separate branch-protection setting. It does not by itself block direct pushes or Vercel production deployments.

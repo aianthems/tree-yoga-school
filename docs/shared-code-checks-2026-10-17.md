@@ -1,0 +1,8 @@
+# Shared code and quality checks — October 17, 2026
+
+- Extracted state-specific result summaries, location headings/guidance, measurement-unit selectors and date labels into `lib/champion-presentation.ts`. All wording and data remain as before; specialized source citations and detail markup remain explicit in the explorer.
+- Independently compared rendered result summaries and location copy with the previous JSX renderer at c5623fa for every one of 8,971 records in all 50 states. Per-state regression digests preserve that reviewed output. Tests also explicitly check important unit, date, access and unmapped-place exceptions.
+- Consolidated identical lesson/progress cream callout styling and original-video/provenance surface styling using grouped selectors. No layout, heading-size or bark-opacity changes.
+- Added `.github/workflows/quality.yml`: pull requests, main pushes and manual runs use Node 24, locked installation, regression tests and a production build (including existing coverage and import validation). Read-only permissions, no retained checkout credentials, SHA-pinned actions, npm download caching, cancellation of superseded runs and a 15-minute limit. No deployment token or new deployment pipeline.
+- `.nvmrc` documents the same Node major for local work. Existing historical source-review notes about no scheduled scraping remain accurate; the new workflow only checks the checked-out source.
+- This change does not alter branch protection or claim checks are mandatory merge gates. The workflow reports results while the existing Vercel Git integration continues deployment.
