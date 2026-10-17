@@ -1,5 +1,12 @@
 # Champion map initial loading
 
+## October 17, 2026: focused delivery review
+
+See [the current mobile delivery pass](mobile-performance-2026-10-17.md) for
+responsive bark assets, cache checks, selected-state loading verification, and
+the outstanding physical-phone measurement.
+
+
 ## October 12, 2026: 50-state measurements
 
 Six fresh throttled-browser runs now cover all 50 states and 8,971 records.

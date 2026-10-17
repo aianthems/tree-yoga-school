@@ -1,0 +1,30 @@
+{
+  "sourceUrl": "https://media.treeyogaschool.com/images/backgrounds/bark/vertical-tree-bark-background-2.webp",
+  "sourceSha256": "378ef30b86374d4466f2a7952831711e894180fb62b9fb909842c4a6a47512bc",
+  "sourceBytes": 1073488,
+  "width": 1536,
+  "height": 2048,
+  "mobileMaxWidth": 760,
+  "variants": [
+    {
+      "name": "mobile",
+      "src": "/images/responsive/tree-bark-800-409192ba8970.webp",
+      "width": 800,
+      "height": 1067,
+      "bytes": 102566,
+      "sha256": "409192ba8970a0778a2a38855694fe3376c31384e798a623749f3dea2e3d80ee",
+      "blur": 1.2,
+      "quality": 50
+    },
+    {
+      "name": "desktop",
+      "src": "/images/responsive/tree-bark-1280-0dd71a3896a7.webp",
+      "width": 1280,
+      "height": 1707,
+      "bytes": 250334,
+      "sha256": "0dd71a3896a75b9e565e161657bf2bae01fdf3bd4345ceda8f0c1ef3a004bcaa",
+      "blur": 1.5,
+      "quality": 55
+    }
+  ]
+}

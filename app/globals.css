@@ -1584,7 +1584,7 @@ section[id] { scroll-margin-top: 90px; }
 
 /* Full-width bark surface: kept outside constrained reading containers. */
 body {
-  --bark-image: url("https://media.treeyogaschool.com/images/backgrounds/bark/vertical-tree-bark-background-2.webp");
+  --bark-image: url("/images/responsive/tree-bark-1280-0dd71a3896a7.webp");
   --bark-wash: .95;
   isolation: isolate;
 }
@@ -1644,3 +1644,6 @@ body::before {
 @media (max-width: 760px) {
   #welcome-video-title .welcome-school-name { display: block; }
 }
+
+/* The faint background needs fewer pixels on narrow screens. */
+@media (max-width: 760px) { body { --bark-image: url("/images/responsive/tree-bark-800-409192ba8970.webp"); } }
