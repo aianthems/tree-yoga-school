@@ -1647,3 +1647,22 @@ body::before {
 
 /* The faint background needs fewer pixels on narrow screens. */
 @media (max-width: 760px) { body { --bark-image: url("/images/responsive/tree-bark-800-409192ba8970.webp"); } }
+
+.flagship-navigation { display: flex; flex-wrap: wrap; gap: .5rem; margin: 1.5rem 0; }
+.flagship-navigation a { display: inline-flex; align-items: center; min-height: 44px; padding: .6rem 1rem; border: 1px solid var(--line); text-decoration: underline; text-underline-offset: 4px; font-size: .95rem; }
+.flagship-navigation a:hover { background: var(--cream); }
+.lesson :is(#choose, #prepare, #notice, #practice, #original-teaching, #reflect, #reflection) { scroll-margin-top: 7rem; }
+.lesson-instruction-visual { margin: 2rem 0; }
+.lesson-instruction-visual img { display: block; max-width: 100%; width: auto; height: auto; max-height: 460px; margin: 0 auto; }
+.lesson-instruction-visual figcaption { margin-top: 1rem; line-height: 1.65; font-size: .95rem; }
+.lesson-photo-credit { display: block; margin-top: .5rem; font-size: .8rem; color: var(--ink-soft); }
+.lesson-photo-credit a { text-decoration: underline; text-underline-offset: 3px; }
+.lesson-position-illustration { display: block; width: 100%; height: auto; padding: 1rem; color: var(--ink); background: var(--cream); }
+.original-video-choice { display: flex; flex-wrap: wrap; align-items: center; gap: 1rem; padding: 1.5rem; border: 1px solid var(--line); background: var(--cream); margin: 1.5rem 0; }
+.original-video-choice p { flex-basis: 100%; margin: 0; }
+.original-video-choice button { font: inherit; white-space: normal; cursor: pointer; }
+.lesson-provenance { display: grid; gap: 1rem; padding: 1.5rem; margin: 1.5rem 0; border: 1px solid var(--line); background: var(--cream); }
+.lesson-provenance dt { font-weight: 700; margin-bottom: .5rem; }
+.lesson-provenance dd { margin: 0; line-height: 1.75; }
+.flagship-navigation a:focus-visible, .original-video-choice button:focus-visible { outline: 3px solid var(--moss); outline-offset: 4px; }
+@media print { .flagship-navigation, .original-video-choice { display: none; } }

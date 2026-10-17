@@ -1,3 +1,4 @@
+import { LessonNavigation, LessonVisual, LessonOriginalTeaching, LessonProvenance } from "../../components/flagship-lesson";
 import OutdoorPracticeLink from "../../components/outdoor-practice-link";
 import BookConnections from "../../components/book-connections";
 import { pageMetadata } from "../../../lib/site-seo";
@@ -28,6 +29,7 @@ export default function FirstLesson() {
             <p>Welcome to Tree Yoga School. Start small. Give one tree a little of your attention, and let this first visit be enough. You can begin exactly where you are.</p>
           </div>
           <p className="lesson-note">This welcome and lesson were prepared for the renewed digital school. They adapt themes from Alex’s original book; they are not quotations.</p>
+          <LessonNavigation slug="first-five-minutes" />
           <OutdoorPracticeLink slug="first-five-minutes" />
         </section>
 
@@ -45,10 +47,12 @@ export default function FirstLesson() {
         <section className="lesson-section" aria-labelledby="notice">
           <p className="section-kicker">02 · Read once, then practice</p>
           <h2 id="notice">Let your attention arrive.</h2>
+          <LessonVisual slug="first-five-minutes" />
           <ol className="lesson-steps">{firstPractice.steps.map(step => <li key={step.title}><h3>{step.title}</h3><p>{step.text}</p></li>)}</ol>
           <p>Let the visit last about 5 minutes, or less if that suits you today. Precise timing is unnecessary. Change position or finish whenever you need to.</p>
         </section>
 
+        <LessonOriginalTeaching slug="first-five-minutes" />
         <section className="lesson-pause" aria-labelledby="pause">
           <p className="section-kicker">03 · Your practice begins here</p>
           <h2 id="pause">Put the screen away.<br />Spend a few minutes with the tree.</h2>
@@ -65,6 +69,7 @@ export default function FirstLesson() {
           <p className="section-kicker">Roots of this lesson</p>
           <h2 id="sources">From the original book to a first practice.</h2>
           <p>This is a new introductory adaptation for the digital school, developed with AI assistance. It combines observation, accessible position choices, and a short practice period; the sequence and reflection question are new.</p>
+          <LessonProvenance slug="first-five-minutes" />
           <ul>
             <li><a href={`${book}#page=18`} target="_blank" rel="noreferrer">Chapter 3, “Who and How,” printed pp. 13–17</a>: practice pathways and choosing a tree.</li>
             <li><a href={`${book}#page=33`} target="_blank" rel="noreferrer">Chapter 4, printed p. 28</a>: beginning with 5 or 10 minutes.</li>
