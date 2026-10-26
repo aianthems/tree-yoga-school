@@ -2,7 +2,7 @@ import type { Tree } from "./trees";
 
 type RelatedTree = Pick<Tree, "slug" | "name" | "scientificName" | "themes">;
 
-const pineFamilyGenera = new Set(["Pinus", "Picea", "Tsuga", "Larix"]);
+const pineFamilyGenera = new Set(["Pinus", "Picea", "Tsuga", "Larix", "Abies", "Pseudotsuga"]);
 
 // Botanical relatives first, then shared contemplative themes. Never suggest
 // an unrelated tree merely to fill a slot, and never mutate the source list.

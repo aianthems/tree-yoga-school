@@ -42,6 +42,12 @@ export const vtChampionSource = championStates.VT.source;
 export const nhChampionSource = championStates.NH.source;
 export const championSource = championStates.MA.source;
 export const librarySpecies: Record<string, { slug: string; name: string }> = {
+  "Sequoia sempervirens": { slug: "coast-redwood", name: "Coast Redwood" },
+  "Pseudotsuga menziesii": { slug: "douglas-fir", name: "Douglas-fir" },
+  "Thuja plicata": { slug: "western-redcedar", name: "Western Redcedar" },
+  "Pinus ponderosa": { slug: "ponderosa-pine", name: "Ponderosa Pine" },
+  "Arbutus menziesii": { slug: "pacific-madrone", name: "Pacific Madrone" },
+
   "Quercus virginiana": { slug: "southern-live-oak", name: "Southern Live Oak" },
   "Sequoiadendron giganteum": { slug: "giant-sequoia", name: "Giant Sequoia" },
   "Cladrastis kentukea": { slug: "american-yellowwood", name: "American Yellowwood" },

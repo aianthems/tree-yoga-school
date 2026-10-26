@@ -10,7 +10,7 @@ const {discoveryPages}=require('../lib/site-seo.ts');
 const photos=require('./fixtures/tree-library-visit-connections-photo-sources.json');
 const result=patch=>discoverLibraryTrees(trees,{...emptyLibrarySelection,...patch}).map(t=>t.slug);
 test('four additions complete matching species, visit and outdoor practice routes in both directions',()=>{
- assert.equal(trees.length,79);assert.equal(additions.length,4);
+ assert.equal(trees.length,84);assert.equal(additions.length,4);
  for(const tree of additions){
   assert.equal(libraryTreeForSpecies(tree.scientificName.toUpperCase()).slug,tree.slug);
   assert.equal(tree.identity.length,3);assert.equal(tree.energies.length,3);assert.equal(tree.practice.length,4);assert.ok(tree.detailImages.length);

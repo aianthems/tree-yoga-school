@@ -1,0 +1,240 @@
+[
+  {
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/US_199_Redwood_Highway.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "image": "/images/trees/coast-redwood.webp",
+    "imageAlt": "Coast redwood trunks and evergreen crowns in a northern California grove",
+    "credit": {
+      "photographer": "Acroterion",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:US_199_Redwood_Highway.jpg",
+      "label": "Coast redwood grove"
+    },
+    "imageWidth": 801,
+    "imageHeight": 1200
+  },
+  {
+    "originalUrl": "https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/Sequoia-sempervirens--Forest-and-Kim-Starr--cc-by-2-0.jpg",
+    "image": "/images/trees/coast-redwood-needles.webp",
+    "imageAlt": "Flat green needles on a coast redwood shoot",
+    "credit": {
+      "photographer": "Forest and Kim Starr",
+      "license": "CC BY 2.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by/2.0/legalcode",
+      "sourceUrl": "https://plants.ces.ncsu.edu/plants/sequoia-sempervirens/",
+      "label": "Needles"
+    },
+    "imageWidth": 600,
+    "imageHeight": 450
+  },
+  {
+    "originalUrl": "https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/Sequoia_sempervirens_1La523JnrmaP.jpeg",
+    "image": "/images/trees/coast-redwood-cones.webp",
+    "imageAlt": "Woody coast redwood cone and seeds",
+    "credit": {
+      "photographer": "Roger Culos",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+      "sourceUrl": "https://plants.ces.ncsu.edu/plants/sequoia-sempervirens/",
+      "label": "Cone and seeds"
+    },
+    "imageWidth": 1024,
+    "imageHeight": 768
+  },
+  {
+    "originalUrl": "https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/Pseudotsuga_menziesi_hfKsqJgUvxvp.jpeg",
+    "image": "/images/trees/douglas-fir.webp",
+    "imageAlt": "Douglas-fir trees growing in their native habitat",
+    "credit": {
+      "photographer": "Walter Siegmund",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+      "sourceUrl": "https://plants.ces.ncsu.edu/plants/pseudotsuga-menziesii/",
+      "label": "Tree form in native habitat"
+    },
+    "imageWidth": 768,
+    "imageHeight": 1024
+  },
+  {
+    "originalUrl": "https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/Pseudotsuga_menziesi_WfHEJ754tmwD.jpeg",
+    "image": "/images/trees/douglas-fir-needles.webp",
+    "imageAlt": "Douglas-fir needles arranged along a twig",
+    "credit": {
+      "photographer": "David J. Stang",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/4.0/legalcode",
+      "sourceUrl": "https://plants.ces.ncsu.edu/plants/pseudotsuga-menziesii/",
+      "label": "Needles and twig"
+    },
+    "imageWidth": 1000,
+    "imageHeight": 667
+  },
+  {
+    "originalUrl": "https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/pseudotsuga_menziesi_QklvBwTtij4d.jpeg",
+    "image": "/images/trees/douglas-fir-cone.webp",
+    "imageAlt": "Douglas-fir seed cone with projecting three-pointed bracts",
+    "credit": {
+      "photographer": "Beentree",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+      "sourceUrl": "https://plants.ces.ncsu.edu/plants/pseudotsuga-menziesii/",
+      "label": "Seed cone"
+    },
+    "imageWidth": 766,
+    "imageHeight": 1024
+  },
+  {
+    "originalUrl": "https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/Thuja_plicata_form_W_jTlCMZkxjGzR.jpg",
+    "image": "/images/trees/western-redcedar.webp",
+    "imageAlt": "Western redcedar with an evergreen conical crown",
+    "credit": {
+      "photographer": "Walcoford",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/4.0/legalcode",
+      "sourceUrl": "https://plants.ces.ncsu.edu/plants/thuja-plicata/",
+      "label": "Tree form"
+    },
+    "imageWidth": 516,
+    "imageHeight": 1024
+  },
+  {
+    "originalUrl": "https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/Thuja-plicata--Rassil--cc-by-sa-2-0.jpg",
+    "image": "/images/trees/western-redcedar-foliage.webp",
+    "imageAlt": "Flattened sprays of overlapping western redcedar scale leaves",
+    "credit": {
+      "photographer": "Rassil",
+      "license": "CC-BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "sourceUrl": "https://plants.ces.ncsu.edu/plants/thuja-plicata/",
+      "label": "Foliage"
+    },
+    "imageWidth": 600,
+    "imageHeight": 450
+  },
+  {
+    "originalUrl": "https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/Thuja_plicata_seed_c_nvHHidkDzx4r.jpe",
+    "image": "/images/trees/western-redcedar-cones.webp",
+    "imageAlt": "Developing western redcedar seed cones on a leafy shoot",
+    "credit": {
+      "photographer": "Walter Siegmund",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+      "sourceUrl": "https://plants.ces.ncsu.edu/plants/thuja-plicata/",
+      "label": "Developing seed cones"
+    },
+    "imageWidth": 1024,
+    "imageHeight": 768
+  },
+  {
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/78/Pinus_ponderosa_%28ponderosa_pine_tree%29_%28Florissant_National_Monument%2C_Colorado%2C_USA%29_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "image": "/images/trees/ponderosa-pine.webp",
+    "imageAlt": "Ponderosa pine growing at Florissant in Colorado",
+    "credit": {
+      "photographer": "James St. John",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pinus_ponderosa_(ponderosa_pine_tree)_(Florissant_National_Monument,_Colorado,_USA)_10.jpg",
+      "label": "Tree at Florissant, Colorado"
+    },
+    "imageWidth": 899,
+    "imageHeight": 1200
+  },
+  {
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Ponderosa_Pine_Pinus_ponderosa_needles_cones.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "image": "/images/trees/ponderosa-pine-needles-cones.webp",
+    "imageAlt": "Long bundled ponderosa pine needles and prickly seed cones",
+    "credit": {
+      "photographer": "Dcrjsr",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ponderosa_Pine_Pinus_ponderosa_needles_cones.jpg",
+      "label": "Needles and cones"
+    },
+    "imageWidth": 951,
+    "imageHeight": 1200
+  },
+  {
+    "originalUrl": "https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/Arbutus_menziesii_fo_1b8PDsyq4lf4.jfif",
+    "image": "/images/trees/pacific-madrone.webp",
+    "imageAlt": "Pacific madrone with a broad leafy crown",
+    "credit": {
+      "photographer": "Walter Siegmund",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+      "sourceUrl": "https://plants.ces.ncsu.edu/plants/arbutus-menziesii/",
+      "label": "Tree form"
+    },
+    "imageWidth": 662,
+    "imageHeight": 1023
+  },
+  {
+    "originalUrl": "https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/Madrone_Arbutus_bark_BodxcRzoDgWZ.jfif",
+    "image": "/images/trees/pacific-madrone-bark.webp",
+    "imageAlt": "Peeling reddish bark and smooth exposed surface on Pacific madrone",
+    "credit": {
+      "photographer": "NaJina McEnany",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/",
+      "sourceUrl": "https://plants.ces.ncsu.edu/plants/arbutus-menziesii/",
+      "label": "Bark"
+    },
+    "imageWidth": 771,
+    "imageHeight": 1024
+  },
+  {
+    "originalUrl": "https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/Arbutus_menziesii_le_lEoJLrECfqJj.jpg",
+    "image": "/images/trees/pacific-madrone-leaves.webp",
+    "imageAlt": "Glossy oval Pacific madrone leaves",
+    "credit": {
+      "photographer": "http://www.nwplants.com",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+      "sourceUrl": "https://plants.ces.ncsu.edu/plants/arbutus-menziesii/",
+      "label": "Leaves"
+    },
+    "imageWidth": 1024,
+    "imageHeight": 742
+  },
+  {
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Populus_tremuloides_%285002309357%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "image": "/images/trees/compare-quaking-aspen-bud.webp",
+    "imageAlt": "Pointed winter bud on a quaking aspen twig",
+    "credit": {
+      "photographer": "Matt Lavin from Bozeman, Montana, USA",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Populus_tremuloides_(5002309357).jpg",
+      "label": "Winter bud"
+    },
+    "imageWidth": 1200,
+    "imageHeight": 900
+  },
+  {
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Populus_deltoides1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "image": "/images/trees/compare-eastern-cottonwood-leaves.webp",
+    "imageAlt": "Naturally fallen eastern cottonwood leaf with a broad base and toothed triangular outline",
+    "credit": {
+      "photographer": "DouglasGoldman",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Populus_deltoides1.jpg",
+      "label": "Fallen leaf"
+    },
+    "imageWidth": 803,
+    "imageHeight": 1200
+  },
+  {
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Eastern_Cottonwood_%28Populus_deltoides%29_bark_-_Flickr_-_Jay_Sturner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "image": "/images/trees/compare-eastern-cottonwood-bark.webp",
+    "imageAlt": "Mature eastern cottonwood bark with deep intersecting furrows",
+    "credit": {
+      "photographer": "Jay Sturner from USA",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eastern_Cottonwood_(Populus_deltoides)_bark_-_Flickr_-_Jay_Sturner.jpg",
+      "label": "Mature bark"
+    },
+    "imageWidth": 720,
+    "imageHeight": 960
+  }
+]
