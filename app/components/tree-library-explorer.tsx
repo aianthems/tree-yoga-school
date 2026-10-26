@@ -6,6 +6,7 @@ import Link from "next/link";
 import type { LibraryTree } from "../../lib/tree-library-search";
 import { discoverLibraryTrees, emptyLibrarySelection, hasLibraryFilters, libraryHref, librarySortOptions, practiceCategories, readLibrarySelection, treePracticeCategories, type LibrarySelection } from "../../lib/tree-library-discovery";
 import { identificationOptions } from "../../lib/tree-identification";
+import { libraryRegions, libraryRegionStates, regionalRecordsHref } from "../../lib/tree-library-regions";
 import ShareLink from "../champion-trees/share-link";
 
 // Keep the static HTML indexable, hydrate URL selections, and follow Back/Forward.
@@ -24,6 +25,8 @@ export default function TreeLibraryExplorer({ trees, comparisons }: { trees: rea
   const { query, practice, view } = selection;
   const results = useMemo(() => discoverLibraryTrees(trees, selection), [trees, selection]);
   const categoryCounts = useMemo(() => practiceCategories.map(category => ({ ...category, count: trees.filter(tree => treePracticeCategories(tree).some(value => value.value === category.value)).length })), [trees]);
+  const region = libraryRegions.find(region => region.value === selection.region);
+  const regionCounts = useMemo(() => libraryRegions.map(region => ({ ...region, count: trees.filter(tree => libraryRegionStates(tree.slug, region.value).length).length })), [trees]);
   const hasFilters = hasLibraryFilters(selection);
   const hasIdentification = Boolean(selection.foliage || selection.arrangement || selection.lobes || selection.bark);
   function update(patch: Partial<LibrarySelection>, replace = false) {
@@ -41,12 +44,19 @@ export default function TreeLibraryExplorer({ trees, comparisons }: { trees: rea
     <>
       <section className="library-discovery" aria-labelledby="library-discovery-title">
         <h2 id="library-discovery-title">Find a tree for your practice.</h2>
-        <p id="library-search-help">Search a common or scientific name, choose a practice, or begin with something you can see.</p>
+        <p id="library-search-help">Search a common or scientific name, choose a region or practice, or begin with something you can see.</p>
         <form role="search" aria-label="Search the Tree Library" onSubmit={event => event.preventDefault()}>
           <div className="library-filter-fields">
             <div className="library-filter-field">
               <label htmlFor="library-search">Tree name</label>
               <input id="library-search" type="search" value={query} onChange={event => update({ query: event.target.value }, true)} placeholder="Try maple, musclewood, or Acer" aria-describedby="library-search-help" aria-controls="library-results" />
+            </div>
+            <div className="library-filter-field">
+              <label htmlFor="library-region">Region</label>
+              <select id="library-region" value={selection.region} onChange={event => update({ region: event.target.value })} aria-controls="library-results" aria-describedby="library-region-help">
+                <option value="">All U.S. regions</option>
+                {regionCounts.map(region => <option key={region.value} value={region.value}>{region.label} ({region.count})</option>)}
+              </select>
             </div>
             <div className="library-filter-field">
               <label htmlFor="library-practice">Practice category</label>
@@ -62,6 +72,8 @@ export default function TreeLibraryExplorer({ trees, comparisons }: { trees: rea
               </select>
             </div>
           </div>
+          <p id="library-region-help" className="library-region-help">Regional matches come from listed champion trees, including native and planted species. This is not a native-range map or a complete list of local trees. Profiles explain native ranges; records do not guarantee current presence or visiting access.</p>
+          {region && <details className="library-region-coverage"><summary>{region.label} · states included</summary><p>{region.states.map(state => state.name).join(", ")}. Register coverage varies by state; Alaska and Hawaiʻi have limited records.</p><Link href={`/champion-trees?region=${region.value}`}>Explore {region.label} tree records</Link></details>}
           <details className="library-identification" open={hasIdentification ? true : undefined}>
             <summary>Look at the tree · identification filters{hasIdentification ? " · active" : ""}</summary>
             <p id="library-identification-help">Choose only features you can see. Leaf arrangement refers to whole broad leaves on the twig, including compound leaves—not their leaflets. Lobes are larger divisions in a leaf or leaflet’s outline; small teeth are not lobes. Bark changes with age. Some trees match more than one option.</p>
@@ -99,7 +111,7 @@ export default function TreeLibraryExplorer({ trees, comparisons }: { trees: rea
         {results.length === 0 ? (
           <div className="library-empty">
             <h2>No trees match this combination.</h2>
-            <p>Try a shorter name, choose another practice or visible feature, or reset the filters to see every tree.</p>
+            <p>Try a shorter name, choose another region, practice, or visible feature, or reset the filters to see every tree.</p>
             <button className="button primary" type="button" onClick={reset}>Show all trees</button>
           </div>
         ) : view === "compact" ? results.map(tree => (
@@ -107,6 +119,7 @@ export default function TreeLibraryExplorer({ trees, comparisons }: { trees: rea
             <h2><Link href={`/trees/${tree.slug}`}>{tree.name}</Link></h2>
             <p>{tree.species} · <i>{tree.scientificName}</i></p>
             <ul className="theme-list" aria-label="Contemplative themes">{tree.themes.map(value => <li key={value}>{value}</li>)}</ul>
+            {region && <RegionalRecordLink tree={tree} region={region.value} />}
             <Link className="course-link" href={`/practice/${tree.slug}`}>Open outdoor practice</Link>
           </article>
         )) : results.map(tree => (
@@ -119,6 +132,7 @@ export default function TreeLibraryExplorer({ trees, comparisons }: { trees: rea
               <h2><Link href={`/trees/${tree.slug}`}>{tree.name}</Link></h2>
               <ul className="theme-list" aria-label="Contemplative themes">{tree.themes.map(value => <li key={value}>{value}</li>)}</ul>
               <p>{tree.invitation}</p>
+              {region && <RegionalRecordLink tree={tree} region={region.value} />}
               <div className="course-actions">
                 <Link className="button primary" href={`/trees/${tree.slug}`}>Meet {tree.name}</Link>
                 <Link className="course-link" href={`/practice/${tree.slug}`}>Practice with {tree.name}</Link>
@@ -129,4 +143,9 @@ export default function TreeLibraryExplorer({ trees, comparisons }: { trees: rea
       </section>
     </>
   );
+}
+
+function RegionalRecordLink({ tree, region }: { tree: LibraryTree; region: string }) {
+  const count = libraryRegionStates(tree.slug, region).length;
+  return <p className="library-region-record"><Link href={regionalRecordsHref(tree.scientificName, region)}>View {tree.species} records in {count} regional {count === 1 ? "state" : "states"}</Link></p>;
 }

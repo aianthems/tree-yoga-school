@@ -1,4 +1,5 @@
 import { filterLibraryTrees, type LibraryTree } from "./tree-library-search";
+import { libraryRegions, libraryRegionStates } from "./tree-library-regions";
 import { treeIdentification, identificationOptions } from "./tree-identification";
 
 // Editorial practice groupings; detailed themes remain on each profile.
@@ -10,8 +11,8 @@ export const practiceCategories = [
   { value: "curiosity", label: "Curiosity & perspective", themes: ["Curiosity", "Discovery", "Wonder", "Perspective", "Possibility", "Openness", "Acceptance", "Individuality", "Discernment", "Complexity", "Aspiration"] },
   { value: "rest", label: "Rest & shelter", themes: ["Rest", "Shelter", "Stillness", "Gentleness", "Spaciousness", "Balance", "Boundaries", "Grounding", "Continuity", "Quiet confidence"] },
 ] as const;
-export type LibrarySelection = { query: string; practice: string; foliage: string; arrangement: string; lobes: string; bark: string; sort: string; view: string };
-export const emptyLibrarySelection: LibrarySelection = { query: "", practice: "", foliage: "", arrangement: "", lobes: "", bark: "", sort: "az", view: "illustrated" };
+export type LibrarySelection = { query: string; region: string; practice: string; foliage: string; arrangement: string; lobes: string; bark: string; sort: string; view: string };
+export const emptyLibrarySelection: LibrarySelection = { query: "", region: "", practice: "", foliage: "", arrangement: "", lobes: "", bark: "", sort: "az", view: "illustrated" };
 export const librarySortOptions = [{ value: "az", label: "Tree name · A–Z" }, { value: "za", label: "Tree name · Z–A" }, { value: "scientific", label: "Scientific name · A–Z" }] as const;
 export function readLibrarySelection(params: URLSearchParams): LibrarySelection {
   const choice = (key: string, options: readonly { value: string }[]) => {
@@ -21,7 +22,7 @@ export function readLibrarySelection(params: URLSearchParams): LibrarySelection 
   const foliage = choice("foliage", identificationOptions.foliage);
   const broadFeatures = !foliage || foliage === "broad";
   return {
-    query: params.get("q") || "", practice: choice("practice", practiceCategories),
+    query: params.get("q") || "", region: choice("region", libraryRegions), practice: choice("practice", practiceCategories),
     foliage, arrangement: broadFeatures ? choice("arrangement", identificationOptions.arrangement) : "",
     lobes: broadFeatures ? choice("lobes", identificationOptions.lobes) : "", bark: choice("bark", identificationOptions.bark),
     sort: choice("sort", librarySortOptions) || "az", view: params.get("view") === "compact" ? "compact" : "illustrated",
@@ -30,14 +31,14 @@ export function readLibrarySelection(params: URLSearchParams): LibrarySelection 
 export function libraryHref(selection: LibrarySelection) {
   const params = new URLSearchParams();
   if (selection.query) params.set("q", selection.query);
-  for (const key of ["practice", "foliage", "arrangement", "lobes", "bark"] as const) if (selection[key]) params.set(key, selection[key]);
+  for (const key of ["region", "practice", "foliage", "arrangement", "lobes", "bark"] as const) if (selection[key]) params.set(key, selection[key]);
   if (selection.sort !== "az") params.set("sort", selection.sort);
   if (selection.view === "compact") params.set("view", "compact");
   const search = params.toString();
   return `/trees${search ? `?${search}` : ""}`;
 }
 export function hasLibraryFilters(selection: LibrarySelection) {
-  return Boolean(selection.query || selection.practice || selection.foliage || selection.arrangement || selection.lobes || selection.bark);
+  return Boolean(selection.region || selection.query || selection.practice || selection.foliage || selection.arrangement || selection.lobes || selection.bark);
 }
 export function treePracticeCategories(tree: Pick<LibraryTree, "themes">) {
   return practiceCategories.filter(category => category.themes.some(theme => tree.themes.includes(theme)));
@@ -45,6 +46,7 @@ export function treePracticeCategories(tree: Pick<LibraryTree, "themes">) {
 export function discoverLibraryTrees(items: readonly LibraryTree[], selection: LibrarySelection) {
   const category = practiceCategories.find(category => category.value === selection.practice);
   return filterLibraryTrees(items, selection.query, "").filter(tree => {
+    if (selection.region && !libraryRegionStates(tree.slug, selection.region).length) return false;
     if (category && !category.themes.some(theme => tree.themes.includes(theme))) return false;
     const traits = treeIdentification[tree.slug];
     return (["foliage", "arrangement", "lobes", "bark"] as const).every(key => !selection[key] || traits?.[key].includes(selection[key]));

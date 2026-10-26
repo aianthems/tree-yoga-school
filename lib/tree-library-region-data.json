@@ -1,0 +1,3643 @@
+{
+  "regions": [
+    {
+      "value": "new-england",
+      "label": "New England",
+      "states": [
+        {
+          "code": "MA",
+          "name": "Massachusetts"
+        },
+        {
+          "code": "NH",
+          "name": "New Hampshire"
+        },
+        {
+          "code": "VT",
+          "name": "Vermont"
+        },
+        {
+          "code": "ME",
+          "name": "Maine"
+        },
+        {
+          "code": "RI",
+          "name": "Rhode Island"
+        },
+        {
+          "code": "CT",
+          "name": "Connecticut"
+        }
+      ]
+    },
+    {
+      "value": "mid-atlantic",
+      "label": "Mid-Atlantic",
+      "states": [
+        {
+          "code": "NY",
+          "name": "New York"
+        },
+        {
+          "code": "NJ",
+          "name": "New Jersey"
+        },
+        {
+          "code": "PA",
+          "name": "Pennsylvania"
+        },
+        {
+          "code": "DE",
+          "name": "Delaware"
+        },
+        {
+          "code": "MD",
+          "name": "Maryland"
+        },
+        {
+          "code": "VA",
+          "name": "Virginia"
+        },
+        {
+          "code": "WV",
+          "name": "West Virginia"
+        }
+      ]
+    },
+    {
+      "value": "southeast",
+      "label": "Southeast",
+      "states": [
+        {
+          "code": "MS",
+          "name": "Mississippi"
+        },
+        {
+          "code": "NC",
+          "name": "North Carolina"
+        },
+        {
+          "code": "SC",
+          "name": "South Carolina"
+        },
+        {
+          "code": "TN",
+          "name": "Tennessee"
+        },
+        {
+          "code": "GA",
+          "name": "Georgia"
+        },
+        {
+          "code": "KY",
+          "name": "Kentucky"
+        },
+        {
+          "code": "AL",
+          "name": "Alabama"
+        },
+        {
+          "code": "FL",
+          "name": "Florida"
+        },
+        {
+          "code": "AR",
+          "name": "Arkansas"
+        }
+      ]
+    },
+    {
+      "value": "midwest",
+      "label": "Midwest",
+      "states": [
+        {
+          "code": "ND",
+          "name": "North Dakota"
+        },
+        {
+          "code": "SD",
+          "name": "South Dakota"
+        },
+        {
+          "code": "IN",
+          "name": "Indiana"
+        },
+        {
+          "code": "IL",
+          "name": "Illinois"
+        },
+        {
+          "code": "MI",
+          "name": "Michigan"
+        },
+        {
+          "code": "OH",
+          "name": "Ohio"
+        },
+        {
+          "code": "WI",
+          "name": "Wisconsin"
+        },
+        {
+          "code": "MN",
+          "name": "Minnesota"
+        },
+        {
+          "code": "IA",
+          "name": "Iowa"
+        },
+        {
+          "code": "MO",
+          "name": "Missouri"
+        },
+        {
+          "code": "KS",
+          "name": "Kansas"
+        },
+        {
+          "code": "NE",
+          "name": "Nebraska"
+        }
+      ]
+    },
+    {
+      "value": "south-central",
+      "label": "South Central",
+      "states": [
+        {
+          "code": "TX",
+          "name": "Texas"
+        },
+        {
+          "code": "LA",
+          "name": "Louisiana"
+        },
+        {
+          "code": "OK",
+          "name": "Oklahoma"
+        }
+      ]
+    },
+    {
+      "value": "west",
+      "label": "West",
+      "states": [
+        {
+          "code": "WY",
+          "name": "Wyoming"
+        },
+        {
+          "code": "UT",
+          "name": "Utah"
+        },
+        {
+          "code": "CA",
+          "name": "California"
+        },
+        {
+          "code": "AZ",
+          "name": "Arizona"
+        },
+        {
+          "code": "NV",
+          "name": "Nevada"
+        },
+        {
+          "code": "ID",
+          "name": "Idaho"
+        },
+        {
+          "code": "CO",
+          "name": "Colorado"
+        },
+        {
+          "code": "MT",
+          "name": "Montana"
+        },
+        {
+          "code": "NM",
+          "name": "New Mexico"
+        },
+        {
+          "code": "OR",
+          "name": "Oregon"
+        },
+        {
+          "code": "WA",
+          "name": "Washington"
+        }
+      ]
+    },
+    {
+      "value": "alaska",
+      "label": "Alaska",
+      "states": [
+        {
+          "code": "AK",
+          "name": "Alaska"
+        }
+      ]
+    },
+    {
+      "value": "pacific",
+      "label": "Hawaiʻi",
+      "states": [
+        {
+          "code": "HI",
+          "name": "Hawaiʻi"
+        }
+      ]
+    }
+  ],
+  "species": {
+    "pin-oak": {
+      "new-england": [
+        "MA",
+        "NH",
+        "ME",
+        "RI",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "NJ",
+        "PA",
+        "DE",
+        "MD",
+        "VA",
+        "WV"
+      ],
+      "southeast": [
+        "NC",
+        "SC",
+        "TN",
+        "GA",
+        "KY",
+        "AR"
+      ],
+      "midwest": [
+        "SD",
+        "IN",
+        "IL",
+        "MI",
+        "OH",
+        "WI",
+        "IA",
+        "MO",
+        "KS",
+        "NE"
+      ],
+      "south-central": [
+        "OK"
+      ],
+      "west": [
+        "UT",
+        "CO",
+        "MT",
+        "OR",
+        "WA"
+      ]
+    },
+    "swamp-white-oak": {
+      "new-england": [
+        "MA",
+        "NH",
+        "ME",
+        "RI",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "PA",
+        "DE",
+        "MD",
+        "VA",
+        "WV"
+      ],
+      "southeast": [
+        "NC",
+        "SC",
+        "TN",
+        "GA",
+        "KY",
+        "AL"
+      ],
+      "midwest": [
+        "ND",
+        "SD",
+        "IN",
+        "IL",
+        "MI",
+        "OH",
+        "WI",
+        "MN",
+        "IA",
+        "MO",
+        "KS",
+        "NE"
+      ],
+      "west": [
+        "UT",
+        "CO",
+        "MT",
+        "OR",
+        "WA"
+      ]
+    },
+    "boxelder": {
+      "new-england": [
+        "MA",
+        "NH",
+        "ME",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "NJ",
+        "PA",
+        "MD",
+        "VA",
+        "WV"
+      ],
+      "southeast": [
+        "NC",
+        "SC",
+        "TN",
+        "GA",
+        "KY",
+        "AL",
+        "FL",
+        "AR"
+      ],
+      "midwest": [
+        "ND",
+        "SD",
+        "IN",
+        "IL",
+        "MI",
+        "OH",
+        "MN",
+        "MO",
+        "KS",
+        "NE"
+      ],
+      "south-central": [
+        "OK"
+      ],
+      "west": [
+        "WY",
+        "UT",
+        "CA",
+        "NV",
+        "CO",
+        "MT",
+        "WA"
+      ]
+    },
+    "hackberry": {
+      "new-england": [
+        "MA",
+        "VT",
+        "ME",
+        "RI",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "PA",
+        "DE",
+        "MD",
+        "VA",
+        "WV"
+      ],
+      "southeast": [
+        "NC",
+        "SC",
+        "TN",
+        "GA",
+        "KY",
+        "AR"
+      ],
+      "midwest": [
+        "ND",
+        "SD",
+        "IN",
+        "IL",
+        "MI",
+        "OH",
+        "WI",
+        "MN",
+        "IA",
+        "MO",
+        "KS",
+        "NE"
+      ],
+      "west": [
+        "WY",
+        "UT",
+        "AZ",
+        "CO",
+        "MT",
+        "OR",
+        "WA"
+      ]
+    },
+    "pine": {
+      "new-england": [
+        "MA",
+        "NH",
+        "VT",
+        "ME",
+        "RI",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "NJ",
+        "PA",
+        "DE",
+        "MD",
+        "VA",
+        "WV"
+      ],
+      "southeast": [
+        "NC",
+        "SC",
+        "TN",
+        "GA",
+        "KY",
+        "AR"
+      ],
+      "midwest": [
+        "ND",
+        "SD",
+        "IN",
+        "IL",
+        "MI",
+        "OH",
+        "WI",
+        "MN",
+        "IA",
+        "KS",
+        "NE"
+      ],
+      "south-central": [
+        "OK"
+      ],
+      "west": [
+        "WY",
+        "UT",
+        "NV",
+        "CO",
+        "MT",
+        "WA"
+      ]
+    },
+    "oak": {
+      "new-england": [
+        "MA",
+        "NH",
+        "VT",
+        "ME",
+        "RI",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "PA",
+        "DE",
+        "MD",
+        "VA",
+        "WV"
+      ],
+      "southeast": [
+        "NC",
+        "SC",
+        "TN",
+        "GA",
+        "KY",
+        "AL",
+        "FL",
+        "AR"
+      ],
+      "midwest": [
+        "IN",
+        "IL",
+        "MI",
+        "OH",
+        "WI",
+        "MN",
+        "IA",
+        "MO",
+        "KS",
+        "NE"
+      ],
+      "south-central": [
+        "TX",
+        "OK"
+      ],
+      "west": [
+        "UT",
+        "NV",
+        "CO",
+        "WA"
+      ]
+    },
+    "birch": {
+      "new-england": [
+        "MA",
+        "VT",
+        "ME",
+        "RI",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "NJ",
+        "PA",
+        "MD",
+        "VA",
+        "WV"
+      ],
+      "midwest": [
+        "ND",
+        "SD",
+        "IN",
+        "IL",
+        "MI",
+        "OH",
+        "WI",
+        "MN",
+        "IA",
+        "KS",
+        "NE"
+      ],
+      "west": [
+        "WY",
+        "UT",
+        "ID",
+        "CO",
+        "WA"
+      ]
+    },
+    "maple": {
+      "new-england": [
+        "MA",
+        "VT",
+        "ME",
+        "RI",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "NJ",
+        "PA",
+        "DE",
+        "MD",
+        "VA",
+        "WV"
+      ],
+      "southeast": [
+        "NC",
+        "SC",
+        "TN",
+        "GA",
+        "KY",
+        "AL",
+        "AR"
+      ],
+      "midwest": [
+        "ND",
+        "SD",
+        "IL",
+        "MI",
+        "OH",
+        "WI",
+        "MN",
+        "IA",
+        "MO",
+        "KS",
+        "NE"
+      ],
+      "south-central": [
+        "OK"
+      ],
+      "west": [
+        "UT",
+        "NV",
+        "CO",
+        "WA"
+      ]
+    },
+    "willow": {
+      "new-england": [
+        "MA",
+        "ME"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "NJ",
+        "PA",
+        "MD",
+        "VA",
+        "WV"
+      ],
+      "southeast": [
+        "NC",
+        "SC",
+        "TN",
+        "KY",
+        "AL",
+        "AR"
+      ],
+      "midwest": [
+        "IN",
+        "IL",
+        "MI",
+        "OH",
+        "MN",
+        "IA",
+        "MO",
+        "KS",
+        "NE"
+      ],
+      "south-central": [
+        "TX"
+      ],
+      "west": [
+        "NV",
+        "ID"
+      ]
+    },
+    "beech": {
+      "new-england": [
+        "MA",
+        "NH",
+        "VT",
+        "ME",
+        "RI",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "PA",
+        "DE",
+        "MD",
+        "VA",
+        "WV"
+      ],
+      "southeast": [
+        "NC",
+        "SC",
+        "TN",
+        "GA",
+        "KY",
+        "AL",
+        "FL"
+      ],
+      "midwest": [
+        "IN",
+        "IL",
+        "MI",
+        "OH",
+        "MO",
+        "KS"
+      ],
+      "south-central": [
+        "TX"
+      ],
+      "west": [
+        "UT",
+        "ID",
+        "CO",
+        "WA"
+      ]
+    },
+    "hemlock": {
+      "new-england": [
+        "MA",
+        "NH",
+        "VT",
+        "ME",
+        "RI",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "NJ",
+        "PA",
+        "DE",
+        "MD",
+        "VA",
+        "WV"
+      ],
+      "southeast": [
+        "NC",
+        "SC",
+        "TN",
+        "GA",
+        "KY",
+        "AL",
+        "AR"
+      ],
+      "midwest": [
+        "SD",
+        "IN",
+        "MI",
+        "OH",
+        "MN",
+        "KS"
+      ],
+      "west": [
+        "UT",
+        "WA"
+      ]
+    },
+    "cedar": {
+      "new-england": [
+        "MA",
+        "NH",
+        "VT",
+        "ME",
+        "RI",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "NJ",
+        "PA",
+        "MD",
+        "VA",
+        "WV"
+      ],
+      "southeast": [
+        "NC",
+        "SC",
+        "TN",
+        "GA",
+        "AR"
+      ],
+      "midwest": [
+        "ND",
+        "IN",
+        "IL",
+        "MI",
+        "OH",
+        "WI",
+        "MN",
+        "IA",
+        "KS",
+        "NE"
+      ],
+      "west": [
+        "UT",
+        "ID",
+        "CO",
+        "WA"
+      ]
+    },
+    "aspen": {
+      "new-england": [
+        "NH",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "NJ",
+        "PA",
+        "WV"
+      ],
+      "southeast": [
+        "NC"
+      ],
+      "midwest": [
+        "ND",
+        "SD",
+        "IN",
+        "MI",
+        "OH",
+        "WI",
+        "MN",
+        "MO",
+        "KS",
+        "NE"
+      ],
+      "south-central": [
+        "TX",
+        "OK"
+      ],
+      "west": [
+        "WY",
+        "UT",
+        "CA",
+        "AZ",
+        "ID",
+        "CO",
+        "MT",
+        "OR",
+        "WA"
+      ]
+    },
+    "spruce": {
+      "new-england": [
+        "NH",
+        "ME",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "PA",
+        "MD",
+        "VA",
+        "WV"
+      ],
+      "southeast": [
+        "TN",
+        "GA"
+      ],
+      "midwest": [
+        "OH"
+      ],
+      "west": [
+        "CO",
+        "WA"
+      ]
+    },
+    "red-maple": {
+      "new-england": [
+        "MA",
+        "NH",
+        "VT",
+        "ME",
+        "RI",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "NJ",
+        "PA",
+        "DE",
+        "MD",
+        "VA",
+        "WV"
+      ],
+      "southeast": [
+        "NC",
+        "SC",
+        "TN",
+        "GA",
+        "KY",
+        "AL",
+        "FL"
+      ],
+      "midwest": [
+        "SD",
+        "IN",
+        "IL",
+        "MI",
+        "OH",
+        "MN",
+        "MO",
+        "KS",
+        "NE"
+      ],
+      "south-central": [
+        "TX",
+        "OK"
+      ],
+      "west": [
+        "NV",
+        "ID",
+        "CO",
+        "MT",
+        "WA"
+      ]
+    },
+    "red-oak": {
+      "new-england": [
+        "MA",
+        "NH",
+        "VT",
+        "ME",
+        "RI",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "NJ",
+        "PA",
+        "DE",
+        "MD",
+        "VA",
+        "WV"
+      ],
+      "southeast": [
+        "NC",
+        "SC",
+        "TN",
+        "GA",
+        "KY",
+        "AL"
+      ],
+      "midwest": [
+        "ND",
+        "SD",
+        "IN",
+        "IL",
+        "MI",
+        "OH",
+        "WI",
+        "MN",
+        "IA",
+        "MO",
+        "KS",
+        "NE"
+      ],
+      "south-central": [
+        "OK"
+      ],
+      "west": [
+        "WY",
+        "UT",
+        "NV",
+        "ID",
+        "CO",
+        "MT",
+        "OR",
+        "WA"
+      ]
+    },
+    "yellow-birch": {
+      "new-england": [
+        "NH",
+        "VT",
+        "ME",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "NJ",
+        "PA",
+        "MD",
+        "VA"
+      ],
+      "southeast": [
+        "NC",
+        "SC",
+        "TN",
+        "GA"
+      ],
+      "midwest": [
+        "IN",
+        "IL",
+        "MI",
+        "OH",
+        "MN",
+        "IA"
+      ],
+      "west": [
+        "WA"
+      ]
+    },
+    "balsam-fir": {
+      "new-england": [
+        "ME",
+        "RI",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "NJ",
+        "PA",
+        "MD",
+        "VA",
+        "WV"
+      ],
+      "midwest": [
+        "ND",
+        "SD",
+        "OH",
+        "MN",
+        "KS"
+      ],
+      "west": [
+        "CO",
+        "WA"
+      ]
+    },
+    "tamarack": {
+      "new-england": [
+        "ME",
+        "RI",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "PA",
+        "MD",
+        "VA",
+        "WV"
+      ],
+      "midwest": [
+        "ND",
+        "IN",
+        "MI",
+        "OH",
+        "MN"
+      ],
+      "west": [
+        "NV",
+        "WA"
+      ]
+    },
+    "sycamore": {
+      "new-england": [
+        "MA",
+        "NH",
+        "VT",
+        "ME",
+        "RI",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "NJ",
+        "PA",
+        "DE",
+        "MD",
+        "VA",
+        "WV"
+      ],
+      "southeast": [
+        "NC",
+        "SC",
+        "GA",
+        "KY",
+        "AL",
+        "FL",
+        "AR"
+      ],
+      "midwest": [
+        "ND",
+        "IN",
+        "IL",
+        "MI",
+        "OH",
+        "WI",
+        "IA",
+        "MO",
+        "KS",
+        "NE"
+      ],
+      "south-central": [
+        "TX"
+      ],
+      "west": [
+        "WY",
+        "UT",
+        "ID",
+        "CO",
+        "MT",
+        "OR",
+        "WA"
+      ]
+    },
+    "tulip-tree": {
+      "new-england": [
+        "MA",
+        "NH",
+        "RI",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "NJ",
+        "PA",
+        "DE",
+        "MD",
+        "VA"
+      ],
+      "southeast": [
+        "NC",
+        "SC",
+        "TN",
+        "GA",
+        "KY",
+        "AL",
+        "FL",
+        "AR"
+      ],
+      "midwest": [
+        "SD",
+        "IN",
+        "IL",
+        "MI",
+        "OH",
+        "WI",
+        "MO",
+        "KS",
+        "NE"
+      ],
+      "south-central": [
+        "OK"
+      ],
+      "west": [
+        "UT",
+        "CA",
+        "ID",
+        "CO",
+        "OR",
+        "WA"
+      ]
+    },
+    "sassafras": {
+      "new-england": [
+        "MA",
+        "NH",
+        "VT",
+        "ME",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "NJ",
+        "PA",
+        "DE",
+        "MD",
+        "VA",
+        "WV"
+      ],
+      "southeast": [
+        "NC",
+        "SC",
+        "TN",
+        "GA",
+        "KY",
+        "AL",
+        "FL",
+        "AR"
+      ],
+      "midwest": [
+        "IN",
+        "IL",
+        "MI",
+        "OH",
+        "IA",
+        "MO",
+        "KS"
+      ],
+      "south-central": [
+        "TX",
+        "OK"
+      ],
+      "west": [
+        "ID",
+        "CO",
+        "WA"
+      ]
+    },
+    "blackgum": {
+      "new-england": [
+        "MA",
+        "NH",
+        "VT",
+        "ME",
+        "RI",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "NJ",
+        "PA",
+        "DE",
+        "MD",
+        "VA",
+        "WV"
+      ],
+      "southeast": [
+        "NC",
+        "SC",
+        "TN",
+        "GA",
+        "KY",
+        "AL",
+        "FL",
+        "AR"
+      ],
+      "midwest": [
+        "IN",
+        "IL",
+        "MI",
+        "OH",
+        "WI",
+        "MO",
+        "KS"
+      ],
+      "south-central": [
+        "TX",
+        "OK"
+      ],
+      "west": [
+        "NV",
+        "WA"
+      ]
+    },
+    "dawn-redwood": {
+      "new-england": [
+        "MA",
+        "NH",
+        "VT",
+        "ME",
+        "RI",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NJ",
+        "PA",
+        "DE",
+        "MD",
+        "VA",
+        "WV"
+      ],
+      "southeast": [
+        "SC",
+        "TN",
+        "GA",
+        "AR"
+      ],
+      "midwest": [
+        "MI",
+        "OH",
+        "WI",
+        "KS"
+      ],
+      "south-central": [
+        "OK"
+      ],
+      "west": [
+        "UT",
+        "CA",
+        "CO"
+      ]
+    },
+    "american-hornbeam": {
+      "new-england": [
+        "MA",
+        "NH",
+        "VT",
+        "RI",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "NJ",
+        "PA",
+        "DE",
+        "MD",
+        "VA",
+        "WV"
+      ],
+      "southeast": [
+        "NC",
+        "SC",
+        "TN",
+        "GA",
+        "KY",
+        "AL",
+        "FL",
+        "AR"
+      ],
+      "midwest": [
+        "IN",
+        "IL",
+        "MI",
+        "OH",
+        "MN",
+        "IA",
+        "MO",
+        "KS"
+      ],
+      "south-central": [
+        "TX",
+        "OK"
+      ],
+      "west": [
+        "UT",
+        "CO",
+        "WA"
+      ]
+    },
+    "shagbark-hickory": {
+      "new-england": [
+        "MA",
+        "NH",
+        "VT",
+        "ME",
+        "RI",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "NJ",
+        "PA",
+        "DE",
+        "MD",
+        "VA",
+        "WV"
+      ],
+      "southeast": [
+        "NC",
+        "SC",
+        "TN",
+        "GA",
+        "KY",
+        "AL",
+        "AR"
+      ],
+      "midwest": [
+        "ND",
+        "IN",
+        "IL",
+        "MI",
+        "OH",
+        "WI",
+        "MN",
+        "MO",
+        "KS",
+        "NE"
+      ],
+      "south-central": [
+        "TX",
+        "OK"
+      ],
+      "west": [
+        "CO",
+        "OR",
+        "WA"
+      ]
+    },
+    "silver-maple": {
+      "new-england": [
+        "MA",
+        "NH",
+        "VT",
+        "ME",
+        "RI",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "NJ",
+        "PA",
+        "DE",
+        "MD",
+        "VA",
+        "WV"
+      ],
+      "southeast": [
+        "NC",
+        "SC",
+        "TN",
+        "GA",
+        "KY",
+        "AL",
+        "AR"
+      ],
+      "midwest": [
+        "ND",
+        "SD",
+        "IN",
+        "IL",
+        "MI",
+        "OH",
+        "WI",
+        "MN",
+        "MO",
+        "KS",
+        "NE"
+      ],
+      "south-central": [
+        "TX"
+      ],
+      "west": [
+        "WY",
+        "UT",
+        "ID",
+        "CO",
+        "MT",
+        "OR",
+        "WA"
+      ]
+    },
+    "black-cherry": {
+      "new-england": [
+        "MA",
+        "NH",
+        "VT",
+        "ME",
+        "RI",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "NJ",
+        "PA",
+        "DE",
+        "MD",
+        "VA",
+        "WV"
+      ],
+      "southeast": [
+        "NC",
+        "SC",
+        "TN",
+        "GA",
+        "KY",
+        "AL",
+        "FL",
+        "AR"
+      ],
+      "midwest": [
+        "SD",
+        "IN",
+        "IL",
+        "MI",
+        "OH",
+        "WI",
+        "MN",
+        "MO",
+        "KS",
+        "NE"
+      ],
+      "south-central": [
+        "OK"
+      ],
+      "west": [
+        "UT",
+        "NV",
+        "CO",
+        "MT",
+        "WA"
+      ]
+    },
+    "american-elm": {
+      "new-england": [
+        "MA",
+        "NH",
+        "VT",
+        "ME",
+        "RI",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "NJ",
+        "PA",
+        "DE",
+        "MD",
+        "VA",
+        "WV"
+      ],
+      "southeast": [
+        "NC",
+        "SC",
+        "TN",
+        "GA",
+        "KY",
+        "AL",
+        "FL",
+        "AR"
+      ],
+      "midwest": [
+        "ND",
+        "SD",
+        "IN",
+        "IL",
+        "MI",
+        "OH",
+        "WI",
+        "MN",
+        "MO",
+        "KS",
+        "NE"
+      ],
+      "south-central": [
+        "TX",
+        "OK"
+      ],
+      "west": [
+        "WY",
+        "UT",
+        "CA",
+        "ID",
+        "CO",
+        "NM",
+        "OR",
+        "WA"
+      ]
+    },
+    "white-ash": {
+      "new-england": [
+        "MA",
+        "NH",
+        "VT",
+        "ME",
+        "RI",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "NJ",
+        "PA",
+        "DE",
+        "MD",
+        "VA",
+        "WV"
+      ],
+      "southeast": [
+        "NC",
+        "SC",
+        "TN",
+        "GA",
+        "KY",
+        "AL",
+        "FL",
+        "AR"
+      ],
+      "midwest": [
+        "ND",
+        "IN",
+        "IL",
+        "MI",
+        "OH",
+        "MN",
+        "MO",
+        "KS",
+        "NE"
+      ],
+      "south-central": [
+        "TX",
+        "OK"
+      ],
+      "west": [
+        "UT",
+        "CO",
+        "WA"
+      ]
+    },
+    "eastern-redbud": {
+      "new-england": [
+        "MA",
+        "VT",
+        "ME",
+        "RI",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "NJ",
+        "PA",
+        "DE",
+        "MD",
+        "VA",
+        "WV"
+      ],
+      "southeast": [
+        "NC",
+        "SC",
+        "TN",
+        "GA",
+        "KY",
+        "AL",
+        "FL",
+        "AR"
+      ],
+      "midwest": [
+        "SD",
+        "IN",
+        "IL",
+        "MI",
+        "OH",
+        "IA",
+        "MO",
+        "KS",
+        "NE"
+      ],
+      "south-central": [
+        "OK"
+      ],
+      "west": [
+        "CO",
+        "NM",
+        "OR",
+        "WA"
+      ]
+    },
+    "bald-cypress": {
+      "new-england": [
+        "MA",
+        "ME",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "NJ",
+        "PA",
+        "DE",
+        "MD",
+        "VA",
+        "WV"
+      ],
+      "southeast": [
+        "NC",
+        "SC",
+        "TN",
+        "GA",
+        "KY",
+        "AL",
+        "FL",
+        "AR"
+      ],
+      "midwest": [
+        "IN",
+        "IL",
+        "MI",
+        "OH",
+        "WI",
+        "MO",
+        "KS",
+        "NE"
+      ],
+      "south-central": [
+        "TX",
+        "OK"
+      ],
+      "west": [
+        "UT",
+        "CA",
+        "CO",
+        "WA"
+      ]
+    },
+    "american-hophornbeam": {
+      "new-england": [
+        "MA",
+        "NH",
+        "VT",
+        "ME",
+        "RI",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "NJ",
+        "PA",
+        "MD",
+        "VA",
+        "WV"
+      ],
+      "southeast": [
+        "NC",
+        "SC",
+        "TN",
+        "GA",
+        "KY",
+        "AL",
+        "FL"
+      ],
+      "midwest": [
+        "ND",
+        "IN",
+        "MI",
+        "OH",
+        "MN",
+        "IA",
+        "MO",
+        "KS",
+        "NE"
+      ],
+      "west": [
+        "UT",
+        "NV",
+        "CO",
+        "WA"
+      ]
+    },
+    "river-birch": {
+      "new-england": [
+        "MA",
+        "NH",
+        "ME",
+        "RI",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "NJ",
+        "PA",
+        "DE",
+        "MD",
+        "VA",
+        "WV"
+      ],
+      "southeast": [
+        "NC",
+        "SC",
+        "TN",
+        "GA",
+        "KY",
+        "AL",
+        "FL",
+        "AR"
+      ],
+      "midwest": [
+        "ND",
+        "IN",
+        "IL",
+        "MI",
+        "OH",
+        "WI",
+        "MN",
+        "IA",
+        "MO",
+        "KS"
+      ],
+      "south-central": [
+        "TX",
+        "OK"
+      ],
+      "west": [
+        "UT",
+        "NV",
+        "CO",
+        "WA"
+      ]
+    },
+    "black-walnut": {
+      "new-england": [
+        "MA",
+        "VT",
+        "ME",
+        "RI",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "NJ",
+        "PA",
+        "DE",
+        "MD",
+        "VA",
+        "WV"
+      ],
+      "southeast": [
+        "NC",
+        "SC",
+        "TN",
+        "GA",
+        "KY",
+        "AL",
+        "FL",
+        "AR"
+      ],
+      "midwest": [
+        "ND",
+        "SD",
+        "IN",
+        "IL",
+        "MI",
+        "OH",
+        "WI",
+        "MN",
+        "IA",
+        "MO",
+        "KS",
+        "NE"
+      ],
+      "south-central": [
+        "TX",
+        "OK"
+      ],
+      "west": [
+        "WY",
+        "UT",
+        "ID",
+        "CO",
+        "MT",
+        "WA"
+      ]
+    },
+    "american-basswood": {
+      "new-england": [
+        "MA",
+        "NH",
+        "VT",
+        "ME",
+        "RI",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "NJ",
+        "PA",
+        "DE",
+        "MD",
+        "VA"
+      ],
+      "southeast": [
+        "TN",
+        "GA",
+        "KY",
+        "FL",
+        "AR"
+      ],
+      "midwest": [
+        "ND",
+        "SD",
+        "IN",
+        "IL",
+        "MI",
+        "OH",
+        "WI",
+        "MN",
+        "MO",
+        "KS",
+        "NE"
+      ],
+      "west": [
+        "WY",
+        "UT",
+        "CA",
+        "NV",
+        "ID",
+        "CO",
+        "MT",
+        "WA"
+      ]
+    },
+    "green-ash": {
+      "new-england": [
+        "MA",
+        "NH",
+        "VT",
+        "ME",
+        "RI",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "NJ",
+        "PA",
+        "DE",
+        "MD",
+        "VA",
+        "WV"
+      ],
+      "southeast": [
+        "NC",
+        "SC",
+        "TN",
+        "GA",
+        "KY",
+        "AL",
+        "FL",
+        "AR"
+      ],
+      "midwest": [
+        "ND",
+        "IN",
+        "IL",
+        "MI",
+        "OH",
+        "MN",
+        "MO",
+        "KS",
+        "NE"
+      ],
+      "south-central": [
+        "TX"
+      ],
+      "west": [
+        "WY",
+        "UT",
+        "CO",
+        "MT",
+        "NM",
+        "WA"
+      ]
+    },
+    "black-oak": {
+      "new-england": [
+        "MA",
+        "NH",
+        "ME",
+        "RI",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "NJ",
+        "PA",
+        "DE",
+        "MD",
+        "VA",
+        "WV"
+      ],
+      "southeast": [
+        "NC",
+        "SC",
+        "TN",
+        "GA",
+        "KY",
+        "AL",
+        "FL",
+        "AR"
+      ],
+      "midwest": [
+        "IN",
+        "IL",
+        "MI",
+        "OH",
+        "MN",
+        "MO",
+        "KS",
+        "NE"
+      ],
+      "south-central": [
+        "TX"
+      ],
+      "west": [
+        "CO",
+        "WA"
+      ]
+    },
+    "sweetgum": {
+      "new-england": [
+        "MA",
+        "ME",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "NJ",
+        "PA",
+        "DE",
+        "MD",
+        "VA",
+        "WV"
+      ],
+      "southeast": [
+        "NC",
+        "SC",
+        "TN",
+        "GA",
+        "AL",
+        "AR"
+      ],
+      "midwest": [
+        "IN",
+        "IL",
+        "MI",
+        "OH",
+        "IA",
+        "MO",
+        "NE"
+      ],
+      "south-central": [
+        "TX",
+        "OK"
+      ],
+      "west": [
+        "UT",
+        "CO",
+        "NM",
+        "WA"
+      ]
+    },
+    "bur-oak": {
+      "new-england": [
+        "MA",
+        "NH",
+        "VT",
+        "ME",
+        "RI",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "NJ",
+        "PA",
+        "DE",
+        "MD",
+        "VA",
+        "WV"
+      ],
+      "southeast": [
+        "NC",
+        "SC",
+        "TN",
+        "GA",
+        "KY",
+        "AL",
+        "AR"
+      ],
+      "midwest": [
+        "ND",
+        "SD",
+        "IN",
+        "IL",
+        "MI",
+        "OH",
+        "WI",
+        "MN",
+        "MO",
+        "KS",
+        "NE"
+      ],
+      "south-central": [
+        "TX",
+        "OK"
+      ],
+      "west": [
+        "WY",
+        "UT",
+        "ID",
+        "CO",
+        "MT"
+      ]
+    },
+    "eastern-redcedar": {
+      "new-england": [
+        "NH",
+        "ME",
+        "RI",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "PA",
+        "DE",
+        "MD",
+        "VA",
+        "WV"
+      ],
+      "southeast": [
+        "NC",
+        "SC",
+        "TN",
+        "GA",
+        "KY",
+        "FL",
+        "AR"
+      ],
+      "midwest": [
+        "ND",
+        "SD",
+        "IN",
+        "IL",
+        "MI",
+        "OH",
+        "MN",
+        "IA",
+        "MO",
+        "KS",
+        "NE"
+      ],
+      "west": [
+        "UT",
+        "CO",
+        "WA"
+      ]
+    },
+    "northern-catalpa": {
+      "new-england": [
+        "MA",
+        "NH",
+        "VT",
+        "ME",
+        "RI",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "NJ",
+        "PA",
+        "DE",
+        "MD",
+        "VA",
+        "WV"
+      ],
+      "southeast": [
+        "NC",
+        "SC",
+        "TN",
+        "GA",
+        "KY",
+        "AR"
+      ],
+      "midwest": [
+        "ND",
+        "SD",
+        "IN",
+        "IL",
+        "MI",
+        "OH",
+        "WI",
+        "MO",
+        "KS",
+        "NE"
+      ],
+      "south-central": [
+        "TX",
+        "OK"
+      ],
+      "west": [
+        "WY",
+        "UT",
+        "CA",
+        "NV",
+        "ID",
+        "CO",
+        "MT",
+        "NM",
+        "OR",
+        "WA"
+      ]
+    },
+    "cucumber-magnolia": {
+      "new-england": [
+        "MA",
+        "NH",
+        "VT",
+        "ME",
+        "RI",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "NJ",
+        "PA",
+        "DE",
+        "MD",
+        "VA",
+        "WV"
+      ],
+      "southeast": [
+        "NC",
+        "SC",
+        "TN",
+        "GA",
+        "KY",
+        "AL",
+        "AR"
+      ],
+      "midwest": [
+        "IN",
+        "IL",
+        "MI",
+        "OH",
+        "WI",
+        "MO",
+        "KS"
+      ],
+      "west": [
+        "UT",
+        "CO",
+        "WA"
+      ]
+    },
+    "eastern-cottonwood": {
+      "new-england": [
+        "VT",
+        "ME",
+        "RI",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "NJ",
+        "PA",
+        "DE",
+        "MD",
+        "VA",
+        "WV"
+      ],
+      "southeast": [
+        "NC",
+        "SC",
+        "TN",
+        "GA",
+        "KY",
+        "AL",
+        "AR"
+      ],
+      "midwest": [
+        "ND",
+        "SD",
+        "IN",
+        "IL",
+        "MI",
+        "OH",
+        "WI",
+        "MO",
+        "NE"
+      ],
+      "south-central": [
+        "OK"
+      ],
+      "west": [
+        "WY",
+        "UT",
+        "CO",
+        "OR"
+      ]
+    },
+    "bitternut-hickory": {
+      "new-england": [
+        "NH",
+        "VT",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "PA",
+        "DE",
+        "MD",
+        "VA",
+        "WV"
+      ],
+      "southeast": [
+        "NC",
+        "SC",
+        "GA",
+        "KY",
+        "AL",
+        "FL"
+      ],
+      "midwest": [
+        "ND",
+        "IN",
+        "IL",
+        "MI",
+        "OH",
+        "MN",
+        "IA",
+        "MO",
+        "NE"
+      ],
+      "south-central": [
+        "TX"
+      ],
+      "west": [
+        "CO"
+      ]
+    },
+    "flowering-dogwood": {
+      "new-england": [
+        "MA",
+        "ME",
+        "RI"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "PA",
+        "DE",
+        "MD",
+        "VA",
+        "WV"
+      ],
+      "southeast": [
+        "NC",
+        "SC",
+        "TN",
+        "GA",
+        "KY",
+        "AL",
+        "FL",
+        "AR"
+      ],
+      "midwest": [
+        "IN",
+        "IL",
+        "MI",
+        "OH",
+        "IA",
+        "MO",
+        "KS"
+      ],
+      "south-central": [
+        "TX",
+        "OK"
+      ],
+      "west": [
+        "UT",
+        "NV",
+        "ID",
+        "CO",
+        "WA"
+      ]
+    },
+    "osage-orange": {
+      "new-england": [
+        "MA",
+        "NH",
+        "VT",
+        "RI",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "NJ",
+        "PA",
+        "DE",
+        "MD",
+        "VA"
+      ],
+      "southeast": [
+        "NC",
+        "SC",
+        "TN",
+        "GA",
+        "KY",
+        "AL",
+        "FL",
+        "AR"
+      ],
+      "midwest": [
+        "MI",
+        "OH",
+        "MO",
+        "KS",
+        "NE"
+      ],
+      "south-central": [
+        "TX",
+        "OK"
+      ],
+      "west": [
+        "UT",
+        "ID",
+        "CO",
+        "NM",
+        "WA"
+      ]
+    },
+    "chinkapin-oak": {
+      "new-england": [
+        "VT",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "PA",
+        "MD",
+        "VA",
+        "WV"
+      ],
+      "southeast": [
+        "NC",
+        "SC",
+        "TN",
+        "KY",
+        "AL",
+        "FL",
+        "AR"
+      ],
+      "midwest": [
+        "IN",
+        "IL",
+        "MI",
+        "OH",
+        "WI",
+        "IA",
+        "MO",
+        "KS",
+        "NE"
+      ],
+      "south-central": [
+        "TX"
+      ],
+      "west": [
+        "UT",
+        "CO",
+        "NM",
+        "WA"
+      ]
+    },
+    "post-oak": {
+      "new-england": [
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "NJ",
+        "PA",
+        "DE",
+        "MD",
+        "VA",
+        "WV"
+      ],
+      "southeast": [
+        "NC",
+        "SC",
+        "TN",
+        "GA",
+        "KY",
+        "AL",
+        "FL",
+        "AR"
+      ],
+      "midwest": [
+        "IN",
+        "IL",
+        "MI",
+        "OH",
+        "IA",
+        "MO",
+        "KS"
+      ],
+      "south-central": [
+        "TX",
+        "OK"
+      ]
+    },
+    "kentucky-coffeetree": {
+      "new-england": [
+        "MA",
+        "NH",
+        "VT",
+        "ME",
+        "RI",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "NJ",
+        "PA",
+        "DE",
+        "MD",
+        "VA",
+        "WV"
+      ],
+      "southeast": [
+        "NC",
+        "SC",
+        "TN",
+        "GA",
+        "KY",
+        "AR"
+      ],
+      "midwest": [
+        "ND",
+        "SD",
+        "IN",
+        "IL",
+        "MI",
+        "OH",
+        "WI",
+        "MO",
+        "KS",
+        "NE"
+      ],
+      "south-central": [
+        "TX",
+        "OK"
+      ],
+      "west": [
+        "UT",
+        "ID",
+        "CO",
+        "MT",
+        "WA"
+      ]
+    },
+    "slippery-elm": {
+      "new-england": [
+        "ME",
+        "RI",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "NJ",
+        "PA",
+        "DE",
+        "MD",
+        "VA",
+        "WV"
+      ],
+      "southeast": [
+        "NC",
+        "SC",
+        "TN",
+        "GA",
+        "KY",
+        "AL",
+        "FL",
+        "AR"
+      ],
+      "midwest": [
+        "ND",
+        "IN",
+        "IL",
+        "MI",
+        "OH",
+        "MN",
+        "MO",
+        "KS",
+        "NE"
+      ],
+      "south-central": [
+        "TX",
+        "OK"
+      ],
+      "west": [
+        "UT",
+        "NV"
+      ]
+    },
+    "butternut": {
+      "new-england": [
+        "MA",
+        "NH",
+        "VT",
+        "ME",
+        "RI",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "DE",
+        "MD",
+        "VA",
+        "WV"
+      ],
+      "southeast": [
+        "NC",
+        "SC",
+        "GA",
+        "KY",
+        "AL",
+        "AR"
+      ],
+      "midwest": [
+        "ND",
+        "IN",
+        "IL",
+        "MI",
+        "OH",
+        "WI",
+        "MN",
+        "MO",
+        "KS",
+        "NE"
+      ],
+      "west": [
+        "UT",
+        "ID",
+        "CO"
+      ]
+    },
+    "scarlet-oak": {
+      "new-england": [
+        "MA",
+        "ME",
+        "RI",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "PA",
+        "DE",
+        "MD",
+        "VA",
+        "WV"
+      ],
+      "southeast": [
+        "NC",
+        "SC",
+        "TN",
+        "GA",
+        "KY",
+        "AL",
+        "AR"
+      ],
+      "midwest": [
+        "IN",
+        "IL",
+        "MI",
+        "OH",
+        "MO",
+        "KS"
+      ],
+      "west": [
+        "CO",
+        "WA"
+      ]
+    },
+    "red-mulberry": {
+      "new-england": [
+        "VT",
+        "ME",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "PA",
+        "DE",
+        "MD",
+        "VA",
+        "WV"
+      ],
+      "southeast": [
+        "NC",
+        "SC",
+        "TN",
+        "GA",
+        "KY",
+        "AL",
+        "FL",
+        "AR"
+      ],
+      "midwest": [
+        "IN",
+        "IL",
+        "OH",
+        "MN",
+        "IA",
+        "MO",
+        "KS"
+      ],
+      "south-central": [
+        "TX"
+      ],
+      "west": [
+        "NV",
+        "CO",
+        "MT"
+      ]
+    },
+    "black-locust": {
+      "new-england": [
+        "NH",
+        "VT",
+        "ME",
+        "RI",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "NJ",
+        "PA",
+        "DE",
+        "MD",
+        "VA",
+        "WV"
+      ],
+      "southeast": [
+        "NC",
+        "SC",
+        "TN",
+        "GA",
+        "KY",
+        "AL",
+        "AR"
+      ],
+      "midwest": [
+        "ND",
+        "SD",
+        "IN",
+        "IL",
+        "MI",
+        "OH",
+        "MO",
+        "KS",
+        "NE"
+      ],
+      "west": [
+        "WY",
+        "UT",
+        "CA",
+        "AZ",
+        "ID",
+        "CO",
+        "OR"
+      ]
+    },
+    "pawpaw": {
+      "new-england": [
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "NJ",
+        "PA",
+        "DE",
+        "MD",
+        "VA",
+        "WV"
+      ],
+      "southeast": [
+        "NC",
+        "SC",
+        "TN",
+        "GA",
+        "KY",
+        "AL",
+        "AR"
+      ],
+      "midwest": [
+        "IN",
+        "IL",
+        "MI",
+        "OH",
+        "MO",
+        "KS",
+        "NE"
+      ],
+      "south-central": [
+        "TX",
+        "OK"
+      ],
+      "west": [
+        "CO",
+        "WA"
+      ]
+    },
+    "ginkgo": {
+      "new-england": [
+        "MA",
+        "NH",
+        "ME",
+        "RI",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NJ",
+        "PA",
+        "DE",
+        "MD",
+        "VA",
+        "WV"
+      ],
+      "southeast": [
+        "NC",
+        "SC",
+        "TN",
+        "GA",
+        "AR"
+      ],
+      "midwest": [
+        "ND",
+        "SD",
+        "MI",
+        "OH",
+        "WI",
+        "IA",
+        "KS",
+        "NE"
+      ],
+      "south-central": [
+        "TX",
+        "OK"
+      ],
+      "west": [
+        "UT",
+        "CA",
+        "ID",
+        "CO",
+        "MT"
+      ]
+    },
+    "american-holly": {
+      "new-england": [
+        "MA",
+        "ME",
+        "RI",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "NJ",
+        "PA",
+        "DE",
+        "MD",
+        "VA",
+        "WV"
+      ],
+      "southeast": [
+        "NC",
+        "SC",
+        "TN",
+        "GA",
+        "KY",
+        "FL",
+        "AR"
+      ],
+      "midwest": [
+        "IL",
+        "OH",
+        "MO",
+        "KS"
+      ],
+      "south-central": [
+        "TX",
+        "OK"
+      ],
+      "west": [
+        "CO",
+        "WA"
+      ]
+    },
+    "southern-magnolia": {
+      "new-england": [
+        "RI",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "NJ",
+        "PA",
+        "DE",
+        "MD",
+        "VA"
+      ],
+      "southeast": [
+        "NC",
+        "SC",
+        "TN",
+        "GA",
+        "KY",
+        "AL",
+        "FL",
+        "AR"
+      ],
+      "midwest": [
+        "OH",
+        "KS"
+      ],
+      "south-central": [
+        "TX",
+        "OK"
+      ],
+      "west": [
+        "CA",
+        "CO",
+        "OR",
+        "WA"
+      ]
+    },
+    "honeylocust": {
+      "new-england": [
+        "MA",
+        "NH",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "PA",
+        "DE",
+        "MD",
+        "VA"
+      ],
+      "southeast": [
+        "NC",
+        "SC",
+        "GA",
+        "KY",
+        "AL",
+        "FL"
+      ],
+      "midwest": [
+        "ND",
+        "IN",
+        "IL",
+        "MI",
+        "WI",
+        "MN",
+        "MO",
+        "NE"
+      ],
+      "south-central": [
+        "TX"
+      ],
+      "west": [
+        "WY",
+        "UT",
+        "AZ",
+        "ID",
+        "CO",
+        "WA"
+      ]
+    },
+    "loblolly-pine": {
+      "new-england": [
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "NJ",
+        "PA",
+        "DE",
+        "MD",
+        "VA",
+        "WV"
+      ],
+      "southeast": [
+        "NC",
+        "SC",
+        "TN",
+        "GA",
+        "AL",
+        "FL",
+        "AR"
+      ],
+      "midwest": [
+        "OH",
+        "KS"
+      ],
+      "south-central": [
+        "TX",
+        "OK"
+      ],
+      "west": [
+        "WA"
+      ]
+    },
+    "american-persimmon": {
+      "new-england": [
+        "ME",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "DE",
+        "MD",
+        "VA",
+        "WV"
+      ],
+      "southeast": [
+        "NC",
+        "SC",
+        "TN",
+        "GA",
+        "KY",
+        "AL",
+        "FL",
+        "AR"
+      ],
+      "midwest": [
+        "IN",
+        "IL",
+        "MI",
+        "OH",
+        "MO",
+        "KS",
+        "NE"
+      ],
+      "south-central": [
+        "TX",
+        "OK"
+      ],
+      "west": [
+        "UT",
+        "WA"
+      ]
+    },
+    "pitch-pine": {
+      "new-england": [
+        "MA",
+        "VT",
+        "ME",
+        "RI",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "NJ",
+        "PA",
+        "DE",
+        "MD",
+        "VA",
+        "WV"
+      ],
+      "southeast": [
+        "NC",
+        "SC",
+        "TN",
+        "GA",
+        "KY"
+      ],
+      "midwest": [
+        "MI",
+        "OH",
+        "KS"
+      ]
+    },
+    "ohio-buckeye": {
+      "new-england": [
+        "ME",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "PA",
+        "MD",
+        "VA",
+        "WV"
+      ],
+      "southeast": [
+        "NC",
+        "TN",
+        "GA",
+        "KY",
+        "AR"
+      ],
+      "midwest": [
+        "ND",
+        "SD",
+        "IN",
+        "IL",
+        "MI",
+        "OH",
+        "WI",
+        "MO",
+        "KS",
+        "NE"
+      ],
+      "south-central": [
+        "OK"
+      ],
+      "west": [
+        "WY",
+        "UT",
+        "NV",
+        "CO",
+        "WA"
+      ]
+    },
+    "willow-oak": {
+      "new-england": [
+        "RI",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "NJ",
+        "PA",
+        "DE",
+        "MD",
+        "VA",
+        "WV"
+      ],
+      "southeast": [
+        "NC",
+        "SC",
+        "TN",
+        "GA",
+        "KY",
+        "AL",
+        "FL",
+        "AR"
+      ],
+      "midwest": [
+        "IL",
+        "MI",
+        "OH",
+        "IA",
+        "MO",
+        "KS"
+      ],
+      "west": [
+        "WA"
+      ]
+    },
+    "overcup-oak": {
+      "new-england": [
+        "NH",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "PA",
+        "DE",
+        "MD",
+        "VA"
+      ],
+      "southeast": [
+        "NC",
+        "SC",
+        "TN",
+        "GA",
+        "KY",
+        "AL",
+        "FL",
+        "AR"
+      ],
+      "midwest": [
+        "IN",
+        "IL",
+        "OH",
+        "WI",
+        "IA",
+        "MO",
+        "KS"
+      ],
+      "south-central": [
+        "TX",
+        "OK"
+      ],
+      "west": [
+        "CO"
+      ]
+    },
+    "pignut-hickory": {
+      "new-england": [
+        "MA",
+        "ME",
+        "RI",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "NJ",
+        "PA",
+        "DE",
+        "MD",
+        "VA",
+        "WV"
+      ],
+      "southeast": [
+        "NC",
+        "SC",
+        "TN",
+        "GA",
+        "KY",
+        "AL",
+        "FL"
+      ],
+      "midwest": [
+        "IN",
+        "IL",
+        "MI",
+        "OH",
+        "MO"
+      ],
+      "south-central": [
+        "TX",
+        "OK"
+      ],
+      "west": [
+        "WA"
+      ]
+    },
+    "shingle-oak": {
+      "new-england": [
+        "ME",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "NJ",
+        "PA",
+        "DE",
+        "MD",
+        "VA",
+        "WV"
+      ],
+      "southeast": [
+        "NC",
+        "SC",
+        "TN",
+        "GA",
+        "KY",
+        "AL"
+      ],
+      "midwest": [
+        "IN",
+        "IL",
+        "MI",
+        "OH",
+        "WI",
+        "MO",
+        "KS"
+      ],
+      "west": [
+        "UT",
+        "CO",
+        "OR",
+        "WA"
+      ]
+    },
+    "shortleaf-pine": {
+      "mid-atlantic": [
+        "NJ",
+        "PA",
+        "DE",
+        "MD",
+        "VA",
+        "WV"
+      ],
+      "southeast": [
+        "NC",
+        "SC",
+        "TN",
+        "GA",
+        "KY",
+        "AL",
+        "FL",
+        "AR"
+      ],
+      "midwest": [
+        "IL",
+        "OH",
+        "IA",
+        "MO",
+        "KS"
+      ],
+      "south-central": [
+        "TX",
+        "OK"
+      ],
+      "west": [
+        "WA"
+      ]
+    },
+    "katsura": {
+      "new-england": [
+        "MA",
+        "ME",
+        "RI",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NJ",
+        "PA",
+        "MD",
+        "VA"
+      ],
+      "southeast": [
+        "NC",
+        "TN"
+      ],
+      "midwest": [
+        "OH",
+        "IA"
+      ],
+      "west": [
+        "CO"
+      ]
+    },
+    "red-pine": {
+      "new-england": [
+        "MA",
+        "NH",
+        "VT",
+        "ME",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "NJ",
+        "PA",
+        "MD",
+        "VA",
+        "WV"
+      ],
+      "southeast": [
+        "NC"
+      ],
+      "midwest": [
+        "ND",
+        "SD",
+        "IL",
+        "MI",
+        "OH",
+        "WI",
+        "MN",
+        "KS"
+      ],
+      "west": [
+        "CO",
+        "WA"
+      ]
+    },
+    "jack-pine": {
+      "new-england": [
+        "VT",
+        "ME"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "PA"
+      ],
+      "midwest": [
+        "ND",
+        "SD",
+        "IN",
+        "IL",
+        "MI",
+        "MN",
+        "IA",
+        "KS",
+        "NE"
+      ],
+      "west": [
+        "CO",
+        "WA"
+      ]
+    },
+    "white-spruce": {
+      "new-england": [
+        "ME",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "VA"
+      ],
+      "southeast": [
+        "NC",
+        "GA"
+      ],
+      "midwest": [
+        "ND",
+        "MI",
+        "OH",
+        "MN",
+        "IA",
+        "KS",
+        "NE"
+      ],
+      "west": [
+        "UT",
+        "NV",
+        "CO",
+        "MT",
+        "WA"
+      ]
+    },
+    "black-spruce": {
+      "new-england": [
+        "MA",
+        "ME",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "PA"
+      ],
+      "midwest": [
+        "MI",
+        "OH",
+        "MN"
+      ],
+      "west": [
+        "CO",
+        "WA"
+      ],
+      "alaska": [
+        "AK"
+      ]
+    },
+    "bigtooth-aspen": {
+      "new-england": [
+        "NH",
+        "VT",
+        "ME",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "PA",
+        "DE",
+        "MD",
+        "VA",
+        "WV"
+      ],
+      "southeast": [
+        "NC",
+        "TN",
+        "KY"
+      ],
+      "midwest": [
+        "SD",
+        "IN",
+        "MI",
+        "OH",
+        "WI",
+        "MN",
+        "IA",
+        "MO"
+      ]
+    },
+    "southern-live-oak": {
+      "mid-atlantic": [
+        "MD",
+        "VA"
+      ],
+      "southeast": [
+        "NC",
+        "TN",
+        "GA",
+        "AL",
+        "FL",
+        "AR"
+      ],
+      "south-central": [
+        "TX"
+      ],
+      "west": [
+        "UT"
+      ]
+    },
+    "giant-sequoia": {
+      "new-england": [
+        "RI",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "NJ",
+        "PA"
+      ],
+      "southeast": [
+        "NC"
+      ],
+      "midwest": [
+        "MI",
+        "OH"
+      ],
+      "west": [
+        "UT",
+        "CA",
+        "ID",
+        "CO",
+        "OR",
+        "WA"
+      ]
+    },
+    "american-yellowwood": {
+      "new-england": [
+        "MA",
+        "VT",
+        "ME",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "PA",
+        "MD",
+        "VA"
+      ],
+      "southeast": [
+        "NC",
+        "GA",
+        "KY",
+        "AL",
+        "AR"
+      ],
+      "midwest": [
+        "IN",
+        "MI",
+        "MO",
+        "KS"
+      ],
+      "south-central": [
+        "OK"
+      ],
+      "west": [
+        "CO",
+        "WA"
+      ]
+    },
+    "castor-aralia": {
+      "new-england": [
+        "MA",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "PA"
+      ],
+      "midwest": [
+        "OH"
+      ],
+      "west": [
+        "UT",
+        "CO"
+      ]
+    },
+    "coast-redwood": {
+      "mid-atlantic": [
+        "NJ",
+        "PA",
+        "MD",
+        "VA"
+      ],
+      "southeast": [
+        "NC",
+        "SC",
+        "GA"
+      ],
+      "west": [
+        "CA",
+        "OR",
+        "WA"
+      ]
+    },
+    "douglas-fir": {
+      "new-england": [
+        "MA",
+        "RI",
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NJ",
+        "PA",
+        "MD",
+        "VA",
+        "WV"
+      ],
+      "southeast": [
+        "NC",
+        "SC",
+        "TN",
+        "GA"
+      ],
+      "midwest": [
+        "ND",
+        "SD",
+        "MI"
+      ],
+      "west": [
+        "WY",
+        "UT",
+        "CA",
+        "CO",
+        "NM",
+        "OR"
+      ]
+    },
+    "western-redcedar": {
+      "new-england": [
+        "CT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "NJ",
+        "PA",
+        "MD",
+        "VA"
+      ],
+      "southeast": [
+        "GA"
+      ],
+      "midwest": [
+        "OH"
+      ],
+      "west": [
+        "UT",
+        "CA",
+        "ID",
+        "CO",
+        "MT",
+        "OR",
+        "WA"
+      ]
+    },
+    "ponderosa-pine": {
+      "new-england": [
+        "MA",
+        "VT"
+      ],
+      "mid-atlantic": [
+        "NY",
+        "PA",
+        "MD"
+      ],
+      "midwest": [
+        "ND",
+        "SD",
+        "MI",
+        "OH",
+        "WI",
+        "IA",
+        "KS",
+        "NE"
+      ],
+      "west": [
+        "WY",
+        "UT",
+        "CA",
+        "CO",
+        "NM"
+      ]
+    },
+    "pacific-madrone": {
+      "west": [
+        "CA",
+        "OR",
+        "WA"
+      ]
+    }
+  }
+}
