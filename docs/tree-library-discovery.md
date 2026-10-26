@@ -56,3 +56,11 @@ URL round-trips and invalid choices, filter intersections, variable foliage,
 compound-leaf arrangement, no-results recovery, comparison reciprocity, image
 credits and local files. README coverage and sitemap counts follow the six-guide
 collection; filtered URL variants keep the Library canonical.
+
+## Regional discovery · October 26, 2026
+
+The Library offers eight nonoverlapping U.S. regions, covering all fifty states. Region selections intersect name, practice, and identification filters and persist in shared URLs and browser history. Reset clears the region while retaining view and sort.
+
+Membership comes from exact, case-insensitive scientific-name matches in the site's imported champion records. It includes native and planted trees and is explicitly not a native-range map, comprehensive local checklist, or assurance of current presence or public access. Each regional result links to its supporting records. Expanded region coverage names its states; Alaska and Hawaiʻi have limited records.
+
+`npm run sync:library-regions` regenerates the lightweight state-membership index after profile or register updates. `npm run check:library-regions` runs before builds to prevent stale results. Full register payloads stay outside the Library client bundle.

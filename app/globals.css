@@ -1141,7 +1141,7 @@ section[id] { scroll-margin-top: 90px; }
 @media (max-width: 760px) { .comparison-grid { grid-template-columns: 1fr; } .comparison-clue { min-height: 0; } .comparison-grid img { height: auto; max-height: 420px; } }
 
 /* Library discovery: broad practices first, optional observation tools. */
-.library-discovery .library-filter-fields { grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr) minmax(0, 1fr); }
+.library-discovery .library-filter-fields { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .library-identification { margin-top: 1.5rem; padding: 1rem 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
 .library-identification summary { cursor: pointer; font-weight: 600; line-height: 1.5; padding: .4rem 0; }
 .library-identification summary:focus-visible { outline: 3px solid var(--ink); outline-offset: 4px; }
@@ -1650,3 +1650,8 @@ body::before {
 .lesson-provenance dd { margin: 0; line-height: 1.75; }
 .flagship-navigation a:focus-visible, .original-video-choice button:focus-visible { outline: 3px solid var(--moss); outline-offset: 4px; }
 @media print { .flagship-navigation, .original-video-choice { display: none; } }
+
+.library-region-help { font-size: .9rem; line-height: 1.6; margin: 1rem 0; }
+.library-region-coverage { margin: 1rem 0; line-height: 1.6; }
+.library-region-coverage summary { cursor: pointer; font-weight: 600; }
+.library-region-record { font-size: .9rem; line-height: 1.5; }

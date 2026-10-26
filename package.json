@@ -9,10 +9,12 @@
     "lint": "next lint",
     "validate:champions": "node scripts/validate-champion-imports.cjs",
     "test": "node --test scripts/test-*.cjs",
-    "prebuild": "npm run check:coverage && npm run validate:champions",
+    "prebuild": "npm run check:coverage && npm run validate:champions && npm run check:library-regions",
     "sync:coverage": "node scripts/sync-coverage-readme.cjs",
     "check:coverage": "node scripts/sync-coverage-readme.cjs --check",
-    "review:sources": "node scripts/review-champion-sources.cjs"
+    "review:sources": "node scripts/review-champion-sources.cjs",
+    "sync:library-regions": "node scripts/sync-library-regions.cjs",
+    "check:library-regions": "node scripts/sync-library-regions.cjs --check"
   },
   "dependencies": {
     "leaflet": "1.9.4",

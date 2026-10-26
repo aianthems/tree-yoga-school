@@ -20,12 +20,12 @@ test('six broad practice categories cover every tree while retaining detailed pr
  assert.deepEqual(slugs({query:'pitch pine',practice:'curiosity'}),[]);
 });
 test('URL selections round-trip every filter, sort and view, including punctuation',()=>{
- const selection={query:'oak & maple / Quercus',practice:'steadiness',foliage:'broad',arrangement:'alternate',lobes:'lobed',bark:'furrowed',sort:'za',view:'compact'};
+ const selection={query:'oak & maple / Quercus',region:'new-england',practice:'steadiness',foliage:'broad',arrangement:'alternate',lobes:'lobed',bark:'furrowed',sort:'za',view:'compact'};
  const href=libraryHref(selection);assert.ok(href.startsWith('/trees?'));assert.deepEqual(readLibrarySelection(new URL(href,'https://example.com').searchParams),selection);
- assert.deepEqual(readLibrarySelection(new URLSearchParams('practice=bad&foliage=bad&arrangement=bad&lobes=bad&bark=bad&sort=bad&view=bad')),emptyLibrarySelection);
+ assert.deepEqual(readLibrarySelection(new URLSearchParams('region=bad&practice=bad&foliage=bad&arrangement=bad&lobes=bad&bark=bad&sort=bad&view=bad')),emptyLibrarySelection);
  assert.equal(libraryHref(emptyLibrarySelection),'/trees');assert.equal(hasLibraryFilters(emptyLibrarySelection),false);
  assert.equal(hasLibraryFilters({...emptyLibrarySelection,sort:'za',view:'compact'}),false);
- for(const key of ['query','practice','foliage','arrangement','lobes','bark'])assert.equal(hasLibraryFilters({...emptyLibrarySelection,[key]:'active'}),true);
+ for(const key of ['query','region','practice','foliage','arrangement','lobes','bark'])assert.equal(hasLibraryFilters({...emptyLibrarySelection,[key]:'active'}),true);
 });
 test('all profiles have sourced identification metadata and every option is reachable',()=>{
  assert.deepEqual(new Set(Object.keys(treeIdentification)),new Set(trees.map(t=>t.slug)));
