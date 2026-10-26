@@ -2,6 +2,76 @@ import { getTree } from "./trees";
 import extraImages from "./compare-tree-images.json";
 
 export const treeComparisons = [
+{
+  "slug": "quaking-aspen-bigtooth-aspen",
+  "title": "Quaking Aspen & Bigtooth Aspen",
+  "slugs": [
+    "aspen",
+    "bigtooth-aspen"
+  ],
+  "lead": "Both are aspens with alternate, toothed leaves. Compare the size of the teeth, then look at winter bud scales when visible.",
+  "features": [
+    {
+      "title": "Leaf margins and outline",
+      "clues": [
+        "Leaves are often rounded to broadly triangular, with relatively small, fine teeth along the edge.",
+        "Leaves have conspicuously larger, coarser teeth; the blade is often larger too."
+      ],
+      "images": [
+        "aspen-leaves.webp",
+        "bigtooth-aspen.webp"
+      ],
+      "note": "Compare several mature leaves. Size and outline overlap, and damage can change a leaf’s edge. The large teeth on bigtooth aspen are teeth, not deep leaf lobes."
+    },
+    {
+      "title": "Winter buds",
+      "clues": [
+        "Winter bud scales are hairless; the buds can be pointed.",
+        "Winter bud scales are hairy, offering a useful additional clue."
+      ],
+      "images": [
+        "compare-quaking-aspen-bud.webp",
+        "bigtooth-aspen-twig.webp"
+      ],
+      "note": "These close views are not at a common scale. Fine hairs may require magnification on a naturally fallen twig or a comfortably visible branch. Do not confuse pale hairs with reflected light or remove a bud to check it."
+    }
+  ]
+},
+{
+  "slug": "quaking-aspen-eastern-cottonwood",
+  "title": "Quaking Aspen & Eastern Cottonwood",
+  "slugs": [
+    "aspen",
+    "eastern-cottonwood"
+  ],
+  "lead": "Both belong to Populus and can have moving leaves and pale young bark. Combine leaf shape with age-aware bark observations.",
+  "features": [
+    {
+      "title": "Leaf outline and margin",
+      "clues": [
+        "Leaves are often rounded to broadly triangular with small, fine teeth.",
+        "Leaves are commonly more distinctly triangular, with a broad, nearly straight base and coarser teeth."
+      ],
+      "images": [
+        "aspen-leaves.webp",
+        "compare-eastern-cottonwood-leaves.webp"
+      ],
+      "note": "Outline varies, so compare several mature leaves. Both species can have flattened leaf stalks and moving foliage; trembling alone does not settle the identification."
+    },
+    {
+      "title": "Bark through time",
+      "clues": [
+        "Much of the trunk can remain pale and relatively smooth, with dark markings; older lower bark may become rough and furrowed.",
+        "Young bark may be smooth and greenish-gray, while mature trunks develop deep, interconnecting furrows and ridges."
+      ],
+      "images": [
+        "aspen-bark.webp",
+        "compare-eastern-cottonwood-bark.webp"
+      ],
+      "note": "These photographs show particular trunk ages and are not matched in scale. Young cottonwood and older aspen can defeat a bark-only guess. Recheck foliage and consult a local key; other poplars and hybrids can complicate identification."
+    }
+  ]
+},
   {
     slug: "white-oak-bur-oak", title: "White Oak & Bur Oak", slugs: ["oak", "bur-oak"],
     lead: "Both have rounded leaf lobes. Start with the acorn cup, then compare the leaf outline.",
@@ -75,10 +145,24 @@ export function comparisonImage(filename: string) {
 
 // Supplement the profile references where a comparative feature needs a clearer source.
 export function additionalComparisonReferences(slug: string): readonly { label: string; url: string }[] {
+  if (slug === "quaking-aspen-bigtooth-aspen") return [
+    { label: "Native Plant Trust: quaking aspen leaf and winter-bud characteristics", url: "https://gobotany.nativeplanttrust.org/species/populus/tremuloides/" },
+    { label: "Native Plant Trust: bigtooth aspen leaf and winter-bud characteristics", url: "https://gobotany.nativeplanttrust.org/species/populus/grandidentata/" },
+  ];
+  if (slug === "quaking-aspen-eastern-cottonwood") return [
+    { label: "Native Plant Trust: quaking aspen", url: "https://gobotany.nativeplanttrust.org/species/populus/tremuloides/" },
+    { label: "Native Plant Trust: eastern cottonwood", url: "https://gobotany.nativeplanttrust.org/species/populus/deltoides/" },
+  ];
   if (slug === "paper-birch-yellow-birch") return [{ label: "UNH Extension: Yellow birch seed catkins", url: "https://extension.unh.edu/blog/2018/08/champions-mid-succession-forests" }];
   if (slug === "white-ash-green-ash") return [
     { label: "USDA: White ash plant guide", url: "https://plants.usda.gov/DocumentLibrary/plantguide/pdf/cs_fram2.pdf" },
     { label: "Oregon State University: Green ash", url: "https://landscapeplants.oregonstate.edu/plants/fraxinus-pennsylvanica" },
   ];
   return [];
+}
+
+// Only the new companion guides received a fresh comparative reference review.
+export function comparisonReviewDate(slug: string) {
+  return slug === "quaking-aspen-bigtooth-aspen" || slug === "quaking-aspen-eastern-cottonwood"
+    ? "October 26, 2026" : "October 10, 2026";
 }

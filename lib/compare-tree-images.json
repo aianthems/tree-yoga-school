@@ -128,5 +128,44 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Korina_2012-08-28_Fraxinus_pennsylvanica_7.jpg",
       "label": "Green ash compound leaves showing their leaflets"
     }
+  },
+  "compare-quaking-aspen-bud": {
+    "image": "/images/trees/compare-quaking-aspen-bud.webp",
+    "imageAlt": "Pointed winter bud on a quaking aspen twig",
+    "credit": {
+      "photographer": "Matt Lavin from Bozeman, Montana, USA",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Populus_tremuloides_(5002309357).jpg",
+      "label": "Winter bud"
+    },
+    "imageWidth": 1200,
+    "imageHeight": 900
+  },
+  "compare-eastern-cottonwood-leaves": {
+    "image": "/images/trees/compare-eastern-cottonwood-leaves.webp",
+    "imageAlt": "Naturally fallen eastern cottonwood leaf with a broad base and toothed triangular outline",
+    "credit": {
+      "photographer": "DouglasGoldman",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Populus_deltoides1.jpg",
+      "label": "Fallen leaf"
+    },
+    "imageWidth": 803,
+    "imageHeight": 1200
+  },
+  "compare-eastern-cottonwood-bark": {
+    "image": "/images/trees/compare-eastern-cottonwood-bark.webp",
+    "imageAlt": "Mature eastern cottonwood bark with deep intersecting furrows",
+    "credit": {
+      "photographer": "Jay Sturner from USA",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eastern_Cottonwood_(Populus_deltoides)_bark_-_Flickr_-_Jay_Sturner.jpg",
+      "label": "Mature bark"
+    },
+    "imageWidth": 720,
+    "imageHeight": 960
   }
 }

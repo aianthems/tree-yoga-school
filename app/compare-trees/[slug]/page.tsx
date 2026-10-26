@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import SiteHeader from "../../components/site-header";
-import { treeComparisons, comparisonImage, additionalComparisonReferences } from "../../../lib/tree-comparisons";
+import { treeComparisons, comparisonImage, additionalComparisonReferences, comparisonReviewDate } from "../../../lib/tree-comparisons";
 import { getTree } from "../../../lib/trees";
 import { pageMetadata } from "../../../lib/site-seo";
 
@@ -30,7 +30,7 @@ export default async function CompareTrees({ params }: { params: Promise<{ slug:
       })}</div>
     </section>)}
     <section className="tree-section"><h2>Look again before you decide.</h2><p>These clues compare this pair; other species, hybrids, age, and growing conditions can complicate identification. If the features disagree, keep observing and consult a local field guide or knowledgeable person.</p>
-      <p className="lesson-note">Botanical references checked October 10, 2026. NC State Extension: {species.map((tree, i) => <span key={tree.slug}>{i > 0 ? " · " : ""}<a href={tree.sourceUrl} target="_blank" rel="noreferrer">{tree.species}</a></span>)}.</p>
+      <p className="lesson-note">Botanical references checked {comparisonReviewDate(pair.slug)}: {species.map((tree, i) => <span key={tree.slug}>{i > 0 ? " · " : ""}<a href={tree.sourceUrl} target="_blank" rel="noreferrer">{tree.sourceLabel ?? `NC State Extension: ${tree.species}`}</a></span>)}.</p>
       {additionalComparisonReferences(pair.slug).length > 0 && <p className="lesson-note">Additional botanical references: {additionalComparisonReferences(pair.slug).map((reference, i) => <span key={reference.url}>{i > 0 ? " · " : ""}<a href={reference.url} target="_blank" rel="noreferrer">{reference.label}</a></span>)}.</p>}
       <div className="comparison-grid">{species.map(tree => <article key={tree.slug}><h3>{tree.species}</h3><div className="course-actions"><Link href={`/trees/${tree.slug}`} className="course-link">Meet the tree</Link><Link href={`/practice/${tree.slug}`} className="course-link">Open outdoor practice</Link></div></article>)}</div>
     </section>

@@ -272,7 +272,7 @@ test("related Library suggestions stay relevant, unique and limited for every pr
     assert.equal(new Set(related.map(item => item.tree.slug)).size, related.length);
     for (const item of related) {
       assert.notEqual(item.tree.slug, tree.slug);
-      assert.ok(item.tree.scientificName.split(" ")[0] === tree.scientificName.split(" ")[0] || item.tree.themes.some(theme => tree.themes.includes(theme)) || (new Set(["Pinus", "Picea", "Tsuga", "Larix"]).has(tree.scientificName.split(" ")[0]) && new Set(["Pinus", "Picea", "Tsuga", "Larix"]).has(item.tree.scientificName.split(" ")[0])));
+      assert.ok(item.tree.scientificName.split(" ")[0] === tree.scientificName.split(" ")[0] || item.tree.themes.some(theme => tree.themes.includes(theme)) || (new Set(["Pinus", "Picea", "Tsuga", "Larix", "Abies", "Pseudotsuga"]).has(tree.scientificName.split(" ")[0]) && new Set(["Pinus", "Picea", "Tsuga", "Larix", "Abies", "Pseudotsuga"]).has(item.tree.scientificName.split(" ")[0])));
     }
   }
   assert.deepEqual(trees.map(tree => tree.slug), before);

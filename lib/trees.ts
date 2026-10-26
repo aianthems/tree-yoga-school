@@ -1,3 +1,4 @@
+import { westernLibraryTrees } from "./tree-library-western";
 import { visitConnectionTrees } from "./tree-library-visit-connections";
 import { newEnglandLibraryTrees } from "./tree-library-new-england";
 import { canopyLibraryTrees } from "./tree-library-canopy";
@@ -864,6 +865,7 @@ export const trees: readonly Tree[] = [
   ...canopyLibraryTrees,
   ...newEnglandLibraryTrees,
   ...visitConnectionTrees,
+  ...westernLibraryTrees,
 ];
 
 export function getTree(slug: string) { return trees.find((tree) => tree.slug === slug); }

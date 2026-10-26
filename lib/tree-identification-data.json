@@ -1127,5 +1127,66 @@
       "furrowed"
     ],
     "sourceUrl": "https://plants.ces.ncsu.edu/plants/kalopanax-septemlobus/"
+  },
+  "coast-redwood": {
+    "foliage": [
+      "needles"
+    ],
+    "arrangement": [],
+    "lobes": [],
+    "bark": [
+      "furrowed"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/sequoia-sempervirens/"
+  },
+  "douglas-fir": {
+    "foliage": [
+      "needles"
+    ],
+    "arrangement": [],
+    "lobes": [],
+    "bark": [
+      "furrowed"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/pseudotsuga-menziesii/"
+  },
+  "western-redcedar": {
+    "foliage": [
+      "scales"
+    ],
+    "arrangement": [],
+    "lobes": [],
+    "bark": [
+      "peeling"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/thuja-plicata/"
+  },
+  "ponderosa-pine": {
+    "foliage": [
+      "needles"
+    ],
+    "arrangement": [],
+    "lobes": [],
+    "bark": [
+      "blocks",
+      "furrowed"
+    ],
+    "sourceUrl": "https://landscapeplants.oregonstate.edu/plants/pinus-ponderosa"
+  },
+  "pacific-madrone": {
+    "foliage": [
+      "broad"
+    ],
+    "arrangement": [
+      "alternate"
+    ],
+    "lobes": [
+      "unlobed"
+    ],
+    "bark": [
+      "peeling",
+      "smooth"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/arbutus-menziesii/"
   }
 }
