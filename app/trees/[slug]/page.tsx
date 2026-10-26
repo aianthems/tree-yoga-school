@@ -8,7 +8,7 @@ import TreeComparisonLinks from "../../components/tree-comparison-links";
 import SiteHeader from "../../components/site-header";
 import { getTree, trees } from "../../../lib/trees";
 import { championHref } from "../../../lib/champion-links";
-import { treeVisits } from "../../../lib/tree-visits";
+import { visitsForTree } from "../../../lib/tree-library-visits";
 import { relatedLibraryTrees } from "../../../lib/tree-library-related";
 import { bookUrl } from "../../../lib/intro-lessons";
 
@@ -27,7 +27,7 @@ export default async function TreePage({ params }: { params: Promise<{ slug: str
   const tree = getTree(slug);
   if (!tree) notFound();
   const suggestions = relatedLibraryTrees(tree, trees);
-  const visits = treeVisits.filter(visit => tree.visitSlugs?.includes(visit.slug));
+  const visits = visitsForTree(tree);
   return (
     <>
       <SiteHeader />
@@ -39,11 +39,11 @@ export default async function TreePage({ params }: { params: Promise<{ slug: str
             <h1>{tree.name}.</h1>
             <ul className="theme-list" aria-label="Contemplative themes">{tree.themes.map((theme) => <li key={theme}>{theme}</li>)}</ul>
             <p className="lesson-lede">{tree.invitation}</p>
-            <div className="course-actions"><a className="button primary" href="#practice">Practice with {tree.name}</a><a className="course-link" href="#energy">Explore its energy</a></div>
+            <div className="course-actions"><a className="button primary" href="#practice">Practice with {tree.name}</a><a className="course-link" href="#energy">Explore its energy</a>{visits.length > 0 && <a className="course-link" href="#visits">Places to visit ({visits.length})</a>}</div>
           </div>
           <figure className="tree-hero-image"><Image src={tree.image} alt={tree.imageAlt} width={tree.imageWidth} height={tree.imageHeight} sizes="(max-width: 760px) 100vw, 50vw" priority /><figcaption>{tree.credit.label} · Photo: {tree.credit.photographer} · <a href={tree.credit.licenseUrl} target="_blank" rel="noreferrer">{tree.credit.license}</a> · <a href={tree.credit.sourceUrl} target="_blank" rel="noreferrer">Source</a> · Converted to WebP</figcaption></figure>
         </section>
-        <nav className="tree-section-nav" aria-label="On this tree page"><a href="#meet">Meet the tree</a><a href="#energy">Energy & character</a><a href="#practice">Practice</a><a href="#roots">Roots in the book</a><a href="#notice">Notice for yourself</a></nav>
+        <nav className="tree-section-nav" aria-label="On this tree page"><a href="#meet">Meet the tree</a>{visits.length > 0 && <a href="#visits">Places to visit</a>}<a href="#energy">Energy & character</a><a href="#practice">Practice</a><a href="#roots">Roots in the book</a><a href="#notice">Notice for yourself</a></nav>
         <section id="meet" className="tree-section">
           <p className="section-kicker">01 · Meet the tree</p>
           <h2>Meet {tree.species.toLowerCase()}.</h2>
@@ -52,7 +52,6 @@ export default async function TreePage({ params }: { params: Promise<{ slug: str
           {tree.detailImages.length > 0 && <><h3>Look closer.</h3><p>Compare several features, and notice how age and season change their appearance. These photographs are starting points for observation; leave living leaves, needles, cones, and bark attached.</p><div className="tree-detail-grid">
             {tree.detailImages.map((detail) => <figure key={detail.image}><Image src={detail.image} alt={detail.imageAlt} width={detail.imageWidth} height={detail.imageHeight} sizes="(max-width: 760px) 100vw, 50vw" /><figcaption>{detail.credit.label} · {detail.credit.photographer} · <a href={detail.credit.licenseUrl} target="_blank" rel="noreferrer">{detail.credit.license}</a> · <a href={detail.credit.sourceUrl} target="_blank" rel="noreferrer">Source</a> · Converted to WebP</figcaption></figure>)}
           </div></>}
-          {visits.length > 0 && <aside className="tree-pause" aria-label="Places to visit this species"><h3>Meet this species outdoors.</h3><p>These researched visit guides connect the species to a place and a practice. Check each guide’s dated access information before travelling.</p><ul>{visits.map(visit => <li key={visit.slug}><Link href={`/tree-visits/${visit.slug}`}>{visit.name}</Link><p>{visit.place}</p></li>)}</ul></aside>}
           <div className="course-actions"><Link className="button secondary" href={championHref({ species: tree.scientificName })}>Explore champion {tree.species.toLowerCase()} trees</Link></div>
           <TreeComparisonLinks treeSlug={tree.slug} />
           <h3>Return across the seasons.</h3><p className="section-lede">{tree.seasons}</p>
@@ -60,6 +59,20 @@ export default async function TreePage({ params }: { params: Promise<{ slug: str
           <p className="lesson-note">Botanical reference: <a href={tree.sourceUrl} target="_blank" rel="noreferrer">{tree.sourceLabel ?? `NC State Extension’s ${tree.species.toLowerCase()} profile`}</a>. This is a starting point for observation, not a complete identification key.</p>
           {tree.additionalSources?.map(source => <p className="lesson-note" key={source.url}>Explore the habitat: <a href={source.url} target="_blank" rel="noreferrer">{source.label}</a>.</p>)}
         </section>
+        {visits.length > 0 && <section id="visits" className="tree-section tree-species-visits" aria-labelledby="species-visits-title">
+          <p className="section-kicker">Out in the world</p>
+          <h2 id="species-visits-title">Meet this species outdoors.</h2>
+          <p className="section-lede">Choose a place to encounter {tree.species.toLowerCase()}. Each guide brings together arrival, walking, access information, and a practice. Check its dated visitor sources before travelling.</p>
+          <div className="species-visit-grid" aria-label="Places to visit this species">{visits.map(visit => <article className="species-visit-card" key={visit.slug}>
+            <p className="section-kicker">{visit.kind}</p>
+            <h3><Link href={`/tree-visits/${visit.slug}`}>{visit.name}</Link></h3>
+            <p>{visit.place}</p>
+            {visit.outing && <dl className="species-visit-facts"><div><dt>Walking</dt><dd>{visit.outing.distance}</dd></div><div><dt>Terrain</dt><dd>{visit.outing.terrain}</dd></div><div><dt>Fees</dt><dd>{visit.outing.fee}</dd></div></dl>}
+            <p className="lesson-note">Visitor sources checked <time dateTime={visit.checked}>{new Date(`${visit.checked}T12:00:00Z`).toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric", timeZone: "UTC" })}</time>.</p>
+            <Link className="button secondary" href={`/tree-visits/${visit.slug}`}>Plan this visit</Link>
+          </article>)}</div>
+          <Link className="course-link" href="/tree-visits">Explore all tree visits</Link>
+        </section>}
         <section id="energy" className="tree-section energy-section">
           <p className="section-kicker">02 · Energy & character</p>
           <h2>The energy of {tree.name.toLowerCase()}.</h2>

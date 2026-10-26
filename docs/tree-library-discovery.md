@@ -64,3 +64,9 @@ The Library offers eight nonoverlapping U.S. regions, covering all fifty states.
 Membership comes from exact, case-insensitive scientific-name matches in the site's imported champion records. It includes native and planted trees and is explicitly not a native-range map, comprehensive local checklist, or assurance of current presence or public access. Each regional result links to its supporting records. Expanded region coverage names its states; Alaska and Hawaiʻi have limited records.
 
 `npm run sync:library-regions` regenerates the lightweight state-membership index after profile or register updates. `npm run check:library-regions` runs before builds to prevent stale results. Full register payloads stay outside the Library client bundle.
+
+## Species-to-outing connections · October 26, 2026
+
+Fourteen species profiles now link directly to eighteen matching visit guides. The hero and page navigation expose a Places to visit shortcut. A dedicated section lists each destination, its place, source-check date, and existing walking/terrain/fee summaries where available. Plan this visit opens the full arrival, access, and practice guide. Profiles without a matching guide omit the section.
+
+Visit guides' explicit `librarySlug` fields are the source of truth; `visitsForTree` also checks the exact scientific name. Seven missing guide backlinks were completed, including the second white-pine, hemlock, sycamore, and bald-cypress destinations. The genus-only Rocks woodland encounter remains unassigned to a species. Existing visitor claims and review dates are retained rather than represented as newly checked.

@@ -23,7 +23,7 @@ test('four additions complete matching species, visit and outdoor practice route
    assert.ok(discoveryPages.some(p=>p.path===`/tree-visits/${slug}`));
   }
  }
- const template=fs.readFileSync('app/trees/[slug]/page.tsx','utf8');assert.ok(template.includes('tree.visitSlugs?.includes(visit.slug)'));assert.ok(template.includes('Places to visit this species'));
+ const template=fs.readFileSync('app/trees/[slug]/page.tsx','utf8');assert.ok(template.includes('visitsForTree(tree)'));assert.ok(template.includes('Places to visit this species'));
 });
 test('new species photos are licensed local assets with source provenance and visible attribution records',()=>{
  const attribution=fs.readFileSync('public/images/trees/ATTRIBUTION.md','utf8');assert.equal(photos.length,9);
@@ -41,4 +41,25 @@ test('compound leaves, lobed aralia, evergreen foliage and aliases use appropria
  for(const foliage of ['needles','scales'])assert.ok(result({query:'giant sequoia',foliage}).includes('giant-sequoia'));
  for(const [query,slug] of [['Sierra redwood','giant-sequoia'],['Cladrastis lutea','american-yellowwood'],['Kalopanax pictus','castor-aralia']])assert.ok(result({query}).includes(slug));
  assert.ok(additions.find(t=>t.slug==='castor-aralia').practiceIntroduction.includes('no-touch'));
+});
+
+test('all eighteen species-specific guides connect to fourteen profiles in both directions',()=>{
+ const {visitsForTree}=require('../lib/tree-library-visits.ts');
+ const linked=treeVisits.filter(v=>v.librarySlug);
+ assert.equal(linked.length,18);assert.equal(trees.filter(t=>visitsForTree(t).length).length,14);
+ for(const visit of linked){
+  const tree=trees.find(t=>t.slug===visit.librarySlug);assert.ok(tree,visit.slug);
+  assert.equal(tree.scientificName.toLowerCase(),visit.scientificName.toLowerCase(),visit.slug);
+  assert.ok(visitsForTree(tree).includes(visit),visit.slug);
+  assert.ok(discoveryPages.some(p=>p.path===`/tree-visits/${visit.slug}`));
+ }
+ for(const slug of ['pine','hemlock','sycamore','bald-cypress'])assert.equal(visitsForTree(trees.find(t=>t.slug===slug)).length,2,slug);
+ assert.deepEqual(visitsForTree(trees.find(t=>t.slug==='coast-redwood')),[]);
+ assert.ok(!linked.some(v=>v.slug==='the-rocks-woodland'));
+});
+test('visit associations reject genus-only and conflicting species while preserving order',()=>{
+ const {visitsForTree}=require('../lib/tree-library-visits.ts');
+ const tree=trees.find(t=>t.slug==='maple'), base=treeVisits.find(v=>v.librarySlug==='maple');
+ const visits=[{...base,slug:'first',scientificName:' ACER SACCHARUM '},{...base,slug:'genus',scientificName:'Acer spp.'},{...base,slug:'other',librarySlug:'red-maple'},{...base,slug:'conflict',scientificName:'Acer rubrum'},{...base,slug:'last'}];
+ const before=[...visits];assert.deepEqual(visitsForTree(tree,visits).map(v=>v.slug),['first','last']);assert.deepEqual(visits,before);
 });
