@@ -4,7 +4,7 @@ export const siteNavigation = [
     { label: "Your First Five Minutes", href: "/practice/first-five-minutes", description: "An outdoor practice with any tree." },
     { label: "The Seven-Day Journey", href: "/begin-here/seven-days", description: "Build a little attention, day by day." },
     { label: "Tree Hugging", href: "/tree-hugging", description: "Explore an embrace and a living connection." },
-    { label: "Return to Your Tree", href: "/return-to-your-tree", description: "Keep a relationship growing through the seasons." },
+    { label: "Return to Your Tree", href: "/return-to-your-tree", description: "Your saved tree, digital journal, and seasonal practice." },
   ] },
   { id: "explore", title: "Explore", invitation: "A wider world of wonder.", description: "Get to know a species. Meet a remarkable tree. Find a place to begin.", links: [
     { label: "Tree Library", href: "/trees", description: "Identification, stories, and practices." },

@@ -1,0 +1,34 @@
+"use client";
+import { useEffect, useState } from "react";
+import Link from "next/link";
+import { MY_TREE_KEY, MY_TREE_EVENT, readMyTree, type MyTree } from "../../lib/my-tree";
+type Species = { slug: string; name: string; species: string; visits: { slug: string; name: string; place: string }[] };
+export default function MyTreePanel({ species, choose }: { species: Species[]; choose?: string }) {
+  const [saved, setSaved] = useState<MyTree>({ version: 1, slug: "", notes: [] });
+  const [ready, setReady] = useState(false), [blocked, setBlocked] = useState(false), [message, setMessage] = useState("");
+  const [date, setDate] = useState(""), [observation, setObservation] = useState(""), [reflection, setReflection] = useState(""), [editing, setEditing] = useState<string | null>(null);
+  useEffect(() => {
+    function load() { try { setSaved(readMyTree(localStorage.getItem(MY_TREE_KEY), species.map(tree => tree.slug))); setBlocked(false); } catch { setBlocked(true); setMessage("Your saved journal could not be read. It has not been overwritten. Try your usual browser, or use the printable journal below."); } setReady(true); }
+    load(); setDate(new Date().toLocaleDateString("en-CA"));
+    const storage = (event: StorageEvent) => { if (event.key === MY_TREE_KEY || event.key === null) load(); };
+    window.addEventListener("storage", storage); window.addEventListener(MY_TREE_EVENT, load);
+    return () => { window.removeEventListener("storage", storage); window.removeEventListener(MY_TREE_EVENT, load); };
+  }, [species]);
+  function save(next: MyTree, notice: string) {
+    try { localStorage.setItem(MY_TREE_KEY, JSON.stringify(next)); setSaved(next); window.dispatchEvent(new Event(MY_TREE_EVENT)); setMessage(notice); return true; }
+    catch { setMessage("This browser could not save the change. Your previous saved journal is unchanged. Copy your writing before leaving this page."); return false; }
+  }
+  const tree = species.find(tree => tree.slug === saved.slug);
+  if (choose) return <div className="my-tree-choice"><button type="button" className="button secondary" disabled={!ready || blocked} onClick={() => save({ ...saved, slug: choose }, "Your tree is saved on this device. Previous journal entries are kept.")}>{saved.slug === choose ? "This is my tree" : "Make this my tree"}</button> <Link className="course-link" href="/return-to-your-tree#my-tree">Return to my tree</Link><p role="status">{message}</p><p className="lesson-note">Optional · saved in this browser on this device.</p></div>;
+  return <section id="my-tree" className="lesson-section my-tree-panel" aria-labelledby="my-tree-title"><p className="section-kicker">Your tree · Your own pace</p><h2 id="my-tree-title">Return to my tree.</h2><p>Your selected species and journal stay in this browser on this device. No account is needed. They do not sync or get sent to the school. Clearing browser data removes them; download a backup to keep your writing. Avoid private addresses or sensitive details on shared devices.</p>
+    {!ready ? <p>Checking this device…</p> : <>
+    <label htmlFor="my-tree-species">My tree species</label><select id="my-tree-species" disabled={blocked} value={saved.slug} onChange={event => { if(save({ ...saved, slug: event.target.value }, "Tree selection saved. Earlier entries are kept with their species.")) { setEditing(null); setObservation(""); setReflection(""); } }}><option value="">Choose a species</option>{species.map(tree => <option key={tree.slug} value={tree.slug}>{tree.name} · {tree.species}</option>)}</select>
+    <p>Choose a familiar living tree to revisit; this saves its species, not a particular mapped tree or location.</p>
+    {tree && <><div className="course-actions"><Link className="button primary" href={`/practice/${tree.slug}`}>Practice with {tree.name}</Link><Link className="course-link" href={`/trees/${tree.slug}`}>Open species profile</Link><Link className="course-link" href="/begin-here/seven-days">Explore the seven-day journey</Link></div>{tree.visits.length > 0 && <div><h3>Places to meet this species</h3><ul>{tree.visits.map(visit => <li key={visit.slug}><Link href={`/tree-visits/${visit.slug}`}>{visit.name}</Link> · {visit.place}</li>)}</ul></div>}
+    <form onSubmit={event => { event.preventDefault(); if(!observation.trim())return; const note = { id: editing || crypto.randomUUID(), slug: tree.slug, date, observation: observation.trim(), reflection: reflection.trim() }; if(save({ ...saved, notes: editing ? saved.notes.map(old => old.id === editing ? note : old) : [...saved.notes, note] }, "Journal entry saved on this device.")) {setObservation("");setReflection("");setEditing(null);} }}><h3>{editing ? "Edit your visit" : "Record a visit"}</h3><label htmlFor="my-tree-date">Visit date</label><input id="my-tree-date" type="date" required value={date} onChange={event => setDate(event.target.value)} /><label htmlFor="my-tree-observation">What I noticed · changes and continuities</label><textarea id="my-tree-observation" required maxLength={5000} value={observation} onChange={event => setObservation(event.target.value)} /><label htmlFor="my-tree-reflection">My reflection or question for next time (optional)</label><textarea id="my-tree-reflection" maxLength={5000} value={reflection} onChange={event => setReflection(event.target.value)} /><button className="button primary" disabled={blocked} type="submit">Save journal entry</button>{editing && <button type="button" onClick={() => {setEditing(null);setObservation("");setReflection("");}}>Cancel edit</button>}</form></>}
+    <h3>Your saved visits ({saved.notes.length})</h3>{saved.notes.length === 0 && <p>A few observations are enough. Your first saved visit will appear here.</p>}
+    {[...saved.notes].reverse().map(note => <article className="my-tree-note" key={note.id}><h4>{species.find(tree => tree.slug === note.slug)?.name} · <time dateTime={note.date}>{note.date}</time></h4><p>{note.observation}</p>{note.reflection && <p>{note.reflection}</p>}<div className="course-actions"><button type="button" disabled={blocked} onClick={() => { if(save({...saved,slug:note.slug},"Editing this visit.")){setDate(note.date);setObservation(note.observation);setReflection(note.reflection);setEditing(note.id);} }}>Edit visit</button><button type="button" disabled={blocked} onClick={() => {if(save({...saved,notes:saved.notes.filter(old => old.id !== note.id)},"Entry removed." ) && editing===note.id){setEditing(null);setObservation("");setReflection("");}}}>Delete visit</button></div></article>)}
+    <div className="course-actions"><a className="button secondary" download="my-tree-journal.json" href={`data:application/json;charset=utf-8,${encodeURIComponent(JSON.stringify(saved,null,2))}`}>Download journal backup</a><Link className="course-link" href="/return-to-your-tree/journal">Use the printable journal</Link></div></>}
+    <p role="status" aria-live="polite">{message}</p>
+  </section>;
+}
