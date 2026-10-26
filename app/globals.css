@@ -1664,3 +1664,10 @@ body::before {
 .species-visit-facts dt { font-weight: 600; }
 .species-visit-facts dd { margin: .2rem 0 0; }
 @media (max-width: 760px) { .species-visit-grid { grid-template-columns: 1fr; } }
+
+.my-tree-panel label { display:block; font-weight:600; margin:1rem 0 .5rem; }
+.my-tree-panel select, .my-tree-panel input, .my-tree-panel textarea { display:block; width:100%; max-width:45rem; padding:.8rem; border:1px solid var(--line); border-radius:.5rem; font:inherit; background:var(--cream); color:inherit; }
+.my-tree-panel textarea { min-height:8rem; margin-bottom:1rem; }
+.my-tree-panel :focus-visible { outline:3px solid currentColor; outline-offset:3px; }
+.my-tree-note { padding:1.25rem 0; border-bottom:1px solid var(--line); }
+.my-tree-note p { white-space:pre-wrap; overflow-wrap:anywhere; }

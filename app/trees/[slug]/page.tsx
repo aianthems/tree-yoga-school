@@ -1,3 +1,5 @@
+import MyTreePanel from "../../components/my-tree";
+import { myTreeSpecies } from "../../components/my-tree-data";
 import { pageMetadata } from "../../../lib/site-seo";
 import type { Metadata } from "next";
 import Image from "next/image";
@@ -43,6 +45,7 @@ export default async function TreePage({ params }: { params: Promise<{ slug: str
           </div>
           <figure className="tree-hero-image"><Image src={tree.image} alt={tree.imageAlt} width={tree.imageWidth} height={tree.imageHeight} sizes="(max-width: 760px) 100vw, 50vw" priority /><figcaption>{tree.credit.label} · Photo: {tree.credit.photographer} · <a href={tree.credit.licenseUrl} target="_blank" rel="noreferrer">{tree.credit.license}</a> · <a href={tree.credit.sourceUrl} target="_blank" rel="noreferrer">Source</a> · Converted to WebP</figcaption></figure>
         </section>
+        <div className="tree-section"><MyTreePanel species={myTreeSpecies} choose={tree.slug} /></div>
         <nav className="tree-section-nav" aria-label="On this tree page"><a href="#meet">Meet the tree</a>{visits.length > 0 && <a href="#visits">Places to visit</a>}<a href="#energy">Energy & character</a><a href="#practice">Practice</a><a href="#roots">Roots in the book</a><a href="#notice">Notice for yourself</a></nav>
         <section id="meet" className="tree-section">
           <p className="section-kicker">01 · Meet the tree</p>
