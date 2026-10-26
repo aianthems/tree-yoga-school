@@ -994,5 +994,80 @@
       "furrowed"
     ],
     "sourceUrl": "https://plants.ces.ncsu.edu/plants/pinus-echinata/"
+  },
+  "katsura": {
+    "foliage": [
+      "broad"
+    ],
+    "arrangement": [
+      "opposite",
+      "alternate"
+    ],
+    "lobes": [
+      "unlobed"
+    ],
+    "bark": [
+      "peeling"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/cercidiphyllum-japonicum/"
+  },
+  "red-pine": {
+    "foliage": [
+      "needles"
+    ],
+    "arrangement": [],
+    "lobes": [],
+    "bark": [
+      "blocks"
+    ],
+    "sourceUrl": "https://trees.umn.edu/red-pine-pinus-resinosa"
+  },
+  "jack-pine": {
+    "foliage": [
+      "needles"
+    ],
+    "arrangement": [],
+    "lobes": [],
+    "bark": [
+      "furrowed"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/pinus-banksiana/"
+  },
+  "white-spruce": {
+    "foliage": [
+      "needles"
+    ],
+    "arrangement": [],
+    "lobes": [],
+    "bark": [
+      "peeling",
+      "furrowed"
+    ],
+    "sourceUrl": "https://gobotany.nativeplanttrust.org/species/picea/glauca/"
+  },
+  "black-spruce": {
+    "foliage": [
+      "needles"
+    ],
+    "arrangement": [],
+    "lobes": [],
+    "bark": [],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/picea-mariana/"
+  },
+  "bigtooth-aspen": {
+    "foliage": [
+      "broad"
+    ],
+    "arrangement": [
+      "alternate"
+    ],
+    "lobes": [
+      "unlobed"
+    ],
+    "bark": [
+      "smooth",
+      "furrowed"
+    ],
+    "sourceUrl": "https://gobotany.nativeplanttrust.org/species/populus/grandidentata/"
   }
 }

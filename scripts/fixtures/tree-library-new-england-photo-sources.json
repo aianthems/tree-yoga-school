@@ -1,0 +1,198 @@
+[
+  {
+    "originalUrl": "https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/IMG_16191_LyVOD77cVK9e.jpg",
+    "image": "/images/trees/katsura.webp",
+    "imageAlt": "A mature Katsura tree at Morris Arboretum",
+    "credit": {
+      "photographer": "Lucy Bradley",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/about/cc0/",
+      "sourceUrl": "https://plants.ces.ncsu.edu/plants/cercidiphyllum-japonicum/",
+      "label": "Katsura at Morris Arboretum"
+    },
+    "imageWidth": 1024,
+    "imageHeight": 768
+  },
+  {
+    "originalUrl": "https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/cercidiphyllum_japonicum_leaf_wendy_culter_ccby20.jpg",
+    "image": "/images/trees/katsura-leaves.webp",
+    "imageAlt": "Rounded heart-shaped Katsura leaves with finely toothed edges",
+    "credit": {
+      "photographer": "Wendy Cutler",
+      "license": "CC BY 2.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by/2.0/legalcode",
+      "sourceUrl": "https://plants.ces.ncsu.edu/plants/cercidiphyllum-japonicum/",
+      "label": "Leaves"
+    },
+    "imageWidth": 600,
+    "imageHeight": 450
+  },
+  {
+    "originalUrl": "https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/Copy_wnsHUx74QjLR.jpeg",
+    "image": "/images/trees/katsura-weeping.webp",
+    "imageAlt": "Drooping branches on a weeping Katsura cultivar",
+    "credit": {
+      "photographer": "Cathy DeWitt",
+      "license": "CC BY 4.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by/4.0/legalcode",
+      "sourceUrl": "https://plants.ces.ncsu.edu/plants/cercidiphyllum-japonicum/",
+      "label": "Morioka weeping cultivar"
+    },
+    "imageWidth": 730,
+    "imageHeight": 1024
+  },
+  {
+    "originalUrl": "https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/Form_Oct_Manitoba_Ca_ugxvOLKbnV0L.jpeg",
+    "image": "/images/trees/jack-pine.webp",
+    "imageAlt": "Jack pine with an irregular spreading crown in Manitoba",
+    "credit": {
+      "photographer": "Mary Krieger",
+      "license": "CC BY 4.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by/4.0/legalcode",
+      "sourceUrl": "https://plants.ces.ncsu.edu/plants/pinus-banksiana/",
+      "label": "Tree form in Manitoba"
+    },
+    "imageWidth": 769,
+    "imageHeight": 1024
+  },
+  {
+    "originalUrl": "https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/Cone_Sep_CookCo_MN_J_IL1xqMThrg4p.jpeg",
+    "image": "/images/trees/jack-pine-needles-cones.webp",
+    "imageAlt": "Short paired needles and curved cones on a jack pine twig",
+    "credit": {
+      "photographer": "Joe Walewski",
+      "license": "CC BY 4.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by/4.0/legalcode",
+      "sourceUrl": "https://plants.ces.ncsu.edu/plants/pinus-banksiana/",
+      "label": "Needles and cones"
+    },
+    "imageWidth": 1024,
+    "imageHeight": 576
+  },
+  {
+    "originalUrl": "https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/Picea_glauca_2_nicmc_G7Ejo3dqYx94.jpeg",
+    "image": "/images/trees/white-spruce.webp",
+    "imageAlt": "White spruce branch with blue-green needles and a hanging seed cone",
+    "credit": {
+      "photographer": "nicmcphee on Flickr",
+      "license": "CC-BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "sourceUrl": "https://plants.ces.ncsu.edu/plants/picea-glauca/",
+      "label": "Branch and seed cone"
+    },
+    "imageWidth": 1024,
+    "imageHeight": 683
+  },
+  {
+    "originalUrl": "https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/Picea_glauca_David_J_uHFnTW4g8GZl.jpeg",
+    "image": "/images/trees/white-spruce-needles.webp",
+    "imageAlt": "Individual white spruce needles radiating around a twig",
+    "credit": {
+      "photographer": "David J.Stang",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/4.0/legalcode",
+      "sourceUrl": "https://plants.ces.ncsu.edu/plants/picea-glauca/",
+      "label": "Needles"
+    },
+    "imageWidth": 1000,
+    "imageHeight": 665
+  },
+  {
+    "originalUrl": "https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/Picea_glauca_Dori_cc_ktdD2YOlSp1J.jpeg",
+    "image": "/images/trees/white-spruce-cones.webp",
+    "imageAlt": "Hanging cylindrical seed cones on white spruce",
+    "credit": {
+      "photographer": "Dori",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+      "sourceUrl": "https://plants.ces.ncsu.edu/plants/picea-glauca/",
+      "label": "Seed cones"
+    },
+    "imageWidth": 1024,
+    "imageHeight": 780
+  },
+  {
+    "originalUrl": "https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/Picea_mariana_Dadero_1MlPe9GnlVir.jpeg",
+    "image": "/images/trees/black-spruce.webp",
+    "imageAlt": "Black spruce twig with short needles and developing cones",
+    "credit": {
+      "photographer": "Daderot",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceUrl": "https://plants.ces.ncsu.edu/plants/picea-mariana/",
+      "label": "Needles and developing cones"
+    },
+    "imageWidth": 1024,
+    "imageHeight": 734
+  },
+  {
+    "originalUrl": "https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/2_Picea_mariana_Arth_uJrI0t4falck.jpeg",
+    "image": "/images/trees/black-spruce-needles.webp",
+    "imageAlt": "Short bluish-green black spruce needles along a twig",
+    "credit": {
+      "photographer": "Arthur Chapman",
+      "license": "CC BY 2.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by/2.0/legalcode",
+      "sourceUrl": "https://plants.ces.ncsu.edu/plants/picea-mariana/",
+      "label": "Needles"
+    },
+    "imageWidth": 1024,
+    "imageHeight": 683
+  },
+  {
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/39/Pinus_resinosa_forest_at_Earl_Rowe_Provincial_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "image": "/images/trees/red-pine.webp",
+    "imageAlt": "Tall red pine trunks and evergreen crowns at Earl Rowe Provincial Park",
+    "credit": {
+      "photographer": "Jason Zhang",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pinus_resinosa_forest_at_Earl_Rowe_Provincial_Park.jpg",
+      "label": "Red pine woodland"
+    },
+    "imageWidth": 1200,
+    "imageHeight": 800
+  },
+  {
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Red_pine_cones_%2852371%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "image": "/images/trees/red-pine-cones.webp",
+    "imageAlt": "Seed cones and paired needles of red pine",
+    "credit": {
+      "photographer": "Rhododendrites",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Red_pine_cones_(52371).jpg",
+      "label": "Cones and needles"
+    },
+    "imageWidth": 1200,
+    "imageHeight": 1107
+  },
+  {
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Populus_grandidentata.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "image": "/images/trees/bigtooth-aspen.webp",
+    "imageAlt": "Bigtooth aspen foliage showing large teeth along the leaf margins",
+    "credit": {
+      "photographer": "User:Schzmo",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Populus_grandidentata.JPG",
+      "label": "Leaves"
+    },
+    "imageWidth": 1200,
+    "imageHeight": 900
+  },
+  {
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Populus_grandidentata3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "image": "/images/trees/bigtooth-aspen-twig.webp",
+    "imageAlt": "Bigtooth aspen twig with a pointed winter bud",
+    "credit": {
+      "photographer": "DouglasGoldman",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Populus_grandidentata3.jpg",
+      "label": "Twig and winter bud"
+    },
+    "imageWidth": 803,
+    "imageHeight": 1200
+  }
+]

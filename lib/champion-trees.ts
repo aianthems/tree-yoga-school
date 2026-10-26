@@ -42,6 +42,12 @@ export const vtChampionSource = championStates.VT.source;
 export const nhChampionSource = championStates.NH.source;
 export const championSource = championStates.MA.source;
 export const librarySpecies: Record<string, { slug: string; name: string }> = {
+  "Cercidiphyllum japonicum": { slug: "katsura", name: "Katsura" },
+  "Pinus resinosa": { slug: "red-pine", name: "Eastern Red Pine" },
+  "Pinus banksiana": { slug: "jack-pine", name: "Jack Pine" },
+  "Picea glauca": { slug: "white-spruce", name: "White Spruce" },
+  "Picea mariana": { slug: "black-spruce", name: "Black Spruce" },
+  "Populus grandidentata": { slug: "bigtooth-aspen", name: "Bigtooth Aspen" },
   "Aesculus glabra": { slug: "ohio-buckeye", name: "Ohio Buckeye" },
   "Quercus phellos": { slug: "willow-oak", name: "Willow Oak" },
   "Quercus lyrata": { slug: "overcup-oak", name: "Overcup Oak" },
