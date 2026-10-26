@@ -96,7 +96,8 @@ export const treeVisits: TreeVisit[] = [
     },
   },
   {
-    slug: "lady-liberty-cypress", state: "FL", name: "Lady Liberty at Big Tree Park", scientificName: "Taxodium distichum",
+    slug: "lady-liberty-cypress",
+    librarySlug: "bald-cypress", state: "FL", name: "Lady Liberty at Big Tree Park", scientificName: "Taxodium distichum",
     place: "Big Tree Park · Longwood, Florida", kind: "Public park and boardwalk visit",
     arrival: "Use Big Tree Park's entrance at 761 General Hutchison Parkway in Longwood; the county trail page spells the road Hutchinson. Use the park's designated parking and signs for the trees. The county lists restrooms, a water fountain, picnic facilities, and a playground at this trailhead.",
     walking: "Follow the park's signed nature walk and boardwalk through the hammock to Lady Liberty. The county does not publish a measured parking-to-tree distance in the reviewed visitor pages. Its 2020 accessibility report lists accessible parking and a sidewalk at the playground; it does not establish the current condition of the entire route to the tree. Confirm the approach and any boardwalk closures with park staff.",
@@ -117,7 +118,8 @@ export const treeVisits: TreeVisit[] = [
     },
   },
   {
-    slug: "morton-bur-oaks", state: "IL", name: "Bur oaks in the Oak Collection", scientificName: "Quercus macrocarpa",
+    slug: "morton-bur-oaks",
+    librarySlug: "bur-oak", state: "IL", name: "Bur oaks in the Oak Collection", scientificName: "Quercus macrocarpa",
     place: "The Morton Arboretum · Lisle, Illinois", kind: "Arboretum collection visit",
     arrival: "Enter The Morton Arboretum at 4100 Illinois Route 53, Lisle. After admission, use the grounds map and one-way driving route to East Side parking lot P-8 for the Oak Collection. The Arboretum identifies mature bur oaks here; use tree labels or ask staff to help identify a suitable tree. This guide explores a collection, rather than a single designated champion.",
     walking: "The Oak Collection extends across 12 acres. Choose a walk suited to your time and mobility from P-8; no single parking-to-tree distance applies. Trails beyond the central visitor area are generally wood-chipped. Ask staff about the day's route conditions and accessibility instead of assuming the collection has a paved final approach.",
@@ -139,6 +141,7 @@ export const treeVisits: TreeVisit[] = [
   },
   {
     "slug": "pinchot-sycamore",
+    librarySlug: "sycamore",
     "championId": "ct-128002",
     "state": "CT",
     "name": "The Pinchot Sycamore",
@@ -173,6 +176,7 @@ export const treeVisits: TreeVisit[] = [
   },
   {
     "slug": "university-green-redwood",
+    librarySlug: "dawn-redwood",
     "championId": "vt-21",
     "state": "VT",
     "name": "Dawn redwood on University Green",
@@ -242,6 +246,7 @@ export const treeVisits: TreeVisit[] = [
   },
   {
     "slug": "tamworth-big-pines",
+    librarySlug: "pine",
     "championId": "nh-985",
     "state": "NH",
     "name": "The white pine at Big Pines",
@@ -276,6 +281,7 @@ export const treeVisits: TreeVisit[] = [
   },
   {
     "slug": "middlebury-american-elm",
+    librarySlug: "american-elm",
     "championId": "vt-56",
     "state": "VT",
     "name": "American elm at Middlebury",
@@ -353,6 +359,7 @@ export const treeVisits: TreeVisit[] = [
   },
   {
     "slug": "sunderland-buttonball",
+    librarySlug: "sycamore",
     "championId": "dcr-2026-127",
     "state": "MA",
     "name": "The Buttonball Sycamore",

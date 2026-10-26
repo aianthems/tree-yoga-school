@@ -1655,3 +1655,12 @@ body::before {
 .library-region-coverage { margin: 1rem 0; line-height: 1.6; }
 .library-region-coverage summary { cursor: pointer; font-weight: 600; }
 .library-region-record { font-size: .9rem; line-height: 1.5; }
+
+.species-visit-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem; margin: 1.5rem 0; }
+.species-visit-card { min-width: 0; padding: clamp(1.25rem, 3vw, 2rem); border: 1px solid var(--line); border-radius: 1rem; background: var(--cream); }
+.species-visit-card h3 { margin-top: .5rem; }
+.species-visit-facts { margin: 1.25rem 0; line-height: 1.6; }
+.species-visit-facts div + div { margin-top: .75rem; }
+.species-visit-facts dt { font-weight: 600; }
+.species-visit-facts dd { margin: .2rem 0 0; }
+@media (max-width: 760px) { .species-visit-grid { grid-template-columns: 1fr; } }
