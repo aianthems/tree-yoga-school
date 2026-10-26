@@ -1069,5 +1069,63 @@
       "furrowed"
     ],
     "sourceUrl": "https://gobotany.nativeplanttrust.org/species/populus/grandidentata/"
+  },
+  "southern-live-oak": {
+    "foliage": [
+      "broad"
+    ],
+    "arrangement": [
+      "alternate"
+    ],
+    "lobes": [
+      "unlobed"
+    ],
+    "bark": [
+      "blocks",
+      "furrowed"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/quercus-virginiana/"
+  },
+  "giant-sequoia": {
+    "foliage": [
+      "needles",
+      "scales"
+    ],
+    "arrangement": [],
+    "lobes": [],
+    "bark": [
+      "furrowed"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/sequoiadendron-giganteum/"
+  },
+  "american-yellowwood": {
+    "foliage": [
+      "broad"
+    ],
+    "arrangement": [
+      "alternate"
+    ],
+    "lobes": [
+      "unlobed"
+    ],
+    "bark": [
+      "smooth"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/cladrastis-kentukea/"
+  },
+  "castor-aralia": {
+    "foliage": [
+      "broad"
+    ],
+    "arrangement": [
+      "alternate"
+    ],
+    "lobes": [
+      "lobed"
+    ],
+    "bark": [
+      "furrowed"
+    ],
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/kalopanax-septemlobus/"
   }
 }

@@ -78,7 +78,7 @@ export const treeVisits: TreeVisit[] = [
   },
 
   {
-    slug: "angel-oak", state: "SC", name: "Angel Oak", scientificName: "Quercus virginiana",
+    slug: "angel-oak", state: "SC", name: "Angel Oak", scientificName: "Quercus virginiana", librarySlug: "southern-live-oak",
     place: "Angel Oak Park · Johns Island, South Carolina", kind: "Public park visit",
     arrival: "Arrive at 3688 Angel Oak Road on Johns Island, using the City of Charleston's directions link. Follow the signed entrance and designated parking. The city pages do not describe parking capacity or a measured parking-to-tree route.",
     walking: "Explore the park around the spreading live oak from permitted viewpoints. The city lists benches and picnic facilities, but does not document a step-free route to the tree. Check ground conditions on arrival and keep clear of roots and low branches.",
@@ -90,9 +90,9 @@ export const treeVisits: TreeVisit[] = [
       { label: "City of Charleston · directions, holidays and tree rules", href: "https://www.charleston-sc.gov/153/Angel-Oak" },
     ],
     practice: {
-      title: "Let the whole scene in.",
-      text: "Choose one curve in a branch, then include the space around it. Notice a line, a texture, and an opening in the crown. Breathe naturally, letting observation come before any meaning you give the tree.",
-      href: "/lessons/first-five-minutes", label: "Begin an observation practice",
+      title: "A branch, a canopy, a little room.",
+      text: "From a permitted bench or path-side viewpoint, follow one branch curve, then widen your view to the crown and its openings. Consider one small form of support you can offer today. Leave protected roots and limbs undisturbed.",
+      href: "/trees/southern-live-oak#practice", label: "Explore Southern Live Oak and its practice",
     },
   },
   {
@@ -211,6 +211,7 @@ export const treeVisits: TreeVisit[] = [
     "state": "MA",
     "name": "Castor aralia at Smith College",
     "scientificName": "Kalopanax septemlobus",
+    "librarySlug": "castor-aralia",
     "place": "Smith College Campus Arboretum · Northampton, Massachusetts",
     "arrival": "DCR’s May 2026 register places this tree on the south side of College Hall, at 10 Elm Street. Use Smith’s campus directions and parking map to plan your arrival.",
     "access": "Smith’s outdoor arboretum and gardens are free and open daily, year-round. Visitor parking includes the West Street garage; consult the visitor page for options. Groups of ten or more should arrange their visit with the garden.",
@@ -230,10 +231,10 @@ export const treeVisits: TreeVisit[] = [
       }
     ],
     "practice": {
-      "title": "Meet a tree without a story",
-      "text": "Before deciding what this tree means to you, notice three things: a line, a texture, and a space between branches. Stay with what you can see. Let any personal meaning arrive in its own time.",
-      "href": "/lessons/first-five-minutes",
-      "label": "Begin an observation practice"
+      "title": "Curiosity at a comfortable distance.",
+      "text": "Observe without touching the trunk or branches, which may bear spines. Trace one leaf or branch outline, name a visible detail and an unanswered question, and reflect on a boundary that supports comfortable attention.",
+      "href": "/trees/castor-aralia#practice",
+      "label": "Explore Castor Aralia and its practice"
     },
     "kind": "Campus arboretum",
     "walking": "Use Smith’s campus map to plan a route to College Hall from your chosen parking place. A measured route to this tree is not published; the campus map includes accessibility information.",
@@ -313,6 +314,7 @@ export const treeVisits: TreeVisit[] = [
     "state": "RI",
     "name": "Giant sequoia at Blithewold",
     "scientificName": "Sequoiadendron giganteum",
+    "librarySlug": "giant-sequoia",
     "kind": "Garden visit",
     "place": "Blithewold Manor, Gardens & Arboretum · Bristol, Rhode Island",
     "arrival": "Arrive at 101 Ferry Road (Route 114), Bristol. Check in at the Welcome Center next to the parking lot. Ask for the original giant sequoia planted in 1911 near the Enclosed Garden and Summerhouse, and use Blithewold’s grounds map to choose your route.",
@@ -342,10 +344,10 @@ export const treeVisits: TreeVisit[] = [
       }
     ],
     "practice": {
-      "title": "Let scale become attention.",
-      "text": "Notice the whole tree, then choose one visible detail: a branch, a bark pattern, or an opening against the sky. Give both the large form and the small detail a moment, without needing to describe the experience.",
-      "href": "/lessons/first-five-minutes",
-      "label": "Begin an observation practice"
+      "title": "A wider scale. One small detail.",
+      "text": "Notice a comfortable section of the tree, then a small bark or foliage pattern. Move between the wider form and the detail without needing to see the top. Choose one patient next step before continuing your visit.",
+      "href": "/trees/giant-sequoia#practice",
+      "label": "Explore Giant Sequoia and its practice"
     },
     "checked": "2026-10-07"
   },
@@ -389,6 +391,7 @@ export const treeVisits: TreeVisit[] = [
     "state": "VT",
     "name": "Yellowwood at Marsh–Billings–Rockefeller",
     "scientificName": "Cladrastis kentukea",
+    "librarySlug": "american-yellowwood",
     "kind": "Park grounds",
     "place": "Marsh–Billings–Rockefeller National Historical Park · Woodstock, Vermont",
     "arrival": "Use the shared Billings Farm & Museum visitor parking at 69 Old River Road, following NPS arrival signs. Vermont places the yellowwood on the road to the national park visitor center and publishes its public tree coordinates. Use the official park map and the champion record’s tree-position link to identify it; the town marker is only approximate.",
@@ -418,10 +421,10 @@ export const treeVisits: TreeVisit[] = [
       }
     ],
     "practice": {
-      "title": "Meet a tree with curiosity.",
-      "text": "Notice three visible details before looking for a story: a line, a texture, and a space between branches. Let an unfamiliar tree be an invitation to look again. Finish by naming one thing you had not noticed at first.",
-      "href": "/lessons/first-five-minutes",
-      "label": "Begin an observation practice"
+      "title": "A quiet season is enough.",
+      "text": "Meet the tree as it is today, whether flowering, leafy, or bare. Follow one visible connection and let an ordinary detail hold your attention. Consider something you can care for without demanding an immediate result.",
+      "href": "/trees/american-yellowwood#practice",
+      "label": "Explore American Yellowwood and its practice"
     },
     "checked": "2026-10-07"
   }

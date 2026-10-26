@@ -1,0 +1,128 @@
+[
+  {
+    "originalUrl": "https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/Quercus_virginiana--_OfQKJ461OYhz.jpe",
+    "image": "/images/trees/southern-live-oak.webp",
+    "imageAlt": "Mature Southern live oak with a broad spreading crown",
+    "credit": {
+      "photographer": "Lucy Bradley",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/about/cc0/",
+      "sourceUrl": "https://plants.ces.ncsu.edu/plants/quercus-virginiana/",
+      "label": "Mature form"
+    },
+    "imageWidth": 1024,
+    "imageHeight": 768
+  },
+  {
+    "originalUrl": "https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/Quercus_virginiana_f_O9HT8GFkhsbm.jfif",
+    "image": "/images/trees/southern-live-oak-acorns.webp",
+    "imageAlt": "Southern live oak acorns and leathery leaves on a twig",
+    "credit": {
+      "photographer": "Marcus Q on Flickr",
+      "license": "CC-BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "sourceUrl": "https://plants.ces.ncsu.edu/plants/quercus-virginiana/",
+      "label": "Acorns and leaves"
+    },
+    "imageWidth": 1024,
+    "imageHeight": 682
+  },
+  {
+    "originalUrl": "https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/Sequoiadendron_gigan_HmpRXxxTwbLr.jpg",
+    "image": "/images/trees/giant-sequoia.webp",
+    "imageAlt": "Giant sequoia trunk and towering evergreen crown",
+    "credit": {
+      "photographer": "A. Poulos",
+      "license": "CC BY 2.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by/2.0/legalcode",
+      "sourceUrl": "https://plants.ces.ncsu.edu/plants/sequoiadendron-giganteum/",
+      "label": "Mature form"
+    },
+    "imageWidth": 768,
+    "imageHeight": 1024
+  },
+  {
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/67/Sequoiadendron_giganteum_leaves_-_22_March_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "image": "/images/trees/giant-sequoia-foliage.webp",
+    "imageAlt": "Close view of pointed giant sequoia foliage",
+    "credit": {
+      "photographer": "Aethonatic",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sequoiadendron_giganteum_leaves_-_22_March_2026.jpg",
+      "label": "Foliage"
+    },
+    "imageWidth": 1200,
+    "imageHeight": 801
+  },
+  {
+    "originalUrl": "https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/Cladrastis_lutea_By__5t8PiRLzTYaY.jpe",
+    "image": "/images/trees/american-yellowwood.webp",
+    "imageAlt": "American yellowwood trunk and leafy crown",
+    "credit": {
+      "photographer": "David J Stang",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/4.0/legalcode",
+      "sourceUrl": "https://plants.ces.ncsu.edu/plants/cladrastis-kentukea/",
+      "label": "Tree form"
+    },
+    "imageWidth": 682,
+    "imageHeight": 1024
+  },
+  {
+    "originalUrl": "https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/Cladrastis_lute_BY_D_NtbtEExydK0a.jpeg",
+    "image": "/images/trees/american-yellowwood-leaves.webp",
+    "imageAlt": "Pinnately compound American yellowwood leaves",
+    "credit": {
+      "photographer": "David J Stang",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/4.0/legalcode",
+      "sourceUrl": "https://plants.ces.ncsu.edu/plants/cladrastis-kentukea/",
+      "label": "Leaves"
+    },
+    "imageWidth": 682,
+    "imageHeight": 1024
+  },
+  {
+    "originalUrl": "https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/Cladrastis_kentukea__vwA3A9aw75DG.jpg",
+    "image": "/images/trees/american-yellowwood-flowers.webp",
+    "imageAlt": "Hanging clusters of white American yellowwood flowers",
+    "credit": {
+      "photographer": "Agnieszka Kwiecie\u0144",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/4.0/legalcode",
+      "sourceUrl": "https://plants.ces.ncsu.edu/plants/cladrastis-kentukea/",
+      "label": "Flowers"
+    },
+    "imageWidth": 768,
+    "imageHeight": 1024
+  },
+  {
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/Kalopanax-pictus-leaves.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "image": "/images/trees/castor-aralia.webp",
+    "imageAlt": "Lobed castor aralia leaves beside the trunk",
+    "credit": {
+      "photographer": "Sten Porse",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kalopanax-pictus-leaves.JPG",
+      "label": "Leaves and trunk"
+    },
+    "imageWidth": 1200,
+    "imageHeight": 765
+  },
+  {
+    "originalUrl": "https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/Kalopanax_septemlobu_9IRItM7VndRW.jpeg",
+    "image": "/images/trees/castor-aralia-flowers.webp",
+    "imageAlt": "Rounded clusters of creamy white castor aralia flowers",
+    "credit": {
+      "photographer": "Qwert1234",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+      "sourceUrl": "https://plants.ces.ncsu.edu/plants/kalopanax-septemlobus/",
+      "label": "Flowers"
+    },
+    "imageWidth": 768,
+    "imageHeight": 1024
+  }
+]

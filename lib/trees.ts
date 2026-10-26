@@ -1,3 +1,4 @@
+import { visitConnectionTrees } from "./tree-library-visit-connections";
 import { newEnglandLibraryTrees } from "./tree-library-new-england";
 import { canopyLibraryTrees } from "./tree-library-canopy";
 import { fiveLibraryTrees } from "./tree-library-five";
@@ -16,6 +17,7 @@ import { treeDetailImages } from "./tree-images";
 type TreeImageCredit = { photographer: string; license: string; licenseUrl: string; sourceUrl: string; label: string };
 type TreeDetailImage = { image: string; imageAlt: string; imageWidth: number; imageHeight: number; credit: TreeImageCredit };
 export type Tree = {
+ visitSlugs?: readonly string[];
  slug: string; name: string; species: string; scientificName: string; image: string; imageAlt: string; imageWidth: number; imageHeight: number;
  themes: readonly string[]; invitation: string; introduction: string; identity: readonly { title: string; text: string }[]; seasons: string;
  energies: readonly { title: string; observation: string; meaning: string; question: string }[];
@@ -861,6 +863,7 @@ export const trees: readonly Tree[] = [
   ...fiveLibraryTrees,
   ...canopyLibraryTrees,
   ...newEnglandLibraryTrees,
+  ...visitConnectionTrees,
 ];
 
 export function getTree(slug: string) { return trees.find((tree) => tree.slug === slug); }

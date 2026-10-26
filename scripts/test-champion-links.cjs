@@ -131,7 +131,7 @@ test('visit guides resolve to the intended existing trees and real practice rout
       assert.equal(record.state || "MA", visit.state);
     } else {
       assert.ok(Object.hasOwn(require("../lib/champion-trees.ts").stateNames, visit.state));
-      assert.equal(visit.checked, visit.outing ? "2026-10-12" : visit.librarySlug ? "2026-10-10" : "2026-10-09");
+      assert.equal(visit.checked, visit.outing ? "2026-10-12" : visit.slug === "angel-oak" ? "2026-10-09" : visit.librarySlug ? "2026-10-10" : "2026-10-09");
     }
     assert.ok(visit.sources.length >= 2);
     if (visit.librarySlug) {

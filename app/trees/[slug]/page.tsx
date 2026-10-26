@@ -8,6 +8,7 @@ import TreeComparisonLinks from "../../components/tree-comparison-links";
 import SiteHeader from "../../components/site-header";
 import { getTree, trees } from "../../../lib/trees";
 import { championHref } from "../../../lib/champion-links";
+import { treeVisits } from "../../../lib/tree-visits";
 import { relatedLibraryTrees } from "../../../lib/tree-library-related";
 import { bookUrl } from "../../../lib/intro-lessons";
 
@@ -26,6 +27,7 @@ export default async function TreePage({ params }: { params: Promise<{ slug: str
   const tree = getTree(slug);
   if (!tree) notFound();
   const suggestions = relatedLibraryTrees(tree, trees);
+  const visits = treeVisits.filter(visit => tree.visitSlugs?.includes(visit.slug));
   return (
     <>
       <SiteHeader />
@@ -50,6 +52,7 @@ export default async function TreePage({ params }: { params: Promise<{ slug: str
           {tree.detailImages.length > 0 && <><h3>Look closer.</h3><p>Compare several features, and notice how age and season change their appearance. These photographs are starting points for observation; leave living leaves, needles, cones, and bark attached.</p><div className="tree-detail-grid">
             {tree.detailImages.map((detail) => <figure key={detail.image}><Image src={detail.image} alt={detail.imageAlt} width={detail.imageWidth} height={detail.imageHeight} sizes="(max-width: 760px) 100vw, 50vw" /><figcaption>{detail.credit.label} · {detail.credit.photographer} · <a href={detail.credit.licenseUrl} target="_blank" rel="noreferrer">{detail.credit.license}</a> · <a href={detail.credit.sourceUrl} target="_blank" rel="noreferrer">Source</a> · Converted to WebP</figcaption></figure>)}
           </div></>}
+          {visits.length > 0 && <aside className="tree-pause" aria-label="Places to visit this species"><h3>Meet this species outdoors.</h3><p>These researched visit guides connect the species to a place and a practice. Check each guide’s dated access information before travelling.</p><ul>{visits.map(visit => <li key={visit.slug}><Link href={`/tree-visits/${visit.slug}`}>{visit.name}</Link><p>{visit.place}</p></li>)}</ul></aside>}
           <div className="course-actions"><Link className="button secondary" href={championHref({ species: tree.scientificName })}>Explore champion {tree.species.toLowerCase()} trees</Link></div>
           <TreeComparisonLinks treeSlug={tree.slug} />
           <h3>Return across the seasons.</h3><p className="section-lede">{tree.seasons}</p>
