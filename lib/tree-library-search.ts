@@ -5,6 +5,11 @@ export type LibraryTree = Pick<Tree, "slug" | "name" | "species" | "scientificNa
 
 // Alternate names from the botanical references linked on the species pages.
 export const treeAliases: Readonly<Record<string, readonly string[]>> = {
+  katsura: ["katsura tree", "weeping katsura", "Japanese Judas tree"],
+  "red-pine": ["red pine", "Norway pine"],
+  "jack-pine": ["jackpine"],
+  "white-spruce": ["Canada spruce", "Picea laxa"],
+  "bigtooth-aspen": ["big-toothed poplar", "big-tooth aspen", "large-toothed aspen"],
   "ohio-buckeye": ["fetid buckeye"],
   "overcup-oak": ["swamp post oak", "water white oak"],
   "pignut-hickory": ["broom hickory", "smoothbark hickory"],
