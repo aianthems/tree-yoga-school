@@ -9,7 +9,7 @@ const photos = require('./fixtures/tree-library-new-england-photo-sources.json')
 const result = patch => discoverLibraryTrees(trees, { ...emptyLibrarySelection, ...patch }).map(t => t.slug);
 test('six New England additions integrate complete profiles, outdoor routes, map lookup and credited photography', () => {
   assert.equal(additions.length, 6);
-  assert.equal(trees.length, 75);
+  assert.equal(trees.length, 79);
   assert.equal(new Set(trees.map(t => t.slug)).size, trees.length);
   for (const t of additions) {
     assert.equal(getTree(t.slug), t);

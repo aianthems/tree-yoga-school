@@ -42,6 +42,11 @@ export const vtChampionSource = championStates.VT.source;
 export const nhChampionSource = championStates.NH.source;
 export const championSource = championStates.MA.source;
 export const librarySpecies: Record<string, { slug: string; name: string }> = {
+  "Quercus virginiana": { slug: "southern-live-oak", name: "Southern Live Oak" },
+  "Sequoiadendron giganteum": { slug: "giant-sequoia", name: "Giant Sequoia" },
+  "Cladrastis kentukea": { slug: "american-yellowwood", name: "American Yellowwood" },
+  "Kalopanax septemlobus": { slug: "castor-aralia", name: "Castor Aralia" },
+
   "Cercidiphyllum japonicum": { slug: "katsura", name: "Katsura" },
   "Pinus resinosa": { slug: "red-pine", name: "Eastern Red Pine" },
   "Pinus banksiana": { slug: "jack-pine", name: "Jack Pine" },
