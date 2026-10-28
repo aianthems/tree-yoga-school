@@ -268,13 +268,13 @@
     {
       "state": "MS",
       "priority": "first",
-      "reason": "One national-register record; seek state coverage and resolve the preserved CSV/PDF height discrepancy.",
-      "nextReviewOn": "2026-10-12",
+      "reason": "Check for the new state register expected after the start of 2027; preserve historical labels and resolve national CSV/PDF height disagreement.",
+      "nextReviewOn": "2027-01-12",
       "reviewEveryDays": 90,
-      "lastReviewedOn": null,
-      "outcome": null,
-      "evidenceUrl": null,
-      "notes": null
+      "lastReviewedOn": "2026-10-28",
+      "outcome": "updated",
+      "evidenceUrl": "https://www.mfc.ms.gov/programs/urban-community-forestry/",
+      "notes": "Added 163 audited October 2000 source rows, including a disclosed possible duplicate, alongside unchanged ms-5821 from the 2024 national register. Coordinator supplied scan October 21, 2026; new register expected after the start of 2027 with no firm date. Official resource remains Coming Soon. Current condition/access remain unverified."
     },
     {
       "state": "MT",

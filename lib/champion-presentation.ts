@@ -8,7 +8,7 @@ const statePresentation: Partial<Record<ChampionState, Partial<ChampionPresentat
   WY: { locationHeading: "County published by Wyoming State Forestry Division" },
   UT: { locationHeading: "Place published by Utah Community Forest Council" },
   ND: { locationHeading: "General place documented by North Dakota Forest Service" },
-  MS: { locationHeading: "County published by the National Champion Tree Program" },
+  MS: { locationHeading: "County documented in this record’s source" },
   CA: { locationHeading: "County published by California Big Trees" },
   AZ: { locationHeading: "County published by Arizona DFFM" },
   SD: { locationHeading: "Nearest community and county published by South Dakota DANR" },
@@ -67,6 +67,7 @@ export function championPresentation(state: ChampionState): ChampionPresentation
 
 // An absent entry intentionally has no extra badge (as in the original cards).
 const resultSummaries: Partial<Record<ChampionState, (tree: ChampionTree, mapped: boolean) => string>> = {
+  MS: tree => (tree.status ?? "") + " · county point · access unclassified",
   AK: tree => (tree.status ?? "") + " · approximate city point · access unclassified",
   HI: tree => (tree.status ?? "") + " · county point · access unclassified",
   WY: tree => (tree.status ?? "") + " · county point · access unclassified",
@@ -120,7 +121,7 @@ const locationDescriptions: Partial<Record<ChampionState, (tree: ChampionTree) =
   WY: tree => `${tree.sourceCounty}. The marker represents an approximate county point, not the individual tree. Follow the official program for current visiting guidance.`,
   UT: tree => `${tree.town || "Place not listed"}. Markers represent approximate Census places, not individual trees. Unmatched locations remain searchable without a marker. Follow the official record for visiting guidance.`,
   ND: tree => (tree.county ? `${tree.town ? `${tree.town} · ` : ""}${tree.county} County. The marker represents an approximate county point, not the individual tree. See source notes for historical geography matches.` : "No supported general town/county match is available. This record remains searchable without a marker; individual tree coordinates are omitted."),
-  MS: tree => `${tree.county} County. The national register supplies the county, not an exact tree location or visiting permission.`,
+  MS: tree => `${tree.county} County. ${tree.historical ? "The October 2000 state publication" : "The 2024 national register"} supplies the county, not an exact tree location or visiting permission.`,
   CA: tree => (tree.county ? `Published county: ${tree.sourceCounty}. Approximate marker: ${tree.county} County; this does not locate the individual tree or grant visiting permission.` : "County not supplied in the database. This record remains searchable without a map marker."),
   AZ: tree => (tree.county ? `${tree.county} County. This approximate point does not locate the individual tree or establish visiting permission.` : "County not supplied in the roster. This record remains searchable without a map marker."),
   SD: tree => `Nearest community: ${tree.town}. County: ${tree.county}. The marker represents the county, not the community or individual tree; visiting access is unverified.`,

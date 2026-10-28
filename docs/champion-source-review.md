@@ -1,6 +1,6 @@
 # Champion source review process
 
-The live tracker is `/champion-trees/source-review`. `lib/champion-source-review-records.json` tracks all 50 states. Register URLs, source labels and retrieval/supply/capture evidence derive from `lib/champion-states.ts`, so the queue does not duplicate those facts. The queue was initialized October 12, 2026; all completed-review fields are null because initialization is not a fresh review of the registers.
+The live tracker is `/champion-trees/source-review`. `lib/champion-source-review-records.json` tracks all 50 states. Register URLs, source labels and retrieval/supply/capture evidence derive from `lib/champion-states.ts`, so the queue does not duplicate those facts. The queue was initialized October 12, 2026; initialization is not a fresh review of the registers. Mississippi’s October 28, 2026 review adds the coordinator-supplied October 2000 historical register and records a January 12, 2027 follow-up target for the expected replacement. Other completed-review fields remain null until those sources are checked.
 
 ## A manageable batch
 

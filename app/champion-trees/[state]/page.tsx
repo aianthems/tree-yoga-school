@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: Props) {
   return pageMetadata(championStateHref(code), `${championStates[code].name} Champion Trees`, statePageDescription(code));
 }
 const sourceLabels: Record<string, string> = {
-  registerUrl: "Published register", olderRegisterUrl: "Older register", announcementUrl: "Latest additions announcement", pdfUrl: "Register PDF", programUrl: "Tree program", workbookUrl: "Register workbook",
+  historicalPdfUrl: "Historical register transcription · October 2000 PDF", registerUrl: "Published register", olderRegisterUrl: "Older register", announcementUrl: "Latest additions announcement", pdfUrl: "Register PDF", programUrl: "Tree program", workbookUrl: "Register workbook",
   nativeUrl: "Native tree register", nonNativeUrl: "Non-native tree register", floweringUrl: "Flowering tree register", conifersUrl: "Conifer register",
   scientificUrl: "Register by scientific name", commonUrl: "Register by common name", alphabeticalUrl: "Alphabetical register", countyUrl: "County register",
 };
@@ -43,9 +43,11 @@ export default async function ChampionStatePage({ params }: Props) {
       <Link className="lesson-back" href="/champion-trees#registers"> All state registers</Link>
       <p className="section-kicker">Out in the world · {config.name}</p>
       <h1>{config.name}<br /><em>champion trees.</em></h1>
-      <p className="lesson-lede">{code === "MS" ? "One documented tree from the 2024 national register. This is limited coverage, not a complete Mississippi state champion list." : "Remarkable trees, a place to begin. Explore the register, get to know the species, and bring a little attention outdoors."}</p>
+      <p className="lesson-lede">{code === "MS" ? "Explore 163 historical records from October 2000 alongside one documented tree from the 2024 national register. Current tree condition, champion standing and visiting access are unverified." : "Remarkable trees, a place to begin. Explore the register, get to know the species, and bring a little attention outdoors."}</p>
+      {code === "MS" && <p><strong>{config.source.historicalCount} historical records · October 2000</strong> · <strong>{config.source.nationalCount} national-register record · 2024</strong>. Counts describe source records, including a possible duplicate historical listing, not confirmed distinct living champions.</p>}
       <div className="champion-stats"><span><strong>{coverage.listed.toLocaleString("en-US")}</strong> listed records</span><span><strong>{coverage.mapped.toLocaleString("en-US")}</strong> records with map points</span><span><strong>{library.length}</strong> Library species represented</span></div>
       <div className="course-actions"><Link className="button primary" href={mapHref} prefetch={false}>Explore the {config.name} map</Link><a className="course-link" href="#register">Register & coverage</a></div>
+      {code === "MS" && <div className="course-actions"><Link className="course-link" href={championHref({ state: code, query: "October 2000" })} prefetch={false}>Explore historical records · 2000</Link><Link className="course-link" href={championHref({ state: code, query: "2024" })} prefetch={false}>Explore the national record · 2024</Link></div>}
       <nav className="champion-state-jumps" aria-label="On this state page"><a href="#notable">Notable records</a><a href="#species">Library & practices</a><a href="#visits">Places to visit</a></nav>
     </section>
     <section className="champion-state-section" id="register" aria-labelledby="register-title">
@@ -62,7 +64,8 @@ export default async function ChampionStatePage({ params }: Props) {
       <div className="champion-state-records">{notable.map(record => <article key={record.id} className="champion-state-record">
         <p className="section-kicker">{placeName(record)}</p><h3>{record.commonName}</h3><p><i>{record.scientificName}</i></p>
         <dl><div><dt>Published height</dt><dd>{number(record.height, " ft")}</dd></div><div><dt>Published points</dt><dd>{number(record.points, "")}</dd></div></dl>
-        <p className="champion-state-record-date">Date in record: {formatChampionDate(record.measured)}</p>
+        {record.historical && <p><strong>{record.status}</strong></p>}
+        <p className="champion-state-record-date">Measurement date: {formatChampionDate(record.measured)}</p>
         <Link className="course-link" href={championHref({ state: code, selectedId: record.id })} prefetch={false}>Explore this record</Link>
       </article>)}</div>
       {notable.length === 0 ? <p>No positive published heights are available for a height preview. The complete selection remains available in the map.</p> : null}

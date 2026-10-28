@@ -1,6 +1,8 @@
 import { championStates, type ChampionState } from "./champion-states";
 export { stateNames, sourceDates, championRegions, type ChampionState } from "./champion-states";
 export type ChampionTree = {
+  historical?: boolean; sourceEdition?: string; sourceDesignation?: string;
+  sourceMeasurements?: { circumference: string; crown: string; height: string; points: string };
   scientificNameIncomplete?: boolean;
   sourcePosition?: string | null; sourceVariety?: string | null; diameter?: number | null; sourceAlphabeticalRow?: number;
   certified?: string; stateChampionCode?: number; nationalChampionCode?: number; sourceCondition?: string;
