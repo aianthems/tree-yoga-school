@@ -10,6 +10,7 @@ import utCoordinates from "./data/utah-place-points.json";
 import ndRecords from "./data/north-dakota-champion-trees.json";
 import ndCoordinates from "./data/north-dakota-county-points.json";
 import msRecords from "./data/mississippi-champion-trees.json";
+import msHistoricalRecords from "./data/mississippi-historical-champion-trees.json";
 import msCoordinates from "./data/mississippi-county-points.json";
 import caRecords from "./data/california-champion-trees.json";
 import caCoordinates from "./data/california-county-points.json";
@@ -111,7 +112,7 @@ const datasets = {
   WY: { records: wyRecords, coordinates: wyCoordinates },
   UT: { records: utRecords, coordinates: utCoordinates },
   ND: { records: ndRecords, coordinates: ndCoordinates },
-  MS: { records: msRecords, coordinates: msCoordinates },
+  MS: { records: [...msRecords, ...msHistoricalRecords], coordinates: msCoordinates },
   CA: { records: caRecords, coordinates: caCoordinates },
   AZ: { records: azRecords, coordinates: azCoordinates },
   SD: { records: sdRecords, coordinates: sdCoordinates },

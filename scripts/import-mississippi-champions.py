@@ -25,7 +25,9 @@ for source_row, row in selected:
         "status": "National champion · 2024 register", "nationalFlag": "Champion in the 2024 National Register",
         "sourceReviewNotes": ["The downloadable CSV lists height as 30 feet; the accompanying 2024 PDF lists 28 feet. This record follows the supplied CSV and preserves the published 78 points."],
         "notes": "One Mississippi record in the user-supplied 2024 National Register CSV, supplied October 11, 2026. This is limited national-register coverage, not a complete Mississippi state register. Current condition and champion status are unverified. Nominated and last measured in 2016. NCTME verification is blank in the CSV and is not inferred. County marker is approximate, not the tree location; visiting access is unclassified. Personal measurer information is omitted."})
-points = {"Tunica": {"lat": float(county["INTPTLAT"].strip()), "lng": float(county["INTPTLONG"].strip())}}
+points_path = root / "lib/data/mississippi-county-points.json"
+points = json.loads(points_path.read_text()) if points_path.exists() else {}
+points["Tunica"] = {"lat": float(county["INTPTLAT"].strip()), "lng": float(county["INTPTLONG"].strip())}
 audit = {"sourceFile": source.name, "sourceEdition": 2024, "supplied": "2026-10-11", "sourceSha256": hashlib.sha256(raw).hexdigest(), "sourceRows": len(rows), "stateFilter": "State == MS", "includedRecords": len(records), "includedIds": [r["sourceTreeId"] for r in records], "countyGeoid": "28143", "countySource": "Census 2025 national county Gazetteer", "geographySha256": hashlib.sha256(geography.read_bytes()).hexdigest(), "coverage": "Limited national-register coverage; not a complete state register", "heightDiscrepancy": {"csvFeet": 30, "pdfFeet": 28, "displayFollows": "CSV"}, "omittedFields": ["Measurer(s)"]}
 for name, data in [("mississippi-champion-trees.json", records), ("mississippi-county-points.json", points), ("mississippi-import-audit.json", audit)]:
     (root / "lib/data" / name).write_text(json.dumps(data, indent=2) + "\n")

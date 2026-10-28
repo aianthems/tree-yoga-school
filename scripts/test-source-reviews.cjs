@@ -18,9 +18,9 @@ test('review tracker covers every register once and keeps plans separate from co
 test('small due batches prioritize limited and old coverage without treating retrieval as measurement', () => {
   assert.equal(reviewQueue('2026-10-11').length, 0);
   assert.deepEqual(reviewQueue('2026-10-12').map(r=>r.state), ['AK','AZ','HI','ID','LA']);
-  assert.equal(reviewQueue('2026-10-12',50).length, 9);
+  assert.equal(reviewQueue('2026-10-12',50).length, 8);
   assert.equal(reviewQueue('2027-01-12',50).length, 50);
-  assert.deepEqual(snapshotEvidence('MS'), {label:'Supplied',date:'October 11, 2026'});
+  assert.deepEqual(snapshotEvidence('MS'), {label:'Supplied',date:'October 21, 2026'});
   assert.deepEqual(snapshotEvidence('OH'), {label:'Screenshot capture',date:'October 9, 2026'});
   assert.deepEqual(snapshotEvidence('MA'), {label:'Retrieval date',date:'Not documented'});
   assert.deepEqual(snapshotEvidence('PA'), {label:'Retrieval date',date:'Not documented'});

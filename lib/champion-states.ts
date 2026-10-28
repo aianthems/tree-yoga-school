@@ -42,11 +42,15 @@ export const championStates = {
     municipalityGeographyUrl: "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_cousubs_national.zip",
     retrieved: "October 11, 2026", count: 87,
   } },
-  MS: { name: "Mississippi", sourceDate: "2024 national register · CSV supplied October 11, 2026 · limited coverage", recordFiles: ["mississippi-champion-trees.json"], coordinateFile: "mississippi-county-points.json", recordPrecision: "county", coordinatePrecision: "county", recordOrder: -19, expectedRecords: 1, expectedMapped: 1, unmappedIds: [], importer: "import-mississippi-champions.py", auditFile: "mississippi-import-audit.json", source: {
+  MS: { name: "Mississippi", sourceDate: "October 2000 historical state register + one 2024 national-register record · historical scan supplied October 21, 2026", recordFiles: ["mississippi-champion-trees.json", "mississippi-historical-champion-trees.json"], coordinateFile: "mississippi-county-points.json", recordPrecision: "county", coordinatePrecision: "county", recordOrder: -19, expectedRecords: 164, expectedMapped: 164, unmappedIds: [], importer: "import-mississippi-champions.py", auditFile: "mississippi-import-audit.json", source: {
+    historicalPdfUrl: "/data/mississippi-champions-2000-transcription.pdf",
+    programUrl: "https://www.mfc.ms.gov/programs/urban-community-forestry/",
+    historicalAuditFile: "mississippi-historical-import-audit.json",
+    historicalImporter: "import-mississippi-historical.py",
     registerUrl: "https://nationalchampiontree.org/champion-tree-registry/",
     pdfUrl: "https://nationalchampiontree.org/wp-content/uploads/sites/270/2025/01/2024-Register-final-web-version-1-15-25-compressed.pdf",
     geographyUrl: "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_counties_national.zip",
-    supplied: "October 11, 2026", count: 1,
+    supplied: "October 21, 2026", nationalSupplied: "October 11, 2026", count: 164, historicalCount: 163, nationalCount: 1,
   } },
   CA: { name: "California", sourceDate: "Cal Poly live database · retrieved October 11, 2026 · edition not stated", recordFiles: ["california-champion-trees.json"], coordinateFile: "california-county-points.json", recordPrecision: "county", coordinatePrecision: "county", recordOrder: -18, expectedRecords: 264, expectedMapped: 258, unmappedIds: ["ca-43", "ca-44", "ca-89", "ca-137", "ca-142", "ca-148"], importer: "import-california-champions.py", auditFile: "california-import-audit.json", source: {
     registerUrl: "https://californiabigtrees.calpoly.edu/",

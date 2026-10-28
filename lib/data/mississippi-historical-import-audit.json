@@ -1,0 +1,134 @@
+{
+  "publicTranscriptionSha256": "c1e00620bd73f182bb47ad9a405350b9d105397dd300b6b49b826175056492c1",
+  "publicTranscription": "Reviewed species/measurement/county/designation transcription; original scan and personal columns are not published.",
+  "sourceEdition": "October 2000",
+  "publication": "MFC Publication #35",
+  "sourceSha256": "c97c5df7e76396763af0b26879542d65fbb3b8eea8f4c0789ae2c5ab1ec58aed",
+  "receivedByEmail": "2026-10-21",
+  "auditedOn": "2026-10-28",
+  "transcriptionFile": "scripts/fixtures/mississippi-champions-2000.psv",
+  "transcriptionSha256": "0eedf88181b5c0aa305c6cc549215c1442f72192d481c440b99a199d2ff63622",
+  "tablePages": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "rowsByPage": {
+    "3": 20,
+    "4": 23,
+    "5": 19,
+    "6": 25,
+    "7": 25,
+    "8": 20,
+    "9": 11,
+    "10": 20
+  },
+  "introductoryChampionCount": 164,
+  "transcribedTableRows": 163,
+  "countDiscrepancy": "The introduction reports 164 champions; the supplied scan contains 163 table rows. No missing record is invented.",
+  "excludedPages": {
+    "1": "Cover",
+    "2": "Introduction; no extra tree records",
+    "11": "Species without a champion; not records",
+    "12": "Nomination and measurement guidance"
+  },
+  "designationCounts": {
+    "unstarredStateChampion": 147,
+    "stateCoChampion": 4,
+    "nationalChampion": 10,
+    "nationalCoChampion": 2
+  },
+  "possibleDuplicateRows": [
+    "ms-2000-p03-r11",
+    "ms-2000-p10-r07"
+  ],
+  "duplicateHandling": "Preserve both source listings with cross-references; counts describe records, not confirmed distinct living trees.",
+  "scoreDiscrepancies": [
+    {
+      "id": "ms-2000-p07-r11",
+      "published": 269.75,
+      "calculated": 271.75
+    }
+  ],
+  "countyCount": 51,
+  "countySource": "Census 2025 national county Gazetteer",
+  "geographySha256": "4c90d0f805779923b5958ab13d0c1e9b99fe4932b786bfcf75dd739bb2dcb4ea",
+  "countyGeoids": {
+    "Adams": "28001",
+    "Amite": "28005",
+    "Bolivar": "28011",
+    "Calhoun": "28013",
+    "Carroll": "28015",
+    "Claiborne": "28021",
+    "Clarke": "28023",
+    "Coahoma": "28027",
+    "Covington": "28031",
+    "DeSoto": "28033",
+    "Franklin": "28037",
+    "George": "28039",
+    "Grenada": "28043",
+    "Harrison": "28047",
+    "Hinds": "28049",
+    "Humphreys": "28053",
+    "Issaquena": "28055",
+    "Jackson": "28059",
+    "Jasper": "28061",
+    "Jefferson": "28063",
+    "Jones": "28067",
+    "Lafayette": "28071",
+    "Lauderdale": "28075",
+    "Lee": "28081",
+    "Leflore": "28083",
+    "Lowndes": "28087",
+    "Madison": "28089",
+    "Marion": "28091",
+    "Marshall": "28093",
+    "Newton": "28101",
+    "Noxubee": "28103",
+    "Panola": "28107",
+    "Pearl River": "28109",
+    "Perry": "28111",
+    "Pontotoc": "28115",
+    "Prentiss": "28117",
+    "Quitman": "28119",
+    "Rankin": "28121",
+    "Scott": "28123",
+    "Sharkey": "28125",
+    "Smith": "28129",
+    "Stone": "28131",
+    "Tunica": "28143",
+    "Union": "28145",
+    "Warren": "28149",
+    "Washington": "28151",
+    "Wayne": "28153",
+    "Wilkinson": "28157",
+    "Winston": "28159",
+    "Yalobusha": "28161",
+    "Yazoo": "28163"
+  },
+  "countyNormalizations": {
+    "Pearl river": "Pearl River"
+  },
+  "measurementConversion": "Circumference feet/inches to inches; crown feet/inches to decimal feet. Original strings and published scores retained. Publication date is not used as a measurement date.",
+  "omittedFields": [
+    "Nominator",
+    "Owner"
+  ],
+  "newRegister": {
+    "reportedBy": "Loren Erickson",
+    "reportedOn": "2026-10-21",
+    "expected": "After the start of 2027; no firm release date",
+    "programUrl": "https://www.mfc.ms.gov/programs/urban-community-forestry/"
+  },
+  "newerNationalRecord": {
+    "id": "ms-5821",
+    "edition": 2024,
+    "county": "Tunica",
+    "unchanged": true
+  }
+}

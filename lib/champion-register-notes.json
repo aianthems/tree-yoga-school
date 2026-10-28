@@ -1,16 +1,22 @@
 {
   "MS": [
     [
-      "Limited Mississippi coverage: one Roughleaf Dogwood (Cornus drummondii), Tree ID 5821, in Tunica County, explicitly listed as Champion in the user-supplied 2024 National Register of Champion Trees CSV. The CSV was supplied October 11, 2026. This is not a complete Mississippi state register."
+      "Mississippi coverage combines 163 historical table rows from MFC Publication #35, Champion Trees of Mississippi, revised October 2000, with one preserved Roughleaf Dogwood (Cornus drummondii), Tree ID 5821 in Tunica County, from the supplied 2024 National Register CSV. This is not a complete Mississippi state register of current champions. Counts describe source records, not confirmed distinct living trees."
     ],
     [
-      "The tree was nominated and last measured in 2016. Current condition, champion status, and visiting access are unverified. The NCTME verification field is blank; verification is not inferred."
+      "The October 2000 scan was supplied by Loren Erickson of the Mississippi Forestry Commission on October 21, 2026 and audited October 28. Loren described it as the most complete list available to her and said a new register was being prepared for publication after the start of 2027, with no firm release date. The MFC program page lists MS CHAMPION TREES as Coming Soon. Her reply confirms the source and planned update, not current survival or titles of these trees."
     ],
     [
-      "The CSV lists circumference 39 inches, height 30 feet, crown spread 34 feet, and 78 points. The accompanying national-register PDF gives height as 28 feet. This selection follows the supplied CSV and preserves the discrepancy rather than silently reconciling it."
+      "The scan’s introduction reports 164 champions, but its tables on PDF pages 3–10 contain 163 rows: 147 unstarred state champions, 4 state co-champions, 10 national champions and 2 national co-champions, as designated in 2000. No missing row is invented. Page 11 lists species without a champion and is excluded. Rusty Blackhaw (page 3) and Rusty Viburnum (page 10) appear to duplicate one tree: the county, measurements, score, nominators and owner agree. Both source listings are retained with cross-references, not treated as confirmed distinct trees."
     ],
     [
-      "The marker uses the Census 2025 representative point for Tunica County. It does not locate the individual tree or establish visiting permission. No street address, personal measurer information, or tree coordinates are imported."
+      "All 164 combined records use 51 approximate Census 2025 county representative points. These do not locate individual trees or establish visiting permission. Historical ownership does not establish current ownership or public access. No owner/nominator names, street addresses or tree coordinates are imported. Public PDF links open a clearly labeled Tree Yoga School transcription containing species, measurements, designations and counties; the original scan and its personal columns are not published. Pearl river is normalized to Pearl River for its county match."
+    ],
+    [
+      "Historical records are labeled Historical champion record — October 2000. Circumference is converted from feet/inches to inches and crown spread to decimal feet; original measurement strings, source-page references, printed scores and designations remain available. Individual measurement dates are missing and remain missing. Printed botanical anomalies and score conflicts are disclosed in record notes; no modern identification or champion title is inferred."
+    ],
+    [
+      "The 2024 national record was supplied October 11, 2026 and last measured in 2016. Its CSV lists circumference 39 inches, height 30 feet, crown spread 34 feet and 78 points; the companion PDF gives height 28 feet. The existing CSV values and discrepancy note are preserved. Current condition, standing and access are unverified; blank NCTME verification is not treated as verified. The historical Roughleaf Dogwood is in Washington County and remains separate from the 2024 Tunica County record."
     ]
   ],
   "CA": [
