@@ -2,13 +2,13 @@
 
 **Rooted in nature. Practiced in the real world. Built in public.**
 
-Tree Yoga School is a yoga school founded by **Alex Julian**, now being renewed as a living, AI-native public project. Its foundation is the original *Tree Yoga School* book: a body of teaching that brings together yoga, meditation, time among trees, and the practice of learning from nature.
+Tree Yoga School is an open-source, nature-centered yoga education project founded by **Alex Julian**. Its live school connects yoga, meditation, tree hugging, and outdoor exploration with practical ways to spend time among trees. Its foundation is the original *Tree Yoga School* book: a body of teaching that brings together yoga, meditation, time among trees, and the practice of learning from nature.
 
 > Nature is the teacher. Technology is the tool. Practice is the point.
 
-[Read the original book][book] · [Explore the curriculum](#the-original-curriculum) · [Build with us](#contributing)
+[Visit the live school](https://treeyogaschool.com) · [Begin Here](https://treeyogaschool.com/begin-here) · [Read the original book][book] · [Explore the curriculum](#the-original-curriculum) · [Build with us](#contributing)
 
-**Project status:** A content-led Next.js school with a four-practice introduction, seven book chapter companions, and an 84-species Tree Library. The school is still early: there is no account system, database, certification platform, or AI teaching assistant.
+**Project status:** Live at [treeyogaschool.com](https://treeyogaschool.com). The content-led Next.js school includes a four-practice introduction, seven native book chapter companions, the original pose reference, an 84-species Tree Library, a 50-state Champion Tree Map, and Trees to Visit guides. Return to Your Tree offers an optional browser-local journal. Map points indicate approximate areas; check source records and visiting guidance before traveling. There is no account system, database, certification platform, or AI teaching assistant.
 
 ## Return and contribute
 
@@ -129,7 +129,7 @@ The measure is not a contribution streak. It is whether the work helps someone p
 
 ## What exists, and what comes next
 
-The repository now contains the first Next.js website foundation alongside the project documentation. The original book is linked above rather than copied into the repository. The first release is intentionally content-led: there is no database, account system, or AI API requirement.
+The public school is live at [treeyogaschool.com](https://treeyogaschool.com), with learning pages, tree discovery tools, visiting guides, and optional browser-local return practice. The original book remains linked as a PDF, alongside native chapter companions and the original pose reference. Original teaching retains its separate rights and attribution described below. The school is content-led: there is no database, account system, or AI API requirement.
 
 The intended sequence is deliberately small:
 
@@ -138,7 +138,7 @@ The intended sequence is deliberately small:
 | **Foundation — complete** | Establish the school’s identity, source material, scope, and contribution approach. |
 | **Website foundation — complete** | A calm, accessible Next.js home connected to its Vercel production deployment. |
 | **Begin Here — available** | [Your First Five Minutes with a Tree](app/lessons/first-five-minutes/page.tsx), followed by meditation, gentle yoga, and hiking. |
-| **Living book — available in source** | Seven native chapter companions and the Tree Library, beginning with a complete Pine page connecting observation, contemplative energy, practice, and source references. |
+| **Living book and discovery — live** | Seven native chapter companions, the original pose reference, Tree Library, Champion Tree Map, and Trees to Visit guides. |
 | **Further tools — only when useful** | Consider guided learning or optional personal features after the core experience works. Accounts, Supabase, and AI APIs are not prerequisites for the first version. |
 
 This README establishes the foundation. It does not announce a completed course platform, live classes, or a certification program.
